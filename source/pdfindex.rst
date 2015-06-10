@@ -7,14 +7,14 @@
 .. section-numbering::
 
 .. macro::   pdf_page_break
-.. include:: chapter1.rst
+.. include:: ch_overview.rst
 .. macro::   pdf_page_break
-.. include:: chapter2.rst
+.. include:: ch_install.rst
 .. macro::   pdf_page_break
-.. include:: chapter3.rst
+.. include:: ch_bugreport.rst
 .. macro::   pdf_page_break
-.. include:: chapter4.rst
+.. include:: ch_txdiff.rst
 .. macro::   pdf_page_break
-.. include:: chapter5.rst
+.. include:: ch_mainpage.rst
 .. macro::   pdf_page_break
-.. include:: chapter6.rst
+.. include:: ch_navigating.rst

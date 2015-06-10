@@ -4,11 +4,11 @@
    :maxdepth: 3
    :numbered:
 
-   chapter1
-   chapter2
-   chapter3
-   chapter4
-   chapter5
-   chapter6
+   ch_overview
+   ch_install
+   ch_bugreport
+   ch_txdiff
+   ch_mainpage
+   ch_navigating
 
 
