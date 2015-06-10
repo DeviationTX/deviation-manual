@@ -1,0 +1,6 @@
+don't use '.. class::' instead use '.. cssclass::' (https://github.com/ralsina/rst2pdf/issues/503)
+Requires:
+inkscape (or svg2rlg but it doesn't work very well)
+rst2pdf
+sphinx
+wordaxe

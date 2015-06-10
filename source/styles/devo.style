@@ -1,0 +1,26 @@
+fontsAlias:
+    stdFont: Times-Roman
+    stdBold: Times-Roman-Bold
+    stdItalic: Times-Roman-Oblique
+    stdBoldItalic: Times-Roman-BoldOblique
+
+styles:
+    with-border:
+        parent: image
+        backColor: white
+        borderColor: black
+        borderPadding: 8
+        borderWidth: 0.5
+        commands: []
+                [BOX, [0, 0], [-1, -1], 0.25, black]
+
+    bold-italic:
+        fontName: stdBoldItalic
+
+    b1:
+        padding: 20 
+        margin: 20 
+
+    bodytext:
+        alignment: justify
+        hyphenation: true

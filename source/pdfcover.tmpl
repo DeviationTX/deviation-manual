@@ -1,0 +1,56 @@
+.. role:: normal
+
+<?py if title: ?>
+
+.. cssclass:: title
+
+Deviation Firmware
+
+.. cssclass:: title
+
+for
+#{title}
+
+.. cssclass:: title
+
+User's Manual
+
+<?py #end ?>
+
+<?py if subtitle: ?>
+
+.. cssclass:: subtitle
+
+#{subtitle}
+
+<?py #end ?>
+
+.. raw:: pdf
+
+   Spacer 0 3cm
+
+<?py for author in authors: ?>
+.. .. cssclass:: author
+.. 
+.. #{author}
+.. 
+<?py #end ?>
+
+.. raw:: pdf
+
+   Spacer 0 1cm
+
+.. image:: images/logo.png
+   :width: 80%
+
+.. raw:: pdf
+
+   Spacer 0 2cm
+
+.. cssclass:: author
+
+:normal:`#{date}`
+
+.. raw:: pdf
+
+   PageBreak oneColumn
