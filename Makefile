@@ -58,4 +58,4 @@ devbuild: venv
 	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
 
 $(SPHINXBUILD):
-	make devbuild
+	$(MAKE) devbuild
