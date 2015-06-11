@@ -29,7 +29,7 @@ def remove_from_list(app, lines):
     startignore = re.compile(ur'^\.\. ignoreunless::\s+(\S+)')
     stopignore  = re.compile(ur'^\.\. stopignore::')
     macro       = re.compile(ur'^\.\. macro::\s+(\S+)')
-    inline      = re.compile(ur'::(\S+)::')
+    inline      = re.compile(ur'\|(\S+)\|')
 
     def inline_repl(matchobj):
         if matchobj.group(1) in app.config.pp_macros:

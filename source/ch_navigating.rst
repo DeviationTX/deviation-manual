@@ -34,7 +34,7 @@ Note that a spin-box may change between being pressable or not for different val
 
 .. stopignore::
 
-.. image:: images/::build::/gui_buttons.svg
+.. image:: images/|build|/ch_navigating/gui_buttons.svg
    :width: 90%
 
 Navigating with the physical buttons
