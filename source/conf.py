@@ -39,7 +39,6 @@ sys.path.append(os.path.abspath('../sphinx-ext/'))
 # ones.
 extensions = [
     'rst2pdf.pdfbuilder',
-    'sphinxcontrib.restbuilder',
     'sphinx.ext.ifconfig',
     'preproc',
     ]

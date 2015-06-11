@@ -10,5 +10,6 @@
    ch_txdiff
    ch_mainpage
    ch_navigating
+   ch_transmitter
 
 

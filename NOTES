@@ -1,6 +1,15 @@
 don't use '.. class::' instead use '.. cssclass::' (https://github.com/ralsina/rst2pdf/issues/503)
 Requires:
-inkscape (or svg2rlg but it doesn't work very well)
-rst2pdf
-sphinx
-wordaxe
+inkscape (will fall back to svg2rlg but it doesn't work very well)
+python2
+pip
+virtualenv
+
+To add a border on the left edge of an image (to account for floating image issues):
+convert input.png -matte -background none -splice 10x0 output.png
+
+rst2pdf version is: 
+https://github.com/PhracturedBlue/rst2pdf
+version: b7a2f99435eae51241fea9d939d5d1efadff3d1a
+
+

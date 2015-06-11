@@ -8,6 +8,7 @@ The transmitter menus can be navigated by pressing the corresponding image on th
 There are several GUI elements that are used to configure settings on the transmitter
 
 **Buttons**: Buttons can be pressed to either toggle a setting or to enter a new menu.
+
 **Spin-Boxes**: Spin-boxes are used to select one of multiple values.
 
 There are two types of spin-boxes available:
@@ -15,6 +16,7 @@ There are two types of spin-boxes available:
     2. Spin-boxes that contain only arrows and a white label do not act as buttons, and are only used for value selection.
 
 **Text Boxes**:  Text boxes generally provide information, however in some cases they can be clicked to perform an action (like a button)
+
 **Icons**: Icons can either provide information or be pressable to perform an action (like a button)
 
 .. stopignore::
@@ -50,6 +52,7 @@ Navigating with the physical buttons
 Menu Layout
 -----------
 There are 2 different unconnected menus available:
+
 * The transmitter menu allows you to select transmitter-specific options as well as monitor channel output & stick input, and monitor telemetry (if available). Details of the menu are located in section `Transmitter Menu`_.
 * The model menu is the area within deviation that you can configure the type of aircraft you are flying. All model data is managed and saved within this menu selection. Details of the menu are located in section `Model menu`_.
 
