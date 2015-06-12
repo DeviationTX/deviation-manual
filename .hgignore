@@ -1,4 +1,5 @@
-build
+/build/
+^build/
 pyc$
 egg$
 rst2pdf.egg-info

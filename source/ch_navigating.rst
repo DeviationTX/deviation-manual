@@ -1,3 +1,5 @@
+.. Navigating menus chapter
+
 Navigating
 ==========
 

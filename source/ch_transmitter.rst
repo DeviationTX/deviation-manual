@@ -1,36 +1,70 @@
+.. Transmitter menu chapter
+
 Transmitter Menu
 ================
+
+.. ignoreunless:: devo8
 
 .. image:: images/devo8/ch_transmitter/tx_menu_conn.svg
    :width: 80%
 
+.. stopignore::
+
 Transmitter config
 ------------------
+
+.. ignoreunless:: devo8
 
 The configuration page defines various transmitter functions.  It is entered from the main menu via the TX Options icon. Please note that all screens in this section show the Deviation default settings.
 
 .. image:: images/devo8/ch_transmitter/tx_config.png
-   :width: 60%
+   :width: 80%
+
+.. stopignore::
+
+.. ignoreunless:: devo10
+
+.. image:: images/devo10/ch_transmitter/tx_menu.png
+   :width: 40%
+   :align: right
+
+The configuration page defines various transmitter functions.  It is entered from the main menu via ‘Transmitter menu’ followed by ‘Transmitter config’. Please note that all screens in this section show the Deviation default settings.
+
+.. stopignore::
 
 Generic settings
 ~~~~~~~~~~~~~~~~
 
-**Language**: Select an appropriate language for all text.
+.. ignoreunless:: devo10
 
-**Stick mode**: Select one of Mode 1-4. 
+.. image:: images/devo10/ch_transmitter/tx_config.png
+   :width: 40%
+   :align: right
 
-* Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and Aileron on right.
-* Mode 2 is common in North America.  Throttle and Rudder on left, Elevator and Aileron on right.
-* Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right
-* Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right
+.. stopignore::
 
-**Sticks**: Calibrate the range of all analog sticks and dials. 
-To perform a stick calibration, highlight the Calibrate option and press the ENT button. Follow the on screen prompts for moving the sticks and confirming with the ENT button. 
+.. container::
 
+   **Language**: Select an appropriate language for all text.
+
+   **Stick mode**: Select one of Mode 1-4. 
+
+   * Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and Aileron on right.
+   * Mode 2 is common in North America.  Throttle and Rudder on left, Elevator and Aileron on right.
+   * Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right
+   * Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right
+
+   **Sticks**: Calibrate the range of all analog sticks and dials.
+
+   To perform a stick calibration, highlight the Calibrate option and press the ENT button. Follow the on screen prompts for moving the sticks and confirming with the ENT button. 
+
+.. ignoreunless:: devo8 
 **Clock (Devo12 only)**: Set the current time and date
  
 .. image:: images/devo8/ch_transmitter/clock.png
-   :width: 60%
+   :width: 80%
+
+.. stopignore::
 
 Buzzer settings
 ~~~~~~~~~~~~~~~
@@ -86,6 +120,12 @@ Channel monitor
 Input Monitor
 -------------
 
+.. image:: images/devo8/ch_transmitter/input_monitor.png
+   :width: 80%
+
+.. image:: images/devo8/ch_transmitter/input_monitor2.png
+   :width: 80%
+
 The input monitor screen shows the values associated with the current position of the control points. The values shown are a percentage of the total range of the controls based on a -100% to +100% scale. 
 
 .. cssclass:: bold-italic
@@ -100,33 +140,64 @@ NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and MIX
 Button Monitor
 --------------
 
-The button monitor page is used to ensure physical buttons on the transmitter are working as expected.  Pressing any physical button will select the corresponding square on the screen.  To test ‘EXT’, ‘L-’ or ‘R+’ touch the screen to disable menu traversal.  Touch the screen again to unlock.
+.. image:: images/devo8/ch_transmitter/button_monitor.png
+   :width: 40%
+   :align: right
 
-.. cssclass:: bold-italic
+.. container::
 
-NOTE: Devo6 does not have the upper set of Trim L/R buttons
+   The button monitor page is used to ensure physical buttons on the transmitter are working as expected.  Pressing any physical button will select the corresponding square on the screen.  To test ‘EXT’, ‘L-’ or ‘R+’ touch the screen to disable menu traversal.  Touch the screen again to unlock.
+
+   .. cssclass:: bold-italic
+
+   NOTE: Devo6 does not have the upper set of Trim L/R buttons
 
 
 Telemetry monitor
 -----------------
 
-Certain protocols have the ability to transmit telemetry data back to the transmitter during use. Telemetry data may include, but is not restricted to, temperature readings, various voltage readings, motor or engine rpm, as well as GPS related information.
+.. image:: images/devo8/ch_transmitter/telemetry_monitor.png
+   :width: 40%
+   :align: right
 
-Telemetry data is turned off by default for all supported protocols except DEVO.  See the corresponding 9 Protocols section to learn which protocols support telemetry, and identify which fields will be available.
+.. container::
 
- 
-Since each protocol differs in the type of data it can return please see the original equipment manufacturers documentation concerning what additional hardware may be needed to collect this data. 
+   Certain protocols have the ability to transmit telemetry data back to the transmitter during use. Telemetry data may include, but is not restricted to, temperature readings, various voltage readings, motor or engine rpm, as well as GPS related information.
 
-Until valid data is transmitted the values will all be red
+   Telemetry data is turned off by default for all supported protocols except DEVO.  See the corresponding 9 Protocols section to learn which protocols support telemetry, and identify which fields will be available.
+
+.. image:: images/devo8/ch_transmitter/telemetry_monitor2.png
+   :width: 40%
+   :align: right
+
+.. container::
+
+   Since each protocol differs in the type of data it can return please see the original equipment manufacturers documentation concerning what additional hardware may be needed to collect this data. 
+
+   Until valid data is transmitted the values will all be red
 
 Range Test
 ----------
 
-It is recommended that you range test a new model before flying it the first time to verify that you will be able to control the model at normal flying distances. At some clubs, this is required as a safety measure. The range test page allows this.
+.. image:: images/devo8/ch_transmitter/range_test.png
+   :width: 40%
+   :align: right
 
-Once the range test page is opened, press the ‘Start test’ button to start the range test. The old and new power levels will be displayed.  The standard procedure is then to walk about 30 meters away, and verify that you still have control of the aircraft. You can then press the ‘Stop test’ button to end the range test and restore the configured radio power level. Pressing the ‘Ext’ button to exit the page will also restore the power level.
+.. container::
+
+   It is recommended that you range test a new model before flying it the first time to verify that you will be able to control the model at normal flying distances. At some clubs, this is required as a safety measure. The range test page allows this.
+
+   Once the range test page is opened, press the ‘Start test’ button to start the range test. The old and new power levels will be displayed.  The standard procedure is then to walk about 30 meters away, and verify that you still have control of the aircraft. You can then press the ‘Stop test’ button to end the range test and restore the configured radio power level. Pressing the ‘Ext’ button to exit the page will also restore the power level.
+
+.. image:: images/devo8/ch_transmitter/range_test2.png
+   :width: 40%
+   :align: right
 
 The radio range will be reduced by the square root of the change in power level. So going from 100mW to 100uW represents a change of power of roughly 1000, or a range reduction of a factor of a little over 30. So the normal range test of 30 meters would indicate that you should be able to control the model out to 900 meters. 
+
+.. image:: images/devo8/ch_transmitter/range_test3.png
+   :width: 40%
+   :align: right
 
 The installed RF module used for the current model must have a PA. If that is not the case, or the power level chosen for the model is already at the minimum value, a message to that effect will be displayed.
 
@@ -136,9 +207,14 @@ The installed RF module used for the current model must have a PA. If that is no
 USB/About
 ---------
 
-The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode can then be toggled on/off to enable access to the transmitter’s file-system from a USB equipped computer. In this mode the file system of Deviation is accessible as a mass storage device. This will allow you to move files back and forth between the Deviation file-system and a PC. All configuration files are accessible in this mode.
+.. image:: images/devo8/ch_transmitter/usb.png
+   :width: 40%
+   :align: right
 
+.. container::
 
-.. cssclass:: bold-italic
+   The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode can then be toggled on/off to enable access to the transmitter’s file-system from a USB equipped computer. In this mode the file system of Deviation is accessible as a mass storage device. This will allow you to move files back and forth between the Deviation file-system and a PC. All configuration files are accessible in this mode.
 
-NOTE: Entering USB mode should never be done while the model is bound, USB usage will disrupt signal transmission! 
+   .. cssclass:: bold-italic
+
+   NOTE: Entering USB mode should never be done while the model is bound, USB usage will disrupt signal transmission! 
