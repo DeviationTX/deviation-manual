@@ -6,7 +6,11 @@ pip
 virtualenv
 
 To add a border on the left edge of an image (to account for floating image issues):
+devo8:
 convert input.png -matte -background none -splice 10x0 output.png
+devo10:
+convert input.png -matte -background white -splice 10x0 output.png
+(reportlab doesn't detect alpha properly on devo10 screenshots)
 
 rst2pdf version is: 
 https://github.com/PhracturedBlue/rst2pdf

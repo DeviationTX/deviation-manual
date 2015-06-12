@@ -107,7 +107,7 @@ Telemetry settings
 Channel monitor
 ---------------
 
-.. image:: images/devo8/ch_transmitter/channel_monitor.png
+.. image:: images/|build|/ch_transmitter/channel_monitor.png
    :width: 40%
    :align: right
 
@@ -117,8 +117,11 @@ Channel monitor
 
    **Example**: A channel scaled from -60 to +60 will only display the range of values from -60 to +60 depending on the stick position. 
 
+
 Input Monitor
 -------------
+
+.. ignoreunless:: devo8
 
 .. image:: images/devo8/ch_transmitter/input_monitor.png
    :width: 80%
@@ -126,7 +129,19 @@ Input Monitor
 .. image:: images/devo8/ch_transmitter/input_monitor2.png
    :width: 80%
 
+.. stopignore::
+
+.. ignoreunless:: devo10
+
+.. image:: images/devo10/ch_transmitter/input_monitor.png
+   :width: 40%
+   :align: right
+
+.. stopignore::
+
 The input monitor screen shows the values associated with the current position of the control points. The values shown are a percentage of the total range of the controls based on a -100% to +100% scale. 
+
+.. ignoreunless:: devo8
 
 .. cssclass:: bold-italic
 
@@ -152,6 +167,7 @@ Button Monitor
 
    NOTE: Devo6 does not have the upper set of Trim L/R buttons
 
+.. stopignore::
 
 Telemetry monitor
 -----------------
