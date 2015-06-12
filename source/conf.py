@@ -404,6 +404,6 @@ pdf_floating_images = True
 
 pp_macros = {
     'pdf_page_break': "\n.. raw:: pdf\n\n   PageBreak oneColumn\n",
-    'build'         : "devo8" if tags.has("devo8") else "devo10",
+    'target'        : "devo8" if tags.has("devo8") else "devo10",
 }
 

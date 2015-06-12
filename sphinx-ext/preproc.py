@@ -26,8 +26,9 @@ def setup(app):
     myapp = app
 
 def remove_from_list(app, lines):
-    startignore = re.compile(ur'^\.\. ignoreunless::\s+(\S+)')
-    stopignore  = re.compile(ur'^\.\. stopignore::')
+    startignore = re.compile(ur'^\.\. if::\s+(\S+)')
+    changeignore= re.compile(ur'^\.\. elseif::\s+(\S+)')
+    stopignore  = re.compile(ur'^\.\. endif::')
     macro       = re.compile(ur'^\.\. macro::\s+(\S+)')
     inline      = re.compile(ur'\|(\S+)\|')
 
@@ -39,24 +40,39 @@ def remove_from_list(app, lines):
             print "Ignoring " + matchobj.group(0)
             return matchobj.group(0)
 
-    matched = 0
+    # 0: not in conditional
+    # 1: in conditional but ignoring it
+    # 2: in conditional but parsing it
+    # 3: ignore all other conditions in this block
+    in_cond = 0
     i = 0
     while i < len(lines):
         line = lines[i]
-        if stopignore.match(line):
-            matched = 0
-            del lines[i]
-            continue
-        if matched == 1:
+        if in_cond > 0:
+            # inside conditional
+            if stopignore.match(line):
+                in_cond = 0
+                del lines[i]
+                continue
+            m = changeignore.match(line)
+            if m:
+                if in_cond == 2:
+                    in_cond = 3
+                elif in_cond == 1:
+                    in_cond = 2 if app.tags.has(m.group(1)) else 1
+                del lines[i]
+                continue
+        if in_cond == 1 or in_cond == 3:
+            # inside conditional but tag did NOT match
             #print("Discarding: " + line);
             del lines[i]
             continue
-        m = startignore.match(line)
-        if m:
-            if not app.tags.has(m.group(1)):
-                matched = 1
-            del lines[i]
-            continue
+        if in_cond == 0:
+            m = startignore.match(line)
+            if m:
+                in_cond = 2 if app.tags.has(m.group(1)) else 1
+                del lines[i]
+                continue
 
         if not isinstance(lines, StringList):
             line = inline.sub(inline_repl, line)
