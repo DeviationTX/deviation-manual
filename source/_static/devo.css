@@ -1,0 +1,19 @@
+table.noborder {
+    border: 0px !important;
+    border-spacing: 0px !important;
+    padding: 0px !important;
+}
+table.noborder th {
+    border: 0px !important;
+    border-spacing: 0px !important;
+    padding: 0px !important;
+}
+table.noborder td {
+    border: 0px !important;
+    border-spacing: 0px !important;
+    padding: 0px !important;
+}
+table.noborder img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

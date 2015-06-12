@@ -18,6 +18,7 @@ import shlex
 
 def setup(app):
    app.add_config_value('mypdf', 0, True)
+   app.add_stylesheet("devo.css")
 
 if not tags.has("devo8") and not tags.has("devo10"):
     tags.add("devo8")

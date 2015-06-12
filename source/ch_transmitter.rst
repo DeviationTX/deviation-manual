@@ -1,5 +1,9 @@
 .. Transmitter menu chapter
 
+.. |br| raw:: html
+
+   <br />
+
 Transmitter Menu
 ================
 
@@ -219,27 +223,29 @@ Telemetry monitor
 Range Test
 ----------
 
-.. image:: images/|target|/ch_transmitter/range_test.png
-   :width: 40%
-   :align: right
+.. cssclass:: noborder
 
-.. container::
+.. list-table::
+   :widths: 55 45
 
-   It is recommended that you range test a new model before flying it the first time to verify that you will be able to control the model at normal flying distances. At some clubs, this is required as a safety measure. The range test page allows this.
+   * - .. container::
 
-   Once the range test page is opened, press the ‘Start test’ button to start the range test. The old and new power levels will be displayed.  The standard procedure is then to walk about 30 meters away, and verify that you still have control of the aircraft. You can then press the ‘Stop test’ button to end the range test and restore the configured radio power level. Pressing the ‘Ext’ button to exit the page will also restore the power level.
+          It is recommended that you range test a new model before flying it the first time to verify that you will be able to control the model at normal flying distances. At some clubs, this is required as a safety measure. The range test page allows this.
 
-.. image:: images/|target|/ch_transmitter/range_test2.png
-   :width: 40%
-   :align: right
+          Once the range test page is opened, press the ‘Start test’ button to start the range test. The old and new power levels will be displayed.  The standard procedure is then to walk about 30 meters away, and verify that you still have control of the aircraft. You can then press the ‘Stop test’ button to end the range test and restore the configured radio power level. Pressing the ‘Ext’ button to exit the page will also restore the power level.
 
-The radio range will be reduced by the square root of the change in power level. So going from 100mW to 100uW represents a change of power of roughly 1000, or a range reduction of a factor of a little over 30. So the normal range test of 30 meters would indicate that you should be able to control the model out to 900 meters. 
+          The radio range will be reduced by the square root of the change in power level. So going from 100mW to 100uW represents a change of power of roughly 1000, or a range reduction of a factor of a little over 30. So the normal range test of 30 meters would indicate that you should be able to control the model out to 900 meters.
 
-.. image:: images/|target|/ch_transmitter/range_test3.png
-   :width: 40%
-   :align: right
+          The installed RF module used for the current model must have a PA. If that is not the case, or the power level chosen for the model is already at the minimum value, a message to that effect will be displayed.
 
-The installed RF module used for the current model must have a PA. If that is not the case, or the power level chosen for the model is already at the minimum value, a message to that effect will be displayed.
+     - .. container::
+
+          .. image:: images/|target|/ch_transmitter/range_test.png
+             :width: 7cm
+          .. image:: images/|target|/ch_transmitter/range_test2.png
+             :width: 7cm
+          .. image:: images/|target|/ch_transmitter/range_test3.png
+             :width: 7cm
 
 .. if:: devo8 
 
