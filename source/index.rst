@@ -12,4 +12,5 @@
    ch_navigating
    ch_transmitter
    ch_model
+   ch_protocols
 

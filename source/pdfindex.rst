@@ -22,3 +22,5 @@
 .. include:: ch_transmitter.rst
 .. macro::   pdf_page_break
 .. include:: ch_model.rst
+.. macro::   pdf_page_break
+.. include:: ch_protocols.rst
