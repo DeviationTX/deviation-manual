@@ -26,3 +26,5 @@
 .. include:: ch_protocols.rst
 .. macro::   pdf_page_break
 .. include:: ch_advanced.rst
+.. macro::   pdf_page_break
+.. include:: ch_emulator.rst

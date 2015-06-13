@@ -33,3 +33,7 @@ styles:
     subscript-italic:
       fontName: stdItalic
       fontSize: 8
+
+    emutable:
+      parent: table
+      colWidths: [12%, 26%, 6%, 6%, 6%]

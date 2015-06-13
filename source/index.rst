@@ -14,4 +14,5 @@
    ch_model
    ch_protocols
    ch_advanced
+   ch_emulator
 
