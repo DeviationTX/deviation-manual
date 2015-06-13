@@ -26,9 +26,7 @@ The configuration page defines various transmitter functions.  It is entered fro
 
 .. elseif:: devo10
 
-.. image:: images/devo10/ch_transmitter/tx_menu.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo10/ch_transmitter/tx_menu.png
 
 The configuration page defines various transmitter functions.  It is entered from the main menu via ‘Transmitter menu’ followed by ‘Transmitter config’. Please note that all screens in this section show the Deviation default settings.
 
@@ -39,9 +37,7 @@ Generic settings
 
 .. if:: devo10
 
-.. image:: images/devo10/ch_transmitter/tx_config.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo10/ch_transmitter/tx_config.png
 
 .. endif::
 
@@ -109,9 +105,7 @@ Telemetry settings
 Channel monitor
 ---------------
 
-.. image:: images/|target|/ch_transmitter/channel_monitor.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/|target|/ch_transmitter/channel_monitor.png
 
 .. container::
 
@@ -133,9 +127,7 @@ Input Monitor
 
 .. elseif:: devo10
 
-.. image:: images/devo10/ch_transmitter/input_monitor.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo10/ch_transmitter/input_monitor.png
 
 .. endif::
 
@@ -162,9 +154,7 @@ Input Monitor
 Button Monitor
 --------------
 
-.. image:: images/devo8/ch_transmitter/button_monitor.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo8/ch_transmitter/button_monitor.png
 
 .. container::
 
@@ -189,9 +179,7 @@ Telemetry monitor
 
 .. endif::
 
-.. image:: images/|target|/ch_transmitter/telemetry_monitor.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/|target|/ch_transmitter/telemetry_monitor.png
 
 .. container::
 
@@ -201,9 +189,7 @@ Telemetry monitor
 
 .. if:: devo8
 
-.. image:: images/devo8/ch_transmitter/telemetry_monitor2.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo8/ch_transmitter/telemetry_monitor2.png
 
 .. container::
 
@@ -258,9 +244,7 @@ Range Test
 USB/About
 ---------
 
-.. image:: images/devo8/ch_transmitter/usb.png
-   :width: 40%
-   :align: right
+.. macro:: floatimg images/devo8/ch_transmitter/usb.png
 
 .. container::
 

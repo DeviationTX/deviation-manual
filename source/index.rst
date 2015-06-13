@@ -11,5 +11,5 @@
    ch_mainpage
    ch_navigating
    ch_transmitter
-
+   ch_model
 

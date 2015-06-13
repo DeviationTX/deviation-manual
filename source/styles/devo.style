@@ -29,3 +29,7 @@ styles:
       spaceAfter:0
       alignment: TA_CENTER
       commands: []
+
+    subscript-italic:
+      fontName: stdItalic
+      fontSize: 8

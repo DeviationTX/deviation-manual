@@ -29,15 +29,15 @@ def remove_from_list(app, lines):
     startignore = re.compile(ur'^\.\. if::\s+(\S+)')
     changeignore= re.compile(ur'^\.\. elseif::\s+(\S+)')
     stopignore  = re.compile(ur'^\.\. endif::')
-    macro       = re.compile(ur'^\.\. macro::\s+(\S+)')
+    macro       = re.compile(ur'^\.\. macro::\s+(\S+)\s*(.*\S)?')
     inline      = re.compile(ur'\|(\S+)\|')
 
     def inline_repl(matchobj):
         if matchobj.group(1) in app.config.pp_macros:
-            print "Matched " + matchobj.group(0) + " to " + matchobj.group(1) +" => " + app.config.pp_macros[matchobj.group(1)]
+            #print "Matched " + matchobj.group(0) + " to " + matchobj.group(1) +" => " + app.config.pp_macros[matchobj.group(1)]
             return app.config.pp_macros[matchobj.group(1)]
         else:
-            print "Ignoring " + matchobj.group(0)
+            #print "Ignoring " + matchobj.group(0)
             return matchobj.group(0)
 
     # 0: not in conditional
@@ -84,7 +84,18 @@ def remove_from_list(app, lines):
         m = macro.match(line)
         if m:
             if m.group(1) in app.config.pp_macros:
-                new_lines = app.config.pp_macros[m.group(1)].split('\n');
+                replace_str = app.config.pp_macros[m.group(1)]
+                if m.group(2):
+                    # macro takes options to be replaced
+                    varmap = {}
+                    idx = 1
+                    #print("start: " + replace_str)
+                    for g in m.group(2).split():
+                       #print"replacing ':VAL" + str(idx) + "' with '" + g + "'"
+                       replace_str = replace_str.replace(":VAL"+str(idx)+":", g)
+                       idx = idx + 1
+                    #print("end: " + replace_str)
+                new_lines = replace_str.split('\n')
                 if isinstance(lines, StringList):
                     source = lines.source(i)
                     # print("Found StringList: " + lines[i] + " Source: " + source)

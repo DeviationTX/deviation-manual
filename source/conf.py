@@ -406,5 +406,6 @@ pdf_floating_images = True
 pp_macros = {
     'pdf_page_break': "\n.. raw:: pdf\n\n   PageBreak oneColumn\n",
     'target'        : "devo8" if tags.has("devo8") else "devo10",
+    'floatimg'      : ".. image:: :VAL1:\n   :align: right\n   :width: 45%\n",
 }
 
