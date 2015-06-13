@@ -1,8 +1,8 @@
 fontsAlias:
     stdFont: Times-Roman
-    stdBold: Times-Roman-Bold
-    stdItalic: Times-Roman-Oblique
-    stdBoldItalic: Times-Roman-BoldOblique
+    stdBold: Times-Bold
+    stdItalic: Times-Italic
+    stdBoldItalic: Times-BoldItalic
 
 styles:
     with-border:
