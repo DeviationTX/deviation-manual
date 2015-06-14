@@ -21,6 +21,7 @@
 .. if:: devo10
 .. macro::   pdf_page_break
 .. include:: ch_mainmenu.rst
+   :start-after: :orphan:
 .. endif::
 .. macro::   pdf_page_break
 .. include:: ch_transmitter.rst
