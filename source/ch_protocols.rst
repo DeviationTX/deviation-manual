@@ -113,7 +113,8 @@ Note that if these channels are assigned to a switch, turning the switch on togg
 
 Protocol: \*Hubsan4
 -------------------
-The Hubsan4 protocol supports the Hubsan-X4 quadracopter.  No other models have been tested with this protocol.  |a7105-note|
+The Hubsan4 protocol supports the Hubsan-X4 quadracopter and the Estes
+Proto X (but not the Proto X SLT).  No other models have been tested with this protocol.  |a7105-note|
 
 |mod-install-link|
 
@@ -129,6 +130,25 @@ Options configurable on the Hubsan page:
 
 * **vTX MHz**: Defines the frequency used by the Hubsan H107C video transmitter (Requires a 5.8GHz receiver capable of receiving and displaying video).
 * **Telemetry**: Enable receiving of model battery voltage.
+
+Protocol: \*Joysway
+-------------------
+The Joysway protocol supports the Joysway Caribbean model yacht, and
+the J4C12R receiver used in the Joysway Orion, Explorer, Dragon Force
+65 model yachts and Force2 60 model catamaran.No other models or 
+receivers have been tested with this protocol, including air versions
+of the J4C12R.  |a7105-note|
+
+|mod-install-link|
+
+The Joysway protocol supports up to four channels, does not support
+auto-binding, but will bind whenever a receiver requests binding. If
+Fixed ID is set to None, a transmitter-specific ID is used instead. It
+is necessary to bind each model before the first use.
+
+The first channel normally controls the sheets and the second channel
+the rudder, but this may vary from model to model.
+
 
 Protocol: \*Skyartec
 --------------------
