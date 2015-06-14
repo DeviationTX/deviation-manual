@@ -59,7 +59,15 @@ The WK2401 protocol is used to control older Walkera models.  The previous Walke
 
 Protocol: DSM2
 --------------
-The DSM2 protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  While the DSM2 protocol can support up to 14 channels, Deviation is currently limited to a maximum of 12.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSM2 does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+The DSM2 protocol is used to control many Spektrum™ and JR™, as well
+as other models using this protocol.  While the DSM2 protocol can
+support up to 14 channels, Deviation is currently limited to a maximum
+of 12.  Note that many receivers with less than 8 channels require the
+Transmitter to send 7 or fewer channels.  Make sure the # of channels
+is set appropriately for the receiver.  DSM2 does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
 
 .. macro:: floatimg images/|target|/ch_protocols/dsm2.png
 

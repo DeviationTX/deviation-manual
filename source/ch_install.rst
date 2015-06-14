@@ -7,7 +7,9 @@ Installation of Deviation is done in exactly the same manner as upgrading the Wa
 
 .. cssclass:: bold-italic
 
-NOTE: As a result of memory limitations with the Devo12 firmware, the original models will be lost when switching to Deviation.
+.. if:: devo10
+NOTE: As a result of memory limitations with the Devo7 firmware, the original models will be lost when switching to Deviation.
+.. endif::
 
 First download and unzip the deviation-devoXX-x.y.z.zip firmware from http://www.deviationtx.com/repository/Deviation-Releases/ where XX is the number of your Walkera Devo™ transmitter. x.y.z identifies the deviation version number. Normally you should use the latest one.
 
@@ -24,7 +26,10 @@ Unzip the upgrade tool and install locally. It is recommended that you test the 
 .. image:: images/DFuSe_USB_Upgrade.png
    :width: 80%
 
-Plug the transmitter into the PC via USB, and turn on the transmitter while holding ‘EXT’ to enter programming mode.  On the Devo12, this is done by holding the trainer switch instead.
+Plug the transmitter into the PC via USB, and turn on the transmitter while holding ‘EXT’ to enter programming mode.
+.. if:: devo8
+On the Devo12, this is done by holding the trainer switch instead.
+.. endif::
 
 Several users have reported compatibility issues with Windows™ and/or USB ports when running this tool. If Dfuse do not recognition your TX, try removing all USB devices and restart your PC with only the USB connection to the TX. 
 
@@ -32,7 +37,9 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 
 1) Press the '...' button and select the deviation-devoXX-vx.y.z.dfu file to install.
 2) Select '**Upgrade**' to install the firmware. This will be grayed-out if your transmitter is not detected.  **Do NOT use ‘Upload’ as this will destroy the dfu file on your PC.**
+.. if:: devo8
 3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library. 
+.. endif::
 
 Turn off the transmitter, and turn back on while holding ‘ENT’. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
 
