@@ -282,9 +282,12 @@ Complex Template
    **Switch**: Specify an optional switch which determines whether the current mixer is active.
 
    **Mux**: Defines how the current mixer is applied to the previously defined mixers for this channel.  Options are:
+
    * **Replace**: If this mixer is active, all previous mixers are ignored.
    * **Add**: Add the value of this mixer to the previous mixers.
-   * **Mult**: Multiply the value of this mixer with the previous mixers.
+   * **Mult**: Multiply the value of this mixer with the previous
+     mixers. Note that the values are percentages, so multiplying by
+     50 actually multiplies by .5.
    * **Max**: The output will be the greater of the current mixer vs the previous mixers.
    * **Min**: The output will be the lesser of the current mixer vs the previous mixers.
    * **Delay**: Delay the output of this mixer when used with a fixed curve. Scale of 100 represents 5 seconds delay. Can be varied by using scale or offset. 
@@ -752,6 +755,7 @@ The Swash configuration page configures the swash type.  More information about 
 .. endif::
 
 The available SwashType values are:
+
 * **None/1Servo**: Used For FBL.  Mixing occurs in receiver
 * **120/3Servo 120**: 120-degree swash
 * **120x/3Servo 120x**: 120 degrees swash (alternate config)
