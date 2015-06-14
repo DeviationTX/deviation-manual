@@ -37,7 +37,7 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 Turn off the transmitter, and turn back on while holding ‘ENT’. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
 
 
-Open the folder of the zip and copy all the files and directories inside this folder to the root of the transmitter USB drive. For details of the file-system please see `USB & File-system`_. The files with the extension zip, and dfu need not to be copied.
+Open the folder of the zip and copy all the files and directories inside this folder to the root of the transmitter USB drive. For details of the file-system please see :ref:`usb-file-system`. The files with the extension zip, and dfu need not to be copied.
 
 .. image:: images/dont_copy_files.png
    :width: 40%
@@ -47,6 +47,8 @@ Upgrade notes
 If you are upgrading from a previous Deviation release, it is strongly recommended that you back-up the ‘models’ directory from the transmitter as well as the tx.ini file to ensure you don’t lose any model or transmitter configuration. Copy all directories except for the ‘models’ directory and the tx.ini file to the transmitter. Optionally, copy the ‘models’ directory to the transmitter except for the currently configured model files. This last step will ensure that the defaults for newly created models have the latest options set. If the tx.ini file is overwritten, the stick calibration must be repeated and any settings reset.
 
 .. macro:: pdf_page_break
+
+.. _usb-file-system:
 
 USB & File-system
 -----------------

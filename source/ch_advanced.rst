@@ -3,6 +3,8 @@
 Advanced Topics
 ===============
 
+.. _setting-up-a-buddy-box:
+
 Setting up a Buddy-Box
 ----------------------
 Deviation can be used to act as either the instructor (master) or student (slave) transmitter in a buddy-box configuration.  In this mode, the instructor and student connect their respective transmitters together with a trainer cord via the DSC port.  The instructor’s transmitter will actually communicate with the model, but the instructor can use a switch to allow the student to control the model.  When the switch is enabled, the student’s transmitter sends input (stick) information through the trainer cord to the instructor’s transmitter and these inputs replace the instructor’s inputs.
@@ -11,7 +13,7 @@ Deviation can be configured to work with virtually any transmitter that supports
 
 Master Mode
 ~~~~~~~~~~~
-Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section 8.1 Model setup (Std & Adv GUI). Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently: 
+Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section :ref:`model-setup`. Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently: 
 
 .. macro:: floatimg images/|target|/ch_advanced/master_stick.png
 
@@ -33,14 +35,16 @@ Options configurable on both Trainer Cfg pages:
 
 Slave Mode
 ~~~~~~~~~~
-Slave mode is configured by choosing ‘PPM’ as the protocol in section 8.1 Model setup (Std & Adv GUI).  Pressing ‘ENT’ on the Protocol spin-box will enable setting the output options.  See section 9.14 Protocol: PPM for configuration.  Note that Deviation will send the channel output data through the PPM.  To use a Deviation slave transmitter with a Deviation Master configured for ‘Stick’ mode (see above), there should be no mixing done in the slave transmitter.
+Slave mode is configured by choosing ‘PPM’ as the protocol in section :ref:`model-setup`.  Pressing ‘ENT’ on the Protocol spin-box will enable setting the output options.  See section :ref:`protocol-ppm` for configuration.  Note that Deviation will send the channel output data through the PPM.  To use a Deviation slave transmitter with a Deviation Master configured for ‘Stick’ mode (see above), there should be no mixing done in the slave transmitter.
+
+.. _setting-up-fpv:
 
 Setting Up FPV or Other External Inputs
 ---------------------------------------
 
 .. macro:: floatimg images/|target|/ch_advanced/ppmin_extend.png
 
-Deviation has the ability to use PPM input signals from an external source (such as an FPV setup).  To configure this mode, set the PPM In mode to ‘Extend’ in section `Model setup (Std & Adv GUI)`_.
+Deviation has the ability to use PPM input signals from an external source (such as an FPV setup).  To configure this mode, set the PPM In mode to ‘Extend’ in section :ref:`model-setup`.
 
 Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional inputs.
 
@@ -50,6 +54,8 @@ Configuration options:
 * **Delta PW**: Defines the difference in pulse-width (from the center value) to reach min/max servo throw
 * **Num Channels**: Defines the number of channels to input (generally no more than 8 can be supported)
 
+.. _trim-as-virtual-switch:
+
 Using a Trim as a Virtual Switch
 --------------------------------
 Deviation has the capability to create virtual switches to supplement the mechanical switches of the transmitter.  This capability is only available when using the Advanced GUI.  There are 3 types of switches available:
@@ -58,7 +64,7 @@ Deviation has the capability to create virtual switches to supplement the mechan
 * **Toggle**: The switch will toggle from on-to-off or off-to-on each time the trim button is pressed
 * **On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button will turn it off-to-on
 
-To setup a virtual switch, start by selecting the trim from the 'Trim' page, and entering the trim-setup page.  See `Trims and Virtual Inputs (Adv GUI)`_
+To setup a virtual switch, start by selecting the trim from the 'Trim' page, and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`
 
 .. macro:: floatimg images/|target|/ch_advanced/virtsw.png
 
@@ -80,6 +86,8 @@ You can now use the virtual channel ('Virt1') like any other switch input.  When
 .. cssclass:: bold-italic
 
 Note: If you use the virtual channel as a 'Src' (as opposed to a 'Switch') make sure that 'trim' is disabled for that mixer, otherwise the trim will be applied twice.
+
+.. _swash-mixing:
 
 Swash Mixing
 ------------

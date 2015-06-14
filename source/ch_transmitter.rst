@@ -3,6 +3,7 @@
 .. |br| raw:: html
 
    <br />
+.. _transmitter-menu:
 
 Transmitter Menu
 ================
@@ -13,6 +14,8 @@ Transmitter Menu
    :width: 80%
 
 .. endif::
+
+.. _transmitter-config:
 
 Transmitter config
 ------------------
