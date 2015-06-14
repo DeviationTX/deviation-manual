@@ -13,11 +13,11 @@ Master Mode
 ~~~~~~~~~~~
 Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section 8.1 Model setup (Std & Adv GUI). Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently: 
 
-.. macro:: floatimg images/devo8/ch_advanced/master_stick.png
+.. macro:: floatimg images/|target|/ch_advanced/master_stick.png
 
 **Stick**: In stick mode, each input channel is mapped to a stick on the master transmitter.  In this mode, the student moving the stick will behave exactly as if the instructor had moved the stick. Generally when using this mode, the student’s transmitter will directly pass the stick position (no mixing) and the instructor’s transmitter will do all necessary mixing.
 
-.. macro:: floatimg images/devo8/ch_advanced/master_channel.png
+.. macro:: floatimg images/|target|/ch_advanced/master_channel.png
 
 **Channel**: In channel mode, each input channel is mapped to an output channel on the instructor’s transmitter.  In this mode, the student’s transmitter should do all necessary mixing to control the model.  Care must be taken to ensure that the instructor and student transmitters are configured identically, otherwise, the model may not react well when switching between instructor and student control.
 
@@ -38,7 +38,7 @@ Slave mode is configured by choosing ‘PPM’ as the protocol in section 8.1 Mo
 Setting Up FPV or Other External Inputs
 ---------------------------------------
 
-.. macro:: floatimg images/devo8/ch_advanced/ppmin_extend.png
+.. macro:: floatimg images/|target|/ch_advanced/ppmin_extend.png
 
 Deviation has the ability to use PPM input signals from an external source (such as an FPV setup).  To configure this mode, set the PPM In mode to ‘Extend’ in section `Model setup (Std & Adv GUI)`_.
 
@@ -60,12 +60,12 @@ Deviation has the capability to create virtual switches to supplement the mechan
 
 To setup a virtual switch, start by selecting the trim from the 'Trim' page, and entering the trim-setup page.  See `Trims and Virtual Inputs (Adv GUI)`_
 
-.. macro:: floatimg images/devo8/ch_advanced/virtsw.png
+.. macro:: floatimg images/|target|/ch_advanced/virtsw.png
 
 Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box until the value is less-than 0.1
 Second select the 'Input' to be the virtual channel to convert to a switch (we'll use 'Virt1')
 
-.. macro:: floatimg images/devo8/ch_advanced/virtsw.png
+.. macro:: floatimg images/|target|/ch_advanced/virtsw2.png
 
 .. container::
 

@@ -36,4 +36,4 @@ styles:
 
     emutable:
       parent: table
-      colWidths: [12%, 26%, 6%, 6%, 6%]
+      colWidths: [14%, 26%, 8%, 8%, 12%]

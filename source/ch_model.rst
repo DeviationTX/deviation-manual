@@ -699,7 +699,7 @@ Swash Configuration
 
 The Swash configuration page configures the swash type.  More information about swash-types can be found in section 10.4 Swash Mixing.  The settings on this page are equivalent to those on the model configuration page (see `Model setup (Std & Adv GUI)`_), and configuration for both pages is provided below.
 
-.. image:: images/devo8/ch_model/swashmix.svg
+.. image:: images/|target|/ch_model/swashmix.svg
 .. if:: devo8
    :width: 90%
 .. elseif:: devo10
