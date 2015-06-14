@@ -12,11 +12,11 @@ All settings which pertain to the usage of your Devention transmitter are access
 
 Model menu
 ----------
-The model menu is the area within Deviation that you can configure the type of aircraft you are flying. All model data is managed and saved within this menu selection. Details of the menu are located in section 8 Model menu.
+The model menu is the area within Deviation that you can configure the type of aircraft you are flying. All model data is managed and saved within this menu selection. Details of the menu are located in section :ref:`model-menu`.
 
 Transmitter menu
 ----------------
-The transmitter menu allows you to select transmitter-specific options as well as monitor channel output & stick input, and monitor telemetry (if available). Details of the menu are located in section 7 Transmitter Menu.
+The transmitter menu allows you to select transmitter-specific options as well as monitor channel output & stick input, and monitor telemetry (if available). Details of the menu are located in section :ref:`transmitter-menu`.
 
 USB
 ---

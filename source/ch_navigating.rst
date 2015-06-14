@@ -53,7 +53,7 @@ Menu Layout
 -----------
 There are 2 different unconnected menus available:
 
-* The transmitter menu allows you to select transmitter-specific options as well as monitor channel output & stick input, and monitor telemetry (if available). Details of the menu are located in section `Transmitter Menu`_.
-* The model menu is the area within deviation that you can configure the type of aircraft you are flying. All model data is managed and saved within this menu selection. Details of the menu are located in section `Model menu`_.
+* The transmitter menu allows you to select transmitter-specific options as well as monitor channel output & stick input, and monitor telemetry (if available). Details of the menu are located in section :ref:`transmitter-menu`.
+* The model menu is the area within deviation that you can configure the type of aircraft you are flying. All model data is managed and saved within this menu selection. Details of the menu are located in section :ref:`model-menu`.
 
 .. endif::

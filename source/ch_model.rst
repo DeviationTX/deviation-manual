@@ -10,14 +10,20 @@
 .. |Sn-1| replace:: *Switch*\ :subi:`n-1` 
 .. |Mn-1| replace:: *M*\ :subi:`n-1` 
 
+.. _model-menu:
+
 Model menu
 ==========
 
 The model menu allows selection, editing model configuration, alarms, logging and screen configurations. You can access the menu by pressing the ENT key to select the 'Main menu' and then again on 'Model menu'.
 
-Depending on the selection you have done for the Mixer GUI in section `Model setup (Std & Adv GUI)`_, the model menu operation will be completely different.
+Depending on the selection you have done for the Mixer GUI in section :ref:`model-setup`, the model menu operation will be completely different.
 
-The Advanced '2. Mixer' page (`Mixer (Advanced GUI)`_) provides all of the functionality (and more) of the Standard Model.
+.. if:: devo10
+
+The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the functionality (and more) of the Standard Model.
+
+.. endif::
 
 .. if:: devo8
 
@@ -54,6 +60,8 @@ The Advanced '2. Mixer' page (`Mixer (Advanced GUI)`_) provides all of the funct
 
 Note: The Advanced Mixer GUI is the default setting for all new models.
 
+.. _model-setup:
+
 Model setup (Std & Adv GUI)
 ---------------------------
 
@@ -63,7 +71,7 @@ The model page provides various model configuration options.
 
 .. macro:: floatimg images/|target|/ch_model/model_load.png
 
-**File**: The File spin-box allows loading a new model, copying the existing model to a new location, resetting the current model to the default (all configuration is lost), and loading templates (see `Predefined Model Templates`_).  Note that changing models may result in a safety message being displayed (see `Safety System`_).
+**File**: The File spin-box allows loading a new model, copying the existing model to a new location, resetting the current model to the default (all configuration is lost), and loading templates (see :ref:`predefined-model-templates`).  Note that changing models may result in a safety message being displayed (see :ref:`safety-system`).
 
 .. if:: devo10
 
@@ -97,13 +105,13 @@ The model page provides various model configuration options.
 
 .. macro:: floatimg images/|target|/ch_model/model_icon.png
 
-**Icon**: Choose the model’s icon.   Additional model icons can be installed (see 2.3USB & File-system).
+**Icon**: Choose the model’s icon.   Additional model icons can be installed (see :ref:`usb-file-system`).
 
 .. macro:: floatimg images/|target|/ch_model/helicopter_opts.png
 
 .. container:: 
 
-   **Model Type**: Set the model-type available options are Heli and Plane. Helicopter models have an additional configuration page that can be accessed by clicking the Model type. The options for SwashType are identical to the ones in `Swash Configuration`_.
+   **Model Type**: Set the model-type available options are Heli and Plane. Helicopter models have an additional configuration page that can be accessed by clicking the Model type. The options for SwashType are identical to the ones in :ref:`swash-configuration`.
 
    If you switch from model type Helicopter this will change the Mixer GUI to Advanced automatically because the Standard GUI only supports helicopters.
 
@@ -120,7 +128,7 @@ Note: A stock Devo7e transmits with 7mW. Due to software configuration
 
 **PPM In**: Allows input from the DSC port primarily to control external hardware such as camera motors from a ' head tracker'. Secondarily it may be used to enable the transmitter to act as a Master in a buddy-box setup. Available options are Channel, Stick and Extend. 
 
-The Stick and Channel modes are used for buddy-box setup and documentation can be found in chapter `Setting up a Buddy-Box`_.  The Extend mode is used for FPV or external input setup and documentation can be found in chapter `Setting Up FPV or Other External Inputs`_. 
+The Stick and Channel modes are used for buddy-box setup and documentation can be found in chapter :ref:`setting-up-a-buddy-box`.  The Extend mode is used for FPV or external input setup and documentation can be found in chapter :ref:`setting-up-fpv`. 
 
 **Protocol**: Set the type of receiver being used.  Note that some protocols have additional options that can be accessed by pressing the Protocol spin-box when it is active.  See section 9 Protocols for more on specific protocols.  Note that a protocol change will disable any currently active protocol and will affect any active model.  To enable the newly chosen protocol, use the Bind/Re-Init button described below.
 
@@ -134,6 +142,8 @@ The Stick and Channel modes are used for buddy-box setup and documentation can b
 
 **# Channels**: Sets the number of channels to transmit (the maximum number of channels is dependent on the selected protocol).
 
+.. _predefined-model-templates:
+
 Predefined Model Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -144,6 +154,8 @@ Predefined Model Templates
    The Deviation firmware supports user-customizable predefined templates.  By Selecting ‘Template...’ within the File spin-box from the Model page. 
 
    Additional templates can be added via USB to the ‘\\template’ directory. A template does not completely replace your existing model, but instead only a portion of it.  The currently supported templates will replace the mixer and trim definitions, but will not affect the display layout.
+
+.. _mixer-adv:
 
 Mixer (Adv GUI)
 ---------------
@@ -161,11 +173,11 @@ Mixer (Adv GUI)
 
 .. container::
 
-   The 'Advanced' GUI unleashes the full capabilities of the Deviation firmware, however it is unlike any commercial transmitter setup. Deviation also provides a more traditional setup interface for those who prefer it (see `Standard GUI Menu items`_). With the Advanced GUI, each output channel is composed of a series of one or more mixers each of which consists of a single input, an activation switch, and a function/curve that modifies the mixer output. This is a very powerful capability, but it will require learning a completely different method for setting up a model. To aid in quick setup, there are a few predefined configurations available (see `Predefined Model Templates`_), but to learn to modify and configure a model, read through this entire section carefully.
+   The 'Advanced' GUI unleashes the full capabilities of the Deviation firmware, however it is unlike any commercial transmitter setup. Deviation also provides a more traditional setup interface for those who prefer it (see :ref:`standard-gui`). With the Advanced GUI, each output channel is composed of a series of one or more mixers each of which consists of a single input, an activation switch, and a function/curve that modifies the mixer output. This is a very powerful capability, but it will require learning a completely different method for setting up a model. To aid in quick setup, there are a few predefined configurations available (see :ref:`predefined-model-templates`), but to learn to modify and configure a model, read through this entire section carefully.
 
    The Mixer page controls how inputs (sticks/switches) are assigned to output channels.  The mixer page is accessed from the main menu by selecting the model icon..
  
-   The number of channels available is dependent on the number of channels selected in section 8.1 Model setup (Std & Adv GUI). Additionally there are 10 Virtual channels that can be used as an intermediate step for complex setups. 
+   The number of channels available is dependent on the number of channels selected in section :ref:`model-setup`. Additionally there are 10 Virtual channels that can be used as an intermediate step for complex setups. 
 
 Channel Reorder
 ~~~~~~~~~~~~~~~
@@ -174,6 +186,7 @@ Channel Reorder
 
 The Channel reorder page allows moving mixer definitions between channels as well as duplicating channel configurations.  Note that the values displayed are the initial channel assignments.  Whenever the page is loaded, the channels will be sequentially ordered representing the current state.
 
+.. _channel-config:
 
 Channel configuration
 ~~~~~~~~~~~~~~~~~~~~~
@@ -223,7 +236,7 @@ Simple Template
 
    **Src**: The input source controlling this mixer.
 
-   **Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
+   **Curve**: The function applied to the input to generate the output.  See section :ref:`available-curves` for more info.  Depending on curve-type, pressing curve may display the curve editor (see :ref:`curve-editing`).
 
    **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
@@ -243,7 +256,7 @@ Expo & Dual-Rate Template
 
    **Src**: The input source controlling this mixer.
 
-   **Curve**: The function applied to the input to generate the output.  See section `Available Curves`_ for more info.  Depending on curve-type, pressing curve may display the curve editor (see `Curve Editing`_).
+   **Curve**: The function applied to the input to generate the output.  See section :ref:`available-curves` for more info.  Depending on curve-type, pressing curve may display the curve editor (see :ref:`curve-editing`).
 
    **Switch**: Specify a switch to enable Medium or Low rates.
 
@@ -278,7 +291,7 @@ Complex Template
 
    **Src**: The input source controlling this mixer.
 
-   **Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
+   **Curve**: The function applied to the input to generate the output.  See section :ref:`available-curves` for more info.  Depending on curve-type, pressing curve may display the curve editor (see :ref:`curve-editing`).
 
    **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
@@ -323,7 +336,7 @@ Cyclic
 .. macro:: floatimg images/devo10/ch_model/cyclic.png
 
 .. endif::
-**Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate mix. These will represent the 3 servos connected to the helicopter swash-plate (see `Swash Configuration`_).
+**Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate mix. These will represent the 3 servos connected to the helicopter swash-plate (see :ref:`swash-configuration`).
 
 Reordering Mixers
 ~~~~~~~~~~~~~~~~~
@@ -337,6 +350,8 @@ Reordering Mixers
 
    The reorder page can add new mixers or delete existing ones using the ‘+’ and ‘-’ buttons respectively.  A mixer can also be copied to an existing mixer (overwriting it in the process) by using the ‘Copy To’ functionality.
 
+.. _available-curves:
+
 Available Curves
 ~~~~~~~~~~~~~~~~
 
@@ -349,11 +364,13 @@ The following curve functions are supported:
 * **>0**: Output matches input when greater than the specified value, and 0 otherwise.
 * **<0**: Output matches the input when less than the specified value, and0 otherwise.
 * **ABSVAL**: Output is the absolute-value of the input (editing the specified value will alter how the absolute-value is applied) 
-* **EXPO**: Apply exponential curve to the input for non-linear response (editable see 8.2.10 Curve Editing).
-* **Deadband**: Output will not respond to input values near zero (editable see 8.2.10 Curve Editing).
-* **Multi-point**: Curve is based on 3, 5, 7, 9 or 13 user-defined points (editable see  8.2.10 Curve Editing). 
+* **EXPO**: Apply exponential curve to the input for non-linear response (editable see :ref:`curve-editing`).
+* **Deadband**: Output will not respond to input values near zero (editable see :ref:`curve-editing`).
+* **Multi-point**: Curve is based on 3, 5, 7, 9 or 13 user-defined points (editable see :ref:`curve-editing`). 
 
 The default value for any of the offsets in above mentioned curves is 0 (zero). If you change the curve for one input the offset will be transferred to the new curve if possible.
+
+.. _curve-editing:
 
 Curve Editing
 ~~~~~~~~~~~~~
@@ -382,6 +399,7 @@ For the Deadband curve, the controls allow independently configuring the deadban
 
 For the Multi-point curves, each point can be individually set.  Points are set by choosing the point number and then choosing a value. The minimum number of points allowable is 3 the maximum number of points is 13.  Enabling 'Smooth' will apply a smoothing function rather than connecting points via straight lines.
 
+.. _timers:
 
 Timers (Std & Adv GUI)
 ----------------------
@@ -415,6 +433,8 @@ Timers (Std & Adv GUI)
 The ‘permanent’ timers are similar to an odometer and have their values saved in the model.ini file. They will maintain their previous value when powering up the transmitter. You can set the timer by using the 'Set to' button and reset by pressing the 'Reset' button.
 
 
+.. _telemetry-config:
+
 Telemetry config (Std & Adv GUI)
 --------------------------------
 
@@ -429,6 +449,8 @@ Telemetry config (Std & Adv GUI)
    * **Equality**: Can be '>=' or '<=' indicating whether a value above or below the target causes an alarm.
    * **Target**: The target value for the alarm.
 
+.. _trims-and-virtual-inputs:
+
 Trims and Virtual Inputs (Adv GUI)
 ----------------------------------
 
@@ -436,7 +458,7 @@ Trims and Virtual Inputs (Adv GUI)
 
 .. container::
 
-   The trim page allows assigning the trim buttons and trim step, as well as configuring buttons to work as virtual inputs (see `Using a Trim as a Virtual Switch`_). It is accessed from the main menu via 'Model menu' followed by 'Trims'.
+   The trim page allows assigning the trim buttons and trim step, as well as configuring buttons to work as virtual inputs (see :ref:`trim-as-virtual-switch`). It is accessed from the main menu via 'Model menu' followed by 'Trims'.
 
    If the ‘Input’ field is set to an input stick, then the trim can be applied as part of the mixer, and will operate as a typical trim control.  If the ‘Input’ field is set as a channel or virtual-channel output, the value is applied directly to the channel output.  In this case, the selected ‘Pos’ and ‘Neg’ buttons can operate as a virtual stick to control an output channel.
 
@@ -447,6 +469,8 @@ Trims and Virtual Inputs (Adv GUI)
    The trim-step defines how sensitive the trims are to input.  The maximum number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/- 10% of trim adjustment on the servo.
 
    The trim-step can be changed on the main screen. If you have to change the source also please use the dialog accessed by pressing the respective 'Input' button. Here you may also add a switch to the trim.
+
+.. _datalog:
 
 Datalog (Std & Adv GUI)
 -----------------------
@@ -468,6 +492,8 @@ The Datalog feature allows storing a history of input or output positions as wel
 By default, the log can only store 16kB of data. You can increase the amount of data to be stored by changing the datalog.bin file on the transmitter to a larger size. Deviation cannot increase the size of this file, so its size indicates the maximum data that can be stored.
 
 **Note: This is a feature for advanced users only**. There is currently no software provided to analyze the logs, and they cannot be visualized from within the transmitter. Please check the downloads section on www.deviationtx.com for conversion tools.
+
+.. _main-page-config:
 
 Main page config (Std & Adv GUI)
 --------------------------------
@@ -500,6 +526,7 @@ Main page config (Std & Adv GUI)
    * **Toggle**: Show an icon indicating the state of a toggle switch.  There can be 1, 2, or 3 icons defined for a given toggle indicating different states depending on the switch position.  Two-state switches can have up to 2 icons.  Three-state switches can have up to 3 icons. 
    * **(Quick) Menus**: Quick menus define quick-access pages that can be reached via a long UP/DN press.
 
+.. _configuring-object-position:
 
 Configuring object position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -547,11 +574,11 @@ Loading Objects
 .. container::
 
    After selecting the '+' icon to open the add-item dialog, you may 'Load' alternate templates, to change the main page layout. 
-   If you select 'Default' the layout will be set to the standard layout as shown in section `Main Page`_.
+   If you select 'Default' the layout will be set to the standard layout as shown in section :ref:`main-page`.
 
    Selecting 'Empty' will clear all objects. You may start from scratch.
 
-   If you want to use a layout from another model select the model whose layout you wish to use. The object positions (see `Configuring object position`_) will be transferred when selecting from an existing template or model. Templates based on existing models have an (M) designation within the file list.
+   If you want to use a layout from another model select the model whose layout you wish to use. The object positions (see :ref:`configuring-object-position`) will be transferred when selecting from an existing template or model. Templates based on existing models have an (M) designation within the file list.
 
    Additionally these templates can be created in the emulator or downloaded from the forums or even done by manual edit of the modelxx.ini file.
 
@@ -583,6 +610,8 @@ Choosing toggle icons
 
 Pressing the ‘Toggle’ button on a toggle object allows selecting the related icons. Channels, sticks, and 2-position sticks can have 2 icons.  3 position sticks (if any) can have 3 icons.  Each of the 2 (or 3) icon states can be set to empty, defining that no icon is shown for this state.  The Deviation firmware comes with several predefined icons to choose from.
 
+.. _standard-gui:
+
 Standard GUI Menu items
 -----------------------
 
@@ -590,7 +619,7 @@ Standard GUI Menu items
 
 .. container::
 
-   The Standard GUI is an alternative interface from the Advanced GUI’.  Which interface is used is chosen by the ‘Mixer GUI’ setting in section 8.1 Model setup (Std & Adv GUI).  The Standard GUI is only available for Helicopter-type models at this time.  The pages of the Standard GUI are as follows:
+   The Standard GUI is an alternative interface from the Advanced GUI’.  Which interface is used is chosen by the ‘Mixer GUI’ setting in section :ref:`model-setup`.  The Standard GUI is only available for Helicopter-type models at this time.  The pages of the Standard GUI are as follows:
 
 .. if:: devo8
 
@@ -599,61 +628,61 @@ Standard GUI Menu items
 
    * - .. image:: images/devo8/ch_model/icon_modelcfg.png
           :width: 100%
-     - **Model Configuration**: `Model setup (Std & Adv GUI)`_
+     - **Model Configuration**: :ref:`model-setup`
      - .. image:: images/devo8/ch_model/icon_trim.png
           :width: 100%
-     - **Trim configuration**: `Trims and Virtual Inputs (Adv GUI)`_
+     - **Trim configuration**: :ref:`trims-and-virtual-inputs`
    * - .. image:: images/devo8/ch_model/icon_servo_reverse.png
           :width: 100%
-     - **Servo reverse**: `Servo Reverse`_
+     - **Servo reverse**: :ref:`servo-reverse`
      - .. image:: images/devo8/ch_model/icon_switch_assign.png
           :width: 100%
-     - **Switch assignment**: `Switch Assignment`_
+     - **Switch assignment**: :ref:`switch-assignment`
    * - .. image:: images/devo8/ch_model/icon_servo_trim.png
           :width: 100%
-     - **Servo sub-trim**: `Sub-trim Adjustment`_
+     - **Servo sub-trim**: :ref:`sub-trim-adjustment`
      - .. image:: images/devo8/ch_model/icon_throttle_hold.png
           :width: 100%
-     - **Throttle-hold configuration**: `Throttle Hold`_
+     - **Throttle-hold configuration**: :ref:`throttle-hold`
    * - .. image:: images/devo8/ch_model/icon_travel_adjust.png
           :width: 100%
-     - **Servo travel-adjust**: `Servo Travel Adjust`_
+     - **Servo travel-adjust**: :ref:`servo-travel-adjust`
      - .. image:: images/devo8/ch_model/icon_failsafe.png
           :width: 100%
-     - **Fail-Safe configuration**: `Fail-Safe Configuration`_
+     - **Fail-Safe configuration**: :ref:`fail-safe-configuration`
    * - .. image:: images/devo8/ch_model/icon_swash.png
           :width: 100%
-     - **Swash Setup**: `Swash Configuration`_
+     - **Swash Setup**: :ref:`swash-configuration`
      - .. image:: images/devo8/ch_model/icon_timer_config.png
           :width: 100%
-     - **Timer configuration**: `Timers (Std & Adv GUI)`_
+     - **Timer configuration**: :ref:`timers`
    * - .. image:: images/devo8/ch_model/icon_dualrate.png
           :width: 100%
-     - **Dual-rates setup**: `Dual-Rate/Expo setting`_
+     - **Dual-rates setup**: :ref:`dual-rate-expo-setting`
      - .. image:: images/devo8/ch_model/icon_telemetry_config.png
           :width: 100%
-     - **Telemetry configuration**: `Telemetry config (Std & Adv GUI)`_
+     - **Telemetry configuration**: :ref:`telemetry-config`
    * - .. image:: images/devo8/ch_model/icon_throtte_curve.png
           :width: 100%
-     - **Throttle curve setup**: `Throttle Curve`_
+     - **Throttle curve setup**: :ref:`throttle-curve`
      - .. image:: images/devo8/ch_model/icon_datalog.png
           :width: 100%
-     - **Datalog configuration**: `Datalog (Std & Adv GUI)`_
+     - **Datalog configuration**: :ref:`datalog`
    * - .. image:: images/devo8/ch_model/icon_pitch_curve.png
           :width: 100%
-     - **Pitch curve setup**: `Pitch Curve`_
+     - **Pitch curve setup**: :ref:`pitch-curve`
      - .. image:: images/devo8/ch_model/icon_mainpagecfg.png
           :width: 100%
-     - **Main page configuration**: `Main page config (Std & Adv GUI)`_
+     - **Main page configuration**: :ref:`main-page-config`
    * - .. image:: images/devo8/ch_model/icon_gyro.png
           :width: 100%
-     - **Gyro-sense configuration**: `Gyro Sensitivity`_
+     - **Gyro-sense configuration**: :ref:`gyro-sensitivity`
      -
      -
 
 .. elseif:: devo10
 
-   1. **Model setup**: Model configuration page (See section  `Model setup (Standard & Advanced GUI)`_)
+   1. **Model setup**: Model configuration page (See section  :ref:`model-setup`)
    2. **Reverse**: Servo reverse
    3. **D/R & Exp**: Dual-rates setup
    4. **Subtrim**: Servo sub-trim
@@ -665,44 +694,55 @@ Standard GUI Menu items
    10. **Swash**: Swash Setup
    11. **Fail safe**: Fail-Safe configuration
    12. **Switch assignment**: Assign switch controls
-   13. **Timers**: Timer configuration (See section `Timers (Standard & Advanced GUI)`_)
-   14. **Telemetry config**: Configure telemetry alarms (See section `Telemetry config (Standard & Advanced GUI)`_)
-   15. **Datalog**: Configure telemetry logging (See section `Datalog (Standard & Advanced GUI)`_)
-   16. **Main page config**: Configure main page display (See section `Main page config (Standard & Advanced GUI)`_)
+   13. **Timers**: Timer configuration (See section :ref:`timers`)
+   14. **Telemetry config**: Configure telemetry alarms (See section :ref:`telemetry-config`)
+   15. **Datalog**: Configure telemetry logging (See section :ref:`datalog`)
+   16. **Main page config**: Configure main page display (See section :ref:`main-page-config`)
 
 .. endif::
+
+.. _servo-reverse:
+
 Servo Reverse
 ~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/servo_reverse.png
 
-The servo reverse page allows quickly setting each channel to work in either normal or reversed mode.  These settings are equivalent to the ‘Reverse’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see section `Channel configuration`_)
+The servo reverse page allows quickly setting each channel to work in either normal or reversed mode.  These settings are equivalent to the ‘Reverse’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see section :ref:`channel-config`)
+
+.. _dual-rate-expo-setting:
 
 Dual-Rate/Expo setting
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/dualrate.png
 
-The dual-rate and expo page allows configuration of curves for the Aileron, Rudder, and Elevator channels.  Up-to 3 rates can be configured for each channel, and either a scaled-linear or exponential curve can be selected for each.  The number of settings depends on the switch assigned to the dual-rates function on the Switch Assignment page (see `Switch Assignment`_)
+The dual-rate and expo page allows configuration of curves for the Aileron, Rudder, and Elevator channels.  Up-to 3 rates can be configured for each channel, and either a scaled-linear or exponential curve can be selected for each.  The number of settings depends on the switch assigned to the dual-rates function on the Switch Assignment page (see :ref:`switch-assignment`)
+
+.. _sub-trim-adjustment:
 
 Sub-trim Adjustment
 ~~~~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/subtrim.png
 
-The sub-trim adjust page allows setting the zero-point of the servos for each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see `Channel configuration`_). Acceptable values range from -50 to +50 in 0.1 increments.
+The sub-trim adjust page allows setting the zero-point of the servos for each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see :ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 increments.
+
+.. _servo-travel-adjust:
 
 Servo Travel Adjust
 ~~~~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/travel_adjust.png
 
-The servo-travel adjust page configures the maximum positive/negative travel of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see `Channel configuration`_). Acceptable values for Down are from -175 to -1 and Up values range from +1 to +175. The default values are -100 and +100 respectively.
+The servo-travel adjust page configures the maximum positive/negative travel of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see :ref:`channel-config`). Acceptable values for Down are from -175 to -1 and Up values range from +1 to +175. The default values are -100 and +100 respectively.
+
+.. _swash-configuration:
 
 Swash Configuration
 ~~~~~~~~~~~~~~~~~~~
 
-The Swash configuration page configures the swash type.  More information about swash-types can be found in section 10.4 Swash Mixing.  The settings on this page are equivalent to those on the model configuration page (see `Model setup (Std & Adv GUI)`_), and configuration for both pages is provided below.
+The Swash configuration page configures the swash type.  More information about swash-types can be found in section :ref:`swash-mixing`.  The settings on this page are equivalent to those on the model configuration page (see :ref:`model-setup`), and configuration for both pages is provided below.
 
 .. image:: images/|target|/ch_model/swashmix.svg
 .. if:: devo8
@@ -721,12 +761,16 @@ The available SwashType values are:
 The ELE Mix, AIL Mix, and PIT Mix are scaling factors applied to the input sticks before mixing is done.  These can be used to adjust for different linkage lengths or different servo throws.  The allowed range is -100 to 100 with a default of 60.  
 Note that setting these values too large can result in too much servo throw and make the model unresponsive to stick control.
 
+.. _throttle-curve:
+
 Throttle Curve
 ~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/throttle_curve.png
 
 The throttle curve page allows defining a piece-wise linear curve for the throttle channel.  Different curves can be selected for each flight-mode.  Each point value can be enabled to be interpolated from the points surrounding it.
+
+.. _pitch-curve:
 
 Pitch Curve
 ~~~~~~~~~~~
@@ -735,12 +779,16 @@ Pitch Curve
 
 The pitch curve allows defining a piece-wise linear curve for the collective/pitch channel.  Different curves can be selected for each flight-mode as well as for throttle-hold.  Each point value can be enabled to be interpolated from the points surrounding it.
 
+.. _gyro-sensitivity:
+
 Gyro Sensitivity
 ~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/gyro_sense.png
 
 The gyro-sensitivity page enables configuring up-to 3 sensitivity values for the gyro as well as which channel to use for sending the gyro value. Acceptable values range from 0 to 100%.
+
+.. _switch-assignment:
 
 Switch Assignment
 ~~~~~~~~~~~~~~~~~
@@ -749,12 +797,16 @@ Switch Assignment
 
 The switch assignment page enables configuring which switches to use for each capability in the standard-GUI.  The same switch may be assigned to multiple capabilities.
 
+.. _throttle-hold:
+
 Throttle Hold
 ~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/throttle_hold.png
 
 The throttle-hold page is used to enable/disable the throttle-hold capability.  Specifying ‘Hold position’ defines the throttle value when the Throttle-hold switch is set. Hold position can be set from -200 to 200.
+
+.. _fail-safe-configuration:
 
 Fail-Safe Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~

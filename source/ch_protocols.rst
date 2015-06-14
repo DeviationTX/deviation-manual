@@ -55,6 +55,8 @@ Protocol: WK2401
 ----------------
 The WK2401 protocol is used to control older Walkera models.  The previous Walkera models were segmented into 3 similar but not identical protocols: WK2801, WK2601, WK2401.  This roughly corresponds to the number of channels supported, but many of the newer 6-channel receivers actually support the WK2801 protocol.  It is recommended to try the WK2801 protocol 1st when working with older Walkera models before attempting the WK2601 or WK2401 mode, as the WK2801 is a superior protocol.  The WK2401 protocol supports up to 4 channels, and only supports auto-binding.  The fixed ID can be used, but does not prevent auto-binding during power-on.
 
+.. _protocol-dsm2:
+
 Protocol: DSM2
 --------------
 The DSM2 protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  While the DSM2 protocol can support up to 14 channels, Deviation is currently limited to a maximum of 12.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSM2 does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
@@ -87,7 +89,7 @@ Note that unlike Spektrum™ or JR™ transmitters, Deviation will not automatic
 
 The DSMX protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DSMX is shown.
 
-The list of DSMX telemetry fields is identical to those in the DSM2 Protocol, and are documented in section 9.5 Protocol: DSM2.
+The list of DSMX telemetry fields is identical to those in the DSM2 Protocol, and are documented in section :ref:`protocol-dsm2`.
 
 Protocol: J6Pro
 ---------------
@@ -238,6 +240,8 @@ The sixth channel enables the auto-flip function when greater than zero.
 The seventh channel takes a picture when the channel moves from negative to positive.
 
 The eighth channel starts/stops video recording on each positive transition.
+
+.. _protocol-ppm:
 
 Protocol: PPM
 -------------
