@@ -14,14 +14,15 @@ Deviation supports multiple protocols without any modifications to the transmitt
 * DSM2 / DSMX
 * Nine Eagles J6 Pro (requires telemetry module)
 
-Deviation can support other protocols with very easy transmitter modifications (appropriate transceiver module needed):
+Deviation can support many other protocols with very easy transmitter
+modifications (appropriate transceiver module needed). Among the more
+popular are:
 
 * Flysky (also for WLToys V911, V9x9, and Xieda 9938)
-* Hubsan-X4
-* Skyartec
+* Hubsan-X4 and Estes Proto X
 * V202
 * SLT
-* HiSky
+* FrSky
 
 Deviation supports (flight) simulators connected via DSC cable (PPM) or USB cable (USBHID). Deviation also allows Buddy-Box and FPV setups.
 
@@ -44,11 +45,14 @@ Deviation is an independent work. The Deviation project is not affiliated, suppo
 Legal status and copyright
 --------------------------
 
-This project is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This project is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version. You should have received a copy of the
+GNU General Public License along with Deviation. If not, see
+www.gnu.org/licenses.
 
 Deviation is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with Deviation. If not, see www.gnu.org/licenses.
 
 .. cssclass:: bold-italic
 

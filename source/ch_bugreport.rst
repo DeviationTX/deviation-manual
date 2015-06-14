@@ -9,6 +9,7 @@ If you find a bug in Deviation, please report it here: http://www.deviationtx.co
 You will need to register for an account on the Deviation forums to submit a bug.  That account will also allow you to communicate with the Deviation community, and will enable you to get email updates when the bug is updated/fixed.
  
 Please provide as much information as possible in your ticket. Include:
+
 * Build version (you can find this on the 'USB' page of the transmitter)
 * Did you compile yourself, or download the dfu?
 * Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)
