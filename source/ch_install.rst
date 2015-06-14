@@ -57,6 +57,8 @@ The directory structure is as follows:
 =========================  ==================================================
 \\tx.ini                   Transmitter configuration. Includes trim settings, calibration data, and the last-used model
                            number
+\\hardware.ini             Transmitter hardware setup, describing supported hardware modifications.
+                           number
 \\errors.txt               If the firmware crashes or reboots, debug information will be stored in this file
 \\datalog.bin              File for telemetry data
 \\media\\config.ini        The color scheme and fonts for the transmitter

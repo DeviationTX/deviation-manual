@@ -105,7 +105,7 @@ The model page provides various model configuration options.
 
    **Model Type**: Set the model-type available options are Heli and Plane. Helicopter models have an additional configuration page that can be accessed by clicking the Model type. The options for SwashType are identical to the ones in `Swash Configuration`_.
 
-   If you switch to model type Plane this will change the Mixer GUI to Advanced automatically because the Standard GUI only supports helicopters.
+   If you switch from model type Helicopter this will change the Mixer GUI to Advanced automatically because the Standard GUI only supports helicopters.
 
 **Transmitter Power**: Specify the radio output power (when applicable). Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW. 
 
@@ -113,7 +113,8 @@ The model page provides various model configuration options.
 
 .. cssclass:: bold-italic
 
-Note: Devo7e is transmitting with 7mW. Due to software configuration 150mW will always be displayed.
+Note: A stock Devo7e transmits with 7mW. Due to software configuration
+150mW will always be displayed.
 
 .. endif::
 
@@ -288,11 +289,11 @@ Complex Template
    **Trim**: Selects whether or not any trims for the selected source are applied to this mixer.
 
 \ 
-  A given mixer can be considered to have the general form:
+A given mixer can be considered to have the general form:
 
      M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + *Trim*
 
-  The combination of mixers for a given output channel is defined by the Mux type:
+The combination of mixers for a given output channel is defined by the Mux type:
 
   For a ‘Replace’ mux:
 
@@ -357,7 +358,11 @@ The default value for any of the offsets in above mentioned curves is 0 (zero). 
 Curve Editing
 ~~~~~~~~~~~~~
 
-The Curve Editor is accessed by pressing a graph or by pressing the curve spin-box when it is selectable.  Some curve types may not be edited (any of the curves preceding the ‘Expo’ curve), and the curve-box will not be selectable if one of these curves is currently active.
+The Curve Editor is accessed
+.. if:: devo8
+by pressing a graph or 
+.. endif::
+by pressing the curve spin-box when it is selectable.  Some curve types may not be edited (any of the curves preceding the ‘Expo’ curve), and the curve-box will not be selectable if one of these curves is currently active.
 
 The Curve editor page will be different depending on which curve is selected.  It is not possible to change the curve type from the curve editor (except when a multi-point curve is selected).  Values can be set using the spin-box or by touching the graph.
 
