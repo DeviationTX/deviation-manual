@@ -313,11 +313,13 @@ texinfo_documents = [
 
 if tags.has("devo8"):
     title = u"Devo 6/8/12"
+    docname = u'Deviation8UsersManual'
 else:
     title = u"Devo 7e/10/12E"
+    docname = u'Deviation10UsersManual'
 
 pdf_documents = [ 
-    ('pdfindex', u'MyProject', title, u'Author Name'),
+    ('pdfindex', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
 ]
 
 # A comma-separated list of custom stylesheets. Example:
