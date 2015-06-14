@@ -17,6 +17,10 @@ The model menu allows selection, editing model configuration, alarms, logging an
 
 Depending on the selection you have done for the Mixer GUI in section `Model setup (Std & Adv GUI)`_, the model menu operation will be completely different.
 
+The Advanced '2. Mixer' page (`Mixer (Advanced GUI)`_) provides all of the functionality (and more) of the Standard Model.
+
+.. if:: devo8
+
 **Advanced GUI**:
 
 .. image:: images/devo8/ch_model/model_menu_conn.svg
@@ -27,23 +31,57 @@ Depending on the selection you have done for the Mixer GUI in section `Model set
 .. image:: images/devo8/ch_model/model_menu_std.png
    :width: 45%
 
+.. elseif:: devo10
+
+.. cssclass:: noborder
+
+.. list-table::
+   :widths: 5 45 45 5
+
+   * -
+     - **Advanced Model Menu**
+     - **Standard Model Menu**
+     -
+   * -
+     - .. image:: images/devo10/ch_model/model_menu_adv.png
+          :width: 100%
+     - .. image:: images/devo10/ch_model/model_menu_std.png
+          :width: 100%
+     -
+.. endif::
+
 .. cssclass:: bold-italic
 
 Note: The Advanced Mixer GUI is the default setting for all new models.
 
-
 Model setup (Std & Adv GUI)
 ---------------------------
 
-.. macro:: floatimg images/devo8/ch_model/model_setup.png
+.. macro:: floatimg images/|target|/ch_model/model_setup.png
 
 The model page provides various model configuration options.
 
-.. macro:: floatimg images/devo8/ch_model/model_load.png
+.. macro:: floatimg images/|target|/ch_model/model_load.png
 
 **File**: The File spin-box allows loading a new model, copying the existing model to a new location, resetting the current model to the default (all configuration is lost), and loading templates (see `Predefined Model Templates`_).  Note that changing models may result in a safety message being displayed (see `Safety System`_).
 
-.. macro:: floatimg images/devo8/ch_model/switch_mode.png
+.. if:: devo10
+
+.. cssclass:: noborder
+
+.. list-table::
+   :widths: 5 45 45 5
+
+   * -
+     - .. image:: images/devo10/ch_model/model_copy.png
+          :width: 100%
+     - .. image:: images/devo10/ch_model/model_reset.png
+          :width: 100%
+     -
+
+.. endif::
+
+.. macro:: floatimg images/|target|/ch_model/switch_mode.png
 
 .. container::
 
@@ -53,15 +91,15 @@ The model page provides various model configuration options.
 
    Note: If you switch from advanced mixer to standard mixer all data may be lost.
 
-.. macro:: floatimg images/devo8/ch_model/model_name.png
+.. macro:: floatimg images/|target|/ch_model/model_name.png
 
 **Model Name**: Set the model’s name. Use the left, right, up, and down buttons then ENT to select each character.
 
-.. macro:: floatimg images/devo8/ch_model/model_icon.png
+.. macro:: floatimg images/|target|/ch_model/model_icon.png
 
 **Icon**: Choose the model’s icon.   Additional model icons can be installed (see 2.3USB & File-system).
 
-.. macro:: floatimg images/devo8/ch_model/helicopter_opts.png
+.. macro:: floatimg images/|target|/ch_model/helicopter_opts.png
 
 .. container:: 
 
@@ -71,6 +109,13 @@ The model page provides various model configuration options.
 
 **Transmitter Power**: Specify the radio output power (when applicable). Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW. 
 
+.. if:: devo10
+
+.. cssclass:: bold-italic
+
+Note: Devo7e is transmitting with 7mW. Due to software configuration 150mW will always be displayed.
+
+.. endif::
 
 **PPM In**: Allows input from the DSC port primarily to control external hardware such as camera motors from a ' head tracker'. Secondarily it may be used to enable the transmitter to act as a Master in a buddy-box setup. Available options are Channel, Stick and Extend. 
 
@@ -78,11 +123,11 @@ The Stick and Channel modes are used for buddy-box setup and documentation can b
 
 **Protocol**: Set the type of receiver being used.  Note that some protocols have additional options that can be accessed by pressing the Protocol spin-box when it is active.  See section 9 Protocols for more on specific protocols.  Note that a protocol change will disable any currently active protocol and will affect any active model.  To enable the newly chosen protocol, use the Bind/Re-Init button described below.
 
-.. macro:: floatimg images/devo8/ch_model/binding.png
+.. macro:: floatimg images/|target|/ch_model/binding.png
 
 **Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the transmitter may bind with the model on start-up, or may need to be manually bound once.  See section 9 Protocols for more on specific protocols.  If the protocol does not support binding, the button will show ‘Re-Init’, which can be used to switch protocols without power-cycling the transmitter. 
    
-.. macro:: floatimg images/devo8/ch_model/fixed_id.png
+.. macro:: floatimg images/|target|/ch_model/fixed_id.png
 
 **Fixed ID**:  The Fixed ID sets a unique code to ensure that the transmitter will only bind to a specific model.  This is useful to ensure that the transmitter is not accidentally bound to the wrong model. 
 
@@ -91,7 +136,7 @@ The Stick and Channel modes are used for buddy-box setup and documentation can b
 Predefined Model Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/templates.png
+.. macro:: floatimg images/|target|/ch_model/templates.png
 
 .. container::
 
@@ -102,19 +147,29 @@ Predefined Model Templates
 Mixer (Adv GUI)
 ---------------
 
+.. if:: devo8
+
 .. image:: images/devo8/ch_model/mixer_main.svg
    :width: 80%
 
-The 'Advanced' GUI unleashes the full capabilities of the Deviation firmware, however it is unlike any commercial transmitter setup. Deviation also provides a more traditional setup interface for those who prefer it (see `Standard GUI Menu items`_). With the Advanced GUI, each output channel is composed of a series of one or more mixers each of which consists of a single input, an activation switch, and a function/curve that modifies the mixer output. This is a very powerful capability, but it will require learning a completely different method for setting up a model. To aid in quick setup, there are a few predefined configurations available (see `Predefined Model Templates`_), but to learn to modify and configure a model, read through this entire section carefully.
-
-The Mixer page controls how inputs (sticks/switches) are assigned to output channels.  The mixer page is accessed from the main menu by selecting the model icon..
+.. elseif:: devo10
  
-The number of channels available is dependent on the number of channels selected in section 8.1 Model setup (Std & Adv GUI). Additionally there are 10 Virtual channels that can be used as an intermediate step for complex setups. 
+.. macro:: floatimg images/devo10/ch_model/mixer_main.png
+
+.. endif::
+
+.. container::
+
+   The 'Advanced' GUI unleashes the full capabilities of the Deviation firmware, however it is unlike any commercial transmitter setup. Deviation also provides a more traditional setup interface for those who prefer it (see `Standard GUI Menu items`_). With the Advanced GUI, each output channel is composed of a series of one or more mixers each of which consists of a single input, an activation switch, and a function/curve that modifies the mixer output. This is a very powerful capability, but it will require learning a completely different method for setting up a model. To aid in quick setup, there are a few predefined configurations available (see `Predefined Model Templates`_), but to learn to modify and configure a model, read through this entire section carefully.
+
+   The Mixer page controls how inputs (sticks/switches) are assigned to output channels.  The mixer page is accessed from the main menu by selecting the model icon..
+ 
+   The number of channels available is dependent on the number of channels selected in section 8.1 Model setup (Std & Adv GUI). Additionally there are 10 Virtual channels that can be used as an intermediate step for complex setups. 
 
 Channel Reorder
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/reorder_channels.png
+.. macro:: floatimg images/|target|/ch_model/reorder_channels.png
 
 The Channel reorder page allows moving mixer definitions between channels as well as duplicating channel configurations.  Note that the values displayed are the initial channel assignments.  Whenever the page is loaded, the channels will be sequentially ordered representing the current state.
 
@@ -122,7 +177,7 @@ The Channel reorder page allows moving mixer definitions between channels as wel
 Channel configuration
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/channel_limits.png
+.. macro:: floatimg images/|target|/ch_model/channel_limits.png
 
 .. container::
 
@@ -130,34 +185,34 @@ Channel configuration
 
    Changes to this page will immediately effect the channel output.  Pressing '**Cancel**' will restore the shown values to their last saved state.
 
-**Reverse**: Reverse the direction of servo rotation
+   **Reverse**: Reverse the direction of servo rotation
 
-**Fail-safe**:  Specifies a value that the receiver should use when it loses signal from the transmitter. The range is between -125 and +125 or None. Not all receivers support this capability.
+   **Fail-safe**:  Specifies a value that the receiver should use when it loses signal from the transmitter. The range is between -125 and +125 or None. Not all receivers support this capability.
 
-**Safety**: Specifies a switch that will override all mixers and force the channel output to ‘Safe Val’ when flipped.
+   **Safety**: Specifies a switch that will override all mixers and force the channel output to ‘Safe Val’ when flipped.
 
-**Safe Val**: If a safety switch is chosen the Safe Val can also be specified. The acceptable range of Safe Val is any value between -150 and 150.
+   **Safe Val**: If a safety switch is chosen the Safe Val can also be specified. The acceptable range of Safe Val is any value between -150 and 150.
 
-**Min Limit/Max Limit**: These values define the minimum and maximum values that the transmitter will ever send to the receiver (after all scaling, trims and mixer are applied).  If a calculated value is outside the min/max range, it will be clipped to either the min or max value as appropriate. Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is -250 to 0 for Min Limit and 0 to 250 for Max Limit.
+   **Min Limit/Max Limit**: These values define the minimum and maximum values that the transmitter will ever send to the receiver (after all scaling, trims and mixer are applied).  If a calculated value is outside the min/max range, it will be clipped to either the min or max value as appropriate. Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is -250 to 0 for Min Limit and 0 to 250 for Max Limit.
 
-**Scale-/Scale+**: These values define a final scalar to adjust the servo throw. Allowed entries are between 1 and 250. When you alternate Scale+  Scale- will be changed in the same way. If Scale- has been set to a different value than Scale+ both data will act separately until you set them to the same value again.
+   **Scale-/Scale+**: These values define a final scalar to adjust the servo throw. Allowed entries are between 1 and 250. When you alternate Scale+  Scale- will be changed in the same way. If Scale- has been set to a different value than Scale+ both data will act separately until you set them to the same value again.
 
-**Subtrim**: Adjust servo zero position. The available range is between -50.0 and +50.0 in 0.1 increments.
+   **Subtrim**: Adjust servo zero position. The available range is between -50.0 and +50.0 in 0.1 increments.
 
-**Speed**: Adjust maximum servo speed.  Zero is disabled (fastest), Range is between 1 (slowest) and 250 (fastest). Servo speed is defined as number of degrees per 100msec (assuming a min/max throw of 120degrees).
-Example: A value of 60 will give a speed of 60degrees per 100msec which is equivalent to center-to max in 100msec. Most servos are rated at ~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A value of 30 should be approx twice as slow as a typical servo.
+   **Speed**: Adjust maximum servo speed.  Zero is disabled (fastest), Range is between 1 (slowest) and 250 (fastest). Servo speed is defined as number of degrees per 100msec (assuming a min/max throw of 120degrees).
+     Example: A value of 60 will give a speed of 60degrees per 100msec which is equivalent to center-to max in 100msec. Most servos are rated at ~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A value of 30 should be approx twice as slow as a typical servo.
 
 Virtual channel configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/channel_name.png
+.. macro:: floatimg images/|target|/ch_model/channel_name.png
 
 If you press ENT on a virtual channel a keyboard screen is shown where you may edit the default name. You can touch each character, or use L/R/UP/DN buttons followed by 'ENT' to select.
 
 Simple Template
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/simple_template.png
+.. macro:: floatimg images/|target|/ch_model/simple_template.png
 
 .. container::
 
@@ -165,18 +220,18 @@ Simple Template
 
    A ‘Long-ENT’ press will update the current mixer settings, making it possible to test them on the transmitter.
 
-**Src**: The input source controlling this mixer.
+   **Src**: The input source controlling this mixer.
 
-**Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
+   **Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
 
-**Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
+   **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
-**Offset**: An additive offset that is applied after the scaling.
+   **Offset**: An additive offset that is applied after the scaling.
 
 Expo & Dual-Rate Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/expo_dr.png
+.. macro:: floatimg images/|target|/ch_model/expo_dr.png
 
 .. container::
    The Expo/Dual-Rate template is a more sophisticated template designed to allow use of toggle or 3-way switches to manipulate an input.  The primary-input (stick, switch, or other channel), can have a different curve/function and scaling for each toggle-switch position.
@@ -185,18 +240,18 @@ Expo & Dual-Rate Template
 
    A ‘Long-ENT’ press will update the current mixer settings, making it possible to test them on the transmitter.
 
-**Src**: The input source controlling this mixer.
+   **Src**: The input source controlling this mixer.
 
-**Curve**: The function applied to the input to generate the output.  See section `Available Curves`_ for more info.  Depending on curve-type, pressing curve may display the curve editor (see `Curve Editing`_).
+   **Curve**: The function applied to the input to generate the output.  See section `Available Curves`_ for more info.  Depending on curve-type, pressing curve may display the curve editor (see `Curve Editing`_).
 
-**Switch**: Specify a switch to enable Medium or Low rates.
+   **Switch**: Specify a switch to enable Medium or Low rates.
 
-**Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
+   **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
 Complex Template
 ~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/complex.png
+.. macro:: floatimg images/|target|/ch_model/complex.png
 
 .. container::
 
@@ -204,34 +259,35 @@ Complex Template
 
    A ‘Long-ENT’ press will update the current mixer settings, making it possible to test them on the transmitter.
 
-The Complex Mixer page has the following options:
+   The Complex Mixer page has the following options:
 
-**Mixers**: Specify the number of mixers for this channel. If you increase the number a new mixer will be added after the last existing page.
+   **Mixers**: Specify the number of mixers for this channel. If you increase the number a new mixer will be added after the last existing page.
 
-**Page**: Specify the current mixer page being edited.  Pressing the spin-box will allow reordering the pages of the current channel.
+   **Page**: Specify the current mixer page being edited.  Pressing the spin-box will allow reordering the pages of the current channel.
 
-**Switch**: Specify an optional switch which determines whether the current mixer is active.
+   **Switch**: Specify an optional switch which determines whether the current mixer is active.
 
-**Mux**: Defines how the current mixer is applied to the previously defined mixers for this channel.  Options are:
-* **Replace**: If this mixer is active, all previous mixers are ignored.
-* **Add**: Add the value of this mixer to the previous mixers.
-* **Mult**: Multiply the value of this mixer with the previous mixers.
-* **Max**: The output will be the greater of the current mixer vs the previous mixers.
-* **Min**: The output will be the lesser of the current mixer vs the previous mixers.
-* **Delay**: Delay the output of this mixer when used with a fixed curve. Scale of 100 represents 5 seconds delay. Can be varied by using scale or offset. 
+   **Mux**: Defines how the current mixer is applied to the previously defined mixers for this channel.  Options are:
+   * **Replace**: If this mixer is active, all previous mixers are ignored.
+   * **Add**: Add the value of this mixer to the previous mixers.
+   * **Mult**: Multiply the value of this mixer with the previous mixers.
+   * **Max**: The output will be the greater of the current mixer vs the previous mixers.
+   * **Min**: The output will be the lesser of the current mixer vs the previous mixers.
+   * **Delay**: Delay the output of this mixer when used with a fixed curve. Scale of 100 represents 5 seconds delay. Can be varied by using scale or offset. 
 
-**Src**: The input source controlling this mixer.
+   **Src**: The input source controlling this mixer.
 
-**Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
+   **Curve**: The function applied to the input to generate the output.  See section 8.2.9 Available Curves for more info.  Depending on curve-type, pressing curve may display the curve editor (see 8.2.10 Curve Editing).
 
-**Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
+   **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
-Note that while the scale value is limited to 100%, the mixer may provide a value larger than 100% if an offset is set or if the trim value is non-zero.
+   Note that while the scale value is limited to 100%, the mixer may provide a value larger than 100% if an offset is set or if the trim value is non-zero.
 
-**Offset**: an additive offset that is applied after the scaling.
+   **Offset**: an additive offset that is applied after the scaling.
 
-**Trim**: Selects whether or not any trims for the selected source are applied to this mixer.
+   **Trim**: Selects whether or not any trims for the selected source are applied to this mixer.
 
+\ 
   A given mixer can be considered to have the general form:
 
      M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + *Trim*
@@ -261,12 +317,17 @@ Note that while the scale value is limited to 100%, the mixer may provide a valu
 Cyclic
 ~~~~~~
 
+.. if:: devo10
+
+.. macro:: floatimg images/devo10/ch_model/cyclic.png
+
+.. endif::
 **Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate mix. These will represent the 3 servos connected to the helicopter swash-plate (see `Swash Configuration`_).
 
 Reordering Mixers
 ~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/reorder_mixers.png
+.. macro:: floatimg images/|target|/ch_model/reorder_mixers.png
 
 .. container::
    Since the ordering of mixers is important to the output, it is possible to reorder and/or copy mixers in order to facilitate building complex rules.  This page is accessed by pressing ENT on the ‘Page’ spin-box on the complex mixer page.
@@ -300,38 +361,51 @@ The Curve Editor is accessed by pressing a graph or by pressing the curve spin-b
 
 The Curve editor page will be different depending on which curve is selected.  It is not possible to change the curve type from the curve editor (except when a multi-point curve is selected).  Values can be set using the spin-box or by touching the graph.
 
-.. macro:: floatimg images/devo8/ch_model/curve_minmax.png
+.. macro:: floatimg images/|target|/ch_model/curve_minmax.png
 
 For the Min/Max, Zero/Max, >0, <0, and ABSVAL, the controls allow setting the transition point along the x-axis.  A value of ‘0’ will be symmetric around the y-axis, positive or negative values will move the center point accordingly
 
-.. macro:: floatimg images/devo8/ch_model/curve_expo.png
+.. macro:: floatimg images/|target|/ch_model/curve_expo.png
 
 For the Expo curve, the controls allow independently configuring the shape of the curve for values greater-than or less-than zero.
 
-.. macro:: floatimg images/devo8/ch_model/curve_deadband.png
+.. macro:: floatimg images/|target|/ch_model/curve_deadband.png
 
 For the Deadband curve, the controls allow independently configuring the deadband width for values greater-than or less-than zero.
 
-.. macro:: floatimg images/devo8/ch_model/curve_multipoint.png
+.. macro:: floatimg images/|target|/ch_model/curve_multipoint.png
 
 For the Multi-point curves, each point can be individually set.  Points are set by choosing the point number and then choosing a value. The minimum number of points allowable is 3 the maximum number of points is 13.  Enabling 'Smooth' will apply a smoothing function rather than connecting points via straight lines.
 
 
 Timers (Std & Adv GUI)
 ----------------------
+
+.. if:: devo8
  
 .. image:: images/devo8/ch_model/timers.png
    :width: 80%
 
-The timer page defines up to 4 available timers.  Timers can count either up or down, and can be enabled either manually from the main screen or by an input trigger (stick or switch).
+.. elseif:: devo10
 
-Available timers are stopwatch, countdown, stopwatch-proportional, countdown-proportional, and permanent.
+.. macro:: floatimg images/devo10/ch_model/timers.png
 
-Timers can also be optionally configured to be reset via an alternate switch (only when using the Advanced GUI).
+.. endif::
 
-Both proportional timers need an input between 0 and 100 to act correctly. If you use these timer for throttle a virtual mixer must be used as the input to scale -100 to 100 values into 0 to 100.
+.. container::
 
-.. macro:: floatimg images/devo8/ch_model/permanent_timer.png
+   The timer page defines up to 4 available timers.  Timers can count either up or down, and can be enabled either manually from the main screen or by an input trigger (stick or switch).
+
+
+   Available timers are stopwatch, countdown, stopwatch-proportional, countdown-proportional, and permanent.
+
+
+   Timers can also be optionally configured to be reset via an alternate switch (only when using the Advanced GUI).
+
+
+   Both proportional timers need an input between 0 and 100 to act correctly. If you use these timer for throttle a virtual mixer must be used as the input to scale -100 to 100 values into 0 to 100.
+
+.. macro:: floatimg images/|target|/ch_model/permanent_timer.png
 
 The ‘permanent’ timers are similar to an odometer and have their values saved in the model.ini file. They will maintain their previous value when powering up the transmitter. You can set the timer by using the 'Set to' button and reset by pressing the 'Reset' button.
 
@@ -339,11 +413,12 @@ The ‘permanent’ timers are similar to an odometer and have their values save
 Telemetry config (Std & Adv GUI)
 --------------------------------
 
-The telemetry configuration page allows specifying alarms when specific telemetry events occur.
 
-.. macro:: floatimg images/devo8/ch_model/telemetry_config.png
+.. macro:: floatimg images/|target|/ch_model/telemetry_config.png
 
 .. container::
+
+   The telemetry configuration page allows specifying alarms when specific telemetry events occur.
 
    * **Telemetry**: Specify the telemetry input to use for alarm control.  This can be a temperature probe, voltage probe, or RPM probe.
    * **Equality**: Can be '>=' or '<=' indicating whether a value above or below the target causes an alarm.
@@ -352,7 +427,7 @@ The telemetry configuration page allows specifying alarms when specific telemetr
 Trims and Virtual Inputs (Adv GUI)
 ----------------------------------
 
-.. macro:: floatimg images/devo8/ch_model/trims.png
+.. macro:: floatimg images/|target|/ch_model/trims.png
 
 .. container::
 
@@ -360,7 +435,7 @@ Trims and Virtual Inputs (Adv GUI)
 
    If the ‘Input’ field is set to an input stick, then the trim can be applied as part of the mixer, and will operate as a typical trim control.  If the ‘Input’ field is set as a channel or virtual-channel output, the value is applied directly to the channel output.  In this case, the selected ‘Pos’ and ‘Neg’ buttons can operate as a virtual stick to control an output channel.
 
-.. macro:: floatimg images/devo8/ch_model/trims2.png
+.. macro:: floatimg images/|target|/ch_model/trims2.png
 
 .. container::
 
@@ -373,7 +448,7 @@ Datalog (Std & Adv GUI)
 
 The Datalog feature allows storing a history of input or output positions as well as telemetry info over a period of time. This can be used to examine and replay a flight as well as to visualize telemetry information at a later time. Logs are persistent and Deviation will continue writing to the end of the previous log by default.
 
-.. macro:: floatimg images/devo8/ch_model/datalog.png
+.. macro:: floatimg images/|target|/ch_model/datalog.png
 
 .. container::
 
@@ -392,38 +467,77 @@ By default, the log can only store 16kB of data. You can increase the amount of 
 Main page config (Std & Adv GUI)
 --------------------------------
 
+.. if:: devo8
+
 .. image:: images/devo8/ch_model/mainpage_layout.png
    :width: 45%
 
-The main page config page is used to configure the main-page display.  This page allows definition of which elements are shown on the main page.
+.. elseif:: devo10
 
-The following types of objects can be displayed:
+.. macro:: floatimg images/devo10/ch_model/mainpage_layout.png
 
-* **Box**: Display a numeric value.  Values can be timers, channel values, stick inputs, etc.  There are two types of boxes: big and small.  The only difference is the size of the box and the text within it.
-* **Trimbar**: Display a trim value.  These generally are controlled by the trim switch and indicate what the current trim position is.  There are two types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal bar. After inserting all trims do have numbers only.
-* **Model (Icon)**: Display the icon related to the selected model.
-* **Battery**: Display the battery voltage.
-* **TxPower**: Displays the actual transmitter rating.
-* **Bargraph**: Displays a vertical bar.  The value of the bar is typically a stick input or channel output. 
-* **Toggle**: Show an icon indicating the state of a toggle switch.  There can be 1, 2, or 3 icons defined for a given toggle indicating different states depending on the switch position.  Two-state switches can have up to 2 icons.  Three-state switches can have up to 3 icons. 
-* **(Quick) Menus**: Quick menus define quick-access pages that can be reached via a long UP/DN press.
+.. endif::
+
+.. container::
+
+   The main page config page is used to configure the main-page display.  This page allows definition of which elements are shown on the main page.
+
+
+   The following types of objects can be displayed:
+
+
+   * **Box**: Display a numeric value.  Values can be timers, channel values, stick inputs, etc.  There are two types of boxes: big and small.  The only difference is the size of the box and the text within it.
+   * **Trimbar**: Display a trim value.  These generally are controlled by the trim switch and indicate what the current trim position is.  There are two types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal bar. After inserting all trims do have numbers only.
+   * **Model (Icon)**: Display the icon related to the selected model.
+   * **Battery**: Display the battery voltage.
+   * **TxPower**: Displays the actual transmitter rating.
+   * **Bargraph**: Displays a vertical bar.  The value of the bar is typically a stick input or channel output. 
+   * **Toggle**: Show an icon indicating the state of a toggle switch.  There can be 1, 2, or 3 icons defined for a given toggle indicating different states depending on the switch position.  Two-state switches can have up to 2 icons.  Three-state switches can have up to 3 icons. 
+   * **(Quick) Menus**: Quick menus define quick-access pages that can be reached via a long UP/DN press.
+
 
 Configuring object position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. if:: devo8
+
 Each of the visual objects can be selected by pressing on them, or with the UP/DN buttons followed by ENT.  Once selected, the UP/DN/L/R buttons will move the selected object on the screen.  Alternatively, the X and Y spin-boxes which appear in move mode can also be used to move the selected object.  Press EXT once to exit move mode.
+
+.. elseif:: devo10
+
+.. cssclass:: bold-italic
+
+Note: This feature is not available for Devo7e.
+
+.. macro:: floatimg images/devo10/ch_model/layout_position.png
+
+Pressing and holding the ENT button from the model configuration page will switch to the object position screen.  Each of the visual objects can be selected using the UP/DN buttons.  Pressing ENT again will allow moving the placement of the selected object.  The UP/DN/L/R buttons will move the selected object on the screen.  Press EXT once to exit move mode, and again to go back to the main page config menu.
+
+.. endif::
 
 Creating Objects
 ~~~~~~~~~~~~~~~~
+
+.. if:: devo8
 
 .. macro:: floatimg images/devo8/ch_model/mainpage_createobj.png
 
 Select the '+' icon to open the add-item dialog.  Then select the object type from the spin-box on the left, then press ‘Add’ to create the object.  This will add the specified object type to the center of the screen.  You can now place and configure the new object.
 
+.. elseif:: devo10
+
+.. cssclass:: bold-italic
+
+Note: This feature is not available for Devo7e. 
+
+Select the object type from the spin-box on the left, then press ‘**Add**’ to create the object.  This will add the relevant object type to the relevant section in the menu with a type of ‘None’ (where applicable).  Then move the cursor to the newly created object and configure as desired.
+
+.. endif::
+
 Loading Objects
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/mainpage_load_layout.png
+.. macro:: floatimg images/|target|/ch_model/mainpage_load_layout.png
 
 .. container::
 
@@ -448,27 +562,32 @@ Configuring Objects
 * **Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’ button to choose icon
 * **Menu**: Choose page to display for each of 4 quick-page slots
 
+.. if:: devo8
+
 .. image:: images/devo8/ch_model/mainpage_edit.svg
    :width: 80%
+
+.. endif::
 
 You can delete any object by configuring the object and pressing the ‘Delete’ button
 
 Choosing toggle icons
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/choose_toggle.png
+.. macro:: floatimg images/|target|/ch_model/choose_toggle.png
 
 Pressing the ‘Toggle’ button on a toggle object allows selecting the related icons. Channels, sticks, and 2-position sticks can have 2 icons.  3 position sticks (if any) can have 3 icons.  Each of the 2 (or 3) icon states can be set to empty, defining that no icon is shown for this state.  The Deviation firmware comes with several predefined icons to choose from.
-
 
 Standard GUI Menu items
 -----------------------
 
-.. macro:: floatimg images/devo8/ch_model/model_menu_std.png
+.. macro:: floatimg images/|target|/ch_model/model_menu_std.png
 
 .. container::
 
    The Standard GUI is an alternative interface from the Advanced GUI’.  Which interface is used is chosen by the ‘Mixer GUI’ setting in section 8.1 Model setup (Std & Adv GUI).  The Standard GUI is only available for Helicopter-type models at this time.  The pages of the Standard GUI are as follows:
+
+.. if:: devo8
 
 .. list-table::
    :widths: 10 40 10 40
@@ -527,31 +646,51 @@ Standard GUI Menu items
      -
      -
 
+.. elseif:: devo10
+
+   1. **Model setup**: Model configuration page (See section  `Model setup (Standard & Advanced GUI)`_)
+   2. **Reverse**: Servo reverse
+   3. **D/R & Exp**: Dual-rates setup
+   4. **Subtrim**: Servo sub-trim
+   5. **Travel adjust**: Servo travel-adjust
+   6. **Throttle curves**: Throttle curve setup
+   7. **Pitch curves**: Pitch curve setup
+   8. **Throttle hold**: Throttle-hold configuration
+   9. **Gyro sense**: Gyro-sense configuration
+   10. **Swash**: Swash Setup
+   11. **Fail safe**: Fail-Safe configuration
+   12. **Switch assignment**: Assign switch controls
+   13. **Timers**: Timer configuration (See section `Timers (Standard & Advanced GUI)`_)
+   14. **Telemetry config**: Configure telemetry alarms (See section `Telemetry config (Standard & Advanced GUI)`_)
+   15. **Datalog**: Configure telemetry logging (See section `Datalog (Standard & Advanced GUI)`_)
+   16. **Main page config**: Configure main page display (See section `Main page config (Standard & Advanced GUI)`_)
+
+.. endif::
 Servo Reverse
 ~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/servo_reverse.png
+.. macro:: floatimg images/|target|/ch_model/servo_reverse.png
 
 The servo reverse page allows quickly setting each channel to work in either normal or reversed mode.  These settings are equivalent to the ‘Reverse’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see section `Channel configuration`_)
 
 Dual-Rate/Expo setting
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/dualrate.png
+.. macro:: floatimg images/|target|/ch_model/dualrate.png
 
 The dual-rate and expo page allows configuration of curves for the Aileron, Rudder, and Elevator channels.  Up-to 3 rates can be configured for each channel, and either a scaled-linear or exponential curve can be selected for each.  The number of settings depends on the switch assigned to the dual-rates function on the Switch Assignment page (see `Switch Assignment`_)
 
 Sub-trim Adjustment
 ~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/subtrim.png
+.. macro:: floatimg images/|target|/ch_model/subtrim.png
 
 The sub-trim adjust page allows setting the zero-point of the servos for each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see `Channel configuration`_). Acceptable values range from -50 to +50 in 0.1 increments.
 
 Servo Travel Adjust
 ~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/travel_adjust.png
+.. macro:: floatimg images/|target|/ch_model/travel_adjust.png
 
 The servo-travel adjust page configures the maximum positive/negative travel of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see `Channel configuration`_). Acceptable values for Down are from -175 to -1 and Up values range from +1 to +175. The default values are -100 and +100 respectively.
 
@@ -561,7 +700,11 @@ Swash Configuration
 The Swash configuration page configures the swash type.  More information about swash-types can be found in section 10.4 Swash Mixing.  The settings on this page are equivalent to those on the model configuration page (see `Model setup (Std & Adv GUI)`_), and configuration for both pages is provided below.
 
 .. image:: images/devo8/ch_model/swashmix.svg
+.. if:: devo8
    :width: 90%
+.. elseif:: devo10
+   :width: 80%
+.. endif::
 
 The available SwashType values are:
 * **None/1Servo**: Used For FBL.  Mixing occurs in receiver
@@ -576,42 +719,42 @@ Note that setting these values too large can result in too much servo throw and 
 Throttle Curve
 ~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/throttle_curve.png
+.. macro:: floatimg images/|target|/ch_model/throttle_curve.png
 
 The throttle curve page allows defining a piece-wise linear curve for the throttle channel.  Different curves can be selected for each flight-mode.  Each point value can be enabled to be interpolated from the points surrounding it.
 
 Pitch Curve
 ~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/pitch_curve.png
+.. macro:: floatimg images/|target|/ch_model/pitch_curve.png
 
 The pitch curve allows defining a piece-wise linear curve for the collective/pitch channel.  Different curves can be selected for each flight-mode as well as for throttle-hold.  Each point value can be enabled to be interpolated from the points surrounding it.
 
 Gyro Sensitivity
 ~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/gyro_sense.png
+.. macro:: floatimg images/|target|/ch_model/gyro_sense.png
 
 The gyro-sensitivity page enables configuring up-to 3 sensitivity values for the gyro as well as which channel to use for sending the gyro value. Acceptable values range from 0 to 100%.
 
 Switch Assignment
 ~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/switch_assign.png
+.. macro:: floatimg images/|target|/ch_model/switch_assign.png
 
 The switch assignment page enables configuring which switches to use for each capability in the standard-GUI.  The same switch may be assigned to multiple capabilities.
 
 Throttle Hold
 ~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/throttle_hold.png
+.. macro:: floatimg images/|target|/ch_model/throttle_hold.png
 
 The throttle-hold page is used to enable/disable the throttle-hold capability.  Specifying ‘Hold position’ defines the throttle value when the Throttle-hold switch is set. Hold position can be set from -200 to 200.
 
 Fail-Safe Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/devo8/ch_model/failsafe.png
+.. macro:: floatimg images/|target|/ch_model/failsafe.png
 
 The fail-safe page is used to configure the fail-safe value for each channel (if the protocol supports this feature)
 

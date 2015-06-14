@@ -18,6 +18,10 @@
 .. include:: ch_mainpage.rst
 .. macro::   pdf_page_break
 .. include:: ch_navigating.rst
+.. if:: devo10
+.. macro::   pdf_page_break
+.. include:: ch_mainmenu.rst
+.. endif::
 .. macro::   pdf_page_break
 .. include:: ch_transmitter.rst
 .. macro::   pdf_page_break

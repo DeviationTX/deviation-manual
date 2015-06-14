@@ -10,6 +10,9 @@
    ch_txdiff
    ch_mainpage
    ch_navigating
+.. if:: devo10
+   ch_mainmenu
+.. endif::
    ch_transmitter
    ch_model
    ch_protocols

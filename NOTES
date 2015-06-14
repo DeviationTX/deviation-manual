@@ -9,6 +9,7 @@ To add a border on the left edge of an image (to account for floating image issu
 devo8:
 convert input.png -matte -background none -splice 10x0 output.png
 devo10:
+convert input.png -type truecolor -matte -background white -splice 10x0 -transparent white PNG24:output.png
 convert input.png -matte -background white -splice 10x0 output.png
 (reportlab doesn't detect alpha properly on devo10 screenshots)
 
