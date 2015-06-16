@@ -37,37 +37,37 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:   $(SPHINXBUILD)
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html-$(TARGET)
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html-$(TARGET)."
 
 epub:   $(SPHINXBUILD)
-	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/epub
+	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/epub-$(TARGET)
 	@echo
-	@echo "Build finished. The epub file is in $(BUILDDIR)/epub."
+	@echo "Build finished. The epub file is in $(BUILDDIR)/epub-$(TARGET)."
 
 latex:  $(SPHINXBUILD)
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
 	@echo
-	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
+	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex-$(TARGET)."
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
  
 latexpdf: $(SPHINXBUILD)
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
-	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)."
 
 pseudoxml: $(SPHINXBUILD)
-	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
+	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml-$(TARGET)
 	@echo
-	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml-$(TARGET)."
 
 pdf: $(SPHINXBUILD)
-	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf-$(TARGET)
 	@echo
-	@echo "Build finished. The PDF files are in $(BUILDDIR)/pdf."
+	@echo "Build finished. The PDF files are in $(BUILDDIR)/pdf-$(TARGET)."
 
 venv: $(VENVDIR)/bin/activate
 $(BUILDDIR)/venv/bin/activate: requirements.txt

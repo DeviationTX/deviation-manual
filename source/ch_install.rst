@@ -48,8 +48,8 @@ Turn off the transmitter, and turn back on while holding ‘ENT’. There should
 
 Open the folder of the zip and copy all the files and directories inside this folder to the root of the transmitter USB drive. For details of the file-system please see :ref:`usb-file-system`. The files with the extension zip, and dfu need not to be copied.
 
-.. image:: images/dont_copy_files.png
-   :width: 40%
+.. image:: images/|target|/ch_install/dont_copy_files.png
+   :height: 6cm
 
 Upgrade notes
 -------------
