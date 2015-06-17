@@ -69,6 +69,10 @@ auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
 is used instead.  It is necessary to manually bind each model before
 the first use.
 
+Note that binding does not exit until you move the AIL or ELE
+controls. This is so you can press the Failsafe button on some DSM
+receivers to set the failsafe value.
+
 .. macro:: floatimg images/|target|/ch_protocols/dsm2.png
 
 The DSM2 protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DSM2 is shown.
@@ -90,6 +94,10 @@ The DSM2 protocol also supports enabling/disabling the telemetry capability.  Th
 Protocol: DSMX
 --------------
 The DSMX protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  While the DSMX protocol can support up to 14 channels, Deviation is currently limited to a maximum of 12.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSMX does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+
+Note that binding does not exit until you move the AIL or ELE
+controls. This is so you can press the Failsafe button on some DSM
+receivers to set the failsafe value.
 
 Note that unlike Spektrum™ or JR™ transmitters, Deviation will not automatically select between DSM2 and DSMX.  The user must select which protocol to use.
 
