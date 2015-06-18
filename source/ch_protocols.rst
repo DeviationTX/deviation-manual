@@ -258,7 +258,7 @@ The eighth channel starts/stops video recording on each positive transition.
 
 Protocol: CFlie
 ---------------
-The CFlie protocol is used on the CrayFlie nano quad. It has not been
+The CFlie protocol is used on the CrazyFlie nano quad. It has not been
 tested with any other models. |nrf24l01p-note|
 
 |mod-install-link|
