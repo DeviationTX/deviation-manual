@@ -31,6 +31,7 @@ help:
 	@echo "  epub       to make an epub"
 	@echo "  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter"
 	@echo "  latexpdf   to make LaTeX files and run them through pdflatex"
+	@echo "  gettext    to make PO message catalogs"
 	@echo "  pseudoxml  to make pseudoxml-XML files for display purposes"
 
 clean:
@@ -58,6 +59,11 @@ latexpdf: $(SPHINXBUILD)
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)."
+
+gettext: $(SPHINXBUILD)
+	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
+	@echo
+	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
 
 pseudoxml: $(SPHINXBUILD)
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml-$(TARGET)
