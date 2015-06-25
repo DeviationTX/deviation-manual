@@ -69,6 +69,10 @@ auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
 is used instead.  It is necessary to manually bind each model before
 the first use.
 
+Note that binding does not exit until you move the AIL or ELE
+controls. This is so you can press the Failsafe button on some DSM
+receivers to set the failsafe value.
+
 .. macro:: floatimg images/|target|/ch_protocols/dsm2.png
 
 The DSM2 protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DSM2 is shown.
@@ -90,6 +94,10 @@ The DSM2 protocol also supports enabling/disabling the telemetry capability.  Th
 Protocol: DSMX
 --------------
 The DSMX protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  While the DSMX protocol can support up to 14 channels, Deviation is currently limited to a maximum of 12.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSMX does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+
+Note that binding does not exit until you move the AIL or ELE
+controls. This is so you can press the Failsafe button on some DSM
+receivers to set the failsafe value.
 
 Note that unlike Spektrum™ or JR™ transmitters, Deviation will not automatically select between DSM2 and DSMX.  The user must select which protocol to use.
 
@@ -159,16 +167,7 @@ is necessary to bind each model before the first use.
 The first channel normally controls the sheets and the second channel
 the rudder, but this may vary from model to model.
 
-
-Protocol: \*Skyartec
---------------------
-The Skyartec protocol is used to control Skyartec™ receivers and models. |cc2500-note|
-
-|mod-install-link|
- 
-The Skyartec protocol supports up to 7 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
-
-Protocol: \*Frsky1
+Protocol: \*Frsky
 ------------------
 The Frsky1 protocol is used to control older (non-telemetry) Frsky™ receivers using the one-way protocol. |cc2500-note|
 
@@ -176,7 +175,7 @@ The Frsky1 protocol is used to control older (non-telemetry) Frsky™ receivers 
 
 The Frsky1way protocol supports 4 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
-Protocol: \*Frsky2
+Protocol: \*Frsky-V8
 ------------------
 The Frsky2 protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol. |cc2500-note|
 
@@ -185,6 +184,14 @@ The Frsky2 protocol is used to control newer (telemetry enabled) Frsky™ receiv
 The Frsky2way protocol supports up to 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 The Frsky2way protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when Frsky2way is shown.
+
+Protocol: \*Skyartec
+--------------------
+The Skyartec protocol is used to control Skyartec™ receivers and models. |cc2500-note|
+
+|mod-install-link|
+ 
+The Skyartec protocol supports up to 7 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 Protocol: \*V202
 ----------------
@@ -249,7 +256,63 @@ The seventh channel takes a picture when the channel moves from negative to posi
 
 The eighth channel starts/stops video recording on each positive transition.
 
-.. _protocol-ppm:
+Protocol: CFlie
+---------------
+The CFlie protocol is used on the CrazyFlie nano quad. It has not been
+tested with any other models. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: H377
+--------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: H830
+--------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: KN
+------------
+The KN protocol is used on the WLToys V930, V966, V977 and V988
+helicopters. It has not been tested with other models. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: ESky150
+-----------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: Esky
+--------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: BlueFly
+-----------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+Protocol: CX10
+---------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
+
+Protocol: CG023
+---------------
+Needs to be completed. |nrf24l01p-note|
+
+|mod-install-link|
+
 
 Protocol: PPM
 -------------
@@ -272,7 +335,13 @@ The PPM protocol is used to output PPM on the trainer port.  It will disable all
 
 Deviation does not auto-detect when a trainer cord is plugged into the transmitter.  To use Deviation with a simulator (such as Phoenix), create a new model, name it appropriately, and select PPM as the protocol.  Use the Re-Init button or power-cycle to enable PPM.
 
+.. _protocol-ppm:
+
 Protocol: USBHID
 ----------------
 The USBHID protocol will convert he transmitter into a USB joystick.  Connecting the transmitter to a PC via the USB cable will enable the transmitter to be detected as a joystick by the computer. This may be used to enable the transmitter to control any simulators that support joystick input. Some initial calibration may be necessary and is accomplished via the control panel applet of your operating system.
 
+Protocol: TESTRF
+----------------
+
+Needs to be completed.
