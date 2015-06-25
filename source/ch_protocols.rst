@@ -6,6 +6,8 @@
 .. |nrf24l01-note| replace:: **NOTE:  This protocol requires the addition of an ‘NRF24L01’ hardware module to function.  See the following document for more information**:
 .. |nrf24l01p-note| replace:: **NOTE:  This protocol requires the addition of an ‘NRF24L01+’ hardware module to function.  Note the "plus" version of the nRF device is required to support the 250kbits/s data rate.  See the following document for more information**:
 
+.. _protocols
+
 Protocols
 =========
 Some protocols have additional customization or limits.  Each of the protocols is described below.  If an ‘*’ is shown before the protocol name, it means this protocol is not currently supported by the transmitter.  This generally means that the necessary hardware module is not installed or has not been configured properly.  More information can be found in the Module installation guide:
@@ -153,7 +155,7 @@ Protocol: \*Joysway
 -------------------
 The Joysway protocol supports the Joysway Caribbean model yacht, and
 the J4C12R receiver used in the Joysway Orion, Explorer, Dragon Force
-65 model yachts and Force2 60 model catamaran.No other models or 
+65 model yachts and Force2 60 model catamaran. No other models or 
 receivers have been tested with this protocol, including air versions
 of the J4C12R.  |a7105-note|
 
