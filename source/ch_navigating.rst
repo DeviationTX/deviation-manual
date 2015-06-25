@@ -42,7 +42,7 @@ Navigating with the physical buttons
 
 * On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next item.
 * The ‘R+’ and ‘L-’ buttons are used on spin-box widgets to increase or decrease the selected value. In some cases holding down the button will use larger step values to move more quickly to the desired value.
-* For buttons and rounded-spin-boxes, pressing ENT’ will press the button,
+* For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,
 * Pressing ‘EXT’ will remove selection form the current item.  A long-press of ‘EXT’ will exit one (1) menu level.
 
 .. if:: devo8

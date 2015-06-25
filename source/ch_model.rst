@@ -111,7 +111,11 @@ The model page provides various model configuration options.
 
 .. container:: 
 
-   **Model Type**: Set the model-type available options are Heli and Plane. Helicopter models have an additional configuration page that can be accessed by clicking the Model type. The options for SwashType are identical to the ones in :ref:`swash-configuration`.
+   **Model Type**: Set the model-type available options are Heli,
+   Plane and Multi. Helicopter models have an additional configuration
+   page that can be accessed by clicking the Model type. The options
+   for SwashType are identical to the ones in
+   :ref:`swash-configuration`.
 
    If you switch from model type Helicopter this will change the Mixer GUI to Advanced automatically because the Standard GUI only supports helicopters.
 
@@ -126,11 +130,21 @@ Note: A stock Devo7e transmits with 7mW. Due to software configuration
 
 .. endif::
 
-**PPM In**: Allows input from the DSC port primarily to control external hardware such as camera motors from a ' head tracker'. Secondarily it may be used to enable the transmitter to act as a Master in a buddy-box setup. Available options are Channel, Stick and Extend. 
+**PPM In**: Allows input from the DSC port primarily to control
+ external hardware such as camera motors from a 'head
+ tracker'. Secondarily it may be used to enable the transmitter to act
+ as a Master in a buddy-box setup. Available options are Channel,
+ Stick and Extend.
 
 The Stick and Channel modes are used for buddy-box setup and documentation can be found in chapter :ref:`setting-up-a-buddy-box`.  The Extend mode is used for FPV or external input setup and documentation can be found in chapter :ref:`setting-up-fpv`. 
 
-**Protocol**: Set the type of receiver being used.  Note that some protocols have additional options that can be accessed by pressing the Protocol spin-box when it is active.  See section 9 Protocols for more on specific protocols.  Note that a protocol change will disable any currently active protocol and will affect any active model.  To enable the newly chosen protocol, use the Bind/Re-Init button described below.
+**Protocol**: Set the type of receiver being used.  Note that some
+ protocols have additional options that can be accessed by pressing
+ the Protocol spin-box when it is active.  See section
+ :ref:`protocols` for more on specific protocols.  Note that a
+ protocol change will disable any currently active protocol and will
+ affect any active model.  To enable the newly chosen protocol, use
+ the Bind/Re-Init button described below.
 
 .. macro:: floatimg images/|target|/ch_model/binding.png
 
@@ -221,7 +235,12 @@ Virtual channel configuration
 
 .. macro:: floatimg images/|target|/ch_model/channel_name.png
 
-If you press ENT on a virtual channel a keyboard screen is shown where you may edit the default name. You can touch each character, or use L/R/UP/DN buttons followed by 'ENT' to select.
+If you press ENT on a virtual channel a keyboard screen is shown where
+you may edit the default name. You can use L/R/UP/DN buttons followed
+by 'ENT' to select.
+.. if:: devo8
+Or just touch each character.
+.. endif::
 
 Simple Template
 ~~~~~~~~~~~~~~~
@@ -258,7 +277,7 @@ Expo & Dual-Rate Template
 
    **Curve**: The function applied to the input to generate the output.  See section :ref:`available-curves` for more info.  Depending on curve-type, pressing curve may display the curve editor (see :ref:`curve-editing`).
 
-   **Switch**: Specify a switch to enable Medium or Low rates.
+   **Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates.
 
    **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
@@ -369,7 +388,8 @@ The following curve functions are supported:
 * **ABSVAL**: Output is the absolute-value of the input (editing the specified value will alter how the absolute-value is applied) 
 * **EXPO**: Apply exponential curve to the input for non-linear response (editable see :ref:`curve-editing`).
 * **Deadband**: Output will not respond to input values near zero (editable see :ref:`curve-editing`).
-* **Multi-point**: Curve is based on 3, 5, 7, 9 or 13 user-defined points (editable see :ref:`curve-editing`). 
+* **Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined
+  points (editable see :ref:`curve-editing`).
 
 The default value for any of the offsets in above mentioned curves is 0 (zero). If you change the curve for one input the offset will be transferred to the new curve if possible.
 
@@ -382,7 +402,9 @@ The Curve Editor is accessed
 .. if:: devo8
 by pressing a graph or 
 .. endif::
-by pressing the curve spin-box when it is selectable.  Some curve types may not be edited (any of the curves preceding the ‘Expo’ curve), and the curve-box will not be selectable if one of these curves is currently active.
+by pressing the curve spin-box when it is selectable.  The 1-1 and
+Fixed curve types may not be edited, and the curve-box will not be
+selectable if one of these curves is currently active.
 
 The Curve editor page will be different depending on which curve is selected.  It is not possible to change the curve type from the curve editor (except when a multi-point curve is selected).  Values can be set using the spin-box or by touching the graph.
 
@@ -448,7 +470,8 @@ Telemetry config (Std & Adv GUI)
 
    The telemetry configuration page allows specifying alarms when specific telemetry events occur.
 
-   * **Telemetry**: Specify the telemetry input to use for alarm control.  This can be a temperature probe, voltage probe, or RPM probe.
+   * **Telemetry**: Specify the telemetry input to use for alarm
+     control.  The set of values available will depend on the protocol.
    * **Equality**: Can be '>=' or '<=' indicating whether a value above or below the target causes an alarm.
    * **Target**: The target value for the alarm.
 
@@ -463,7 +486,13 @@ Trims and Virtual Inputs (Adv GUI)
 
    The trim page allows assigning the trim buttons and trim step, as well as configuring buttons to work as virtual inputs (see :ref:`trim-as-virtual-switch`). It is accessed from the main menu via 'Model menu' followed by 'Trims'.
 
-   If the ‘Input’ field is set to an input stick, then the trim can be applied as part of the mixer, and will operate as a typical trim control.  If the ‘Input’ field is set as a channel or virtual-channel output, the value is applied directly to the channel output.  In this case, the selected ‘Pos’ and ‘Neg’ buttons can operate as a virtual stick to control an output channel.
+   If the ‘Input’ field is set to an input stick, then the trim can be
+   applied as part of the mixer, and will operate as a typical trim
+   control.  If the ‘Input’ field is set as a channel or
+   virtual-channel output, the value is applied directly to the
+channel output.  In this case, the selected ‘Trim +’ and ‘Trim -’
+   buttons can operate as a virtual stick to control an output
+   channel.
 
 .. macro:: floatimg images/|target|/ch_model/trims2.png
 
@@ -477,6 +506,11 @@ Trims and Virtual Inputs (Adv GUI)
 
 Datalog (Std & Adv GUI)
 -----------------------
+.. if:: devo10
+.. cssclass:: bold-italic
+Note: This feature is not available for Devo7e.
+
+.. endif::
 
 The Datalog feature allows storing a history of input or output positions as well as telemetry info over a period of time. This can be used to examine and replay a flight as well as to visualize telemetry information at a later time. Logs are persistent and Deviation will continue writing to the end of the previous log by default.
 
@@ -525,7 +559,8 @@ Main page config (Std & Adv GUI)
    * **Model (Icon)**: Display the icon related to the selected model.
    * **Battery**: Display the battery voltage.
    * **TxPower**: Displays the actual transmitter rating.
-   * **Bargraph**: Displays a vertical bar.  The value of the bar is typically a stick input or channel output. 
+   * **Bargraph**: Displays a vertical bar.  The value of the bar is a
+     channel output.
    * **Toggle**: Show an icon indicating the state of a toggle switch.  There can be 1, 2, or 3 icons defined for a given toggle indicating different states depending on the switch position.  Two-state switches can have up to 2 icons.  Three-state switches can have up to 3 icons. 
    * **(Quick) Menus**: Quick menus define quick-access pages that can be reached via a long UP/DN press.
 
@@ -576,7 +611,11 @@ Loading Objects
 
 .. container::
 
-   After selecting the '+' icon to open the add-item dialog, you may 'Load' alternate templates, to change the main page layout. 
+.. if:: devo8
+   After selecting the '+' icon to open the add-item dialog, you may 'Load' alternate templates, to change the main page layout.
+.. elseif:: devo10
+   You can 'Load' alternate templates, to change the main page layout.
+.. endif::
    If you select 'Default' the layout will be set to the standard layout as shown in section :ref:`main-page`.
 
    Selecting 'Empty' will clear all objects. You may start from scratch.
@@ -593,7 +632,7 @@ Configuring Objects
 * **Model**: Not configurable 
 * **Battery**: Not configurable
 * **TxPower**: Not configurable
-* **Bargraph**: Select channel or input from scroll box
+* **Bargraph**: Select channel from scroll box
 * **Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’ button to choose icon
 * **Menu**: Choose page to display for each of 4 quick-page slots
 
@@ -602,9 +641,13 @@ Configuring Objects
 .. image:: images/devo8/ch_model/mainpage_edit.svg
    :width: 80%
 
-.. endif::
-
 You can delete any object by configuring the object and pressing the ‘Delete’ button
+.. elseif:: devo10
+
+You can delete any object but a Menu page by selecting the  ‘Delete’
+option and pressing the 'ENT' button.
+
+.. endif::
 
 Choosing toggle icons
 ~~~~~~~~~~~~~~~~~~~~~
