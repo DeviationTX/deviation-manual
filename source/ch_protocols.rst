@@ -149,8 +149,6 @@ v969, etc quadcopters.
 
 **V912**: Enables the extensions for the V912, V913 and V915 helicopters
 
-* 
-
 
 Note that if these channels are assigned to a switch, turning the switch on toggles the state, and turning the switch off has no effect.  Thus to turn the lights on, flip the switch assigned to Channel 5 from off to on.  Flipping the switch back to off has no effect.  Flipping the switch back on now turns the lights back off.
 
