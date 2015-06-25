@@ -491,7 +491,7 @@ Telemetry config (Std & Adv GUI)
 
 .. _trims-and-virtual-inputs:
 
-Trims and Virtual Inputs (Adv GUI)
+Trims and Virtual Inputs (Std & Adv GUI)
 ----------------------------------
 
 .. macro:: floatimg images/|target|/ch_model/trims.png
