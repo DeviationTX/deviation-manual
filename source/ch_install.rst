@@ -8,7 +8,7 @@ Installation of Deviation is done in exactly the same manner as upgrading the Wa
 .. cssclass:: bold-italic
 
 .. if:: devo10
-NOTE: As a result of memory limitations with the Devo7e and devo 12
+NOTE: As a result of memory limitations with the Devo7e and devo 12e
 firmware, the original models will be lost when switching to
 Deviation.
 .. endif::
