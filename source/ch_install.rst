@@ -7,10 +7,10 @@ Installation of Deviation is done in exactly the same manner as upgrading the Wa
 
 .. cssclass:: bold-italic
 
-.. if:: devo12
-NOTE: As a result of memory limitations with the Devo12 firmware, the original models will be lost when switching to Deviation.
-.. elseif:: devo10
-NOTE: As a result of memory limitations with the Devo7e firmware, the original models will be lost when switching to Deviation.
+.. if:: devo10
+NOTE: As a result of memory limitations with the Devo7e and devo 12
+firmware, the original models will be lost when switching to
+Deviation.
 .. endif::
 
 First download and unzip the deviation-devoXX-x.y.z.zip firmware from http://www.deviationtx.com/repository/Deviation-Releases/ where XX is the number of your Walkera Devo™ transmitter. x.y.z identifies the deviation version number. Normally you should use the latest one.
