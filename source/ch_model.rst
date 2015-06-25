@@ -223,14 +223,18 @@ Virtual channel configuration
 
 If you press ENT on a virtual channel a keyboard screen is shown where you may edit the default name. You can touch each character, or use L/R/UP/DN buttons followed by 'ENT' to select.
 
-Simple Template
+Simple Mix Type
 ~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/simple_template.png
 
 .. container::
 
-   The Simple template is the simplest manner of defining a channel.  It allows defining a primary-input (stick, switch, or other channel), and applying a curve or function to that input.  The result can also be scaled or have an alternate zero-offset. You cannot use a toggle or switch to activate or deactivate this setup.
+   The Simple mix type is the simplest manner of defining a channel.
+   It allows defining a primary-input (stick, switch, or other
+   channel), and applying a curve or function to that input.  The
+   result can also be scaled or have an alternate zero-offset. You
+   cannot use a toggle or switch to activate or deactivate this setup.
 
    A ‘Long-ENT’ press will update the current mixer settings, making it possible to test them on the transmitter.
 
@@ -242,13 +246,17 @@ Simple Template
 
    **Offset**: An additive offset that is applied after the scaling.
 
-Expo & Dual-Rate Template
+Expo & Dual-Rate Mix Type
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/expo_dr.png
 
 .. container::
-   The Expo/Dual-Rate template is a more sophisticated template designed to allow use of toggle or 3-way switches to manipulate an input.  The primary-input (stick, switch, or other channel), can have a different curve/function and scaling for each toggle-switch position.
+   The Expo/Dual-Rate mix type is a more sophisticated template
+   designed to allow use of toggle or 3-way switches to manipulate an
+   input.  The primary-input (stick, switch, or other channel), can
+   have a different curve/function and scaling for each toggle-switch
+   position.
 
    Selecting a value for Switch1 or Switch2 will activate the corresponding section.  Each section can either have a 'linked' curve (curve is the same as the 'High-Rate' curve) in which case only the scalar can be modified, or alternatively can have an independent curve definition.  Pressing the 'Mid-Rate' or 'Low-Rate' button for a given switch will toggle between linked and independent curves.
 
@@ -262,14 +270,20 @@ Expo & Dual-Rate Template
 
    **Scale**: A multiplicative scalar that is applied after the Curve to control the output range.
 
-Complex Template
+Complex Mix Type
 ~~~~~~~~~~~~~~~~
 
 .. macro:: floatimg images/|target|/ch_model/complex.png
 
 .. container::
 
-   The Complex template unlocks the full power of the mixer system.  For a given channel, any number of mixers can be applied to affect the final result.  Each mixer is applied based on whether the specified switch is active, and can either replace, add to, or multiply to the previous mixers for this channel.  Using this system it should be possible to define an output channel as a combination of any number of inputs.
+   The Complex mix type unlocks the full power of the mixer system.
+   For a given channel, any number of mixers can be applied to affect
+   the final result.  Each mixer is applied based on whether the
+   specified switch is active, and can either replace, add to, or
+   multiply to the previous mixers for this channel.  Using this
+   system it should be possible to define an output channel as a
+   combination of any number of inputs.
 
    A ‘Long-ENT’ press will update the current mixer settings, making it possible to test them on the transmitter.
 
