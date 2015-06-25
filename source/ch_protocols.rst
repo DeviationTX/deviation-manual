@@ -119,15 +119,38 @@ The Flysky protocol is used to control Turnigy/Flysky receivers as well as a few
 
 |mod-install-link|
 
-The Flysky protocol supports up to 8 channels, and both auto-binding and manual-binding.  If Fixed ID is set to ‘None’ the transmitter will attempt to auto-bind with the receiver every time it is powered on.  If a value is set for Fixed ID, the receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
+The Flysky protocol supports up to 12 channels, and both auto-binding
+and manual-binding.  If Fixed ID is set to ‘None’ the transmitter will
+attempt to auto-bind with the receiver every time it is powered on.
+If a value is set for Fixed ID, the receiver must be bound manually
+one-time using the ‘Bind’ button, after which it should stay bound.
 
-The Flysky protocol also supports additional options.  These are accessed by pressing the Protocol spin-box when Flysky is shown:
+The Flysky protocol also supports WLToys extensions to the protocol.
+These are accessed by pressing the Protocol spin-box when Flysky is
+shown:
 
-**WLToys V9x9**: Enables enhanced protocol configuration for use with WLToys V959, v969, etc models:
+**V9x9**: Enables the extensions for the WLToys V939, V949, V959,
+v969, etc quadcopters.
 
 * Lights are controlled by Channel 5
 * Video is controlled by Channel 6
 * Camera is controlled by Channel 7
+* Flip is controlled by Channel 8
+
+**V6x6**: Enables the extensions for the WLToys V636 and V686 quadcopters.
+
+* Lights are controlled by Channel 5
+* Flip is controlled by Channel 6
+* Camera is controlled by Channel 7
+* Video is controlled by Channel 8
+* Headless mode is controlled by Channel 9
+* RTH mode is controlled by Channel 10
+* X and Y calibration are controlled by channels 11 and 12, respectively.
+
+**V912**: Enables the extensions for the V912, V913 and V915 helicopters
+
+* 
+
 
 Note that if these channels are assigned to a switch, turning the switch on toggles the state, and turning the switch off has no effect.  Thus to turn the lights on, flip the switch assigned to Channel 5 from off to on.  Flipping the switch back to off has no effect.  Flipping the switch back on now turns the lights back off.
 
@@ -169,21 +192,21 @@ is necessary to bind each model before the first use.
 The first channel normally controls the sheets and the second channel
 the rudder, but this may vary from model to model.
 
-Protocol: \*Frsky
-------------------
-The Frsky1 protocol is used to control older (non-telemetry) Frsky™ receivers using the one-way protocol. |cc2500-note|
-
-|mod-install-link|
-
-The Frsky1way protocol supports 4 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
-
 Protocol: \*Frsky-V8
 ------------------
-The Frsky2 protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol. |cc2500-note|
+The Frsky-V8 protocol is used to control older Frsky™ receivers using the one-way protocol. |cc2500-note|
 
 |mod-install-link|
 
-The Frsky2way protocol supports up to 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+The Frsky-V8 protocol supports 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+
+Protocol: \*Frsky
+------------------
+The Frsky protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol. |cc2500-note|
+
+|mod-install-link|
+
+The Frsky protocol supports up to 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 The Frsky2way protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when Frsky2way is shown.
 
@@ -201,12 +224,20 @@ The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|
 
 |mod-install-link|
 
-The V202 protocol supports up to 8 channels.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control the quadracopter special functions: 
+The V202 protocol supports up to 11 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control the quadracopter special functions: 
 
 * Channel 5 controls the blink speed
 * Channel 6 enables ‘flip’ mode
-* Channel 7 Enables the camera
-* Channel 8 Turns video on/off
+* Channel 7 takes still pictures
+* Channel 8 turns video on/off
+* Channel 9 turns headless mode on/off 
+* Channel 10 causes the x axis to calibrate
+* Channel 11 causes the y axis to calibrate
 
 Protocol: \*SLT
 ---------------
@@ -214,11 +245,21 @@ The SLT protocol is used to control TacticSLT/Anylink receivers. |nrf24l01-note|
 
 |mod-install-link|
 
+The SLT protocol supports up to 6 channels, and only supports
+auto-binding.  The fixed ID can be used, but does not prevent
+auto-binding during power-on.
+
 Protocol: \*HiSky
 -----------------
 The HiSky protocol is used to control HiSky brand models along with the WLToys v922 v955 models. |nrf24l01-note|
 
 |mod-install-link|
+
+The HiSky protocol supports up to 7 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
 
 Protocol: \*YD717
 -----------------
@@ -258,65 +299,136 @@ The seventh channel takes a picture when the channel moves from negative to posi
 
 The eighth channel starts/stops video recording on each positive transition.
 
-Protocol: CFlie
+Protocol: \*CFlie
 ---------------
 The CFlie protocol is used on the CrazyFlie nano quad. It has not been
 tested with any other models. |nrf24l01p-note|
 
 |mod-install-link|
 
-Protocol: H377
+The CFlie protocol supports up to 4 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+
+Protocol: \*H377
 --------------
-Needs to be completed. |nrf24l01p-note|
+The H377 protocol supports the NiHui H377 6 channel helicopter. It has
+not been tested with any other models. |nrf24l01-note|
 
 |mod-install-link|
 
-Protocol: H830
+The H377 protocol supports up to 7 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+
+Protocol: \*HM830
 --------------
-Needs to be completed. |nrf24l01p-note|
+The HM830 protocol supports the HM830 Folding A4 Paper airplane. It
+has not been tested with any other models. |nrf24l01-note|
 
 |mod-install-link|
 
-Protocol: KN
+The HM830 protocol supports 5 channels and only supports
+auto-binding. The protocol stays in bind mode until successful.
+
+
+Protocol: \*KN
 ------------
 The KN protocol is used on the WLToys V930, V966, V977 and V988
 helicopters. It has not been tested with other models. |nrf24l01p-note|
 
 |mod-install-link|
 
-Protocol: ESky150
+The KN protocol supports up to 8 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+
+Protocol: \*ESky150
 -----------------
-Needs to be completed. |nrf24l01p-note|
+The ESky150 protocol supports the ESky 150 helicopter. It has not been
+tested with any other models. |nrf24l01-note|
 
 |mod-install-link|
 
-Protocol: Esky
+The ESky150 protocol supports 4 channels and only supports
+auto-binding. The protocol stays in bind mode until successful.
+
+
+Protocol: \*Esky
 --------------
-Needs to be completed. |nrf24l01p-note|
+Needs to be completed. |nrf24l01-note|
 
 |mod-install-link|
 
-Protocol: BlueFly
+The Esky protocol supports up to 6 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+Protocol: \*BlueFly
 -----------------
-Needs to be completed. |nrf24l01p-note|
+The BlueFly protocol is used with the Blue-Fly HP100. It has not been
+tested with any other models. |nrf24l01p-note|
 
 |mod-install-link|
 
-Protocol: CX10
+The BlueFly protocol supports up to 6 channels, does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
+
+Protocol: \*CX10
 ---------------
-Needs to be completed. |nrf24l01p-note|
+The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|
 
 |mod-install-link|
 
+The CX10 protocol supports 9 channels and only supports
+auto-binding. The protocol stays in bind mode until successful. The
+first four channels are Aileron, Elevator, Throttle and Rudder.
 
-Protocol: CG023
+Channel 5 is Rate except on the CX-10A, where it is headless mode.
+
+Channel 6 is flip mode.
+
+The DM007 format also uses channel 7 for the still camera, channel 8
+for the video camera and channel 9 for headless mode.
+
+The protocol has a Format option for the Blue-A, Green and DM007
+builds of the CX10.
+
+Protocol: \*CG023
 ---------------
-Needs to be completed. |nrf24l01p-note|
+The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has
+not been tested on other models. |nrf24l01-note|
 
 |mod-install-link|
 
+The CG023 protocol supports 10 channels and only supports
+auto-binding. The protocol stays in bind mode until successful.
 
-Protocol: PPM
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Channel 5 controls the LEDs.
+
+Channel 6 controls Flip mode.
+
+Channel 7 controls the still camera
+
+Channel 8 controls the video camera.
+
+Channel 9 controls headless mode.
+
+Channel 10 controls the rate, and has three settings.
+
+
+Protocol: \*PPM
 -------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
 
@@ -342,8 +454,3 @@ Deviation does not auto-detect when a trainer cord is plugged into the transmitt
 Protocol: USBHID
 ----------------
 The USBHID protocol will convert he transmitter into a USB joystick.  Connecting the transmitter to a PC via the USB cable will enable the transmitter to be detected as a joystick by the computer. This may be used to enable the transmitter to control any simulators that support joystick input. Some initial calibration may be necessary and is accomplished via the control panel applet of your operating system.
-
-Protocol: TESTRF
-----------------
-
-Needs to be completed.
