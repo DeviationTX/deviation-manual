@@ -148,7 +148,7 @@ the Bind/Re-Init button described below.
 
 .. macro:: floatimg images/|target|/ch_model/binding.png
 
-**Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the transmitter may bind with the model on start-up, or may need to be manually bound once.  See section 9 Protocols for more on specific protocols.  If the protocol does not support binding, the button will show ‘Re-Init’, which can be used to switch protocols without power-cycling the transmitter. 
+**Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the transmitter may bind with the model on start-up, or may need to be manually bound once.  See :ref:`protocols` for more on specific protocols.  If the protocol does not support binding, the button will show ‘Re-Init’, which can be used to switch protocols without power-cycling the transmitter. 
    
 .. macro:: floatimg images/|target|/ch_model/fixed_id.png
 
