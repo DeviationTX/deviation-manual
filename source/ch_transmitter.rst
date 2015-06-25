@@ -47,6 +47,9 @@ Generic settings
 .. container::
 
    **Language**: Select an appropriate language for all text.
+.. cssclass:: bold-italic
+              Note: This feature is not available for Devo7e.
+.. endif::
 
    **Stick mode**: Select one of Mode 1-4. 
 
@@ -78,12 +81,21 @@ Buzzer settings
 
 **Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer may also be set to None.
 
+**Vibration**: Enable vibration on alarms, if available.
+
 **Power-down alert**: Play sound at power-down.
 
 LCD settings
 ~~~~~~~~~~~~
 
-**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10 and may also be turned off.
+**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
+.. if:: devo10
+It may also be turned off.
+
+**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10.
+.. if:: devo10
+It may also be turned off.
+.. endif::
 
 **Dimmer time**: Set delay before screen dimming. Times may be set from 5 seconds to 2 minutes in 5 second intervals. A setting of Off will force backlight to remain on as long as the transmitter is on.
 
@@ -112,7 +124,10 @@ Channel monitor
 
 .. container::
 
-   The channel monitor screen allows the user to see the values of each channel as output by the transmitter. Channel output displayed is the value based on minimum / maximum values as well as scaling. 
+   The channel monitor screen allows the user to see the values of
+   each channel as output by the transmitter. Channels without mixers
+   will not be displayed. Channel output displayed is the value based
+   on minimum / maximum values as well as scaling.
 
    **Example**: A channel scaled from -60 to +60 will only display the range of values from -60 to +60 depending on the stick position. 
 
@@ -188,7 +203,10 @@ Telemetry monitor
 
    Certain protocols have the ability to transmit telemetry data back to the transmitter during use. Telemetry data may include, but is not restricted to, temperature readings, various voltage readings, motor or engine rpm, as well as GPS related information.
 
-   Telemetry data is turned off by default for all supported protocols except DEVO.  See the corresponding 9 Protocols section to learn which protocols support telemetry, and identify which fields will be available.
+   Telemetry data is turned off by default for all supported protocols
+   except DEVO and FrSky.  See the corresponding 9 Protocols section
+   to learn which protocols support telemetry, and identify which
+   fields will be available.
 
 .. if:: devo8
 
