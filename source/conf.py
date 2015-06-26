@@ -318,6 +318,8 @@ else:
     title = u"Devo 7e/10/12E"
     docname = u'Deviation10UsersManual'
 
+html_title = docname + u" " + release
+
 pdf_documents = [ 
     ('pdfindex', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
 ]
