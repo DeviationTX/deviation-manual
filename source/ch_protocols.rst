@@ -169,7 +169,7 @@ The Hubsan4 protocol supports up to 7 channels, and only supports auto-binding. 
 
 Options configurable on the Hubsan page:
 
-* **vTX MHz**: Defines the frequency used by the Hubsan H107C video transmitter (Requires a 5.8GHz receiver capable of receiving and displaying video).
+* **vTX MHz**: Defines the frequency used by the Hubsan H107D video transmitter (Requires a 5.8GHz receiver capable of receiving and displaying video).
 * **Telemetry**: Enable receiving of model battery voltage.
 
 Protocol: \*Joysway
