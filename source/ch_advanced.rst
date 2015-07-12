@@ -122,3 +122,37 @@ Deviation provides control for several swash-plate layouts, these include: 120°
 .. cssclass:: bold-italic
 
 Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these cases you will still use the designated swash-plate type but may need to reverse specific channels.
+
+.. _modifying-sounds
+
+Modifying sounds
+---------------
+
+You can edit the sounds your Devo makes, though you have to do it
+by mounting the transmitter as a USB drive and editing the 'sound.ini'
+file in the 'media' folder.
+
+The sections, and what causes them to play, are:
+
+* **startup**: Powered on.
+* **shutdown**: Powering off.
+* **volume**: Configuring transmitter volume.
+* **timer_warning**: Timer is about to expire.
+* **alarm#**: Timer # (1 to 4) has expired.
+* **batt_alarm**: Battery low warning.
+* **done_binding**: Binding finished.
+* **key_pressing**: On a key press
+* **saving**: When saving a model file.
+* **max_len**: When you've exceeded the length of a string in the keyboard.
+* **telem_alarm#**: Telemetry alarm # (1 to 6) has triggered.
+
+In each section, you can adjust set 'volume' from 0 (off) to 100
+(max). The rest of the entries are note names, and the value is the
+number of milliseconds to play that note.
+
+The note names are 'xx', which is a rest (no sound played). You can
+then pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's
+'a', 'c', 'd', 'f' or 'g'. Finally, you can choose an octave with a
+single digit, ranging from '0' to '4'. Those take you from 'c0'
+(middle C) up to 'b4'. In addition, 'a', 'ax' and 'b' will play the
+three notes below middle C.
