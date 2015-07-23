@@ -514,7 +514,7 @@ Trims and Virtual Inputs (Std & Adv GUI)
 
    The trim-step defines how sensitive the trims are to input.  The maximum number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/- 10% of trim adjustment on the servo.
 
-   The trim-step can be changed on the main screen. If you have to change the source also please use the dialog accessed by pressing the respective 'Input' button. Here you may also add a switch to the trim.
+   The trim-step can be changed on the main screen. If you have to change the source also please use the dialog accessed by pressing the respective 'Input' button. Here you may also add a switch to the trim. If a switch is added to the trim, then it will have different trim values in each switch position.
 
 .. _datalog:
 
