@@ -336,7 +336,7 @@ auto-binding. The protocol stays in bind mode until successful.
 
 Protocol: \*KN
 ------------
-The KN protocol is used on the WLToys V930, V966, V977 and V988 (WLToys format)
+The KN protocol is used on the WLToys V930, V931, V966, V977 and V988 (WLToys format)
 as well as the Feilun FX067C, FX070C and FX071C (Feilun format)
 helicopters. It has not been tested with other models. |nrf24l01p-note|
 
@@ -350,7 +350,7 @@ the first use.
 Channels 1-4 are throttle, aileron, elevator and rudder.
 Channel 5 activates the model's built-in dual rate.
 Channel 6 activates throttle hold.
-Channel 7 activates idle up (WL Toys V966 and V977 only).
+Channel 7 activates idle up (WL Toys V931, V966 and V977 only).
 Channel 8 toggles between 6G (default) and 3G stabilization.
 Channel 9-11 are trim channels for throttle/pitch, elevator and rudder.
 
