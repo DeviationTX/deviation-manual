@@ -297,6 +297,22 @@ The seventh channel takes a picture when the channel moves from negative to posi
 
 The eighth channel starts/stops video recording on each positive transition.
 
+Protocol: \*Hontai
+------------------
+This protocol is used on Hontai models F801 and F803.
+
+|nrf24l01p-note| |mod-install-link|
+
+The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control special functions: 
+
+* Channel 5 is unused
+* Channel 6 enables the flip function
+* Channel 7 takes a picture on positive transition through zero
+* Channel 8 turns video on/off on positive transition
+* Channel 9 turns headless mode on/off 
+* Channel 10 engages the return-to-home feature
+* Channel 11 initiates calibration
+
 Protocol: \*CFlie
 ---------------
 The CFlie protocol is used on the CrazyFlie nano quad. It has not been
