@@ -95,9 +95,20 @@ The model page provides various model configuration options.
 
    **Mixer GUI**: Defines which graphical user interface (GUI) to use for this model.  The ‘Advanced’ GUI is the default for Deviation.  The ‘Standard’ GUI is only available for Helicopter models and more closely resembles the stock GUI.
 
+   Standard mixer gui is designed for collective pitch helicopters
+with a flybar. It includes features spefic to those that aren't needed
+on other aircraft, and may be missing features needed to properly
+control other aircraft. A flybarless collective pitch helicopter might
+benefit from some of the features of the standard GUI, it doesn't need
+them and may need those missing features. **You are strongly
+encouraged to use advanced mixer for all aircraft but collective pitch
+helicopters.**
+
    .. cssclass:: bold-italic
 
-   Note: If you switch from advanced mixer to standard mixer all data may be lost.
+   Note: If you switch from advanced mixer to standard mixer all data
+   may be lost.  Your data will be preserved if you switch from
+   standard mixer to advanced mixer.
 
 .. macro:: floatimg images/|target|/ch_model/model_name.png
 
