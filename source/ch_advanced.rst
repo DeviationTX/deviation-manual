@@ -148,7 +148,8 @@ The sections, and what causes them to play, are:
 
 In each section, you can adjust set 'volume' from 0 (off) to 100
 (max). The rest of the entries are note names, and the value is the
-number of milliseconds to play that note.
+number of milliseconds to play that note. There is a limit of 100
+notes for each sound.
 
 The note names are 'xx', which is a rest (no sound played). You can
 then pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's
