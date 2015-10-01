@@ -313,6 +313,37 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 * Channel 10 engages the return-to-home feature
 * Channel 11 initiates calibration
 
+Protocol: \*Bayang
+------------------
+This protocol is used on BayangToys X9, X6, X7, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
+
+|nrf24l01p-note| |mod-install-link|
+
+The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control special functions: 
+
+* Channel 5 is unused
+* Channel 6 enables the flip function
+* Channel 7 is unused
+* Channel 8 is unused
+* Channel 9 turns headless mode on/off 
+* Channel 10 engages the return-to-home feature
+
+Protocol: \*FY326
+------------------
+This protocol is used on FY326 red board.
+
+|nrf24l01p-note| |mod-install-link|
+
+The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control special functions: 
+
+* Channel 5 is unused
+* Channel 6 enables the flip function
+* Channel 7 is unused
+* Channel 8 is unused
+* Channel 9 turns headless mode on/off 
+* Channel 10 engages the return-to-home feature
+* Channel 11 initiates calibration
+
 Protocol: \*CFlie
 ---------------
 The CFlie protocol is used on the CrazyFlie nano quad. It has not been
