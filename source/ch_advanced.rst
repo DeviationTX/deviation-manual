@@ -25,7 +25,7 @@ Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from 
 
 Options configurable on both Trainer Cfg pages:
 
-* **Center PW**: Defines the time (in µsec) of the pulse that the student’s transmitter transmits to represent to represent centered servo position.  If this number doesn’t match the students transmitter, the servos will not be centered
+* **Center PW**: Defines the time (in µsec) of the pulse that the student’s transmitter transmits to represent centered servo position.  If this number doesn’t match the students transmitter, the servos will not be centered
 
 * **Delta PW**: Defines the width of the pulse (measured from center) sent by the student’s transmitter to define max servo throw.  If this value is incorrect, the servos will not achieve full range (or will travel too much)
 
