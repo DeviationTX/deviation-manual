@@ -1,30 +1,89 @@
 Installation
 ============
 
-New installation
-----------------
-Installation of Deviation is done in exactly the same manner as upgrading the Walkera Devention firmware.  Note that Deviation will NOT overwrite Walkera models stored on the transmitter. While they cannot be accessed by Deviation, they will be safely preserved should the Walkera firmware ever need to be reinstalled 
+All installations follow the same pattern: use a DFU tool to flash the
+dfu to the transmitter, then reboot the transmitter in USB mode and
+update the file system. The transmitter may file to boot if you try
+booting deviation before updating the file system.
 
-.. cssclass:: bold-italic
+The :ref:`preparation` section covers things you need to do before
+starting an installation. The two installation sections covers the
+actual installation, depending on which tool you are using. There are
+section following that include notes specific to upgrading from or to
+various versions and build types.
 
-.. if:: devo10
-NOTE: As a result of memory limitations with the Devo7e and devo 12e
-firmware, the original models will be lost when switching to
-Deviation.
-.. endif::
+.. _preparation:
 
-First download and unzip the deviation-devoXX-x.y.z.zip firmware from http://www.deviationtx.com/repository/Deviation-Releases/ where XX is the number of your Walkera Devo™ transmitter. x.y.z identifies the deviation version number. Normally you should use the latest one.
+Preparation
+-----------
 
-Upgrading is done using the Walkera ‘DfuSe USB Upgrade’ tool for Windows. You can download this tool directly from Walkera: 
+First download and unzip the deviation-devoXX-x.y.z.zip firmware from
+http://deviationtx.com/downloads-new/category/1-deviation-releases
+where XX is the number of your Walkera Devo™ transmitter. x.y.z
+identifies the deviation version number. Normally you should use the
+latest one.
 
-http://www.walkera.com/en/upload/upgrade/DevoDfuSe%20V2.0.zip. 
+DFU installation is done using a DfuSe tool. You can use the Walkera
+‘DfuSe USB Upgrade’ tool for Windows to do this. If you are on a Mac,
+Linux or other Unix system with usblib support, you can use the
+Deviation Uploader. If your transmitter is a Devo F7 or F12E, you
+**must** use the Deviation Uploader.
 
 .. cssclass:: bold-italic
 
 NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!
 
-Unzip the upgrade tool and install locally. It is recommended that you test the DFU tool by first upgrading your TX to a different version of Walkera firmware.
- 
+You can download the Walkera tool from:
+https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM
+
+The Deviation Uploader can be downloaded from
+http://deviationtx.com/downloads-new/category/161-dfu-usb-tool
+
+If you are using Windows, you need to install the appropriate
+drivers. See the section on :ref:`windows_drivers`
+
+Unzip the tools and install them locally. It is recommended that you
+test the DFU tool by first upgrading your TX to a different version of
+Walkera firmware.
+
+If you are upgrading from a previous Deviation release, it is strongly
+recommended that you back-up the 'models' directory from the
+transmitter as well as the 'tx.ini' and the 'hardware.ini' files to
+ensure you don’t lose any model or transmitter configuration.
+
+.. _windows_drivers:
+
+Windows Driver Installation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Walkera DfuSe tool and the deviation uploader use different
+drivers. Both can be installed by the Deviation USBDrv Installer,
+available from
+http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool
+
+.. cssclass:: bold-italic
+
+To Be Done
+
+
+DFU Installation With Walkera DfUse
+-----------------------------------
+
+Installation of Deviation with the Walkera DfuSe tool is done in
+exactly the same manner as upgrading the Walkera Devention firmware.
+Note that Deviation will NOT overwrite Walkera models stored on the
+transmitter. While they cannot be accessed by Deviation, they will be
+safely preserved should the Walkera firmware ever need to be
+reinstalled
+
+.. cssclass:: bold-italic
+
+.. if:: devo10
+NOTE: As a result of memory limitations with the Devo7e and Devo F12e
+and Devo F7, firmware, the original models will be lost when switching
+to Deviation.
+.. endif::
+
 .. image:: images/DFuSe_USB_Upgrade.png
    :width: 80%
 
@@ -45,17 +104,108 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 
 Turn off the transmitter, and turn back on while holding ‘ENT’. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
 
+DFU Installation with Deviation Uploader
+----------------------------------------
 
-Open the folder of the zip and copy all the files and directories inside this folder to the root of the transmitter USB drive. For details of the file-system please see :ref:`usb-file-system`. The files with the extension zip, and dfu need not to be copied.
+.. cssclass:: bold-italic
+
+To Be Done
+
+Updating the file system
+------------------------
+
+Now open the folder of the zip and copy all the files and directories
+inside this folder to the root of the transmitter USB drive. For
+details of the file-system please see :ref:`usb-file-system`. The
+files with the extension zip, and dfu need not to be copied.
 
 .. image:: images/|target|/ch_install/dont_copy_files.png
    :height: 6cm
 
-Upgrade notes
--------------
-If you are upgrading from a previous Deviation release, it is strongly recommended that you back-up the ‘models’ directory from the transmitter as well as the tx.ini file to ensure you don’t lose any model or transmitter configuration. Copy all directories except for the ‘models’ directory and the tx.ini file to the transmitter. Optionally, copy the ‘models’ directory to the transmitter except for the currently configured model files. This last step will ensure that the defaults for newly created models have the latest options set. If the tx.ini file is overwritten, the stick calibration must be repeated and any settings reset.
+If you are upgrading from an older release, don't update the 'tx.ini',
+and 'hardware.ini' files or the 'models' directory. Optionally, copy
+the 'models' directory to the transmitter except for the currently
+configured model files. This last step will ensure that the defaults
+for newly created models have the latest options set. If the 'tx.ini'
+file is overwritten, the stick calibration must be repeated and any
+settings reset.
 
-.. macro:: pdf_page_break
+Deviation 4.0.1
+---------------
+
+If you are upgrading from the Deviation 4.0.1 release and have
+installed extra hardware, things have changed. Most notably, the
+hardware configuration information has moved from 'tx.ini' to
+'hardware.ini'. You'll need to move your changes to 'tx.ini' to
+'hardware.ini'.
+
+Also, the hardware connections have changed for some modules, allowing
+better control of the module and telemetry on some of them. See the
+module list at
+https://bitbucket.org/PhracturedBlue/deviation/wiki/ModuleList
+for current details.
+
+Nightly Deviation Builds
+------------------------
+
+The Nightly builds are versions of Deviation with additional features
+beyond the Deviation 4.0.1 release version.  The Nightly builds are
+provided to allow the Deviation community to fully exercise new
+features so the community can provide feedback and suggestions for
+improvement.  As a user, you recognize that Deviation is a community
+supported software system, and members of this community can
+contribute by verifying, validating or commenting on the features that
+they've used.
+
+These builds are published when new features are added to the
+Deviation core feature set, when major bugs are corrected and when new
+hardware support is added.  The nightly builds are tested but not to
+the rigorous extent of a full release.  Please read this post!
+http://www.deviationtx.com/forum/5-news-announcements/1416-nightly-builds
+
+The ONLINE User Manual for Deviation is regularly reviewed and updated
+to include information about new common features.  Additionally, while
+best efforts are made by the Deviation community to update these User
+Guides, this documentation MAY NOT fully describe the features of the
+nightly builds.  Any Deviation user with an update or change to the
+manual can submit additions and changes via the Deviation Bug Tracker
+at http://deviationtx.com/mantisbt
+
+So should you load the Deviation 4.0.1 release or should you load a
+Nightly?  Your own requirements will determine the answer to that
+question.  If you use Walkera, Spectrum and Flysky models, and any
+number of variations of the WLToys V2x2 quads, the Deviation 4.0.1
+release will be sufficient.  If you have one of many newer small
+quads, or if you want support for additional hardware beyond
+additional transmitter modules, you should consider using the Nightly
+build.
+
+If you are also adding hardware modifications, such as switches or
+transmitter modules, you should install the Deviation Nightly build
+first and review the available features.  After Deviation is running,
+install your hardware and modify any settings to support your
+modifications.  This helps you determine the source of issues later
+for troubleshooting.
+
+
+Test Builds
+-----------
+
+Test Builds are for experienced users only.  The Deviation Test builds
+are prepared by software developers to test new features or hardware
+options, and require a higher level of experience.  These builds may
+also require specific transmitter configuration or hardware mods.
+
+Some test builds require that you install the latest Nightly prior to
+installation.  DO NOT INSTALL A TEST BUILD until you read the thread
+detailing the reason for that build and how to use it, and know why
+you would want to use it.
+
+Once you install a test build, **do** add a post to the appropriate
+thread letting the developer know how things went! That's why they are
+created - so developers can get feedback, even if it's only a note
+that things worked fine.
+
 
 .. _usb-file-system:
 
