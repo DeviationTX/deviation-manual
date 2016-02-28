@@ -24,10 +24,13 @@ identifies the deviation version number. Normally you should use the
 latest one.
 
 DFU installation is done using a DfuSe tool. You can use the Walkera
-‘DfuSe USB Upgrade’ tool for Windows to do this. If you are on a Mac,
-Linux or other Unix system with usblib support, you can use the
-Deviation Uploader. If your transmitter is a Devo F7 or F12E, you
-**must** use the Deviation Uploader.
+'DfuSe USB Upgrade' tool for Windows to do this. You can also use the
+'Deviation Uploader'.  The 'Deviation Uploader' runs on Macs, Linux or
+other Unix system with usblib support as well as Windows.
+.. if:: devo10
+If your transmitter is a Devo F7 or F12E, you **must** use the Deviation
+Uploader.
+.. endif::
 
 .. cssclass:: bold-italic
 
@@ -63,7 +66,13 @@ http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool
 
 .. cssclass:: bold-italic
 
-To Be Done
+You will also need to install java from http://www.java.com/ if you
+haven't already installed it.
+
+Extract the Deviation USBDrv Installer, and run 'DFU USBDrv
+Installer-x.y.exe'. You can then uninstall both drivers, or install
+either the Deviation USB Driver for use with the Deviation
+Uploader. Install the driver for the DfuSe tool you plan on using.
 
 
 DFU Installation With Walkera DfUse
@@ -96,23 +105,74 @@ Several users have reported compatibility issues with Windows™ and/or USB port
 
 If your transmitter has been connected correctly 'STM Device in DFU Mode' will be displayed under 'Available DFU Devices'. Otherwise this field will remain blank.
 
-1) Press the '...' button and select the deviation-devoXX-vx.y.z.dfu file to install.
-2) Select '**Upgrade**' to install the firmware. This will be grayed-out if your transmitter is not detected.  **Do NOT use ‘Upload’ as this will destroy the dfu file on your PC.**
+1) Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to install.
+2) Select '**Upgrade**' to install the firmware. This will be grayed-out if your transmitter is not detected.  **Do NOT use 'Upload' as this will destroy the dfu file on your PC.**
 .. if:: devo8
 3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library. 
 .. endif::
 
-Turn off the transmitter, and turn back on while holding ‘ENT’. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
+Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
 
 DFU Installation with Deviation Uploader
 ----------------------------------------
 
 .. cssclass:: bold-italic
 
-To Be Done
+The 'Deviation Uploader' is a jar file run with Deviation. You can
+either pass the jar file to the Java executable on the command line,
+or open the file in the GUI, using the Java application to open it.
 
-Updating the file system
-------------------------
+Once the 'Deviation Uploader' is open, connect your transmitter to a
+USB port, and then turn it on while holding down the 'EXT' button.
+.. if:: devo8
+On the Devo12, this is done by holding the trainer switch instead.
+.. endif::
+
+If everything is working properly, you shold see the 'Transmitter'
+change to the type of the connected transmitter. If it changes to the
+wrong transmitter type, stop now and seek help from the forums. If it
+doesn't change, check the system information to see if the device is
+listed at all. If it shows up as an unknown device on Windows, then
+check your driver installation and try unplugging all other USB
+devices.
+
+1) Press the '…' button and select the deviation-devoXX-vx.y.z.dfu
+   file to install.
+2) If this is an initial install, select all the 'Replace' boxes.
+.. if:: devo10
+   On the Devo F7 and Devo F12E initial install, select the 'Format'
+   check box.
+.. endif::
+.. if:: devo8
+   On the Devo 12 and 12S, select the 'Library' check box. `(Is this correct?)`
+.. endif::   
+3) Click the 'Install/Upgrade' option.
+
+.. if:: devo10
+   On the F7 and F12E, you are done.
+
+.. cssclass:: blod-italic
+
+   Do not enable USB mode, as the
+   file system cannot be accessed from the desktop, and you need to
+   use the 'File Manager' tab on the 'Deviation Uploader' to manage files.
+.. endif::
+
+Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
+
+
+Updating the file system via USB
+--------------------------------
+
+.. if:: devo10
+.. cssclass:: bold-italic
+
+   On the Devo F7 and F12E, do not enable USB mode, as the file system
+   cannot be accessed from the desktop, and you need to use the 'File
+   Manager' tab on the 'Deviation Uploader' to manage files. If you
+   enable it, all you can do is format the drive, which will destroy
+   your installation.
+.. endif::
 
 Now open the folder of the zip and copy all the files and directories
 inside this folder to the root of the transmitter USB drive. For
@@ -129,6 +189,19 @@ configured model files. This last step will ensure that the defaults
 for newly created models have the latest options set. If the 'tx.ini'
 file is overwritten, the stick calibration must be repeated and any
 settings reset.
+
+Updating the file system with 'Deviation Uploader'
+--------------------------------------------------
+.. if:: devo10
+.. cssclass:: bold-italic
+
+The Devo F7 and F12E do not support access via USB. Do not turn it on,
+as formatting the disk from your desktop will destroy your deviation
+installation.
+
+.. endif::
+
+To be done.
 
 Deviation 4.0.1
 ---------------
