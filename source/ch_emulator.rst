@@ -56,9 +56,9 @@ The emulator controls are as follows (based an an English QWERTY keyboard):
   u/j           AUX6                                             X                            
   i/k           AUX7                                             X                            
   z             Gear                                             X          X          X      
-  x             Rudder Dual-Rate switch                          X          X                 
+  x             Rudder Dual-Rate switch/SW B                     X          X                 
   c             Elevator Dual-Rate switch/SW A                   X          X                 
-  v             Aileron Dual-Rate switch/SW B                    X          X          DR     
+  v             Aileron Dual-Rate switch/                        X          X          DR     
   b             Mix 0/1/2 switch                                 X          X          X      
   n             FMode 0/1/2 switch                               X          X          X      
   m             Hold switch                                      X                            
