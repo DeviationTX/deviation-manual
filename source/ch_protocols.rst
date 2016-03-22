@@ -216,6 +216,18 @@ The Skyartec protocol is used to control Skyartec™ receivers and models. |cc25
  
 The Skyartec protocol supports up to 7 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
+Protocol: \*Futaba S-FHSS
+--------------------
+The Futaba S-FHSS protocol is used to control Futaba™ receivers and models. It also used by some models of XK Innovations and has third party compatible receivers available. |cc2500-note|
+
+|mod-install-link|
+ 
+The S-FHSS protocol supports up to 8 channels, and only supports auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+
+Traditional Futaba channel layout is following: Aileron, Elevator, Throttle, Rudder, Gear, Pitch, Aux1, and Aux2. So it is suitable for control of Collective Pitch (CP) helicopters.
+
+Protocol resolution is 1024 steps (10 bits) out of which a bit smaller range is actually used (data by reverse engineering using third party equipment). Temporal resolution is 6.8ms. No telemetry supported.
+
 Protocol: \*V202
 ----------------
 The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|
