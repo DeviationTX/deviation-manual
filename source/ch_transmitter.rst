@@ -47,9 +47,10 @@ Generic settings
 .. container::
 
    **Language**: Select an appropriate language for all text.
+
 .. cssclass:: bold-italic
-              Note: This feature is not available for Devo7e.
-.. endif::
+
+   NOTE: This feature is not available for Devo7e.
 
    **Stick mode**: Select one of Mode 1-4. 
 
@@ -60,7 +61,7 @@ Generic settings
 
    **Sticks**: Calibrate the range of all analog sticks and dials.
 
-   To perform a stick calibration, highlight the Calibrate option and press the ENT button. Follow the on screen prompts for moving the sticks and confirming with the ENT button. 
+To perform a stick calibration, highlight the Calibrate option and press the ENT button. Follow the on screen prompts for moving the sticks and confirming with the ENT button. 
 
 .. if:: devo8 
 **Clock (Devo12 only)**: Set the current time and date
