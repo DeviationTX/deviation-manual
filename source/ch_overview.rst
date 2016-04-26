@@ -56,6 +56,6 @@ Deviation is distributed in the hope that it will be useful, but WITHOUT ANY WAR
 
 .. cssclass:: bold-italic
 
-The Deviation Project is hosted at www.deviationtx.com and the Source are available at http://bitbucket.org/deviationtx/deviation.
+The Deviation Project is hosted at www.deviationtx.com and the Source are available at https://github.com/DeviationTX/deviation.
 
 
