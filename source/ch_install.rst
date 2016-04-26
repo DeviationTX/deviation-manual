@@ -75,7 +75,7 @@ either the Deviation USB Driver for use with the Deviation
 Uploader. Install the driver for the DfuSe tool you plan on using.
 
 
-DFU Installation With Walkera DfUse
+DFU Installation With Walkera DfuSe
 -----------------------------------
 
 Installation of Deviation with the Walkera DfuSe tool is done in
