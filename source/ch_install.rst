@@ -3,7 +3,7 @@ Installation
 
 All installations follow the same pattern: use a DFU tool to flash the
 dfu to the transmitter, then reboot the transmitter in USB mode and
-update the file system. The transmitter may file to boot if you try
+update the file system. The transmitter may fail to boot if you try
 booting deviation before updating the file system.
 
 The :ref:`preparation` section covers things you need to do before
@@ -75,7 +75,7 @@ either the Deviation USB Driver for use with the Deviation
 Uploader. Install the driver for the DfuSe tool you plan on using.
 
 
-DFU Installation With Walkera DfUse
+DFU Installation With Walkera DfuSe
 -----------------------------------
 
 Installation of Deviation with the Walkera DfuSe tool is done in
@@ -101,14 +101,14 @@ Plug the transmitter into the PC via USB, and turn on the transmitter while hold
 On the Devo12, this is done by holding the trainer switch instead.
 .. endif::
 
-Several users have reported compatibility issues with Windows™ and/or USB ports when running this tool. If Dfuse do not recognition your TX, try removing all USB devices and restart your PC with only the USB connection to the TX. 
+Several users have reported compatibility issues with Windows™ and/or USB ports when running this tool. If Dfuse do not recognition your TX, try removing all USB devices and restart your PC with only the USB connection to the TX.
 
 If your transmitter has been connected correctly 'STM Device in DFU Mode' will be displayed under 'Available DFU Devices'. Otherwise this field will remain blank.
 
 1) Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to install.
 2) Select '**Upgrade**' to install the firmware. This will be grayed-out if your transmitter is not detected.  **Do NOT use 'Upload' as this will destroy the dfu file on your PC.**
 .. if:: devo8
-3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library. 
+3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library.
 .. endif::
 
 Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options.
@@ -145,7 +145,7 @@ devices.
 .. endif::
 .. if:: devo8
    On the Devo 12 and 12S, select the 'Library' check box. `(Is this correct?)`
-.. endif::   
+.. endif::
 3) Click the 'Install/Upgrade' option.
 
 .. if:: devo10
