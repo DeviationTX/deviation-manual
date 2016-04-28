@@ -93,16 +93,19 @@ The model page provides various model configuration options.
 
 .. container::
 
-   **Mixer GUI**: Defines which graphical user interface (GUI) to use for this model.  The ‘Advanced’ GUI is the default for Deviation.  The ‘Standard’ GUI is only available for Helicopter models and more closely resembles the stock GUI.
+   **Mixer GUI**: Defines which graphical user interface (GUI) to use for
+   this model.  The ‘Advanced’ GUI is the default for Deviation.  The
+   ‘Standard’ GUI is only available for Helicopter models and more closely
+   resembles the stock GUI.
 
    Standard mixer gui is designed for collective pitch helicopters
-with a flybar. It includes features spefic to those that aren't needed
-on other aircraft, and may be missing features needed to properly
-control other aircraft. A flybarless collective pitch helicopter might
-benefit from some of the features of the standard GUI, it doesn't need
-them and may need those missing features. **You are strongly
-encouraged to use advanced mixer for all aircraft but collective pitch
-helicopters.**
+   with a flybar. It includes features spefic to those that aren't needed
+   on other aircraft, and may be missing features needed to properly
+   control other aircraft. A flybarless collective pitch helicopter might
+   benefit from some of the features of the standard GUI, it doesn't need
+   them and may need those missing features. **You are strongly
+   encouraged to use advanced mixer for all aircraft but collective pitch
+   helicopters.**
 
    .. cssclass:: bold-italic
 
@@ -503,7 +506,7 @@ Telemetry config (Std & Adv GUI)
 .. _trims-and-virtual-inputs:
 
 Trims and Virtual Inputs (Std & Adv GUI)
-----------------------------------
+----------------------------------------
 
 .. macro:: floatimg images/|target|/ch_model/trims.png
 
@@ -531,8 +534,10 @@ Trims and Virtual Inputs (Std & Adv GUI)
 
 Datalog (Std & Adv GUI)
 -----------------------
+
 .. if:: devo10
 .. cssclass:: bold-italic
+
 Note: This feature is not available for Devo7e.
 
 .. endif::

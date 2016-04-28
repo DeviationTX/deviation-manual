@@ -191,7 +191,7 @@ The first channel normally controls the sheets and the second channel
 the rudder, but this may vary from model to model.
 
 Protocol: \*Frsky-V8
-------------------
+--------------------
 The Frsky-V8 protocol is used to control older Frsky™ receivers using the one-way protocol. |cc2500-note|
 
 |mod-install-link|
@@ -199,7 +199,7 @@ The Frsky-V8 protocol is used to control older Frsky™ receivers using the one-
 The Frsky-V8 protocol supports 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 Protocol: \*Frsky
-------------------
+-----------------
 The Frsky protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol. |cc2500-note|
 
 |mod-install-link|
@@ -217,7 +217,7 @@ The Skyartec protocol is used to control Skyartec™ receivers and models. |cc25
 The Skyartec protocol supports up to 7 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 Protocol: \*Futaba S-FHSS
---------------------
+-------------------------
 The Futaba S-FHSS protocol is used to control Futaba™ receivers and models. It also used by some models of XK Innovations and has third party compatible receivers available. |cc2500-note|
 
 |mod-install-link|
@@ -357,7 +357,7 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 * Channel 11 initiates calibration
 
 Protocol: \*CFlie
----------------
+-----------------
 The CFlie protocol is used on the CrazyFlie nano quad. It has not been
 tested with any other models. |nrf24l01p-note|
 
@@ -370,7 +370,7 @@ the first use.
 
 
 Protocol: \*H377
---------------
+----------------
 The H377 protocol supports the NiHui H377 6 channel helicopter. It has
 not been tested with any other models. |nrf24l01-note|
 
@@ -383,7 +383,7 @@ the first use.
 
 
 Protocol: \*HM830
---------------
+-----------------
 The HM830 protocol supports the HM830 Folding A4 Paper airplane. It
 has not been tested with any other models. |nrf24l01-note|
 
@@ -394,7 +394,7 @@ auto-binding. The protocol stays in bind mode until successful.
 
 
 Protocol: \*KN
-------------
+--------------
 The KN protocol is used on the WLToys V930, V931, V966, V977 and V988 (WLToys format)
 as well as the Feilun FX067C, FX070C and FX071C (Feilun format)
 helicopters. It has not been tested with other models. |nrf24l01p-note|
@@ -415,7 +415,7 @@ Channel 9-11 are trim channels for throttle/pitch, elevator and rudder.
 
 
 Protocol: \*ESky150
------------------
+-------------------
 The ESky150 protocol supports the ESky 150 helicopter. It has not been
 tested with any other models. |nrf24l01-note|
 
@@ -426,7 +426,7 @@ auto-binding. The protocol stays in bind mode until successful.
 
 
 Protocol: \*Esky
---------------
+----------------
 Needs to be completed. |nrf24l01-note|
 
 |mod-install-link|
@@ -437,7 +437,7 @@ is used instead.  It is necessary to manually bind each model before
 the first use.
 
 Protocol: \*BlueFly
------------------
+-------------------
 The BlueFly protocol is used with the Blue-Fly HP100. It has not been
 tested with any other models. |nrf24l01p-note|
 
@@ -449,7 +449,7 @@ is used instead.  It is necessary to manually bind each model before
 the first use.
 
 Protocol: \*CX10
----------------
+----------------
 The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|
 
 |mod-install-link|
@@ -469,7 +469,7 @@ The protocol has a Format option for the Blue-A, Green and DM007
 builds of the CX10.
 
 Protocol: \*CG023
----------------
+-----------------
 The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has
 not been tested on other models. |nrf24l01-note|
 
@@ -494,7 +494,7 @@ Channel 10 controls the rate, and has three settings.
 
 
 Protocol: \*PPM
--------------
+---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
 
 .. macro:: floatimg images/|target|/ch_protocols/ppm.png
