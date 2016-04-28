@@ -2,8 +2,10 @@ Installation
 ============
 
 Windows™ users can choose between two methods of installing the deviation firmware.
-1. Use the Deviation Uploader tool
-2. Use the Walkera DfuSe USB Upgrade tool (Windows™s only)
+
+1) Use the Deviation Uploader tool
+2) Use the Walkera DfuSe USB Upgrade tool (Windows™s only)
+
 If you do not have the Windows™ operating system, go with the first choice, the Deviation Uploader tool. It is a Java application that was designed by the Deviation developer team to be efficient and simple to use with any Devo radio and any version of deviation or even Devention, if you should wish to revert to the original Walkera firmware. The Walkera tool uses a two-step approach, in which you first install the firmware, then the filesystem library. The Deviation Uploader tool does the same thing in one simple, convenient step, using the ZIP compressed deviation firmware file as the source.
 
 .. if:: devo10
