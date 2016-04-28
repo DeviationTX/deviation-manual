@@ -153,7 +153,7 @@ For transmitters other than the F7 and F12E, turn the transmitter back on while 
 
 
 Updating the file system via USB (Not necessary after installing with the Deviation Uploader tool)
---------------------------------
+--------------------------------------------------------------------------------------------------
 
 .. if:: devo10
 .. cssclass:: bold-italic
@@ -182,7 +182,7 @@ file is overwritten, the stick calibration must be repeated and any
 settings reset.
 
 Upgrading the file system with 'Deviation Uploader'
---------------------------------------------------
+---------------------------------------------------
 .. if:: devo10
 .. cssclass:: bold-italic
 
