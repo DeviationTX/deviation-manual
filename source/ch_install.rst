@@ -14,7 +14,7 @@ Uploader.
 The :ref:`preparation` section covers things you need to do before
 starting an installation. The two installation sections covers the
 actual installation, depending on which tool you are using. There are
-section following that include notes specific to upgdating from or to
+section following that include notes specific to upgrading from or to
 various versions and build types.
 
 .. _preparation:
@@ -41,9 +41,9 @@ If you are using Windows™, you need to install the appropriate
 USB drivers. See the section on :ref:`windows_drivers`
 
 Unzip the tools and install them locally. If you are using the Deviation Uploader tool, it is not necessary to unzip the firmware you downloaded. It is recommended that you
-test the DFU tool by first updating your TX to a different version of Walkera firmware.
+test the DFU tool by first upgrading your TX to a different version of Walkera firmware.
 
-If you are updating from a previous Deviation release, it is strongly
+If you are upgrading from a previous Deviation release, it is strongly
 recommended that you back-up the 'models' directory from the
 transmitter as well as the 'tx.ini' and the 'hardware.ini' files to
 ensure you don’t lose any model or transmitter configuration.
@@ -70,7 +70,7 @@ DFU Installation With Walkera DfuSe
 -----------------------------------
 
 Installation of Deviation with the Walkera DfuSe tool is done in
-exactly the same manner as updating the Walkera Devention firmware.
+exactly the same manner as upgrading the Walkera Devention firmware.
 Note that Deviation will NOT overwrite Walkera models stored on the
 transmitter. While they cannot be accessed by Deviation, they will be
 safely preserved should the Walkera firmware ever need to be
@@ -103,7 +103,7 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library.
 .. endif::
 
-Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options. Next, proceed to the section about updating the file system via USB.
+Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options. Next, proceed to the section about upgrading the file system via USB.
 
 DFU Installation with Deviation Uploader
 ----------------------------------------
@@ -171,7 +171,7 @@ files with the extension 'zip', and 'dfu' need not to be copied.
 .. image:: images/|target|/ch_install/dont_copy_files.png
    :height: 6cm
 
-If you are upgrading from an older release, don't update the 'tx.ini',
+If you are upgrading from an older release, don't upgrade the 'tx.ini',
 and 'hardware.ini' files or the 'models' directory. Optionally, copy
 the 'models' directory to the transmitter except for the currently
 configured model files. This last step will ensure that the defaults
@@ -179,7 +179,7 @@ for newly created models have the latest options set. If the 'tx.ini'
 file is overwritten, the stick calibration must be repeated and any
 settings reset.
 
-Updating the file system with 'Deviation Uploader'
+Upgrading the file system with 'Deviation Uploader'
 --------------------------------------------------
 .. if:: devo10
 .. cssclass:: bold-italic
