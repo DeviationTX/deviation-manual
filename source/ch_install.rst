@@ -4,7 +4,7 @@ Installation
 Windows™ users can choose between two methods of installing the deviation firmware.
 
 1) Use the Deviation Uploader tool
-2) Use the Walkera DfuSe USB Upgrade tool (Windows™s only)
+2) Use the Walkera DfuSe USB Upgrade tool (Windows™ only)
 
 If you do not have the Windows™ operating system, go with the first choice, the Deviation Uploader tool. It is a Java application that was designed by the Deviation developer team to be efficient and simple to use with any Devo radio and any version of deviation or even Devention, if you should wish to revert to the original Walkera firmware. The Walkera tool uses a two-step approach, in which you first install the firmware, then the filesystem library. The Deviation Uploader tool does the same thing in one simple, convenient step, using the ZIP compressed deviation firmware file as the source.
 
@@ -14,9 +14,9 @@ Uploader.
 .. endif::
 
 The :ref:`preparation` section covers things you need to do before
-starting an installation. The two installation sections covers the
+starting an installation. Then, two installation sections cover the
 actual installation, depending on which tool you are using. There are
-section following that include notes specific to upgrading from or to
+sections following that include notes specific to upgrading from or to
 various versions and build types.
 
 .. _preparation:
@@ -105,7 +105,36 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 3) **Devo12 Only**: Select the 'Library' tab, click '…' select the devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to install the library.
 .. endif::
 
-Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options. Next, proceed to the section about upgrading the file system via USB.
+Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options. Next, upgrade the file system via USB.
+
+Upgrading the file system via USB
+--------------------------------
+
+.. if:: devo10
+.. cssclass:: bold-italic
+
+   On the Devo F7 and F12E, do not enable USB mode, as the file system
+   cannot be accessed from the desktop, and you need to use the 'File
+   Manager' tab on the 'Deviation Uploader' to manage files. If you
+   enable it, all you can do is format the drive, which will destroy
+   your installation.
+.. endif::
+
+Open the folder that has been extracted from the zip file and copy all the files and directories
+inside this folder to the root of the transmitter USB drive. For
+details of the file-system please see :ref:`usb-file-system`. The
+files with the extension 'zip', and 'dfu' need not to be copied.
+
+.. image:: images/|target|/ch_install/dont_copy_files.png
+   :height: 6cm
+
+If you are upgrading from an older release, don't upgrade the 'tx.ini',
+and 'hardware.ini' files or the 'models' directory. Optionally, copy
+the 'models' directory to the transmitter except for the currently
+configured model files. This last step will ensure that the defaults
+for newly created models have the latest options set. If the 'tx.ini'
+file is overwritten, the stick calibration must be repeated and any
+settings reset.
 
 DFU Installation with Deviation Uploader
 ----------------------------------------
@@ -152,35 +181,6 @@ devices. Take the steps necessary to resolve any connection issues.
 For transmitters other than the F7 and F12E, turn the transmitter back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, your computer may prompt to format a drive. Format using default options.
 
 
-Updating the file system via USB (Not necessary after installing with the Deviation Uploader tool)
---------------------------------
-
-.. if:: devo10
-.. cssclass:: bold-italic
-
-   Again, on the Devo F7 and F12E, do not enable USB mode, as the file system
-   cannot be accessed from the desktop, and you need to use the 'File
-   Manager' tab on the 'Deviation Uploader' to manage files. If you
-   enable it, all you can do is format the drive, which will destroy
-   your installation.
-.. endif::
-
-Open the folder that has been extracted from the zip file and copy all the files and directories
-inside this folder to the root of the transmitter USB drive. For
-details of the file-system please see :ref:`usb-file-system`. The
-files with the extension 'zip', and 'dfu' need not to be copied.
-
-.. image:: images/|target|/ch_install/dont_copy_files.png
-   :height: 6cm
-
-If you are upgrading from an older release, don't upgrade the 'tx.ini',
-and 'hardware.ini' files or the 'models' directory. Optionally, copy
-the 'models' directory to the transmitter except for the currently
-configured model files. This last step will ensure that the defaults
-for newly created models have the latest options set. If the 'tx.ini'
-file is overwritten, the stick calibration must be repeated and any
-settings reset.
-
 Upgrading the file system with 'Deviation Uploader'
 --------------------------------------------------
 .. if:: devo10
@@ -192,7 +192,7 @@ installation.
 
 .. endif::
 
-To be done.
+If you followed the foregoing instructions for installing the deviation firmware ZIP file for your Devo using the Deviation Uploader tool, your installation is complete and no further installations are necessary. If, on the other hand, you unzipped the file and installed the firmware dfu file alone, then your must continue by installing the library dfu file. There is no advantage in doing the installation this way, but it can be done.
 
 Deviation 4.0.1
 ---------------
@@ -200,7 +200,7 @@ Deviation 4.0.1
 If you are upgrading from the Deviation 4.0.1 release and have
 installed extra hardware, things have changed. Most notably, the
 hardware configuration information has moved from 'tx.ini' to
-'hardware.ini'. You'll need to move your changes to 'tx.ini' to
+'hardware.ini'. You'll need to move your changes from 'tx.ini' to
 'hardware.ini'.
 
 Also, the hardware connections have changed for some modules you may have added, allowing
