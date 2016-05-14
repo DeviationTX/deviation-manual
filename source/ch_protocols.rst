@@ -10,7 +10,7 @@
 
 Protocols
 =========
-Some protocols have additional customization or limits.  Each of the protocols is described below.  If an ‘*’ is shown before the protocol name, it means this protocol is not currently supported by the transmitter.  This generally means that the necessary hardware module is not installed or has not been configured properly.  More information can be found in the Module installation guide:
+Some protocols have additional customization or limits.  Each of the protocols is described below.  If an ‘*’ is shown before the protocol name on your transmitter, it means this protocol requires a hardware module that is not installed or has not been configured properly.  More information can be found in the Module installation guide:
 
 |mod-install-link|
 
@@ -200,13 +200,28 @@ The Frsky-V8 protocol supports 8 channels, does not support auto-binding.  If Fi
 
 Protocol: \*Frsky
 -----------------
-The Frsky protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol. |cc2500-note|
+The Frsky protocol is used to control newer (telemetry enabled) Frsky™ receivers using the two-way protocol (D8). |cc2500-note|
 
 |mod-install-link|
 
 The Frsky protocol supports up to 8 channels, does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
-The Frsky2way protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when Frsky2way is shown.
+The Frsky protocol also supports enabling/disabling telemetry.  This option is accessed by pressing the Protocol spin-box when Frsky is shown.
+
+When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, VOLT2) are supported.  Additional Hub telemetry values are also supported. The supported telemetry values and their location on the Telemetry monitor page are:
+
+======== ======= =========
+Misc     Bat     Cells
+======== ======= =========
+RSSI     VOLT1   CELL1
+TEMP1    VOLT2   CELL2
+TEMP2    VOLT3   CELL3
+RPM      MINCELL CELL4
+FUEL     VOLTA   CELL5
+ALTITUDE CURRENT CELL6
+VARIO            DISCHARGE
+======== ======= =========
+
 
 Protocol: \*Skyartec
 --------------------
