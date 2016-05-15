@@ -37,3 +37,8 @@ styles:
     emutable:
       parent: table
       colWidths: [14%, 26%, 8%, 8%, 12%]
+
+    telemtable:
+      parent: table
+      colWidths: [15%, 15%, 15%]
+
