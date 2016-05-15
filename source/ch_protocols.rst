@@ -1,6 +1,6 @@
 ..
 
-.. |mod-install-link| replace:: https://bitbucket.org/PhracturedBlue/deviation/wiki/ModuleInstallation
+.. |mod-install-link| replace:: http://www.deviationtx.com/wiki/#hardware_modifications
 .. |a7105-note| replace:: **NOTE:  This protocol requires the addition of an ‘A7105’ hardware module to function.  See the following document for more information**:
 .. |cc2500-note| replace:: **NOTE:  This protocol requires the addition of an ‘CC2500’ hardware module to function.  See the following document for more information**:
 .. |nrf24l01-note| replace:: **NOTE:  This protocol requires the addition of an ‘NRF24L01’ hardware module to function.  See the following document for more information**:
