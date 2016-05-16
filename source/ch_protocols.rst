@@ -237,7 +237,18 @@ Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Also supports s.
 
 *Frsky and FrskyX Extended Telemetry*
 --------------------------------------
-Extended telemetry refers to the hub and s.port Frsky telemetry sensors.  These sensors are supported in all transmitters except the 7e.  They are available on the telemetry test pages and main page boxes.  The values are individually labeled on color screens.  On the 128x64 screens the values are:
+Extended telemetry refers to the hub and s.port Frsky telemetry sensors.  These sensors are supported in all transmitters except the 7e.  They are available on the telemetry test pages and main page boxes.
+
+The FrskyX s.port telemetry provides for connecting up to 16 sensors of the same type (e.g. battery voltage).  Deviation supports multiple sensors of the same type, but only one telemetry value is saved.  The value most recently received from all the sensors of the same type is reported.
+
+*Telemetry test page*
+
+.. if:: devo8
+
+.. image:: images/devo8/ch_protocols/frsky_telem.png
+   :width: 80%
+
+.. elseif:: devo10
 
 .. cssclass:: telemtable
 
@@ -253,10 +264,12 @@ ALTITUDE VOLTA   CELL6
 VARIO    CURRENT DISCHARGE
 ======== ======= =========
 
-The ALTITUDE value is reported as Above Ground Level.  The ground level is set to the first altitude telemetry value received.
-The following values are calculated from received telemetry.  MINCELL is the lowest reported CELL value.  ALLCELL is the total of all reported CELL values.  The Discharge derived value is total battery discharge amount in milliAmp-hours.
+.. endif::
 
-The FrskyX s.port telemetry provides for connecting up to 16 sensors of the same type (e.g. battery voltage).  Deviation supports multiple sensors of the same type, but only one telemetry value is saved.  The value most recently received from all the sensors of the same type is reported.
+The ALTITUDE value is reported as Above Ground Level.  The ground level is set to the first altitude telemetry value received.
+
+Derived values: MINCELL is the lowest reported CELL value.  ALLCELL is the total of all reported CELL values.  Discharge is total battery discharge amount in milliAmp-hours.
+
 
 
 
