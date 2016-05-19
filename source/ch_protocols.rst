@@ -327,7 +327,7 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 
 Protocol: \*Bayang
 ------------------
-This protocol is used on BayangToys X9, X6, X7, X8, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
+This protocol is used on BayangToys X6, X7, X8, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
 
 |nrf24l01p-note| |mod-install-link|
 
