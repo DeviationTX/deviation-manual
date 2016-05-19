@@ -123,10 +123,10 @@ Deviation provides control for several swash-plate layouts, these include: 120°
 
 Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these cases you will still use the designated swash-plate type but may need to reverse specific channels.
 
-.. _modifying-sounds
+.. _modifying-sounds:
 
 Modifying sounds
----------------
+----------------
 
 You can edit the sounds your Devo makes, though you have to do it
 by mounting the transmitter as a USB drive and editing the 'sound.ini'
