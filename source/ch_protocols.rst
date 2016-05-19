@@ -10,7 +10,7 @@
 
 Protocols
 =========
-Some protocols have additional customization or limits.  Each of the protocols is described below.  An asterisk (‘*’) before the protocol name in the section header means a hardware module must be added to the transmitter to support the protocol.  On the transmitter display the asterisk means the transmitter does not have the required module installed or hardware.ini is not been configured properly.  More information can be found in the Module installation guide:
+Some protocols have additional customization or limits.  Each of the protocols is described below.  An asterisk (‘*’) before the protocol name in the section header means a hardware module must be added to the transmitter to support the protocol.  On the transmitter display the asterisk means Deviation does not detect the required module (not installed, hardware.ini not correct, or other issue communicating with the module.)  More information can be found in the Module installation guide:
 
 |mod-install-link|
 
