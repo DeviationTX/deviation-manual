@@ -1,12 +1,6 @@
 Installation
 ============
 
-<<<<<<< HEAD
-All installations follow the same pattern: use a DFU tool to flash the
-dfu to the transmitter, then reboot the transmitter in USB mode and
-update the file system. The transmitter may fail to boot if you try
-booting deviation before updating the file system.
-=======
 Windows™ users can choose between two methods of installing the deviation firmware.
 
 1) Use the Deviation Uploader tool
@@ -18,7 +12,6 @@ If you do not have the Windows™ operating system, go with the first choice, th
 If your transmitter is a Devo F7 or F12E, you **must** use the Deviation
 Uploader.
 .. endif::
->>>>>>> DeviationTX/master
 
 The :ref:`preparation` section covers things you need to do before
 starting an installation. Then, two installation sections cover the
@@ -102,11 +95,7 @@ Plug the transmitter into the PC via USB, and turn on the transmitter while hold
 On the Devo12, this is done by holding the trainer switch instead.
 .. endif::
 
-<<<<<<< HEAD
-Several users have reported compatibility issues with Windows™ and/or USB ports when running this tool. If Dfuse do not recognition your TX, try removing all USB devices and restart your PC with only the USB connection to the TX.
-=======
 Several users have reported compatibility issues with Windows™ and/or USB ports when running this tool. If DfuSe does not recognize your TX, try removing all USB devices and restart your PC with only the USB connection to the TX. Take the steps necessary to resolve any connection issues.
->>>>>>> DeviationTX/master
 
 If your transmitter has been connected correctly 'STM Device in DFU Mode' will be displayed under 'Available DFU Devices'. Otherwise this field will remain blank.
 
@@ -176,16 +165,8 @@ devices. Take the steps necessary to resolve any connection issues.
    On the Devo F7 and Devo F12E initial install, select the 'Format'
    check box if not already selected.
 .. endif::
-<<<<<<< HEAD
-.. if:: devo8
-   On the Devo 12 and 12S, select the 'Library' check box. `(Is this correct?)`
-.. endif::
-3) Click the 'Install/Upgrade' option.
-=======
-
 3) Click the 'Install/Upgrade' option. Installation will take a few minutes, so be patient. A pop-up dialog box will notify you when installation is completed. You are done. 
 4) Turn off your Devo transmitter. When you turn it on again, you'll be greeted by the Deviation splash screen.
->>>>>>> DeviationTX/master
 
 .. if:: devo10
 
