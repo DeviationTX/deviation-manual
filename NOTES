@@ -15,6 +15,6 @@ convert input.png -matte -background white -splice 10x0 output.png
 
 rst2pdf version is: 
 https://github.com/PhracturedBlue/rst2pdf
-version: b7a2f99435eae51241fea9d939d5d1efadff3d1a
+version: c021d755749328c75486c012fe462483cfeb5c1b
 
 

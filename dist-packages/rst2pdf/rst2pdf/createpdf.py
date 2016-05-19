@@ -785,7 +785,11 @@ class FancyDocTemplate(BaseDocTemplate):
                 else:
                     n = 0
                 if n:
-                    if not isinstance(S[0],(PageBreak,SlowPageBreak,ActionFlowable)):
+                    # I'm not 100% sure that adding 'ImageAndFlowables' here is teh right thing to do,
+                    # As it results in an extra linne space when flowing around the bottom of an image
+                    # But I think this is more likely an issue in ReportLab, and without the change
+                    # We get the 'Splitting error' stack-trace
+                    if not isinstance(S[0],(PageBreak,SlowPageBreak,ActionFlowable,ImageAndFlowables)):
                         if frame.add(S[0], canv, trySplit=0):
                             self._curPageFlowableCount += 1
                             self.afterFlowable(S[0])
