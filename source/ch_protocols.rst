@@ -10,7 +10,7 @@
 
 Protocols
 =========
-Some protocols have additional customization or limits.  Each of the protocols is described below.  If an ‘*’ is shown before the protocol name on your transmitter, it means this protocol requires a hardware module that is not installed or has not been configured properly.  More information can be found in the Module installation guide:
+Some protocols have additional customization or limits.  Each of the protocols is described below.  An asterisk (‘*’) before the protocol name in the section header means a hardware module must be added to the transmitter to support the protocol.  On the transmitter display the asterisk means Deviation does not detect the required module (not installed, hardware.ini not correct, or other issue communicating with the module.)  More information can be found in the Module installation guide:
 
 |mod-install-link|
 
@@ -392,7 +392,7 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 
 Protocol: \*Bayang
 ------------------
-This protocol is used on BayangToys X9, X6, X7, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
+This protocol is used on BayangToys X6, X7, X8, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
 
 |nrf24l01p-note| |mod-install-link|
 
@@ -400,8 +400,8 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 
 * Channel 5 is unused
 * Channel 6 enables the flip function
-* Channel 7 is unused
-* Channel 8 is unused
+* Channel 7 captures single photo on positive transition
+* Channel 8 starts/stops video recording on positive transition
 * Channel 9 turns headless mode on/off 
 * Channel 10 engages the return-to-home feature
 
