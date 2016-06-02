@@ -465,8 +465,8 @@ Channel 6 is flip mode.
 The DM007 format also uses channel 7 for the still camera, channel 8
 for the video camera and channel 9 for headless mode.
 
-The protocol has a Format option for the Blue-A, Green and DM007
-builds of the CX10.
+The protocol has a Format option for the Blue-A, Green, DM007,
+Q282, JC3015-1, JC3015-2, MK33041 and Q242 quadcopters.
 
 Protocol: \*CG023
 -----------------
@@ -475,8 +475,8 @@ not been tested on other models. |nrf24l01-note|
 
 |mod-install-link|
 
-The CG023 protocol supports 10 channels and only supports
-auto-binding. The protocol stays in bind mode until successful.
+The CG023 protocol supports 9 channels and only supports
+auto-binding.
 
 The first four channels are Aileron, Elevator, Throttle and Rudder.
 
@@ -490,8 +490,37 @@ Channel 8 controls the video camera.
 
 Channel 9 controls headless mode.
 
-Channel 10 controls the rate, and has three settings.
+The protocol has a Format option for the YD829 quadcopter.
 
+Protocol: \*H8_3D
+-----------------
+The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D quadcopters. It has
+not been tested on other models. |nrf24l01-note|
+
+|mod-install-link|
+
+The H8_3D protocol supports 11 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Channel 5 controls the LEDs.
+
+Channel 6 controls Flip mode.
+
+Channel 7 controls the still camera
+
+Channel 8 controls the video camera.
+
+Channel 9 controls headless mode.
+
+Channel 10 controls RTH mode.
+
+Channel 11 controls camera gimball on H11D and has 3 positions.
+
+Both sticks left starts accelerometer calibration on H8 3D, or headless calibration on H20.
+
+Both sticks right starts accelerometer calibration on H20 and H11D.
 
 Protocol: \*PPM
 ---------------
