@@ -518,9 +518,9 @@ Channel 10 controls RTH mode.
 
 Channel 11 controls camera gimball on H11D and has 3 positions.
 
-Both sticks left starts accelerometer calibration on H8 3D, or headless calibration on H20.
+Both sticks bottom left starts accelerometer calibration on H8 3D, or headless calibration on H20.
 
-Both sticks right starts accelerometer calibration on H20 and H11D.
+Both sticks bottom right starts accelerometer calibration on H20 and H11D.
 
 Protocol: \*PPM
 ---------------
