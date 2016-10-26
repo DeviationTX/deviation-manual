@@ -249,6 +249,14 @@ The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Addition
 * Channel 10 causes the x axis to calibrate
 * Channel 11 causes the y axis to calibrate
 
+If JXD-506 format is selected, channels 10-12 are used for:
+
+* Channel 10 start/stop
+* Channel 11 emergency stop
+* Channel 12 gimbal control
+
+Also, models compatible with this format require the throttle stick to be centered before arming.
+
 Protocol: \*SLT
 ---------------
 The SLT protocol is used to control TacticSLT/Anylink receivers. |nrf24l01-note|
