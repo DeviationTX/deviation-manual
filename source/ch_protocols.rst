@@ -530,6 +530,34 @@ Both sticks bottom left starts accelerometer calibration on H8 3D, or headless c
 
 Both sticks bottom right starts accelerometer calibration on H20 and H11D.
 
+Protocol: \*MJXq
+-----------------
+The MJXq protocol supports the MJX quadcopters. It also has format options for
+Weilihua WLH08, EAchine E010 and WLToys H26D / H26WH. |nrf24l01-note|
+
+|mod-install-link|
+
+The MJXq protocol supports 12 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Channel 5 controls LEDs, or arm if H26WH format is selected.
+
+Channel 6 controls Flip mode.
+
+Channel 7 controls the still camera
+
+Channel 8 controls the video camera.
+
+Channel 9 controls headless mode.
+
+Channel 10 controls RTH mode
+
+Channel 11 controls autoflip (X600 & X800 formats) or camera pan
+
+Channel 12 controls camera tilt
+
 Protocol: \*PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
