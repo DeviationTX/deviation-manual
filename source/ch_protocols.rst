@@ -115,7 +115,7 @@ The J6Pro protocol is used to support Nine Eagles™ models.  Only models compat
 
 Protocol: \*Flysky
 ------------------
-The Flysky protocol is used to control Turnigy/Flysky receivers as well as a few other models using the same protocol (WL V911, Xieda 9958, etc).  |a7105-note|
+The Flysky protocol is used to control Turnigy/Flysky receivers as well as a few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc).  |a7105-note|
 
 |mod-install-link|
 
@@ -151,6 +151,22 @@ v969, etc quadcopters.
 
 
 Note that if these channels are assigned to a switch, turning the switch on toggles the state, and turning the switch off has no effect.  Thus to turn the lights on, flip the switch assigned to Channel 5 from off to on.  Flipping the switch back to off has no effect.  Flipping the switch back on now turns the lights back off.
+
+Protocol: \*AFHDS-2A
+------------------
+The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers.  |a7105-note|
+
+|mod-install-link|
+
+The AFHDS-2A protocol supports up to 12 channels, and requires manual-binding.
+The receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
+
+Options configurable on the AFHDS-2A page:
+
+* ** Outputs **: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
+* ** Servo Hz **: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
+
+Partial telemetry support, only receiver voltage and RSSI in dB are supported for now.
 
 Protocol: \*Hubsan4
 -------------------
@@ -313,6 +329,14 @@ The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Addition
 * Channel 9 turns headless mode on/off 
 * Channel 10 causes the x axis to calibrate
 * Channel 11 causes the y axis to calibrate
+
+If JXD-506 format is selected, channels 10-12 are used for:
+
+* Channel 10 start/stop
+* Channel 11 emergency stop
+* Channel 12 gimbal control
+
+Also, models compatible with this format require the throttle stick to be centered before arming.
 
 Protocol: \*SLT
 ---------------
@@ -530,8 +554,8 @@ Channel 6 is flip mode.
 The DM007 format also uses channel 7 for the still camera, channel 8
 for the video camera and channel 9 for headless mode.
 
-The protocol has a Format option for the Blue-A, Green and DM007
-builds of the CX10.
+The protocol has a Format option for the Blue-A, Green, DM007,
+Q282, JC3015-1, JC3015-2, MK33041 and Q242 quadcopters.
 
 Protocol: \*CG023
 -----------------
@@ -540,8 +564,8 @@ not been tested on other models. |nrf24l01-note|
 
 |mod-install-link|
 
-The CG023 protocol supports 10 channels and only supports
-auto-binding. The protocol stays in bind mode until successful.
+The CG023 protocol supports 9 channels and only supports
+auto-binding.
 
 The first four channels are Aileron, Elevator, Throttle and Rudder.
 
@@ -555,8 +579,65 @@ Channel 8 controls the video camera.
 
 Channel 9 controls headless mode.
 
-Channel 10 controls the rate, and has three settings.
+The protocol has a Format option for the YD829 quadcopter.
 
+Protocol: \*H8_3D
+-----------------
+The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D quadcopters. It has
+not been tested on other models. |nrf24l01-note|
+
+|mod-install-link|
+
+The H8_3D protocol supports 11 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Channel 5 controls the LEDs.
+
+Channel 6 controls Flip mode.
+
+Channel 7 controls the still camera
+
+Channel 8 controls the video camera.
+
+Channel 9 controls headless mode.
+
+Channel 10 controls RTH mode.
+
+Channel 11 controls camera gimball on H11D and has 3 positions.
+
+Both sticks bottom left starts accelerometer calibration on H8 3D, or headless calibration on H20.
+
+Both sticks bottom right starts accelerometer calibration on H20 and H11D.
+
+Protocol: \*MJXq
+-----------------
+The MJXq protocol supports the MJX quadcopters. It also has format options for
+Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|
+
+|mod-install-link|
+
+The MJXq protocol supports 12 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Channel 5 controls LEDs, or arm if H26WH format is selected.
+
+Channel 6 controls Flip mode.
+
+Channel 7 controls the still camera
+
+Channel 8 controls the video camera.
+
+Channel 9 controls headless mode.
+
+Channel 10 controls RTH mode
+
+Channel 11 controls autoflip (X600 & X800 formats) or camera pan
+
+Channel 12 controls camera tilt
 
 Protocol: \*PPM
 ---------------
