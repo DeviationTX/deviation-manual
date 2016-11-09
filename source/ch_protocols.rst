@@ -226,13 +226,13 @@ The Frsky protocol also supports enabling/disabling telemetry.  This option is a
 
 When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, VOLT2) are supported.
 
-Additional Hub telemetry values are supported in common with the FrskyX protocol on transmitters except the 7e.  See the Frsky Telemetry section below.
+Additional Hub telemetry values are supported in common with the FrskyX protocol on transmitters except the 7e and f7.  See the Frsky Telemetry section below.
 
 
 
 Protocol: \*FrskyX
 ------------------
-The FryskyX protocol implements the Frsky D16 radio protocol, including s.port and hub telemetry.  |cc2500-note|
+The FryskyX protocol implements the Frsky D16 radio protocol, including S.Port and hub telemetry.  |cc2500-note|
 
 |mod-install-link|
 
@@ -240,7 +240,7 @@ This protocol supports up to 12 channels. Fixed ID binding is supported to link 
 
 The following protocol options are available.
 
-**Freq-fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0.
+**Freq-fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0. The LQI telemetry value can be used as a guide for adjusting the fine frequency protocol option.
 
 **AD2GAIN**: The VOLT2 telemetry value (AIN input on X4R) is multiplied by this value divided by 100. Allows adjustment for external resistor divider network.  Default 100 (gain of 1). Range is 1 to 2000 (gain of 0.01 to 20.00).
 
@@ -248,14 +248,16 @@ The following protocol options are available.
 
 For channels with failsafe set to off, the default Failsafe protocol option "Hold" commands the receiver to hold the last received channel values when the receiver enters failsafe mode.  The "NoPulse" setting causes the receiver to not send any signal on PPM outputs (Testing on X8R showed SBUS values went to minimum, but SBUS behavior is not specified by the protocol).  The "RX" setting prevents Deviation from sending failsafe settings so the receiver will use whatever failsafe values have been stored in the receiver.
 
-Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Also supports s.port and hub telemetry sensors as well as GPS on transmitters except the 7e as described in the next section.
+Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Also supports S.Port and hub telemetry sensors as well as GPS on transmitters (except on 7e and f7) as described in the next section.
+
+When S.Port telemetry is being received and PPMIn is not used, the S.Port packets are sent out the trainer port.  The bit rate is 57600 for compatibility with S.Port decoders, but the signal must be inverted to connect to a standard decoder.  It can be connected directly to the input of a 3.3V ftdi adapter.
 
 
 *Frsky and FrskyX Extended Telemetry*
 --------------------------------------
-Extended telemetry refers to the hub and s.port Frsky telemetry sensors.  These sensors are supported in all transmitters except the 7e.  They are available on the telemetry test pages and main page boxes.
+Extended telemetry refers to the hub and S.Port Frsky telemetry sensors.  These sensors are supported in all transmitters except the 7e.  They are available on the telemetry test pages and main page boxes.
 
-The FrskyX s.port telemetry provides for connecting up to 16 sensors of the same type (e.g. battery voltage).  Deviation supports multiple sensors of the same type, but only one telemetry value is saved.  The value most recently received from all the sensors of the same type is reported.
+The FrskyX S.Port telemetry provides for connecting up to 16 sensors of the same type (e.g. battery voltage).  Deviation supports multiple sensors of the same type, but only one telemetry value is saved.  The value most recently received from all the sensors of the same type is reported.
 
 *Telemetry test page*
 
@@ -264,11 +266,17 @@ The FrskyX s.port telemetry provides for connecting up to 16 sensors of the same
 .. image:: images/devo8/ch_protocols/frsky_telem.png
    :width: 80%
 
+The CELL voltages are labeled C1-C5.
+
 .. elseif:: devo10
+
+The following tables show the layout of the telemetry test page display.
 
 .. cssclass:: telemtable
 
 ======== ======= =========
+      Devo10
+--------------------------
 Misc     Bat     Cells
 ======== ======= =========
 RSSI     VOLT1   CELL1
@@ -278,11 +286,26 @@ RPM      MINCELL CELL4
 FUEL     ALLCELL CELL5
 ALTITUDE VOLTA   CELL6
 VARIO    CURRENT DISCHARGE
+LQI      LRSSI
+======== ======= =========
+
+
+.. cssclass:: telemtable
+
+======== ======= =========
+       Devo7e
+--------------------------
+Misc     Bat     Signl
+======== ======= =========
+RSSI     VOLT1   LQI
+\        VOLT2   LRSSI
 ======== ======= =========
 
 .. endif::
 
 The ALTITUDE value is reported as Above Ground Level.  The ground level is set to the first altitude telemetry value received.
+
+The LQI (Link Quality Indicator) and LRSSI (Local RSSI) indicate the quality and signal strength of the telemetry signal from the receiver.  The LQI can be used as a guide for adjusting the fine frequency protocol option.  Lower LQI is better and values under 50 are typical.  The LRSSI units is (approximately) dBm.
 
 Derived values: MINCELL is the lowest reported CELL value.  ALLCELL is the total of all reported CELL values.  Discharge is total battery discharge amount in milliAmp-hours.
 
