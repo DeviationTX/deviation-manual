@@ -525,17 +525,26 @@ Channel 7 activates idle up (WL Toys V931, V966 and V977 only).
 Channel 8 toggles between 6G (default) and 3G stabilization.
 Channel 9-11 are trim channels for throttle/pitch, elevator and rudder.
 
-
 Protocol: \*ESky150
 -------------------
-The ESky150 protocol supports the ESky 150 helicopter. It has not been
-tested with any other models. |nrf24l01-note|
+The ESky150 protocol supports the smaller ESky models from 2014 onwards
+(150, 300, 150X). It has not been tested with any other models. |nrf24l01-note|
 
 |mod-install-link|
 
-The ESky150 protocol supports 4 channels and only supports
-auto-binding. The protocol stays in bind mode until successful.
+The Esky150 protocol supports up to 7 channels, and does not support
+auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
+is used instead.  It is necessary to manually bind each model before
+the first use.
 
+Channels 1-4 are throttle, aileron, elevator and rudder.
+Channel 5 is flight mode  (1 bit switch with only two states).
+Channel 6 is not yet used on any of the tested models.
+Channel 7 is a 2 bit switch (4 states).
+
+It is important if you have a 4 channel model, to configure that
+your model only has 4 channels, otherwise the throttle values can
+go crazy.
 
 Protocol: \*Esky
 ----------------
