@@ -409,7 +409,7 @@ This protocol is used on Syma models: X5C-1, X11, X11C, X12, new X4, and new X6.
 
 |mod-install-link|
 
-The SymaX protocol supports 7 channels and only supports auto-binding.
+The SymaX protocol supports 9 channels and only supports auto-binding.
 
 The first four channels represent Aileron, Elevator, Throttle, and Rudder. 
 
@@ -420,6 +420,8 @@ The sixth channel enables the auto-flip function when greater than zero.
 The seventh channel takes a picture when the channel moves from negative to positive.
 
 The eighth channel starts/stops video recording on each positive transition.
+
+The ninth channel enables headless mode when positive.
 
 Protocol: \*Hontai
 ------------------
