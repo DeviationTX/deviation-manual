@@ -1,0 +1,32 @@
+env:
+#Do not define 'global' env vars here.  They cannot be used with API builds
+    matrix:
+      - TARGET=devo8 html pdf
+      - TARGET=devo10 html pdf
+
+# use new docker environment
+sudo: false
+
+#sudo: required
+#dist: trusty
+
+addons:
+  apt:
+    packages:
+      - build-essential
+      - git
+      - python-virtualenv
+      - inkscape
+      - python-dev
+      - libjpeg-dev
+      - libz-dev
+
+#Do NOT set these.  They set 'CC' which breaks the build
+#language: c
+#compiler: gcc
+
+before_script:
+  - echo $PATH
+  - echo $HOME
+
+script: make $MAKETARGET
