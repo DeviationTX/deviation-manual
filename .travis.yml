@@ -26,5 +26,7 @@ addons:
 #compiler: gcc
 
 script:
-    - make TARGET=devo8 html pdf
-    - make TARGET=devo10 html pdf
+    - make pdf
+    - make html
+#    - make TARGET=devo8 html pdf
+#    - make TARGET=devo10 html pdf
