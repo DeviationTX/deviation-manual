@@ -1,8 +1,8 @@
-env:
-#Do not define 'global' env vars here.  They cannot be used with API builds
-    matrix:
-      - TARGET=devo8 html pdf
-      - TARGET=devo10 html pdf
+#env:
+##Do not define 'global' env vars here.  They cannot be used with API builds
+#    matrix:
+#      - TARGET=devo8 html pdf
+#      - TARGET=devo10 html pdf
 
 # use new docker environment
 sudo: false
@@ -25,5 +25,6 @@ addons:
 #language: c
 #compiler: gcc
 
-#script: make
-gemfile: make
+script:
+    - make TARGET=devo8 html pdf
+    - make TARGET=devo10 html pdf
