@@ -26,3 +26,4 @@ addons:
 #compiler: gcc
 
 #script: make
+gemfile: make
