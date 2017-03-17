@@ -25,4 +25,4 @@ addons:
 #language: c
 #compiler: gcc
 
-script: make
+#script: make
