@@ -36,3 +36,5 @@ script:
 #    - make html
 #    - make TARGET=devo8 html pdf
 #    - make TARGET=devo10 html pdf
+
+cache: pip
