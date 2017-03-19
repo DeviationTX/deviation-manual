@@ -24,3 +24,8 @@ language: python
 
 script:
     - make html pdf
+
+cache:
+    pip: true
+    directories:
+    - $HOME/build/venv
