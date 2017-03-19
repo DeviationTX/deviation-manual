@@ -2,7 +2,7 @@ env:
 ##Do not define 'global' env vars here.  They cannot be used with API builds
     matrix:
       - TARGET=devo8
-      - TARGTE=devo10
+      - TARGET=devo10
 # use new docker environment
 sudo: false
 
@@ -14,10 +14,7 @@ addons:
     packages:
       - build-essential
       - git
-#      - python-six
-#      - python-virtualenv
       - inkscape
-#      - python-dev
       - libjpeg-dev
       - libz-dev
 language: python
@@ -25,17 +22,9 @@ language: python
 # command to install dependencies
 install: "pip install -r requirements.txt"
 
-
-#Do NOT set these.  They set 'CC' which breaks the build
-#language: c
-#compiler: gcc
-
 script:
+    - export VENVDIR=~/virtualenv/python2.7/bin/
     - make prepare-travis
 #    - make html pdf
-#    - make pdf
-#    - make html
-#    - make TARGET=devo8 html pdf
-#    - make TARGET=devo10 html pdf
 
 cache: pip
