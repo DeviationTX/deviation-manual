@@ -91,3 +91,11 @@ $(SPHINXBUILD):
 prepare-travis:
 	cd dist-packages/rst2pdf && python setup.py install
 	cd dist-packages/wordaxe && python setup.py install
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf-$(TARGET)
+	@echo
+	@echo "PDF Build finished. The PDF files are in $(BUILDDIR)/pdf-$(TARGET)."
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html-$(TARGET)
+	@echo
+	@echo "HTML Build finished. The HTML pages are in $(BUILDDIR)/html-$(TARGET)."
+
+
