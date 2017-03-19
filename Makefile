@@ -81,7 +81,7 @@ $(BUILDDIR)/venv/bin/activate: requirements.txt
 	$(VENVDIR)/bin/pip install -Ur requirements.txt
 	touch $(VENVDIR)/bin/activate
 
-devbuild: venv
+devbuild:
 	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
 	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
 
