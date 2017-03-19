@@ -59,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Deviation'
-copyright = u'2015, ugkg'
+copyright = u'2017, ugkg'
 author = None
 
 # The version info for the project you're documenting, acts as replacement for
