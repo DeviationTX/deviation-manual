@@ -1,8 +1,8 @@
 env:
 ##Do not define 'global' env vars here.  They cannot be used with API builds
 matrix:
-  - MAKETARGET=html
-  - MAKETARGET=pdf
+  - TARGET=devo8
+  - TARGTE=devo10
 # use new docker environment
 sudo: false
 
@@ -31,7 +31,7 @@ install: "pip install -r requirements.txt"
 #compiler: gcc
 
 script:
-    - make $MAKETARGET
+    - make html pdf
 #    - make pdf
 #    - make html
 #    - make TARGET=devo8 html pdf
