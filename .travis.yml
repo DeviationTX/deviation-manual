@@ -15,12 +15,16 @@ addons:
     packages:
       - build-essential
       - git
-      - python-six
-      - python-virtualenv
+#      - python-six
+#      - python-virtualenv
       - inkscape
-      - python-dev
+#      - python-dev
       - libjpeg-dev
       - libz-dev
+language: python
+
+# command to install dependencies
+install: "pip install -r requirements.txt"
 
 #Do NOT set these.  They set 'CC' which breaks the build
 #language: c
