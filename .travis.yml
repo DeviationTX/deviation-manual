@@ -29,3 +29,6 @@ cache:
     pip: true
     directories:
     - $HOME/build/venv
+
+after_success:
+# Here we have to put automatic manual uploading code
