@@ -25,7 +25,7 @@ language: python
 script:
     - make html pdf
 
-cache: pip:
+cache: pip
 
 after_success:
 # Here we have to put automatic manual uploading code
