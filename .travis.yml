@@ -16,7 +16,6 @@ addons:
       - build-essential
       - git
       - python-six
-      - python-six.moves
       - python-virtualenv
       - inkscape
       - python-dev
