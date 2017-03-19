@@ -22,10 +22,10 @@ addons:
       - libjpeg-dev
       - libz-dev
 language: python
-python: "3.6"
 
 # command to install dependencies
 install: "pip install -r requirements.txt"
+
 
 #Do NOT set these.  They set 'CC' which breaks the build
 #language: c
