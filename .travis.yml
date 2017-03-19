@@ -19,12 +19,8 @@ addons:
       - libz-dev
 language: python
 
-# command to install dependencies
-install: "pip install -r requirements.txt"
+# command to install dependencies - this is done in Makefile already
+#install: "pip install -r requirements.txt"
 
 script:
-    - export VENVDIR=virtualenv/python2.7
-    - make prepare-travis
-#    - make html pdf
-
-cache: pip
+    - make html pdf
