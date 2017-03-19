@@ -25,10 +25,7 @@ language: python
 script:
     - make html pdf
 
-cache:
-    pip: true
-    directories:
-    - $HOME/build/venv
+cache: pip:
 
 after_success:
 # Here we have to put automatic manual uploading code
