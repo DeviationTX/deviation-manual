@@ -23,7 +23,7 @@ language: python
 install: "pip install -r requirements.txt"
 
 script:
-    - export VENVDIR=virtualenv/python2.7/bin
+    - export VENVDIR=virtualenv/python2.7
     - make prepare-travis
 #    - make html pdf
 
