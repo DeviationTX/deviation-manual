@@ -89,5 +89,5 @@ $(SPHINXBUILD):
 	$(MAKE) devbuild
 
 prepare-travis:
-	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
-	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
+	cd dist-packages/rst2pdf && python setup.py install
+	cd dist-packages/wordaxe && python setup.py install
