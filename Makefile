@@ -7,7 +7,7 @@ SPHINXBUILD   = $(VENVDIR)/bin/sphinx-build
 VIRTUALENV    = virtualenv
 PAPER         =
 BUILDDIR      = build
-VENVDIR       = $(BUILDDIR)/venv
+VENVDIR       ?= $(BUILDDIR)/venv
 TARGET        ?= devo8
 
 # User-friendly check for sphinx-build
@@ -89,7 +89,5 @@ $(SPHINXBUILD):
 	$(MAKE) devbuild
 
 prepare-travis:
-	VENVDIR	= ~/virtualenv/python2.7/bin/
 	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
-	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install	
-	
+	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
