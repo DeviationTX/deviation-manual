@@ -34,7 +34,7 @@ script:
 cache: pip
 
 after_success:
-    export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}');
-    export TARGET_PDF="Deviation$(TARGET_VERSION)UsersManual.pdf";
-    echo "Uploading Documentation - $TARGET_PDF";
-    ../utils/upload_documentation.pl -skip -documentation build/pdf-$TARGET/$TARGET_PDF -pdf build/pdf-$TARGET/$TARGET_PDF ;
+    - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
+    - export TARGET_PDF="Deviation$(TARGET_VERSION)UsersManual.pdf"
+    - echo "Uploading Documentation - $TARGET_PDF"
+    - upload_documentation.pl -skip -documentation build/pdf-$TARGET/$TARGET_PDF -pdf build/pdf-$TARGET/$TARGET_PDF
