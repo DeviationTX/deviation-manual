@@ -21,7 +21,7 @@ addons:
 language: python
 
 before_install:
-   - openssl aes-256-cbc -K $encrypted_e9ea55308bcd_key -iv $encrypted_e9ea55308bcd_iv -in install_documentation.tar.enc -out install_documentation.tar -d;
+   - openssl aes-256-cbc -K $key -iv $iv -in install_documentation.tar.enc -out install_documentation.tar -d;
          tar -xf install_documentation.tar;
          rm -f install_documentation.tar
 
@@ -35,6 +35,6 @@ cache: pip
 
 after_success:
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
-    - export TARGET_PDF="echo Deviation$(TARGET_VERSION)UsersManual.pdf"
+    - export TARGET_PDF="echo Deviation${TARGET_VERSION}UsersManual.pdf"
     - echo "Uploading Documentation - $TARGET_PDF"
     - upload_documentation.pl -skip -documentation build/pdf-$TARGET/$TARGET_PDF -pdf build/pdf-$TARGET/$TARGET_PDF
