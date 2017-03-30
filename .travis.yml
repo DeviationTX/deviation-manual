@@ -28,12 +28,12 @@ before_install:
    - echo "hostname = https://www.transifex.com" >> .transifexrc
    - echo "password = $TX_PASSWD" >> .transifexrc
    - echo "username = api" >> .transifexrc
-   - tx pull
 
 # command to install dependencies - this is done in Makefile already
 #install: "pip install -r requirements.txt"
 
 script:
+    - tx pull
     - make html pdf
     - make gettext
     - sphinx-intl -c sourc/conf.py-intl update -p build/locale
