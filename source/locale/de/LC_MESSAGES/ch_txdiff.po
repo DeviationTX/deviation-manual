@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-30 20:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/ch_txdiff.rst:2
+msgid "A Note About this Manual"
+msgstr ""
+
+#: ../../source/ch_txdiff.rst:4
+msgid ""
+"The images in this manual will generally show the Devo6/8 interface, "
+"though in some cases the Devo12 image will be used instead where it "
+"better depicts the capabilities.  While the Devo6/8 and Devo12 screens "
+"may look a little different in some cases, they will generally have "
+"identical behavior.  Situations where the Devo6, 8, or 12 behave "
+"differently will be noted accordingly."
+msgstr ""
+
