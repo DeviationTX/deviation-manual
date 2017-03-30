@@ -20,8 +20,6 @@ def setup(app):
    app.add_config_value('mypdf', 0, True)
    app.add_stylesheet("devo.css")
 
-if not tags.has("devo8") and not tags.has("devo10"):
-    tags.add("devo8")
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -90,8 +88,6 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = []
-if tags.has('makepot'):
-    exclude_patterns = ['pdfindex.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -316,12 +312,8 @@ texinfo_documents = [
 # would mean that specific document would be compressed
 # regardless of the global pdf_compressed setting.
 
-if tags.has("devo8"):
-    title = u"Devo 6/8/12"
-    docname = u'Deviation8UsersManual'
-else:
-    title = u"Devo 7e/10/12E"
-    docname = u'Deviation10UsersManual'
+title = u"Devo 6/8/12"
+docname = u'Deviation8UsersManual'
 
 html_title = docname + u" " + release
 
@@ -414,7 +406,7 @@ pdf_floating_images = True
 
 pp_macros = {
     'pdf_page_break': "\n.. raw:: pdf\n\n   PageBreak oneColumn\n",
-    'target'        : "devo8" if tags.has("devo8") else "devo10",
+    'target'        : "devo8",
     'floatimg'      : ".. image:: :VAL1:\n   :align: right\n   :width: 45%\n",
 }
 
