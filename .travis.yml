@@ -36,8 +36,8 @@ script:
     - tx pull
     - make html pdf
     - make gettext
-    - sphinx-intl -c sourc/conf.py-intl update -p build/locale
-    - tx push
+    - sphinx-intl -c source/conf.py-intl update -p build/locale
+    - tx -s push
 
 cache: pip
 
