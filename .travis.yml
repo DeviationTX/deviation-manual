@@ -37,7 +37,7 @@ script:
     - make html pdf
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
-    - tx -s push
+    - tx push -s
 
 cache: pip
 
