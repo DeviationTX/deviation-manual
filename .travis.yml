@@ -40,4 +40,4 @@ after_success:
 #    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
 #    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild&documentation&pdf";
 #    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild" -F 'documentation' -F 'pdf' -F 'build[]=@"build/pdf-$TARGET/$TARGET_PDF"';
-    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild" -F 'documentation' -F 'pdf';
+    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild" -F 'documentation=' -F 'pdf=';
