@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017, ugkg
 # This file is distributed under the same license as the Deviation package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 20:16+0200\n"
+"POT-Creation-Date: 2017-03-30 19:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
@@ -27,9 +27,9 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:22
 msgid ""
-"The configuration page defines various transmitter functions.  It is "
-"entered from the main menu via the TX Options icon. Please note that all "
-"screens in this section show the Deviation default settings."
+"The configuration page defines various transmitter functions.  It is entered"
+" from the main menu via the TX Options icon. Please note that all screens in"
+" this section show the Deviation default settings."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:29
@@ -56,8 +56,8 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:43
 msgid ""
-"Mode 2 is common in North America.  Throttle and Rudder on left, Elevator"
-" and Aileron on right."
+"Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
+"and Aileron on right."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:44
@@ -74,8 +74,8 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:49
 msgid ""
-"To perform a stick calibration, highlight the Calibrate option and press "
-"the ENT button. Follow the on screen prompts for moving the sticks and "
+"To perform a stick calibration, highlight the Calibrate option and press the"
+" ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
 
@@ -89,9 +89,8 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:60
 msgid ""
-"**Power On alarm**: Select the interval to be notified if your "
-"transmitter is on without action. Range is 0 – 60 minutes in 1 minute "
-"intervals."
+"**Power On alarm**: Select the interval to be notified if your transmitter "
+"is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:62
@@ -103,14 +102,14 @@ msgstr ""
 #: ../../source/ch_transmitter.rst:64
 msgid ""
 "**Alarm interval**: Set frequency of alarm when battery is low. Alarm "
-"intervals can be set from 5 seconds to 1 minute in 5 second intervals. It"
-" may also be set to Off."
+"intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
+"may also be set to Off."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:66
 msgid ""
-"**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the "
-"buzzer may also be set to None."
+"**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
+"may also be set to None."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:68
@@ -126,20 +125,21 @@ msgid "LCD settings"
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:75
-msgid "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
+msgid ""
+"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:77
 msgid ""
-"**Dimmer time**: Set delay before screen dimming. Times may be set from 5"
-" seconds to 2 minutes in 5 second intervals. A setting of Off will force "
+"**Dimmer time**: Set delay before screen dimming. Times may be set from 5 "
+"seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:79
 msgid ""
-"**Dimmer target**: Set screen brightness when dimmed. Acceptable entries "
-"are from 1 to 10 and may also be turned off."
+"**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
+" from 1 to 10 and may also be turned off."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:82
@@ -149,20 +149,20 @@ msgstr ""
 #: ../../source/ch_transmitter.rst:84
 msgid ""
 "**Prealert time**: Time before timer reaches zero to start beeping. "
-"Acceptable entries are from 5 seconds to 1 minute in 5 second intervals "
-"and may also be turned off."
+"Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
+"may also be turned off."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:86
 msgid ""
-"**Prealert intvl**: How often to beep before timer reaches zero. Interval"
-" may be set from 1 – 60 seconds and may also be turned off."
+"**Prealert intvl**: How often to beep before timer reaches zero. Interval "
+"may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:88
 msgid ""
-"**Timeup intvl**: How often to beep once timer has expired. Interval may "
-"be set from 1 – 60 seconds and may also be turned off."
+"**Timeup intvl**: How often to beep once timer has expired. Interval may be "
+"set from 1 – 60 seconds and may also be turned off."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:91
@@ -171,14 +171,14 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:93
 msgid ""
-"**Temperature**: Set units to display temperature for telemetry. "
-"Available options are Celsius and Fahrenheit."
+"**Temperature**: Set units to display temperature for telemetry. Available "
+"options are Celsius and Fahrenheit."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:95
 msgid ""
-"**Length**: Set units to display length for telemetry. Selection choices "
-"are Meters and Feet."
+"**Length**: Set units to display length for telemetry. Selection choices are"
+" Meters and Feet."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:98
@@ -187,16 +187,16 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:107
 msgid ""
-"The channel monitor screen allows the user to see the values of each "
-"channel as output by the transmitter. Channels without mixers will not be"
-" displayed. Channel output displayed is the value based on minimum / "
-"maximum values as well as scaling."
+"The channel monitor screen allows the user to see the values of each channel"
+" as output by the transmitter. Channels without mixers will not be "
+"displayed. Channel output displayed is the value based on minimum / maximum "
+"values as well as scaling."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:112
 msgid ""
-"**Example**: A channel scaled from -60 to +60 will only display the range"
-" of values from -60 to +60 depending on the stick position."
+"**Example**: A channel scaled from -60 to +60 will only display the range of"
+" values from -60 to +60 depending on the stick position."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:116
@@ -204,7 +204,6 @@ msgid "Input Monitor"
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:128
-#, python-format
 msgid ""
 "The input monitor screen shows the values associated with the current "
 "position of the control points. The values shown are a percentage of the "
@@ -219,8 +218,8 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:137
 msgid ""
-"NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, "
-"and MIX0/1/2"
+"NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
+" MIX0/1/2"
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:140
@@ -231,9 +230,9 @@ msgstr ""
 msgid ""
 "The button monitor page is used to ensure physical buttons on the "
 "transmitter are working as expected.  Pressing any physical button will "
-"select the corresponding square on the screen.  To test ‘EXT’, ‘L-’ or "
-"‘R+’ touch the screen to disable menu traversal.  Touch the screen again "
-"to unlock."
+"select the corresponding square on the screen.  To test ‘EXT’, ‘L-’ or ‘R+’ "
+"touch the screen to disable menu traversal.  Touch the screen again to "
+"unlock."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:153
@@ -246,25 +245,24 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:170
 msgid ""
-"Certain protocols have the ability to transmit telemetry data back to the"
-" transmitter during use. Telemetry data may include, but is not "
-"restricted to, temperature readings, various voltage readings, motor or "
-"engine rpm, as well as GPS related information."
+"Certain protocols have the ability to transmit telemetry data back to the "
+"transmitter during use. Telemetry data may include, but is not restricted "
+"to, temperature readings, various voltage readings, motor or engine rpm, as "
+"well as GPS related information."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:172
 msgid ""
-"Telemetry data is turned off by default for all supported protocols "
-"except DEVO and FrSky.  See the corresponding 9 Protocols section to "
-"learn which protocols support telemetry, and identify which fields will "
-"be available."
+"Telemetry data is turned off by default for all supported protocols except "
+"DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
+"protocols support telemetry, and identify which fields will be available."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:186
 msgid ""
-"Since each protocol differs in the type of data it can return please see "
-"the original equipment manufacturers documentation concerning what "
-"additional hardware may be needed to collect this data."
+"Since each protocol differs in the type of data it can return please see the"
+" original equipment manufacturers documentation concerning what additional "
+"hardware may be needed to collect this data."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:188
@@ -277,37 +275,37 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:201
 msgid ""
-"It is recommended that you range test a new model before flying it the "
-"first time to verify that you will be able to control the model at normal"
-" flying distances. At some clubs, this is required as a safety measure. "
-"The range test page allows this."
+"It is recommended that you range test a new model before flying it the first"
+" time to verify that you will be able to control the model at normal flying "
+"distances. At some clubs, this is required as a safety measure. The range "
+"test page allows this."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:205
 msgid ""
-"Once the range test page is opened, press the ‘Start test’ button to "
-"start the range test. The old and new power levels will be displayed.  "
-"The standard procedure is then to walk about 30 meters away, and verify "
-"that you still have control of the aircraft. You can then press the ‘Stop"
-" test’ button to end the range test and restore the configured radio "
-"power level. Pressing the ‘Ext’ button to exit the page will also restore"
-" the power level."
+"Once the range test page is opened, press the ‘Start test’ button to start "
+"the range test. The old and new power levels will be displayed.  The "
+"standard procedure is then to walk about 30 meters away, and verify that you"
+" still have control of the aircraft. You can then press the ‘Stop test’ "
+"button to end the range test and restore the configured radio power level. "
+"Pressing the ‘Ext’ button to exit the page will also restore the power "
+"level."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:209
 msgid ""
-"The radio range will be reduced by the square root of the change in power"
-" level. So going from 100mW to 100uW represents a change of power of "
-"roughly 1000, or a range reduction of a factor of a little over 30. So "
-"the normal range test of 30 meters would indicate that you should be able"
-" to control the model out to 900 meters."
+"The radio range will be reduced by the square root of the change in power "
+"level. So going from 100mW to 100uW represents a change of power of roughly "
+"1000, or a range reduction of a factor of a little over 30. So the normal "
+"range test of 30 meters would indicate that you should be able to control "
+"the model out to 900 meters."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:213
 msgid ""
-"The installed RF module used for the current model must have a PA. If "
-"that is not the case, or the power level chosen for the model is already "
-"at the minimum value, a message to that effect will be displayed."
+"The installed RF module used for the current model must have a PA. If that "
+"is not the case, or the power level chosen for the model is already at the "
+"minimum value, a message to that effect will be displayed."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:226
@@ -316,17 +314,16 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:235
 msgid ""
-"The USB page can be accessed by selecting ‘USB’ from the main menu. USB "
-"mode can then be toggled on/off to enable access to the transmitter’s "
-"file-system from a USB equipped computer. In this mode the file system of"
-" Deviation is accessible as a mass storage device. This will allow you to"
-" move files back and forth between the Deviation file-system and a PC. "
-"All configuration files are accessible in this mode."
+"The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
+" can then be toggled on/off to enable access to the transmitter’s file-"
+"system from a USB equipped computer. In this mode the file system of "
+"Deviation is accessible as a mass storage device. This will allow you to "
+"move files back and forth between the Deviation file-system and a PC. All "
+"configuration files are accessible in this mode."
 msgstr ""
 
 #: ../../source/ch_transmitter.rst:239
 msgid ""
-"NOTE: Entering USB mode should never be done while the model is bound, "
-"USB usage will disrupt signal transmission!"
+"NOTE: Entering USB mode should never be done while the model is bound, USB "
+"usage will disrupt signal transmission!"
 msgstr ""
-
