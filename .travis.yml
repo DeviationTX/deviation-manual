@@ -24,16 +24,16 @@ before_install:
    - openssl aes-256-cbc -K $key -iv $iv -in install_documentation.tar.enc -out install_documentation.tar -d;
          tar -xf install_documentation.tar;
          rm -f install_documentation.tar
-   - echo "[https://www.transifex.com]" > .transifexrc
-   - echo "hostname = https://www.transifex.com" >> .transifexrc
-   - echo "password = $TX_PASSWD" >> .transifexrc
-   - echo "username = api" >> .transifexrc
+   - echo "[https://www.transifex.com]" > .transifexrc;
+         echo "hostname = https://www.transifex.com" >> .transifexrc;
+         echo "password = $TX_PASSWD" >> .transifexrc;
+         echo "username = api" >> .transifexrc
 
 # command to install dependencies - this is done in Makefile already
 #install: "pip install -r requirements.txt"
 
 script:
-    - tx pull
+    - tx pull -f -a
     - make html pdf
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
