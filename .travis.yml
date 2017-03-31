@@ -38,4 +38,4 @@ after_success:
     - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
     - echo "Uploading Documentation - $TARGET_PDF"
 #    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
-    - curl --verbose --insecure --url "https://www.deviation.com/index.php?option=com_uploadbuild&documentation&pdf";
+    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild&documentation&pdf";
