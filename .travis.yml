@@ -37,7 +37,4 @@ after_success:
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
     - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
     - echo "Uploading Documentation - $TARGET_PDF"
-#    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
-#    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild&documentation&pdf";
-#    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild" -F 'documentation' -F 'pdf' -F 'build[]=@"build/pdf-$TARGET/$TARGET_PDF"';
-    - curl --verbose --url "https://www.deviationtx.com/index.php?option=com_uploadbuild" -F 'documentation=' -F 'pdf=';
+    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
