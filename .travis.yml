@@ -17,6 +17,8 @@ addons:
       - inkscape
       - libjpeg-dev
       - libz-dev
+      - texlive
+      - texlive-latex-extra
 
 language: python
 
@@ -34,7 +36,7 @@ before_install:
 
 script:
     - tx pull -f -a
-    - make html pdf
+    - make html latexpdf
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s

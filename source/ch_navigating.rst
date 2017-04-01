@@ -40,7 +40,7 @@ The main menu is accessed by pressing ‘ENT’ on the main menu.
 
 .. endif::
 
-.. image:: images/|target|/ch_navigating/gui_buttons.svg
+.. image:: images/|target|/ch_navigating/gui_buttons.*
    :width: 90%
 
 .. if:: devo8
@@ -57,7 +57,6 @@ Navigating
 
 .. if:: devo8
 
-.. macro:: pdf_page_break
 
 Menu Layout
 -----------
