@@ -32,6 +32,10 @@ before_install:
          echo "hostname = https://www.transifex.com" >> .transifexrc;
          echo "password = $TX_PASSWD" >> .transifexrc;
          echo "username = api" >> .transifexrc
+   - git config --global user.email "travis@travis-ci.org";
+         git config --global user.name "Travis CI";
+         git config --global credential.helper store;
+         echo "https://$GH_TOKEN:x-oauth-basic@github.com" >> ~/.git-credentials
 
 # command to install dependencies - this is done in Makefile already
 #install: "pip install -r requirements.txt"
@@ -39,13 +43,16 @@ before_install:
 script:
     - tx pull -f -a
     - make html latexpdf
-    - make gettext
-    - sphinx-intl -c source/conf.py-intl update -p build/locale
-    - tx push -s
 
 cache: pip
 
 after_success:
+    - git add source/locale
+    - git commit -m 'Adding updated translations form Transifex'
+    - git push
+    - make gettext
+    - sphinx-intl -c source/conf.py-intl update -p build/locale
+    - tx push -s
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
     - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
     - echo "Uploading Documentation - $TARGET_PDF"
