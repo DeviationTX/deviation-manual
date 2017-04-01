@@ -29,7 +29,7 @@ The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the functionalit
 
 **Advanced GUI**:
 
-.. image:: images/devo8/ch_model/model_menu_conn.svg
+.. image:: images/devo8/ch_model/model_menu_conn.*
    :width: 80%
 
 **Standard GUI**:
@@ -190,7 +190,7 @@ Mixer (Adv GUI)
 
 .. if:: devo8
 
-.. image:: images/devo8/ch_model/mixer_main.svg
+.. image:: images/devo8/ch_model/mixer_main.*
    :width: 80%
 
 .. elseif:: devo10
@@ -668,7 +668,7 @@ Configuring Objects
 
 .. if:: devo8
 
-.. image:: images/devo8/ch_model/mainpage_edit.svg
+.. image:: images/devo8/ch_model/mainpage_edit.*
    :width: 80%
 
 You can delete any object by configuring the object and pressing the ‘Delete’ button
@@ -820,7 +820,7 @@ Swash Configuration
 
 The Swash configuration page configures the swash type.  More information about swash-types can be found in section :ref:`swash-mixing`.  The settings on this page are equivalent to those on the model configuration page (see :ref:`model-setup`), and configuration for both pages is provided below.
 
-.. image:: images/|target|/ch_model/swashmix.svg
+.. image:: images/|target|/ch_model/swashmix.*
 .. if:: devo8
    :width: 90%
 .. elseif:: devo10

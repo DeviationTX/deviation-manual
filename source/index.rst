@@ -1,9 +1,3 @@
-.. foo documentation master file, created by
-
-Contents
-========
-
-
 .. toctree::
    :maxdepth: 3
    :numbered:

@@ -7,7 +7,7 @@ Main Page
 
 The standard main page layout is as follows:
 
-.. image:: images/|target|/ch_mainpage/main_page.svg
+.. image:: images/|target|/ch_mainpage/main_page.*
    :width: 100%
 
 **Current Model**: The name of the current model. Clicking the label will open up the Model Load page.  The model is configured from section :ref:`model-setup`.

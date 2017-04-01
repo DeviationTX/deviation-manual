@@ -10,6 +10,13 @@ BUILDDIR      = build
 VENVDIR       = $(BUILDDIR)/venv
 TARGET        ?= devo8
 
+# Preparation for SVG handling for LaTeX builds
+SOURCEDIR     = source
+IMAGEDIRS     = $(SOURCEDIR)/images
+SVG2PDF       = inkscape
+SVG2PDF_FLAGS =
+
+
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(VIRTUALENV) >/dev/null 2>&1; echo $$?), 1)
 $(error The '$(VIRTUALENV)' command was not found. Make sure you have virtualenv installed.  This is typically done via 'sudo pip install -U $(VIRTUALENV))
@@ -34,8 +41,21 @@ help:
 	@echo "  gettext    to make PO message catalogs"
 	@echo "  pseudoxml  to make pseudoxml-XML files for display purposes"
 
+# Pattern rule for converting SVG to PDF
+%.pdf : %.svg
+	$(SVG2PDF) -f $< -A $@
+
+# Build a list of SVG files to convert to PDFs
+SVGs := $(shell find $(IMAGEDIRS) -name '*.svg')
+PDFs := $(foreach svg, $(SVGs), $(patsubst %.svg,%.pdf,$(svg)))
+
+# Make a rule to build the PDFs
+images: $(PDFs)
+
 clean:
 	rm -rf $(BUILDDIR)/*
+	rm $(PDFs)
+
 
 html:   $(SPHINXBUILD)
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html-$(TARGET)
@@ -47,17 +67,17 @@ epub:   $(SPHINXBUILD)
 	@echo
 	@echo "Build finished. The epub file is in $(BUILDDIR)/epub-$(TARGET)."
 
-latex:  $(SPHINXBUILD)
+latex:  $(SPHINXBUILD) $(PDFs)
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
 	@echo
 	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex-$(TARGET)."
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
  
-latexpdf: $(SPHINXBUILD)
+latexpdf: $(SPHINXBUILD) $(PDFs)
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
 	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/latex all-pdf
+	$(MAKE) -C $(BUILDDIR)/latex-$(TARGET) all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)."
 
 gettext: $(SPHINXBUILD)

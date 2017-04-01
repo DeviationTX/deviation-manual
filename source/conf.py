@@ -90,8 +90,6 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = []
-if tags.has('makepot'):
-    exclude_patterns = ['pdfindex.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -239,8 +237,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'devo.tex', u'Deviation Documentation',
-   u'ugkg', 'manual'),
+  ('index', 'devo.tex', u'Deviation Documentation',
+   u'http://www.deviationtx.com', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -326,7 +324,7 @@ else:
 html_title = docname + u" " + release
 
 pdf_documents = [ 
-    ('pdfindex', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
+    ('index', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
 ]
 
 # A comma-separated list of custom stylesheets. Example:
@@ -355,11 +353,11 @@ pdf_style_path = ['source/styles']
 # Section level that forces a break page.
 # For example: 1 means top-level sections start in a new page
 # 0 means disabled
-pdf_break_level = 0
+pdf_break_level = 2
 
 # When a section starts in a new page, force it to be 'even', 'odd',
 # or just use 'any'
-#pdf_breakside = 'any'
+pdf_breakside = 'any'
 
 # Insert footnotes where they are defined instead of 
 # at the end.
@@ -399,7 +397,7 @@ pdf_extensions = ['vectorpdf', 'inkscape']
 #pdf_page_template = 'cutePage'
 
 # Show Table Of Contents at the beginning?
-pdf_use_toc = False
+#pdf_use_toc = True
 
 # How many levels deep should the table of contents be?
 pdf_toc_depth = 9999

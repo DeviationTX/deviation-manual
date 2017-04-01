@@ -12,15 +12,15 @@ where XX is the number of your Devention transmitter. x.y.z identifies the devia
 
 .. if:: devo8
 
-.. image:: images/devo8/ch_emulator/emu_devo12.svg
+.. image:: images/devo8/ch_emulator/emu_devo12.*
    :width: 90%
 
-.. image:: images/devo8/ch_emulator/emu_devo6_8.svg
+.. image:: images/devo8/ch_emulator/emu_devo6_8.*
    :width: 80%
 
 .. elseif:: devo10
 
-.. image:: images/devo10/ch_emulator/emu_devo10.svg
+.. image:: images/devo10/ch_emulator/emu_devo10.*
    :width: 80%
 
 .. endif::

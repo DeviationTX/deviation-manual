@@ -30,8 +30,6 @@ Deviation can store up to 255 different models, and uses a portable syntax that 
 
 Deviation has been internationalized and comes with translations for English, Afrikaans, Traditional Chinese, Dutch, Spanish, French, German, Hungarian, Italian, Romanian, Russian and Chinese. New languages can be added by installing the proper translation file.
 
-.. macro:: pdf_page_break
-
 Disclaimer
 ----------
 
