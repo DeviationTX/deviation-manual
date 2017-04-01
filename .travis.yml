@@ -3,7 +3,8 @@ env:
     matrix:
       - TARGET=devo8
       - TARGET=devo10
-# use new docker environment
+
+dist: trusty
 sudo: false
 
 addons:
