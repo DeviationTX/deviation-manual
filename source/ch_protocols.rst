@@ -153,7 +153,7 @@ v969, etc quadcopters.
 Note that if these channels are assigned to a switch, turning the switch on toggles the state, and turning the switch off has no effect.  Thus to turn the lights on, flip the switch assigned to Channel 5 from off to on.  Flipping the switch back to off has no effect.  Flipping the switch back on now turns the lights back off.
 
 Protocol: \*AFHDS-2A
-------------------
+--------------------
 The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers.  |a7105-note|
 
 |mod-install-link|
