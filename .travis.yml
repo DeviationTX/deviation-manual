@@ -6,9 +6,6 @@ env:
 # use new docker environment
 sudo: false
 
-#sudo: required
-#dist: trusty
-
 addons:
   apt:
     packages:
@@ -19,6 +16,11 @@ addons:
       - libz-dev
       - texlive
       - texlive-latex-extra
+      - texlive.lang-german
+      - texlive.lang-french
+      - texlive.lang-spanish
+      - texlive.lang-cyrillic
+      - texlive.lang-european
 
 language: python
 
