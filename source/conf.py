@@ -69,7 +69,7 @@ author = None
 # The short X.Y version.
 version = '5.1-dev'
 # The full version, including alpha/beta/rc tags.
-release = '5.0.0-dev'
+release = '5.1-dev'
 
 locale_dirs = ['locale/']
 gettext_compact = False
@@ -218,6 +218,13 @@ html_static_path = ['_static']
 htmlhelp_basename = 'devodoc'
 
 # -- Options for LaTeX output ---------------------------------------------
+if tags.has("devo8"):
+    title = u"Deviation User Manual for Devo 6/8/12"
+    docname = u'Deviation8UsersManual'
+else:
+    title = u"Deviation User Manual for Devo 7e/10/12E"
+    docname = u'Deviation10UsersManual'
+
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -237,7 +244,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'devo.tex', u'Deviation Documentation',
+  ('index', docname + '.tex', title,
    u'http://www.deviationtx.com', 'manual'),
 ]
 
@@ -314,12 +321,6 @@ texinfo_documents = [
 # would mean that specific document would be compressed
 # regardless of the global pdf_compressed setting.
 
-if tags.has("devo8"):
-    title = u"Devo 6/8/12"
-    docname = u'Deviation8UsersManual'
-else:
-    title = u"Devo 7e/10/12E"
-    docname = u'Deviation10UsersManual'
 
 html_title = docname + u" " + release
 
