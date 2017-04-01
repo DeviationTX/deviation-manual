@@ -16,11 +16,11 @@ addons:
       - libz-dev
       - texlive
       - texlive-latex-extra
-      - texlive.lang-german
-      - texlive.lang-french
-      - texlive.lang-spanish
-      - texlive.lang-cyrillic
-      - texlive.lang-european
+      - texlive-lang-german
+      - texlive-lang-french
+      - texlive-lang-spanish
+      - texlive-lang-cyrillic
+      - texlive-lang-european
 
 language: python
 
