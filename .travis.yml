@@ -4,6 +4,7 @@ env:
       - TARGET=devo8
       - TARGET=devo10
 
+dist: trusty
 sudo: false
 
 addons:
@@ -20,7 +21,7 @@ addons:
       - texlive-lang-french
       - texlive-lang-spanish
       - texlive-lang-cyrillic
-      - texlive-lang-hungarian
+      - texlive-lang-european
 
 language: python
 
