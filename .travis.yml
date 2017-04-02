@@ -45,7 +45,10 @@ script:
     - tx pull -f -a
     - make latexpdf
 
-cache: pip
+cache:
+  pip: true
+  directories:
+    - build/venv
 
 after_success:
 
