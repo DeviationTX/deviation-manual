@@ -42,19 +42,17 @@ before_install:
 
 script:
     - tx pull -f -a
-    - make html latexpdf
+    - make latexpdf
 
 cache: pip
 
 after_success:
 
-    - git add source/locale
-    - git commit -m 'Adding updated translations form Transifex'
-    - git checkout -b updated_translations
-    - git checkout -B master updated_translations
-    - git status
-    - git pull
-    - git status
+    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]], then
+          git add source/locale; git commit -m 'Adding updated translations from Transifex';
+          git checkout -b updated_translations; git checkout -B master updated_translations
+          git push;
+      fi;
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s
