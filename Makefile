@@ -97,13 +97,13 @@ pdf: $(SPHINXBUILD)
 
 venv: $(VENVDIR)/bin/activate
 $(BUILDDIR)/venv/bin/activate: requirements.txt
-	test -d $(VENVDIR) || $(VIRTUALENV) $(VENVDIR)
+	test -d $(VENVDIR)/bin || $(VIRTUALENV) $(VENVDIR)
 	$(VENVDIR)/bin/pip install -Ur requirements.txt
 	touch $(VENVDIR)/bin/activate
 
 devbuild: venv
-	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
-	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
+#	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
+#	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
 
 $(SPHINXBUILD):
 	$(MAKE) devbuild

@@ -39,7 +39,7 @@ sys.path.append(os.path.abspath('../sphinx-ext/'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'rst2pdf.pdfbuilder',
+#    'rst2pdf.pdfbuilder',
     'sphinx.ext.ifconfig',
     'preproc',
     ]
@@ -324,17 +324,17 @@ texinfo_documents = [
 
 html_title = docname + u" " + release
 
-pdf_documents = [ 
-    ('index', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
-]
+#pdf_documents = [ 
+#    ('index', docname, title, u'PhracturedBlue <rc2012@pblue.org>'),
+#]
 
 # A comma-separated list of custom stylesheets. Example:
 #pdf_stylesheets = ['sphinx','kerning','a4']
-pdf_stylesheets = ['pdf', 'devo']
+#pdf_stylesheets = ['pdf', 'devo']
 
 # A list of folders to search for stylesheets. Example:
 #pdf_style_path = ['.', '_styles']
-pdf_style_path = ['source/styles']
+#pdf_style_path = ['source/styles']
 
 # Create a compressed PDF
 # Use True/False or 1/0
@@ -354,11 +354,11 @@ pdf_style_path = ['source/styles']
 # Section level that forces a break page.
 # For example: 1 means top-level sections start in a new page
 # 0 means disabled
-pdf_break_level = 2
+#pdf_break_level = 2
 
 # When a section starts in a new page, force it to be 'even', 'odd',
 # or just use 'any'
-pdf_breakside = 'any'
+#pdf_breakside = 'any'
 
 # Insert footnotes where they are defined instead of 
 # at the end.
@@ -374,11 +374,11 @@ pdf_breakside = 'any'
 #pdf_use_modindex = True
 
 # If false, no coverpage is generated.
-pdf_use_coverpage = True
+#pdf_use_coverpage = True
 #pdf_use_coverpage = False
    
 # Name of the cover page template to use
-pdf_cover_template = 'pdfcover.tmpl'
+#pdf_cover_template = 'pdfcover.tmpl'
  
 # Documents to append as an appendix to all manuals.    
 #pdf_appendices = []
@@ -392,7 +392,7 @@ pdf_cover_template = 'pdfcover.tmpl'
    
 # Enable rst2pdf extension modules (default is only vectorpdf)
 # you need vectorpdf if you want to use sphinx's graphviz support
-pdf_extensions = ['vectorpdf', 'inkscape']
+#pdf_extensions = ['vectorpdf', 'inkscape']
 
 # Page template name for "regular" pages
 #pdf_page_template = 'cutePage'
@@ -401,15 +401,15 @@ pdf_extensions = ['vectorpdf', 'inkscape']
 #pdf_use_toc = True
 
 # How many levels deep should the table of contents be?
-pdf_toc_depth = 9999
+#pdf_toc_depth = 9999
 
 # Add section number to section references
-pdf_use_numbered_links = True
+#pdf_use_numbered_links = True
 
 # Background images fitting mode
-pdf_fit_background_mode = 'scale'
+#pdf_fit_background_mode = 'scale'
 
-pdf_floating_images = True
+#pdf_floating_images = True
 
 pp_macros = {
     'pdf_page_break': "\n.. raw:: pdf\n\n   PageBreak oneColumn\n",
