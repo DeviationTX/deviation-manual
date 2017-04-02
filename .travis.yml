@@ -46,7 +46,7 @@ script:
     - make latexpdf
 
 cache:
-#  pip: true
+  pip: true
   directories:
     - build/venv
 
