@@ -225,6 +225,7 @@ else:
     title = u"Deviation User Manual for Devo 7e/10/12E"
     docname = u'Deviation10UsersManual'
 
+toctree_only = True
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -245,12 +246,12 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', docname + '.tex', title,
-   u'http://www.deviationtx.com', 'manual'),
+   u'http://www.deviationtx.com', 'manual', toctree_only),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = 'images/logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
