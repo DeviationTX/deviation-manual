@@ -102,6 +102,7 @@ $(BUILDDIR)/venv/bin/activate: requirements.txt
 	touch $(VENVDIR)/bin/activate
 
 devbuild: venv
+# rst2pdf removed due to use of pdflatex
 #	cd dist-packages/rst2pdf && ../../$(VENVDIR)/bin/python setup.py install
 #	cd dist-packages/wordaxe && ../../$(VENVDIR)/bin/python setup.py install
 
