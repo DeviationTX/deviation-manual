@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-02 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -417,13 +417,12 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:184
 msgid ""
-"** Outputs **: Sets desired outputs type on the receiver, PWM+IBUS, "
-"PPM+IBUS, PWM+SBUS or PPM+SUBS"
+"**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
+"PWM+SBUS or PPM+SUBS"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:185
-msgid ""
-"** Servo Hz **: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
+msgid "**Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:187
