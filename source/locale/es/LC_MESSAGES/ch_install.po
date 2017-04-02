@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-02 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -278,7 +278,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ch_install.rst:147
-msgid "Upgrading the file system with 'Deviation Uploader'"
+msgid "Upgrading the file system with Deviation Uploader"
 msgstr ""
 
 #: ../../source/ch_install.rst:149

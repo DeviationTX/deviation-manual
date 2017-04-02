@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-02 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_bugreport.rst:2
 msgid "Reporting Bugs"
-msgstr ""
+msgstr "Hibák bejelentése"
 
 #: ../../source/ch_bugreport.rst:3
 msgid "Nobody is perfect."
-msgstr ""
+msgstr "Senki sem tökéletes."
 
 #: ../../source/ch_bugreport.rst:5
 msgid ""
@@ -34,12 +35,20 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
+"Ezt a szoftvert világszerte sok ember gondosan fejlesztette, és sikeresen "
+"tesztelte. Ugyanakkor bizonyos körülmények között előfordulhat, hogy a "
+"távirányító nem úgy működik, ahogy szeretnéd. Néha ez csak kezelési-, de "
+"néha tényleges program hiba. Ha ilyet találsz, ne habozz megkérdezni a "
+"közösségtől: http://www.deviationtx.com/forum. Ne feledd, hogy ez a szoftver"
+" csak a segítségeddel fejleszthető."
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
 "http://www.deviationtx.com/mantisbt"
 msgstr ""
+"Ha hibát találsz, légy szíves jelentsd itt: "
+"http://www.deviationtx.com/mantisbt"
 
 #: ../../source/ch_bugreport.rst:9
 msgid ""
@@ -48,37 +57,43 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
+"Regisztrálnod kell, hogy a Deviation fórumban jelenteni tudj egy hibát. A "
+"regisztráció teszi lehetővé, hogy kommunikálj a Deviation közösséggel, és "
+"email értesítést kaphass, amikor a hiba javítva lett."
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
 "Please provide as much information as possible in your ticket. Include:"
 msgstr ""
+"Légy szíves, lehetőleg minél több információt adj meg a hibajelentésben. "
+"Többek között add meg:"
 
 #: ../../source/ch_bugreport.rst:13
 msgid "Build version (you can find this on the 'USB' page of the transmitter)"
-msgstr ""
+msgstr "A verziószámot (ezt a távirányító \"USB\" menüjében találhatod meg)"
 
 #: ../../source/ch_bugreport.rst:14
 msgid "Did you compile yourself, or download the dfu?"
-msgstr ""
+msgstr "Magad fordítottad, vagy csak letöltötted a DFU-t?"
 
 #: ../../source/ch_bugreport.rst:15
 msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
-msgstr ""
+msgstr "A távirányító típusát (Devo8, Devo7e, Devo8-emulátor, ...)"
 
 #: ../../source/ch_bugreport.rst:16
 msgid "Have you tried reproducing this on the emulator?"
-msgstr ""
+msgstr "Próbáltad-e reprodukálni a hibát az emulátorban?"
 
 #: ../../source/ch_bugreport.rst:17
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
 msgstr ""
+"Reprodukálható-e a hiba? Ha igen, írd le lépésről lépésre, hogy hogyan."
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"
-msgstr ""
+msgstr "Milyen protokollt használsz?"
 
 #: ../../source/ch_bugreport.rst:19
 msgid ""
@@ -86,7 +101,10 @@ msgid ""
 "file-system of the transmitter along with the 'debug-devo???.zip file that "
 "came with the dfu"
 msgstr ""
+"Ha a távirányítód újraindult, csatold a távirányító gyökér könyvtárában "
+"található \"errors.txt\" fájlt, és a telepítő csomagban található \"debug-"
+"devo???.zip\" fájlt is."
 
 #: ../../source/ch_bugreport.rst:21
 msgid "The more detail you can provide, the faster fixing the issue will be."
-msgstr ""
+msgstr "Minél több részletet megadsz, annál gyorsabb lehet a hiba javítása."

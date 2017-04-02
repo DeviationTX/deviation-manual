@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-02 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "Távirányító menü"
 
 #: ../../source/ch_transmitter.rst:19
 msgid "Transmitter config"
-msgstr ""
+msgstr "Távirányító konfiguráció"
 
 #: ../../source/ch_transmitter.rst:22
 msgid ""
@@ -34,7 +35,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:29
 msgid "Generic settings"
-msgstr ""
+msgstr "Általános beállítások"
 
 #: ../../source/ch_transmitter.rst:34
 msgid "**Language**: Select an appropriate language for all text."
@@ -122,7 +123,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:73
 msgid "LCD settings"
-msgstr ""
+msgstr "LCD beállítások"
 
 #: ../../source/ch_transmitter.rst:75
 msgid ""
@@ -144,7 +145,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:82
 msgid "Timer settings"
-msgstr ""
+msgstr "Időzítő beállítások"
 
 #: ../../source/ch_transmitter.rst:84
 msgid ""
@@ -167,7 +168,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:91
 msgid "Telemetry settings"
-msgstr ""
+msgstr "Telemetria beállítások"
 
 #: ../../source/ch_transmitter.rst:93
 msgid ""
@@ -183,7 +184,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:98
 msgid "Channel monitor"
-msgstr ""
+msgstr "Csatorna monitor"
 
 #: ../../source/ch_transmitter.rst:107
 msgid ""
@@ -201,7 +202,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:116
 msgid "Input Monitor"
-msgstr ""
+msgstr "Bemenet monitor"
 
 #: ../../source/ch_transmitter.rst:128
 msgid ""
@@ -224,7 +225,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:140
 msgid "Button Monitor"
-msgstr ""
+msgstr "Nyomógomb monitor"
 
 #: ../../source/ch_transmitter.rst:149
 msgid ""
@@ -241,7 +242,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:157
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "Telemetria monitor"
 
 #: ../../source/ch_transmitter.rst:170
 msgid ""
@@ -271,7 +272,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:192
 msgid "Range Test"
-msgstr ""
+msgstr "Hatótáv teszt"
 
 #: ../../source/ch_transmitter.rst:201
 msgid ""
@@ -310,7 +311,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:226
 msgid "USB/About"
-msgstr ""
+msgstr "USB/Névjegy"
 
 #: ../../source/ch_transmitter.rst:235
 msgid ""
