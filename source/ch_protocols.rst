@@ -163,8 +163,8 @@ The receiver must be bound manually one-time using the ‘Bind’ button, after 
 
 Options configurable on the AFHDS-2A page:
 
-* ** Outputs **: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
-* ** Servo Hz **: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
+* **Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
+* **Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
 
 Partial telemetry support, only receiver voltage and RSSI in dB are supported for now.
 
