@@ -47,11 +47,14 @@ script:
 cache: pip
 
 after_success:
+
     - git add source/locale
     - git commit -m 'Adding updated translations form Transifex'
     - git checkout -b updated_translations
     - git checkout -B master updated_translations
-    - git push
+    - git status
+    - git pull
+    - git status
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s
