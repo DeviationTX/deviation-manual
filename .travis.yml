@@ -50,7 +50,7 @@ after_success:
 
     - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]]; then
           git add source/locale; git commit -m 'Adding updated translations from Transifex';
-          git checkout -b updated_translations; git checkout -B master updated_translations
+          git checkout -b updated_translations; git checkout -B master updated_translations;
           git push;
       fi;
     - make gettext
