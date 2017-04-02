@@ -179,8 +179,8 @@ devices. Take the steps necessary to resolve any connection issues.
 
 For transmitters other than the F7 and F12E, turn the transmitter back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, your computer may prompt to format a drive. Format using default options.
 
-Upgrading the file system with 'Deviation Uploader'
----------------------------------------------------
+Upgrading the file system with Deviation Uploader
+-------------------------------------------------
 .. if:: devo10
 .. cssclass:: bold-italic
 
