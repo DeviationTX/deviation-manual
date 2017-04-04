@@ -1,0 +1,69 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[deviation-manual.ch_protocols]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_protocols.po
+source_file = build/locale/ch_protocols.pot
+source_lang = en
+
+[deviation-manual.ch_mainmenu]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_mainmenu.po
+source_file = build/locale/ch_mainmenu.pot
+source_lang = en
+
+[deviation-manual.ch_overview]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_overview.po
+source_file = build/locale/ch_overview.pot
+source_lang = en
+
+[deviation-manual.ch_model]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_model.po
+source_file = build/locale/ch_model.pot
+source_lang = en
+
+[deviation-manual.ch_advanced]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_advanced.po
+source_file = build/locale/ch_advanced.pot
+source_lang = en
+
+[deviation-manual.ch_emulator]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_emulator.po
+source_file = build/locale/ch_emulator.pot
+source_lang = en
+
+[deviation-manual.ch_txdiff]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_txdiff.po
+source_file = build/locale/ch_txdiff.pot
+source_lang = en
+
+[deviation-manual.ch_install]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_install.po
+source_file = build/locale/ch_install.pot
+source_lang = en
+
+[deviation-manual.ch_mainpage]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_mainpage.po
+source_file = build/locale/ch_mainpage.pot
+source_lang = en
+
+[deviation-manual.ch_bugreport]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_bugreport.po
+source_file = build/locale/ch_bugreport.pot
+source_lang = en
+
+[deviation-manual.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+
+[deviation-manual.ch_transmitter]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_transmitter.po
+source_file = build/locale/ch_transmitter.pot
+source_lang = en
+
+[deviation-manual.ch_navigating]
+file_filter = source/locale/<lang>/LC_MESSAGES/ch_navigating.po
+source_file = build/locale/ch_navigating.pot
+source_lang = en
+

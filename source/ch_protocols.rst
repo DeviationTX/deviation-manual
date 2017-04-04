@@ -153,7 +153,7 @@ v969, etc quadcopters.
 Note that if these channels are assigned to a switch, turning the switch on toggles the state, and turning the switch off has no effect.  Thus to turn the lights on, flip the switch assigned to Channel 5 from off to on.  Flipping the switch back to off has no effect.  Flipping the switch back on now turns the lights back off.
 
 Protocol: \*AFHDS-2A
-------------------
+--------------------
 The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers.  |a7105-note|
 
 |mod-install-link|
@@ -163,8 +163,8 @@ The receiver must be bound manually one-time using the ‘Bind’ button, after 
 
 Options configurable on the AFHDS-2A page:
 
-* ** Outputs **: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
-* ** Servo Hz **: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
+* **Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
+* **Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
 
 Partial telemetry support, only receiver voltage and RSSI in dB are supported for now.
 

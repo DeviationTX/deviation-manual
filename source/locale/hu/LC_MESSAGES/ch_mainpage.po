@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/ch_mainpage.rst:6
+msgid "Main Page"
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:8
+msgid "The standard main page layout is as follows:"
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:13
+msgid ""
+"**Current Model**: The name of the current model. Clicking the label will "
+"open up the Model Load page.  The model is configured from section :ref"
+":`model-setup`."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:15
+msgid ""
+"**Battery Voltage**: Numerical representation of current transmitter battery"
+" state."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:17
+msgid ""
+"**Transmitter Power**: This indicates the currently selected transmitter "
+"power. It is configured from section :ref:`model-setup`."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:19
+msgid ""
+"**Current Time**: This indicates the current time (on Devo12 transmitters "
+"only).  The time is set from section :ref:`transmitter-config`."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:21
+msgid ""
+"**Model Icon**: An image representing the current model. It is configured "
+"from section :ref:`model-setup`. Pressing the icon will take you to that "
+"page."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:24
+msgid ""
+"**Trims**: The trim display can be configured to show up to 10 different "
+"horizontal and vertical trims."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:26
+msgid ""
+"**Displays**: These items can be text-boxes containing input, channel, "
+"telemetry, or timer data; bar graphs displaying channel data; or icons / "
+"toggles displaying specific states (ex. gear, flaps,…)."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:28
+msgid ""
+"**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
+"can be defined from section :ref:`main-page-config`."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:33
+msgid "Safety System"
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:40
+msgid ""
+"Deviation has a safety system to prevent starting up in a dangerous state "
+"(for instance spinning up the main rotor of a helicopter accidentally). The "
+"safety system works by verifying that specific conditions are met before "
+"starting to transmit to the model.  By default the output channel associated"
+" with the throttle stick must be minimum.  The Deviation firmware does not "
+"include a mechanism to define new safety conditions, however, they can be "
+"added by directly modifying the model.ini file. While the safety message is "
+"displayed, the transmitter will not communicate with the model.  This "
+"message may appear either when initially turning on the transmitter, or when"
+" switching to a different model. The message will disappear automatically "
+"once all safety conditions have been met or when 'OK' is pressed.  In either"
+" case, Deviation will start communication with the model once the dialog is "
+"dismissed."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:43
+msgid ""
+"The safety values are in the '[safety]' section, and the default looks like "
+"this::"
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:49
+msgid ""
+"The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
+"'Auto' tries to guess your throttle channel number. If that isn't working, "
+"and you're getting an unwanted warning, then changing it to 'Ch1' (DSMx "
+"protocols) or 'CH3' (most other protocols) will fix the problem. The 'min' "
+"value can also be 'max' or 'zero', to test that the channel or stick is at "
+"the maximum value and 0."
+msgstr ""

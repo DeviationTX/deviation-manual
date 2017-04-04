@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/ch_mainmenu.rst:6
+msgid "Main Menu"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:12
+msgid ""
+"The main menu selections of the Deviation firmware are accessed by "
+"momentarily pressing the ENT button on the bottom right of the transmitter. "
+"The main menu consists of the following four options: Model menu, "
+"Transmitter menu, USB and About Deviation."
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:14
+msgid ""
+"All settings which pertain to the usage of your Devention transmitter are "
+"accessed from the main menu. They include model options, language selection,"
+" display options, buzzer, vibration, stick mode, calibration, USB "
+"connectivity as well as version information."
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:17
+msgid "Model menu"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:18
+msgid ""
+"The model menu is the area within Deviation that you can configure the type "
+"of aircraft you are flying. All model data is managed and saved within this "
+"menu selection. Details of the menu are located in section :ref:`model-"
+"menu`."
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:21
+msgid "Transmitter menu"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:22
+msgid ""
+"The transmitter menu allows you to select transmitter-specific options as "
+"well as monitor channel output & stick input, and monitor telemetry (if "
+"available). Details of the menu are located in section :ref:`transmitter-"
+"menu`."
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:25
+msgid "USB"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:31
+msgid ""
+"The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
+" can then be toggled on/off to enable access to the transmitter’s file-"
+"system from a USB equipped computer. In this mode the file system of "
+"Deviation is accessible as a mass storage device. This will allow you to "
+"move files back and forth between the Deviation file-system and a PC. All "
+"configuration files are accessible in this mode."
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:35
+msgid ""
+"NOTE: Entering USB mode should never be done while the model is bound, USB "
+"usage will disrupt signal transmission!"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:38
+msgid "About Deviation"
+msgstr ""
+
+#: ../../source/ch_mainmenu.rst:44
+msgid ""
+"The Deviation release version can be accessed by selecting ‘About Deviation’"
+" from the main menu."
+msgstr ""

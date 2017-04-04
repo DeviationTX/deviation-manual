@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/ch_overview.rst:2
+msgid "Overview"
+msgstr ""
+
+#: ../../source/ch_overview.rst:4
+msgid ""
+"Deviation is a replacement firmware for the Walkera Devention™ series (Devo)"
+" transmitters.  The primary goal is to add support for multiple protocols, "
+"opening the full potential of this platform. The core of the deviation "
+"firmware is the mixer system, which is modeled after the system used in the "
+"Er9X firmware for the Turnigy/Flysky9x™ transmitters."
+msgstr ""
+
+#: ../../source/ch_overview.rst:6
+msgid ""
+"Deviation also brings USB file-system support, making it easy to manage the "
+"transmitter from any PC without the need for specialized upload/download "
+"tools."
+msgstr ""
+
+#: ../../source/ch_overview.rst:8
+msgid ""
+"Deviation has been designed for ultimate configurability. All model and "
+"transmitter configuration is controlled through text files which the "
+"firmware (or user) can read and write. It is easy to know exactly what is "
+"configured, as well as to modify the configuration either through the "
+"transmitter or with a text editor. The main screen is very customizable; any"
+" mix of inputs, switches, channel data, or timers can be displayed, and "
+"configured per-model."
+msgstr ""
+
+#: ../../source/ch_overview.rst:10
+msgid ""
+"Deviation supports multiple protocols without any modifications to the "
+"transmitter:"
+msgstr ""
+
+#: ../../source/ch_overview.rst:12
+msgid "Walkera Devo 6/7/8/10/12"
+msgstr ""
+
+#: ../../source/ch_overview.rst:13
+msgid "Walkera WK2401 / WK2601 / WK2801"
+msgstr ""
+
+#: ../../source/ch_overview.rst:14
+msgid "DSM2 / DSMX"
+msgstr ""
+
+#: ../../source/ch_overview.rst:15
+msgid "Nine Eagles J6 Pro (requires telemetry module)"
+msgstr ""
+
+#: ../../source/ch_overview.rst:17
+msgid ""
+"Deviation can support many other protocols with very easy transmitter "
+"modifications (appropriate transceiver module needed). Among the more "
+"popular are:"
+msgstr ""
+
+#: ../../source/ch_overview.rst:21
+msgid "Flysky (also for WLToys V911, V9x9, and Xieda 9938)"
+msgstr ""
+
+#: ../../source/ch_overview.rst:22
+msgid "Hubsan-X4 and Estes Proto X"
+msgstr ""
+
+#: ../../source/ch_overview.rst:23
+msgid "V202"
+msgstr ""
+
+#: ../../source/ch_overview.rst:24
+msgid "SLT"
+msgstr ""
+
+#: ../../source/ch_overview.rst:25
+msgid "FrSky"
+msgstr ""
+
+#: ../../source/ch_overview.rst:27
+msgid ""
+"Deviation supports (flight) simulators connected via DSC cable (PPM) or USB "
+"cable (USBHID). Deviation also allows Buddy-Box and FPV setups."
+msgstr ""
+
+#: ../../source/ch_overview.rst:29
+msgid ""
+"Deviation can store up to 255 different models, and uses a portable syntax "
+"that allows sharing models between any transmitter supported by Deviation."
+msgstr ""
+
+#: ../../source/ch_overview.rst:31
+msgid ""
+"Deviation has been internationalized and comes with translations for "
+"English, Afrikaans, Traditional Chinese, Dutch, Spanish, French, German, "
+"Hungarian, Italian, Romanian, Russian and Chinese. New languages can be "
+"added by installing the proper translation file."
+msgstr ""
+
+#: ../../source/ch_overview.rst:40
+msgid "Disclaimer"
+msgstr ""
+
+#: ../../source/ch_overview.rst:42
+msgid ""
+"Deviation is experimental software. There are no guarantees made or implied "
+"about the quality or reliability of this software. RC models can cause "
+"serious injury or even death if flown improperly. By deciding to use the "
+"Deviation software, you are taking sole responsibility for the control of "
+"your models. The authors of Deviation will not be held responsible for any "
+"injury or damage whatsoever caused by the use of the Deviation firmware. Be "
+"careful and cautious."
+msgstr ""
+
+#: ../../source/ch_overview.rst:45
+msgid "Notices"
+msgstr ""
+
+#: ../../source/ch_overview.rst:47
+msgid ""
+"Deviation is an independent work. The Deviation project is not affiliated, "
+"supported or acknowledged by Walkera®. The authors have never been in "
+"contact with Walkera nor do they know of Walkera’s stance on this project. "
+"The Deviation team provides no guarantee that the Deviation firmware will "
+"not harm your transmitter (although this should not be possible). There is "
+"also no guarantee that Walkera® will not make changes to future versions of "
+"the hardware, firmware of Dfuse tool which would make it incompatible with "
+"Deviation."
+msgstr ""
+
+#: ../../source/ch_overview.rst:50
+msgid "Legal status and copyright"
+msgstr ""
+
+#: ../../source/ch_overview.rst:52
+msgid ""
+"This project is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version. You should have received a copy of the GNU General Public"
+" License along with Deviation. If not, see www.gnu.org/licenses."
+msgstr ""
+
+#: ../../source/ch_overview.rst:59
+msgid ""
+"Deviation is distributed in the hope that it will be useful, but WITHOUT ANY"
+" WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE. See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../../source/ch_overview.rst:63
+msgid ""
+"The Deviation Project is hosted at www.deviationtx.com and the Source are "
+"available at https://github.com/DeviationTX/deviation."
+msgstr ""
