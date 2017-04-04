@@ -108,7 +108,7 @@ If your transmitter has been connected correctly 'STM Device in DFU Mode' will b
 Turn off the transmitter, and turn back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, the PC should prompt to format a drive. Format using default options. Next, upgrade the file system via USB.
 
 Upgrading the file system via USB
---------------------------------
+---------------------------------
 
 .. if:: devo10
 .. cssclass:: bold-italic
@@ -179,8 +179,8 @@ devices. Take the steps necessary to resolve any connection issues.
 
 For transmitters other than the F7 and F12E, turn the transmitter back on while holding 'ENT'. There should be a USB logo on the screen. If this is a first-time install of Deviation, your computer may prompt to format a drive. Format using default options.
 
-Upgrading the file system with 'Deviation Uploader'
----------------------------------------------------
+Upgrading the file system with Deviation Uploader
+-------------------------------------------------
 .. if:: devo10
 .. cssclass:: bold-italic
 

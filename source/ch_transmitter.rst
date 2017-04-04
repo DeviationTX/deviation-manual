@@ -10,7 +10,7 @@ Transmitter Menu
 
 .. if:: devo8
 
-.. image:: images/devo8/ch_transmitter/tx_menu_conn.svg
+.. image:: images/devo8/ch_transmitter/tx_menu_conn.*
    :width: 80%
 
 .. endif::
@@ -223,7 +223,7 @@ Telemetry monitor
 
 .. if:: devo10
 
-.. image:: images/devo10/ch_transmitter/telemetry_monitor2.svg
+.. image:: images/devo10/ch_transmitter/telemetry_monitor2.*
    :width: 80%
 
 .. endif::

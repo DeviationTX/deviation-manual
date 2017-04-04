@@ -1,13 +1,13 @@
 env:
 ##Do not define 'global' env vars here.  They cannot be used with API builds
     matrix:
-      - TARGET=devo8
-      - TARGET=devo10
-# use new docker environment
-sudo: false
+      - TARGET=devo8 MAKETARGET=latexpdf-release
+      - TARGET=devo8 MAKETARGET=html-release
+      - TARGET=devo10 MAKETARGET=latexpdf-release
+      - TARGET=devo10 MAKETARGET=html-release
 
-#sudo: required
-#dist: trusty
+dist: trusty
+sudo: false
 
 addons:
   apt:
@@ -17,6 +17,13 @@ addons:
       - inkscape
       - libjpeg-dev
       - libz-dev
+      - texlive
+      - texlive-latex-extra
+      - texlive-lang-german
+      - texlive-lang-french
+      - texlive-lang-spanish
+      - texlive-lang-cyrillic
+      - texlive-lang-european
 
 language: python
 
@@ -24,17 +31,39 @@ before_install:
    - openssl aes-256-cbc -K $key -iv $iv -in install_documentation.tar.enc -out install_documentation.tar -d;
          tar -xf install_documentation.tar;
          rm -f install_documentation.tar
+   - echo "[https://www.transifex.com]" > .transifexrc;
+         echo "hostname = https://www.transifex.com" >> .transifexrc;
+         echo "password = $TX_PASSWD" >> .transifexrc;
+         echo "username = api" >> .transifexrc
+   - git config --global user.email "travis@travis-ci.org";
+         git config --global user.name "Travis CI";
+         git config --global credential.helper store;
+         echo "https://$GH_TOKEN:x-oauth-basic@github.com" >> ~/.git-credentials
 
 # command to install dependencies - this is done in Makefile already
 #install: "pip install -r requirements.txt"
 
 script:
-    - make html pdf
+    - tx pull -f -a
+    - make $MAKETARGET
 
-cache: pip
+cache:
+  pip: true
+  directories:
+    - build/venv
 
 after_success:
+# Need to work on code to sanely push translations back to the repository
+#    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]]; then
+#          git add source/locale; git commit -m 'Adding updated translations from Transifex';
+#          git checkout -b updated_translations; git checkout -B master updated_translations;
+#          git push -f;
+#      fi;
+    - make gettext
+    - sphinx-intl -c source/conf.py-intl update -p build/locale
+    - tx push -s
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
     - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
-    - echo "Uploading Documentation - $TARGET_PDF"
-    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
+# Need to rework uploading process (FDR) 
+#   - echo "Uploading Documentation - $TARGET_PDF"
+#    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
