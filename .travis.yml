@@ -46,7 +46,7 @@ before_install:
 script:
     - if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
            if [[ "$TARGET" == "devo10" && "$MAKETARGET" == "latexpdf-release" ]]; then
-               git checkout master; tx pull -f -a;
+               git fetch; git checkout master; tx pull -f -a;
                git add source/locale; git commit -m 'Updating translations from Transifex';
                git push -f && echo "Successfully uploaded new translations to Github.";
            fi;
@@ -55,6 +55,7 @@ script:
       fi;
 
 cache:
+  apt: true
   pip: true
   directories:
     - build/venv
