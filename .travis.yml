@@ -44,8 +44,14 @@ before_install:
 #install: "pip install -r requirements.txt"
 
 script:
-    - tx pull -f -a
-    - make $MAKETARGET
+    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" $$ "$MAKETARGET" == "latexpdf-release"]]; then
+          git checkout master; tx pull -f -a;
+          git add source/locale; git commit -m 'Updating translations from Transifex';
+          git push -f && echo "Successfully uploaded new translations to Github.";
+      else 
+          tx pull -f -a; make $MAKETARGET;
+      fi;
+      
 
 cache:
   pip: true
@@ -53,15 +59,11 @@ cache:
     - build/venv
 
 after_success:
-# Need to work on code to sanely push translations back to the repository
-#    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]]; then
-#          git add source/locale; git commit -m 'Adding updated translations from Transifex';
-#          git checkout -b updated_translations; git checkout -B master updated_translations;
-#          git push -f;
-#      fi;
+# Generate new strings for transifex from manual changes
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s
+# Upload manual builds to deviationtx.com
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
     - export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf")
     - echo "Uploading Documentation - $TARGET_PDF"
