@@ -63,7 +63,6 @@ after_success:
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
-    - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
-# Need to rework uploading process (FDR) 
-#   - echo "Uploading Documentation - $TARGET_PDF"
-#    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
+    - export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf")
+    - echo "Uploading Documentation - $TARGET_PDF"
+    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
