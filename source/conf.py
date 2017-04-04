@@ -245,7 +245,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', docname + '.tex', title,
+  ('index', 'devo.tex', title,
    u'http://www.deviationtx.com', 'manual', toctree_only),
 ]
 
