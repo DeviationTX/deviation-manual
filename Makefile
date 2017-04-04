@@ -89,7 +89,7 @@ latex:  $(SPHINXBUILD) $(PDFs)
 latexpdf-release: $(foreach lang,$(LANGUAGES),latexpdf-$(lang))
 	@echo "PDFs for languages $(LANGUAGES) successfully built."
 	mkdir $(BUILDDIR)/pdf-$(TARGET)
-	$(foreach lang, $(LANGUAGES),cp $(BUILDDIR)/latex-$(TARGET)-$(lang)/*.pdf $(BUILDDIR)/pdf-$(TARGET)/$(TARGET)manual_$(lang).pdf;)
+	$(foreach lang, $(LANGUAGES),cp $(BUILDDIR)/latex-$(TARGET)-$(lang)/devo.pdf $(BUILDDIR)/pdf-$(TARGET)/$(TARGET)manual_$(lang).pdf;)
 	@echo "PDFs copied to $(BUILDDIR)/pdf-$(TARGET)."
 
 latexpdf-%: $(SPHINXBUILD) $(PDFs)
