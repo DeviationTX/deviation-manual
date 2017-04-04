@@ -9,6 +9,7 @@ PAPER         =
 BUILDDIR      = build
 VENVDIR       = $(BUILDDIR)/venv
 TARGET        ?= devo8
+LANGUAGES     = en fr es de ru hu
 
 # Preparation for SVG handling for LaTeX builds
 SOURCEDIR     = source
@@ -29,7 +30,7 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees -t $(TARGET) $(PAPEROPT_$(PAPER)) $(SP
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS)  source
 
-.PHONY: help clean html latex latexpdf pdf
+.PHONY: help clean html latex latexpdf pdf latexpdf-release html-release
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -62,6 +63,17 @@ html:   $(SPHINXBUILD)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html-$(TARGET)."
 
+html-release: $(foreach lang,$(LANGUAGES),html-$(lang))
+	@echo "HTML documentation for languages $(LANGUAGES) successfully built."
+	mkdir $(BUILDDIR)/html-$(TARGET)
+	$(foreach lang,$(LANGUAGES), cd $(BUILDDIR) && zip -r html-$(TARGET)/$(lang).zip html-$(TARGET)-$(lang)/* && cd ..;)
+	@echo "Zipped documentation can be found in $(BUILDDIR)/html-$(TARGET)."
+
+html-%:   $(SPHINXBUILD)
+	$(SPHINXBUILD) -b html -D language='$*' $(ALLSPHINXOPTS) $(BUILDDIR)/html-$(TARGET)-$*
+	@echo
+	@echo "Build finished. The HTML pages for language $* are in $(BUILDDIR)/html-$(TARGET)-$*."
+
 epub:   $(SPHINXBUILD)
 	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/epub-$(TARGET)
 	@echo
@@ -74,11 +86,24 @@ latex:  $(SPHINXBUILD) $(PDFs)
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
  
+latexpdf-release: $(foreach lang,$(LANGUAGES),latexpdf-$(lang))
+	@echo "PDFs for languages $(LANGUAGES) successfully built."
+	mkdir $(BUILDDIR)/pdf-$(TARGET)
+	$(foreach lang, $(LANGUAGES),cp $(BUILDDIR)/latex-$(TARGET)-$(lang)/*.pdf $(BUILDDIR)/pdf-$(TARGET)/$(TARGET)manual_$(lang).pdf;)
+	@echo "PDFs copied to $(BUILDDIR)/pdf-$(TARGET)."
+
+latexpdf-%: $(SPHINXBUILD) $(PDFs)
+	$(SPHINXBUILD) -b latex -D language='$*' $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)-$*
+	@echo "Running LaTex files through pdflatex for language $*..."
+	$(MAKE) -C $(BUILDDIR)/latex-$(TARGET)-$* all-pdf
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)-$*."
+
 latexpdf: $(SPHINXBUILD) $(PDFs)
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
-	@echo "Running LaTeX files through pdflatex..."
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)*
+	@echo "Running LaTex files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex-$(TARGET) all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)."
+
 
 gettext: $(SPHINXBUILD)
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale

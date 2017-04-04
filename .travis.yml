@@ -1,8 +1,10 @@
 env:
 ##Do not define 'global' env vars here.  They cannot be used with API builds
     matrix:
-      - TARGET=devo8
-      - TARGET=devo10
+      - TARGET=devo8 MAKETARGET=latexpdf-release
+      - TARGET=devo8 MAKETARGET=html-release
+      - TARGET=devo10 MAKETARGET=latexpdf-release
+      - TARGET=devo10 MAKETARGET=html-release
 
 dist: trusty
 sudo: false
@@ -43,7 +45,7 @@ before_install:
 
 script:
     - tx pull -f -a
-    - make latexpdf
+    - make $MAKETARGET
 
 cache:
   pip: true
@@ -51,16 +53,17 @@ cache:
     - build/venv
 
 after_success:
-
-    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]]; then
-          git add source/locale; git commit -m 'Adding updated translations from Transifex';
-          git checkout -b updated_translations; git checkout -B master updated_translations;
-          git push -f;
-      fi;
+# Need to work on code to sanely push translations back to the repository
+#    - if [[ "$TRAVIS_EVENT_TYPE" == "cron" && "$TARGET" == "devo10" ]]; then
+#          git add source/locale; git commit -m 'Adding updated translations from Transifex';
+#          git checkout -b updated_translations; git checkout -B master updated_translations;
+#          git push -f;
+#      fi;
     - make gettext
     - sphinx-intl -c source/conf.py-intl update -p build/locale
     - tx push -s
     - export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}')
     - export TARGET_PDF=$(echo "Deviation${TARGET_VERSION}UsersManual.pdf")
-    - echo "Uploading Documentation - $TARGET_PDF"
-    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
+# Need to rework uploading process (FDR) 
+#   - echo "Uploading Documentation - $TARGET_PDF"
+#    - utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF
