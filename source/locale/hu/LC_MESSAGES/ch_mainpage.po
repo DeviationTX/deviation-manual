@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-05 13:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:6
 msgid "Main Page"
-msgstr ""
+msgstr "Főképernyő"
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr ""
+msgstr "Az általános főképernyő elrendezés a következő:"
 
 #: ../../source/ch_mainpage.rst:13
 msgid ""
@@ -31,18 +32,23 @@ msgid ""
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
 msgstr ""
+"\"Aktuális modell\": Az aktuálisan kiválasztott modell neve. A cimkére "
+"kattintva megnyílik a \"Modell betöltése\" képernyő. A modell konfigurálása "
+"a :ref:`model-setup` szerint történik."
 
 #: ../../source/ch_mainpage.rst:15
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
-msgstr ""
+msgstr "\"Telep\": Az aktuális távirányító telepfeszültség számszerű kijelzése."
 
 #: ../../source/ch_mainpage.rst:17
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
 msgstr ""
+"\"Tx telj.\": Az aktuálisan kiválasztott adó teljesítmény kiírása. "
+"Konfigurálása a :ref:`model-setup` fejezet szerint történik."
 
 #: ../../source/ch_mainpage.rst:19
 msgid ""
