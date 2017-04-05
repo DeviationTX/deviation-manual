@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-05 13:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -39,7 +39,7 @@ msgstr "Általános beállítások"
 
 #: ../../source/ch_transmitter.rst:34
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Nyelv**: Kiválaszthatod a megjelenő szövegek nyelvét."
 
 #: ../../source/ch_transmitter.rst:38
 msgid "NOTE: This feature is not available for Devo7e."
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:40
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**Mód**: Négyféle botkormány mód közül választhatsz: Mód 1-4."
 
 #: ../../source/ch_transmitter.rst:42
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:47
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
-msgstr ""
+msgstr "**Botkormány**: A botkormányok és potméterek kalibrálása."
 
 #: ../../source/ch_transmitter.rst:49
 msgid ""
@@ -82,11 +82,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:51
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "\"Óra (csak Devo12)\": Az aktuális dátum és idő beállítása."
 
 #: ../../source/ch_transmitter.rst:58
 msgid "Buzzer settings"
-msgstr ""
+msgstr "Hang beállítások"
 
 #: ../../source/ch_transmitter.rst:60
 msgid ""

@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-05 13:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Erweiterte Inhalte"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "Lehrer/Schüler-Einrichtung"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +37,15 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviation kann dazu benutzt werden um entweder als Lehrersender (Master) "
+"oder als Schülersender (Slave) in einer Lehrer- / Schülerkonfiguration tätig"
+" zu sein. In diesem Modus verbinden der Lehrer und der Schüler ihre "
+"jeweiligen Sender mittels eines Trainerkabels über die DSC-Buchse. Der "
+"Lehrersender kommuniziert dabei eigentlich mit dem Modell, aber der Lehrer "
+"kann einen Schalter benutzen um dem Schüler die Kontrolle des Modells zu "
+"ermöglichen. Wenn der Schalter aktiv ist, sendet der Schülersender die "
+"Eingabe (Knüppel) Informationen über das Trainerkabel an den Lehrersender "
+"und diese Eingaben ersetzen die Lehrereingaben."
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -47,10 +57,17 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviation kann konfiguriert werden um mit nahezu jedem Sender zu arbeiten, "
+"der entweder Lehrer- oder Schülermodus unterstützt. Deviation auf einen "
+"anderen Hersteller einzustellen erfordert Kenntnisse über die PPM Parameter "
+"des gepaarten Senders und die saubere Konfiguration von 'Mitte PW' ['Center "
+"PW'] und 'Delta PW' sowie zu wissen, wie viele Kanäle übertragen werden und "
+"wie die Kanalreihenfolge ist. Der beste Ort um diese Informationen zu finden"
+" ist das Forum auf www.deviationtx.com."
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "Lehrermodus [Master mode]"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -143,7 +160,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:60
 msgid "Configuration options:"
-msgstr ""
+msgstr "Konfigurationen:"
 
 #: ../../source/ch_advanced.rst:62
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
@@ -334,7 +351,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:156
 msgid "Modifying sounds"
-msgstr ""
+msgstr "Töne verändern"
 
 #: ../../source/ch_advanced.rst:158
 msgid ""
