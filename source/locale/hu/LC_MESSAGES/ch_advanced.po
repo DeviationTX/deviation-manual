@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-02 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Témák haladóknak"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "Oktató üzemmód konfigurálása"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "Oktató (Master) mód"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -111,7 +112,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:43
 msgid "Slave Mode"
-msgstr ""
+msgstr "Tanuló (Slave) mód"
 
 #: ../../source/ch_advanced.rst:44
 msgid ""
@@ -126,7 +127,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:49
 msgid "Setting Up FPV or Other External Inputs"
-msgstr ""
+msgstr "FPV és egyéb külső bemenetek konfigurálása"
 
 #: ../../source/ch_advanced.rst:56
 msgid ""
@@ -237,7 +238,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:108
 msgid "Swash Mixing"
-msgstr ""
+msgstr "Imbolygó beállítások"
 
 #: ../../source/ch_advanced.rst:109
 msgid ""
@@ -334,7 +335,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:156
 msgid "Modifying sounds"
-msgstr ""
+msgstr "Hangok módosítása"
 
 #: ../../source/ch_advanced.rst:158
 msgid ""
