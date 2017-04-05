@@ -46,11 +46,11 @@ before_install:
 script:
     - if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
            if [[ "$TARGET" == "devo10" && "$MAKETARGET" == "latexpdf-release" ]]; then
-               mkdir $HOME/txgit; pushd $HOME/txgit;
+               mkdir $HOME/txgit; cp .transifexrc $HOME/txgit; pushd $HOME/txgit;
                git clone https://www.github.com/TheRealMoeder/deviation-manual.git --depth 20 -q;
                tx pull -f -a; git add source/locale;
                git commit -m 'Updating translations from Transifex';
-               git push -f && echo "Successfully uploaded new translations to Github.";
+               git push && echo "Successfully uploaded new translations to Github.";
                popd; rm -rf $HOME/txgit;
            fi;
       else 
