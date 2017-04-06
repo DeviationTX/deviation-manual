@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-05 18:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
-msgstr ""
+msgstr "DEVO protokoll"
 
 #: ../../source/ch_protocols.rst:19
 msgid ""
@@ -99,7 +100,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:43
 msgid "Protocol: WK2801"
-msgstr ""
+msgstr "WK2801 protokoll"
 
 #: ../../source/ch_protocols.rst:44
 msgid ""
@@ -119,7 +120,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:47
 msgid "Protocol: WK2601"
-msgstr ""
+msgstr "WK2601 protokoll"
 
 #: ../../source/ch_protocols.rst:48
 msgid ""
@@ -174,7 +175,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: WK2401"
-msgstr ""
+msgstr "WK2401 protokoll"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
@@ -191,7 +192,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:72
 msgid "Protocol: DSM2"
-msgstr ""
+msgstr "DSM2 protokoll"
 
 #: ../../source/ch_protocols.rst:73
 msgid ""
@@ -257,7 +258,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:112
 msgid "Protocol: DSMX"
-msgstr ""
+msgstr "DSMX protokoll"
 
 #: ../../source/ch_protocols.rst:113
 msgid ""
@@ -293,7 +294,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:131
 msgid "Protocol: J6Pro"
-msgstr ""
+msgstr "J6Pro protokoll"
 
 #: ../../source/ch_protocols.rst:132
 msgid ""
@@ -308,7 +309,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:135
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "\\*Flysky protokoll"
 
 #: ../../source/ch_protocols.rst:136
 msgid ""
@@ -396,7 +397,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:174
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "\\*AFHDS-2A protokoll"
 
 #: ../../source/ch_protocols.rst:175
 msgid ""
@@ -433,7 +434,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:190
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "\\*Hubsan4 protokoll"
 
 #: ../../source/ch_protocols.rst:191
 msgid ""
@@ -479,7 +480,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:213
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "\\*Joysway protokoll"
 
 #: ../../source/ch_protocols.rst:214
 msgid ""
@@ -506,7 +507,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:231
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "\\*Frsky-V8 protokoll"
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
@@ -523,7 +524,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:239
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "\\*Frsky protokoll"
 
 #: ../../source/ch_protocols.rst:240
 msgid ""
@@ -559,7 +560,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:255
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "\\*FrskyX protokoll"
 
 #: ../../source/ch_protocols.rst:256
 msgid ""
@@ -681,7 +682,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:302
 msgid "Protocol: \\*Skyartec"
-msgstr ""
+msgstr "\\*Skyartec protokoll"
 
 #: ../../source/ch_protocols.rst:303
 msgid ""
@@ -698,7 +699,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:310
 msgid "Protocol: \\*Futaba S-FHSS"
-msgstr ""
+msgstr "\\*Futaba S-FHSS protokoll"
 
 #: ../../source/ch_protocols.rst:311
 msgid ""
@@ -730,7 +731,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:322
 msgid "Protocol: \\*V202"
-msgstr ""
+msgstr "\\*V202 protokoll"
 
 #: ../../source/ch_protocols.rst:323
 msgid ""
@@ -799,7 +800,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:351
 msgid "Protocol: \\*SLT"
-msgstr ""
+msgstr "\\*SLT protokoll"
 
 #: ../../source/ch_protocols.rst:352
 msgid ""
@@ -816,7 +817,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:361
 msgid "Protocol: \\*HiSky"
-msgstr ""
+msgstr "\\*HiSky protokoll"
 
 #: ../../source/ch_protocols.rst:362
 msgid ""
@@ -833,7 +834,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:373
 msgid "Protocol: \\*YD717"
-msgstr ""
+msgstr "\\*YD717 protokoll"
 
 #: ../../source/ch_protocols.rst:374
 msgid ""
@@ -886,7 +887,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:393
 msgid "Protocol: \\*SymaX"
-msgstr ""
+msgstr "\\*SymaX protokoll"
 
 #: ../../source/ch_protocols.rst:394
 msgid ""
@@ -922,7 +923,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:413
 msgid "Protocol: \\*Hontai"
-msgstr ""
+msgstr "\\*Hontai protokoll"
 
 #: ../../source/ch_protocols.rst:414
 msgid "This protocol is used on Hontai models F801 and F803."
@@ -969,7 +970,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:429
 msgid "Protocol: \\*Bayang"
-msgstr ""
+msgstr "\\*Bayang protokoll"
 
 #: ../../source/ch_protocols.rst:430
 msgid ""
