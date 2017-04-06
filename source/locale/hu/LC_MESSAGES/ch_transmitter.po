@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-05 13:59+0000\n"
+"POT-Creation-Date: 2017-04-05 18:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -32,6 +32,9 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"A konfigurációs képernyő különböző távirányító funkciókat definiál. A "
+"főmenüből a távirányító menün keresztül érhető el. Az ebben a fejezetben "
+"szereplő képernyőkön a Deviation alapértelmezett beállításai láthatók."
 
 #: ../../source/ch_transmitter.rst:29
 msgid "Generic settings"
@@ -43,7 +46,7 @@ msgstr "**Nyelv**: Kiválaszthatod a megjelenő szövegek nyelvét."
 
 #: ../../source/ch_transmitter.rst:38
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "Megjegyzés: Ez a funkció Devo 7e esetén nem érhető el."
 
 #: ../../source/ch_transmitter.rst:40
 msgid "**Stick mode**: Select one of Mode 1-4."
@@ -54,20 +57,28 @@ msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
 msgstr ""
+"A Mód 1 Európában elterjedt. A magassági- és oldalkormány van a bal oldalon,"
+" a gáz és a csűrés a jobb oldalon."
 
 #: ../../source/ch_transmitter.rst:43
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
 msgstr ""
+"A Mód 2 Észak-Amerikában elterjedt. Gáz és oldalkormány a bal oldalon, "
+"magassági kormány és csűrés a jobbon."
 
 #: ../../source/ch_transmitter.rst:44
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
 msgstr ""
+"Mód 3 esetén a magassági kormány és a csűrés van a bal oldalon, a gáz és az "
+"oldalkormány a jobbon."
 
 #: ../../source/ch_transmitter.rst:45
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
 msgstr ""
+"Mód 4 esetén a gáz és a csűrés van a bal oldalon, a magassági- és az "
+"oldalkormány a jobbon."
 
 #: ../../source/ch_transmitter.rst:47
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
@@ -79,6 +90,9 @@ msgid ""
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"A botkormány kalibrációhoz válaszd ki a Kalibrálás gombot, és nyomj ENT-t. "
+"Kövesd a képernyőn megjelenő utasításokat a botkormányok mozgatására, és "
+"hagyd jóvá az ENT gomb megnyomásával."
 
 #: ../../source/ch_transmitter.rst:51
 msgid "**Clock (Devo12 only)**: Set the current time and date"
@@ -93,12 +107,17 @@ msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
+"**Bekapcsolási riasztás**: Válassz egy intervallumot, ami után a távirányító"
+" jelzést ad, ha be van kapcsolva, de nincs használva. A megadható tartomány "
+"0-60 percig terjed, 1 perces lépésekben."
 
 #: ../../source/ch_transmitter.rst:62
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
 msgstr ""
+"**Feszültség riasztás**: Az alacsony telepfeszültség riasztási szintje. A "
+"beállítható feszültség tartomány 3.30V - 12.00V 0.01V-os lépésekben."
 
 #: ../../source/ch_transmitter.rst:64
 msgid ""
@@ -106,6 +125,9 @@ msgid ""
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
 msgstr ""
+"**Riasztási intervallum**: Az alacsony telepfeszültség riasztás gyakoriságát"
+" állítja. A riasztási intervallum beállítható tartománya 5 másodperctől 1 "
+"percig lehetséges 5 másodperces felbontással. Ki is kapcsolható."
 
 #: ../../source/ch_transmitter.rst:66
 msgid ""
@@ -216,12 +238,16 @@ msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"Megjegyzés: Devo8 esetén csak AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
+"DR0/1, GEAR0/1, FMOD0/1/2, és MIX0/1/2 bemenetek léteznek."
 
 #: ../../source/ch_transmitter.rst:137
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
 msgstr ""
+"Megjegyzés: Devo6 esetén csak AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2,"
+" and MIX0/1/2 bemenetek léteznek."
 
 #: ../../source/ch_transmitter.rst:140
 msgid "Button Monitor"
