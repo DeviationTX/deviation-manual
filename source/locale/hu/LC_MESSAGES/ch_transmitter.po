@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-05 18:48+0000\n"
+"POT-Creation-Date: 2017-04-07 14:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -46,7 +46,7 @@ msgstr "**Nyelv**: Kiválaszthatod a megjelenő szövegek nyelvét."
 
 #: ../../source/ch_transmitter.rst:38
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr "Megjegyzés: Ez a funkció Devo 7e esetén nem érhető el."
+msgstr "MEGJEGYZÉS: Ez a funkció Devo 7e esetén nem érhető el."
 
 #: ../../source/ch_transmitter.rst:40
 msgid "**Stick mode**: Select one of Mode 1-4."
@@ -109,7 +109,7 @@ msgid ""
 msgstr ""
 "**Bekapcsolási riasztás**: Válassz egy intervallumot, ami után a távirányító"
 " jelzést ad, ha be van kapcsolva, de nincs használva. A megadható tartomány "
-"0-60 percig terjed, 1 perces lépésekben."
+"0 – 60 percig terjed, 1 perces lépésekben."
 
 #: ../../source/ch_transmitter.rst:62
 msgid ""
@@ -117,7 +117,7 @@ msgid ""
 "voltage range is 3.30V – 12.00V in 0.01V increments."
 msgstr ""
 "**Feszültség riasztás**: Az alacsony telepfeszültség riasztási szintje. A "
-"beállítható feszültség tartomány 3.30V - 12.00V 0.01V-os lépésekben."
+"beállítható feszültség tartomány 3.30V – 12.00V 0.01V-os lépésekben."
 
 #: ../../source/ch_transmitter.rst:64
 msgid ""
@@ -134,14 +134,18 @@ msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
 msgstr ""
+"**Hangerő**: A zümmer hangerejének beállítása. A beállítható hangerő "
+"tartomány 1 – 10. Ki is kapcsolható."
 
 #: ../../source/ch_transmitter.rst:68
 msgid "**Vibration**: Enable vibration on alarms, if available."
 msgstr ""
+"**Rezgés**: Rezgés funkció engedélyezése a riasztásokhoz, amennyiben "
+"elérhető."
 
 #: ../../source/ch_transmitter.rst:70
 msgid "**Power-down alert**: Play sound at power-down."
-msgstr ""
+msgstr "**Kikapcsolási riasztás**: Kikapcsoláskori hangjelzés engedélyezése."
 
 #: ../../source/ch_transmitter.rst:73
 msgid "LCD settings"
@@ -151,6 +155,8 @@ msgstr "LCD beállítások"
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
 msgstr ""
+"**Fényerő**: A képernyő háttérvilágításának fényereje. A beállítható "
+"tartomány 1 – 10."
 
 #: ../../source/ch_transmitter.rst:77
 msgid ""
@@ -158,12 +164,18 @@ msgid ""
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
 msgstr ""
+"**Alvó mód ideje**: A képernyő altatásának késleltetése. 5 másodperctől 2 "
+"percig állítható 5 másodperces lépésekben. Kikapcsolt állapotban a "
+"háttérvilágítás a beállított marad a távirányító kikapcsolásáig."
 
 #: ../../source/ch_transmitter.rst:79
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
 msgstr ""
+"**Alvó fényerő**: Az alvó üzemmódban levő kijelző háttérvilágításának "
+"értéke. A beállítható tartomány 1 – 10. Ki is kapcsolható, ilyenkor "
+"egyáltalán nincs háttérvilágítás."
 
 #: ../../source/ch_transmitter.rst:82
 msgid "Timer settings"
@@ -175,18 +187,27 @@ msgid ""
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
 msgstr ""
+"**Előjelzési idő**: Az az idő, amennyivel az időzítő lejárta előtt elkezd "
+"csipogni. A beállítható tartomány 5 másodperctől 1 percig tart, de ki is "
+"kapcsolható."
 
 #: ../../source/ch_transmitter.rst:86
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Előjelzési intervallum**: Az időzítő lejárta előtt milyen sűrűn csipogjon."
+" A beállítható tartomány 1 – 60 másodpercig terjed, de ki is lehet "
+"kapcsolni."
 
 #: ../../source/ch_transmitter.rst:88
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Ismétlés intervallum**: Az időzítő lejárta után milyen sűrűn ismételje meg"
+" a riasztást. A beállítható tartomány 1 – 60 másodpercig terjed, de ki is "
+"kapcsolható."
 
 #: ../../source/ch_transmitter.rst:91
 msgid "Telemetry settings"
@@ -197,12 +218,16 @@ msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
 msgstr ""
+"**Hőmérséklet**: A hőmérséklet kijelzésének mértékegysége. Lehetséges "
+"értékei a Celsius és a Fahrenheit."
 
 #: ../../source/ch_transmitter.rst:95
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
 msgstr ""
+"**Hossz**: A hosszúság/távolság/magasság kijelzésének mértékegysége. "
+"Lehetséges értékei a Méter és a Láb."
 
 #: ../../source/ch_transmitter.rst:98
 msgid "Channel monitor"
@@ -215,12 +240,19 @@ msgid ""
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
 msgstr ""
+"A csatorna monitor képernyőn lehet a kimeneti csatornák aktuális értékeit "
+"megtekinteni. Csak azok a csatornák szerepelnek rajta, melyekhez van mixer "
+"definiálva. A kimeneti értékek az adott csatornához definiált minimum / "
+"maximum értékek, valamint a megadott skálázás alapján számítódnak."
 
 #: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
 msgstr ""
+"**Például**: Ha egy csatorna -60-tól +60-ig van skálázva, akkor a kimeneti "
+"értéke is csak -60-tól +60-ig fog váltakozni a botkormány pozíciójának "
+"függvényében."
 
 #: ../../source/ch_transmitter.rst:116
 msgid "Input Monitor"
@@ -232,13 +264,16 @@ msgid ""
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
 msgstr ""
+"A bemenetek képernyőn lehet a bemenetek aktuális állapotainak megfelelő "
+"értékeket megtekinteni. Az értékek százalékos formában jelennek meg, ahol a "
+"teljes tartomány -100%-tól +100%-ig terjed."
 
 #: ../../source/ch_transmitter.rst:133
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
-"Megjegyzés: Devo8 esetén csak AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
+"MEGJEGYZÉS: Devo8 esetén csak AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, és MIX0/1/2 bemenetek léteznek."
 
 #: ../../source/ch_transmitter.rst:137
@@ -246,7 +281,7 @@ msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
 msgstr ""
-"Megjegyzés: Devo6 esetén csak AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2,"
+"MEGJEGYZÉS: Devo6 esetén csak AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2,"
 " and MIX0/1/2 bemenetek léteznek."
 
 #: ../../source/ch_transmitter.rst:140
@@ -261,10 +296,16 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"A nyomógomb ellenőrzés képernyőn lehet ellenőrizni a távirányító fizikai "
+"nyomógombjainak működését. Bármelyik fizikai nyomógomb megnyomása "
+"kiválasztja a képernyőn látható megfelelő négyzetet. Az \"ENT\", \"L-\" vagy"
+" \"L+\" nyomógomb teszteléséhez előbb meg kell érinteni a kijelzőt, hogy "
+"letiltódjon a navigáció. Egy újabb érintéssel megint engedélyezhetjük a "
+"nyomógombokat."
 
 #: ../../source/ch_transmitter.rst:153
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "MEGJEGYZÉS: A Devo6-on nincs felül bal és jobb trim gomb."
 
 #: ../../source/ch_transmitter.rst:157
 msgid "Telemetry monitor"
@@ -277,6 +318,9 @@ msgid ""
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
 msgstr ""
+"Bizonyos protokollok használat közben képesek telemetria adatokat küldeni "
+"vissza a távirányítónak. Ezek többek között lehetnek hőmérséklet értékek, "
+"feszültségek, motor fordulatszám, vagy akár GPS koordináták is."
 
 #: ../../source/ch_transmitter.rst:172
 msgid ""
@@ -284,6 +328,10 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"A telemetria adatok vétele alapállapotban az összes támogatott protokoll "
+"esetén ki van kapcsolva, kivéve a DAVO és FrSky protokollokat. Lásd a 9. "
+"Protokollok fejezetet, hogy mely protokollok képesek telemetria adatokat "
+"fogadni, és melyik milyen adatokat."
 
 #: ../../source/ch_transmitter.rst:186
 msgid ""
@@ -291,10 +339,14 @@ msgid ""
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
 msgstr ""
+"Mivel minden protokoll eltérő típusú adatokat képes visszaküldeni, lásd az "
+"eredeti készülékgyártó dokumentációját, hogy esetlegesen milyen további "
+"hardver eszközökre van szükség a megfelelő adatok begyűjtéséhez és "
+"továbbításához."
 
 #: ../../source/ch_transmitter.rst:188
 msgid "Until valid data is transmitted the values will all be |bad_color|"
-msgstr ""
+msgstr "Amíg valós adat nem érkezik be, az értékek színe |bad_color| lesz."
 
 #: ../../source/ch_transmitter.rst:192
 msgid "Range Test"
@@ -307,6 +359,10 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"Melegen ajánlott, hogy egy-egy új modell első reptetése előtt ellenőrizd a "
+"hatótávolságot, hogy képes leszel-e irányítani a modellt a megfelelő "
+"távolságból. Néhány modellező klubban ez kötelező biztonsági intézkedés. A "
+"hatótáv teszt segít ebben."
 
 #: ../../source/ch_transmitter.rst:205
 msgid ""
@@ -354,3 +410,5 @@ msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"MEGJEGYZÉS: Soha ne kapcsold be az USB módot, ha épp egy modellhez vagy "
+"kapcsolódva, mert az USB használat zavarhatja a jelátvitelt!"
