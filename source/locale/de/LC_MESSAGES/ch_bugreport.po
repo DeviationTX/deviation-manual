@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 14:39+0000\n"
+"POT-Creation-Date: 2017-04-07 18:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_bugreport.rst:2
 msgid "Reporting Bugs"
-msgstr ""
+msgstr "Fehler melden"
 
 #: ../../source/ch_bugreport.rst:3
 msgid "Nobody is perfect."
-msgstr ""
+msgstr "Niemand ist perfekt."
 
 #: ../../source/ch_bugreport.rst:5
 msgid ""
@@ -34,12 +35,22 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
+"Diese Firmware wurde sorgfältig entwickelt und von vielen Benutzern weltweit"
+" getestet. Trotzdem kann es unter bestimmten Umständen vorkommen, dass der "
+"Sender nicht erwartungsgemäß funktioniert. Manchmal ist dieses Verhalten ein"
+" Bedienungsfehler und manchmal ein echter Programmierfehler. Zögern Sie "
+"nicht, im Forum unter http://www.deviationtx.com/forum nachzufragen. (Anm. "
+"des Übersetzers: Das Forum ist zwar englischsprachig, aber es gibt auch "
+"deutschsprachige Forumsteilnehmer.) Vergessen Sie nicht, dass die Firmware "
+"nur mit Ihrer Hilfe verbessert werden kann!"
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
 "http://www.deviationtx.com/mantisbt"
 msgstr ""
+"Wenn Sie einen Bug in Deviation finden, melden Sie ihn bitte hier: "
+"https://github.com/DeviationTX/deviation/issues"
 
 #: ../../source/ch_bugreport.rst:9
 msgid ""
@@ -48,37 +59,44 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
+"Leider benötigen Sie einen kostenlosen GitHub account, um Fehler melden zu "
+"können. Alternativ können Sie auch im Forum einen neuen Beitrag mit der "
+"Fehlerbeschreibung erstellen.  "
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
 "Please provide as much information as possible in your ticket. Include:"
 msgstr ""
+"Bitte geben Sie unbedingt so viele Informationen wie nötig an. Insbesondere "
+"werden benötigt:"
 
 #: ../../source/ch_bugreport.rst:13
 msgid "Build version (you can find this on the 'USB' page of the transmitter)"
-msgstr ""
+msgstr "Build version (zu finden auf der 'USB' Seite des Senders)"
 
 #: ../../source/ch_bugreport.rst:14
 msgid "Did you compile yourself, or download the dfu?"
-msgstr ""
+msgstr "Ist es eine selbstkompilierte oder heruntergeladene Firmware?"
 
 #: ../../source/ch_bugreport.rst:15
 msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
-msgstr ""
+msgstr "Sendertyp (Devo8, Devo7e, Devo10-emulator etc.)"
 
 #: ../../source/ch_bugreport.rst:16
 msgid "Have you tried reproducing this on the emulator?"
-msgstr ""
+msgstr "Wurde versucht, den Fehler auf dem Emulator zu reproduzieren?"
 
 #: ../../source/ch_bugreport.rst:17
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
 msgstr ""
+"Ist der Fehler reproduzierbar? Falls ja, geben Sie bitte Schritt-für-"
+"Schritt-Anweisungen."
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"
-msgstr ""
+msgstr "Welches Protokoll wurde verwendet?"
 
 #: ../../source/ch_bugreport.rst:19
 msgid ""
@@ -86,7 +104,12 @@ msgid ""
 "file-system of the transmitter along with the 'debug-devo???.zip file that "
 "came with the dfu"
 msgstr ""
+"Falls Ihr Sender neu startet, geben Sie bitte den Inhalt der Datei "
+"'errors.txt' im Hauptverzeichnis zusammen mit der Datei 'debug-devo???.zip' "
+"die mit der Firmware geliefert wurde."
 
 #: ../../source/ch_bugreport.rst:21
 msgid "The more detail you can provide, the faster fixing the issue will be."
 msgstr ""
+"Je mehr Einzelheiten gennant werden, desto schneller kann der Fehler behoben"
+" werden."
