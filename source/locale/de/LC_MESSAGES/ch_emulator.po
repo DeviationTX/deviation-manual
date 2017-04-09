@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-07 18:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_emulator.rst:4
 msgid "Emulator"
-msgstr ""
+msgstr "Emulator"
 
 #: ../../source/ch_emulator.rst:5
 msgid ""
@@ -29,17 +30,24 @@ msgid ""
 "virtual-stick/switch states as well as the Channel output that would be "
 "received by the servos."
 msgstr ""
+"Der Emulator bietet einen Möglichkeit Deviation auf ihrem PC zu testen ohne "
+"die Firmware auf den Sender hochzuladen. Er ermöglicht eine visuelle Anzeige"
+" entsprechend der des Senders zusammen mit einem Seitenbildschirm, der die "
+"aktuelle Stellung der virtuellen Knüppel / Schalter anzeigt sowie die Kanal-"
+"Ausgabe, die die Servos erhalten würden."
 
 #: ../../source/ch_emulator.rst:7
 msgid ""
 "Download and unzip the deviation-emu_devoXX-vx.y.z.zip emulator package "
 "from:"
 msgstr ""
+"Laden und Entpacken Sie die Datei deviation-emu_devoXX-vx.y.z.zip von:"
 
 #: ../../source/ch_emulator.rst:9
 msgid ""
 "http://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 msgstr ""
+"https://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 
 #: ../../source/ch_emulator.rst:11
 msgid ""
@@ -47,47 +55,53 @@ msgid ""
 "deviation version number. Normally you should use the latest one. To start "
 "the emulator just run the exe file in the sub-directory."
 msgstr ""
+"wobei XX die Nummer Ihres Devention-Senders ist. X.y.z. beschreibt die "
+"Deviation Versionsnummer. Sie sollten im Regelfall die neueste Version "
+"verwenden. Um den Emulator zu starten, führen Sie die EXE-Datei im "
+"Unterverzeichnis aus."
 
 #: ../../source/ch_emulator.rst:21
 msgid ""
 "The emulator controls are as follows (based an an English QWERTY keyboard):"
 msgstr ""
+"Folgende Bedienelemente sind im Emulator verfügbar (auf der Basis einer "
+"englischen QWERTY-Tastatur):"
 
 #: ../../source/ch_emulator.rst:26
 msgid "Keyboard"
-msgstr ""
+msgstr "Taste"
 
 #: ../../source/ch_emulator.rst:26
 msgid "Function"
-msgstr ""
+msgstr "Funktion"
 
 #: ../../source/ch_emulator.rst:26
 msgid "Transmitter"
-msgstr ""
+msgstr "Sender"
 
 #: ../../source/ch_emulator.rst:28
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../source/ch_emulator.rst:28
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/ch_emulator.rst:28
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/ch_emulator.rst:28
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../source/ch_emulator.rst:30
 msgid "q/a"
-msgstr ""
+msgstr "q/a"
 
 #: ../../source/ch_emulator.rst:30
 msgid "Left-Vertical stick (Throttle in mode 2)"
-msgstr ""
+msgstr "Knüppel links vertikal (Gas in Mode 2)"
 
 #: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:30
 #: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:31
@@ -126,248 +140,248 @@ msgstr ""
 #: ../../source/ch_emulator.rst:59 ../../source/ch_emulator.rst:60
 #: ../../source/ch_emulator.rst:60 ../../source/ch_emulator.rst:60
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Q/A"
-msgstr ""
+msgstr "Q/A"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Left-Vertical trim"
-msgstr ""
+msgstr "vertikale Trimmung links"
 
 #: ../../source/ch_emulator.rst:32
 msgid "w/s"
-msgstr ""
+msgstr "w/s"
 
 #: ../../source/ch_emulator.rst:32
 msgid "Left-Horizontal stick (Rudder in mode 2)"
-msgstr ""
+msgstr "Knüppel links Horizontal (Seitenruder in Mode 2)"
 
 #: ../../source/ch_emulator.rst:33
 msgid "W/S"
-msgstr ""
+msgstr "W/S"
 
 #: ../../source/ch_emulator.rst:33
 msgid "Left-Horizontal trim"
-msgstr ""
+msgstr "horizontale Trimmung links"
 
 #: ../../source/ch_emulator.rst:34
 msgid "e/d"
-msgstr ""
+msgstr "e/d"
 
 #: ../../source/ch_emulator.rst:34
 msgid "Right-Vertical stick (Elevator in mode 2)"
-msgstr ""
+msgstr "Knüppel rechts vertikal (Höhenruder in Mode 2)"
 
 #: ../../source/ch_emulator.rst:35
 msgid "E/D"
-msgstr ""
+msgstr "E/D"
 
 #: ../../source/ch_emulator.rst:35
 msgid "Right-Vertical trim"
-msgstr ""
+msgstr "vertikale Trimmung rechts"
 
 #: ../../source/ch_emulator.rst:36
 msgid "r/f"
-msgstr ""
+msgstr "r/f"
 
 #: ../../source/ch_emulator.rst:36
 msgid "Right-Horizontal stick (Aileron in mode 2)"
-msgstr ""
+msgstr "Knüppel rechts horizontal (Querruder in Mode 2)"
 
 #: ../../source/ch_emulator.rst:37
 msgid "R/F"
-msgstr ""
+msgstr "R/F"
 
 #: ../../source/ch_emulator.rst:37
 msgid "Right-Horizontal trim"
-msgstr ""
+msgstr "horizontale Trimmung rechts"
 
 #: ../../source/ch_emulator.rst:38
 msgid "o/l"
-msgstr ""
+msgstr "o/l"
 
 #: ../../source/ch_emulator.rst:38
 msgid "AUX2"
-msgstr ""
+msgstr "AUX2"
 
 #: ../../source/ch_emulator.rst:39
 msgid "p/;"
-msgstr ""
+msgstr "p/;"
 
 #: ../../source/ch_emulator.rst:39
 msgid "AUX3"
-msgstr ""
+msgstr "AUX3"
 
 #: ../../source/ch_emulator.rst:40
 msgid "t/g"
-msgstr ""
+msgstr "t/g"
 
 #: ../../source/ch_emulator.rst:40
 msgid "AUX4"
-msgstr ""
+msgstr "AUX4"
 
 #: ../../source/ch_emulator.rst:41
 msgid "T/G"
-msgstr ""
+msgstr "T/G"
 
 #: ../../source/ch_emulator.rst:41
 msgid "Top-Left trim"
-msgstr ""
+msgstr "Trimmung oben links"
 
 #: ../../source/ch_emulator.rst:42
 msgid "y/h"
-msgstr ""
+msgstr "y/h"
 
 #: ../../source/ch_emulator.rst:42
 msgid "AUX5"
-msgstr ""
+msgstr "AUX5"
 
 #: ../../source/ch_emulator.rst:43
 msgid "Y/H"
-msgstr ""
+msgstr "Y/H"
 
 #: ../../source/ch_emulator.rst:43
 msgid "Top-Right trim"
-msgstr ""
+msgstr "Trimmung oben rechts"
 
 #: ../../source/ch_emulator.rst:44
 msgid "u/j"
-msgstr ""
+msgstr "u/j"
 
 #: ../../source/ch_emulator.rst:44
 msgid "AUX6"
-msgstr ""
+msgstr "AUX6"
 
 #: ../../source/ch_emulator.rst:45
 msgid "i/k"
-msgstr ""
+msgstr "i/k"
 
 #: ../../source/ch_emulator.rst:45
 msgid "AUX7"
-msgstr ""
+msgstr "AUX7"
 
 #: ../../source/ch_emulator.rst:46
 msgid "z"
-msgstr ""
+msgstr "z"
 
 #: ../../source/ch_emulator.rst:46
 msgid "Gear"
-msgstr ""
+msgstr "Fahrwerk [gear]"
 
 #: ../../source/ch_emulator.rst:47
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../../source/ch_emulator.rst:47
 msgid "Rudder Dual-Rate switch/SW B"
-msgstr ""
+msgstr "Seitenruder Dual-Rate Schalter/SW B"
 
 #: ../../source/ch_emulator.rst:48
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: ../../source/ch_emulator.rst:48
 msgid "Elevator Dual-Rate switch/SW A"
-msgstr ""
+msgstr "Höhenruder Dual-Rate Schalter/SW A"
 
 #: ../../source/ch_emulator.rst:49
 msgid "v"
-msgstr ""
+msgstr "v"
 
 #: ../../source/ch_emulator.rst:49
 msgid "Aileron Dual-Rate switch/"
-msgstr ""
+msgstr "Querruder Dual-Rate schaltet/"
 
 #: ../../source/ch_emulator.rst:49
 msgid "DR"
-msgstr ""
+msgstr "DR"
 
 #: ../../source/ch_emulator.rst:50
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: ../../source/ch_emulator.rst:50
 msgid "Mix 0/1/2 switch"
-msgstr ""
+msgstr "Mix 0/1/2 Schalter"
 
 #: ../../source/ch_emulator.rst:51
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: ../../source/ch_emulator.rst:51
 msgid "FMode 0/1/2 switch"
-msgstr ""
+msgstr "Mode 0/1/2 Schalter"
 
 #: ../../source/ch_emulator.rst:52
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: ../../source/ch_emulator.rst:52
 msgid "Hold switch"
-msgstr ""
+msgstr "Hold Schalter"
 
 #: ../../source/ch_emulator.rst:53
 msgid ","
-msgstr ""
+msgstr ","
 
 #: ../../source/ch_emulator.rst:53
 msgid "Train switch"
-msgstr ""
+msgstr "Lehrer-Schalter"
 
 #: ../../source/ch_emulator.rst:54
 msgid "\\\\"
-msgstr ""
+msgstr "\\\\"
 
 #: ../../source/ch_emulator.rst:54
 msgid "Power off"
-msgstr ""
+msgstr "Sender aus"
 
 #: ../../source/ch_emulator.rst:55
 msgid "Left-arrow"
-msgstr ""
+msgstr "Pfeil links"
 
 #: ../../source/ch_emulator.rst:55
 msgid "Left"
-msgstr ""
+msgstr "links"
 
 #: ../../source/ch_emulator.rst:56
 msgid "Right-arrow"
-msgstr ""
+msgstr "Pfeil rechts"
 
 #: ../../source/ch_emulator.rst:56
 msgid "Right"
-msgstr ""
+msgstr "rechts"
 
 #: ../../source/ch_emulator.rst:57
 msgid "Up-arrow"
-msgstr ""
+msgstr "Pfeil hoch"
 
 #: ../../source/ch_emulator.rst:57
 msgid "Up"
-msgstr ""
+msgstr "hoch"
 
 #: ../../source/ch_emulator.rst:58
 msgid "Down-arrow"
-msgstr ""
+msgstr "Pfeil runter"
 
 #: ../../source/ch_emulator.rst:58
 msgid "Down"
-msgstr ""
+msgstr "runter"
 
 #: ../../source/ch_emulator.rst:59
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../../source/ch_emulator.rst:59
 msgid "Ent"
-msgstr ""
+msgstr "Eingabe [Ent]"
 
 #: ../../source/ch_emulator.rst:60
 msgid "Escape"
-msgstr ""
+msgstr "Escape"
 
 #: ../../source/ch_emulator.rst:60
 msgid "Exit"
-msgstr ""
+msgstr "Verlassen [Exit]"
