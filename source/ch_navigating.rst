@@ -34,7 +34,8 @@ some cases they can be pressed to perform an action (like a button)
 **Icons**: Icons can either provide information or be pressed to
 perform an action (like a button)
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 The main menu is accessed by pressing ‘ENT’ on the main menu.
 
@@ -46,7 +47,8 @@ The main menu is accessed by pressing ‘ENT’ on the main menu.
 .. if:: devo8
 Navigating with the physical buttons
 ------------------------------------
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 Navigating 
 -----------
 .. endif::
