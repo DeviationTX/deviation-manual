@@ -93,6 +93,7 @@ LCD settings
 **Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
 .. if:: devo10
 It may also be turned off.
+.. endif::
 
 **Contrast**: Set screen contrast. Acceptable entries are from 1 to 10.
 .. if:: devo10
