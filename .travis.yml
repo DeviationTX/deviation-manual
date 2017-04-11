@@ -66,7 +66,7 @@ cache:
 # Generate new strings for transifex from manual changes
 # Upload manual builds to deviationtx.com
 after_success:
-    - if [[ "$TRAVIS_EVENT_TYPE" == "push" ]]; then      
+    - if [[ "$TRAVIS_EVENT_TYPE" == "push" && "$MAKETARGET" == "latexpdf-release" ]]; then      
           make gettext; sphinx-intl -c source/conf.py-intl update -p build/locale; tx push -s;
           export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}');
           export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf");
