@@ -766,6 +766,7 @@ Standard GUI Menu items
 
 .. endif::
 .. if:: devo10
+.. container::
 
    1. **Model setup**: Model configuration page (See section  :ref:`model-setup`)
    2. **Reverse**: Servo reverse
@@ -829,11 +830,12 @@ Swash Configuration
 
 The Swash configuration page configures the swash type.  More information about swash-types can be found in section :ref:`swash-mixing`.  The settings on this page are equivalent to those on the model configuration page (see :ref:`model-setup`), and configuration for both pages is provided below.
 
-.. image:: images/|target|/ch_model/swashmix.*
 .. if:: devo8
+.. image:: images/|target|/ch_model/swashmix.*
    :width: 90%
 .. endif::
 .. if:: devo10
+.. image:: images/|target|/ch_model/swashmix.*
    :width: 80%
 .. endif::
 
