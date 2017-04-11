@@ -220,7 +220,7 @@ Telemetry monitor
 
 .. endif::
 
-.. if:: devo 10
+.. if:: devo10
 
    Until valid data is transmitted the values will all be inverted.
 
