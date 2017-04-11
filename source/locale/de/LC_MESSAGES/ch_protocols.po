@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 18:48+0000\n"
+"POT-Creation-Date: 2017-04-09 18:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -47,7 +47,7 @@ msgstr ""
 #: ../../source/ch_protocols.rst:564 ../../source/ch_protocols.rst:585
 #: ../../source/ch_protocols.rst:609 ../../source/ch_protocols.rst:639
 msgid "|mod-install-link|"
-msgstr ""
+msgstr "|mod-install-link|"
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: WK2401"
-msgstr ""
+msgstr "Protokoll: WK2401"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
@@ -192,7 +192,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:72
 msgid "Protocol: DSM2"
-msgstr ""
+msgstr "Protokoll: DSM2"
 
 #: ../../source/ch_protocols.rst:73
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:112
 msgid "Protocol: DSMX"
-msgstr ""
+msgstr "Protokoll: DSMX"
 
 #: ../../source/ch_protocols.rst:113
 msgid ""
@@ -294,7 +294,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:131
 msgid "Protocol: J6Pro"
-msgstr ""
+msgstr "Protokoll: J6Pro"
 
 #: ../../source/ch_protocols.rst:132
 msgid ""
@@ -309,7 +309,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:135
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "Protokoll: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:136
 msgid ""
@@ -397,7 +397,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:174
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "Protokoll: \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:175
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:190
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "Protokoll: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:191
 msgid ""
@@ -480,7 +480,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:213
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "Protokoll: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:214
 msgid ""
@@ -507,7 +507,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:231
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "Protokoll: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
@@ -524,7 +524,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:239
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "Protokoll: \\*Frsky"
 
 #: ../../source/ch_protocols.rst:240
 msgid ""
@@ -560,7 +560,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:255
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "Protokoll: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:256
 msgid ""
@@ -682,7 +682,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:302
 msgid "Protocol: \\*Skyartec"
-msgstr ""
+msgstr "Protokoll: \\*Skyartec"
 
 #: ../../source/ch_protocols.rst:303
 msgid ""
@@ -699,7 +699,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:310
 msgid "Protocol: \\*Futaba S-FHSS"
-msgstr ""
+msgstr "Protokoll: \\*Futaba S-FHSS"
 
 #: ../../source/ch_protocols.rst:311
 msgid ""
@@ -731,7 +731,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:322
 msgid "Protocol: \\*V202"
-msgstr ""
+msgstr "Protokoll: \\*V202"
 
 #: ../../source/ch_protocols.rst:323
 msgid ""
@@ -800,7 +800,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:351
 msgid "Protocol: \\*SLT"
-msgstr ""
+msgstr "Protokoll: \\*SLT"
 
 #: ../../source/ch_protocols.rst:352
 msgid ""
@@ -817,7 +817,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:361
 msgid "Protocol: \\*HiSky"
-msgstr ""
+msgstr "Protokoll: \\*HiSky"
 
 #: ../../source/ch_protocols.rst:362
 msgid ""
@@ -834,7 +834,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:373
 msgid "Protocol: \\*YD717"
-msgstr ""
+msgstr "Protokoll: \\*YD717"
 
 #: ../../source/ch_protocols.rst:374
 msgid ""
@@ -887,7 +887,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:393
 msgid "Protocol: \\*SymaX"
-msgstr ""
+msgstr "Protokoll: \\*SymaX"
 
 #: ../../source/ch_protocols.rst:394
 msgid ""
@@ -923,7 +923,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:413
 msgid "Protocol: \\*Hontai"
-msgstr ""
+msgstr "Protokoll: \\*Hontai"
 
 #: ../../source/ch_protocols.rst:414
 msgid "This protocol is used on Hontai models F801 and F803."
@@ -932,7 +932,7 @@ msgstr ""
 #: ../../source/ch_protocols.rst:416 ../../source/ch_protocols.rst:432
 #: ../../source/ch_protocols.rst:447
 msgid "|nrf24l01p-note| |mod-install-link|"
-msgstr ""
+msgstr "|nrf24l01p-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:418 ../../source/ch_protocols.rst:434
 #: ../../source/ch_protocols.rst:449
@@ -970,7 +970,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:429
 msgid "Protocol: \\*Bayang"
-msgstr ""
+msgstr "Protokoll: \\*Bayang"
 
 #: ../../source/ch_protocols.rst:430
 msgid ""
@@ -988,7 +988,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:444
 msgid "Protocol: \\*FY326"
-msgstr ""
+msgstr "Protokoll: \\*FY326"
 
 #: ../../source/ch_protocols.rst:445
 msgid "This protocol is used on FY326 red board."
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:460
 msgid "Protocol: \\*CFlie"
-msgstr ""
+msgstr "Protokoll: \\*CFlie"
 
 #: ../../source/ch_protocols.rst:461
 msgid ""
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:473
 msgid "Protocol: \\*H377"
-msgstr ""
+msgstr "Protokoll: \\*H377"
 
 #: ../../source/ch_protocols.rst:474
 msgid ""
@@ -1038,7 +1038,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:486
 msgid "Protocol: \\*HM830"
-msgstr ""
+msgstr "Protokoll: \\*HM830"
 
 #: ../../source/ch_protocols.rst:487
 msgid ""
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:497
 msgid "Protocol: \\*KN"
-msgstr ""
+msgstr "Protokoll: \\*KN"
 
 #: ../../source/ch_protocols.rst:498
 msgid ""
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:517
 msgid "Protocol: \\*ESky150"
-msgstr ""
+msgstr "Protokoll: \\*ESky150"
 
 #: ../../source/ch_protocols.rst:518
 msgid ""
@@ -1113,7 +1113,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:538
 msgid "Protocol: \\*Esky"
-msgstr ""
+msgstr "Protokoll: \\*Esky"
 
 #: ../../source/ch_protocols.rst:539
 msgid "Needs to be completed. |nrf24l01-note|"
@@ -1128,7 +1128,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:549
 msgid "Protocol: \\*BlueFly"
-msgstr ""
+msgstr "Protokoll: \\*BlueFly"
 
 #: ../../source/ch_protocols.rst:550
 msgid ""
@@ -1145,7 +1145,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:561
 msgid "Protocol: \\*CX10"
-msgstr ""
+msgstr "Protokoll: \\*CX10"
 
 #: ../../source/ch_protocols.rst:562
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:581
 msgid "Protocol: \\*CG023"
-msgstr ""
+msgstr "Protokoll: \\*CG023"
 
 #: ../../source/ch_protocols.rst:582
 msgid ""
@@ -1227,7 +1227,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:605
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "Protokoll: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:606
 msgid ""
@@ -1261,7 +1261,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:635
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "Protokoll: \\*MJXq"
 
 #: ../../source/ch_protocols.rst:636
 msgid ""
@@ -1291,7 +1291,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:663
 msgid "Protocol: \\*PPM"
-msgstr ""
+msgstr "Protokoll: \\*PPM"
 
 #: ../../source/ch_protocols.rst:664
 msgid ""
@@ -1338,7 +1338,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:689
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "Protokoll: USBHID"
 
 #: ../../source/ch_protocols.rst:690
 msgid ""

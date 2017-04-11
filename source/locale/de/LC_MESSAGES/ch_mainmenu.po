@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 18:48+0000\n"
+"POT-Creation-Date: 2017-04-09 18:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:6
 msgid "Main Menu"
-msgstr ""
+msgstr "Hauptmenü"
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -28,6 +29,10 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
+"Das Hauptmenü der Deviation Firmware kann durch kurzen Druck auf den ENT-"
+"Knopf unten rechts an Ihrem Sender geöffnet werden. Es enthält die folgenden"
+" vier Optionen: Modellmenü [Model menu], Sendermenü [Transmitter menu], USB "
+"und Über Deviation [About Deviation]."
 
 #: ../../source/ch_mainmenu.rst:14
 msgid ""
@@ -36,10 +41,14 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
+"All Einstellungen Ihres Devention Senders können über das Hauptmenü erreicht"
+" werden. Das schließt Modelloptionen, Sprachauswahl, Anzeigeoptionen, "
+"Buzzer, Vibration, Knüppelmodus, Kaliration, USB Konnektivität und "
+"Versionsinformationen ein."
 
 #: ../../source/ch_mainmenu.rst:17
 msgid "Model menu"
-msgstr ""
+msgstr "Modellmenü [Model menu]"
 
 #: ../../source/ch_mainmenu.rst:18
 msgid ""
@@ -48,10 +57,14 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Das Modellmenü ist der Bereich in Deviation, in dem Sie ihr RC Modell "
+"konfigurieren können. Alle Modelldaten werden innerhalb dieses Menüs "
+"eingestellt und gespeichert. Einzelheiten finden Sie in Abschnitt :ref"
+":`model-menu`."
 
 #: ../../source/ch_mainmenu.rst:21
 msgid "Transmitter menu"
-msgstr ""
+msgstr "Sendermenü [Transmitter menu]"
 
 #: ../../source/ch_mainmenu.rst:22
 msgid ""
@@ -60,10 +73,14 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"Das Sendermenü erlaubt Ihnen senderspezifische Einstellungen vorzunehmen und"
+" die Kanalanzeige, die Eingabeanzeige und die Telemetrieanzeige (falls "
+"verfügbar) zu öffnen. Details finden sich im Abschnitt :ref:`transmitter-"
+"menu`."
 
 #: ../../source/ch_mainmenu.rst:25
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
@@ -74,19 +91,30 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"Die USB-Seite kann über die Auswahl von 'USB' im Hauptmenü erreicht werden. "
+"Der USB-Modus kann ein- und ausgeschaltet werden und ermöglicht den Zugriff "
+"auf das Dateisystem des Senders über einen via USB angeschlossenen Computer."
+" Ist der USB-Modus aktiviert, erhalten Sie Zugriff auf das Deviation "
+"Dateisystem als USB-Massenspeicher. Dort können Sie Dateien zwischen "
+"Computer und Sender bewegen oder kopieren. Alle Konfigurationsdateien sind "
+"in diesem Modus verfügbar. "
 
 #: ../../source/ch_mainmenu.rst:35
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"HINWEIS: Der USB-Modus sollte nicht aktiviert werden, wenn ein Modell "
+"verbunden ist, da die Verwendung von USB die Signalübertragung unterbricht!"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid "About Deviation"
-msgstr ""
+msgstr "Über Deviation [About Deviation]"
 
 #: ../../source/ch_mainmenu.rst:44
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
+"Die Deviation Versionsnummer kann durch Auswahl von 'Über Deviation' aus dem"
+" Hauptmenü angezeigt werden."

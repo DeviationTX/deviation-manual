@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 18:48+0000\n"
+"POT-Creation-Date: 2017-04-09 18:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Sujets avancés"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "Mise en place d'un écolage"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +37,15 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviation peut être utilisé pour faire fonctionner un émetteur  soit en "
+"instructeur (maitre) ou en élève (esclave) dans une configuration d'écolage."
+" Dans ce mode l'instructeur et l'élève relient leur émetteur respectifs par "
+"un cable branché sur le port DSC. L'émetteur de l'instructeur communiquera "
+"effectivement avec le modèle, mais l'instructeur peut utiliser un "
+"interrupteur pour donner à l'élève le contrôle du modèle. Quand "
+"l'interrupteur est activé, l'émetteur de l'élève envoie les information "
+"d'entrée (manches) par le câble à l'émetteur de l'instructeur et ces entrées"
+" remplacent celles de l'instructeur."
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -47,10 +57,17 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviation peut être configuré pour fonctionner avec virtuellement tous les "
+"émetteurs qui supportent soit le mode maitre soit le mode élève. Adapter "
+"Deviation à une radio de marque différente requiert de connaitre les "
+"paramètres PPM de l'émetteur appairé et de configurer correctement le "
+"\"Centre PW\" et le \"Delta PW\" et également de savoir combien de canaux "
+"sont transmis et leur ordre. Le meilleur endroit pour trouver ces "
+"renseignements est le forum de www.deviationtx.com"
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "Mode Maitre "
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -59,6 +76,8 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"Le mode maitre est configuré en sélectionnant soit 'Canal' soit  \n"
+"'Stick' dans la boite d'entrée 'PPM in' dans la page 'Config Modèle'. En pressant sur 'Canal' ou 'Stick' on affichera les pages 'Trainer Cfg' correspondantes. Les 2 modes se comportent de manière légèrement différentes"
 
 #: ../../source/ch_advanced.rst:23
 msgid ""
@@ -68,6 +87,12 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Stick**: en mode Stick, chaque canal d'entrée est appliqué à un manche de "
+"l'émetteur maitre. Dans ce mode, le mouvement du manche de l'élève aura le "
+"même effet que si l'instructeur avait actionné le sien. En général quand on "
+"utilise ce mode l'émetteur de l'élève transmettra directement la position du"
+" manche (sans mixage) et l'émetteur de l'instructeur fera tous les mixages "
+"nécessaires."
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
@@ -78,10 +103,18 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
+"**Canaux**: En mode Canaux, chaque canal d'entrée est appliqué à un canal de"
+" sortie sur l'émetteur de l'instructeur. Dans ce mode l'émetteur de l'élève "
+"devrait faire tous les mixages nécessaires au contrôle du modèle. Il faudra "
+"prendre soin de s'assurer que les émetteurs de l'instructeur et de l'élève "
+"sont configurés identiquement, autrement le modèle pourrait ne pas réagir "
+"correctement en passant le contrôle entre l'instructeur et l'élève."
 
 #: ../../source/ch_advanced.rst:32
 msgid "Options configurable on both Trainer Cfg pages:"
 msgstr ""
+"Options configurables sur les deux pages de configuration de double commande"
+" 'Trainer Cfg'"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -89,6 +122,10 @@ msgid ""
 "transmitter transmits to represent centered servo position.  If this number "
 "doesn’t match the students transmitter, the servos will not be centered"
 msgstr ""
+"**Imp Neutre**: définit la durée (en µsec) de l'impulsion que l'émetteur de "
+"l'élève transmet pour représenter la position du centre du servo. Si ce "
+"nombre ne correspond pas à l'émetteur de l'élève, les servos ne seront pas "
+"centrés."
 
 #: ../../source/ch_advanced.rst:36
 msgid ""
@@ -96,22 +133,30 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
+"**Delta Imp**: définit la largeur de l'impulsion (mesurée à partir du "
+"centre) émise par l'émetteur de l'élève pour définir le débattement maximum "
+"du servo. Si cette valeur est incorrecte, les servos ne pourront aller au "
+"débattement maximum (ou dépasseront ce débattement)"
 
 #: ../../source/ch_advanced.rst:38
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
 msgstr ""
+"**Trainer Sw**:Définit l'interrupteur qui permet à l'élève de prendre le "
+"contrôle du modèle."
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
 msgstr ""
+"**PPM1...PPM8**: Définit la correspondance (soit canal soit entrée) entre "
+"l'émetteur de l'élève et celui de l'instructeur."
 
 #: ../../source/ch_advanced.rst:43
 msgid "Slave Mode"
-msgstr ""
+msgstr "Mode esclave"
 
 #: ../../source/ch_advanced.rst:44
 msgid ""
@@ -123,10 +168,17 @@ msgid ""
 "‘Stick’ mode (see above), there should be no mixing done in the slave "
 "transmitter."
 msgstr ""
+"Le mode esclave est configuré en choisissant 'PPM' comme protocole dans la "
+"section ref:`Config Modèle`. En pressant 'ENT' dans la boite de texte, on "
+"accède aux options de sortie.Voir la section :ref:`protocole ppm` pour "
+"effectuer la configuration. Notez que déviation émettra les données des "
+"canaux de sortie par le port PPM. Pour utiliser un émetteur élève en "
+"Deviation avec un Maitre en Deviation configuré dans le mode 'Stick' (voir "
+"ci-dessus), il ne devrait y avoir aucun mixage dans l'émetteur esclave."
 
 #: ../../source/ch_advanced.rst:49
 msgid "Setting Up FPV or Other External Inputs"
-msgstr ""
+msgstr "Installation d'un FPV ou d'autres entrées externes"
 
 #: ../../source/ch_advanced.rst:56
 msgid ""
@@ -134,16 +186,21 @@ msgid ""
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
 msgstr ""
+"Déviation peut utiliser les signaux d'entrée PPM d'une source externe (comme"
+" un système FPV). Pour configurer ce mode, mettre le PPM en mode 'Extend' "
+"dans la section  :ref:`Config Modèle`."
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
 msgstr ""
+"Une fois 'Extend' sélectionné, presser 'ENT' dans la boite de texte pour "
+"accéder à la configuration des entrées additionnelles"
 
 #: ../../source/ch_advanced.rst:60
 msgid "Configuration options:"
-msgstr ""
+msgstr "Options de Configuration:"
 
 #: ../../source/ch_advanced.rst:62
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
