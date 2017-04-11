@@ -18,7 +18,9 @@ where XX is the number of your Devention transmitter. x.y.z identifies the devia
 .. image:: images/devo8/ch_emulator/emu_devo6_8.*
    :width: 80%
 
-.. elseif:: devo10
+.. endif::
+
+.. if:: devo10
 
 .. image:: images/devo10/ch_emulator/emu_devo10.*
    :width: 80%
@@ -34,7 +36,8 @@ The emulator controls are as follows (based an an English QWERTY keyboard):
 -------------- --------------------------------------------- ---------------------------------
 .. if:: devo8
   \                                                              12         8          6      
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
   \                                                              12e        10         7e     
 .. endif::
 ============== ============================================= ========== ========== ===========
@@ -63,7 +66,8 @@ The emulator controls are as follows (based an an English QWERTY keyboard):
   n             FMode 0/1/2 switch                               X          X          X      
   m             Hold switch                                      X                            
   ,             Train switch                                     X                            
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
   t/g           AUX4                                             X          X
   T/G           Top-Left trim                                    X          X                 
   y/h           AUX5                                             X          X                  
