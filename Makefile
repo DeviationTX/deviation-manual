@@ -28,7 +28,7 @@ PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees -t $(TARGET) $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 # the i18n builder cannot share the environment and doctrees with the others
-I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS)  source
+I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -t devo8 -t devo10 source
 
 .PHONY: help clean html latex latexpdf pdf latexpdf-release html-release
 
@@ -99,7 +99,7 @@ latexpdf-%: $(SPHINXBUILD) $(PDFs)
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)-$*."
 
 latexpdf: $(SPHINXBUILD) $(PDFs)
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)*
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex-$(TARGET)
 	@echo "Running LaTex files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex-$(TARGET) all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex-$(TARGET)."
