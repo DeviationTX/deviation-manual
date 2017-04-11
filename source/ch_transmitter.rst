@@ -192,17 +192,6 @@ Button Monitor
 Telemetry monitor
 -----------------
 
-.. if:: devo10
-
-.. |bad_color| replace:: inverted
-
-.. endif::
-.. if:: devo8
-
-.. |bad_color| replace:: red
-
-.. endif::
-
 .. macro:: floatimg images/|target|/ch_transmitter/telemetry_monitor.png
 
 .. container::
@@ -224,7 +213,17 @@ Telemetry monitor
 
    Since each protocol differs in the type of data it can return please see the original equipment manufacturers documentation concerning what additional hardware may be needed to collect this data. 
 
-   Until valid data is transmitted the values will all be |bad_color|
+.. if:: devo8
+
+   Until valid data is transmitted the values will all be red.
+
+.. endif::
+
+.. if:: devo 10
+
+   Until valid data is transmitted the values will all be inverted.
+
+.. endif::
 
 .. if:: devo10
 
