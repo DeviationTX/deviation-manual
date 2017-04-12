@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 18:49+0000\n"
+"POT-Creation-Date: 2017-04-11 21:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -48,326 +48,365 @@ msgid ""
 "the emulator just run the exe file in the sub-directory."
 msgstr ""
 
-#: ../../source/ch_emulator.rst:21
+#: ../../source/ch_emulator.rst:26
 msgid ""
 "The emulator controls are as follows (based an an English QWERTY keyboard):"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:26
+#: ../../source/ch_emulator.rst:31
 msgid "Keyboard"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:26
+#: ../../source/ch_emulator.rst:31
 msgid "Function"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:26
+#: ../../source/ch_emulator.rst:31
 msgid "Transmitter"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:28
+#: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:34
 msgid "\\"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:28
+#: ../../source/ch_emulator.rst:33
 msgid "12"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:28
+#: ../../source/ch_emulator.rst:33
 msgid "8"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:28
+#: ../../source/ch_emulator.rst:33
 msgid "6"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:30
+#: ../../source/ch_emulator.rst:34
+msgid "12e"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:34
+msgid "10"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:34
+msgid "7e"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:36
 msgid "q/a"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:30
+#: ../../source/ch_emulator.rst:36
 msgid "Left-Vertical stick (Throttle in mode 2)"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:30
-#: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:31
-#: ../../source/ch_emulator.rst:31 ../../source/ch_emulator.rst:31
-#: ../../source/ch_emulator.rst:32 ../../source/ch_emulator.rst:32
-#: ../../source/ch_emulator.rst:32 ../../source/ch_emulator.rst:33
-#: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:33
-#: ../../source/ch_emulator.rst:34 ../../source/ch_emulator.rst:34
-#: ../../source/ch_emulator.rst:34 ../../source/ch_emulator.rst:35
-#: ../../source/ch_emulator.rst:35 ../../source/ch_emulator.rst:35
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:36
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:37
 #: ../../source/ch_emulator.rst:37 ../../source/ch_emulator.rst:37
+#: ../../source/ch_emulator.rst:38 ../../source/ch_emulator.rst:38
 #: ../../source/ch_emulator.rst:38 ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:39 ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:40 ../../source/ch_emulator.rst:40
 #: ../../source/ch_emulator.rst:40 ../../source/ch_emulator.rst:41
-#: ../../source/ch_emulator.rst:41 ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:41 ../../source/ch_emulator.rst:41
+#: ../../source/ch_emulator.rst:42 ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:42 ../../source/ch_emulator.rst:43
 #: ../../source/ch_emulator.rst:43 ../../source/ch_emulator.rst:43
 #: ../../source/ch_emulator.rst:44 ../../source/ch_emulator.rst:45
-#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:46
 #: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:47
 #: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:48
-#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:49
-#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:50
-#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:50
-#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:51
-#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:52
+#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:49
+#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:51
+#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:52
+#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:53
 #: ../../source/ch_emulator.rst:53 ../../source/ch_emulator.rst:54
-#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:54
-#: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:55
 #: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:56
 #: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:56
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:57
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:58
-#: ../../source/ch_emulator.rst:58 ../../source/ch_emulator.rst:58
-#: ../../source/ch_emulator.rst:59 ../../source/ch_emulator.rst:59
 #: ../../source/ch_emulator.rst:59 ../../source/ch_emulator.rst:60
-#: ../../source/ch_emulator.rst:60 ../../source/ch_emulator.rst:60
+#: ../../source/ch_emulator.rst:60 ../../source/ch_emulator.rst:61
+#: ../../source/ch_emulator.rst:61 ../../source/ch_emulator.rst:62
+#: ../../source/ch_emulator.rst:62 ../../source/ch_emulator.rst:63
+#: ../../source/ch_emulator.rst:63 ../../source/ch_emulator.rst:64
+#: ../../source/ch_emulator.rst:65 ../../source/ch_emulator.rst:66
+#: ../../source/ch_emulator.rst:66 ../../source/ch_emulator.rst:67
+#: ../../source/ch_emulator.rst:67 ../../source/ch_emulator.rst:68
+#: ../../source/ch_emulator.rst:68 ../../source/ch_emulator.rst:69
+#: ../../source/ch_emulator.rst:69 ../../source/ch_emulator.rst:70
+#: ../../source/ch_emulator.rst:70 ../../source/ch_emulator.rst:71
+#: ../../source/ch_emulator.rst:71 ../../source/ch_emulator.rst:72
+#: ../../source/ch_emulator.rst:72 ../../source/ch_emulator.rst:72
+#: ../../source/ch_emulator.rst:73 ../../source/ch_emulator.rst:73
+#: ../../source/ch_emulator.rst:73 ../../source/ch_emulator.rst:74
+#: ../../source/ch_emulator.rst:74 ../../source/ch_emulator.rst:74
+#: ../../source/ch_emulator.rst:75 ../../source/ch_emulator.rst:75
+#: ../../source/ch_emulator.rst:75 ../../source/ch_emulator.rst:76
+#: ../../source/ch_emulator.rst:76 ../../source/ch_emulator.rst:76
+#: ../../source/ch_emulator.rst:77 ../../source/ch_emulator.rst:77
+#: ../../source/ch_emulator.rst:77 ../../source/ch_emulator.rst:78
+#: ../../source/ch_emulator.rst:78 ../../source/ch_emulator.rst:78
 msgid "X"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:37
 msgid "Q/A"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:37
 msgid "Left-Vertical trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:32
+#: ../../source/ch_emulator.rst:38
 msgid "w/s"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:32
+#: ../../source/ch_emulator.rst:38
 msgid "Left-Horizontal stick (Rudder in mode 2)"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:39
 msgid "W/S"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:39
 msgid "Left-Horizontal trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:34
+#: ../../source/ch_emulator.rst:40
 msgid "e/d"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:34
+#: ../../source/ch_emulator.rst:40
 msgid "Right-Vertical stick (Elevator in mode 2)"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:35
+#: ../../source/ch_emulator.rst:41
 msgid "E/D"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:35
+#: ../../source/ch_emulator.rst:41
 msgid "Right-Vertical trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:36
+#: ../../source/ch_emulator.rst:42
 msgid "r/f"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:36
+#: ../../source/ch_emulator.rst:42
 msgid "Right-Horizontal stick (Aileron in mode 2)"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:37
+#: ../../source/ch_emulator.rst:43
 msgid "R/F"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:37
+#: ../../source/ch_emulator.rst:43
 msgid "Right-Horizontal trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:38
+#: ../../source/ch_emulator.rst:44
 msgid "o/l"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:38
+#: ../../source/ch_emulator.rst:44
 msgid "AUX2"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:45
 msgid "p/;"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:45
 msgid "AUX3"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:40
+#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
 msgid "t/g"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:40
+#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
 msgid "AUX4"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:41
+#: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
 msgid "T/G"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:41
+#: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
 msgid "Top-Left trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
 msgid "y/h"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
 msgid "AUX5"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:43
+#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
 msgid "Y/H"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:43
+#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
 msgid "Top-Right trim"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:44
+#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
 msgid "u/j"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:44
+#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
 msgid "AUX6"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:45
+#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
 msgid "i/k"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:45
+#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
 msgid "AUX7"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:46
+#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
 msgid "z"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:46
+#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
 msgid "Gear"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:47
+#: ../../source/ch_emulator.rst:53 ../../source/ch_emulator.rst:67
 msgid "x"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:47
+#: ../../source/ch_emulator.rst:53
 msgid "Rudder Dual-Rate switch/SW B"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:48
+#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
 msgid "c"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:48
+#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
 msgid "Elevator Dual-Rate switch/SW A"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:49
+#: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:69
 msgid "v"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:49
+#: ../../source/ch_emulator.rst:55
 msgid "Aileron Dual-Rate switch/"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:49
+#: ../../source/ch_emulator.rst:55
 msgid "DR"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:50
+#: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
 msgid "b"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:50
+#: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
 msgid "Mix 0/1/2 switch"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:51
+#: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
 msgid "n"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:51
+#: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
 msgid "FMode 0/1/2 switch"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:52
+#: ../../source/ch_emulator.rst:58
 msgid "m"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:52
+#: ../../source/ch_emulator.rst:58
 msgid "Hold switch"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:53
+#: ../../source/ch_emulator.rst:59
 msgid ","
 msgstr ""
 
-#: ../../source/ch_emulator.rst:53
+#: ../../source/ch_emulator.rst:59
 msgid "Train switch"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:54
+#: ../../source/ch_emulator.rst:66
+msgid "FMODE"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:67
+msgid "Rudder Dual-Rate switch"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:67
+msgid "HOLD"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:69
+msgid "Aileron Dual-Rate switch/SW B"
+msgstr ""
+
+#: ../../source/ch_emulator.rst:72
 msgid "\\\\"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:54
+#: ../../source/ch_emulator.rst:72
 msgid "Power off"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:73
 msgid "Left-arrow"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:73
 msgid "Left"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:56
+#: ../../source/ch_emulator.rst:74
 msgid "Right-arrow"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:56
+#: ../../source/ch_emulator.rst:74
 msgid "Right"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:57
+#: ../../source/ch_emulator.rst:75
 msgid "Up-arrow"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:57
+#: ../../source/ch_emulator.rst:75
 msgid "Up"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:76
 msgid "Down-arrow"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:76
 msgid "Down"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:59
+#: ../../source/ch_emulator.rst:77
 msgid "Enter"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:59
+#: ../../source/ch_emulator.rst:77
 msgid "Ent"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:60
+#: ../../source/ch_emulator.rst:78
 msgid "Escape"
 msgstr ""
 
-#: ../../source/ch_emulator.rst:60
+#: ../../source/ch_emulator.rst:78
 msgid "Exit"
 msgstr ""
