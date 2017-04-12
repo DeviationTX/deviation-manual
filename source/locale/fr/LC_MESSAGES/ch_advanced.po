@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 18:49+0000\n"
+"POT-Creation-Date: 2017-04-11 21:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -205,22 +205,28 @@ msgstr "Options de Configuration:"
 #: ../../source/ch_advanced.rst:62
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
 msgstr ""
+"**Imp Neutre**:Définit la largeur d'impulsion pour une entrée centrée (en "
+"µsec)."
 
 #: ../../source/ch_advanced.rst:63
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
 msgstr ""
+"**Delta Imp**: Définit la différence en largeur d'impulsion (à partir de la "
+"valeur centrale) pour atteindre le débattement min/max du servo. "
 
 #: ../../source/ch_advanced.rst:64
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
 msgstr ""
+"**Num Channels**: Définit le nombre de canaux entrants (en général pas plus "
+"de 8 peuvent être supportés)."
 
 #: ../../source/ch_advanced.rst:69
 msgid "Using a Trim as a Virtual Switch"
-msgstr ""
+msgstr "Utilisation d'un trim comme interrupteur virtuel."
 
 #: ../../source/ch_advanced.rst:70
 msgid ""
@@ -228,30 +234,43 @@ msgid ""
 "mechanical switches of the transmitter.  This capability is only available "
 "when using the Advanced GUI.  There are 3 types of switches available:"
 msgstr ""
+"Déviation peut créer des interrupteurs virtuels en complément des "
+"interrupteurs mécaniques de l'émetteur. Cette possibilité est uniquement "
+"disponible quand le mode  expert est utilisé. Il y a 3 types d'interrupteurs"
+" disponibles :"
 
 #: ../../source/ch_advanced.rst:72
 msgid ""
 "**Momentary**: The switch will be active only as long as the trim button is "
 "held"
 msgstr ""
+"**Momentary**: (Momentané)L'interrupteur sera actif tant que le bouton de "
+"trim sera maintenu."
 
 #: ../../source/ch_advanced.rst:73
 msgid ""
 "**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
 " trim button is pressed"
 msgstr ""
+"**Toggle**: (Basculant) l'interrupteur basculera de ouvert à fermé ou de "
+"fermé à ouvert à chaque pression sur le bouton de trim."
 
 #: ../../source/ch_advanced.rst:74
 msgid ""
 "**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
 " will turn it off-to-on"
 msgstr ""
+"**On/Off**: Le bouton Trim+ ouvrira l'interrupteur et le bouton Trim- le "
+"fermera."
 
 #: ../../source/ch_advanced.rst:76
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
+"Pour mettre en place un interrupteur virtuel, commencer par sélectionner le "
+"trim en entrant dans la page Trims. Voir :ref:`trims-et-entrées-"
+"virtuelles'.`"
 
 #: ../../source/ch_advanced.rst:83
 msgid ""
@@ -260,12 +279,19 @@ msgid ""
 "value is less-than 0.1 Second select the 'Input' to be the virtual channel "
 "to convert to a switch (we'll use 'Virt1')"
 msgstr ""
+"Puis mettre le champ 'Finesse' sur  'Momentary', 'Toggle' ou 'On/Off'. Ceci "
+"est réalisé en pressant la flèche gauche de la boite de choix 'Finesse' "
+"jusqu'à ce que la valeur affichée soit inférieure à 0.1 seconde. "
+"Sélectionner  en 'Entrée' le canal virtuel à convertir en interrupteur (nous"
+" utiliserons 'Virt1')"
 
 #: ../../source/ch_advanced.rst:93
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
 msgstr ""
+"Puis aller dans la page 'Mixer' et entrer la configuration pour le canal "
+"virtuel choisi (Virt1 dans notre exemple)."
 
 #: ../../source/ch_advanced.rst:95
 msgid ""
@@ -273,6 +299,9 @@ msgid ""
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
 "scale to '0', and finally enable the 'Trim' button."
 msgstr ""
+"Sélectionner un type de mixer 'Complexe', entrer comme 'Source' le canal "
+"virtuel  ('Virt1'), choisir la courbe '1-à-1' (NE PAS choisir 'Fixe'), fixer"
+" l'échelle à '0' et enfin sélectioner 'Trim'."
 
 #: ../../source/ch_advanced.rst:97
 msgid ""
@@ -280,10 +309,13 @@ msgid ""
 "When the virtual switch is active, the virtual channel will have a value of "
 "100, otherwise it will have a value of -100."
 msgstr ""
+"Vous pouvez maintenant utiliser le canal virtuel  ('Virt1') comme n'importe "
+"quel autre entrée d'interrupteur. Quand l'interrupteur virtuel est actif, le"
+" canal virtuel aura une valeur de 100, autrement il aura une valeur de -100."
 
 #: ../../source/ch_advanced.rst:99 ../../source/ch_advanced.rst:147
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../source/ch_advanced.rst:103
 msgid ""
@@ -291,10 +323,13 @@ msgid ""
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
 " applied twice."
 msgstr ""
+"Note: Si vous utilisez le canal virtuel comme une 'Source' (contrairement à "
+"un 'interrupteur\"), assurez vous que 'Trim' est désactivez pour ce mixer, "
+"autrement le trim sera appliqué deux fois."
 
 #: ../../source/ch_advanced.rst:108
 msgid "Swash Mixing"
-msgstr ""
+msgstr "Mixage du plateau cyclique"
 
 #: ../../source/ch_advanced.rst:109
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-11 21:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: ../../source/ch_navigating.rst:4
+#: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:44
 msgid "Navigating"
 msgstr ""
 
@@ -80,43 +80,47 @@ msgid ""
 "action (like a button)"
 msgstr ""
 
-#: ../../source/ch_navigating.rst:39
+#: ../../source/ch_navigating.rst:35
+msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
+msgstr ""
+
+#: ../../source/ch_navigating.rst:42
 msgid "Navigating with the physical buttons"
 msgstr ""
 
-#: ../../source/ch_navigating.rst:40
+#: ../../source/ch_navigating.rst:45
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
 
-#: ../../source/ch_navigating.rst:41
+#: ../../source/ch_navigating.rst:46
 msgid ""
 "The ‘R+’ and ‘L-’ buttons are used on spin-box widgets to increase or "
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
 
-#: ../../source/ch_navigating.rst:42
+#: ../../source/ch_navigating.rst:47
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
 
-#: ../../source/ch_navigating.rst:43
+#: ../../source/ch_navigating.rst:48
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
 
-#: ../../source/ch_navigating.rst:48
+#: ../../source/ch_navigating.rst:53
 msgid "Menu Layout"
 msgstr ""
 
-#: ../../source/ch_navigating.rst:49
+#: ../../source/ch_navigating.rst:54
 msgid "There are 2 different unconnected menus available:"
 msgstr ""
 
-#: ../../source/ch_navigating.rst:51
+#: ../../source/ch_navigating.rst:56
 msgid ""
 "The transmitter menu allows you to select transmitter-specific options as "
 "well as monitor channel output & stick input, and monitor telemetry (if "
@@ -124,7 +128,7 @@ msgid ""
 "menu`."
 msgstr ""
 
-#: ../../source/ch_navigating.rst:52
+#: ../../source/ch_navigating.rst:57
 msgid ""
 "The model menu is the area within deviation that you can configure the type "
 "of aircraft you are flying. All model data is managed and saved within this "
