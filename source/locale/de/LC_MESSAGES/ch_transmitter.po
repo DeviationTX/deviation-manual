@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-11 22:59+0200\n"
+"POT-Creation-Date: 2017-04-12 20:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -36,36 +36,24 @@ msgstr ""
 "erreicht sie vom Hauptmenü über das Senderoptionen-Symbol. Beachten Sie, "
 "dass alle Masken in diesem Abschnitt die Voreinstellungen zeigen."
 
-#: ../../source/ch_transmitter.rst:33
-msgid ""
-"The configuration page defines various transmitter functions.  It is entered"
-" from the main menu via ‘Transmitter menu’ followed by ‘Transmitter config’."
-" Please note that all screens in this section show the Deviation default "
-"settings."
-msgstr ""
-"Die Konfigurationsseite definiert verschiedene Senderfunktionen. Man "
-"erreicht sie vom Hauptmenü über das 'Sendermenü' [Transmitter config] "
-"gefolgt von 'Sender-Einstellungen' [Transmitter config]. Beachten Sie, dass "
-"alle Masken in diesem Abschnitt die Voreinstellungen zeigen."
-
-#: ../../source/ch_transmitter.rst:37
+#: ../../source/ch_transmitter.rst:29
 msgid "Generic settings"
 msgstr "Allgemeine Einstellungen [Generic settings]"
 
-#: ../../source/ch_transmitter.rst:48
+#: ../../source/ch_transmitter.rst:34
 msgid "**Language**: Select an appropriate language for all text."
 msgstr ""
 "**Sprache [Language]**: Wählen Sie die passende Sprache für alle Texte. "
 
-#: ../../source/ch_transmitter.rst:52
+#: ../../source/ch_transmitter.rst:38
 msgid "NOTE: This feature is not available for Devo7e."
 msgstr "HINWEIS: Diese Funktion ist nicht auf der Devo7e verfügbar."
 
-#: ../../source/ch_transmitter.rst:54
+#: ../../source/ch_transmitter.rst:40
 msgid "**Stick mode**: Select one of Mode 1-4."
 msgstr "**Knüppelmodus**: Wählen Sie einen der Modi 1-4."
 
-#: ../../source/ch_transmitter.rst:56
+#: ../../source/ch_transmitter.rst:42
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
@@ -73,7 +61,7 @@ msgstr ""
 "Mode 1 ist in Europa verbreitet. Höhenruder und Seitenruder sind links, Gas "
 "und Querruder sind rechts."
 
-#: ../../source/ch_transmitter.rst:57
+#: ../../source/ch_transmitter.rst:43
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
@@ -81,23 +69,23 @@ msgstr ""
 "Mode 2 ist in Nordamerika verbreitet. Gas und Seitenruder sind links, "
 "Höhenruder und Querruder rechts."
 
-#: ../../source/ch_transmitter.rst:58
+#: ../../source/ch_transmitter.rst:44
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
 msgstr ""
 "Mode 3 hat Höhenruder und Querruder links, Gas und Seitenruder rechts."
 
-#: ../../source/ch_transmitter.rst:59
+#: ../../source/ch_transmitter.rst:45
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
 msgstr ""
 "Mode 4 hat Gas und Querruder links, Höhenruder und Seitenruder rechts."
 
-#: ../../source/ch_transmitter.rst:61
+#: ../../source/ch_transmitter.rst:47
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
 msgstr ""
 "**Knüppel [Sticks]**: Kalibrieren Sie den Bewegungsumfang aller analogen "
 "Knüppel und Stellknöpfe."
 
-#: ../../source/ch_transmitter.rst:63
+#: ../../source/ch_transmitter.rst:49
 msgid ""
 "To perform a stick calibration, highlight the Calibrate option and press the"
 " ENT button. Follow the on screen prompts for moving the sticks and "
@@ -108,17 +96,17 @@ msgstr ""
 "auf dem Bildschirm um die Knüppel zu bewegen und bestätigen Sie mit der ENT "
 "Taste."
 
-#: ../../source/ch_transmitter.rst:65
+#: ../../source/ch_transmitter.rst:51
 msgid "**Clock (Devo12 only)**: Set the current time and date"
 msgstr ""
 "**Echtzeituhr (nur Devo12) [Real time clock]**: Setzen der aktuellen Uhrzeit"
 " und des Datums."
 
-#: ../../source/ch_transmitter.rst:72
+#: ../../source/ch_transmitter.rst:58
 msgid "Buzzer settings"
 msgstr "Summer-Einstellungen [Buzzer settings]"
 
-#: ../../source/ch_transmitter.rst:74
+#: ../../source/ch_transmitter.rst:60
 msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
@@ -127,7 +115,7 @@ msgstr ""
 "Benachrichtigungsintervalls wenn der Sender ohne Bedienung ist. Der Bereich "
 "ist minütlich einstellbar von 0 – 60 Minuten."
 
-#: ../../source/ch_transmitter.rst:76
+#: ../../source/ch_transmitter.rst:62
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
@@ -135,7 +123,7 @@ msgstr ""
 "**Akkuwarner [Battery alarm]**: Einstellen der Batteriespannung ab der ein "
 "Alarm ertönt. Der Spannungsbereich ist 3,30 – 12,00 V in 0,01 V Schritten."
 
-#: ../../source/ch_transmitter.rst:78
+#: ../../source/ch_transmitter.rst:64
 msgid ""
 "**Alarm interval**: Set frequency of alarm when battery is low. Alarm "
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
@@ -146,7 +134,7 @@ msgstr ""
 "Minute in 5 Sekunden-Abständen eingestellt werden. Es kann auch auf 'Aus "
 "[Off]' gesetzt werden."
 
-#: ../../source/ch_transmitter.rst:80
+#: ../../source/ch_transmitter.rst:66
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
@@ -155,36 +143,27 @@ msgstr ""
 "verfügbare Bereich ist 1 – 10; der Summer kann auch auf 'Aus [Off]' gesetzt "
 "werden."
 
-#: ../../source/ch_transmitter.rst:82
+#: ../../source/ch_transmitter.rst:68
 msgid "**Vibration**: Enable vibration on alarms, if available."
 msgstr "**Vibration**: Aktiviert Vibration für Alarme (falls verfügbar)."
 
-#: ../../source/ch_transmitter.rst:84
+#: ../../source/ch_transmitter.rst:70
 msgid "**Power-down alert**: Play sound at power-down."
 msgstr ""
 "**Abschaltalarm [Power-down alert]**: Spielt einen Ton beim Ausschalten."
 
-#: ../../source/ch_transmitter.rst:87
+#: ../../source/ch_transmitter.rst:73
 msgid "LCD settings"
 msgstr "LCD Einstellungen [LCD settings]"
 
-#: ../../source/ch_transmitter.rst:89
+#: ../../source/ch_transmitter.rst:75
 msgid ""
-"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
-"It may also be turned off."
+"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
 msgstr ""
 "**Helligkeit [Backlight]**: Einstellen der Bildschirmhelligkeit. Akzeptierte"
-" Werte sind von 1 bis 10. Sie kann auch ausgeschaltet werden."
+" Werte sind von 1 bis 10."
 
-#: ../../source/ch_transmitter.rst:92
-msgid ""
-"**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
-"may also be turned off."
-msgstr ""
-"**Kontrast [Contrast]**: Einstellen des Bildschirmkontrasts. Akzeptierte "
-"Werte sind von 1 bis 10. Er kann auch ausgeschaltet werden."
-
-#: ../../source/ch_transmitter.rst:95
+#: ../../source/ch_transmitter.rst:77
 msgid ""
 "**Dimmer time**: Set delay before screen dimming. Times may be set from 5 "
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
@@ -195,7 +174,7 @@ msgstr ""
 "werden. Die Einstellung auf 'Aus [Off]' zwingt die Hintergrundbeleuchtung "
 "solange anzubleiben wie der Sender angeschaltet ist."
 
-#: ../../source/ch_transmitter.rst:97
+#: ../../source/ch_transmitter.rst:79
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
@@ -204,11 +183,11 @@ msgstr ""
 "Bildschirmhelligkeit. Akzeptierte Werte sind von 1 bis 10 und die Helligkeit"
 " kann auch ausgeschaltet werden."
 
-#: ../../source/ch_transmitter.rst:100
+#: ../../source/ch_transmitter.rst:82
 msgid "Timer settings"
 msgstr "Zeitgeber-Einstellung [Timer settings]"
 
-#: ../../source/ch_transmitter.rst:102
+#: ../../source/ch_transmitter.rst:84
 msgid ""
 "**Prealert time**: Time before timer reaches zero to start beeping. "
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
@@ -219,7 +198,7 @@ msgstr ""
 " zu 1 Minute in Intervallen von 5 Sekunden. Die Warnungszeit kann auch "
 "abgeschaltet werden."
 
-#: ../../source/ch_transmitter.rst:104
+#: ../../source/ch_transmitter.rst:86
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
@@ -228,7 +207,7 @@ msgstr ""
 "Zeitgeber 0 erreicht. Das Intervall kann von 1 – 60 Sekunden eingestellt "
 "werden und auch ausgeschaltet werden."
 
-#: ../../source/ch_transmitter.rst:106
+#: ../../source/ch_transmitter.rst:88
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
@@ -237,11 +216,11 @@ msgstr ""
 "Zeitgeber abgelaufen ist. Das Intervall kann von 1 – 60 Sekunden eingestellt"
 " werden und auch ausgeschaltet werden."
 
-#: ../../source/ch_transmitter.rst:109
+#: ../../source/ch_transmitter.rst:91
 msgid "Telemetry settings"
 msgstr "Telemetrieeinstellung [Telemetry settings]"
 
-#: ../../source/ch_transmitter.rst:111
+#: ../../source/ch_transmitter.rst:93
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
@@ -250,7 +229,7 @@ msgstr ""
 "bei Telemetrie angezeigt werden. Verfügbare Optionen sind Celsius und "
 "Fahrenheit."
 
-#: ../../source/ch_transmitter.rst:113
+#: ../../source/ch_transmitter.rst:95
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
@@ -258,11 +237,11 @@ msgstr ""
 "**Länge [Length]**: Einstellen der Einheit, in der Längen bei Telemetrie "
 "angezeigt werden. Auswahlmöglichkeiten sind Meter und Fuß."
 
-#: ../../source/ch_transmitter.rst:116
+#: ../../source/ch_transmitter.rst:98
 msgid "Channel monitor"
 msgstr "Kanal-Anzeige [Channel monitor]"
 
-#: ../../source/ch_transmitter.rst:125
+#: ../../source/ch_transmitter.rst:107
 msgid ""
 "The channel monitor screen allows the user to see the values of each channel"
 " as output by the transmitter. Channels without mixers will not be "
@@ -273,7 +252,7 @@ msgstr ""
 "Kanals als Senderausgabe zu sehen. Die Kanal-Ausgabe zeigt den Wert "
 "basierend auf Minimum- und Maximumwerten sowie der Skalierung."
 
-#: ../../source/ch_transmitter.rst:130
+#: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
@@ -281,11 +260,11 @@ msgstr ""
 "**Beispiel**: Ein auf -60 bis +60 skalierter Kanal wird nur Werte in einem "
 "Bereich zwischen -60 und +60 abhängig von der Knüppelposition anzeigen."
 
-#: ../../source/ch_transmitter.rst:134
+#: ../../source/ch_transmitter.rst:116
 msgid "Input Monitor"
 msgstr "Eingaben-Anzeige [Input Monitor]"
 
-#: ../../source/ch_transmitter.rst:152
+#: ../../source/ch_transmitter.rst:128
 msgid ""
 "The input monitor screen shows the values associated with the current "
 "position of the control points. The values shown are a percentage of the "
@@ -296,15 +275,7 @@ msgstr ""
 "gesamten Bereichs der Bedienelemente basierend auf einer -100% zu +100% "
 "Skala."
 
-#: ../../source/ch_transmitter.rst:157
-msgid ""
-"NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
-"FMOD1."
-msgstr ""
-"HINWEIS : Devo7e ist auf AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0 und FMOD1"
-" limitiert."
-
-#: ../../source/ch_transmitter.rst:163
+#: ../../source/ch_transmitter.rst:133
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
@@ -312,7 +283,7 @@ msgstr ""
 "HINWEIS: Devo8 ist auf AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL DR0/1, "
 "GEAR0/1, FMOD0/ 1/2 und MIX0/1/2 limitiert."
 
-#: ../../source/ch_transmitter.rst:167
+#: ../../source/ch_transmitter.rst:137
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
@@ -320,11 +291,11 @@ msgstr ""
 "HINWEIS : Devo6 ist auf AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/ 1/2 und "
 "MIX0/1/2 limitiert."
 
-#: ../../source/ch_transmitter.rst:170
+#: ../../source/ch_transmitter.rst:140
 msgid "Button Monitor"
 msgstr "Tasten-Anzeige [Button Monitor]"
 
-#: ../../source/ch_transmitter.rst:179
+#: ../../source/ch_transmitter.rst:149
 msgid ""
 "The button monitor page is used to ensure physical buttons on the "
 "transmitter are working as expected.  Pressing any physical button will "
@@ -338,15 +309,15 @@ msgstr ""
 "testen berühren Sie den Bildschirm um die oberen Knöpfe zu sperren. Berühren"
 " Sie den Bildschirm erneut, um die Sperre wieder aufzuheben."
 
-#: ../../source/ch_transmitter.rst:183
+#: ../../source/ch_transmitter.rst:153
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
 msgstr "HINWEIS: Devo6 hat keine oberen L/R Trimmknöpfe."
 
-#: ../../source/ch_transmitter.rst:187
+#: ../../source/ch_transmitter.rst:157
 msgid "Telemetry monitor"
 msgstr "Telemetrie-Anzeige [Telemetry monitor]"
 
-#: ../../source/ch_transmitter.rst:196
+#: ../../source/ch_transmitter.rst:170
 msgid ""
 "Certain protocols have the ability to transmit telemetry data back to the "
 "transmitter during use. Telemetry data may include, but is not restricted "
@@ -359,7 +330,7 @@ msgstr ""
 "Maschinendrehzahlen oder auch GPS bezogene Informationen beinhalten; diese "
 "Daten sind aber nicht hierauf beschränkt."
 
-#: ../../source/ch_transmitter.rst:198
+#: ../../source/ch_transmitter.rst:172
 msgid ""
 "Telemetry data is turned off by default for all supported protocols except "
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
@@ -370,7 +341,7 @@ msgstr ""
 "Abschnitt um zu lernen, welche Protokolle Telemetrie unterstützen und um die"
 " verfügbaren Felder zu identifizieren."
 
-#: ../../source/ch_transmitter.rst:212
+#: ../../source/ch_transmitter.rst:186
 msgid ""
 "Since each protocol differs in the type of data it can return please see the"
 " original equipment manufacturers documentation concerning what additional "
@@ -380,19 +351,17 @@ msgstr ""
 "unterscheidet, lesen Sie bitte die Dokumentation des Originalherstellers in "
 "Bezug auf zusätzliche Hardware, die benötigt werden um die Daten zu sammeln."
 
-#: ../../source/ch_transmitter.rst:215
-msgid "Until valid data is transmitted the values will all be red."
-msgstr "Bis gültige Daten übertragen werden sind alle Werte rot."
+#: ../../source/ch_transmitter.rst:188
+msgid "Until valid data is transmitted the values will all be |bad_color|"
+msgstr ""
+"Bis gültige Daten übertragen werden sind alle Werte |bad_color|\n"
+"   "
 
-#: ../../source/ch_transmitter.rst:219
-msgid "Until valid data is transmitted the values will all be inverted."
-msgstr "Bis gültige Daten übertragen werden sind alle Werte invertiert."
-
-#: ../../source/ch_transmitter.rst:228
+#: ../../source/ch_transmitter.rst:192
 msgid "Range Test"
 msgstr "Reichweitentest [Range Test]"
 
-#: ../../source/ch_transmitter.rst:237
+#: ../../source/ch_transmitter.rst:201
 msgid ""
 "It is recommended that you range test a new model before flying it the first"
 " time to verify that you will be able to control the model at normal flying "
@@ -404,7 +373,7 @@ msgstr ""
 " Kontrolle über das Modell behalten. In manchen Vereinen ist dies eine "
 "Sicherheitsmaßnahme die vor dem Flugbetrieb durchgeführt werden muss."
 
-#: ../../source/ch_transmitter.rst:241
+#: ../../source/ch_transmitter.rst:205
 msgid ""
 "Once the range test page is opened, press the ‘Start test’ button to start "
 "the range test. The old and new power levels will be displayed.  The "
@@ -423,7 +392,7 @@ msgstr ""
 "wiederherzustellen. Durch drücken von 'Ext' wird ebenfalls die normale "
 "Sendeleistung wiederhergestellt. "
 
-#: ../../source/ch_transmitter.rst:245
+#: ../../source/ch_transmitter.rst:209
 msgid ""
 "The radio range will be reduced by the square root of the change in power "
 "level. So going from 100mW to 100uW represents a change of power of roughly "
@@ -437,7 +406,7 @@ msgstr ""
 "Faktor 30. Eine normale Reichweitentestung bei 30 m bedeutet somit, dass Sie"
 " das Modell bis zu 900 m weit kontrollieren können."
 
-#: ../../source/ch_transmitter.rst:249
+#: ../../source/ch_transmitter.rst:213
 msgid ""
 "The installed RF module used for the current model must have a PA. If that "
 "is not the case, or the power level chosen for the model is already at the "
@@ -448,11 +417,11 @@ msgstr ""
 " Modell bereits die minimale Sendeleistung gewählt wurde, wird ein Hinweis "
 "angezeigt."
 
-#: ../../source/ch_transmitter.rst:262
+#: ../../source/ch_transmitter.rst:226
 msgid "USB/About"
 msgstr "USB/Über [USB/About]"
 
-#: ../../source/ch_transmitter.rst:271
+#: ../../source/ch_transmitter.rst:235
 msgid ""
 "The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
 " can then be toggled on/off to enable access to the transmitter’s file-"
@@ -469,7 +438,7 @@ msgstr ""
 "Computer und Sender bewegen oder kopieren. Alle Konfigurationsdateien sind "
 "in diesem Modus verfügbar. "
 
-#: ../../source/ch_transmitter.rst:275
+#: ../../source/ch_transmitter.rst:239
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
