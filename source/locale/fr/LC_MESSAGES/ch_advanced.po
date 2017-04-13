@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-11 21:48+0200\n"
+"POT-Creation-Date: 2017-04-12 20:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -342,6 +342,15 @@ msgid ""
 "the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
 "Mixing (CCMP)."
 msgstr ""
+"Le plateau cyclique est utilisé pour contrôler le vol sur un hélicoptère RC."
+" Le plateau cyclique contrôle le plan de rotation du rotor principal et le "
+"pas des pales. Le plateau cyclique est normalement relié à 3 servos nommés "
+"profondeur, aileron et pas collectif mais en raison de sa conception il n'y "
+"a pas une correspondance 1 à 1 entre le mouvement des manches et le "
+"mouvement des servos. Un mixage est nécessaire entre les manches des gaz, "
+"des ailerons et de la profondeur et les servos du plateau cyclique. Ce "
+"mixage est appelé mixage pas cyclique pas collectif (cyclic Collective Pitch"
+" Mixing (CCMP))."
 
 #: ../../source/ch_advanced.rst:111
 msgid ""
@@ -356,6 +365,17 @@ msgid ""
 "supplies aileron, elevator, and collective inputs, and the electronic mixer "
 "will convert the signals into appropriate swash-plate servo motion."
 msgstr ""
+"Traditionnellement, les hélicoptères RC ont utilisé une Barre de Bell au "
+"dessus attachée au dessus ou au dessous du rotor principal pour maintenir la"
+" stabilité. Dans cette configuration, l'émetteur fera normalement tous les "
+"mixages et commandera directement chacun des 3 servos. Cette configuration "
+"est appelée CCPM manuel (mCCPM). Autrement un mixer électronique peut être "
+"inclus dans l'hélicoptère soit dans le récepteur soit entre le récepteur et "
+"les servos pour effectuer les mixages nécessaires. Cette configuration est "
+"appelée CCPM électronique (eCCPM) et dans ce cas l'émetteur transmet "
+"directement les entrées des ailerons de la profondeur et du pas collectif. "
+"et le mixer électronique convertit les signaux en mouvements correctes des "
+"servos du plateau cyclique."
 
 #: ../../source/ch_advanced.rst:113
 msgid ""
@@ -366,6 +386,12 @@ msgid ""
 "less expensive to manufacture, and also provides better stability and more "
 "precise control."
 msgstr ""
+"Récemment les hélicoptères sans barre de Bell (Flybarless - FBL) sont "
+"devenus plus communs, spécialement dans la catégorie micro. Ces hélicoptères"
+" utilisent un système eCCPM avec un gyroscope électronique pour ajuster en "
+"permanence le plateau cyclique pour maintenir la stabilité sans besoin d'une"
+" barre de Bell. Cette configuration tend à être moins chère à produire, et "
+"elle permet une meilleure stabilité et un contrôle plus précis."
 
 #: ../../source/ch_advanced.rst:115
 msgid ""
@@ -373,6 +399,9 @@ msgid ""
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
 "illustrated below:"
 msgstr ""
+"Deviation fournit le contrôle pour plusieurs configurations de plateaux "
+"cycliques. Ils comprennent : 120°, 120° Alternatif , 140°, 90°, et néant. "
+"Chaque configuration est décrite ci dessous."
 
 #: ../../source/ch_advanced.rst:122
 msgid ""
@@ -383,6 +412,12 @@ msgid ""
 " up and down. Servos working in unison dramatically increases the torque "
 "available as well as the precision and centering."
 msgstr ""
+"**120 (3 Servos)**: Les servos sont placés autour du plateau cyclique à 120°"
+" d'intervalle. L'entrée Aileron incline le plateau à droite et à gauche avec"
+" les servos Aileron et Pas ; l'entrée profondeur incline le plateau en "
+"arrière et en avant grâce aux trois servos ; l'entrée Pas élève ou abaisse "
+"le plateau par les trois servos. Le travail simultané des servos accroit "
+"considérablement le couple disponible ainsi que la précision et le centrage."
 
 #: ../../source/ch_advanced.rst:129
 msgid ""
@@ -392,6 +427,11 @@ msgid ""
 " and aft; with Pitch input, all three servos raise the swash-plate up and "
 "down."
 msgstr ""
+"**120X (3 Servos)**: Identique à la configuration ci dessus excepté que les "
+"servos sont décalés de 150°. Avec l'entrée Aileron, les trois servos "
+"inclinent le plateau à droite et à gauche ; avec l'entrée Profondeur, les "
+"servos Profondeur et pas inclinent le plateau en avant et en arrière ; avec "
+"l'entrée pas les trois servos élèvent ou abaissent le plateau."
 
 #: ../../source/ch_advanced.rst:136
 msgid ""
@@ -401,6 +441,13 @@ msgid ""
 " of the combined servos and an equal cyclic rate all around. On a 120° "
 "setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
 msgstr ""
+"**140 (3 Servos)**: Les fonctions des servos des plateaux cycliques à 140° "
+"sont presque les mêmes que celles des plateaux à 120°. Cependant "
+"l'agencement des servos est différente pour la profondeur. Un plateau à 140 "
+"° permet un  fonctionnement plus lissé de l'ensemble des  servos  et un taux"
+" de pas cyclique égal autour de l'axe.  Avec une configuration à 120° le pas"
+" cyclique droite/gauche est légèrement plus rapide que le pas cyclique "
+"avant/arrière. "
 
 #: ../../source/ch_advanced.rst:143
 msgid ""
@@ -409,6 +456,11 @@ msgid ""
 "plate fore and aft; with Pitch input, all three servos raise the swash-plate"
 " up and down. Most commonly used for electronic helicopters."
 msgstr ""
+"**90 (3 Servo)**: Avec l'entrée Aileron, les servos d'aileron et de pas "
+"inclinent le plateau à droite et à gauche; avec l'entrée Profondeur les "
+"servos inclinent le plateau d'avant en arrière; avec l'entrée Pas, les trois"
+" servos elèvent ou abaissent le plateau. C'est la configuration la plus "
+"commune pour les hélicoptères électroniques."
 
 #: ../../source/ch_advanced.rst:145
 msgid ""
@@ -416,6 +468,9 @@ msgid ""
 "helicopter using a gyroscopic flight control system. Please refer to the "
 "specific manufacturers instructions to see how to configure mixer outputs."
 msgstr ""
+"**Néant**: C'est un cas spécial où tous les mixages sont faits dans "
+"l'hélicoptère qui utilise un système de contrôle de vol gyroscopique. "
+"Référez vous aux instructions du constructeur pour configurer les mixages."
 
 #: ../../source/ch_advanced.rst:151
 msgid ""
@@ -423,10 +478,13 @@ msgid ""
 "cases you will still use the designated swash-plate type but may need to "
 "reverse specific channels."
 msgstr ""
+"Note : Des hélicoptères sont du genre 120 ou 140 mais tournés de 180 degrés."
+" Dans ces cas, vous utiliserez les modèles de plateau considérés, mais vous "
+"pourrez avoir besoin d'inverser certains canaux."
 
 #: ../../source/ch_advanced.rst:156
 msgid "Modifying sounds"
-msgstr ""
+msgstr "Modification des sons."
 
 #: ../../source/ch_advanced.rst:158
 msgid ""
@@ -434,55 +492,58 @@ msgid ""
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
 "the 'media' folder."
 msgstr ""
+"Vous pouvez éditer les sons émis par votre Devo. Pour cela il faut démarrer "
+"l'émetteur en mode USB et éditer le fichier 'sound.ini' dans le dossier "
+"'media'"
 
 #: ../../source/ch_advanced.rst:162
 msgid "The sections, and what causes them to play, are:"
-msgstr ""
+msgstr "Les sections et ce qui provoque l'émission du son sont :"
 
 #: ../../source/ch_advanced.rst:164
 msgid "**startup**: Powered on."
-msgstr ""
+msgstr "**startup**: Mise sous tension."
 
 #: ../../source/ch_advanced.rst:165
 msgid "**shutdown**: Powering off."
-msgstr ""
+msgstr "**shutdown**: Mise hors tension."
 
 #: ../../source/ch_advanced.rst:166
 msgid "**volume**: Configuring transmitter volume."
-msgstr ""
+msgstr "**volume**: Régler le volume de l'émetteur."
 
 #: ../../source/ch_advanced.rst:167
 msgid "**timer_warning**: Timer is about to expire."
-msgstr ""
+msgstr "**timer_warning**: La durée du chrono va se terminer."
 
 #: ../../source/ch_advanced.rst:168
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr ""
+msgstr "**alarm#**: La durée du chrono (1 à 4) est expirée."
 
 #: ../../source/ch_advanced.rst:169
 msgid "**batt_alarm**: Battery low warning."
-msgstr ""
+msgstr "**batt_alarm**: Avertissement batterie déchargée."
 
 #: ../../source/ch_advanced.rst:170
 msgid "**done_binding**: Binding finished."
-msgstr ""
+msgstr "**done_binding**: Liaison terminée."
 
 #: ../../source/ch_advanced.rst:171
 msgid "**key_pressing**: On a key press"
-msgstr ""
+msgstr "**key_pressing**: Lors de la pression d'un bouton."
 
 #: ../../source/ch_advanced.rst:172
 msgid "**saving**: When saving a model file."
-msgstr ""
+msgstr "**saving**: Lors de la sauvegarde d'un fichier de modèle."
 
 #: ../../source/ch_advanced.rst:173
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
-msgstr ""
+msgstr "**max_len**:Quand la chaine entrée au clavier est trop longue."
 
 #: ../../source/ch_advanced.rst:174
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
-msgstr ""
+msgstr "**telem_alarm#**: Une alarme de télémétrie (1 à 6) a été déclenchée."
 
 #: ../../source/ch_advanced.rst:176
 msgid ""
@@ -491,6 +552,10 @@ msgid ""
 "milliseconds to play that note. There is a limit of 100 notes for each "
 "sound."
 msgstr ""
+"Dans chaque section vous pouvez ajuster le 'volume' de 0 (muet) à 100 (max)."
+" Le reste des entrées sont des noms de notes et la valeur est le nombre de "
+"millisecondes pendant lequel elles sont jouées. Il y a une limite de 100 "
+"notes pour chaque son."
 
 #: ../../source/ch_advanced.rst:181
 msgid ""
@@ -500,3 +565,9 @@ msgid ""
 "ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
 "addition, 'a', 'ax' and 'b' will play the three notes below middle C."
 msgstr ""
+"Les noms des notes sont : 'xx' qui est un silence (pas de note jouée). Vous "
+"pouvez sélectionner une note  ('a'-'g'  (la-sol)) éventuellement diésée en "
+"ajoutant un 'x' pour a', 'c', 'd', 'f' ou 'g'. Enfin vous pouvez choisir un "
+"octave avec un chiffre de '0' à '4'. Les sons vont de 'c0' (do du milieu) à "
+"'b4'. De plus  'a', 'ax' et  'b' joueront les trois notes en dessous du do "
+"du milieu."

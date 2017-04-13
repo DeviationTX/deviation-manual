@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-11 21:58+0200\n"
+"POT-Creation-Date: 2017-04-12 20:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -60,367 +60,328 @@ msgstr ""
 "Általában az utolsó verziót célszerű használni. Az emulátor a kicsomagolt "
 "könyvtárban található exe kiterjesztésű fájl futtatásával indul."
 
-#: ../../source/ch_emulator.rst:26
+#: ../../source/ch_emulator.rst:21
 msgid ""
 "The emulator controls are as follows (based an an English QWERTY keyboard):"
 msgstr ""
 "Az emulátor vezérlése az alábbi billentyűkkel lehetséges (az angol QWERTY "
 "billentyűzet alapján):"
 
-#: ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:26
 msgid "Keyboard"
 msgstr "Billentyű"
 
-#: ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:26
 msgid "Function"
 msgstr "Funkció"
 
-#: ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:26
 msgid "Transmitter"
 msgstr "Távirányító"
 
-#: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:34
+#: ../../source/ch_emulator.rst:28
 msgid "\\"
 msgstr "\\"
 
-#: ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:28
 msgid "12"
 msgstr "12"
 
-#: ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:28
 msgid "8"
 msgstr "8"
 
-#: ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:28
 msgid "6"
 msgstr "6"
 
-#: ../../source/ch_emulator.rst:34
-msgid "12e"
-msgstr "12E"
-
-#: ../../source/ch_emulator.rst:34
-msgid "10"
-msgstr "10"
-
-#: ../../source/ch_emulator.rst:34
-msgid "7e"
-msgstr "7E"
-
-#: ../../source/ch_emulator.rst:36
+#: ../../source/ch_emulator.rst:30
 msgid "q/a"
 msgstr "q/a"
 
-#: ../../source/ch_emulator.rst:36
+#: ../../source/ch_emulator.rst:30
 msgid "Left-Vertical stick (Throttle in mode 2)"
 msgstr "Bal oldali függőleges bot (a gázkar Mód 2 esetén)"
 
+#: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:30
+#: ../../source/ch_emulator.rst:30 ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:31 ../../source/ch_emulator.rst:31
+#: ../../source/ch_emulator.rst:32 ../../source/ch_emulator.rst:32
+#: ../../source/ch_emulator.rst:32 ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:33
+#: ../../source/ch_emulator.rst:34 ../../source/ch_emulator.rst:34
+#: ../../source/ch_emulator.rst:34 ../../source/ch_emulator.rst:35
+#: ../../source/ch_emulator.rst:35 ../../source/ch_emulator.rst:35
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:36
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:37
 #: ../../source/ch_emulator.rst:37 ../../source/ch_emulator.rst:37
-#: ../../source/ch_emulator.rst:38 ../../source/ch_emulator.rst:38
 #: ../../source/ch_emulator.rst:38 ../../source/ch_emulator.rst:39
-#: ../../source/ch_emulator.rst:39 ../../source/ch_emulator.rst:39
-#: ../../source/ch_emulator.rst:40 ../../source/ch_emulator.rst:40
 #: ../../source/ch_emulator.rst:40 ../../source/ch_emulator.rst:41
-#: ../../source/ch_emulator.rst:41 ../../source/ch_emulator.rst:41
-#: ../../source/ch_emulator.rst:42 ../../source/ch_emulator.rst:42
-#: ../../source/ch_emulator.rst:42 ../../source/ch_emulator.rst:43
+#: ../../source/ch_emulator.rst:41 ../../source/ch_emulator.rst:42
 #: ../../source/ch_emulator.rst:43 ../../source/ch_emulator.rst:43
 #: ../../source/ch_emulator.rst:44 ../../source/ch_emulator.rst:45
+#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:46
 #: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:47
 #: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:48
-#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:49
-#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:51
-#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:52
-#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:53
+#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:49
+#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:50
+#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:50
+#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:51
+#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:52
 #: ../../source/ch_emulator.rst:53 ../../source/ch_emulator.rst:54
-#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:54
+#: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:55
 #: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:56
 #: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:56
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:57
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:58 ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:59 ../../source/ch_emulator.rst:59
 #: ../../source/ch_emulator.rst:59 ../../source/ch_emulator.rst:60
-#: ../../source/ch_emulator.rst:60 ../../source/ch_emulator.rst:61
-#: ../../source/ch_emulator.rst:61 ../../source/ch_emulator.rst:62
-#: ../../source/ch_emulator.rst:62 ../../source/ch_emulator.rst:63
-#: ../../source/ch_emulator.rst:63 ../../source/ch_emulator.rst:64
-#: ../../source/ch_emulator.rst:65 ../../source/ch_emulator.rst:66
-#: ../../source/ch_emulator.rst:66 ../../source/ch_emulator.rst:67
-#: ../../source/ch_emulator.rst:67 ../../source/ch_emulator.rst:68
-#: ../../source/ch_emulator.rst:68 ../../source/ch_emulator.rst:69
-#: ../../source/ch_emulator.rst:69 ../../source/ch_emulator.rst:70
-#: ../../source/ch_emulator.rst:70 ../../source/ch_emulator.rst:71
-#: ../../source/ch_emulator.rst:71 ../../source/ch_emulator.rst:72
-#: ../../source/ch_emulator.rst:72 ../../source/ch_emulator.rst:72
-#: ../../source/ch_emulator.rst:73 ../../source/ch_emulator.rst:73
-#: ../../source/ch_emulator.rst:73 ../../source/ch_emulator.rst:74
-#: ../../source/ch_emulator.rst:74 ../../source/ch_emulator.rst:74
-#: ../../source/ch_emulator.rst:75 ../../source/ch_emulator.rst:75
-#: ../../source/ch_emulator.rst:75 ../../source/ch_emulator.rst:76
-#: ../../source/ch_emulator.rst:76 ../../source/ch_emulator.rst:76
-#: ../../source/ch_emulator.rst:77 ../../source/ch_emulator.rst:77
-#: ../../source/ch_emulator.rst:77 ../../source/ch_emulator.rst:78
-#: ../../source/ch_emulator.rst:78 ../../source/ch_emulator.rst:78
+#: ../../source/ch_emulator.rst:60 ../../source/ch_emulator.rst:60
 msgid "X"
 msgstr "X"
 
-#: ../../source/ch_emulator.rst:37
+#: ../../source/ch_emulator.rst:31
 msgid "Q/A"
 msgstr "Q/A"
 
-#: ../../source/ch_emulator.rst:37
+#: ../../source/ch_emulator.rst:31
 msgid "Left-Vertical trim"
 msgstr "Bal oldali függőleges trim"
 
-#: ../../source/ch_emulator.rst:38
+#: ../../source/ch_emulator.rst:32
 msgid "w/s"
 msgstr "w/s"
 
-#: ../../source/ch_emulator.rst:38
+#: ../../source/ch_emulator.rst:32
 msgid "Left-Horizontal stick (Rudder in mode 2)"
 msgstr "Bal oldali vízszintes bot (az oldalkormány Mód 2 esetén)"
 
-#: ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:33
 msgid "W/S"
 msgstr "W/S"
 
-#: ../../source/ch_emulator.rst:39
+#: ../../source/ch_emulator.rst:33
 msgid "Left-Horizontal trim"
 msgstr "Bal oldali vízszintes trim"
 
-#: ../../source/ch_emulator.rst:40
+#: ../../source/ch_emulator.rst:34
 msgid "e/d"
 msgstr "e/d"
 
-#: ../../source/ch_emulator.rst:40
+#: ../../source/ch_emulator.rst:34
 msgid "Right-Vertical stick (Elevator in mode 2)"
 msgstr "Jobb oldali függőleges bot (a magassági kormány Mód 2 esetén)"
 
-#: ../../source/ch_emulator.rst:41
+#: ../../source/ch_emulator.rst:35
 msgid "E/D"
 msgstr "E/D"
 
-#: ../../source/ch_emulator.rst:41
+#: ../../source/ch_emulator.rst:35
 msgid "Right-Vertical trim"
 msgstr "Jobb oldali függőleges trim"
 
-#: ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:36
 msgid "r/f"
 msgstr "r/f"
 
-#: ../../source/ch_emulator.rst:42
+#: ../../source/ch_emulator.rst:36
 msgid "Right-Horizontal stick (Aileron in mode 2)"
 msgstr "Jobb oldali vízszintes bot (a csűrés Mód 2 esetén)"
 
-#: ../../source/ch_emulator.rst:43
+#: ../../source/ch_emulator.rst:37
 msgid "R/F"
 msgstr "R/F"
 
-#: ../../source/ch_emulator.rst:43
+#: ../../source/ch_emulator.rst:37
 msgid "Right-Horizontal trim"
 msgstr "Jobb oldali vízszintes trim"
 
-#: ../../source/ch_emulator.rst:44
+#: ../../source/ch_emulator.rst:38
 msgid "o/l"
 msgstr "o/l"
 
-#: ../../source/ch_emulator.rst:44
+#: ../../source/ch_emulator.rst:38
 msgid "AUX2"
 msgstr "AUX2"
 
-#: ../../source/ch_emulator.rst:45
+#: ../../source/ch_emulator.rst:39
 msgid "p/;"
 msgstr "p/;"
 
-#: ../../source/ch_emulator.rst:45
+#: ../../source/ch_emulator.rst:39
 msgid "AUX3"
 msgstr "AUX3"
 
-#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
+#: ../../source/ch_emulator.rst:40
 msgid "t/g"
 msgstr "t/g"
 
-#: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
+#: ../../source/ch_emulator.rst:40
 msgid "AUX4"
 msgstr "AUX4"
 
-#: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
+#: ../../source/ch_emulator.rst:41
 msgid "T/G"
 msgstr "T/G"
 
-#: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
+#: ../../source/ch_emulator.rst:41
 msgid "Top-Left trim"
 msgstr "Bal felső trim"
 
-#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
+#: ../../source/ch_emulator.rst:42
 msgid "y/h"
 msgstr "y/h"
 
-#: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
+#: ../../source/ch_emulator.rst:42
 msgid "AUX5"
 msgstr "AUX5"
 
-#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
+#: ../../source/ch_emulator.rst:43
 msgid "Y/H"
 msgstr "Y/H"
 
-#: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
+#: ../../source/ch_emulator.rst:43
 msgid "Top-Right trim"
 msgstr "Jobb felső trim"
 
-#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
+#: ../../source/ch_emulator.rst:44
 msgid "u/j"
 msgstr "u/j"
 
-#: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
+#: ../../source/ch_emulator.rst:44
 msgid "AUX6"
 msgstr "AUX6"
 
-#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
+#: ../../source/ch_emulator.rst:45
 msgid "i/k"
 msgstr "i/k"
 
-#: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
+#: ../../source/ch_emulator.rst:45
 msgid "AUX7"
 msgstr "AUX7"
 
-#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
+#: ../../source/ch_emulator.rst:46
 msgid "z"
 msgstr "z"
 
-#: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
+#: ../../source/ch_emulator.rst:46
 msgid "Gear"
 msgstr "GEAR kapcsoló"
 
-#: ../../source/ch_emulator.rst:53 ../../source/ch_emulator.rst:67
+#: ../../source/ch_emulator.rst:47
 msgid "x"
 msgstr "x"
 
-#: ../../source/ch_emulator.rst:53
+#: ../../source/ch_emulator.rst:47
 msgid "Rudder Dual-Rate switch/SW B"
 msgstr "RUDD D/R kapcsoló"
 
-#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
+#: ../../source/ch_emulator.rst:48
 msgid "c"
 msgstr "c"
 
-#: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
+#: ../../source/ch_emulator.rst:48
 msgid "Elevator Dual-Rate switch/SW A"
 msgstr "ELEV D/R kapcsoló"
 
-#: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:69
+#: ../../source/ch_emulator.rst:49
 msgid "v"
 msgstr "v"
 
-#: ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:49
 msgid "Aileron Dual-Rate switch/"
 msgstr "AILE D/R kapcsoló"
 
-#: ../../source/ch_emulator.rst:55
+#: ../../source/ch_emulator.rst:49
 msgid "DR"
 msgstr "DR"
 
-#: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
+#: ../../source/ch_emulator.rst:50
 msgid "b"
 msgstr "b"
 
-#: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
+#: ../../source/ch_emulator.rst:50
 msgid "Mix 0/1/2 switch"
 msgstr "MIX 0/1/2 kapcsoló"
 
-#: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
+#: ../../source/ch_emulator.rst:51
 msgid "n"
 msgstr "n"
 
-#: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
+#: ../../source/ch_emulator.rst:51
 msgid "FMode 0/1/2 switch"
 msgstr "FMOD 0/1/2 kapcsoló"
 
-#: ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:52
 msgid "m"
 msgstr "m"
 
-#: ../../source/ch_emulator.rst:58
+#: ../../source/ch_emulator.rst:52
 msgid "Hold switch"
 msgstr "HOLD kapcsoló"
 
-#: ../../source/ch_emulator.rst:59
+#: ../../source/ch_emulator.rst:53
 msgid ","
 msgstr ","
 
-#: ../../source/ch_emulator.rst:59
+#: ../../source/ch_emulator.rst:53
 msgid "Train switch"
 msgstr "TRAIN kapcsoló"
 
-#: ../../source/ch_emulator.rst:66
-msgid "FMODE"
-msgstr "FMODE kapcsoló"
-
-#: ../../source/ch_emulator.rst:67
-msgid "Rudder Dual-Rate switch"
-msgstr "RUDD D/R kapcsoló"
-
-#: ../../source/ch_emulator.rst:67
-msgid "HOLD"
-msgstr "HOLD kapcsoló"
-
-#: ../../source/ch_emulator.rst:69
-msgid "Aileron Dual-Rate switch/SW B"
-msgstr "AIL D/R kapcsoló"
-
-#: ../../source/ch_emulator.rst:72
+#: ../../source/ch_emulator.rst:54
 msgid "\\\\"
 msgstr "\\\\"
 
-#: ../../source/ch_emulator.rst:72
+#: ../../source/ch_emulator.rst:54
 msgid "Power off"
 msgstr "Kikapcsolás"
 
-#: ../../source/ch_emulator.rst:73
+#: ../../source/ch_emulator.rst:55
 msgid "Left-arrow"
 msgstr "Balra nyíl"
 
-#: ../../source/ch_emulator.rst:73
+#: ../../source/ch_emulator.rst:55
 msgid "Left"
 msgstr "L- nyomógomb"
 
-#: ../../source/ch_emulator.rst:74
+#: ../../source/ch_emulator.rst:56
 msgid "Right-arrow"
 msgstr "Jobbra nyíl"
 
-#: ../../source/ch_emulator.rst:74
+#: ../../source/ch_emulator.rst:56
 msgid "Right"
 msgstr "R+ nyomógomb"
 
-#: ../../source/ch_emulator.rst:75
+#: ../../source/ch_emulator.rst:57
 msgid "Up-arrow"
 msgstr "Fel nyíl"
 
-#: ../../source/ch_emulator.rst:75
+#: ../../source/ch_emulator.rst:57
 msgid "Up"
 msgstr "UP nyomógomb"
 
-#: ../../source/ch_emulator.rst:76
+#: ../../source/ch_emulator.rst:58
 msgid "Down-arrow"
 msgstr "Le nyíl"
 
-#: ../../source/ch_emulator.rst:76
+#: ../../source/ch_emulator.rst:58
 msgid "Down"
 msgstr "DN nyomógomb"
 
-#: ../../source/ch_emulator.rst:77
+#: ../../source/ch_emulator.rst:59
 msgid "Enter"
 msgstr "Enter"
 
-#: ../../source/ch_emulator.rst:77
+#: ../../source/ch_emulator.rst:59
 msgid "Ent"
 msgstr "ENT nyomógomb"
 
-#: ../../source/ch_emulator.rst:78
+#: ../../source/ch_emulator.rst:60
 msgid "Escape"
 msgstr "Escape"
 
-#: ../../source/ch_emulator.rst:78
+#: ../../source/ch_emulator.rst:60
 msgid "Exit"
 msgstr "EXT nyomógomb"
