@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-12 20:50+0000\n"
+"POT-Creation-Date: 2017-04-14 00:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_bugreport.rst:2
 msgid "Reporting Bugs"
-msgstr ""
+msgstr "Signalisation des Bugs"
 
 #: ../../source/ch_bugreport.rst:3
 msgid "Nobody is perfect."
-msgstr ""
+msgstr "Personne n'est parfait."
 
 #: ../../source/ch_bugreport.rst:5
 msgid ""
@@ -34,12 +35,21 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
+"Ce micrologiciel -firmware- a été développé avec soin et a été testé avec "
+"succès par de nombreux utilisateurs dans le monde. Néanmoins il pourrait "
+"arriver que dans certaines circonstances votre émetteur ne fonctionne pas "
+"comme vous l'espérez. Ce comportement peut être dû à un problème de "
+"manipulation et parfois un bug réel. N'hésitez pas à vous adresser  à la "
+"communauté à http://www.deviationtx.com/forum. Rappelez vous que le "
+"micrologiciel ne peut être amélioré qu'avec votre aide."
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
 "http://www.deviationtx.com/mantisbt"
 msgstr ""
+"Si vous trouvez un bug dans Deviation, signalez le s'il vous plait ici : "
+"http://www.deviationtx.com/mantisbt"
 
 #: ../../source/ch_bugreport.rst:9
 msgid ""
@@ -48,37 +58,47 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
+"Vous devrez ouvrir un compte sur le forum de Deviation pour signaler un bug."
+" Ce compte vous permettra aussi de communiquer avec la communauté de "
+"Deviation, et vous permettra d'être informé par mail lorsque le bug sera mis"
+" à jour/résolu."
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
 "Please provide as much information as possible in your ticket. Include:"
 msgstr ""
+"Fournissez le maximum d'information possible dans votre demande -ticket-. "
+"Fournissez :"
 
 #: ../../source/ch_bugreport.rst:13
 msgid "Build version (you can find this on the 'USB' page of the transmitter)"
 msgstr ""
+"La version du micrologiciel ( vous la trouverez sur la page 'USB' de votre "
+"émetteur)"
 
 #: ../../source/ch_bugreport.rst:14
 msgid "Did you compile yourself, or download the dfu?"
-msgstr ""
+msgstr "L'avez vous compilé vous même ou téléchargé le fichier .dfu ?"
 
 #: ../../source/ch_bugreport.rst:15
 msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
-msgstr ""
+msgstr "Type d'émetteur (Devo8, Devo7e, Devo8-émulateur,...)"
 
 #: ../../source/ch_bugreport.rst:16
 msgid "Have you tried reproducing this on the emulator?"
-msgstr ""
+msgstr "Avez vous essayé de reproduire le bug sur l'émulateur ?"
 
 #: ../../source/ch_bugreport.rst:17
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
 msgstr ""
+"Est-ce facilement reproductible ? Si oui donnez s'il vous plait les "
+"instructions pas à pas."
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"
-msgstr ""
+msgstr "Quel protocole utilisez vous ?"
 
 #: ../../source/ch_bugreport.rst:19
 msgid ""
@@ -86,7 +106,10 @@ msgid ""
 "file-system of the transmitter along with the 'debug-devo???.zip file that "
 "came with the dfu"
 msgstr ""
+"Si votre émetteur a redémarré, fournissez s'il vous plait le fichier "
+"errors.txt situé à la racine du disque système de l'émetteur ainsi que le "
+"fichier 'debug-devo???.zip' qui était joint au fichier .dfu."
 
 #: ../../source/ch_bugreport.rst:21
 msgid "The more detail you can provide, the faster fixing the issue will be."
-msgstr ""
+msgstr "Plus vous donnerez de détails, plus vite le problème sera résolu."
