@@ -27,7 +27,8 @@ The configuration page defines various transmitter functions.  It is entered fro
 .. image:: images/devo8/ch_transmitter/tx_config.png
    :width: 80%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. macro:: floatimg images/devo10/ch_transmitter/tx_menu.png
 
@@ -92,6 +93,7 @@ LCD settings
 **Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
 .. if:: devo10
 It may also be turned off.
+.. endif::
 
 **Contrast**: Set screen contrast. Acceptable entries are from 1 to 10.
 .. if:: devo10
@@ -144,7 +146,8 @@ Input Monitor
 .. image:: images/devo8/ch_transmitter/input_monitor2.png
    :width: 80%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. macro:: floatimg images/devo10/ch_transmitter/input_monitor.png
 
@@ -160,7 +163,9 @@ Input Monitor
 
    NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and FMOD1. 
 
-.. elseif:: devo8
+.. endif::
+
+.. if:: devo8
 
    .. cssclass:: bold-italic
 
@@ -188,16 +193,6 @@ Button Monitor
 Telemetry monitor
 -----------------
 
-.. if:: devo10
-
-.. |bad_color| replace:: inverted
-
-.. elseif:: devo8
-
-.. |bad_color| replace:: red
-
-.. endif::
-
 .. macro:: floatimg images/|target|/ch_transmitter/telemetry_monitor.png
 
 .. container::
@@ -219,7 +214,17 @@ Telemetry monitor
 
    Since each protocol differs in the type of data it can return please see the original equipment manufacturers documentation concerning what additional hardware may be needed to collect this data. 
 
-   Until valid data is transmitted the values will all be |bad_color|
+.. if:: devo8
+
+   Until valid data is transmitted the values will all be red.
+
+.. endif::
+
+.. if:: devo10
+
+   Until valid data is transmitted the values will all be inverted.
+
+.. endif::
 
 .. if:: devo10
 
