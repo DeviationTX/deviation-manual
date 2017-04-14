@@ -268,7 +268,8 @@ The FrskyX S.Port telemetry provides for connecting up to 16 sensors of the same
 
 The CELL voltages are labeled C1-C5.
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 The following tables show the layout of the telemetry test page display.
 

@@ -37,7 +37,8 @@ The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the functionalit
 .. image:: images/devo8/ch_model/model_menu_std.png
    :width: 45%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. cssclass:: noborder
 
@@ -193,7 +194,8 @@ Mixer (Adv GUI)
 .. image:: images/devo8/ch_model/mixer_main.*
    :width: 80%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
  
 .. macro:: floatimg images/devo10/ch_model/mixer_main.png
 
@@ -462,7 +464,8 @@ Timers (Std & Adv GUI)
 .. image:: images/devo8/ch_model/timers.png
    :width: 80%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. macro:: floatimg images/devo10/ch_model/timers.png
 
@@ -570,7 +573,8 @@ Main page config (Std & Adv GUI)
 .. image:: images/devo8/ch_model/mainpage_layout.png
    :width: 45%
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. macro:: floatimg images/devo10/ch_model/mainpage_layout.png
 
@@ -603,7 +607,8 @@ Configuring object position
 
 Each of the visual objects can be selected by pressing on them, or with the UP/DN buttons followed by ENT.  Once selected, the UP/DN/L/R buttons will move the selected object on the screen.  Alternatively, the X and Y spin-boxes which appear in move mode can also be used to move the selected object.  Press EXT once to exit move mode.
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. cssclass:: bold-italic
 
@@ -624,7 +629,8 @@ Creating Objects
 
 Select the '+' icon to open the add-item dialog.  Then select the object type from the spin-box on the left, then press ‘Add’ to create the object.  This will add the specified object type to the center of the screen.  You can now place and configure the new object.
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 .. cssclass:: bold-italic
 
@@ -643,7 +649,8 @@ Loading Objects
 
 .. if:: devo8
    After selecting the '+' icon to open the add-item dialog, you may 'Load' alternate templates, to change the main page layout.
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
    You can 'Load' alternate templates, to change the main page layout.
 .. endif::
    If you select 'Default' the layout will be set to the standard layout as shown in section :ref:`main-page`.
@@ -672,7 +679,8 @@ Configuring Objects
    :width: 80%
 
 You can delete any object by configuring the object and pressing the ‘Delete’ button
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
 
 You can delete any object but a Menu page by selecting the  ‘Delete’
 option and pressing the 'ENT' button.
@@ -756,7 +764,9 @@ Standard GUI Menu items
      -
      -
 
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
+.. container::
 
    1. **Model setup**: Model configuration page (See section  :ref:`model-setup`)
    2. **Reverse**: Servo reverse
@@ -820,10 +830,12 @@ Swash Configuration
 
 The Swash configuration page configures the swash type.  More information about swash-types can be found in section :ref:`swash-mixing`.  The settings on this page are equivalent to those on the model configuration page (see :ref:`model-setup`), and configuration for both pages is provided below.
 
-.. image:: images/|target|/ch_model/swashmix.*
 .. if:: devo8
+.. image:: images/|target|/ch_model/swashmix.*
    :width: 90%
-.. elseif:: devo10
+.. endif::
+.. if:: devo10
+.. image:: images/|target|/ch_model/swashmix.*
    :width: 80%
 .. endif::
 
