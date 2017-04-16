@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 00:08+0000\n"
+"POT-Creation-Date: 2017-04-15 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -67,6 +67,8 @@ msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
 msgstr ""
+"Si votre émetteur est un Devo F7 ou F12e vous **devez** utiliser l'outil de "
+"téléchargement de Deviation."
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -76,10 +78,15 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
+"La chapitre :ref:`preparation` couvre ce que vous avez à faire avant de "
+"démarrer l'installation. Puis deux chapitres couvrent l'installation "
+"proprement dite, selon l'outil que vous utilisez. Les deux chapitres "
+"suivants traitent de la mise à jour de ou vers différentes versions ou types"
+" de compilations."
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr ""
+msgstr "Préparation"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -89,22 +96,31 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
+"D'abord, assurez vous que votre Devo est complètement chargé avant de "
+"démarrer l'installation. Téléchargez le micrologiciel devoXX-x.y.z.zip à "
+"partir de  http://deviationtx.com/downloads-new/category/1-deviation-"
+"releases où XX est le numéro de votre émetteur Walkera Devo et x.y.z "
+"identifie la version de Deviation."
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
-msgstr ""
+msgstr "NOTE: N'essayez pas d'utiliser l'outil DfuSe de STMicroelectronics!"
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
+"Vous pouvez télécharger l'outil Walkera à partir de "
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"L'outil de téléchargement de Deviation peut être téléchargé à partir de "
+"http://deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:40
 msgid ""
@@ -127,10 +143,15 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
+"Si vous faites une mise à jour à partir d'une version précédente de "
+"Deviation, il est fortement recommandé de sauvegarder le répertoire "
+"'modèles' de votre émetteur ainsi que les fichiers 'tx.ini' et "
+"'hardware.ini' pour vous assurer de ne perdre aucun modèle ni la "
+"configuration de votre émetteur."
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr ""
+msgstr "Installation des pilotes Windows"
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -138,6 +159,10 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"L'outil DFuSe Walkera et l'outil de téléchargement Deviation utilisent "
+"différents pilotes. Les deux peuvent être installés par l'installateur "
+"Deviation USBDrv, disponible à partir de http://www.deviationtx.com"
+"/downloads-new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:63
 msgid ""
