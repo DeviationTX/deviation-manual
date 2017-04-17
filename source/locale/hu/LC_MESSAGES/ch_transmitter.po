@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-17 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -32,202 +32,291 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"A konfigurációs képernyő különböző távirányító funkciókat definiál. A "
+"főmenüből a távirányító menün keresztül érhető el. Az ebben a fejezetben "
+"szereplő képernyőkön a Deviation alapértelmezett beállításai láthatók."
 
-#: ../../source/ch_transmitter.rst:29
+#: ../../source/ch_transmitter.rst:33
+msgid ""
+"The configuration page defines various transmitter functions.  It is entered"
+" from the main menu via ‘Transmitter menu’ followed by ‘Transmitter config’."
+" Please note that all screens in this section show the Deviation default "
+"settings."
+msgstr ""
+"A konfigurációs képernyő különböző távirányító funkciókat definiál. A "
+"főmenüből a távirányító menün keresztül érhető el. Az ebben a fejezetben "
+"szereplő képernyőkön a Deviation alapértelmezett beállításai láthatók."
+
+#: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
 msgstr "Általános beállítások"
 
-#: ../../source/ch_transmitter.rst:34
+#: ../../source/ch_transmitter.rst:48
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Nyelv**: Kiválaszthatod a megjelenő szövegek nyelvét."
 
-#: ../../source/ch_transmitter.rst:38
+#: ../../source/ch_transmitter.rst:52
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "MEGJEGYZÉS: Ez a funkció Devo 7e esetén nem érhető el."
 
-#: ../../source/ch_transmitter.rst:40
+#: ../../source/ch_transmitter.rst:54
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**Mód**: Négyféle botkormány mód közül választhatsz: Mód 1-4."
 
-#: ../../source/ch_transmitter.rst:42
+#: ../../source/ch_transmitter.rst:56
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
 msgstr ""
+"A Mód 1 Európában elterjedt. A magassági- és oldalkormány van a bal oldalon,"
+" a gáz és a csűrés a jobb oldalon."
 
-#: ../../source/ch_transmitter.rst:43
+#: ../../source/ch_transmitter.rst:57
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
 msgstr ""
+"A Mód 2 Észak-Amerikában elterjedt. Gáz és oldalkormány a bal oldalon, "
+"magassági kormány és csűrés a jobbon."
 
-#: ../../source/ch_transmitter.rst:44
+#: ../../source/ch_transmitter.rst:58
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
 msgstr ""
+"Mód 3 esetén a magassági kormány és a csűrés van a bal oldalon, a gáz és az "
+"oldalkormány a jobbon."
 
-#: ../../source/ch_transmitter.rst:45
+#: ../../source/ch_transmitter.rst:59
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
 msgstr ""
+"Mód 4 esetén a gáz és a csűrés van a bal oldalon, a magassági- és az "
+"oldalkormány a jobbon."
 
-#: ../../source/ch_transmitter.rst:47
+#: ../../source/ch_transmitter.rst:61
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
-msgstr ""
+msgstr "**Botkormány**: A botkormányok és potméterek kalibrálása."
 
-#: ../../source/ch_transmitter.rst:49
+#: ../../source/ch_transmitter.rst:63
 msgid ""
 "To perform a stick calibration, highlight the Calibrate option and press the"
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"A botkormány kalibrációhoz válaszd ki a Kalibrálás gombot, és nyomj ENT-t. "
+"Kövesd a képernyőn megjelenő utasításokat a botkormányok mozgatására, és "
+"hagyd jóvá az ENT gomb megnyomásával."
 
-#: ../../source/ch_transmitter.rst:51
+#: ../../source/ch_transmitter.rst:65
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "\"Óra (csak Devo12)\": Az aktuális dátum és idő beállítása."
 
-#: ../../source/ch_transmitter.rst:58
+#: ../../source/ch_transmitter.rst:72
 msgid "Buzzer settings"
-msgstr ""
+msgstr "Hang beállítások"
 
-#: ../../source/ch_transmitter.rst:60
+#: ../../source/ch_transmitter.rst:74
 msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
+"**Bekapcsolási riasztás**: Válassz egy intervallumot, ami után a távirányító"
+" jelzést ad, ha be van kapcsolva, de nincs használva. A megadható tartomány "
+"0 – 60 percig terjed, 1 perces lépésekben."
 
-#: ../../source/ch_transmitter.rst:62
+#: ../../source/ch_transmitter.rst:76
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
 msgstr ""
+"**Feszültség riasztás**: Az alacsony telepfeszültség riasztási szintje. A "
+"beállítható feszültség tartomány 3.30V – 12.00V 0.01V-os lépésekben."
 
-#: ../../source/ch_transmitter.rst:64
+#: ../../source/ch_transmitter.rst:78
 msgid ""
 "**Alarm interval**: Set frequency of alarm when battery is low. Alarm "
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
 msgstr ""
+"**Riasztási intervallum**: Az alacsony telepfeszültség riasztás gyakoriságát"
+" állítja. A riasztási intervallum beállítható tartománya 5 másodperctől 1 "
+"percig lehetséges 5 másodperces felbontással. Ki is kapcsolható."
 
-#: ../../source/ch_transmitter.rst:66
+#: ../../source/ch_transmitter.rst:80
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
 msgstr ""
+"**Hangerő**: A zümmer hangerejének beállítása. A beállítható hangerő "
+"tartomány 1 – 10. Ki is kapcsolható."
 
-#: ../../source/ch_transmitter.rst:68
+#: ../../source/ch_transmitter.rst:82
 msgid "**Vibration**: Enable vibration on alarms, if available."
 msgstr ""
+"**Rezgés**: Rezgés funkció engedélyezése a riasztásokhoz, amennyiben "
+"elérhető."
 
-#: ../../source/ch_transmitter.rst:70
+#: ../../source/ch_transmitter.rst:84
 msgid "**Power-down alert**: Play sound at power-down."
-msgstr ""
+msgstr "**Kikapcsolási riasztás**: Kikapcsoláskori hangjelzés engedélyezése."
 
-#: ../../source/ch_transmitter.rst:73
+#: ../../source/ch_transmitter.rst:87
 msgid "LCD settings"
 msgstr "LCD beállítások"
 
-#: ../../source/ch_transmitter.rst:75
+#: ../../source/ch_transmitter.rst:89
 msgid ""
-"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
+"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
+"It may also be turned off."
 msgstr ""
+"**Fényerő**: Beállítja a kijelző fényerejét. Lehetséges értékei 1-től 10-ig,"
+" de a háttérvilágítást ki is lehet kapcsolni."
 
-#: ../../source/ch_transmitter.rst:77
+#: ../../source/ch_transmitter.rst:92
+msgid ""
+"**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
+"may also be turned off."
+msgstr ""
+"**Kontraszt**: Beállítja a kijelző kontrasztját. Lehetséges értékei 1-től "
+"10-ig, de ki is lehet kapcsolni."
+
+#: ../../source/ch_transmitter.rst:95
 msgid ""
 "**Dimmer time**: Set delay before screen dimming. Times may be set from 5 "
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
 msgstr ""
+"**Alvó mód ideje**: A képernyő altatásának késleltetése. 5 másodperctől 2 "
+"percig állítható 5 másodperces lépésekben. Kikapcsolt állapotban a "
+"háttérvilágítás a beállított marad a távirányító kikapcsolásáig."
 
-#: ../../source/ch_transmitter.rst:79
+#: ../../source/ch_transmitter.rst:97
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
 msgstr ""
+"**Alvó fényerő**: Az alvó üzemmódban levő kijelző háttérvilágításának "
+"értéke. A beállítható tartomány 1 – 10. Ki is kapcsolható, ilyenkor "
+"egyáltalán nincs háttérvilágítás."
 
-#: ../../source/ch_transmitter.rst:82
+#: ../../source/ch_transmitter.rst:100
 msgid "Timer settings"
 msgstr "Időzítő beállítások"
 
-#: ../../source/ch_transmitter.rst:84
+#: ../../source/ch_transmitter.rst:102
 msgid ""
 "**Prealert time**: Time before timer reaches zero to start beeping. "
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
 msgstr ""
+"**Előjelzési idő**: Az az idő, amennyivel az időzítő lejárta előtt elkezd "
+"csipogni. A beállítható tartomány 5 másodperctől 1 percig tart, de ki is "
+"kapcsolható."
 
-#: ../../source/ch_transmitter.rst:86
+#: ../../source/ch_transmitter.rst:104
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Előjelzési intervallum**: Az időzítő lejárta előtt milyen sűrűn csipogjon."
+" A beállítható tartomány 1 – 60 másodpercig terjed, de ki is lehet "
+"kapcsolni."
 
-#: ../../source/ch_transmitter.rst:88
+#: ../../source/ch_transmitter.rst:106
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Ismétlés intervallum**: Az időzítő lejárta után milyen sűrűn ismételje meg"
+" a riasztást. A beállítható tartomány 1 – 60 másodpercig terjed, de ki is "
+"kapcsolható."
 
-#: ../../source/ch_transmitter.rst:91
+#: ../../source/ch_transmitter.rst:109
 msgid "Telemetry settings"
 msgstr "Telemetria beállítások"
 
-#: ../../source/ch_transmitter.rst:93
+#: ../../source/ch_transmitter.rst:111
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
 msgstr ""
+"**Hőmérséklet**: A hőmérséklet kijelzésének mértékegysége. Lehetséges "
+"értékei a Celsius és a Fahrenheit."
 
-#: ../../source/ch_transmitter.rst:95
+#: ../../source/ch_transmitter.rst:113
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
 msgstr ""
+"**Hossz**: A hosszúság/távolság/magasság kijelzésének mértékegysége. "
+"Lehetséges értékei a Méter és a Láb."
 
-#: ../../source/ch_transmitter.rst:98
+#: ../../source/ch_transmitter.rst:116
 msgid "Channel monitor"
 msgstr "Csatorna monitor"
 
-#: ../../source/ch_transmitter.rst:107
+#: ../../source/ch_transmitter.rst:125
 msgid ""
 "The channel monitor screen allows the user to see the values of each channel"
 " as output by the transmitter. Channels without mixers will not be "
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
 msgstr ""
+"A csatorna monitor képernyőn lehet a kimeneti csatornák aktuális értékeit "
+"megtekinteni. Csak azok a csatornák szerepelnek rajta, melyekhez van mixer "
+"definiálva. A kimeneti értékek az adott csatornához definiált minimum / "
+"maximum értékek, valamint a megadott skálázás alapján számítódnak."
 
-#: ../../source/ch_transmitter.rst:112
+#: ../../source/ch_transmitter.rst:130
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
 msgstr ""
+"**Például**: Ha egy csatorna -60-tól +60-ig van skálázva, akkor a kimeneti "
+"értéke is csak -60-tól +60-ig fog váltakozni a botkormány pozíciójának "
+"függvényében."
 
-#: ../../source/ch_transmitter.rst:116
+#: ../../source/ch_transmitter.rst:134
 msgid "Input Monitor"
 msgstr "Bemenet monitor"
 
-#: ../../source/ch_transmitter.rst:128
+#: ../../source/ch_transmitter.rst:152
 msgid ""
 "The input monitor screen shows the values associated with the current "
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
 msgstr ""
+"A bemenetek képernyőn lehet a bemenetek aktuális állapotainak megfelelő "
+"értékeket megtekinteni. Az értékek százalékos formában jelennek meg, ahol a "
+"teljes tartomány -100%-tól +100%-ig terjed."
 
-#: ../../source/ch_transmitter.rst:133
+#: ../../source/ch_transmitter.rst:157
+msgid ""
+"NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
+"FMOD1."
+msgstr ""
+"MEGJEGYZÉS: Devo7E esetén csak AIL, ELE, THR, RUD, HOLD0/1, és FMOD0/1 "
+"bemenetek léteznek."
+
+#: ../../source/ch_transmitter.rst:163
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"MEGJEGYZÉS: Devo8 esetén csak AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
+"DR0/1, GEAR0/1, FMOD0/1/2, és MIX0/1/2 bemenetek léteznek."
 
-#: ../../source/ch_transmitter.rst:137
+#: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
 msgstr ""
+"MEGJEGYZÉS: Devo6 esetén csak AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2,"
+" and MIX0/1/2 bemenetek léteznek."
 
-#: ../../source/ch_transmitter.rst:140
+#: ../../source/ch_transmitter.rst:170
 msgid "Button Monitor"
 msgstr "Nyomógomb monitor"
 
-#: ../../source/ch_transmitter.rst:149
+#: ../../source/ch_transmitter.rst:179
 msgid ""
 "The button monitor page is used to ensure physical buttons on the "
 "transmitter are working as expected.  Pressing any physical button will "
@@ -235,54 +324,79 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"A nyomógomb ellenőrzés képernyőn lehet ellenőrizni a távirányító fizikai "
+"nyomógombjainak működését. Bármelyik fizikai nyomógomb megnyomása "
+"kiválasztja a képernyőn látható megfelelő négyzetet. Az \"ENT\", \"L-\" vagy"
+" \"L+\" nyomógomb teszteléséhez előbb meg kell érinteni a kijelzőt, hogy "
+"letiltódjon a navigáció. Egy újabb érintéssel megint engedélyezhetjük a "
+"nyomógombokat."
 
-#: ../../source/ch_transmitter.rst:153
+#: ../../source/ch_transmitter.rst:183
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "MEGJEGYZÉS: A Devo6-on nincs felül bal és jobb trim gomb."
 
-#: ../../source/ch_transmitter.rst:157
+#: ../../source/ch_transmitter.rst:187
 msgid "Telemetry monitor"
 msgstr "Telemetria monitor"
 
-#: ../../source/ch_transmitter.rst:170
+#: ../../source/ch_transmitter.rst:196
 msgid ""
 "Certain protocols have the ability to transmit telemetry data back to the "
 "transmitter during use. Telemetry data may include, but is not restricted "
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
 msgstr ""
+"Bizonyos protokollok használat közben képesek telemetria adatokat küldeni "
+"vissza a távirányítónak. Ezek többek között lehetnek hőmérséklet értékek, "
+"feszültségek, motor fordulatszám, vagy akár GPS koordináták is."
 
-#: ../../source/ch_transmitter.rst:172
+#: ../../source/ch_transmitter.rst:198
 msgid ""
 "Telemetry data is turned off by default for all supported protocols except "
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"A telemetria adatok vétele alapállapotban az összes támogatott protokoll "
+"esetén ki van kapcsolva, kivéve a DAVO és FrSky protokollokat. Lásd a 9. "
+"Protokollok fejezetet, hogy mely protokollok képesek telemetria adatokat "
+"fogadni, és melyik milyen adatokat."
 
-#: ../../source/ch_transmitter.rst:186
+#: ../../source/ch_transmitter.rst:212
 msgid ""
 "Since each protocol differs in the type of data it can return please see the"
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
 msgstr ""
+"Mivel minden protokoll eltérő típusú adatokat képes visszaküldeni, lásd az "
+"eredeti készülékgyártó dokumentációját, hogy esetlegesen milyen további "
+"hardver eszközökre van szükség a megfelelő adatok begyűjtéséhez és "
+"továbbításához."
 
-#: ../../source/ch_transmitter.rst:188
-msgid "Until valid data is transmitted the values will all be |bad_color|"
-msgstr ""
+#: ../../source/ch_transmitter.rst:215
+msgid "Until valid data is transmitted the values will all be red."
+msgstr "A valós adatok vételéig az értékek pirosak lesznek."
 
-#: ../../source/ch_transmitter.rst:192
+#: ../../source/ch_transmitter.rst:219
+msgid "Until valid data is transmitted the values will all be inverted."
+msgstr "A valós adatok vételéig az értékek invertáltak lesznek."
+
+#: ../../source/ch_transmitter.rst:228
 msgid "Range Test"
 msgstr "Hatótáv teszt"
 
-#: ../../source/ch_transmitter.rst:201
+#: ../../source/ch_transmitter.rst:237
 msgid ""
 "It is recommended that you range test a new model before flying it the first"
 " time to verify that you will be able to control the model at normal flying "
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"Melegen ajánlott, hogy egy-egy új modell első reptetése előtt ellenőrizd a "
+"hatótávolságot, hogy képes leszel-e irányítani a modellt a megfelelő "
+"távolságból. Néhány modellező klubban ez kötelező biztonsági intézkedés. A "
+"hatótáv teszt segít ebben."
 
-#: ../../source/ch_transmitter.rst:205
+#: ../../source/ch_transmitter.rst:241
 msgid ""
 "Once the range test page is opened, press the ‘Start test’ button to start "
 "the range test. The old and new power levels will be displayed.  The "
@@ -292,8 +406,14 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
+"A hatótáv teszt képernyőn a \"Teszt start\" gombbal lehet indítani a "
+"tesztelést. A képernyőn megjelenik az eredeti és az új adó teljesítmény. A "
+"normál eljárás ilyenkor, hogy elsétálsz 30 métert, és ellenőrzöd, hogy még "
+"mindig tudod-e vezérelni a modellt. A \"Teszt stop\" gomb leállítja a "
+"tesztelést, és visszaállítja az eredeti adó teljesítményt, akárcsak az "
+"\"EXT\" gomb megnyomása."
 
-#: ../../source/ch_transmitter.rst:209
+#: ../../source/ch_transmitter.rst:245
 msgid ""
 "The radio range will be reduced by the square root of the change in power "
 "level. So going from 100mW to 100uW represents a change of power of roughly "
@@ -301,19 +421,27 @@ msgid ""
 "range test of 30 meters would indicate that you should be able to control "
 "the model out to 900 meters."
 msgstr ""
+"A távirányító hatótávolsága az adó teljesítményének négyzetgyökével "
+"arányosan csökken, azaz a 100mW-ról 100uW-ra csökkentés 1000-szeres "
+"különbség, ami kb. 30-szoros hatótáv csökkenést jelent. Így ha a hatótáv "
+"teszt 30 méterig működik, akkor teljes teljesítménnyel akár 900 méterig is "
+"tudod irányítani a modellt."
 
-#: ../../source/ch_transmitter.rst:213
+#: ../../source/ch_transmitter.rst:249
 msgid ""
 "The installed RF module used for the current model must have a PA. If that "
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
 msgstr ""
+"Csak a teljesítmény erősítővel ellátott RF modulok alkalmasak a tesztelésre."
+" Ha a modul nem ilyen, vagy a kiválasztott teljesítmény eleve a minimumon "
+"van, akkor erre egy üzenet figyelmeztet."
 
-#: ../../source/ch_transmitter.rst:226
+#: ../../source/ch_transmitter.rst:262
 msgid "USB/About"
 msgstr "USB/Névjegy"
 
-#: ../../source/ch_transmitter.rst:235
+#: ../../source/ch_transmitter.rst:271
 msgid ""
 "The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
 " can then be toggled on/off to enable access to the transmitter’s file-"
@@ -322,9 +450,17 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"Az USB képernyő a főmenü \"USB\" menüpontjával érhető el. Ott az USB mód ki-"
+"be kapcsolható, hogy a távirányító fájlrendszere elérhető legyen a "
+"számítógépről. Ebben a módban a Deviation fájlrendszere USB meghajtóként "
+"érhető el, ami lehetővé teszi, hogy fájlokat mozgass a Deviation "
+"fájlrendszer és a PC között. Az összes konfigurációs fájl elérhető ilyen "
+"módon."
 
-#: ../../source/ch_transmitter.rst:239
+#: ../../source/ch_transmitter.rst:275
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"MEGJEGYZÉS: Soha ne kapcsold be az USB módot, ha épp egy modellhez vagy "
+"kapcsolódva, mert az USB használat zavarhatja a jelátvitelt!"

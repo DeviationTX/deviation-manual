@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-17 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:6
 msgid "Main Menu"
-msgstr ""
+msgstr "Főmenü"
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -28,6 +29,9 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
+"A főmenü a jobb oldalon alul található ENT nyomógomb rövid megnyomásával "
+"érhető el. A főmenü a következő menüpontokból áll: Modell menü, Távirányító "
+"menü, USB és Deviation névjegye."
 
 #: ../../source/ch_mainmenu.rst:14
 msgid ""
@@ -36,10 +40,14 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
+"A távirányító használatával kapcsolatos összes beállítás elérhető a főmenün "
+"keresztül, többek között a modell beállítások, a nyelvválasztás, a kijelző "
+"beállítások, a hangok és a rezgés, botkormány módjai és kalibrálása, az USB "
+"kapcsolat, vagy akár a verzió információ."
 
 #: ../../source/ch_mainmenu.rst:17
 msgid "Model menu"
-msgstr ""
+msgstr "Modell menü"
 
 #: ../../source/ch_mainmenu.rst:18
 msgid ""
@@ -48,10 +56,13 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"A modell menü a Deviation azon területe, ahol be tudod konfigurálni a "
+"modelled vezérlését. Minden modell adat ezen a menün belül kerül beállításra"
+" és mentésre. Részletesen az alábbi fejezet tárgyalja: :ref:`model-menu`."
 
 #: ../../source/ch_mainmenu.rst:21
 msgid "Transmitter menu"
-msgstr ""
+msgstr "Távirányító menü"
 
 #: ../../source/ch_mainmenu.rst:22
 msgid ""
@@ -60,10 +71,15 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"A távirányító menü tartalmazza a távirányító specifikus beállításokat, "
+"valamint monitorozási lehetőséget biztosít a csatornák kimeneti-, és a "
+"vezérlő elemek bemeneti adataihoz, valamint a visszakapott telemetria "
+"értékekhez (ha azok rendelkezésre állnak). Részletesen az alábbi fejezet "
+"tárgyalja: :ref:`transmitter-menu`."
 
 #: ../../source/ch_mainmenu.rst:25
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
@@ -74,19 +90,29 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"Az USB képernyőt a főmenü \"USB\" menüpontjával lehet megnyitni. Az USB "
+"kapcsolat ki/be kapcsolható, hogy a távirányító fájlrendszeréhez hozzá "
+"lehessen férni egy USB-vel ellátott számítógépről. Ebben az üzemmódban A "
+"Deviation fájlrendszere egy cserélhető USB tárhelyként látszik, ami "
+"lehetőséget ad fájlok mozgatására a Deviation fájlrendszere és a PC között. "
+"Minden konfigurációs fájl elérhető így."
 
 #: ../../source/ch_mainmenu.rst:35
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"MEGJEGYZÉS: Soha ne kapcsold be az USB üzemmódot, ha épp kapcsolódva vagy "
+"egy modellhez, mert az USB használat megszakíthatja a vezérlést!"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid "About Deviation"
-msgstr ""
+msgstr "Deviation névjegye"
 
 #: ../../source/ch_mainmenu.rst:44
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
+"A telepített Deviation szoftver verzója a főmenü \"Deviation névjegye\" "
+"menüpontjában tekinthető meg."

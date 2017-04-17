@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-17 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:6
 msgid "Main Page"
-msgstr ""
+msgstr "Főképernyő"
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr ""
+msgstr "Az általános főképernyő elrendezés a következő:"
 
 #: ../../source/ch_mainpage.rst:13
 msgid ""
@@ -31,24 +32,32 @@ msgid ""
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
 msgstr ""
+"\"Aktuális modell\": Az aktuálisan kiválasztott modell neve. A cimkére "
+"kattintva megnyílik a \"Modell betöltése\" képernyő. A modell konfigurálása "
+"a :ref:`model-setup` szerint történik."
 
 #: ../../source/ch_mainpage.rst:15
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
-msgstr ""
+msgstr "\"Telep\": Az aktuális távirányító telepfeszültség számszerű kijelzése."
 
 #: ../../source/ch_mainpage.rst:17
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
 msgstr ""
+"\"Tx telj.\": Az aktuálisan kiválasztott adó teljesítmény kiírása. "
+"Konfigurálása a :ref:`model-setup` fejezet szerint történik."
 
 #: ../../source/ch_mainpage.rst:19
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
 msgstr ""
+"**Aktuális idő**: Kijelzi az aktuális időpontot (csak Devo12 esetén). Az "
+"időpont beállítása a következő fejezetben található: :ref:`transmitter-"
+"config`."
 
 #: ../../source/ch_mainpage.rst:21
 msgid ""
@@ -56,12 +65,17 @@ msgid ""
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
 "page."
 msgstr ""
+"**Modell ikon**: Az aktuális modell képe, ha lett ilyen konfigurálva a :ref"
+":`model-setup` fejezet szerint, egyébként egy alapértelmezett kép. A képre "
+"kattintva a modell menübe jutunk."
 
 #: ../../source/ch_mainpage.rst:24
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
 msgstr ""
+"**Trim**: 10 féle különböző vízszintes és függőleges trim megjelenítése "
+"konfigurálható."
 
 #: ../../source/ch_mainpage.rst:26
 msgid ""
@@ -69,16 +83,22 @@ msgid ""
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
 "toggles displaying specific states (ex. gear, flaps,…)."
 msgstr ""
+"**Kijelzők**: Ezek az elemek lehetnek: bemeneti értéket, csatorna kimeneti "
+"értéket, telemetria adatot, vagy időzítő értéket tartalmazó szövegdobozok; "
+"kimeneti értéket megjelenítő oszlopdiagramok; vagy állapot megjelenítő "
+"ikonok (pl. futómű, fékszárny, stb...)."
 
 #: ../../source/ch_mainpage.rst:28
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
 msgstr ""
+"**Gyors menük\": A gyors menük hosszú UP/DN nyomógomb megnyomással érhetők "
+"el. Konfigurálásuk a :ref:`main-page-config` fejezet alapján."
 
 #: ../../source/ch_mainpage.rst:33
 msgid "Safety System"
-msgstr ""
+msgstr "Biztonsági rendszer"
 
 #: ../../source/ch_mainpage.rst:40
 msgid ""
@@ -96,12 +116,26 @@ msgid ""
 " case, Deviation will start communication with the model once the dialog is "
 "dismissed."
 msgstr ""
+"A Deviation egy biztonsági rendszerrel rendelkezik arra, hogy ne lehessen "
+"veszélyes állapotban bekapcsolni a távirányítót (például ne pöröghessen fel "
+"véletlenül a helikopter rotorja). A biztonsági rendszer ellenőri, hogy "
+"bizonyos feltételek teljesülnek-e, mielőtt elkezdi vezérelni a modellt. "
+"Alapesetben a gázkarhoz rendelt kimeneti csatorna értéke a minimumon kell "
+"legyen. A Deviation szoftver nem rendelkezik a feltételeket konfiguráló "
+"felülettel, de ezek a model.ini fájl közvetlen szerkesztésével hozzáadhatók."
+" Amíg a biztonsági figyelmeztető üzenet megjelenik, a távirányító nem "
+"kommunikál a modellel. Az üzenet megjelenhet a távirányító bekapcsolásakor, "
+"vagy modell váltáskor. Az üzenet magától eltűnik, ha a biztonsági feltételek"
+" teljesülnek, vagy ha az OK gombot megnyomjuk. Mindkét esetben elkezdődik a "
+"vezérlés, amint az üzenet ablak eltűnik."
 
 #: ../../source/ch_mainpage.rst:43
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
 msgstr ""
+"A biztonsági feltételek a \"[safety]\" szekcióban szerepelnek, és "
+"alapesetben így néznek ki::"
 
 #: ../../source/ch_mainpage.rst:49
 msgid ""
@@ -112,3 +146,10 @@ msgid ""
 "value can also be 'max' or 'zero', to test that the channel or stick is at "
 "the maximum value and 0."
 msgstr ""
+"Az \"Auto\" érték helyett szerepelhet bármelyik bemenet vagy csatorna neve, "
+"pl. \"Ch1\", stb. Az \"Auto\" érték megpróbálja kitalálni a gáz csatorna "
+"számát az aktuális protokoll alapján. Ha ez mégsem sikerül, és így hamis "
+"biztonsági üzeneteket kapsz, akkor \"Ch1\"-re (pl. DSMx protokoll) vagy "
+"\"Ch3\"-ra (a legtöbb egyéb protokoll) cserélése megoldhatja a problémát. A "
+"\"min\" érték helyett szerepelhet \"max\" vagy \"zero\" is, ha az adott "
+"csatorna maximum vagy 0 értékét akarjuk vizsgálni."

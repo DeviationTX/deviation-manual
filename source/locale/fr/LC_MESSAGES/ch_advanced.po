@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-17 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Sujets avancés"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "Mise en place d'un écolage"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +37,15 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviation peut être utilisé pour faire fonctionner un émetteur  soit en "
+"instructeur (maitre) ou en élève (esclave) dans une configuration d'écolage."
+" Dans ce mode l'instructeur et l'élève relient leur émetteur respectifs par "
+"un cable branché sur le port DSC. L'émetteur de l'instructeur communiquera "
+"effectivement avec le modèle, mais l'instructeur peut utiliser un "
+"interrupteur pour donner à l'élève le contrôle du modèle. Quand "
+"l'interrupteur est activé, l'émetteur de l'élève envoie les information "
+"d'entrée (manches) par le câble à l'émetteur de l'instructeur et ces entrées"
+" remplacent celles de l'instructeur."
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -47,10 +57,17 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviation peut être configuré pour fonctionner avec virtuellement tous les "
+"émetteurs qui supportent soit le mode maitre soit le mode élève. Adapter "
+"Deviation à une radio de marque différente requiert de connaitre les "
+"paramètres PPM de l'émetteur appairé et de configurer correctement le "
+"\"Centre PW\" et le \"Delta PW\" et également de savoir combien de canaux "
+"sont transmis et leur ordre. Le meilleur endroit pour trouver ces "
+"renseignements est le forum de www.deviationtx.com"
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "Mode Maitre "
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -59,6 +76,8 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"Le mode maitre est configuré en sélectionnant soit 'Canal' soit  \n"
+"'Stick' dans la boite d'entrée 'PPM in' dans la page 'Config Modèle'. En pressant sur 'Canal' ou 'Stick' on affichera les pages 'Trainer Cfg' correspondantes. Les 2 modes se comportent de manière légèrement différentes"
 
 #: ../../source/ch_advanced.rst:23
 msgid ""
@@ -68,6 +87,12 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Stick**: en mode Stick, chaque canal d'entrée est appliqué à un manche de "
+"l'émetteur maitre. Dans ce mode, le mouvement du manche de l'élève aura le "
+"même effet que si l'instructeur avait actionné le sien. En général quand on "
+"utilise ce mode l'émetteur de l'élève transmettra directement la position du"
+" manche (sans mixage) et l'émetteur de l'instructeur fera tous les mixages "
+"nécessaires."
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
@@ -78,10 +103,18 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
+"**Canaux**: En mode Canaux, chaque canal d'entrée est appliqué à un canal de"
+" sortie sur l'émetteur de l'instructeur. Dans ce mode l'émetteur de l'élève "
+"devrait faire tous les mixages nécessaires au contrôle du modèle. Il faudra "
+"prendre soin de s'assurer que les émetteurs de l'instructeur et de l'élève "
+"sont configurés identiquement, autrement le modèle pourrait ne pas réagir "
+"correctement en passant le contrôle entre l'instructeur et l'élève."
 
 #: ../../source/ch_advanced.rst:32
 msgid "Options configurable on both Trainer Cfg pages:"
 msgstr ""
+"Options configurables sur les deux pages de configuration de double commande"
+" 'Trainer Cfg'"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -89,6 +122,10 @@ msgid ""
 "transmitter transmits to represent centered servo position.  If this number "
 "doesn’t match the students transmitter, the servos will not be centered"
 msgstr ""
+"**Imp Neutre**: définit la durée (en µsec) de l'impulsion que l'émetteur de "
+"l'élève transmet pour représenter la position du centre du servo. Si ce "
+"nombre ne correspond pas à l'émetteur de l'élève, les servos ne seront pas "
+"centrés."
 
 #: ../../source/ch_advanced.rst:36
 msgid ""
@@ -96,22 +133,30 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
+"**Delta Imp**: définit la largeur de l'impulsion (mesurée à partir du "
+"centre) émise par l'émetteur de l'élève pour définir le débattement maximum "
+"du servo. Si cette valeur est incorrecte, les servos ne pourront aller au "
+"débattement maximum (ou dépasseront ce débattement)"
 
 #: ../../source/ch_advanced.rst:38
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
 msgstr ""
+"**Trainer Sw**:Définit l'interrupteur qui permet à l'élève de prendre le "
+"contrôle du modèle."
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
 msgstr ""
+"**PPM1...PPM8**: Définit la correspondance (soit canal soit entrée) entre "
+"l'émetteur de l'élève et celui de l'instructeur."
 
 #: ../../source/ch_advanced.rst:43
 msgid "Slave Mode"
-msgstr ""
+msgstr "Mode esclave"
 
 #: ../../source/ch_advanced.rst:44
 msgid ""
@@ -123,10 +168,17 @@ msgid ""
 "‘Stick’ mode (see above), there should be no mixing done in the slave "
 "transmitter."
 msgstr ""
+"Le mode esclave est configuré en choisissant 'PPM' comme protocole dans la "
+"section ref:`Config Modèle`. En pressant 'ENT' dans la boite de texte, on "
+"accède aux options de sortie.Voir la section :ref:`protocole ppm` pour "
+"effectuer la configuration. Notez que déviation émettra les données des "
+"canaux de sortie par le port PPM. Pour utiliser un émetteur élève en "
+"Deviation avec un Maitre en Deviation configuré dans le mode 'Stick' (voir "
+"ci-dessus), il ne devrait y avoir aucun mixage dans l'émetteur esclave."
 
 #: ../../source/ch_advanced.rst:49
 msgid "Setting Up FPV or Other External Inputs"
-msgstr ""
+msgstr "Installation d'un FPV ou d'autres entrées externes"
 
 #: ../../source/ch_advanced.rst:56
 msgid ""
@@ -134,36 +186,47 @@ msgid ""
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
 msgstr ""
+"Déviation peut utiliser les signaux d'entrée PPM d'une source externe (comme"
+" un système FPV). Pour configurer ce mode, mettre le PPM en mode 'Extend' "
+"dans la section  :ref:`Config Modèle`."
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
 msgstr ""
+"Une fois 'Extend' sélectionné, presser 'ENT' dans la boite de texte pour "
+"accéder à la configuration des entrées additionnelles"
 
 #: ../../source/ch_advanced.rst:60
 msgid "Configuration options:"
-msgstr ""
+msgstr "Options de Configuration:"
 
 #: ../../source/ch_advanced.rst:62
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
 msgstr ""
+"**Imp Neutre**:Définit la largeur d'impulsion pour une entrée centrée (en "
+"µsec)."
 
 #: ../../source/ch_advanced.rst:63
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
 msgstr ""
+"**Delta Imp**: Définit la différence en largeur d'impulsion (à partir de la "
+"valeur centrale) pour atteindre le débattement min/max du servo. "
 
 #: ../../source/ch_advanced.rst:64
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
 msgstr ""
+"**Num Channels**: Définit le nombre de canaux entrants (en général pas plus "
+"de 8 peuvent être supportés)."
 
 #: ../../source/ch_advanced.rst:69
 msgid "Using a Trim as a Virtual Switch"
-msgstr ""
+msgstr "Utilisation d'un trim comme interrupteur virtuel."
 
 #: ../../source/ch_advanced.rst:70
 msgid ""
@@ -171,30 +234,43 @@ msgid ""
 "mechanical switches of the transmitter.  This capability is only available "
 "when using the Advanced GUI.  There are 3 types of switches available:"
 msgstr ""
+"Déviation peut créer des interrupteurs virtuels en complément des "
+"interrupteurs mécaniques de l'émetteur. Cette possibilité est uniquement "
+"disponible quand le mode  expert est utilisé. Il y a 3 types d'interrupteurs"
+" disponibles :"
 
 #: ../../source/ch_advanced.rst:72
 msgid ""
 "**Momentary**: The switch will be active only as long as the trim button is "
 "held"
 msgstr ""
+"**Momentary**: (Momentané)L'interrupteur sera actif tant que le bouton de "
+"trim sera maintenu."
 
 #: ../../source/ch_advanced.rst:73
 msgid ""
 "**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
 " trim button is pressed"
 msgstr ""
+"**Toggle**: (Basculant) l'interrupteur basculera de ouvert à fermé ou de "
+"fermé à ouvert à chaque pression sur le bouton de trim."
 
 #: ../../source/ch_advanced.rst:74
 msgid ""
 "**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
 " will turn it off-to-on"
 msgstr ""
+"**On/Off**: Le bouton Trim+ ouvrira l'interrupteur et le bouton Trim- le "
+"fermera."
 
 #: ../../source/ch_advanced.rst:76
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
+"Pour mettre en place un interrupteur virtuel, commencer par sélectionner le "
+"trim en entrant dans la page Trims. Voir :ref:`trims-et-entrées-"
+"virtuelles'.`"
 
 #: ../../source/ch_advanced.rst:83
 msgid ""
@@ -203,12 +279,19 @@ msgid ""
 "value is less-than 0.1 Second select the 'Input' to be the virtual channel "
 "to convert to a switch (we'll use 'Virt1')"
 msgstr ""
+"Puis mettre le champ 'Finesse' sur  'Momentary', 'Toggle' ou 'On/Off'. Ceci "
+"est réalisé en pressant la flèche gauche de la boite de choix 'Finesse' "
+"jusqu'à ce que la valeur affichée soit inférieure à 0.1 seconde. "
+"Sélectionner  en 'Entrée' le canal virtuel à convertir en interrupteur (nous"
+" utiliserons 'Virt1')"
 
 #: ../../source/ch_advanced.rst:93
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
 msgstr ""
+"Puis aller dans la page 'Mixer' et entrer la configuration pour le canal "
+"virtuel choisi (Virt1 dans notre exemple)."
 
 #: ../../source/ch_advanced.rst:95
 msgid ""
@@ -216,6 +299,9 @@ msgid ""
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
 "scale to '0', and finally enable the 'Trim' button."
 msgstr ""
+"Sélectionner un type de mixer 'Complexe', entrer comme 'Source' le canal "
+"virtuel  ('Virt1'), choisir la courbe '1-à-1' (NE PAS choisir 'Fixe'), fixer"
+" l'échelle à '0' et enfin sélectioner 'Trim'."
 
 #: ../../source/ch_advanced.rst:97
 msgid ""
@@ -223,10 +309,13 @@ msgid ""
 "When the virtual switch is active, the virtual channel will have a value of "
 "100, otherwise it will have a value of -100."
 msgstr ""
+"Vous pouvez maintenant utiliser le canal virtuel  ('Virt1') comme n'importe "
+"quel autre entrée d'interrupteur. Quand l'interrupteur virtuel est actif, le"
+" canal virtuel aura une valeur de 100, autrement il aura une valeur de -100."
 
 #: ../../source/ch_advanced.rst:99 ../../source/ch_advanced.rst:147
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../source/ch_advanced.rst:103
 msgid ""
@@ -234,10 +323,13 @@ msgid ""
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
 " applied twice."
 msgstr ""
+"Note: Si vous utilisez le canal virtuel comme une 'Source' (contrairement à "
+"un 'interrupteur\"), assurez vous que 'Trim' est désactivez pour ce mixer, "
+"autrement le trim sera appliqué deux fois."
 
 #: ../../source/ch_advanced.rst:108
 msgid "Swash Mixing"
-msgstr ""
+msgstr "Mixage du plateau cyclique"
 
 #: ../../source/ch_advanced.rst:109
 msgid ""
@@ -250,6 +342,15 @@ msgid ""
 "the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
 "Mixing (CCMP)."
 msgstr ""
+"Le plateau cyclique est utilisé pour contrôler le vol sur un hélicoptère RC."
+" Le plateau cyclique contrôle le plan de rotation du rotor principal et le "
+"pas des pales. Le plateau cyclique est normalement relié à 3 servos nommés "
+"profondeur, aileron et pas collectif mais en raison de sa conception il n'y "
+"a pas une correspondance 1 à 1 entre le mouvement des manches et le "
+"mouvement des servos. Un mixage est nécessaire entre les manches des gaz, "
+"des ailerons et de la profondeur et les servos du plateau cyclique. Ce "
+"mixage est appelé mixage pas cyclique pas collectif (cyclic Collective Pitch"
+" Mixing (CCMP))."
 
 #: ../../source/ch_advanced.rst:111
 msgid ""
@@ -264,6 +365,17 @@ msgid ""
 "supplies aileron, elevator, and collective inputs, and the electronic mixer "
 "will convert the signals into appropriate swash-plate servo motion."
 msgstr ""
+"Traditionnellement, les hélicoptères RC ont utilisé une Barre de Bell au "
+"dessus attachée au dessus ou au dessous du rotor principal pour maintenir la"
+" stabilité. Dans cette configuration, l'émetteur fera normalement tous les "
+"mixages et commandera directement chacun des 3 servos. Cette configuration "
+"est appelée CCPM manuel (mCCPM). Autrement un mixer électronique peut être "
+"inclus dans l'hélicoptère soit dans le récepteur soit entre le récepteur et "
+"les servos pour effectuer les mixages nécessaires. Cette configuration est "
+"appelée CCPM électronique (eCCPM) et dans ce cas l'émetteur transmet "
+"directement les entrées des ailerons de la profondeur et du pas collectif. "
+"et le mixer électronique convertit les signaux en mouvements correctes des "
+"servos du plateau cyclique."
 
 #: ../../source/ch_advanced.rst:113
 msgid ""
@@ -274,6 +386,12 @@ msgid ""
 "less expensive to manufacture, and also provides better stability and more "
 "precise control."
 msgstr ""
+"Récemment les hélicoptères sans barre de Bell (Flybarless - FBL) sont "
+"devenus plus communs, spécialement dans la catégorie micro. Ces hélicoptères"
+" utilisent un système eCCPM avec un gyroscope électronique pour ajuster en "
+"permanence le plateau cyclique pour maintenir la stabilité sans besoin d'une"
+" barre de Bell. Cette configuration tend à être moins chère à produire, et "
+"elle permet une meilleure stabilité et un contrôle plus précis."
 
 #: ../../source/ch_advanced.rst:115
 msgid ""
@@ -281,6 +399,9 @@ msgid ""
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
 "illustrated below:"
 msgstr ""
+"Deviation fournit le contrôle pour plusieurs configurations de plateaux "
+"cycliques. Ils comprennent : 120°, 120° Alternatif , 140°, 90°, et néant. "
+"Chaque configuration est décrite ci dessous."
 
 #: ../../source/ch_advanced.rst:122
 msgid ""
@@ -291,6 +412,12 @@ msgid ""
 " up and down. Servos working in unison dramatically increases the torque "
 "available as well as the precision and centering."
 msgstr ""
+"**120 (3 Servos)**: Les servos sont placés autour du plateau cyclique à 120°"
+" d'intervalle. L'entrée Aileron incline le plateau à droite et à gauche avec"
+" les servos Aileron et Pas ; l'entrée profondeur incline le plateau en "
+"arrière et en avant grâce aux trois servos ; l'entrée Pas élève ou abaisse "
+"le plateau par les trois servos. Le travail simultané des servos accroit "
+"considérablement le couple disponible ainsi que la précision et le centrage."
 
 #: ../../source/ch_advanced.rst:129
 msgid ""
@@ -300,6 +427,11 @@ msgid ""
 " and aft; with Pitch input, all three servos raise the swash-plate up and "
 "down."
 msgstr ""
+"**120X (3 Servos)**: Identique à la configuration ci dessus excepté que les "
+"servos sont décalés de 150°. Avec l'entrée Aileron, les trois servos "
+"inclinent le plateau à droite et à gauche ; avec l'entrée Profondeur, les "
+"servos Profondeur et pas inclinent le plateau en avant et en arrière ; avec "
+"l'entrée pas les trois servos élèvent ou abaissent le plateau."
 
 #: ../../source/ch_advanced.rst:136
 msgid ""
@@ -309,6 +441,13 @@ msgid ""
 " of the combined servos and an equal cyclic rate all around. On a 120° "
 "setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
 msgstr ""
+"**140 (3 Servos)**: Les fonctions des servos des plateaux cycliques à 140° "
+"sont presque les mêmes que celles des plateaux à 120°. Cependant "
+"l'agencement des servos est différente pour la profondeur. Un plateau à 140 "
+"° permet un  fonctionnement plus lissé de l'ensemble des  servos  et un taux"
+" de pas cyclique égal autour de l'axe.  Avec une configuration à 120° le pas"
+" cyclique droite/gauche est légèrement plus rapide que le pas cyclique "
+"avant/arrière. "
 
 #: ../../source/ch_advanced.rst:143
 msgid ""
@@ -317,6 +456,11 @@ msgid ""
 "plate fore and aft; with Pitch input, all three servos raise the swash-plate"
 " up and down. Most commonly used for electronic helicopters."
 msgstr ""
+"**90 (3 Servo)**: Avec l'entrée Aileron, les servos d'aileron et de pas "
+"inclinent le plateau à droite et à gauche; avec l'entrée Profondeur les "
+"servos inclinent le plateau d'avant en arrière; avec l'entrée Pas, les trois"
+" servos elèvent ou abaissent le plateau. C'est la configuration la plus "
+"commune pour les hélicoptères électroniques."
 
 #: ../../source/ch_advanced.rst:145
 msgid ""
@@ -324,6 +468,9 @@ msgid ""
 "helicopter using a gyroscopic flight control system. Please refer to the "
 "specific manufacturers instructions to see how to configure mixer outputs."
 msgstr ""
+"**Néant**: C'est un cas spécial où tous les mixages sont faits dans "
+"l'hélicoptère qui utilise un système de contrôle de vol gyroscopique. "
+"Référez vous aux instructions du constructeur pour configurer les mixages."
 
 #: ../../source/ch_advanced.rst:151
 msgid ""
@@ -331,10 +478,13 @@ msgid ""
 "cases you will still use the designated swash-plate type but may need to "
 "reverse specific channels."
 msgstr ""
+"Note : Des hélicoptères sont du genre 120 ou 140 mais tournés de 180 degrés."
+" Dans ces cas, vous utiliserez les modèles de plateau considérés, mais vous "
+"pourrez avoir besoin d'inverser certains canaux."
 
 #: ../../source/ch_advanced.rst:156
 msgid "Modifying sounds"
-msgstr ""
+msgstr "Modification des sons."
 
 #: ../../source/ch_advanced.rst:158
 msgid ""
@@ -342,55 +492,58 @@ msgid ""
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
 "the 'media' folder."
 msgstr ""
+"Vous pouvez éditer les sons émis par votre Devo. Pour cela il faut démarrer "
+"l'émetteur en mode USB et éditer le fichier 'sound.ini' dans le dossier "
+"'media'"
 
 #: ../../source/ch_advanced.rst:162
 msgid "The sections, and what causes them to play, are:"
-msgstr ""
+msgstr "Les sections et ce qui provoque l'émission du son sont :"
 
 #: ../../source/ch_advanced.rst:164
 msgid "**startup**: Powered on."
-msgstr ""
+msgstr "**startup**: Mise sous tension."
 
 #: ../../source/ch_advanced.rst:165
 msgid "**shutdown**: Powering off."
-msgstr ""
+msgstr "**shutdown**: Mise hors tension."
 
 #: ../../source/ch_advanced.rst:166
 msgid "**volume**: Configuring transmitter volume."
-msgstr ""
+msgstr "**volume**: Régler le volume de l'émetteur."
 
 #: ../../source/ch_advanced.rst:167
 msgid "**timer_warning**: Timer is about to expire."
-msgstr ""
+msgstr "**timer_warning**: La durée du chrono va se terminer."
 
 #: ../../source/ch_advanced.rst:168
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr ""
+msgstr "**alarm#**: La durée du chrono (1 à 4) est expirée."
 
 #: ../../source/ch_advanced.rst:169
 msgid "**batt_alarm**: Battery low warning."
-msgstr ""
+msgstr "**batt_alarm**: Avertissement batterie déchargée."
 
 #: ../../source/ch_advanced.rst:170
 msgid "**done_binding**: Binding finished."
-msgstr ""
+msgstr "**done_binding**: Liaison terminée."
 
 #: ../../source/ch_advanced.rst:171
 msgid "**key_pressing**: On a key press"
-msgstr ""
+msgstr "**key_pressing**: Lors de la pression d'un bouton."
 
 #: ../../source/ch_advanced.rst:172
 msgid "**saving**: When saving a model file."
-msgstr ""
+msgstr "**saving**: Lors de la sauvegarde d'un fichier de modèle."
 
 #: ../../source/ch_advanced.rst:173
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
-msgstr ""
+msgstr "**max_len**:Quand la chaine entrée au clavier est trop longue."
 
 #: ../../source/ch_advanced.rst:174
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
-msgstr ""
+msgstr "**telem_alarm#**: Une alarme de télémétrie (1 à 6) a été déclenchée."
 
 #: ../../source/ch_advanced.rst:176
 msgid ""
@@ -399,6 +552,10 @@ msgid ""
 "milliseconds to play that note. There is a limit of 100 notes for each "
 "sound."
 msgstr ""
+"Dans chaque section vous pouvez ajuster le 'volume' de 0 (muet) à 100 (max)."
+" Le reste des entrées sont des noms de notes et la valeur est le nombre de "
+"millisecondes pendant lequel elles sont jouées. Il y a une limite de 100 "
+"notes pour chaque son."
 
 #: ../../source/ch_advanced.rst:181
 msgid ""
@@ -408,3 +565,9 @@ msgid ""
 "ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
 "addition, 'a', 'ax' and 'b' will play the three notes below middle C."
 msgstr ""
+"Les noms des notes sont : 'xx' qui est un silence (pas de note jouée). Vous "
+"pouvez sélectionner une note  ('a'-'g'  (la-sol)) éventuellement diésée en "
+"ajoutant un 'x' pour a', 'c', 'd', 'f' ou 'g'. Enfin vous pouvez choisir un "
+"octave avec un chiffre de '0' à '4'. Les sons vont de 'c0' (do du milieu) à "
+"'b4'. De plus  'a', 'ax' et  'b' joueront les trois notes en dessous du do "
+"du milieu."
