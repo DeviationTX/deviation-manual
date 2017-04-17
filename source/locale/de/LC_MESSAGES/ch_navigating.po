@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 12:52+0000\n"
+"POT-Creation-Date: 2017-04-17 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,9 +18,9 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/ch_navigating.rst:4
+#: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:44
 msgid "Navigating"
-msgstr ""
+msgstr "Navigation"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -28,26 +29,37 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"Durch die Sendermenüs kann durch Drücken der entsprechenden Bilder auf dem "
+"Bildschirm oder mit den physischen Knöpfen UP (rauf), DN (runter), L "
+"(links), R (rechts), ENT (Eingabe) und EXT (Ausgang) navigiert werden. Alle "
+"Knöpfe und Schalter sind am Sender genauso markiert wie sie in diesem "
+"Handbuch verwendet werden."
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
+"Es gibt diverse GUI Elemente die benutzt werden, um die Sendereinstellungen "
+"zu konfigurieren."
 
 #: ../../source/ch_navigating.rst:14
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
 msgstr ""
+"**Schaltflächen**: Schaltflächen können gedrückt werden um entweder eine "
+"Einstellung zu ändern oder um ein neues Menü aufzurufen."
 
 #: ../../source/ch_navigating.rst:17
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
+"**Drehfelder**: Drehfelder werden benutzt um einen Wert aus mehreren "
+"auszuwählen."
 
 #: ../../source/ch_navigating.rst:19
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "Es gibt zwei Arten von Drehfeldern:"
 
 #: ../../source/ch_navigating.rst:21
 msgid ""
@@ -55,79 +67,111 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
+"Drehfelder welche aus Pfeilen und einer Schalftfläche bestehen, "
+"funktionieren sowohl als Drehfeld (um einen Wert zu ändern) sowie als "
+"Schaltfläche (welcher verschiedene Auswirkungen haben kann)."
 
 #: ../../source/ch_navigating.rst:22
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
 msgstr ""
+"Drehfelder die nur aus Pfeilen und einer weißen Beschriftung bestehen sind "
+"nur zum Verändern von Werten und ohne Schaltfläche."
 
 #: ../../source/ch_navigating.rst:24
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
+"Beachten Sie bitte, das Drehfelder abhängig von Ihrem Wert auch nur manchmal"
+" eine Schaltfläche haben können."
 
 #: ../../source/ch_navigating.rst:28
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
+"**Textfelder**: stellen grundsätzlich Informationen zur Verfügung, "
+"allerdings können sie in einigen Fällen gedrückt werden um eine Aktion "
+"auszuführen (wie eine Schaltfläche)."
 
 #: ../../source/ch_navigating.rst:31
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
 msgstr ""
+" **Symbole**: stellen entweder Informationen zur Verfügung oder sind "
+"drückbar um eine Aktion auszuführen (wie eine Schaltfläche)."
 
-#: ../../source/ch_navigating.rst:39
+#: ../../source/ch_navigating.rst:35
+msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
+msgstr "Das Hauptmenü kann durch das Drücken von 'ENT' erreicht werden."
+
+#: ../../source/ch_navigating.rst:42
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "Navigation mit den Druckknöpfen"
 
-#: ../../source/ch_navigating.rst:40
+#: ../../source/ch_navigating.rst:45
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
+"Auf allen Menüseiten wird 'UP' und 'DN' zum Navigieren zum vorigen oder "
+"nächsten Element verwendet."
 
-#: ../../source/ch_navigating.rst:41
+#: ../../source/ch_navigating.rst:46
 msgid ""
 "The ‘R+’ and ‘L-’ buttons are used on spin-box widgets to increase or "
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
+"Die 'R+' und 'L-' Tasten werden in Drehfeldern verwendet um Werte zu "
+"verändern. In einigen Fällen verändern sich die Werte schneller, wenn man "
+"die Taste gedrückt hält."
 
-#: ../../source/ch_navigating.rst:42
+#: ../../source/ch_navigating.rst:47
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
+"Bei Schaltflächen und drückbaren Drehfeldern wird diese mit 'ENT' betätigt."
 
-#: ../../source/ch_navigating.rst:43
+#: ../../source/ch_navigating.rst:48
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
+"Drücken von 'EXT' entfernt die Auswahl von der aktuellen Medienfläche. Ein "
+"langer Druck auf 'EXT' führt eine (1) Menüebene zurück."
 
-#: ../../source/ch_navigating.rst:48
+#: ../../source/ch_navigating.rst:53
 msgid "Menu Layout"
-msgstr ""
+msgstr "Menü Layout"
 
-#: ../../source/ch_navigating.rst:49
+#: ../../source/ch_navigating.rst:54
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "Es sind 2 unterschiedliche nicht verbundene Menüs verfügbar:"
 
-#: ../../source/ch_navigating.rst:51
+#: ../../source/ch_navigating.rst:56
 msgid ""
 "The transmitter menu allows you to select transmitter-specific options as "
 "well as monitor channel output & stick input, and monitor telemetry (if "
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"Das Sendermenü erlaubt Ihnen senderspezifische Einstellungen vorzunehmen und"
+" die Kanalanzeige, die Eingabeanzeige und die Telemetrieanzeige (falls "
+"verfügbar) zu öffnen. Details finden sich im Abschnitt :ref:`transmitter-"
+"menu`."
 
-#: ../../source/ch_navigating.rst:52
+#: ../../source/ch_navigating.rst:57
 msgid ""
 "The model menu is the area within deviation that you can configure the type "
 "of aircraft you are flying. All model data is managed and saved within this "
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Das Modellmenü ist der Bereich in Deviation, in dem Sie ihr RC Modell "
+"konfigurieren können. Alle Modelldaten werden innerhalb dieses Menüs "
+"eingestellt und gespeichert. Einzelheiten finden Sie in Abschnitt :ref"
+":`model-menu`."
