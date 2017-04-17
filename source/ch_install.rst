@@ -150,6 +150,7 @@ Once the 'Deviation Uploader' is open, connect your transmitter to a
 USB port, and then turn it on while holding down the 'EXT' button.
 On the Devo 12, this is done by holding the trainer switch instead.
 .. endif::
+
 .. if:: devo10
 Once the 'Deviation Uploader' is open, connect your transmitter to a
 USB port, and then turn it on while holding down the 'EXT' button.
@@ -167,6 +168,7 @@ devices. Take the steps necessary to resolve any connection issues.
 .. if:: devo8
 2) If this is an initial install, all the 'Replace' boxes, along with 'Format' will be preselected.
 .. endif::
+
 .. if:: devo10
 2) If this is an initial install, all the 'Replace' boxes, along with 'Format' will be preselected.
    On the Devo F7 and Devo F12E initial install, select the 'Format'

@@ -10,6 +10,7 @@ via the physical buttons UP, D(ow)N, L(eft), R(ight), ENT(er),
 EX(i)T. All buttons and switches have been marked with the same
 descriptions as used in this manual.
 .. endif::
+
 .. if:: devo10
 The transmitter menus can be navigated
 via the physical buttons UP, D(ow)N, L(eft), R(ight), ENT(er),
