@@ -145,10 +145,15 @@ The 'Deviation Uploader' is a Java (jar) file. You can
 either pass the jar file to the Java executable on the command line,
 or open the file in the GUI, using the Java application to open it. You will need to install Java from http://www.java.com/ if you haven't already installed it.
 
+.. if:: devo8
 Once the 'Deviation Uploader' is open, connect your transmitter to a
 USB port, and then turn it on while holding down the 'EXT' button.
-.. if:: devo8
 On the Devo 12, this is done by holding the trainer switch instead.
+.. endif::
+
+.. if:: devo10
+Once the 'Deviation Uploader' is open, connect your transmitter to a
+USB port, and then turn it on while holding down the 'EXT' button.
 .. endif::
 
 If everything is working properly, you should see the 'Transmitter'
@@ -160,8 +165,12 @@ check your driver installation and try unplugging all other USB
 devices. Take the steps necessary to resolve any connection issues.
 
 1) Press the '…' button and select the zip file for the firmware you will install. There is no need to unpack the zip file since the Deviation Uploader will handle that.
+.. if:: devo8
 2) If this is an initial install, all the 'Replace' boxes, along with 'Format' will be preselected.
+.. endif::
+
 .. if:: devo10
+2) If this is an initial install, all the 'Replace' boxes, along with 'Format' will be preselected.
    On the Devo F7 and Devo F12E initial install, select the 'Format'
    check box if not already selected.
 .. endif::

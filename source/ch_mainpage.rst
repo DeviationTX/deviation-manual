@@ -20,9 +20,13 @@ The standard main page layout is as follows:
 **Current Time**: This indicates the current time (on Devo12 transmitters only).  The time is set from section :ref:`transmitter-config`. 
 .. endif::
 
-**Model Icon**: An image representing the current model. It is configured from section :ref:`model-setup`. 
 .. if:: devo8
+**Model Icon**: An image representing the current model. It is configured from section :ref:`model-setup`. 
 Pressing the icon will take you to that page.
+.. endif::
+
+.. if:: devo10
+**Model Icon**: An image representing the current model. It is configured from section :ref:`model-setup`. 
 .. endif::
 
 **Trims**: The trim display can be configured to show up to 10 different horizontal and vertical trims.

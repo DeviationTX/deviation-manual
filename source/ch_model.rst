@@ -428,13 +428,13 @@ The default value for any of the offsets in above mentioned curves is 0 (zero). 
 Curve Editing
 ~~~~~~~~~~~~~
 
-The Curve Editor is accessed by
-.. if:: devo8
-by pressing a graph or by pressing or
+.. if:: devo10
+The Curve Editor is accessed by selecting the curve spin-box when it is selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-box will not be selectable if one of these curves is currently active.
 .. endif::
-selecting the curve spin-box when it is selectable.  The 1-1 and
-Fixed curve types may not be edited, and the curve-box will not be
-selectable if one of these curves is currently active.
+
+.. if:: devo8
+The Curve Editor is accessed by pressing a graph or by pressing or selecting the curve spin-box when it is selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-box will not be selectable if one of these curves is currently active.
+.. endif::
 
 The Curve editor page will be different depending on which curve is selected.  It is not possible to change the curve type from the curve editor (except when a multi-point curve is selected).  Values can be set using the spin-box or by touching the graph.
 
@@ -650,9 +650,11 @@ Loading Objects
 .. if:: devo8
    After selecting the '+' icon to open the add-item dialog, you may 'Load' alternate templates, to change the main page layout.
 .. endif::
+
 .. if:: devo10
    You can 'Load' alternate templates, to change the main page layout.
 .. endif::
+
    If you select 'Default' the layout will be set to the standard layout as shown in section :ref:`main-page`.
 
    Selecting 'Empty' will clear all objects. You may start from scratch.
