@@ -3,13 +3,20 @@
 Navigating
 ==========
 
-The transmitter menus can be navigated
 .. if:: devo8
+The transmitter menus can be navigated
 by pressing the corresponding image on the screen or 
-.. endif::
 via the physical buttons UP, D(ow)N, L(eft), R(ight), ENT(er),
 EX(i)T. All buttons and switches have been marked with the same
 descriptions as used in this manual.
+.. endif::
+
+.. if:: devo10
+The transmitter menus can be navigated
+via the physical buttons UP, D(ow)N, L(eft), R(ight), ENT(er),
+EX(i)T. All buttons and switches have been marked with the same
+descriptions as used in this manual.
+.. endif::
 
 There are several GUI elements that are used to configure settings on the transmitter
 
