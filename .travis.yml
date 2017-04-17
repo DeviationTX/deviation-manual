@@ -45,7 +45,7 @@ before_install:
 
 script:
     - if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
-           if [[ "$TARGET" == "devo10" && "$MAKETARGET" == "latexpdf-release" ]]; then
+           if [[ "$TARGET" == "devo8" && "$MAKETARGET" == "latexpdf-release" ]]; then
                git clone https://www.github.com/DeviationTX/deviation-manual.git $HOME/txgit --depth 20 > /dev/null 2>&1;
                cp .transifexrc $HOME/txgit; pushd $HOME/txgit;
                tx pull -f -a; git add source/locale;
@@ -66,8 +66,10 @@ cache:
 # Generate new strings for transifex from manual changes
 # Upload manual builds to deviationtx.com
 after_success:
-    - if [[ "$TRAVIS_EVENT_TYPE" == "push" && "$MAKETARGET" == "latexpdf-release" ]]; then      
-          make gettext; sphinx-intl -c source/conf.py-intl update -p build/locale; tx push -s;
+    - if [[ "$TRAVIS_EVENT_TYPE" == "push" && "$MAKETARGET" == "latexpdf-release" ]]; then
+           if [[ "$TARGET" == "devo8" ]]; then
+               make gettext; sphinx-intl -c source/conf.py-intl update -p build/locale; tx push -s;
+           fi;
           export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}');
           export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf");
           echo "Uploading Documentation - $TARGET_PDF";
