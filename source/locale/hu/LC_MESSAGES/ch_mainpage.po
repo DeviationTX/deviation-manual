@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 20:26+0000\n"
+"POT-Creation-Date: 2017-04-18 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -71,13 +71,21 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:24
 msgid ""
+"**Model Icon**: An image representing the current model. It is configured "
+"from section :ref:`model-setup`."
+msgstr ""
+"**Modell ikon**: Az aktuális modell képe, ha lett ilyen konfigurálva a :ref"
+":`model-setup` fejezet szerint, egyébként egy alapértelmezett kép."
+
+#: ../../source/ch_mainpage.rst:26
+msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
 msgstr ""
 "**Trim**: 10 féle különböző vízszintes és függőleges trim megjelenítése "
 "konfigurálható."
 
-#: ../../source/ch_mainpage.rst:26
+#: ../../source/ch_mainpage.rst:28
 msgid ""
 "**Displays**: These items can be text-boxes containing input, channel, "
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
@@ -88,7 +96,7 @@ msgstr ""
 "kimeneti értéket megjelenítő oszlopdiagramok; vagy állapot megjelenítő "
 "ikonok (pl. futómű, fékszárny, stb...)."
 
-#: ../../source/ch_mainpage.rst:28
+#: ../../source/ch_mainpage.rst:30
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
@@ -96,11 +104,11 @@ msgstr ""
 "**Gyors menük\": A gyors menük hosszú UP/DN nyomógomb megnyomással érhetők "
 "el. Konfigurálásuk a :ref:`main-page-config` fejezet alapján."
 
-#: ../../source/ch_mainpage.rst:33
+#: ../../source/ch_mainpage.rst:35
 msgid "Safety System"
 msgstr "Biztonsági rendszer"
 
-#: ../../source/ch_mainpage.rst:40
+#: ../../source/ch_mainpage.rst:42
 msgid ""
 "Deviation has a safety system to prevent starting up in a dangerous state "
 "(for instance spinning up the main rotor of a helicopter accidentally). The "
@@ -129,7 +137,7 @@ msgstr ""
 " teljesülnek, vagy ha az OK gombot megnyomjuk. Mindkét esetben elkezdődik a "
 "vezérlés, amint az üzenet ablak eltűnik."
 
-#: ../../source/ch_mainpage.rst:43
+#: ../../source/ch_mainpage.rst:45
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
@@ -137,7 +145,7 @@ msgstr ""
 "A biztonsági feltételek a \"[safety]\" szekcióban szerepelnek, és "
 "alapesetben így néznek ki::"
 
-#: ../../source/ch_mainpage.rst:49
+#: ../../source/ch_mainpage.rst:51
 msgid ""
 "The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
 "'Auto' tries to guess your throttle channel number. If that isn't working, "

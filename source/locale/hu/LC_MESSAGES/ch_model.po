@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 20:26+0000\n"
+"POT-Creation-Date: 2017-04-18 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -676,13 +676,20 @@ msgstr ""
 
 #: ../../source/ch_model.rst:467
 msgid ""
-"The Curve Editor is accessed by by pressing a graph or by pressing or "
-"selecting the curve spin-box when it is selectable.  The 1-1 and Fixed curve"
-" types may not be edited, and the curve-box will not be selectable if one of"
-" these curves is currently active."
+"The Curve Editor is accessed by selecting the curve spin-box when it is "
+"selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
+"box will not be selectable if one of these curves is currently active."
 msgstr ""
 
-#: ../../source/ch_model.rst:473
+#: ../../source/ch_model.rst:469
+msgid ""
+"The Curve Editor is accessed by pressing a graph or by pressing or selecting"
+" the curve spin-box when it is selectable.  The 1-1 and Fixed curve types "
+"may not be edited, and the curve-box will not be selectable if one of these "
+"curves is currently active."
+msgstr ""
+
+#: ../../source/ch_model.rst:471
 msgid ""
 "The Curve editor page will be different depending on which curve is "
 "selected.  It is not possible to change the curve type from the curve editor"
@@ -690,7 +697,7 @@ msgid ""
 " spin-box or by touching the graph."
 msgstr ""
 
-#: ../../source/ch_model.rst:480
+#: ../../source/ch_model.rst:478
 msgid ""
 "For the Min/Max, Zero/Max, >0, <0, and ABSVAL, the controls allow setting "
 "the transition point along the x-axis.  A value of ‘0’ will be symmetric "
@@ -698,19 +705,19 @@ msgid ""
 "accordingly"
 msgstr ""
 
-#: ../../source/ch_model.rst:487
+#: ../../source/ch_model.rst:485
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
 msgstr ""
 
-#: ../../source/ch_model.rst:494
+#: ../../source/ch_model.rst:492
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
 msgstr ""
 
-#: ../../source/ch_model.rst:501
+#: ../../source/ch_model.rst:499
 msgid ""
 "For the Multi-point curves, each point can be individually set.  Points are "
 "set by choosing the point number and then choosing a value. The minimum "
@@ -719,37 +726,37 @@ msgid ""
 "points via straight lines."
 msgstr ""
 
-#: ../../source/ch_model.rst:506
+#: ../../source/ch_model.rst:504
 msgid "Timers (Std & Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:521
+#: ../../source/ch_model.rst:519
 msgid ""
 "The timer page defines up to 4 available timers.  Timers can count either up"
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
 
-#: ../../source/ch_model.rst:524
+#: ../../source/ch_model.rst:522
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
 
-#: ../../source/ch_model.rst:527
+#: ../../source/ch_model.rst:525
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
 msgstr ""
 
-#: ../../source/ch_model.rst:530
+#: ../../source/ch_model.rst:528
 msgid ""
 "Both proportional timers need an input between 0 and 100 to act correctly. "
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
 
-#: ../../source/ch_model.rst:537
+#: ../../source/ch_model.rst:535
 msgid ""
 "The ‘permanent’ timers are similar to an odometer and have their values "
 "saved in the model.ini file. They will maintain their previous value when "
@@ -757,37 +764,37 @@ msgid ""
 "button and reset by pressing the 'Reset' button."
 msgstr ""
 
-#: ../../source/ch_model.rst:543
+#: ../../source/ch_model.rst:541
 msgid "Telemetry config (Std & Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:553
+#: ../../source/ch_model.rst:551
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
 msgstr ""
 
-#: ../../source/ch_model.rst:555
+#: ../../source/ch_model.rst:553
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
 
-#: ../../source/ch_model.rst:557
+#: ../../source/ch_model.rst:555
 msgid ""
 "**Equality**: Can be '>=' or '<=' indicating whether a value above or below "
 "the target causes an alarm."
 msgstr ""
 
-#: ../../source/ch_model.rst:558
+#: ../../source/ch_model.rst:556
 msgid "**Target**: The target value for the alarm."
 msgstr ""
 
-#: ../../source/ch_model.rst:563
+#: ../../source/ch_model.rst:561
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:572
+#: ../../source/ch_model.rst:570
 msgid ""
 "The trim page allows assigning the trim buttons and trim step, as well as "
 "configuring buttons to work as virtual inputs (see :ref:`trim-as-virtual-"
@@ -795,7 +802,7 @@ msgid ""
 "'Trims'."
 msgstr ""
 
-#: ../../source/ch_model.rst:574
+#: ../../source/ch_model.rst:572
 msgid ""
 "If the ‘Input’ field is set to an input stick, then the trim can be applied "
 "as part of the mixer, and will operate as a typical trim control.  If the "
@@ -805,14 +812,14 @@ msgid ""
 "channel."
 msgstr ""
 
-#: ../../source/ch_model.rst:589
+#: ../../source/ch_model.rst:587
 msgid ""
 "The trim-step defines how sensitive the trims are to input.  The maximum "
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
 msgstr ""
 
-#: ../../source/ch_model.rst:591
+#: ../../source/ch_model.rst:589
 msgid ""
 "The trim-step can be changed on the main screen. If you have to change the "
 "source also please use the dialog accessed by pressing the respective "
@@ -821,16 +828,16 @@ msgid ""
 "position."
 msgstr ""
 
-#: ../../source/ch_model.rst:596
+#: ../../source/ch_model.rst:594
 msgid "Datalog (Std & Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:600 ../../source/ch_model.rst:669
-#: ../../source/ch_model.rst:693
+#: ../../source/ch_model.rst:598 ../../source/ch_model.rst:667
+#: ../../source/ch_model.rst:691
 msgid "Note: This feature is not available for Devo7e."
 msgstr ""
 
-#: ../../source/ch_model.rst:603
+#: ../../source/ch_model.rst:601
 msgid ""
 "The Datalog feature allows storing a history of input or output positions as"
 " well as telemetry info over a period of time. This can be used to examine "
@@ -839,36 +846,36 @@ msgid ""
 " the previous log by default."
 msgstr ""
 
-#: ../../source/ch_model.rst:612
+#: ../../source/ch_model.rst:610
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
 msgstr ""
 
-#: ../../source/ch_model.rst:613
+#: ../../source/ch_model.rst:611
 msgid "**Enable**: Input which enables logging."
 msgstr ""
 
-#: ../../source/ch_model.rst:614
+#: ../../source/ch_model.rst:612
 msgid "**Reset**: Clear the current log."
 msgstr ""
 
-#: ../../source/ch_model.rst:615
+#: ../../source/ch_model.rst:613
 msgid "**Rate**: How often to write current info to the log file."
 msgstr ""
 
-#: ../../source/ch_model.rst:616
+#: ../../source/ch_model.rst:614
 msgid "**Select**: Quickly set or reset which items are logged."
 msgstr ""
 
-#: ../../source/ch_model.rst:617
+#: ../../source/ch_model.rst:615
 msgid ""
 "**Controls**: Following 'Select' are a list of all controls which may be "
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
 
-#: ../../source/ch_model.rst:619
+#: ../../source/ch_model.rst:617
 msgid ""
 "**Logging more information** By default, the log can only store 16kB of "
 "data. You can increase the amount of data to be stored by changing the "
@@ -877,7 +884,7 @@ msgid ""
 "can be stored."
 msgstr ""
 
-#: ../../source/ch_model.rst:622
+#: ../../source/ch_model.rst:620
 msgid ""
 "**Note: This is a feature for advanced users only**. There is currently no "
 "software provided to analyze the logs, and they cannot be visualized from "
@@ -885,28 +892,28 @@ msgid ""
 "www.deviationtx.com for conversion tools."
 msgstr ""
 
-#: ../../source/ch_model.rst:627
+#: ../../source/ch_model.rst:625
 msgid "Main page config (Std & Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:642
+#: ../../source/ch_model.rst:640
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
 
-#: ../../source/ch_model.rst:645
+#: ../../source/ch_model.rst:643
 msgid "The following types of objects can be displayed:"
 msgstr ""
 
-#: ../../source/ch_model.rst:648
+#: ../../source/ch_model.rst:646
 msgid ""
 "**Box**: Display a numeric value.  Values can be timers, channel values, "
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
 msgstr ""
 
-#: ../../source/ch_model.rst:649
+#: ../../source/ch_model.rst:647
 msgid ""
 "**Trimbar**: Display a trim value.  These generally are controlled by the "
 "trim switch and indicate what the current trim position is.  There are two "
@@ -914,25 +921,25 @@ msgid ""
 "bar. After inserting all trims do have numbers only."
 msgstr ""
 
-#: ../../source/ch_model.rst:650
+#: ../../source/ch_model.rst:648
 msgid "**Model (Icon)**: Display the icon related to the selected model."
 msgstr ""
 
-#: ../../source/ch_model.rst:651
+#: ../../source/ch_model.rst:649
 msgid "**Battery**: Display the battery voltage."
 msgstr ""
 
-#: ../../source/ch_model.rst:652
+#: ../../source/ch_model.rst:650
 msgid "**TxPower**: Displays the actual transmitter rating."
 msgstr ""
 
-#: ../../source/ch_model.rst:653
+#: ../../source/ch_model.rst:651
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
 msgstr ""
 
-#: ../../source/ch_model.rst:655
+#: ../../source/ch_model.rst:653
 msgid ""
 "**Toggle**: Show an icon indicating the state of a toggle switch.  There can"
 " be 1, 2, or 3 icons defined for a given toggle indicating different states "
@@ -940,17 +947,17 @@ msgid ""
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
 
-#: ../../source/ch_model.rst:656
+#: ../../source/ch_model.rst:654
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
 msgstr ""
 
-#: ../../source/ch_model.rst:661
+#: ../../source/ch_model.rst:659
 msgid "Configuring object position"
 msgstr ""
 
-#: ../../source/ch_model.rst:664
+#: ../../source/ch_model.rst:662
 msgid ""
 "Each of the visual objects can be selected by pressing on them, or with the "
 "UP/DN buttons followed by ENT.  Once selected, the UP/DN/L/R buttons will "
@@ -959,7 +966,7 @@ msgid ""
 "object.  Press EXT once to exit move mode."
 msgstr ""
 
-#: ../../source/ch_model.rst:676
+#: ../../source/ch_model.rst:674
 msgid ""
 "Pressing and holding the ENT button from the model configuration page will "
 "switch to the object position screen.  Each of the visual objects can be "
@@ -969,11 +976,11 @@ msgid ""
 "to go back to the main page config menu."
 msgstr ""
 
-#: ../../source/ch_model.rst:680
+#: ../../source/ch_model.rst:678
 msgid "Creating Objects"
 msgstr ""
 
-#: ../../source/ch_model.rst:688
+#: ../../source/ch_model.rst:686
 msgid ""
 "Select the '+' icon to open the add-item dialog.  Then select the object "
 "type from the spin-box on the left, then press ‘Add’ to create the object.  "
@@ -981,7 +988,7 @@ msgid ""
 "can now place and configure the new object."
 msgstr ""
 
-#: ../../source/ch_model.rst:695
+#: ../../source/ch_model.rst:693
 msgid ""
 "Select the object type from the spin-box on the left, then press ‘**Add**’ "
 "to create the object.  This will add the relevant object type to the "
@@ -989,17 +996,24 @@ msgid ""
 " move the cursor to the newly created object and configure as desired."
 msgstr ""
 
-#: ../../source/ch_model.rst:699
+#: ../../source/ch_model.rst:697
 msgid "Loading Objects"
 msgstr ""
 
-#: ../../source/ch_model.rst:708
+#: ../../source/ch_model.rst:706
 msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
-"alternate templates, to change the main page layout. You can 'Load' "
-"alternate templates, to change the main page layout. If you select 'Default'"
-" the layout will be set to the standard layout as shown in section :ref"
-":`main-page`."
+"alternate templates, to change the main page layout."
+msgstr ""
+
+#: ../../source/ch_model.rst:708
+msgid "You can 'Load' alternate templates, to change the main page layout."
+msgstr ""
+
+#: ../../source/ch_model.rst:710
+msgid ""
+"If you select 'Default' the layout will be set to the standard layout as "
+"shown in section :ref:`main-page`."
 msgstr ""
 
 #: ../../source/ch_model.rst:712

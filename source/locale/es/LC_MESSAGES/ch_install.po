@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 20:26+0000\n"
+"POT-Creation-Date: 2017-04-18 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -254,6 +254,12 @@ msgstr ""
 
 #: ../../source/ch_install.rst:142
 msgid ""
+"Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
+"port, and then turn it on while holding down the 'EXT' button."
+msgstr ""
+
+#: ../../source/ch_install.rst:145
+msgid ""
 "If everything is working properly, you should see the 'Transmitter' change "
 "to the type of the connected transmitter. If it changes to the wrong "
 "transmitter type, stop now and seek help from the forums. If it doesn't "
@@ -263,41 +269,47 @@ msgid ""
 "necessary to resolve any connection issues."
 msgstr ""
 
-#: ../../source/ch_install.rst:150
+#: ../../source/ch_install.rst:153
 msgid ""
 "Press the '…' button and select the zip file for the firmware you will "
 "install. There is no need to unpack the zip file since the Deviation "
 "Uploader will handle that."
 msgstr ""
 
-#: ../../source/ch_install.rst:151
+#: ../../source/ch_install.rst:154
+msgid ""
+"If this is an initial install, all the 'Replace' boxes, along with 'Format' "
+"will be preselected."
+msgstr ""
+
+#: ../../source/ch_install.rst:156
 msgid ""
 "If this is an initial install, all the 'Replace' boxes, along with 'Format' "
 "will be preselected. On the Devo F7 and Devo F12E initial install, select "
 "the 'Format' check box if not already selected."
 msgstr ""
 
-#: ../../source/ch_install.rst:154
+#: ../../source/ch_install.rst:159
 msgid ""
 "Click the 'Install/Upgrade' option. Installation will take a few minutes, so"
 " be patient. A pop-up dialog box will notify you when installation is "
 "completed. You are done."
 msgstr ""
 
-#: ../../source/ch_install.rst:155
+#: ../../source/ch_install.rst:160
 msgid ""
 "Turn off your Devo transmitter. When you turn it on again, you'll be greeted"
 " by the Deviation splash screen."
 msgstr ""
 
-#: ../../source/ch_install.rst:160
+#: ../../source/ch_install.rst:165
 msgid ""
 "On the F7 and F12E, do not enable USB mode, as the file system cannot be "
 "accessed from the desktop, and you need to use the 'File Manager' tab on the"
 " 'Deviation Uploader' to manage files."
 msgstr ""
 
-#: ../../source/ch_install.rst:164
+#: ../../source/ch_install.rst:169
 msgid ""
 "For transmitters other than the F7 and F12E, turn the transmitter back on "
 "while holding 'ENT'. There should be a USB logo on the screen. If this is a "
@@ -305,18 +317,18 @@ msgid ""
 " Format using default options."
 msgstr ""
 
-#: ../../source/ch_install.rst:167
+#: ../../source/ch_install.rst:172
 msgid "Upgrading the file system with Deviation Uploader"
 msgstr ""
 
-#: ../../source/ch_install.rst:170
+#: ../../source/ch_install.rst:175
 msgid ""
 "The Devo F7 and F12E do not support access via USB. Do not turn it on, as "
 "formatting the disk from your desktop will destroy your deviation "
 "installation."
 msgstr ""
 
-#: ../../source/ch_install.rst:175
+#: ../../source/ch_install.rst:180
 msgid ""
 "If you followed the foregoing instructions for installing the deviation "
 "firmware ZIP file for your Devo using the Deviation Uploader tool, your "
@@ -327,11 +339,11 @@ msgid ""
 " it can be done."
 msgstr ""
 
-#: ../../source/ch_install.rst:178
+#: ../../source/ch_install.rst:183
 msgid "Deviation 5.0"
 msgstr ""
 
-#: ../../source/ch_install.rst:180
+#: ../../source/ch_install.rst:185
 msgid ""
 "The long-awaited firmware update from version 4.0.1 to version 5.0 was "
 "accomplished on April 30, 2016 and was announce on the DeviationTx website "
@@ -341,11 +353,11 @@ msgid ""
 "list as well as new protocols and features, when they become available."
 msgstr ""
 
-#: ../../source/ch_install.rst:183
+#: ../../source/ch_install.rst:188
 msgid "Nightly Deviation Builds"
 msgstr ""
 
-#: ../../source/ch_install.rst:185
+#: ../../source/ch_install.rst:190
 msgid ""
 "The Nightly builds are versions of Deviation with additional features beyond"
 " the Deviation 5.0 release version.  The Nightly builds are provided to "
@@ -357,7 +369,7 @@ msgid ""
 "http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
 msgstr ""
 
-#: ../../source/ch_install.rst:195
+#: ../../source/ch_install.rst:200
 msgid ""
 "These builds are published when new features are added to the Deviation core"
 " feature set, when major bugs are corrected and when new hardware support is"
@@ -366,18 +378,19 @@ msgid ""
 "-news-announcements/1416-nightly-builds"
 msgstr ""
 
-#: ../../source/ch_install.rst:201
+#: ../../source/ch_install.rst:206
 msgid ""
 "The ONLINE User Manual for Deviation is regularly reviewed and updated to "
 "include information about new common features.  Additionally, while best "
 "efforts are made by the Deviation community to update these User Guides, "
 "this documentation MAY NOT fully describe the features of the nightly "
 "builds.  Any Deviation user with an update or change to the manual can "
-"submit additions and changes via the Deviation Bug Tracker at "
-"http://deviationtx.com/mantisbt"
+"submit additions and changes via the Deviation-manual Github repository's "
+"issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
+" edit the source of the manual directly."
 msgstr ""
 
-#: ../../source/ch_install.rst:209
+#: ../../source/ch_install.rst:215
 msgid ""
 "So should you load the Deviation 5.0 release or should you load a Nightly?  "
 "Your own requirements will determine the answer to that question.  If you "
@@ -388,7 +401,7 @@ msgid ""
 "the Nightly build."
 msgstr ""
 
-#: ../../source/ch_install.rst:218
+#: ../../source/ch_install.rst:224
 msgid ""
 "If you are also adding hardware modifications, such as switches or "
 "transmitter modules, you should install the Deviation Nightly build first "
@@ -397,11 +410,11 @@ msgid ""
 " you determine the source of issues later for troubleshooting."
 msgstr ""
 
-#: ../../source/ch_install.rst:227
+#: ../../source/ch_install.rst:233
 msgid "Test Builds"
 msgstr ""
 
-#: ../../source/ch_install.rst:229
+#: ../../source/ch_install.rst:235
 msgid ""
 "Test Builds are for experienced users only.  The Deviation Test builds are "
 "prepared by software developers to test new features or hardware options, "
@@ -409,7 +422,7 @@ msgid ""
 "specific transmitter configuration or hardware mods."
 msgstr ""
 
-#: ../../source/ch_install.rst:234
+#: ../../source/ch_install.rst:240
 msgid ""
 "Some test builds require that you install the latest Nightly prior to "
 "installation.  DO NOT INSTALL A TEST BUILD until you read the thread "
@@ -417,7 +430,7 @@ msgid ""
 "would want to use it."
 msgstr ""
 
-#: ../../source/ch_install.rst:239
+#: ../../source/ch_install.rst:245
 msgid ""
 "Once you install a test build, **do** add a post to the appropriate thread "
 "letting the developer know how things went! That's why they are created - so"
@@ -425,11 +438,11 @@ msgid ""
 "fine."
 msgstr ""
 
-#: ../../source/ch_install.rst:248
+#: ../../source/ch_install.rst:254
 msgid "USB & File-system"
 msgstr ""
 
-#: ../../source/ch_install.rst:249
+#: ../../source/ch_install.rst:255
 msgid ""
 "Deviation stores all configuration, bitmaps, and models as regular files on "
 "the USB file-system. USB can be most easily enabled by holding down the "
@@ -437,132 +450,132 @@ msgid ""
 "copied to or from the transmitter."
 msgstr ""
 
-#: ../../source/ch_install.rst:251
+#: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
 msgstr ""
 
-#: ../../source/ch_install.rst:254
+#: ../../source/ch_install.rst:260
 msgid "\\\\tx.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:254
+#: ../../source/ch_install.rst:260
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
 
-#: ../../source/ch_install.rst:256
+#: ../../source/ch_install.rst:262
 msgid "\\\\hardware.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:256
+#: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
 msgstr ""
 
-#: ../../source/ch_install.rst:258
+#: ../../source/ch_install.rst:264
 msgid "\\\\errors.txt"
 msgstr ""
 
-#: ../../source/ch_install.rst:258
+#: ../../source/ch_install.rst:264
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
 
-#: ../../source/ch_install.rst:259
+#: ../../source/ch_install.rst:265
 msgid "\\\\datalog.bin"
 msgstr ""
 
-#: ../../source/ch_install.rst:259
+#: ../../source/ch_install.rst:265
 msgid "File for telemetry data"
 msgstr ""
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:266
 msgid "\\\\media\\\\config.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:266
 msgid "The color scheme and fonts for the transmitter"
 msgstr ""
 
-#: ../../source/ch_install.rst:261
+#: ../../source/ch_install.rst:267
 msgid "\\\\media\\\\sound.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:261
+#: ../../source/ch_install.rst:267
 msgid "Contains notes to play for various alarms"
 msgstr ""
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\*.bmp"
 msgstr ""
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:268
 msgid "Images used for the current transmitter theme"
 msgstr ""
 
-#: ../../source/ch_install.rst:263
+#: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\*.fon"
 msgstr ""
 
-#: ../../source/ch_install.rst:263
+#: ../../source/ch_install.rst:269
 msgid "Font files"
 msgstr ""
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:270
 msgid "\\\\models\\\\default.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:270
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:271
 msgid "\\\\models\\\\model*.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:271
 msgid ""
 "Configuration files for each model. Due to a limitation in the firmware, "
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:274
 msgid "\\\\modelico\\\\*.bmp"
 msgstr ""
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:274
 msgid ""
 "All available model icons (96x96 pixels is recommended but not required). "
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:277
 msgid "\\\\templates\\\\*.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:277
 msgid ""
 "Configuration files used when loading predefined templates.  These are "
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
 
-#: ../../source/ch_install.rst:273
+#: ../../source/ch_install.rst:279
 msgid "\\\\language\\\\lang*.*"
 msgstr ""
 
-#: ../../source/ch_install.rst:273
+#: ../../source/ch_install.rst:279
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
 
-#: ../../source/ch_install.rst:279
+#: ../../source/ch_install.rst:285
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
