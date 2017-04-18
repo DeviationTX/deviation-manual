@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-18 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -59,28 +59,34 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:24
 msgid ""
+"**Model Icon**: An image representing the current model. It is configured "
+"from section :ref:`model-setup`."
+msgstr ""
+
+#: ../../source/ch_mainpage.rst:26
+msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:26
+#: ../../source/ch_mainpage.rst:28
 msgid ""
 "**Displays**: These items can be text-boxes containing input, channel, "
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
 "toggles displaying specific states (ex. gear, flaps,…)."
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:28
+#: ../../source/ch_mainpage.rst:30
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:33
+#: ../../source/ch_mainpage.rst:35
 msgid "Safety System"
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:40
+#: ../../source/ch_mainpage.rst:42
 msgid ""
 "Deviation has a safety system to prevent starting up in a dangerous state "
 "(for instance spinning up the main rotor of a helicopter accidentally). The "
@@ -97,13 +103,13 @@ msgid ""
 "dismissed."
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:43
+#: ../../source/ch_mainpage.rst:45
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
 msgstr ""
 
-#: ../../source/ch_mainpage.rst:49
+#: ../../source/ch_mainpage.rst:51
 msgid ""
 "The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
 "'Auto' tries to guess your throttle channel number. If that isn't working, "

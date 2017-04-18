@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 00:08+0000\n"
+"POT-Creation-Date: 2017-04-18 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:44
+#: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
 msgstr "Navigálás"
 
@@ -36,13 +36,24 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
+"The transmitter menus can be navigated via the physical buttons UP, D(ow)N, "
+"L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
+"with the same descriptions as used in this manual."
+msgstr ""
+"A távirányító menüiben a fizikai nyomógombokat megnyomva lehet navigálni. A "
+"továbbiakban ebben a dokumentumban a nyomógombokon feltüntetett feliratokat "
+"fogjuk használni: UP (fel), DN (le), L- (balra), R+ (jobbra), ENT (belépés),"
+" EXT (kilépés)."
+
+#: ../../source/ch_navigating.rst:17
+msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
 "A távirányító beállításainak konfigurálását az alábbi felületi elemekkel "
 "végezzük"
 
-#: ../../source/ch_navigating.rst:14
+#: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
@@ -50,17 +61,17 @@ msgstr ""
 "**Nyomógombok**: Nyomógombokkal átválthatjuk egy kapcsolható beállítás "
 "állapotát, vagy megnyithatunk egy új menüt vagy képernyőt."
 
-#: ../../source/ch_navigating.rst:17
+#: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
 "**Kiválasztó dobozok**: Kiválasztó dobozokkal lehet több lehetséges érték "
 "közül egyet kiválasztani."
 
-#: ../../source/ch_navigating.rst:19
+#: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
 msgstr "Kétféle kiválasztó doboz létezik:"
 
-#: ../../source/ch_navigating.rst:21
+#: ../../source/ch_navigating.rst:26
 msgid ""
 "Spin-boxes consisting of both arrows and a 3d button may act both as spin-"
 "boxes (for selecting a value) and as a button (which can have various "
@@ -70,7 +81,7 @@ msgstr ""
 "állnak, egyszerre funkcionálnak kiválasztó dobozként (egy érték "
 "kiválasztására), és nyomógombként (ami sokféle dolgot végezhet)."
 
-#: ../../source/ch_navigating.rst:22
+#: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
@@ -79,14 +90,14 @@ msgstr ""
 "szövegdobozból állnak, nem működnek nyomógombként, hanem csak egy érték "
 "kiválasztására szolgálnak."
 
-#: ../../source/ch_navigating.rst:24
+#: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
 "Egy kiválasztó doboz típusa változhat a kiválasztott érték függvényében."
 
-#: ../../source/ch_navigating.rst:28
+#: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
@@ -94,7 +105,7 @@ msgstr ""
 "**Szövegdobozok**: A szövegdobozok általában információt jelenítenek meg, de"
 " néha meg is nyomhatók (mint egy nyomógomb), bizonyos események indításához."
 
-#: ../../source/ch_navigating.rst:31
+#: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
@@ -102,15 +113,15 @@ msgstr ""
 "**Ikonok**: Az ikonok információt jeleníthetnek meg, vagy megnyomhatók (mint"
 " egy nyomógomb), bizonyos események indításához."
 
-#: ../../source/ch_navigating.rst:35
+#: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
 msgstr "A főmenü a főképernyőről az ENT nyomógomb megnyomásával érhető el."
 
-#: ../../source/ch_navigating.rst:42
+#: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
 msgstr "Navigálás a fizikai nyomógombokkal"
 
-#: ../../source/ch_navigating.rst:45
+#: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
@@ -118,7 +129,7 @@ msgstr ""
 "Minden menüben az \"UP\" (fel) és \"DN\" (le) nyomógombok használatosak az "
 "előző vagy a következő menüpontra lépéshez."
 
-#: ../../source/ch_navigating.rst:46
+#: ../../source/ch_navigating.rst:51
 msgid ""
 "The ‘R+’ and ‘L-’ buttons are used on spin-box widgets to increase or "
 "decrease the selected value. In some cases holding down the button will use "
@@ -129,14 +140,14 @@ msgstr ""
 "idejű megnyomásával lehetőség van nagyobb lépésekben változtatni, hogy "
 "hamarabb elérhessük a kívánt értéket."
 
-#: ../../source/ch_navigating.rst:47
+#: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
 "A nyomógombokat és a nyomógombbal rendelkező kiválasztó dobozokat az \"ENT\""
 " megnyomásával lehet megnyomni."
 
-#: ../../source/ch_navigating.rst:48
+#: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
@@ -144,15 +155,15 @@ msgstr ""
 "Az \"EXT\" megnyomása egy menüvel kijjebb lép, hosszan megnyomva pedig a "
 "főképernyőre."
 
-#: ../../source/ch_navigating.rst:53
+#: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
 msgstr "Menü szerkezet"
 
-#: ../../source/ch_navigating.rst:54
+#: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
 msgstr "2 különböző, független menü van:"
 
-#: ../../source/ch_navigating.rst:56
+#: ../../source/ch_navigating.rst:61
 msgid ""
 "The transmitter menu allows you to select transmitter-specific options as "
 "well as monitor channel output & stick input, and monitor telemetry (if "
@@ -165,7 +176,7 @@ msgstr ""
 "értékekhez (ha azok rendelkezésre állnak). Részletesen az alábbi fejezet "
 "tárgyalja: :ref:`transmitter-menu`."
 
-#: ../../source/ch_navigating.rst:57
+#: ../../source/ch_navigating.rst:62
 msgid ""
 "The model menu is the area within deviation that you can configure the type "
 "of aircraft you are flying. All model data is managed and saved within this "
