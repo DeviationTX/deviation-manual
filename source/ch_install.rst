@@ -230,8 +230,9 @@ to include information about new common features.  Additionally, while
 best efforts are made by the Deviation community to update these User
 Guides, this documentation MAY NOT fully describe the features of the
 nightly builds.  Any Deviation user with an update or change to the
-manual can submit additions and changes via the Deviation Bug Tracker
-at http://deviationtx.com/mantisbt
+manual can submit additions and changes via the Deviation-manual Github
+repository's issue tracker at https://github.com/DeviationTX/deviation-manual/issues ,
+or edit the source of the manual directly.
 
 So should you load the Deviation 5.0 release or should you load a
 Nightly?  Your own requirements will determine the answer to that
