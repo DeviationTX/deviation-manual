@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:39+0000\n"
+"POT-Creation-Date: 2017-04-18 20:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr "Oktató (Master) mód"
+msgstr "Oktató mód - Master"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:43
 msgid "Slave Mode"
-msgstr "Tanuló (Slave) mód"
+msgstr "Tanuló mód - Slave"
 
 #: ../../source/ch_advanced.rst:44
 msgid ""
