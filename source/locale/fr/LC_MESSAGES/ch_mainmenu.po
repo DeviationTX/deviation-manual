@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:39+0000\n"
+"POT-Creation-Date: 2017-04-18 20:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:17
 msgid "Model menu"
-msgstr ""
+msgstr "Menu modèle"
 
 #: ../../source/ch_mainmenu.rst:18
 msgid ""
@@ -58,10 +58,14 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Le menu  modèle est l'endroit de Deviation où vous pouvez configurer le type"
+" d'avion que vous faites voler. Toutes les données du modèle sont gérées et "
+"sauvegardées avec les choix de ce menu. Les détails du menu sont dans la "
+"section :ref:`Menu Modèle`."
 
 #: ../../source/ch_mainmenu.rst:21
 msgid "Transmitter menu"
-msgstr ""
+msgstr "Menu émetteur"
 
 #: ../../source/ch_mainmenu.rst:22
 msgid ""
@@ -70,10 +74,14 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"Le menu émetteur vous permet de choisir les options propres de l'émetteur "
+"ainsi que de contrôler les sorties canaux et les entrées de manches, et de "
+"contrôler la télémétrie (si elle est disponible). Les détails de ce menu "
+"sont dans la section :ref:`Menu émetteur`."
 
 #: ../../source/ch_mainmenu.rst:25
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
@@ -84,19 +92,28 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"La page USB peut être atteinte en choisissant ‘USB’ dans le menu principal. "
+"L'émetteur peut basculer en mode USB/non USB pour permettre l'accès au "
+"système de fichiers à partir du port USB d'un ordinateur. Dans ce mode, le "
+"système de fichiers de Deviation est accessible comme un periphérique de "
+"stockage de masse. Toutes les configurations sont accessibles dans ce mode."
 
 #: ../../source/ch_mainmenu.rst:35
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"NOTE : Ne jamais activer le mode USB lorsqu'un modèle est appairé avec "
+"l'émetteur. Dans le mode USB l'émetteur coupe le signal émis"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid "About Deviation"
-msgstr ""
+msgstr "A propos de Deviation"
 
 #: ../../source/ch_mainmenu.rst:44
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
+"Le numéro de version de Deviation est accessible en sélectionnant 'A propos "
+"de Deviation' dans le menu principal."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:39+0000\n"
+"POT-Creation-Date: 2017-04-18 20:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -560,6 +560,14 @@ msgid ""
 "issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
 " edit the source of the manual directly."
 msgstr ""
+"Az online Deviation felhasználói kézikönyv rendszeresen frissül az új "
+"funkciók leírásával, de bár a Deviation közösség mindent tőle telhetőt "
+"megtesz, ez a dokumentáció nem feltétlenül tartalmazza a napi fordítások "
+"újdonságait. Bármely Deviation felhasználó, akinek módosítási, vagy "
+"kiegészítési javaslata van, megteheti azt a Deviation-manual Github "
+"gyűjtemény probléma bejelentőjében: https://github.com/DeviationTX"
+"/deviation-manual/issues , vagy akár közevetlenül módosíthatja a "
+"dokumentáció forrásában."
 
 #: ../../source/ch_install.rst:215
 msgid ""
@@ -604,6 +612,11 @@ msgid ""
 "and require a higher level of experience.  These builds may also require "
 "specific transmitter configuration or hardware mods."
 msgstr ""
+"A teszt fordítások csak haladó felhasználóknak valók. A Deviation teszt "
+"fordításokat a fejlesztők az új funkciók vagy hardver opciók teszteléséhez "
+"készítik, és a használatuk magasabb felkészültséget igényel. Ezeknek a "
+"fordításoknak a használatához gyakran speciális távirányító konfiguráció "
+"vagy hardver módosítások szükségesek."
 
 #: ../../source/ch_install.rst:240
 msgid ""
@@ -612,6 +625,9 @@ msgid ""
 "detailing the reason for that build and how to use it, and know why you "
 "would want to use it."
 msgstr ""
+"Egyes teszt fordításokhoz előzőleg a napi fordítások telepítése szükséges. "
+"NE TELEPÍTS TESZT FORDÍTÁST, amíg nem vagy tisztában azzal, hogy az milyen "
+"célra készült, hogyan kell használni, és miért is kéne azt használnod."
 
 #: ../../source/ch_install.rst:245
 msgid ""
@@ -620,10 +636,14 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
+"Ha mégis kipróbálsz egy teszt fordítást, írj egy bejegyzést a megfelelő "
+"fórumba, hogy a fejlesztő értesülhessen róla, hogy ment a dolog! Ezért "
+"készülnek, hogy a fejlesztők visszajelzést kapjanak, akkor is, ha az csak "
+"annyi, hogy működött."
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
-msgstr ""
+msgstr "USB és fájlrendszer"
 
 #: ../../source/ch_install.rst:255
 msgid ""
@@ -632,92 +652,107 @@ msgid ""
 "‘ENT’ button while powering up the transmitter. Files can then be easily "
 "copied to or from the transmitter."
 msgstr ""
+"A Deviation minden konfigurációt, képet, és modellt hagyományos fájlként "
+"tárol az USB meghajtóként elérhető fájlrendszerben. Az USB módot "
+"legegyszerűbben a bekapcsolás közben benyomva tartott \"ENT\" nyomógomb "
+"segítségével aktiválhatjuk. Innentől a fájlok egyszerűen másolhatók a "
+"távirányítóra, vagy fordítva."
 
 #: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
-msgstr ""
+msgstr "A könyvtárszerkezet a következő:"
 
 #: ../../source/ch_install.rst:260
 msgid "\\\\tx.ini"
-msgstr ""
+msgstr "\\\\tx.ini"
 
 #: ../../source/ch_install.rst:260
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
+"A távirányító konfiguráció. Ez tartalmazza a trim értékeket, a kalibrálási "
+"adatokat, és az utoljára használt modell sorszámát."
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\hardware.ini"
-msgstr ""
+msgstr "\\\\hardware.ini"
 
 #: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
 msgstr ""
+"A távirányító hardverének konfigurációja, mely a támogatott hardver "
+"módosításokat tartalmazza."
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\errors.txt"
-msgstr ""
+msgstr "\\\\errors.txt"
 
 #: ../../source/ch_install.rst:264
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
+"Ha a szoftver összeomlik, vagy újraindul, akkor ez a fájl tartalmazza a "
+"hibakereséshez szükséges információkat."
 
 #: ../../source/ch_install.rst:265
 msgid "\\\\datalog.bin"
-msgstr ""
+msgstr "\\\\datalog.bin"
 
 #: ../../source/ch_install.rst:265
 msgid "File for telemetry data"
-msgstr ""
+msgstr "A telemetria adatok fájlja."
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\media\\\\config.ini"
-msgstr ""
+msgstr "\\\\media\\\\config.ini"
 
 #: ../../source/ch_install.rst:266
 msgid "The color scheme and fonts for the transmitter"
 msgstr ""
+"A távirányító felhasználói felülete által használt színek és betűtípusok "
+"definíciói."
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\media\\\\sound.ini"
-msgstr ""
+msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:267
 msgid "Contains notes to play for various alarms"
-msgstr ""
+msgstr "A különböző riasztások által használt dallamok definíciói."
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\*.bmp"
-msgstr ""
+msgstr "\\\\media\\\\*.bmp"
 
 #: ../../source/ch_install.rst:268
 msgid "Images used for the current transmitter theme"
-msgstr ""
+msgstr "A távirányító aktuális megjelenéséhez használt képek."
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\*.fon"
-msgstr ""
+msgstr "\\\\media\\\\*.fon"
 
 #: ../../source/ch_install.rst:269
 msgid "Font files"
-msgstr ""
+msgstr "Fontok"
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\models\\\\default.ini"
-msgstr ""
+msgstr "\\\\models\\\\default.ini"
 
 #: ../../source/ch_install.rst:270
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
+"Az alapértelmezett üres modell fájl. Ez lesz betöltve, ha törölsz egy "
+"modellt."
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\models\\\\model*.ini"
-msgstr ""
+msgstr "\\\\models\\\\model*.ini"
 
 #: ../../source/ch_install.rst:271
 msgid ""
@@ -725,10 +760,14 @@ msgid ""
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
+"A modellek konfigurációi. A szoftver korlátai miatt a deviation nem tud új "
+"fájlokat létrehozni, ezért kell, hogy előre létezzen egy-egy modelxx.ini "
+"minden egyes betölthető modellhez, attól függetlenül, hogy az adott sorszámú"
+" modell használatban van-e."
 
 #: ../../source/ch_install.rst:274
 msgid "\\\\modelico\\\\*.bmp"
-msgstr ""
+msgstr "\\\\modelico\\\\*.bmp"
 
 #: ../../source/ch_install.rst:274
 msgid ""
@@ -736,10 +775,13 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
+"A felhasználható modell ikonok képei (96x96 pixel az ajánlott méret, de nem "
+"kötelező). A modell ikonok 16 bites BMP képek RGB565 (nem átlátszó) vagy "
+"ARGB1555 (átlátszó) formátumban."
 
 #: ../../source/ch_install.rst:277
 msgid "\\\\templates\\\\*.ini"
-msgstr ""
+msgstr "\\\\templates\\\\*.ini"
 
 #: ../../source/ch_install.rst:277
 msgid ""
@@ -747,19 +789,27 @@ msgid ""
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
+"Előre definiált sablonok új modellek létrehozásához. Ezek majdnem teljesen "
+"megegyeznek a modell fájlokkal, de nem feltétlenül tartalmazzák az összes "
+"paramétert."
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\language\\\\lang*.*"
-msgstr ""
+msgstr "\\\\language\\\\lang*.*"
 
 #: ../../source/ch_install.rst:279
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
+"Nyelvi fordítás fájlok. Ezek UTF-8 formátumú szövegfájlok, melyek "
+"tartalmazzák az eredeti angol szöveget, és a hozzá tartozó lefordított "
+"szöveget."
 
 #: ../../source/ch_install.rst:285
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
 msgstr ""
+"MEGJEGYZÉS: A Deviation csak 8.3 stílusú fájlneveket támogat, azaz a "
+"fájlnevek nem lehetnek hosszabbak, mint \"xxxxxxxx.yyy\"."

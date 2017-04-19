@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:39+0000\n"
+"POT-Creation-Date: 2017-04-18 20:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:6
 msgid "Main Page"
-msgstr ""
+msgstr "Page principale"
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr ""
+msgstr "l'agencement standard de la page principal est le suivant :"
 
 #: ../../source/ch_mainpage.rst:13
 msgid ""
@@ -31,24 +32,33 @@ msgid ""
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
 msgstr ""
+"**Modèle courant** : Nom du modèle en cours d'utilisation. Cliquer sur le "
+"nom pour accéder à la page de chargement des modèles . Le modèle est "
+"configuré à la section :ref:`Config modèle`."
 
 #: ../../source/ch_mainpage.rst:15
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
 msgstr ""
+"**Tension de la Batterie** : Tension  présente en chiffres de la batterie de"
+" l'émetteur."
 
 #: ../../source/ch_mainpage.rst:17
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
 msgstr ""
+"**Puissance d'émission** : Indique la puissance de l'émetteur actuellement "
+"sélectionnée. Elle est fixée  dans la page :ref:`Config modèle`."
 
 #: ../../source/ch_mainpage.rst:19
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
 msgstr ""
+"**Heure actuelle** : Ceci indique l'heure présente (sur le Devo 12 "
+"uniquement). L'heure est mise à jour dans la page  :ref:`Config Emetteur`."
 
 #: ../../source/ch_mainpage.rst:21
 msgid ""
@@ -56,18 +66,25 @@ msgid ""
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
 "page."
 msgstr ""
+"**Icône du modèle**: C'est une image représentant le modèle en cours. Il est"
+" configuré dans la section :ref:`Config Modèle`. Presser sur l'icône vous "
+"dirigera sur cette page."
 
 #: ../../source/ch_mainpage.rst:24
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
 msgstr ""
+"**Icône du modèle**: C'est une image représentant le modèle en cours. Il est"
+" configuré dans la section :ref:`Config Modèle`. "
 
 #: ../../source/ch_mainpage.rst:26
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
 msgstr ""
+"**Trims**: l'affichage des trims peut être configuré pour afficher jusqu'à "
+"10 trims horizontaux et verticaux différents."
 
 #: ../../source/ch_mainpage.rst:28
 msgid ""
