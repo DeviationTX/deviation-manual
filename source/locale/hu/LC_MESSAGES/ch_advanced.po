@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:48+0000\n"
+"POT-Creation-Date: 2017-04-20 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -76,6 +76,11 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"Az oktató módot a \"PPM be\" kiválasztó doboz \"Csatorna\" vagy \"Bot\" "
+"értékével lehet beállítani a :ref:`model-setup` fejezet alapján. A "
+"kiválasztott \"Csatorna\" vagy \"Bot\" érték esetén az \"ENT\" nyomógomb "
+"megnyomására megnyílik az oktató konfiguráció képernyő. A 2 mód kicsit "
+"eltérően viselkedik:"
 
 #: ../../source/ch_advanced.rst:23
 msgid ""
@@ -85,6 +90,13 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Bot**: A bot módban minden bemeneti csatorna meg lesz feleltetve az oktató"
+" távirányító egy-egy botkormányának. Ebben a módban, ha a tanuló mozdít "
+"valamelyik botkormányon, az pont ugyanúgy fog viselkedni, mint ha az oktató "
+"mozgatta volna az adott botkormányt. Általában elmondható, hogy ilyenkor a "
+"tanuló távirányítója egy az egyben továbbítja a botok pozícióit (mindenféle "
+"mixelés nélkül), és az oktató távirányítója végzi el az összes szükséges "
+"mixelést."
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
@@ -95,10 +107,18 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
+"**Csatorna**: A csatorna módban minden bemeneti csatorna meg lesz feleltetve"
+" az oktató távirányítójának egy-egy kimeneti csatornájának. Ebben a módban a"
+" tanuló távirányítójának kell gondoskodni a modell irányításához szükséges "
+"mixelésekről. Gondosan ügyelni kell rá, hogy az oktató és a tanuló "
+"konfigurációja teljesen megegyezzen, egyébként a modell furcsán viselkedhet "
+"az oktató és tanuló közötti váltásokkor."
 
 #: ../../source/ch_advanced.rst:32
 msgid "Options configurable on both Trainer Cfg pages:"
 msgstr ""
+"Az alábbi opciókat lehet konfigurálni mindkét oktató konfigurációs "
+"képernyőn:"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -106,6 +126,10 @@ msgid ""
 "transmitter transmits to represent centered servo position.  If this number "
 "doesn’t match the students transmitter, the servos will not be centered"
 msgstr ""
+"**Közép impulzus hossz**: Megadja a tanuló távirányítója által kiadott, "
+"közép szervó álláshoz tartozó impulzus hosszát (µs). Ha ez az érték nem "
+"egyezik a tanuló távirányítója által ténylegesen kiadott impulzus hosszal, "
+"akkor a szervók alapból nem középen fognak állni."
 
 #: ../../source/ch_advanced.rst:36
 msgid ""
@@ -113,18 +137,26 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
+"**Impulzus kitérés**: Megadja a tanuló távirányítója által kiadott, a "
+"maximális szervó kitéréshez tartozó impulzus szélességét (a közép állástól "
+"mérve). Ha ez az érték nem megfelelő, akkor a szervók esetleg nem érik el a "
+"maximális kitérésüket (vagy túlságosan is kitérnek)."
 
 #: ../../source/ch_advanced.rst:38
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
 msgstr ""
+"**Oktató kapcsoló**: Megadja, hogy mely kapcsolóval lehet átadni az "
+"irányítást a tanulónak."
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
 msgstr ""
+"**PPM1...PPM8**: Meghatározza a tanuló és az oktató távirányítója közötti "
+"(akár csatorna, akár bemenet) megfeleltetést."
 
 #: ../../source/ch_advanced.rst:43
 msgid "Slave Mode"
@@ -140,6 +172,15 @@ msgid ""
 "‘Stick’ mode (see above), there should be no mixing done in the slave "
 "transmitter."
 msgstr ""
+"A tanuló módot a \"PPM\" protokoll kiválasztásával lehet beállítani a :ref"
+":`model-setup` fejezetben leírtak szerint. Ilyenkor a protokoll kiválasztó "
+"dobozon állva az \"ENT\" nyomógomb megnyomására megnyílik a PPM kimenet "
+"konfiguráló képernyője, a konfiguráláshoz lásd a :ref:`protocol-ppm` "
+"fejezetben leírtakat. A Deviation ilyenkor a kimeneti csatornák értékeit PPM"
+" formában küldi ki a DSC csatlakozóra. Ha a Deviation tanuló távirányítót "
+"egy \"Bot\" módban (lásd fent) konfigurált Deviation oktató távirányítóval "
+"használod, akkor a tanuló távirányítón semmilyen mixelést nem érdemes "
+"beállítani."
 
 #: ../../source/ch_advanced.rst:49
 msgid "Setting Up FPV or Other External Inputs"
@@ -151,36 +192,48 @@ msgid ""
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
 msgstr ""
+"A Deviation képes egy külső eszközről (mint pl. egy FPV head tracker) "
+"beérkező PPM jeleket fogadni és felhasználni. Ennek konfigurálásához a \"PPM"
+" be\" kiválasztó dobozban a \"Kiterjesztett\" opciót kell kiválasztani, a "
+":ref:`model-setup` fejezetnek megfelelően."
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
 msgstr ""
+"A kiválasztás után az \"ENT\" nyomógomb megnyomásával lehet a plusz "
+"bemeneteket konfigurálni."
 
 #: ../../source/ch_advanced.rst:60
 msgid "Configuration options:"
-msgstr ""
+msgstr "A konfigurálható opciók a következők:"
 
 #: ../../source/ch_advanced.rst:62
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
 msgstr ""
+"**Közép impulzus hossz**: Megadja a középállású bemenethez tartozó impulzus "
+"hosszát (µs)."
 
 #: ../../source/ch_advanced.rst:63
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
 msgstr ""
+"**Impulzus kitérés**: Megadja a minimális/maximális szervó kitéréshez "
+"tartozó impulzus szélesség eltérést (a közép állástól mérve)."
 
 #: ../../source/ch_advanced.rst:64
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
 msgstr ""
+"**Csatornák száma**: Megadja a fogadott bemeneti csatornák számát (általában"
+" max. 8 csatorna lehetséges)."
 
 #: ../../source/ch_advanced.rst:69
 msgid "Using a Trim as a Virtual Switch"
-msgstr ""
+msgstr "Trim használata virtuális kapcsolóként"
 
 #: ../../source/ch_advanced.rst:70
 msgid ""
@@ -188,30 +241,42 @@ msgid ""
 "mechanical switches of the transmitter.  This capability is only available "
 "when using the Advanced GUI.  There are 3 types of switches available:"
 msgstr ""
+"A Deviation képes, a fizikai kapcsolók mellett, a trim gombokat használni "
+"virtulális kapcsolókként, de ez a lehetőség csak a haladó felületen érhető "
+"el. 3 féle kapcsolót tudunk a trim gombokkal szimulálni:"
 
 #: ../../source/ch_advanced.rst:72
 msgid ""
 "**Momentary**: The switch will be active only as long as the trim button is "
 "held"
 msgstr ""
+"**Pillanat kapcsoló**: A kapcsoló csak addig lesz aktív, amíg a trim gombot "
+"nyomva tartjuk."
 
 #: ../../source/ch_advanced.rst:73
 msgid ""
 "**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
 " trim button is pressed"
 msgstr ""
+"**Kapcsoló**: A trim gomb megnyomására a kapcsoló állapota be- vagy "
+"kikapcsol, mindig az ellenkező állásba."
 
 #: ../../source/ch_advanced.rst:74
 msgid ""
 "**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
 " will turn it off-to-on"
 msgstr ""
+"**Ki/Be**: A Trim+ gomb bekapcsolja, a Trim- gomb pedig kikapcsolja a "
+"kapcsolót."
 
 #: ../../source/ch_advanced.rst:76
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
+"A virtuális kapcsoló létrehozásához először válassz ki egy trim-et a "
+"\"Trim\" képernyőn, és nyisd meg a konfiguráló képernyőt. Lásd :ref:`trims-"
+"and-virtual-inputs`."
 
 #: ../../source/ch_advanced.rst:83
 msgid ""
@@ -220,12 +285,19 @@ msgid ""
 "value is less-than 0.1 Second select the 'Input' to be the virtual channel "
 "to convert to a switch (we'll use 'Virt1')"
 msgstr ""
+"Utána állítsd a \"Trim lépés\" mezőt \"Pillanat kapcsoló\", \"Kapcsoló\" "
+"vagy \"Ki/Be\" értékűre. Ezt a \"Trim lépés\" kiválasztó doboz bal oldali "
+"nyilával érheted el, ha a 0.1 érték alatt. Utána add meg a \"Bemenet\" "
+"mezőben a kapcsolóként felhasznált virtuális csatornát (példánkban ez legyen"
+" a Virt1)."
 
 #: ../../source/ch_advanced.rst:93
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
 msgstr ""
+"Most menj a \"Mixer\" képernyőre, és nyisd meg az adott virtuális csatorna "
+"(példánkban a Virt1) konfigurációját."
 
 #: ../../source/ch_advanced.rst:95
 msgid ""
@@ -233,6 +305,10 @@ msgid ""
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
 "scale to '0', and finally enable the 'Trim' button."
 msgstr ""
+"A mixer típust állítsd \"Komplex\"-re, állítsd a \"Forrás\"-t az adott "
+"virtuális csatormára (Virt1), állítsd a görbét \"1 az 1\"-re (NE használd a "
+"\"Fix\"-et), álítsd a skálát \"0\"-ra, és végül engedélyezd a \"Trim\" "
+"gombot."
 
 #: ../../source/ch_advanced.rst:97
 msgid ""
@@ -240,6 +316,9 @@ msgid ""
 "When the virtual switch is active, the virtual channel will have a value of "
 "100, otherwise it will have a value of -100."
 msgstr ""
+"Most már használhatod a virtuális csatornát (Virt1), mint bármely más "
+"kapcsoló bemenetet. Amikor a virtuális kapcsoló aktív, a virtuális csatorna "
+"értéke 100 lesz, egyébként az értéke -100 lesz."
 
 #: ../../source/ch_advanced.rst:99 ../../source/ch_advanced.rst:147
 msgid "\\"
@@ -251,6 +330,10 @@ msgid ""
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
 " applied twice."
 msgstr ""
+"MEGJEGYZÉS: Ha egy mixerben a virtuális kapcsolóként beállított virtuális "
+"csatornát forrásként használod (nem pedig kapcsolóként), akkor tiltsd le az "
+"adott lapon a \"Nincs Trim\" gombbal, különben az adott trim érték duplán "
+"lesz hozzáadva."
 
 #: ../../source/ch_advanced.rst:108
 msgid "Swash Mixing"

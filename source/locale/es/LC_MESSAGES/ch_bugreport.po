@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-30 19:47+0000\n"
+"POT-Creation-Date: 2017-04-20 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
-"http://www.deviationtx.com/mantisbt"
+"https://github.com/DeviationTX/deviation/issues"
 msgstr ""
 
 #: ../../source/ch_bugreport.rst:9

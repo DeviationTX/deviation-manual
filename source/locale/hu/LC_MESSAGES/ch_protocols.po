@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 00:08+0000\n"
+"POT-Creation-Date: 2017-04-20 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:12
 msgid "Protocols"
-msgstr ""
+msgstr "Protokollok"
 
 #: ../../source/ch_protocols.rst:13
 msgid ""
