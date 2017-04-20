@@ -4,7 +4,7 @@ Nobody is perfect.
 
 This firmware has been developed carefully and has been successfully tested by many users around the world. Nevertheless under some circumstances it could happen that the transmitter does not work as you expect. Sometimes this behavior will be a handling problem and sometimes a real bug. Do not hesitate to ask the community at http://www.deviationtx.com/forum. Please bear in mind that the firmware can only improved with your help.
 
-If you find a bug in Deviation, please report it here: http://www.deviationtx.com/mantisbt
+If you find a bug in Deviation, please report it here: https://github.com/DeviationTX/deviation/issues
 
 You will need to register for an account on the Deviation forums to submit a bug.  That account will also allow you to communicate with the Deviation community, and will enable you to get email updates when the bug is updated/fixed.
  
