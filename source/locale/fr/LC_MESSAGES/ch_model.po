@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:48+0000\n"
+"POT-Creation-Date: 2017-04-20 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -28,26 +28,34 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
+"Le menu modèle permet le choix et l'édition de le la configuration du "
+"modèle, des alarmes, la collecte de données, et la configuration de l'écran."
+" On accède au menu en appuyant la touche ENT pour sélectionner le 'Menu "
+"principal' puis le 'Menu Modèle'"
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
+"Selon le type de Réglages que vous avez choisi dans la  section :ref:`Config"
+" modèle`, le fonctionnement du Menu modèles sera complètement différent."
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
 msgstr ""
+"La page de Mixer Expert  '2. Mixer' (:ref:`mixer-adv`) fournit les mêmes  "
+"fonctionnalités (et plus) que le modèle standard."
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**Réglages Expert**:"
 
 #: ../../source/ch_model.rst:32
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**Réglages standard**:"
 
 #: ../../source/ch_model.rst:44
 msgid "**Advanced Model Menu**"
