@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 15:26+0000\n"
+"POT-Creation-Date: 2017-04-20 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -59,24 +59,26 @@ msgstr "**Réglages standard**:"
 
 #: ../../source/ch_model.rst:44
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**Menu modèle expert**"
 
 #: ../../source/ch_model.rst:45
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**Menu modèle standard**"
 
 #: ../../source/ch_model.rst:56
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
 msgstr ""
+"Note : le mode de réglage expert est le mode par défaut pour tous les "
+"nouveaux modèles."
 
 #: ../../source/ch_model.rst:61
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "Config Modèle ( Réglages standard et expert)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr ""
+msgstr "La page modèle fournit diverses options de configuration."
 
 #: ../../source/ch_model.rst:75
 msgid ""
@@ -86,6 +88,9 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"Fichier: Permet de charger un nouveau modèle, de\n"
+"copier le modèle courant sur un autre modèle, de remettre à zéro la configuration (toute la configuration est perdue )ou de\n"
+"charger un gabarit (voir  :ref:`' gabarits prédéfinis'). Notez que le changement de modèle peut provoquer l'affichage d'un message de sécurité. (voir :ref:`Système de sécurité`)."
 
 #: ../../source/ch_model.rst:98
 msgid ""
@@ -94,6 +99,10 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"**Réglages**: Définit quel mode de réglage et d'interface graphique sera "
+"utilisé pour ce modèle. Le mode Expert est le mode par défaut de Deviaition."
+" Le mode standard n'est disponible que pour les hélicoptères et ressemble "
+"plus à celui   d'origine."
 
 #: ../../source/ch_model.rst:103
 msgid ""
@@ -105,6 +114,15 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"Le mode de réglage standard est destiné aux hélicoptères à pas collectif "
+"avec barre de Bell. Il inclut des fonctions spécifiques qui ne sont pas "
+"nécessaires aux autres aéronefs et possiblement des fonctions nécessaires à "
+"un contrôle correct des autres aéronefs. Un hélicoptère à pas collectif sans"
+" barre de Bell pourrait utiliser quelques unes des caractéristiques du "
+"réglage standard, il n'en a pas besoin et certaines fonctionnalités "
+"pourraient lui manquer. **On vous recommande fortement d'utiliser les "
+"possibilités du réglage expert pour tous les aéronefs sauf les hélicoptères "
+"à pas collectif.**"
 
 #: ../../source/ch_model.rst:114
 msgid ""
@@ -112,18 +130,25 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
+"Note : Si vous passez du réglage expert au réglage standard, toutes les "
+"données pourraient être perdues. Vos données seront préservées si vous "
+"passez du mode standard au mode expert."
 
 #: ../../source/ch_model.rst:123
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
 msgstr ""
+"**Nom Modèle**: Entrez le nom du modèle. Utilisez les flèche haut, bas, "
+"droite et gauche puis ENT pour sélectionner chaque caractère."
 
 #: ../../source/ch_model.rst:130
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
 msgstr ""
+"**Icône**: Choissez l'icône pour le modèle. Des icônes complémentaires "
+"peuvent être installés.  (see :ref:`usb-file-system`)."
 
 #: ../../source/ch_model.rst:139
 msgid ""
@@ -132,24 +157,34 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"Type Modèle: Détermine le type du modèle. Les options sont Avion, Hélicoptère et Multirotor. Les  hélicoptères ont\n"
+"une page d'options supplémentaire à laquelle on accède en cliquant sur le type de modèle. Les options de plateau cyclique sont identiques à celles de la :ref:`configuration du plateau`."
 
 #: ../../source/ch_model.rst:145
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
 msgstr ""
+"Si vous changez de type de modèle à partir d'hélicoptère, le type de réglage"
+" passera automatiquement à Expert , parce que le mode de réglage standard ne"
+" s'applique qu'aux hélicoptères."
 
 #: ../../source/ch_model.rst:147
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"**Puiss Tx**:  Définit la puissance d'émission de l'émetteur ( si "
+"applicable). Les options sont 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, "
+"150mW."
 
 #: ../../source/ch_model.rst:152
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
 msgstr ""
+"Note:un Devo 7e d'origine émet à 7mW. En raison de la configuration du "
+"logiciel, 150mW sera  affiché en permanence."
 
 #: ../../source/ch_model.rst:156
 msgid ""
@@ -158,6 +193,10 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"**PPM In**: Permet à des entrées par le port DSC d'abord pour contrôler des "
+"matériels externes comme des moteurs de caméra d'un 'head tracker'. Il peut "
+"aussi être utilisé pour faire fonctionner un émetteur en Maitre dans une "
+"configuration d'écolage. Les options possibles sont Canaux, Stick et Extend"
 
 #: ../../source/ch_model.rst:162
 msgid ""
@@ -166,6 +205,11 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"les modes Stick - Manche - , et Canaux sont utilisés pour l'écolage et on "
+"trouvera la documentation dans le chapigre :ref:Mise en place d'un écolage'."
+" Le mode Extend - Etendu - est utilisé pour le FPV ou la mise ne place d'une"
+" entrée externe et on trouvera la documentation à :ref:`Installation d'un "
+"FPV'."
 
 #: ../../source/ch_model.rst:164
 msgid ""
@@ -176,6 +220,13 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"**Protocole**: Fixe le type de récepteur utilisé. Notez que certains "
+"protocoles ont des options additionnelles accessibles  en cliquant sur cette"
+" entrée si elle est active. Voir la section :ref:`protocoles` pour plus de "
+"renseignements sur des protocoles spécifiques. Notez qu'un changement de "
+"protocole désactivera tout protocole acfif et affectera tout modèle actif. "
+"Pour activer le protocole nouvellement choisi, utiliser le bouton Appairer "
+"décrit ci dessous."
 
 #: ../../source/ch_model.rst:177
 msgid ""
@@ -185,6 +236,12 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"**Appairer/Re-init**: Selon le protocole et l'assignation d'une ID fixe, "
+"l'émetteur peut s'appairer avec le modèle à l'allumage ou peut nécessiter "
+"d'être appairé manuellement après. Voir la section :ref:`protocoles` pour "
+"plus de renseignements sur des protocoles spécifiques. Si le protocole "
+"n'accepte pas l'appairage, la case affichera ‘Re-Init’, et peut être "
+"utilisée pour changer de protocole sans éteindre et rallumer l'émetteur."
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -192,22 +249,30 @@ msgid ""
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
 msgstr ""
+"**ID fixe** l'ID fixe est un code unique qui assure que l'émetteur "
+"s'appairera uniquement à un modèle spécifique. C'est pratique pour garantir "
+"que l'émetteur n'est pas accidentellement appairé à un mauvais modèle."
 
 #: ../../source/ch_model.rst:186
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
 msgstr ""
+"**Nbr canaux**: Définit le nombre de canaux à transmettre ( le nombre "
+"maximum de canaux dépend du protocole sélectionné)."
 
 #: ../../source/ch_model.rst:191
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "Gabarits de modèles prédéfinis."
 
 #: ../../source/ch_model.rst:200
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
 msgstr ""
+"Le micrologiciel Deviation permet l'utilisation de gabarits de modèles "
+"prédéfinis personnalisables par l'utilisateur en choisissant 'Gabarit' dans "
+"la boite de texte Fichier dans la page Config Modèle."
 
 #: ../../source/ch_model.rst:202
 msgid ""
@@ -216,6 +281,11 @@ msgid ""
 "a portion of it.  The currently supported templates will replace the mixer "
 "and trim definitions, but will not affect the display layout."
 msgstr ""
+"Des gabarits supplémentaires peuvent être ajoutés par USB dans le répertoire"
+" ‘\\\\template’ . Un gabarit ne remplace pas complètement votre modèle "
+"existant, mais une partie. Les gabarits actuellement pris en charge "
+"remplaceront les réglages de trim et de mixage mais n'affecteront pas "
+"l'affichage."
 
 #: ../../source/ch_model.rst:207
 msgid "Mixer (Adv GUI)"
@@ -235,6 +305,8 @@ msgid ""
 ":`predefined-model-templates`), but to learn to modify and configure a "
 "model, read through this entire section carefully."
 msgstr ""
+"Le mode de réglage \"Complexe\" libère les pleines possibilités du micrologiciel Deviation. Cependant il est différent des configurations de tous les autres émetteurs du commerce. Deviation a aussi un interface plus traditionnel pour ceux qui préfèrent (vois :ref:`réglage standard`). Chaque canal de sortie  est composé d'un ou de plusieurs 'mixers'. Chaque mixer\n"
+"est constitué d'un signal d'entrée, d'une commande d'activation et d'une fonction qui modifie sa valeur de sortie."
 
 #: ../../source/ch_model.rst:224
 msgid ""
