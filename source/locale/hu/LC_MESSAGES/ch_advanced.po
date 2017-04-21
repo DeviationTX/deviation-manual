@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 15:26+0000\n"
+"POT-Creation-Date: 2017-04-20 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -350,6 +350,14 @@ msgid ""
 "the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
 "Mixing (CCMP)."
 msgstr ""
+"Az imbolygó tárcsa az RC helikopterek irányítására szolgál, ez szabályozza a"
+" főrotor forgási síkját, és a rotorlapátok állásszögét. Az imbolygó tárcsa "
+"normál esetben 3 szervóhoz csatlakozik a magassági kormány, a csűrés, és "
+"kollektív állásszög vezérléséhez, de a működése miatt nem egy az egyes a "
+"megfeleltetés az egyes botkormányok és a szervók mozgása között. E helyett a"
+" kollektív, a magasság és a csűrő egyfajta mixelése szükséges az imbolygó "
+"tárcsa szervóinak vezérléséhez. Ezt a mixelést ciklikus kollektív állásszög "
+"mixelésnek (Cyclic Collective Pitch Mixing - CCPM) hívjuk."
 
 #: ../../source/ch_advanced.rst:111
 msgid ""
@@ -364,6 +372,17 @@ msgid ""
 "supplies aileron, elevator, and collective inputs, and the electronic mixer "
 "will convert the signals into appropriate swash-plate servo motion."
 msgstr ""
+"Régebben az RC helikopterek kisegítő lapátokat, úgynevezett flybar-okat "
+"használtak a főrotor fölött vagy alatt, melyek összekötőkkel csatlakoztattak"
+" hozzá a stabilitás növelése érdekében. Ilyenkor a távirányító végezte el a "
+"szervók vezérléséhez szükséges jelek mixelését, és így direktben vezérelte "
+"az imbolygó tárcsa 3 szervóját. Ez a konfiguráció manuális-CCPM (mCCPM) "
+"néven ismert. A másik megoldás egy elektronikus mixer használata a "
+"helikopteren, amely akár a vevő részeként, vagy külön a vevő és a szervók "
+"között is lehet, és ami elvégzi a szükséges mixelést. Az a konfiguráció az "
+"elektronikus CCPM (eCCPM), és ebben az esetben a távirányító direktben a "
+"botkormány bemenetek jeleit küldi, és az elektronikus mixer fogja "
+"átalakítani azokat a megfelelő imbolygó szervó jelekké."
 
 #: ../../source/ch_advanced.rst:113
 msgid ""
@@ -374,6 +393,12 @@ msgid ""
 "less expensive to manufacture, and also provides better stability and more "
 "precise control."
 msgstr ""
+"Újabban a flybar nélküli (flybarless - FBL) helikopterek terjedtek el, főleg"
+" a mikró méret tartományban. Ezek a helikopterek eCCPM rendszert használnak "
+"egy elektronikus giroszkóppal együtt, így folyamatosan stabilizálni tudják a"
+" repülést fizikai flybar nélkül. Ez a felépítés olcsóbban előállítható, "
+"egyszerűbben szervizelhető, ráadásul nagyobb stabilitást és pontosabb "
+"irányítást tesz lehetővé."
 
 #: ../../source/ch_advanced.rst:115
 msgid ""
@@ -381,6 +406,8 @@ msgid ""
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
 "illustrated below:"
 msgstr ""
+"A Deviation többféle imbolygó tárcsa szervó elrendezést támogat, mint pl. a "
+"120°, 120° fordított, 140°, 90°, és a mixelés nélküli, melyek így néznek ki:"
 
 #: ../../source/ch_advanced.rst:122
 msgid ""
@@ -391,6 +418,13 @@ msgid ""
 " up and down. Servos working in unison dramatically increases the torque "
 "available as well as the precision and centering."
 msgstr ""
+"**120 (3 szervó)**: A szervók az imbolygó tárcsa körül 120°-os szögben "
+"helyezkednek el. A csűrés bot hatására a csűrés és a kollektív szervók "
+"döntik az imbolygót jobbra és balra; a magassági bot mindhárom szervót "
+"mozgatva dönti az imbolygót előre és hátra; míg a kollektív bot mindhárom "
+"szervót egy irányba mozgatva emeli és süllyeszti az imbolygót. Az "
+"összhangban működő szervók drasztikusan megnövelik a rendelkezésre álló "
+"nyomatékot, valamint a precizitást."
 
 #: ../../source/ch_advanced.rst:129
 msgid ""
@@ -400,6 +434,11 @@ msgid ""
 " and aft; with Pitch input, all three servos raise the swash-plate up and "
 "down."
 msgstr ""
+"**120X (3 szervó)**: Ugyan az, mint a fenti, csak az elrendezés el van "
+"forgatva 150°-kal. A csűrés bot mindhárom szervót mozgatva dönti az "
+"imbolygót jobbra és balra; a magassági bot hatására a magassági és a "
+"kollektív szervók döntik az imbolygót előre és hátra; míg a kollektív bot "
+"mindhárom szervót egy irányba mozgatva emeli és süllyeszti az imbolygót."
 
 #: ../../source/ch_advanced.rst:136
 msgid ""
@@ -409,6 +448,11 @@ msgid ""
 " of the combined servos and an equal cyclic rate all around. On a 120° "
 "setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
 msgstr ""
+"**140 (3 szervó)**: Tulajdonképpen a 140°-os imbolygó elrendezés szervói "
+"ugyanúgy működnek, mint a 120°-osé, csak a magassági vezérlés elrendezése "
+"tér el. A 140°-os elrendezés simább működést tesz lehetővé, minden irányban "
+"egyforma ciklikus sebességgel. A 120°-os elrendezésben a bal/jobb döntés "
+"kicsit gyorsabb, mint az előre/hátra."
 
 #: ../../source/ch_advanced.rst:143
 msgid ""
@@ -417,6 +461,11 @@ msgid ""
 "plate fore and aft; with Pitch input, all three servos raise the swash-plate"
 " up and down. Most commonly used for electronic helicopters."
 msgstr ""
+"**90 (3 szervó)**: A csűrés bot hatására a csűrés és a kollektív szervók "
+"döntik az imbolygót jobbra és balra; a magassági bot előre és hátra dönti az"
+" imbolygót; míg a kollektív bot mindhárom szervót egy irányba mozgatva emeli"
+" és süllyeszti az imbolygót. Ez a leggyakoribb elrendezés az elektronikus "
+"helikoptereken."
 
 #: ../../source/ch_advanced.rst:145
 msgid ""
@@ -424,6 +473,9 @@ msgid ""
 "helicopter using a gyroscopic flight control system. Please refer to the "
 "specific manufacturers instructions to see how to configure mixer outputs."
 msgstr ""
+"**Nincs**: Ebben a speciális esetben a mixelést a helikopter saját "
+"repülésirányító rendszere végzi. A kimenetek konfigurálásához annak gyártója"
+" által kiadott utasításokat kell követni."
 
 #: ../../source/ch_advanced.rst:151
 msgid ""
@@ -431,6 +483,10 @@ msgid ""
 "cases you will still use the designated swash-plate type but may need to "
 "reverse specific channels."
 msgstr ""
+"MEGJEGYZÉS: Néhány helikopter 120 vagy 140 fokos elrendezéssel rendelkezik, "
+"de azok el vannak forgatva 180 fokkal. Ebben az esetben használhatod a 120 "
+"vagy 140 fokos elrendezést, de lehet, hogy egyes csatornákat invertálnod "
+"kell."
 
 #: ../../source/ch_advanced.rst:156
 msgid "Modifying sounds"
@@ -442,55 +498,60 @@ msgid ""
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
 "the 'media' folder."
 msgstr ""
+"Át lehet szerkeszteni a távirányító által kiadott hangjelzéseket, de ehhez "
+"csatlakoztatni kell a távirányítót a PC-hez USB meghajtóként, és át kell "
+"írni a \"media\" könyvtárban található \"sound.ini\" fájl tartalmát."
 
 #: ../../source/ch_advanced.rst:162
 msgid "The sections, and what causes them to play, are:"
 msgstr ""
+"A fájlban található szekciók egy-egy hangot írnak le, és az alábbi események"
+" váltják ki őket:"
 
 #: ../../source/ch_advanced.rst:164
 msgid "**startup**: Powered on."
-msgstr ""
+msgstr "**startup**: Bekapcsolás."
 
 #: ../../source/ch_advanced.rst:165
 msgid "**shutdown**: Powering off."
-msgstr ""
+msgstr "**shutdown**: Kikapcsolás."
 
 #: ../../source/ch_advanced.rst:166
 msgid "**volume**: Configuring transmitter volume."
-msgstr ""
+msgstr "**volume**: A távirányító hangerejének változtatása."
 
 #: ../../source/ch_advanced.rst:167
 msgid "**timer_warning**: Timer is about to expire."
-msgstr ""
+msgstr "**timer_warning**: Az időzítő le fog járni."
 
 #: ../../source/ch_advanced.rst:168
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr ""
+msgstr "**alarm#**: Időzítő # (1...4) lejárt."
 
 #: ../../source/ch_advanced.rst:169
 msgid "**batt_alarm**: Battery low warning."
-msgstr ""
+msgstr "**batt_alarm**: Alacsony telepfeszültség riasztás."
 
 #: ../../source/ch_advanced.rst:170
 msgid "**done_binding**: Binding finished."
-msgstr ""
+msgstr "**done_binding**: A párosítás befejeződött."
 
 #: ../../source/ch_advanced.rst:171
 msgid "**key_pressing**: On a key press"
-msgstr ""
+msgstr "**key_pressing**: Gombnyomás hangja."
 
 #: ../../source/ch_advanced.rst:172
 msgid "**saving**: When saving a model file."
-msgstr ""
+msgstr "**saving**: A modell fájl mentésekor."
 
 #: ../../source/ch_advanced.rst:173
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
-msgstr ""
+msgstr "**max_len**: Ha meghaladtad a maximálisan beírható szöveg hosszát."
 
 #: ../../source/ch_advanced.rst:174
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
-msgstr ""
+msgstr "**telem_alarm#**: Telemetria riasztás # (1...6)."
 
 #: ../../source/ch_advanced.rst:176
 msgid ""
@@ -499,6 +560,10 @@ msgid ""
 "milliseconds to play that note. There is a limit of 100 notes for each "
 "sound."
 msgstr ""
+"Minden szekcióban beállíthatod az adott hangjelzés hangerejét a \"volume\" "
+"beállítással 0-tól (nincs hang) 100-ig (max. hangerő). A többi bejegyzés "
+"egy-egy hangjegy neve, a hozzájuk tartozó értékek pedig az adott hangjegy "
+"hossza milliszekundumban. Egy hangjelzés maximum 100 hangjegyből állhat."
 
 #: ../../source/ch_advanced.rst:181
 msgid ""
@@ -508,3 +573,8 @@ msgid ""
 "ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
 "addition, 'a', 'ax' and 'b' will play the three notes below middle C."
 msgstr ""
+"A hangjegy neve lehet \"xx\", ami a szünet (ilyenkor nem ad hangot), vagy a "
+"hangjegy neve (a...g), esetleg \"x\"-el jelölve a fél hang emelést \"a\", "
+"\"c\", \"d\", \"f\" vagy \"g\" esetén, majd kiegészítve az adott oktáv "
+"számával 0-tól 4-ig. Így \"c0\"-tól (közép C) egészen \"b4\"-ig választhatók"
+" hangok."
