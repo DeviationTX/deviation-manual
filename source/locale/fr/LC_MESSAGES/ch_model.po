@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 20:51+0000\n"
+"POT-Creation-Date: 2017-04-21 20:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -306,7 +306,7 @@ msgid ""
 "model, read through this entire section carefully."
 msgstr ""
 "Le mode de réglage \"Complexe\" libère les pleines possibilités du micrologiciel Deviation. Cependant il est différent des configurations de tous les autres émetteurs du commerce. Deviation a aussi un interface plus traditionnel pour ceux qui préfèrent (vois :ref:`réglage standard`). Chaque canal de sortie  est composé d'un ou de plusieurs 'mixers'. Chaque mixer\n"
-"est constitué d'un signal d'entrée, d'une commande d'activation et d'une fonction qui modifie sa valeur de sortie."
+"est constitué d'un signal d'entrée, d'une commande d'activation et d'une fonction qui modifie sa valeur de sortie. C'est une capacité très puissante, mais qui requerra d'apprendre un méthode complètement différente pour configurer un modèle. Pour aider à une configuration rapide il existe quelques réglages prédéfinis (voir :ref:`gabarits de modèles prédéfinis`), mais pour apprendre à modifier et configurerer un modèle lisez entièrement cette section avec attention."
 
 #: ../../source/ch_model.rst:224
 msgid ""
@@ -314,6 +314,9 @@ msgid ""
 "channels.  The mixer page is accessed from the main menu by selecting the "
 "model icon.."
 msgstr ""
+"La page Mixer contrôle comment les entrées (manches, interrupteur) sont "
+"assignés aux canaux de sortie. On accède à cette page du menu principal en "
+"cliquant sur l'icône du modèle."
 
 #: ../../source/ch_model.rst:226
 msgid ""
@@ -321,10 +324,13 @@ msgid ""
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
 "channels that can be used as an intermediate step for complex setups."
 msgstr ""
+"Le nombre de canaux disponibles dépend de celui choisi dans la section "
+":ref:`Config modèle`. De plus il existe 10 canaux virtuels qui peuvent être "
+"utilisés comme étapes intermédiaires pour des configurations complexes. "
 
 #: ../../source/ch_model.rst:229
 msgid "Channel Reorder"
-msgstr ""
+msgstr "Réordonnancement  des canaux"
 
 #: ../../source/ch_model.rst:236
 msgid ""
@@ -333,10 +339,12 @@ msgid ""
 " are the initial channel assignments.  Whenever the page is loaded, the "
 "channels will be sequentially ordered representing the current state."
 msgstr ""
+"La page de réordonnancement des canaux permet de déplacer les définitions de mixers  ou de recopier des\n"
+"configurations de canaux. Notez que les valeurs affichées représentent l'ordre initial des canaux. Chaque fois que la page est chargée, les canaux seront ordonnés séquentiellement selon l'état courant."
 
 #: ../../source/ch_model.rst:241
 msgid "Channel configuration"
-msgstr ""
+msgstr "Configuration de canal"
 
 #: ../../source/ch_model.rst:250
 msgid ""
@@ -346,16 +354,25 @@ msgid ""
 "trim, and a safety switch (which could be used to ensure that a motor cannot"
 " spin-up while working on a model)"
 msgstr ""
+"La configuration de canal donne la possibilité de configurer la sortie "
+"finale des canaux. Les options comme le sens et les valeurs de sécurité sont"
+" fixées ici.  On trouve ici également l'échelle et les limites de "
+"débattement, les subtrims et un interrupteur de sécurité ( qui pourrait "
+"permettre d'assurer qu'un moteur ne pourrait démarrer pendant des travaux "
+"sur un modèle)"
 
 #: ../../source/ch_model.rst:252
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
 msgstr ""
+"Les modifications sur cette page prennent immédiatement effet sur la sortie "
+"du canal. En cliquant sur Annuler on rétablira les valeurs affichées dans le"
+" dernier état sauvegardé."
 
 #: ../../source/ch_model.rst:254
 msgid "**Reverse**: Reverse the direction of servo rotation"
-msgstr ""
+msgstr "**Sens**: Modifie le sens de rotation du servo. "
 
 #: ../../source/ch_model.rst:256
 msgid ""
@@ -363,12 +380,18 @@ msgid ""
 " signal from the transmitter. The range is between -125 and +125 or None. "
 "Not all receivers support this capability."
 msgstr ""
+"**Sécurités**: Définit une valeur que le récepteur devrait utiliser s'il "
+"perd le signal de l'émetteur. la valeur peut aller de -125 à +125 ou Arrêt. "
+"Tous les récepteurs ne disposent pas de cette possibilité."
 
 #: ../../source/ch_model.rst:258
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
 msgstr ""
+"**Sécurité**: Fixe un interrupteur qui prendra le pas sur tous les mixers et"
+" forcera le canal de sortie à adopter la valeur ‘Val Sécu’ quand il sera "
+"actionné."
 
 #: ../../source/ch_model.rst:260
 msgid ""
@@ -376,6 +399,8 @@ msgid ""
 "specified. The acceptable range of Safe Val is any value between -150 and "
 "150."
 msgstr ""
+"**Val Sécu**: Si un interrupteur de sécurité est sélectionné, la Val Sécu "
+"peut aussi être fixée. La valeur choisie doit se situer entre -150 et +150."
 
 #: ../../source/ch_model.rst:262
 msgid ""
@@ -386,6 +411,13 @@ msgid ""
 "Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is "
 "-250 to 0 for Min Limit and 0 to 250 for Max Limit."
 msgstr ""
+"** Limite Min/ Limite Max**Ce sont les valeurs minimum et maximum que "
+"l'émetteur enverra au récepteur (après que tous les multiplicateurs, trims "
+"et mixages aient été appliqués). Si une valeur calculée est en dehors de "
+"l'échelle min/max, elle sera limitée soit au minimum, soit au maximum selon "
+"le cas. la valeur par défaut est -150 pour la limite min et +150 pour la "
+"limite max. Les valeur Maximum est -250 à 0 pour limite min et 0 à +250 pour"
+" limite max."
 
 #: ../../source/ch_model.rst:264
 msgid ""
@@ -395,12 +427,19 @@ msgid ""
 "different value than Scale+ both data will act separately until you set them"
 " to the same value again."
 msgstr ""
+"**Echelle-/Echelle+** Ces valeurs représentent un multiplicateur final (en "
+"pourcentage) pour ajuster le débattement du servo. Les entrées vont de 1 à "
+"250. En modifiant Echelle+, Echelle- sera modifié de la même manière. Si "
+"Echelle- a été mis à une valeur différente de Echelle+, les deux données "
+"réagiront séparément jusqu'à ce qu'elles soient de nouveau à la même valeur."
 
 #: ../../source/ch_model.rst:266
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
 msgstr ""
+"**Subtrim**: Ajuste la position zero (neutre) du servo. L'intervalle "
+"disponible va de -50.0 à +50.0  par  incréments de 0.1."
 
 #: ../../source/ch_model.rst:268
 msgid ""
@@ -408,6 +447,10 @@ msgid ""
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
 "degrees per 100msec (assuming a min/max throw of 120degrees)."
 msgstr ""
+"**Vitesse**: Ajuste la vitesse maximum du servo. Zéro est inactif (vitesse "
+"maximum); La plage de réglage va de 1 (le plus lent) à 250 (le plus rapide)."
+" la vitesse de servo est définie comme nombre de degrés pour 100 msec (pour "
+"un débattement min/max de 120 degrés)"
 
 #: ../../source/ch_model.rst:269
 msgid ""
