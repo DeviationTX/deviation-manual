@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 20:51+0000\n"
+"POT-Creation-Date: 2017-04-21 20:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:61
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "Modell konfigurálás (Szokásos és Haladó)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:191
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "Előre definiált modell sablonok"
 
 #: ../../source/ch_model.rst:200
 msgid ""
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:207
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "Mixer (Haladó GUI)"
 
 #: ../../source/ch_model.rst:222
 msgid ""
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:229
 msgid "Channel Reorder"
-msgstr ""
+msgstr "Csatorna sorbarendezés"
 
 #: ../../source/ch_model.rst:236
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:241
 msgid "Channel configuration"
-msgstr ""
+msgstr "Csatorna konfigurálás"
 
 #: ../../source/ch_model.rst:250
 msgid ""
@@ -339,7 +339,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:272
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "Virtuális csatorna konfigurálás"
 
 #: ../../source/ch_model.rst:279
 msgid ""
@@ -350,7 +350,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:285
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "Egyszerű mixer típus"
 
 #: ../../source/ch_model.rst:294
 msgid ""
@@ -394,7 +394,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:311
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "Expó és Dual-Rate mixer típus"
 
 #: ../../source/ch_model.rst:325
 msgid ""
@@ -413,7 +413,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:338
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "Komplex mixer típus"
 
 #: ../../source/ch_model.rst:347
 msgid ""
@@ -571,7 +571,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:416
 msgid "Cyclic"
-msgstr ""
+msgstr "Ciklikus"
 
 #: ../../source/ch_model.rst:424
 msgid ""
@@ -582,7 +582,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:427
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "Mixerek sorrendezése"
 
 #: ../../source/ch_model.rst:437
 msgid ""
@@ -601,7 +601,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:444
 msgid "Available Curves"
-msgstr ""
+msgstr "Függvény görbe típusok"
 
 #: ../../source/ch_model.rst:446
 msgid "The following curve functions are supported:"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:465
 msgid "Curve Editing"
-msgstr ""
+msgstr "Függvény görbe szerkesztése"
 
 #: ../../source/ch_model.rst:467
 msgid ""
@@ -728,7 +728,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:504
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "Időzítők (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:519
 msgid ""
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:541
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "Telemetria konfiguráció (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:551
 msgid ""
@@ -792,7 +792,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:561
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr ""
+msgstr "Trim-ek és virtuális bemenetek (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:570
 msgid ""
@@ -830,7 +830,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:594
 msgid "Datalog (Std & Adv GUI)"
-msgstr ""
+msgstr "Adatnapló (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:598 ../../source/ch_model.rst:667
 #: ../../source/ch_model.rst:691
@@ -894,7 +894,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:625
 msgid "Main page config (Std & Adv GUI)"
-msgstr ""
+msgstr "Főablak konfiguráció (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:640
 msgid ""
