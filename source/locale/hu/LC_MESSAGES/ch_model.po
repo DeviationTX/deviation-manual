@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-21 20:50+0000\n"
+"POT-Creation-Date: 2017-04-22 20:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -28,47 +28,60 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
+"A modell menü segítségével lehet modellt betölteni és konfigurálni, azon "
+"belül is például riasztásokat, naplózást, és képernyő elrendezést "
+"beállítani. A főmenübe egy \"ENT\" nyomógomb megnyomásával lehet jutni, "
+"onnan pedig a \"Modell menü\"-t kiválasztva egy újabb \"ENT\" megnyomásával "
+"lehet belépni a modell menübe."
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
+"A :ref:`model-setup` fejezet szerint, a modell konfiguráló ablak \"Felület\""
+" mezőjében kiválasztott értéktől függően, a modell menü teljesen máshogy néz"
+" ki."
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
 msgstr ""
+"A Haladó '2. Mixer' lap (:ref:`mixer-adv`) rendelkezik a Szokásos menü "
+"minden funkciójával (sőt még többel)."
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**Haladó GUI**:"
 
 #: ../../source/ch_model.rst:32
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**Szokásos GUI**:"
 
 #: ../../source/ch_model.rst:44
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**Haladó modell menü**"
 
 #: ../../source/ch_model.rst:45
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**Szokásos modell menü**"
 
 #: ../../source/ch_model.rst:56
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
 msgstr ""
+"MEGJEGYZÉS: Újonnan létrehozott modellek esetén a haladó GUI az "
+"alapértelmezett."
 
 #: ../../source/ch_model.rst:61
 msgid "Model setup (Std & Adv GUI)"
-msgstr "Modell konfigurálás (Szokásos és Haladó)"
+msgstr "Modell konfigurálás (Szokásos és Haladó GUI)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
 msgstr ""
+"A modell konfiguráció képernyő számos modell beállítást tesz lehetővé."
 
 #: ../../source/ch_model.rst:75
 msgid ""
@@ -78,6 +91,12 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"**Fájl**: A fájl kiválasztó doboz teszi lehetővé egy másik modell "
+"betöltését, a modell konfiguráció másolását egy másik modell helyre, az "
+"aktuális modell alapállapotra történő visszaállítását (melynek során annak "
+"minden beállítása elvész), és sablonok betöltését (lásd :ref:`predefined-"
+"model-templates`). Egy új modell betöltése a biztonsági üzenet "
+"megjelenítésével járhat (lásd :ref:`safety-system`)."
 
 #: ../../source/ch_model.rst:98
 msgid ""
@@ -86,6 +105,11 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"**Felület**: Meghatározza, hogy az adott modell konfigurálása melyik "
+"felhasználói felület (Graphical User Interface - GUI) segítségével történik."
+" A \"Haladó\" GUI az alapértelmezett a Deviation szoftverben. A \"Szokásos\""
+" GUI csak helikopter típusnál létezik, és jobban hasonlít a gyári "
+"felhasználói felületre."
 
 #: ../../source/ch_model.rst:103
 msgid ""
@@ -97,6 +121,15 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"A szokásos mixer GUI elsősorban a flybar-ral rendelkező kollektív állásszög "
+"vezérlésű helikopterekhez készült, az ezekre jellemző funkciókat "
+"tartalmazza, melyek nem szükségesek a többi típusú repülő eszközökhöz, sőt "
+"lehet, hogy bizonyos azokhoz szükséges funkciókat viszont nem is tartalmaz. "
+"Egy flybarless kollektív állásszög vezérlésű helikopter konfigurálásához "
+"ugyan jól jöhet a szokásos GUI néhány funkciója, de nincs rájuk szüksége, "
+"ugyanakkor a vele nem megvalósítható funkciók hiányozhatnak. **Erősen "
+"ajánlott a haladó GUI használata minden repülő szerkezethez, maximum a "
+"flybar-ral ellátott kollektív állásszög vezérlésű helikoptereket kivéve.**"
 
 #: ../../source/ch_model.rst:114
 msgid ""
@@ -104,18 +137,26 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
+"MEGJEGYZÉS: Ha a haladó mixer GUI-ról a szokásosra váltáskor minden "
+"beállítás elvész. Fordított esetben, a szokásos GUI-ról a haladóra váltva a "
+"teljes konfiguráció megőrződik, bár az valószínűleg túlságosan komplex lesz."
 
 #: ../../source/ch_model.rst:123
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
 msgstr ""
+"**Modell név**: Megadja a modell nevét. A balra, jobbra, le és fel gombokkal"
+" kiválasztva, majd az ENT nyomógomb megnyomásával lehet beírni egy "
+"karaktert."
 
 #: ../../source/ch_model.rst:130
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
 msgstr ""
+"**Ikon**: A modell ikon kiválasztása. További modell ikonok telepíthetők "
+"(lásd :ref:`usb-file-system`)."
 
 #: ../../source/ch_model.rst:139
 msgid ""
@@ -124,24 +165,37 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"**Modell típus**: A modell típusának beállítása. A lehetséges értékei: Heli,"
+" Repülő, Multirotor. A helikoptereknek van egy további konfiguráló ablaka, "
+"melyet a modell típusra kattintva lehet megnyitni. Az imbolygó típus "
+"konfiguráláson található opciók megegyeznek a :ref:`swash-configuration` "
+"oldalon leírtakkal."
 
 #: ../../source/ch_model.rst:145
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
 msgstr ""
+"Ha a helikopter típusról mása váltasz, akkor az a felületet is átállítja a "
+"szokásosról haladóra, mert a szokásos GUI csak helikoptereknél értelmezett."
 
 #: ../../source/ch_model.rst:147
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"**Kimentő teljesítmény**: Meghatározza a rádió kimeneti teljesítményét (ha "
+"lehetséges). A beállítható értékek: 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, "
+"100mW, 150mW."
 
 #: ../../source/ch_model.rst:152
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
 msgstr ""
+"MEGJEGYZÉS: A gyári Devo7E módosítás nélküli RF moduljának maximális kimenő "
+"teljesítménye 7mW, de a szoftver ilyenkor a maximális kimenő teljesítményhez"
+" tartozó értéket fogja megjeleníteni, ami 150mW."
 
 #: ../../source/ch_model.rst:156
 msgid ""
@@ -150,6 +204,10 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"**PPM be**: A DSC csatlakozón, pl. a head-tracker eszköztől érkező jeleket "
+"fogadja, amit aztán továbbítani lehet pl. az FPV kamerát mozgató motorokhoz."
+" Ezen kívül ezt kell használni az oktató üzemmódhoz is. A beállítható "
+"értékek: Csatorna, Bot és Kiterjesztett."
 
 #: ../../source/ch_model.rst:162
 msgid ""
@@ -158,6 +216,10 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"A Bot és Csatorna módok az oktató üzemmód esetén használatosak, és a :ref"
+":`setting-up-a-buddy-box` fejezetben vannak dokumentálva. A Kiterjesztett "
+"mód használható FPV-hez, vagy más külső bemenet fogadására, és a :ref"
+":`setting-up-fpv` fejezet írja le."
 
 #: ../../source/ch_model.rst:164
 msgid ""
@@ -168,6 +230,13 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"**Protokoll**: A vevőnek megfelelő protokoll kiválasztása. Egyes protokollok"
+" további opciókat tartalmazhatnak, melyeket a protokoll kiválasztó doboz "
+"megnyomásával lehet megnyitni. Lásd a :ref:`protocols` fejezetet a "
+"protokollokkal kapcsolatos részletekért. A protokoll megváltoztatása "
+"letiltja az aktuális protokollt, így hatással van az aktuálisan "
+"csatlakoztatott modellre is! Az újonnan kiválasztott protokoll "
+"engedélyezéséhez használd a \"Csatol\" gombot az alábbiak szerint."
 
 #: ../../source/ch_model.rst:177
 msgid ""
@@ -177,6 +246,12 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"**Csatol**: A kiválasztott protokoll és a \"Fix ID\" beállítás függvényében "
+"a távirányító vagy automatikusan csatolódik a modellhez indításkor, vagy "
+"manuálisan kell azt egyszer csatolni hozzá. Lásd a :ref:`protocols` "
+"fejezetet a protokollokkal kapcsolatos részletekért. A \"Csatol\" gomb "
+"használható akkor is, ha a távirányító kikapcsolása nélkül akarunk "
+"protokollt váltani."
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -184,12 +259,18 @@ msgid ""
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
 msgstr ""
+"**Fix ID**: Bizonyos protokollok esetén a fix ID mezőben beállítható egy "
+"egyedi kód, ami garantálja, hogy a távirányító csak az adott modellhez tud "
+"csatlakozni. Ez hasznos lehet annak biztosítására, hogy a távirányító "
+"véletlenül se csatlakozhasson rossz modellhez."
 
 #: ../../source/ch_model.rst:186
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
 msgstr ""
+"**Csatornák**: Megadja a továbbítandó csatornák számát (de a csatornák "
+"maximális számát a kiválasztott protokoll határozza meg)."
 
 #: ../../source/ch_model.rst:191
 msgid "Predefined Model Templates"
