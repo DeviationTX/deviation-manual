@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-22 20:54+0000\n"
+"POT-Creation-Date: 2017-04-23 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -459,10 +459,15 @@ msgid ""
 "~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A "
 "value of 30 should be approx twice as slow as a typical servo."
 msgstr ""
+"Exemple : une valeur de 60 donnera une vitesse de 60 degrés pour 100 msec ce"
+" qui est équivalent à centre au max en 100 msec. La plupart des servos sont "
+"donnés pour ~60degrees/0.1sec, donc une vitesse > à 60 n'aura pas d'effet "
+"sur eux. Une valeur de 30 devrait être à peu près deux fois plus lent qu'un "
+"servo standard."
 
 #: ../../source/ch_model.rst:272
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "Configuration de canal virtuel"
 
 #: ../../source/ch_model.rst:279
 msgid ""
@@ -470,10 +475,13 @@ msgid ""
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
 msgstr ""
+"Si vous appuyez sur ENT sur un canal virtuell, un écran de clavier apparait."
+" Vous pouvez éditer le nom par défaut. Utilisez les boutons L/R/UP/DN suivis"
+" de 'ENT' ou touchez chaque caractère."
 
 #: ../../source/ch_model.rst:285
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "Type de mixage simple"
 
 #: ../../source/ch_model.rst:294
 msgid ""
@@ -483,6 +491,12 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"Le type de mixage simple est le moyen le plus simple pour définir un canal. "
+"Il permet de définir une entrée primaire (Manche, interrupteur un un autre "
+"canal) et d'appliquer une courbe ou une fonction à cette entrée. Le résultat"
+" peut aussi être multiplié ou avoir un décalage du zéro. Vous ne pouvez pas "
+"utiiiser un inverseur ou interrupteur pour activer ou désactiver cette "
+"configuration."
 
 #: ../../source/ch_model.rst:300 ../../source/ch_model.rst:327
 #: ../../source/ch_model.rst:355
@@ -490,11 +504,13 @@ msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
 msgstr ""
+"Un long appui sur ENT mettra à jour les réglages en cours du mixage, en "
+"permettant de le tester sur l'émetteur."
 
 #: ../../source/ch_model.rst:302 ../../source/ch_model.rst:329
 #: ../../source/ch_model.rst:376
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "**Source** : L'entrée contrôlant ce mixage."
 
 #: ../../source/ch_model.rst:304 ../../source/ch_model.rst:331
 #: ../../source/ch_model.rst:378
@@ -503,6 +519,10 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"**Courbe**: La fonction appliquée à la source pour générer la sortie. Voir "
+"la section :ref:courbes disponibles` pour plus d'infos. Selon le type de "
+"courbe, appuyer sur la coure peut faire afficher l'éditeur de courbe (voir "
+":ref:`Edition de courbe`)."
 
 #: ../../source/ch_model.rst:306 ../../source/ch_model.rst:335
 #: ../../source/ch_model.rst:380
@@ -510,10 +530,13 @@ msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
 msgstr ""
+"**Echelle** un multiplicateur qui est appliqué après la courbe pour "
+"contrôler la portée de la sortie."
 
 #: ../../source/ch_model.rst:308
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
+"**Offset** : Un décalage additionnel appliqué après la multiplication."
 
 #: ../../source/ch_model.rst:311
 msgid "Expo & Dual-Rate Mix Type"
@@ -528,15 +551,23 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"Sélectionner un interrupteur pour Inter1 ou Inter2 activera la partie "
+"correspondante. Chaque partie peut avoir une courbe liée (la courbe est la "
+"même que celle de la courbe \"Petit Déb\")et dans ce cas seul le "
+"multiplicateur peut être modifié, ou bien avoir une courbe différente. "
+"Appuyer sur le bouton 'Déb med' ou 'Grand déb' pour un interrupteur donné "
+"basculera entre courbes liées et différentes."
 
 #: ../../source/ch_model.rst:333
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
+"**Inter1** ou **Inter2**: Spécifie un interrupteur pour activer les "
+"débattements moyens et grands."
 
 #: ../../source/ch_model.rst:338
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "Mixage de type complexe"
 
 #: ../../source/ch_model.rst:347
 msgid ""
@@ -547,6 +578,9 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"Le mixage de type complexe libère toute la puissance du système de mixage. Pour un canal donné,  autant de mixers que l'on veut peuvent être appliqués pour former le signal de\n"
+"sortie. Chaque mixer est appliqué pour autant que sa 'Commande' soit active et peut soit remplacer, s'ajouter, se multiplier aux mixers précédemment définis pour ce canal.\n"
+"Cette technique permet de définir un signal de sortie comme une combinaison d'autant de signaux d'entrée que désirés."
 
 #: ../../source/ch_model.rst:357
 msgid "The Complex Mixer page has the following options:"
