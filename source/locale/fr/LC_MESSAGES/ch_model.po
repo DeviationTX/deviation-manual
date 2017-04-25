@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-23 20:51+0000\n"
+"POT-Creation-Date: 2017-04-24 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -584,39 +584,52 @@ msgstr ""
 
 #: ../../source/ch_model.rst:357
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "La page de mixage complexe propose les options suivantes :"
 
 #: ../../source/ch_model.rst:359
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
 msgstr ""
+"**Nbr** mixers: Spécifie le nombre de pages de mixer  à utiliser pour ce "
+"canal. Si vous augmentez ce nombre d'un, une nouvelle page de mixer sera "
+"ajoutée après la dernière page."
 
 #: ../../source/ch_model.rst:361
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
 msgstr ""
+"**Page**: Indique le numéro de page de mixer en cours d'édition. Appuyer sur"
+" la boite permet de réordonner les pages de mixers."
 
 #: ../../source/ch_model.rst:363
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
 msgstr ""
+"**Commande**: Indique un interrupteur optionnel qui déterminera si le mixer "
+"courant est actif ou non."
 
 #: ../../source/ch_model.rst:365
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
 msgstr ""
+"**Opération** : Indique comment le mixer de cette page est appliqué aux "
+"mixers définis dans les pages  précédentes pour ce canal. Les options sont:"
 
 #: ../../source/ch_model.rst:367
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
+"**remplacer**: Si ce mixer est actif, tous les mixers des pages précédentes "
+"sont ignorés."
 
 #: ../../source/ch_model.rst:368
 msgid "**Add**: Add the value of this mixer to the previous mixers."
 msgstr ""
+"**ajouter**: Si ce mixer est actif, ajoute la valeur de ce mixer aux mixers "
+"actifs des pages précédentes."
 
 #: ../../source/ch_model.rst:369
 msgid ""
@@ -624,18 +637,28 @@ msgid ""
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
 msgstr ""
+"**multiplier**: Si le mixer est actif, multiplie par la valeur de ce mixer  "
+"la valeur résultant de l'ensemble des mixers actifs précédemment définis. "
+"Notez que les valeurs sont des pourcentages. Multiplier par 50 multipliera "
+"en réalité par .5."
 
 #: ../../source/ch_model.rst:372
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
 msgstr ""
+"**max**: Si ce mixer est actif, la valeur de sortie sera la valeur la plus "
+"grande entre celle  de ce mixer et celle de l'ensemble des mixers actifs des"
+" pages précédentes."
 
 #: ../../source/ch_model.rst:373
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
 msgstr ""
+"**min**: Si ce mixer est actif, la valeur de sortie sera la valeur la plus "
+"petite entre celle  de ce mixer et celle de l'ensemble des mixers actifs des"
+" pages précédentes."
 
 #: ../../source/ch_model.rst:374
 msgid ""
@@ -643,58 +666,76 @@ msgid ""
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
 msgstr ""
+"**Delay**: Retarde la sortie de ce mixer quand il est utilisé avec une "
+"courbe fixe. Une valeur d'échelle de 100 représente 5 secondes de retard. On"
+" peut le faire varier par échelle ou offsett."
 
 #: ../../source/ch_model.rst:382
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
 msgstr ""
+"Notez qu'alors que la valeur de l'échelle est limitée à 125%, la valeur du "
+"mixer peut avoir une valeur plus grande que 125%, si un offset est déclaré "
+"ou si la valeur du trim est différent de zéro."
 
 #: ../../source/ch_model.rst:384
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
+"**Offset** : Un décalage additif qui est appliqué après le facteur "
+"d'échelle."
 
 #: ../../source/ch_model.rst:386
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
 msgstr ""
+"**Trim** :  Définit si un un trim s'applique ou non pour la source "
+"concernée."
 
 #: ../../source/ch_model.rst:388
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "\\Un mixer défini dans une page de mixer a la forme générale suivante :"
 
 #: ../../source/ch_model.rst:391
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 msgstr ""
+"M(x) = Si(*Commande*) { *Source* * *Courbe* * *Echlle * + *Offset*} sinon  "
+"{0} + *Trim*"
 
 #: ../../source/ch_model.rst:393
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
 msgstr ""
+"Pour un Mixer n activé par la commande n, la combinaison Cx de l'ensemble  "
+"des mixers de 1 à n formant le canal est définie selon le type d'opération:"
 
 #: ../../source/ch_model.rst:395
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "Pour 'Remplacer' :"
 
 #: ../../source/ch_model.rst:397
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 msgstr ""
+"Cx = Si (Commande n) {Mix n} Sinon Si (Commande n-1) {Mix n-1} … Sinon si "
+"(Commande 0) {Mix 0}"
 
 #: ../../source/ch_model.rst:399
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "Pour 'multiplier' :"
 
 #: ../../source/ch_model.rst:401
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx = Si (commande n activée, (Mix n) x (résultat mixer 1 à n-1) sinon "
+"(résultat mixer 1 à n-1)"
 
 #: ../../source/ch_model.rst:403
 msgid "For an ‘Add’ mux:"
