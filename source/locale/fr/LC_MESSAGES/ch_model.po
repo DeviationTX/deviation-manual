@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-24 20:53+0000\n"
+"POT-Creation-Date: 2017-04-26 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -769,7 +769,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:416
 msgid "Cyclic"
-msgstr ""
+msgstr "Cyclique"
 
 #: ../../source/ch_model.rst:424
 msgid ""
@@ -777,10 +777,14 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"**Cyclic1, Cyclic2, Cyclic3**: Les trois sorties du mixage du plateau "
+"cyclique d'hélicoptère. Ils représentent les trois servos connectés au "
+"plateau cyclique d'un hélicoptère.  (see :ref:`configuration du plateau "
+"cyclique`)."
 
 #: ../../source/ch_model.rst:427
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "Réordonner les mixers"
 
 #: ../../source/ch_model.rst:437
 msgid ""
@@ -789,6 +793,11 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"Sélectionner le mixer pour lequel vous voulez modifier la position et "
+"utiliser les boutons 'Monter' et 'Baisser' pour faire varier sa position. "
+"Note: Le nom du mixer représente sa position au moment de l'ouverture de la "
+"page de réordonnancement. Si la page est fermée puis réouverte tous les "
+"mixers sont affichés séquentiellement."
 
 #: ../../source/ch_model.rst:439
 msgid ""
@@ -796,70 +805,92 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"Cette page permet également de supprimer ou de créer de nouveaux mixers en "
+"cliquant respectivement sur ‘supprimer’ ou ‘ajouter’. Un mixer peut "
+"également être recopié sur un autre mixer (écrase le précédent) en utilisant"
+" la fonction 'Copier'."
 
 #: ../../source/ch_model.rst:444
 msgid "Available Curves"
-msgstr ""
+msgstr "Courbes disponibles"
 
 #: ../../source/ch_model.rst:446
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "Les courbes suivantes sont disponibles"
 
 #: ../../source/ch_model.rst:448
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "**1-to-1**:l'entrée égale la sortie (non modifiable)"
 
 #: ../../source/ch_model.rst:449
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
+"**Fixe**: La sortie est constante quelle que soit l'entrée. Le décalage "
+"[offset] est modifiable."
 
 #: ../../source/ch_model.rst:450
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
 msgstr ""
+"**Min/Max**: La sortie est -100 si l'entrée est inférieure à une valeur "
+"spécifiée et +100 dans le cas contraire."
 
 #: ../../source/ch_model.rst:451
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
 msgstr ""
+"**0/Max**: La sortie est 0 si l'entrée est inférieure à une valeur spécifiée"
+" ou 100 dans le cas contraire."
 
 #: ../../source/ch_model.rst:452
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
 msgstr ""
+"**>0**: la sortie est égale à l'entrée quand elle est supérieure à une "
+"valeur spécifiée, et 0 dans le cas contraire."
 
 #: ../../source/ch_model.rst:453
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
 msgstr ""
+"**>0**: la sortie est égale à l'entrée quand elle est inférieure à une "
+"valeur spécifiée, et 0 dans le cas contraire."
 
 #: ../../source/ch_model.rst:454
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
 msgstr ""
+"**ValAbs**: La sortie est égale à la valeur absolue de l'entrée (modifier la"
+" valeur définie modifiera la manière dont la valeur absolue est appliquée."
 
 #: ../../source/ch_model.rst:455
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**EXP.**:Applique une fonction exponentielle à l'entrée pour une réponse non"
+" linéaire.  (modifiable voir :ref:` Edition de courbe`)."
 
 #: ../../source/ch_model.rst:456
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
 msgstr ""
+"**Zone inerte**:[Deadband] La sortie sera constant pour des valeurs d'entrée"
+" proche de zéro. (modifiable voir :ref:` Edition de courbe`)."
 
 #: ../../source/ch_model.rst:457
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**Multi-point**: La courbe est définie par 3, 5, 7, 9, 11 or 13 points "
+"définis par l'utilisateur. (modifiable voir :ref:` Edition de courbe`)."
 
 #: ../../source/ch_model.rst:460
 msgid ""
@@ -867,10 +898,13 @@ msgid ""
 "(zero). If you change the curve for one input the offset will be transferred"
 " to the new curve if possible."
 msgstr ""
+"La valeur par défaut pour les décalages  [offset] dans les courbes ci dessus"
+" es 0 (zero). Si vous changez la courbe pour une entrée, le décalage sera "
+"transféré à la nouvelle si c'est possible."
 
 #: ../../source/ch_model.rst:465
 msgid "Curve Editing"
-msgstr ""
+msgstr "Edition de courbe"
 
 #: ../../source/ch_model.rst:467
 msgid ""
@@ -878,6 +912,9 @@ msgid ""
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
 "box will not be selectable if one of these curves is currently active."
 msgstr ""
+"On accède à l'éditeur de courbe  en appuyant  sur la boite de sélection de "
+"courbe si elle est sélectionnable. Les types de courbes 1 à 1 et  fixe ne "
+"sont pas modifiables et la boite de choix n'est pas cliquable. "
 
 #: ../../source/ch_model.rst:469
 msgid ""
@@ -886,6 +923,10 @@ msgid ""
 "may not be edited, and the curve-box will not be selectable if one of these "
 "curves is currently active."
 msgstr ""
+"On accède à l'éditeur de courbe soit en appuyant sur le graphique  soit en "
+"appuyant  sur la boite de sélection de courbe si elle est sélectionnable. "
+"Les types de courbes 1 à 1 et  fixe ne sont pas modifiables et la boite de "
+"choix n'est pas cliquable. "
 
 #: ../../source/ch_model.rst:471
 msgid ""
@@ -894,6 +935,11 @@ msgid ""
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
 msgstr ""
+"L'editeur de courbe diffère selon le type de courbe à modifier. Il n'est pas"
+" possible de changer le type de courbe dans  l'éditeur (toutefois il est "
+"possible de changer le nombre de points pour une courbe multi-points). On "
+"peut définir les valeurs en utilisant les boites de sélection ou en touchant"
+" le graphique"
 
 #: ../../source/ch_model.rst:478
 msgid ""
@@ -902,18 +948,28 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"pour les courbes Min/Max, 0/Max, >0, <0, and ValAbs, on peut fixer le point "
+"de transition sur l'axe des x. Une valeur de '0' sera symétrique sur l'axe "
+"des y, et des valeurs positives ou négatives bougeront le point central en "
+"conséquence."
 
 #: ../../source/ch_model.rst:485
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
 msgstr ""
+"Pour les courbes de type exponentielle EXP  , il est possible de configurer "
+"indépendamment la courbure pour les valeurs d'entrée négatives et celle pour"
+" les valeurs positives."
 
 #: ../../source/ch_model.rst:492
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
 msgstr ""
+"Pour les courbes de type  Zone inerte [Deadband] on peut régler la largeur "
+"de cette zone indépendamment pour les valeurs d'entrée négatives et celle "
+"pour les valeurs positives."
 
 #: ../../source/ch_model.rst:499
 msgid ""
@@ -923,10 +979,15 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"Pour les courbes de type 'Multi-points', chaque point peut-être fixé "
+"individuellement. On sélectionne d'abord le numéro du point puis sa valeur. "
+"Le nombre minimum est 3 et le maximum 13. En activant 'Smooth' [Lisse] un "
+"lissage sera appliqué plutôt que les points soient reliés par des lignes "
+"droites."
 
 #: ../../source/ch_model.rst:504
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "Chronos (Réglages Standard et Expert)"
 
 #: ../../source/ch_model.rst:519
 msgid ""
@@ -934,18 +995,26 @@ msgid ""
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
+"La page des chronos permet de paramétrer jusqu'à 4 chronos. Les chronos "
+"peuvent compter ou décompter le temps et peuvent être activés manuellement à"
+" partir de l'écran principal ou par une entrée les déclenchant (manche ou "
+"interrupteur)."
 
 #: ../../source/ch_model.rst:522
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
+"Les compteurs disponibles sont : chrono, à rebours, chrono proportionnel "
+"[Stop-Prop], à rebours proportionnel [Cntdn-Prop] et Permanent."
 
 #: ../../source/ch_model.rst:525
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
 msgstr ""
+"Les chronos peuvent optionnellement être remis à Zéro par un interrupteur. "
+"(Uniquement dans le mode de réglage avancé)."
 
 #: ../../source/ch_model.rst:528
 msgid ""
@@ -953,6 +1022,10 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"Les deux chronos proportionnels demandent une entrée entre 0 et 100 pour "
+"fonctionner correctement. Si vous utlisez ces chronos pour les gaz, vous "
+"devez utiliser un canal virtuel comme entrée pour transformer les valeurs de"
+" -100 à 100 en valeurs de 0 à 100."
 
 #: ../../source/ch_model.rst:535
 msgid ""
@@ -961,36 +1034,49 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"Les chronomètres 'permanent' ressemblent à des odomètres et leurs valeurs "
+"sont sauvegardées dans le fichier model.ini. Ils retrouveront la valeur "
+"précédente lors de l'allumage de l'émetteur. Vous pouvez régler ce chrono en"
+" utilisant le bouton 'Régler à'  [Set to] et les réinitialiser en utilisant "
+"le bouton 'RàZ'. "
 
 #: ../../source/ch_model.rst:541
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "Configuration de la télémétrie (Réglages Standard et Expert)"
 
 #: ../../source/ch_model.rst:551
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
 msgstr ""
+"La page de configuration de la télémétrie permet de définir les alarmes "
+"lorsque des évènements télémétriques prédéfinis interviennent."
 
 #: ../../source/ch_model.rst:553
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
+"**Alarme**:  le premier champ détermine l'entrée télémétrique à utiliser "
+"pour la surveillance de l'alarme. L'ensemble des valeurs disponibles "
+"dépendra du protocole."
 
 #: ../../source/ch_model.rst:555
 msgid ""
 "**Equality**: Can be '>=' or '<=' indicating whether a value above or below "
 "the target causes an alarm."
 msgstr ""
+"Deuxième champ. Le signe de comparaison peut être '>' ou '<=' selon qu'une "
+"valeur est supérieure ou inférieure ou égale à la valeur cible qui déclenche"
+" l'alarme."
 
 #: ../../source/ch_model.rst:556
 msgid "**Target**: The target value for the alarm."
-msgstr ""
+msgstr "Troisième champ : la valeur cible de l'alarme."
 
 #: ../../source/ch_model.rst:561
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr ""
+msgstr "Trims et entrées virtuelles  (Réglages Standard et Expert)"
 
 #: ../../source/ch_model.rst:570
 msgid ""
@@ -999,6 +1085,10 @@ msgid ""
 "switch`). It is accessed from the main menu via 'Model menu' followed by "
 "'Trims'."
 msgstr ""
+"La page Trims permet d'assigner les boutons de trims et le pas des trims "
+"ainsi que de faire fonctionner des boutons comme des entrées virtuelles. "
+"(voir :ref:`Utilisation d'un trim comme interrupteur virtuel.`). On y accède"
+" du menu principal par le Menu Modèles puis Trims."
 
 #: ../../source/ch_model.rst:572
 msgid ""
@@ -1009,6 +1099,12 @@ msgid ""
 " and ‘Trim -’ buttons can operate as a virtual stick to control an output "
 "channel."
 msgstr ""
+"Le champ 'Entrée' définit un manche d'entrée, puis le trim peut être "
+"appliqué dans le mixer, et fonctionnera comme un trim standard. Si le champ "
+"'Entrée' reçoit un canal ou un canal virtuel de sortie, la valeur est "
+"appliquée directement au canal de sortie. Dans ce cas, les boutons ‘Trim +’ "
+"et ‘Trim -’ choisis peuvent fonctionner comme un manche virtuel pour "
+"contrôler canal de sortie."
 
 #: ../../source/ch_model.rst:587
 msgid ""
@@ -1016,6 +1112,9 @@ msgid ""
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
 msgstr ""
+"La finesse détermine la sensibilité des trims sur l'entrée. Le nombre "
+"maximum de pas d'un step est */- 100. Donc une valeur de pas de 0.1 "
+"permettra un ajustement maximum de 10% sur le débattement du servo. "
 
 #: ../../source/ch_model.rst:589
 msgid ""
@@ -1025,15 +1124,20 @@ msgid ""
 "added to the trim, then it will have different trim values in each switch "
 "position."
 msgstr ""
+"La finesse du trim peut être modifiée sur la page Trims principale. Si vous "
+"voulez changer la source également, utilisez SVP la page ouverte en pressant"
+" sur a boite de dialogue 'Entrée'. Vous pouvez ici aussi ajouter un "
+"interrupteur au Trim. Si c'est le cas, le trim aura des valeurs différentes "
+"selon les positions de l'interrupteur."
 
 #: ../../source/ch_model.rst:594
 msgid "Datalog (Std & Adv GUI)"
-msgstr ""
+msgstr "Journal de données [Datalog]  (Réglages Standard et Expert)"
 
 #: ../../source/ch_model.rst:598 ../../source/ch_model.rst:667
 #: ../../source/ch_model.rst:691
 msgid "Note: This feature is not available for Devo7e."
-msgstr ""
+msgstr "Note : Cette fonction n'est pas disponible pour le Devo 7e."
 
 #: ../../source/ch_model.rst:601
 msgid ""

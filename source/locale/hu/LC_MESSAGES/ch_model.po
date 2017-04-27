@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-25 20:53+0000\n"
+"POT-Creation-Date: 2017-04-26 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -500,6 +500,11 @@ msgid ""
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
 msgstr ""
+"Ha egy virtuális csatorna nevén állva megnyomjuk az ENT nyomógombot, akkor "
+"megnyílik a szövegbeviteli képernyő, ahol át lehet írni az adott virtuális "
+"csatorna alapértelmezett nevét. A karakterek kiválasztásához az L/R/UP/DN "
+"gombokat lehet használni, és az ENT gombbal beszúrni, vagy használhatjuk az "
+"érintőképernyőt is."
 
 #: ../../source/ch_model.rst:285
 msgid "Simple Mix Type"
@@ -513,6 +518,11 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"Egy csatorna definiálásának legegyszerűbb módja az Egyszerű mixer típus. Ez "
+"lehetővé teszi egy elsődleges bemenet beállítását (botkormány, kapcsoló, "
+"vagy másik csatorna), és egy görbe vagy függvény hozzárendelését az adott "
+"bemenethez. Az eredményt lehet skálázni vagy függőlegesen el lehet tolni. "
+"Ezt a fajta mixert nem lehet kapcsolóval ki-be kapcsolni."
 
 #: ../../source/ch_model.rst:300 ../../source/ch_model.rst:327
 #: ../../source/ch_model.rst:355
@@ -520,11 +530,13 @@ msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
 msgstr ""
+"Az ENT gomb hosszú megnyomásával a beállítások érvényre jutnak, így lehetővé"
+" válik az új értékek tesztelése."
 
 #: ../../source/ch_model.rst:302 ../../source/ch_model.rst:329
 #: ../../source/ch_model.rst:376
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "**Forrás**: Az adott mixer bemenetének forrása."
 
 #: ../../source/ch_model.rst:304 ../../source/ch_model.rst:331
 #: ../../source/ch_model.rst:378
@@ -533,6 +545,10 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"**Görbe**: A bemenethez rendelt függvény, amely abból előállítja a "
+"kimenetet. További információkért lásd a :ref:`available-curves` fejezetet. "
+"A görbe típustól függően, a görbére kattintva megnyílhat a görbe szerkesztő "
+"képernyő (lásd :ref:`curve-editing`)."
 
 #: ../../source/ch_model.rst:306 ../../source/ch_model.rst:335
 #: ../../source/ch_model.rst:380
@@ -540,10 +556,15 @@ msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
 msgstr ""
+"**Skála**: A görbe által előállított kimeneti érték szorzótényezője, amivel "
+"a kimeneti tartomány nagyságát lehet beállítani, azaz a görbe függőleges "
+"irányú nyújtását vagy összenyomását."
 
 #: ../../source/ch_model.rst:308
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
+"**Eltolás**: A skálázás után hozzáadott eltolás érték, amellyel függőleges "
+"irányban lehet a görbét eltolni."
 
 #: ../../source/ch_model.rst:311
 msgid "Expo & Dual-Rate Mix Type"
