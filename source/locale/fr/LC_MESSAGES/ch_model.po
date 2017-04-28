@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 20:51+0000\n"
+"POT-Creation-Date: 2017-04-27 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -1147,28 +1147,39 @@ msgid ""
 " time. Logs are persistent and Deviation will continue writing to the end of"
 " the previous log by default."
 msgstr ""
+"La fonction Journal de données [Datalog] permet l'enregistrement de données "
+"d'entrée ou de sortie comme des données de télémétrie pendant une certaine "
+"durée. On peut l'utiliser pour observer et répéter un vol ou visualiser les "
+"information de télémétrie après coup. Les journaux sont durables et "
+"Deviation continuera les enregistrements à la suite du précédent journal par"
+" défaut."
 
 #: ../../source/ch_model.rst:610
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
 msgstr ""
+"**# bytes restant**  [# bytes left] Indique le nombre de bytes qui peuvent "
+"être écrits avant que le journal soit plein."
 
 #: ../../source/ch_model.rst:611
 msgid "**Enable**: Input which enables logging."
-msgstr ""
+msgstr "**Activer**  [Enable] : L'entrée qui active l'enregistrement."
 
 #: ../../source/ch_model.rst:612
 msgid "**Reset**: Clear the current log."
-msgstr ""
+msgstr "**RàZ**: Réinitialise le journal en cours."
 
 #: ../../source/ch_model.rst:613
 msgid "**Rate**: How often to write current info to the log file."
 msgstr ""
+"**Vitesse d'échantillonnage** [Sample Rate] : durée séparant les "
+"enregistrements des informations en cours dans le journal."
 
 #: ../../source/ch_model.rst:614
 msgid "**Select**: Quickly set or reset which items are logged."
 msgstr ""
+"**Select**: Active ou annule rapidement quels éléments sont enregistrés."
 
 #: ../../source/ch_model.rst:615
 msgid ""
@@ -1176,6 +1187,10 @@ msgid ""
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
+"**Données**: A la suite de 'Select' il y a une liste de données qui peuvent "
+"être enregistrés. Elles incluent les chronos, les entrées, les sorties, les "
+"canaux virtuels et la télémétrie. Plus il y aura de données enregistrées, "
+"plus vite le journal sera plein."
 
 #: ../../source/ch_model.rst:617
 msgid ""
@@ -1185,6 +1200,11 @@ msgid ""
 "increase the size of this file, so its size indicates the maximum data that "
 "can be stored."
 msgstr ""
+"**Enregistrer plus d' informations** Le journal ne peut contenir que 16kB de"
+" données par défaut. Vous pouvez augmenter le  nombre de données à "
+"enregistrer en donnant au fichier datalog.bin sur l'émetteur une taille "
+"supérieure. Deviation ne peut augmenter la taille de ce fichier, donc sa "
+"taille indique le nombre maximum de données qui peuvent être enregistrées."
 
 #: ../../source/ch_model.rst:620
 msgid ""
@@ -1193,20 +1213,27 @@ msgid ""
 "within the transmitter. Please check the downloads section on "
 "www.deviationtx.com for conversion tools."
 msgstr ""
+"**Note: Cette fonction est réservée aux utilisateurs experts**. Il  n'y a "
+"pour le moment pas de logiciel fourni pour analyser les journaux, et ils ne "
+"peuvent pas être visualisés à partir de l'émetteur. Vérifiez SVP sur la "
+"partie Downloads de www.deviationtx.com pour des outils de conversion."
 
 #: ../../source/ch_model.rst:625
 msgid "Main page config (Std & Adv GUI)"
-msgstr ""
+msgstr "Configuration de l'écran d'accueil   (Réglages Standard et Expert)"
 
 #: ../../source/ch_model.rst:640
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
+"La page de configuration de l'écran d'accueil sert à déterminer l'affichage "
+"de l'écran d'accueil. Cette page permet de définir quelles éléments sont "
+"affichés sur l'écran d'accueil."
 
 #: ../../source/ch_model.rst:643
 msgid "The following types of objects can be displayed:"
-msgstr ""
+msgstr "Les types d'objets suivants peuvent être affichés :"
 
 #: ../../source/ch_model.rst:646
 msgid ""
@@ -1214,6 +1241,10 @@ msgid ""
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
 msgstr ""
+"**Boite**[Box] Affiche une valeur numérique. Ces valeurs peuvent être des "
+"chronos, valeurs de canaux, entrée de manche etc. Il y a deux types de "
+"boites : grande et petite . La seule différence est la taille de la boite et"
+" le du texte."
 
 #: ../../source/ch_model.rst:647
 msgid ""
@@ -1222,24 +1253,31 @@ msgid ""
 "types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal "
 "bar. After inserting all trims do have numbers only."
 msgstr ""
+"**Barre de trim**  Affiche la valeur d'un trim.  Elle est généralement "
+"contrôlée par le bouton de trim et indiquent la position en cours du trim. "
+"Il y a deux types de trims. Les V-trims qui affichent une barre verticale et"
+" les H-trims qui affichent une barre horizontale. Aprés avoir été insérés "
+"les trims ne portent qu'un numéro."
 
 #: ../../source/ch_model.rst:648
 msgid "**Model (Icon)**: Display the icon related to the selected model."
-msgstr ""
+msgstr "**Modèle (Icône)** : affiche l'icône correspondant au modèle choisi."
 
 #: ../../source/ch_model.rst:649
 msgid "**Battery**: Display the battery voltage."
-msgstr ""
+msgstr "**Batterie** : Affiche le voltage de la batterie."
 
 #: ../../source/ch_model.rst:650
 msgid "**TxPower**: Displays the actual transmitter rating."
-msgstr ""
+msgstr "**Puiss TX* : Affiche la puissance réelle de l'émetteur."
 
 #: ../../source/ch_model.rst:651
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
 msgstr ""
+"**Barre graphique** [Bargraph] : Affiche une barre verticale. La valeur de "
+"la barre est une sortie de Canal."
 
 #: ../../source/ch_model.rst:653
 msgid ""
@@ -1248,16 +1286,23 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
+"**Basculant**[Toggle**] : Montre une icône indiquant l'état d'un "
+"interrupteur basculant . Il peut y avoir 1, 2 ou 3 icônes définis pour un "
+"interrupteur indiquant les différents états selon la position de "
+"l'interrupteur. Les interrupteurs à deux positions peuvent avoir jusqu'à 2 "
+"icônes et les interrupteurs à trois positions 3 icônes."
 
 #: ../../source/ch_model.rst:654
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
 msgstr ""
+"**Menus (Rapides)**: Les menus rapides sont des pages à accès rapide qui "
+"peuvent être affichées par une pression longue sur les boutons UP/DN."
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring object position"
-msgstr ""
+msgstr "Configurer la position des objets."
 
 #: ../../source/ch_model.rst:662
 msgid ""
@@ -1289,6 +1334,11 @@ msgid ""
 "This will add the specified object type to the center of the screen.  You "
 "can now place and configure the new object."
 msgstr ""
+"Cliquez sur l'icône '+'  pour ouvrir le dialogue d'addition d'objets. "
+"Sélectionnez le type d'objet dans la boite de sélection à gauche, puis "
+"appuyez sur 'Ajouter' [Add] pour créer l'objet. Cela ajoutera l'objet "
+"désigné au centre de l'écran. Vous pouvez maintenant placer et configurer le"
+" nouvel objet."
 
 #: ../../source/ch_model.rst:693
 msgid ""
