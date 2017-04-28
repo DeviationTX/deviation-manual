@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 20:51+0000\n"
+"POT-Creation-Date: 2017-04-27 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -579,11 +579,20 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"A \"Kapcs.1\" vagy \"Kapcs.2\" megadásával aktiválódik az adott szekció. "
+"Mindkét plusz szekció működhet \"Csatolt\" üzemmódban (ilyenkor a görbe "
+"ugyanaz, mint a \"Magas\" fokozathoz megadott görbe), amikor is csak a "
+"skálázás változtatható, vagy lehet egymástól független görbéket használni a "
+"különböző fokozatokban. A \"Közepes\" vagy \"Alacsony\" gombot megnyomva "
+"válthatunk az adott fokozatban a \"Csatolt\" üzemmód és a független görbe "
+"között."
 
 #: ../../source/ch_model.rst:333
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
+"**Kapcs.1** vagy **Kapcs.2**: Ezekkel lehet megadni a közepes vagy alacsony "
+"fokozat kapcsolóit."
 
 #: ../../source/ch_model.rst:338
 msgid "Complex Mix Type"
@@ -598,42 +607,61 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"A komplex mixer típussal lehet kihasználni a mixer rendszer teljes "
+"képességét. Egy adott csatornához akárhány mixer tartozhat, melyek sorban "
+"befolyásolják a végső eredményt. Minden mixer attól függően kerül "
+"alkalmazásra, hogy a hozzá rendelt kapcsoló aktív-e, és az általa beállított"
+" érték felülírhatja az előző mixerek eredményét, hozzáadódhat azokhoz, vagy "
+"megszorozhatja őket. Ezzel a módszerrel egy kimeneti csatorna értéke "
+"akárhány bemenet kombinációjaként állítható elő."
 
 #: ../../source/ch_model.rst:357
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "A komplex mixer képernyő az alábbi opciókat tartalmazza:"
 
 #: ../../source/ch_model.rst:359
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
 msgstr ""
+"**Mixerek**: Megadja az adott csatornához tartozó mixerek számát. Ha "
+"megnöveled az értékét, akkor egy új mixer adódik hozzá az eddigi utolsó "
+"mixer oldal után."
 
 #: ../../source/ch_model.rst:361
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
 msgstr ""
+"**Oldal**: Az aktuálisan szerkeszthető mixer oldal kiválasztása. A "
+"kiválasztó dobozt megnyomva a mixer oldalak sorrendjének megváltoztatására "
+"szolgáló képernyő nyílik meg."
 
 #: ../../source/ch_model.rst:363
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
 msgstr ""
+"**Kapcsoló**: Meg lehet adni egy opcionális kapcsolót, ami meghatározza, "
+"hogy az adott mixer aktív-e."
 
 #: ../../source/ch_model.rst:365
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
 msgstr ""
+"**Művelet**: Meghatározza, hogy az adott mixer milyen művelettel kapcsolódik"
+" az előző mixerekhez. Az alábbi lehetőségek vannak:"
 
 #: ../../source/ch_model.rst:367
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
+"**Cserél**: Ha a mixer aktív, akkor az összes előző mixert figyelmen hagyva "
+"ennek a mixernek az értéke határozza meg a kimenetet."
 
 #: ../../source/ch_model.rst:368
 msgid "**Add**: Add the value of this mixer to the previous mixers."
-msgstr ""
+msgstr "**Hozzáad**: Hozzáadja az adott mixer értékét az előző eredményéhez."
 
 #: ../../source/ch_model.rst:369
 msgid ""
@@ -641,18 +669,25 @@ msgid ""
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
 msgstr ""
+"**Szoroz**: Megszorozza az előző mixerek eredményét ennek a mixernek az "
+"értékével. Az értékek százalékban értendők, így például az 50-el való "
+"szorzás valójában 0.5-el szoroz."
 
 #: ../../source/ch_model.rst:372
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
 msgstr ""
+"**Max**: A kimenet értéke az adott mixer és az előző mixerek eredménye közül"
+" a nagyobb értékű lesz."
 
 #: ../../source/ch_model.rst:373
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
 msgstr ""
+"**Min**: A kimenet értéke az adott mixer és az előző mixerek eredménye közül"
+" a kisebb értékű lesz."
 
 #: ../../source/ch_model.rst:374
 msgid ""
@@ -660,88 +695,113 @@ msgid ""
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
 msgstr ""
+"**Késleltetés**: Késlelteti az adott mixer kimenetének beállását. A fix "
+"görbével lehet használni, melynek skála vagy eltolás értékével lehet a "
+"késleltetést megadni. A 100-as skála érték 5 másodperces késleltetést "
+"jelent."
 
 #: ../../source/ch_model.rst:382
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
 msgstr ""
+"Ugyan a skála érték maximális értéke 100% lehet, a mixer 100%-nál nagyobb "
+"kimeneti értéket is felvehet, ha például eltolás is be van állítva, vagy a "
+"hozzáadott trim érték nem nulla."
 
 #: ../../source/ch_model.rst:384
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
+"**Eltolás**: A skálázás utáni hozzáadás, ami a görbe függőleges irányú "
+"eltolását eredményezi."
 
 #: ../../source/ch_model.rst:386
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
 msgstr ""
+"**Trim**/**Nincs Trim**: Megadja, hogy a végén hozzá legyen-e adva az adott "
+"input-hoz tartozó trim érték."
 
 #: ../../source/ch_model.rst:388
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "\\ Egy adott mixer kimeneti értéke az alábbi módon számítódik:"
 
 #: ../../source/ch_model.rst:391
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 msgstr ""
+"M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
+"*Trim*"
 
 #: ../../source/ch_model.rst:393
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
 msgstr ""
+"Egy adott kimeneti csatorna értéke több mixer kombinációjaként áll elő a "
+"Művelet függvényében:"
 
 #: ../../source/ch_model.rst:395
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "A \"Cserél\" művelet esetén:"
 
 #: ../../source/ch_model.rst:397
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
+"else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 
 #: ../../source/ch_model.rst:399
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "A \"Szoroz\" művelet esetén:"
 
 #: ../../source/ch_model.rst:401
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 
 #: ../../source/ch_model.rst:403
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "A \"Hozzáad\" művelet esetén:"
 
 #: ../../source/ch_model.rst:405
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 
 #: ../../source/ch_model.rst:407
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "A \"Max\" művelet esetén:"
 
 #: ../../source/ch_model.rst:409
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:411
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "A \"Min\" művelet esetén:"
 
 #: ../../source/ch_model.rst:413
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:416
 msgid "Cyclic"
@@ -753,6 +813,9 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"**Ciklikus1, Ciklikus2, Ciklikus3**: A helikopter imbolygó tárcsájának 3 "
+"kimenete. Ezek vezérlik az imbolygó tárcsát mozgató 3 szervót (lásd: :ref"
+":`swash-configuration`)."
 
 #: ../../source/ch_model.rst:427
 msgid "Reordering Mixers"
@@ -765,6 +828,10 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"A megfelelő mixert kiválasztva, a le/fel gombokkal lehet annak sorrendjét "
+"megváltoztatni. A mixerek nevei a megnyitáskori állapotnak felelnek meg. A "
+"képernyő bezárása és újra megnyitása után az összes mixer újra megfelelően "
+"lesz sorszámozva."
 
 #: ../../source/ch_model.rst:439
 msgid ""
@@ -772,6 +839,9 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"A mixer sorrend képernyőjén a \"+\" gombban új mixert lehet hozzáadni, a "
+"\"-\" gombbal pedig létező mixert lehet törölni. Egy mixert rá is lehet "
+"másolni egy létező mixerre (felülírva azt) a \"Másolás\" gombbal."
 
 #: ../../source/ch_model.rst:444
 msgid "Available Curves"
@@ -779,51 +849,65 @@ msgstr "Függvény görbe típusok"
 
 #: ../../source/ch_model.rst:446
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "A következő függvény görbék használhatók:"
 
 #: ../../source/ch_model.rst:448
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "**1 az 1**: A kimenet egyenlő a bemenettel (nem szerkeszthető)."
 
 #: ../../source/ch_model.rst:449
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
+"**Fix**: A kimenet értéke a bemenettől függetlenül konstans (az eltolással "
+"állítható)."
 
 #: ../../source/ch_model.rst:450
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
 msgstr ""
+"**Min/Max**: A kimenet -100, ha a bemenet kisebb, mint a megadott érték, "
+"egyébként 100."
 
 #: ../../source/ch_model.rst:451
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
 msgstr ""
+"**Nulla/Max**: A kimenet 0, ha a bemenet kisebb, mint a megadott érték, "
+"egyébként 100."
 
 #: ../../source/ch_model.rst:452
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
 msgstr ""
+"**>0**: A kimenet megegyezik a bemenettel, ha az nagyobb, mint a megadott "
+"érték, egyébként 0."
 
 #: ../../source/ch_model.rst:453
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
 msgstr ""
+"**<0**: A kimenet megegyezik a bemenettel, ha az kisebb, mint a megadott "
+"érték, egyébként 0."
 
 #: ../../source/ch_model.rst:454
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
 msgstr ""
+"**ABSZ.É.**: A kimenet egyenlő a bemenet abszolút értékével (a megadott "
+"érték befolyásolja az abszolút érték függvény minimum pontjának helyét)."
 
 #: ../../source/ch_model.rst:455
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**EXP.**: Exponenciális görbe hozzárendelése a bemenethez a nem lineáris "
+"vezérlés érdekében (szerkeszthető, lásd :ref:`curve-editing`)."
 
 #: ../../source/ch_model.rst:456
 msgid ""
