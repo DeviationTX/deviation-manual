@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-29 20:54+0000\n"
+"POT-Creation-Date: 2017-04-30 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -968,6 +968,10 @@ msgid ""
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
 msgstr ""
+"A görbe szerkesztő ablak kinézete a kiválasztott görbétől függ. A görbe "
+"típusát a szerkesztő képernyőn már nem lehet megváltoztatni (kivéve, ha "
+"valamelyik több pontos görbe lett kiválasztva). Az értékeket a választó "
+"dobozzal, vagy a grafikon érintésével lehet megadni."
 
 #: ../../source/ch_model.rst:478
 msgid ""
@@ -976,18 +980,28 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"A Min/Max, Nulla/Max, >0, <0 és ABSZ.É. esetén azt lehet beállítani, hogy a "
+"a görbe hol metssze/érintse az X tengelyt. A '0' érték esetén ez az Y "
+"tengelynél van, pozitív vagy negatív érékek esetén a középpont az előjelnek "
+"megfelelő irányba eltolódik."
 
 #: ../../source/ch_model.rst:485
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
 msgstr ""
+"Az Expó görbe esetén lehetőség van aszimmetrikus görbe beállítására külön a "
+"pozitív, és külön a negatív félre, de a szimmetrikus módban együtt is lehet "
+"állítani őket."
 
 #: ../../source/ch_model.rst:492
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
 msgstr ""
+"A Holtsáv görbe esetén lehetőség van aszimmetrikus görbe beállítására külön "
+"a pozitív, és külön a negatív félre, de a szimmetrikus módban együtt is "
+"lehet állítani őket."
 
 #: ../../source/ch_model.rst:499
 msgid ""
@@ -997,6 +1011,10 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"A több pontos görbék esetén minden pontot külön be lehet állítani. Ehhez ki "
+"kell választani az adott pont számát, és meg kell adni az értékét. Egy görbe"
+" minimum 3, maximum 13 pontból állhat. A 'Simítás' engedélyezésével a pontok"
+" összekötése egyenes vonalak helyett folyamatos görbékkel történik."
 
 #: ../../source/ch_model.rst:504
 msgid "Timers (Std & Adv GUI)"
@@ -1008,18 +1026,25 @@ msgid ""
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
+"Az időzítők képernyőjén 4 időzítőt lehet beállítani. Az időzítők "
+"számolhatnak le- vagy felfelé, és indíthatók a főképernyőről manuálisan, "
+"vagy egy bemenet (bot vagy kapcsoló) értéke által."
 
 #: ../../source/ch_model.rst:522
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
+"Az alábbi időzítő típusok állnak rendelkezésre: stopper, időzítő, gázfüggő "
+"stopper, gázfüggő időzítő, és üzemidő."
 
 #: ../../source/ch_model.rst:525
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
 msgstr ""
+"Az időzítők nullázását is lehet egy opcionálisan megadható kapcsolóval "
+"konfigurálni (csak a Haladó GUI-n)."
 
 #: ../../source/ch_model.rst:528
 msgid ""
@@ -1027,6 +1052,10 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"A gázzal arányos időzítők forrásául egy 0 és 100 közötti bemeneti értékre "
+"van szükség. Ha ez a gázkar értéke kell legyen, akkor annak -100 és 100 "
+"közötti értékét először egy virtuális mixerrel át kell alakítani 0 és 100 "
+"közötti értékekre."
 
 #: ../../source/ch_model.rst:535
 msgid ""
@@ -1035,6 +1064,10 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"Az \"Üzemidő\" időzítő hasonló az autókban használt kilométer álláshoz, és "
+"az aktuális értéke a model.ini fájlba van mentve, ami a távirányító "
+"indításakor újra betöltődik a memóriába. Az aktuális értékét a \"Beállít\" "
+"gombbal lehet megadni, míg nullázni a \"Törlés\" gombbal lehet."
 
 #: ../../source/ch_model.rst:541
 msgid "Telemetry config (Std & Adv GUI)"
@@ -1045,22 +1078,28 @@ msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
 msgstr ""
+"A telemetria konfiguráció képernyőn bizonyos telemetria adatokra alapuló "
+"riasztásokat lehet megadni."
 
 #: ../../source/ch_model.rst:553
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
+"**Telemetria**: Megadja a riasztáshoz figyelt telemetria adatot. Az elérhető"
+" opciók listája a kiválasztott protokolltól függ."
 
 #: ../../source/ch_model.rst:555
 msgid ""
 "**Equality**: Can be '>=' or '<=' indicating whether a value above or below "
 "the target causes an alarm."
 msgstr ""
+"**Reláció**: Lehet \">=\" vagy \"<=\", így a megadott értékénél kisebb és "
+"nagyobb értékekre is kérhető riasztás."
 
 #: ../../source/ch_model.rst:556
 msgid "**Target**: The target value for the alarm."
-msgstr ""
+msgstr "**Határ**: A riasztás határértéke."
 
 #: ../../source/ch_model.rst:561
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
@@ -1073,6 +1112,10 @@ msgid ""
 "switch`). It is accessed from the main menu via 'Model menu' followed by "
 "'Trims'."
 msgstr ""
+"A trim képernyő lehetővé teszi a trim gombok és a trim lépés csatornához "
+"rendelését, valamint a trim gombok felhasználását virtuális bemenetként "
+"(lásd :ref:`trim-as-virtual-switch`). A főmenüből a \"Modell menü\"-n "
+"keresztül a \"Trim-ek\" kiválasztásával lehet megnyitni."
 
 #: ../../source/ch_model.rst:572
 msgid ""
@@ -1083,6 +1126,12 @@ msgid ""
 " and ‘Trim -’ buttons can operate as a virtual stick to control an output "
 "channel."
 msgstr ""
+"Ha a \"Bemenet\" mező értéke egy botkormány bemenet, akkor az adott trim a "
+"mixer-en hozzáadható a mixer kimenethez, és hagyományos trim-két funkciónál."
+" Ha a \"Bemenet\" mező egy valós, vagy virtuális csatornát tartalmaz, akkor "
+"a trim értéke közvetlenül az adott csatorna kimenetéhez adódik hozzá. Ebben "
+"az esetben a kiválasztott \"Trim+\" és \"Trim-\" gombok, mint egy virtuális "
+"botként üzemelve vezérlik az adott csatorna kimenetét."
 
 #: ../../source/ch_model.rst:587
 msgid ""
@@ -1090,6 +1139,9 @@ msgid ""
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
 msgstr ""
+"A trim lépés határozza meg, hogy a trim milyen finoman állítható. A lépések "
+"maximális száma +/-100, tehát például a 0.1-es lépés +/-10% trimmelést tesz "
+"lehetővé."
 
 #: ../../source/ch_model.rst:589
 msgid ""
@@ -1099,6 +1151,11 @@ msgid ""
 "added to the trim, then it will have different trim values in each switch "
 "position."
 msgstr ""
+"A trim lépés a trim-ek listáján is megadható, de a többi beállítás "
+"megváltoztatásához meg kell nyitni az adott trim szerkesztését a megfelelő "
+"\"Bemenet\" gombra kattintva. Ott lehet az adott trim-hez opcionálisan egy "
+"kapcsolót is rendelni, aminek hatására az adott kapcsoló mindegyik állásához"
+" külön-külön trim értékek lesznek tárolva."
 
 #: ../../source/ch_model.rst:594
 msgid "Datalog (Std & Adv GUI)"
@@ -1107,7 +1164,7 @@ msgstr "Adatnapló (Szokásos és Haladó GUI)"
 #: ../../source/ch_model.rst:598 ../../source/ch_model.rst:667
 #: ../../source/ch_model.rst:691
 msgid "Note: This feature is not available for Devo7e."
-msgstr ""
+msgstr "MEGJEGYZÉS: Ez a funkció Devo7E esetén nem elérhető."
 
 #: ../../source/ch_model.rst:601
 msgid ""
