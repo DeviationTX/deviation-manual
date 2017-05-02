@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-30 20:53+0000\n"
+"POT-Creation-Date: 2017-05-01 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -1532,7 +1532,7 @@ msgstr "**configuration des trims** :ref:`trims et entrées virtuelles`"
 
 #: ../../source/ch_model.rst:776
 msgid "**Servo reverse**: :ref:`servo-reverse`"
-msgstr "**Sens de servo**: :ref:`sens de servo`"
+msgstr "**Sens de servo**: :ref:`Sens de servo`"
 
 #: ../../source/ch_model.rst:779
 msgid "**Switch assignment**: :ref:`switch-assignment`"
@@ -1541,7 +1541,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:782
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
-msgstr "**Subtrim de servo**: :ref:`Ajustement des subtrims`"
+msgstr "**Sub-trim de servo**: :ref:`Ajustement des sub-trims`"
 
 #: ../../source/ch_model.rst:785
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:825
 msgid "**Reverse**: Servo reverse"
-msgstr "**Sens**: Inversion de servo"
+msgstr "**Sens**: Sens de servo"
 
 #: ../../source/ch_model.rst:826
 msgid "**D/R & Exp**: Dual-rates setup"
@@ -1612,7 +1612,7 @@ msgstr "**D/R & Exp**: Programmation des doubles débattements."
 
 #: ../../source/ch_model.rst:827
 msgid "**Subtrim**: Servo sub-trim"
-msgstr "**Subtrim**:  Sub-trim de servo"
+msgstr "**Sub-trim**:  Sub-trim de servo"
 
 #: ../../source/ch_model.rst:828
 msgid "**Travel adjust**: Servo travel-adjust"
@@ -1640,35 +1640,41 @@ msgstr "**Plateau cycl.**: Configuration du plateau cyclique."
 
 #: ../../source/ch_model.rst:834
 msgid "**Fail safe**: Fail-Safe configuration"
-msgstr ""
+msgstr "**Sécurités**: Configuration des sécurités"
 
 #: ../../source/ch_model.rst:835
 msgid "**Switch assignment**: Assign switch controls"
-msgstr ""
+msgstr "**Affect. inters** : Affectation des interrupteurs"
 
 #: ../../source/ch_model.rst:836
 msgid "**Timers**: Timer configuration (See section :ref:`timers`)"
-msgstr ""
+msgstr "**Chronos**:Configuraton des chronos  (voir section :ref:`Chronos`)"
 
 #: ../../source/ch_model.rst:837
 msgid ""
 "**Telemetry config**: Configure telemetry alarms (See section :ref"
 ":`telemetry-config`)"
 msgstr ""
+"**Config. télémétrie**: Paramétrage des alarmes de télémétrie (Voir section "
+":ref:`Configuration de la télémétrie`)"
 
 #: ../../source/ch_model.rst:838
 msgid "**Datalog**: Configure telemetry logging (See section :ref:`datalog`)"
 msgstr ""
+"**Datalog**  [Journal de données] : Configure l'engegistrement de la "
+"télémétrie  (Voir section :ref:`datalog`)"
 
 #: ../../source/ch_model.rst:839
 msgid ""
 "**Main page config**: Configure main page display (See section :ref:`main-"
 "page-config`)"
 msgstr ""
+"**Conf. écran accueil **:  Configure l'affichage de la page d'accueil (Voir "
+"ref: 'Conf écran d'accueil')"
 
 #: ../../source/ch_model.rst:845
 msgid "Servo Reverse"
-msgstr ""
+msgstr "Sens de servo"
 
 #: ../../source/ch_model.rst:852
 msgid ""
@@ -1677,10 +1683,14 @@ msgid ""
 "setting on the Channel Configuration sub-page of the Mixer menu when using "
 "the Advanced GUI (see section :ref:`channel-config`)"
 msgstr ""
+"La page de Sens de servo permet rapidement à chaque canal de fonctionner en "
+"mode normal ou inverse.  Ce réglage est  semblable au réglage 'Sens' dans la"
+" sous-page de configuration de canal du menu Mixer dans le mode de réglage "
+"expert. (Voir section :ref:'Configuration des canaux`)"
 
 #: ../../source/ch_model.rst:857
 msgid "Dual-Rate/Expo setting"
-msgstr ""
+msgstr "Programmation des doubles débattements"
 
 #: ../../source/ch_model.rst:864
 msgid ""
@@ -1690,10 +1700,16 @@ msgid ""
 " each.  The number of settings depends on the switch assigned to the dual-"
 "rates function on the Switch Assignment page (see :ref:`switch-assignment`)"
 msgstr ""
+"La page des doubles débattements et expo permet le paramétrage de courbes "
+"pour des canaux d' ailerons, de direction et de profondeur. On peut "
+"configurer jusqu'à 3 taux pour chaque canal et choisir une courbe linéaire "
+"ou exponentielle pour chacun. Le nombre de réglage depend de l'interrupteur "
+"assigné aux fonctions de double débattement dans la page d'affectation des "
+"interrupteurs (see :ref:`affectation des interrupteurs`)"
 
 #: ../../source/ch_model.rst:869
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "Réglage de sub-trim"
 
 #: ../../source/ch_model.rst:876
 msgid ""
@@ -1703,10 +1719,15 @@ msgid ""
 ":ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 "
 "increments."
 msgstr ""
+"La page de  réglage  des sub-trims permet le réglage du point neutre pour "
+"chaque canal. C'est l'équivalent du réglage 'Subtrim' dans la sous-page de "
+"configuration de canal du menu Mixer dans le mode de réglage Expert (Voir "
+"section :ref:'Configuration des canaux`). Les valeurs admissibles vont de "
+"-50 à +50 par pas de 0.1."
 
 #: ../../source/ch_model.rst:881
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "Réglage de la course de servo"
 
 #: ../../source/ch_model.rst:888
 msgid ""
@@ -1717,10 +1738,17 @@ msgid ""
 "from -175 to -1 and Up values range from +1 to +175. The default values are "
 "-100 and +100 respectively."
 msgstr ""
+"La page de réglage des courses de servo définit la course maximum "
+"positive/négative de chaque servo. C'est l'équivalent des réglages Echelle+ "
+"et Echelle- de la sous-page de configuration de canal dans le menu Mixer "
+"dans le mode de réglage Expert. Voir section :ref:'Configuration des "
+"canaux`). Les valeurs admissibles vers le bas vont de -175 à-1 et vers le "
+"haut de 1 à 175. Les valeurs par défaut sont respectivement de -100 et +100 "
+"."
 
 #: ../../source/ch_model.rst:893
 msgid "Swash Configuration"
-msgstr ""
+msgstr "Configuration du plateau cyclique"
 
 #: ../../source/ch_model.rst:895
 msgid ""
@@ -1729,30 +1757,38 @@ msgid ""
 " on this page are equivalent to those on the model configuration page (see "
 ":ref:`model-setup`), and configuration for both pages is provided below."
 msgstr ""
+"La page de configuration du plateau cyclique définit le type de plateau "
+"cyclique. Plus d'informations sur les types de plateaux peut être trouvée "
+"dans la section :ref:`Mixage du plateau cyclique'. Les réglages sur cette "
+"page sont semblables à ceux de la page de configuration de modèle (see "
+":ref:`Config modèle`),  et les configurations pour les deux pages sont "
+"fournies ci dessous."
 
 #: ../../source/ch_model.rst:902
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "Les types de plateaux cycliques disponibles sont :"
 
 #: ../../source/ch_model.rst:904
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
 msgstr ""
+"**Néant/1Servo** : Utilisé pour les modèles sans barre de Bell -  flybarless"
+" - Le mixage a lieu dans le récepteur."
 
 #: ../../source/ch_model.rst:905
 msgid "**120/3Servo 120**: 120-degree swash"
-msgstr ""
+msgstr "**120/3Servo 120**: Plateau à 120 degrés"
 
 #: ../../source/ch_model.rst:906
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
-msgstr ""
+msgstr "**120x/3Servo 120x**: Plateau à 120 degrés (configuration inversée)"
 
 #: ../../source/ch_model.rst:907
 msgid "**140/3Servo 140**: 140 degree swash"
-msgstr ""
+msgstr "**140/3Servo 140**: Plateau à 140 degrés"
 
 #: ../../source/ch_model.rst:908
 msgid "**90/3Servo 90**: 90 degrees swash"
-msgstr ""
+msgstr "**90/3Servo 90**: Plateau à 90 degrés"
 
 #: ../../source/ch_model.rst:910
 msgid ""
@@ -1762,10 +1798,17 @@ msgid ""
 " with a default of 60. Note that setting these values too large can result "
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
+"Mix ELE, Mix AIL et Mix PAS sont des facteurs multiplicateurs appliqués aux "
+"entrées des manches avant que le mixage soit effectués. Ils peuvent être "
+"utilisés pour adapter à des longueurs de tringlerie ou des courses de servo "
+"différentes. L'amplitude possible est -100 à +100 avec une valeur par défaut"
+" de 60. Notez que fixer des valeurs trop grandes peut entraîner une trop "
+"grande course de servo et rendre le faire mal réagir le modèle au contrôle "
+"des manches."
 
 #: ../../source/ch_model.rst:916
 msgid "Throttle Curve"
-msgstr ""
+msgstr "Courbe de gaz"
 
 #: ../../source/ch_model.rst:923
 msgid ""
@@ -1774,10 +1817,14 @@ msgid ""
 "Each point value can be enabled to be interpolated from the points "
 "surrounding it."
 msgstr ""
+"La page de courbe de gaz permet de définir une courbe linéaire par segments "
+"pour le canal des gaz. Des courbes différentes peuvent être définies pour "
+"chaque mode de vol. la valeur de chaque point peut être définie par "
+"interpolation des points proches de lui."
 
 #: ../../source/ch_model.rst:928
 msgid "Pitch Curve"
-msgstr ""
+msgstr "Courbe de pas"
 
 #: ../../source/ch_model.rst:935
 msgid ""
@@ -1786,10 +1833,14 @@ msgid ""
 "mode as well as for throttle-hold.  Each point value can be enabled to be "
 "interpolated from the points surrounding it."
 msgstr ""
+"La page de courbe de gaz permet de définir une courbe linéaire par segments "
+"pour le canal de pas collectif. Des courbes différentes peuvent être "
+"définies pour chaque mode de vol ou en coupure de gaz. La valeur de chaque "
+"point peut être définie par interpolation des points proches de lui."
 
 #: ../../source/ch_model.rst:940
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "Gain gyro"
 
 #: ../../source/ch_model.rst:947
 msgid ""
@@ -1797,10 +1848,13 @@ msgid ""
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
 msgstr ""
+"La page gain gyro permet de configurer jusqu'à 3 valeurs de gain pour le "
+"gyro ainsi que de définir le canal à utiliser pour envoyer les informations "
+"au gyro. Les valeurs admissibles vont de 0 0 100%."
 
 #: ../../source/ch_model.rst:952
 msgid "Switch Assignment"
-msgstr ""
+msgstr "Affectation des interrupteurs"
 
 #: ../../source/ch_model.rst:959
 msgid ""
@@ -1808,10 +1862,13 @@ msgid ""
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
 msgstr ""
+"La page d'affectation des interrupteurs permet de définir quels "
+"interrupteurs sont utilisés pour chaque possibilité dans le mode de réglage "
+"standard. Le même interrupteur peur être affecté à plusieurs possibilités."
 
 #: ../../source/ch_model.rst:964
 msgid "Throttle Hold"
-msgstr ""
+msgstr "Coupure gaz"
 
 #: ../../source/ch_model.rst:971
 msgid ""
@@ -1819,13 +1876,19 @@ msgid ""
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
 msgstr ""
+"La page Coupure gaz est utilisée pour activer/désactiver la fonction Coupure"
+" Gaz. La 'Valeur gaz' choisie est la valeur de gaz fixée lorsque "
+"l'interrupteur de Coupure gaz est activé. Cette valeur peut être fixée entre"
+" -200 et 200 ."
 
 #: ../../source/ch_model.rst:976
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "Configuration des sécurités"
 
 #: ../../source/ch_model.rst:983
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
 msgstr ""
+"La page Sécurités est utilisé pour définir les valeurs de sécurité pour "
+"chaque canal (Si le protocole permet cette fonction)"
