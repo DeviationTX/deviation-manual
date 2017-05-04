@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-02 20:54+0000\n"
+"POT-Creation-Date: 2017-05-03 20:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr ""
+msgstr "Navigation"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -29,6 +29,10 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"On peut naviguer dans les menus de l'émetteur en pressant l'image "
+"correspondante sur l'écran ou par les boutons de l'émetteur, UP (haut) , DN "
+"(bas) , L (gauche), R (droite), ENT (Entrer) EXT (sortie). Ce manuel utilise"
+" les marques de tous les boutons et interrupteurs utilisées sur l'émetteur."
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -36,26 +40,36 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
+"On peut naviguer dans les menus de l'émetteur  par les boutons de "
+"l'émetteur, UP (haut) , DN (bas) , L (gauche), R (droite), ENT (Entrer) EXT "
+"(sortie). Ce manuel utilise les marques de tous les boutons et interrupteurs"
+" utilisées sur l'émetteur."
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
+"Plusieurs éléments de l'environnement graphique sont utilisés pour choisir "
+"les réglages sur l'émetteur."
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
 msgstr ""
+"**Boutons**: On peut utiliser les boutons  soit pour changer un réglage ou "
+"pour entrer dans un nouveau menu."
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
+"**Les boites de sélection**:  Elles servent à choisir une ou plusieurs "
+"valeurs."
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "Il y a deux types de boites de sélection disponibles."
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
@@ -63,44 +77,61 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
+"Les boites de sélection comprenant à la fois des flèches et un bouton 3d "
+"fonctionnent à la fois comme sélecteur de valeur et comme bouton (qui "
+"peuvent avoir différents effets)."
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
 msgstr ""
+"Les boites de sélection ne comportant que des flèches et une étiquette "
+"blanche ne fonctionnent pas comme des boutons et ne sont utilisés que pour "
+"choisir une valeur."
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
+"Notez qu'une boite de sélection peut changer entre sélectionnable ou pas "
+"selon les valeurs affichées."
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
+"**Les boites de texte**: Généralement les boites de texte fournissent de "
+"l'information mais dans certains cas elles peuvent être cliquées pour "
+"réaliser une action (comme un bouton)."
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
 msgstr ""
+"**Les icones**:Les icones soit donnent une information soit peuvent être "
+"cliqués pour réaliser une action (comme un bouton)"
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
 msgstr ""
+"On accède au  menu principal  en appuyant sur le bouton 'ENT' dans la page "
+"d'accueil."
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "Navigation avec les boutons de l'émetteur."
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
+"Dans toutes les pages de menu, ‘UP’ et ‘DN’ sont utilisés pour naviguer vers"
+" l'élément  précédent/suivant."
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
@@ -108,25 +139,33 @@ msgid ""
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
+"On utilise les boutons  ‘R+’ et ‘L-’  dans les boites de sélection pour "
+"augmenter ou diminuer la valeur choisie. Dans certains cas en maintenant le "
+"bouton appuyé entrainera l'utilisation de pas plus grands pour atteindre "
+"plus vite la valeur désirée."
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
+"En pressant le bouton 'ENT', les boutons et boites de sélections arrondies "
+"seront activées."
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
+"Presser ‘EXT’ effacera les sélections de l'élément en cours. Une pression "
+"prolongée sur ‘EXT’ remontera d'un (1) niveau de menu."
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr ""
+msgstr "Agencement de menu"
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "Il y a 2 différents menus indépendants disponibles."
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -147,3 +186,6 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Le menu modèle vous permet de configurer l'aéronef que vous faites voler. "
+"Toutes les données relatives au modèle sont gérées et enregistrées dans ce "
+"menu. Les détails de ce menu se trouvent dans la section :ref:`Menu modèle`."
