@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:48+0000\n"
+"POT-Creation-Date: 2017-05-03 20:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "Menu Emetteur"
 
 #: ../../source/ch_transmitter.rst:19
 msgid "Transmitter config"
-msgstr ""
+msgstr "Configuration Emetteur"
 
 #: ../../source/ch_transmitter.rst:22
 msgid ""
@@ -32,6 +32,10 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"La page de configuration définit différentes fonctions de l'émetteur. On y "
+"accède à partir de la page d'accueil par l'icône de configuration de "
+"l'émetteur. Veuillez noter que tous images d'écran de cette section "
+"affichent les réglages par défaut."
 
 #: ../../source/ch_transmitter.rst:33
 msgid ""
@@ -40,14 +44,18 @@ msgid ""
 " Please note that all screens in this section show the Deviation default "
 "settings."
 msgstr ""
+"La page de configuration définit différentes fonctions de l'émetteur. On y "
+"accède à partir de la page d'accueil par le 'Menu Emetteur' puis 'Config "
+"Emetteur'. Veuillez noter que tous images d'écran de cette section affichent"
+" les réglages par défaut."
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr ""
+msgstr "Réglages [Generic settings]"
 
 #: ../../source/ch_transmitter.rst:48
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Langue** : [Language]"
 
 #: ../../source/ch_transmitter.rst:52
 msgid "NOTE: This feature is not available for Devo7e."
