@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-03 20:59+0000\n"
+"POT-Creation-Date: 2017-05-04 20:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -59,35 +59,45 @@ msgstr "**Langue** : [Language]"
 
 #: ../../source/ch_transmitter.rst:52
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "NOTE : Cette fonction n'est pas disponible sur le Devo 7e."
 
 #: ../../source/ch_transmitter.rst:54
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**Mode**  [Stick mode] : Sélectionne un des modes 1 à 4."
 
 #: ../../source/ch_transmitter.rst:56
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
 msgstr ""
+"Le mode 1 est commun en Europe. La profondeur et la dérive à gauche, les gaz"
+" et les ailerons à droite."
 
 #: ../../source/ch_transmitter.rst:57
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
 msgstr ""
+"Le mode 2 est commun en Amérique du nord. Les gaz et la dérive à gauche, la "
+"profondeur et les ailerons à droite."
 
 #: ../../source/ch_transmitter.rst:58
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
 msgstr ""
+"Le mode 3 a la profondeur et les ailerons à gauche, les gaz et la dérive à "
+"droite."
 
 #: ../../source/ch_transmitter.rst:59
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
 msgstr ""
+"Le mode 4 a les gaz et les ailerons à gauche, la profondeur et la dérive à "
+"droite."
 
 #: ../../source/ch_transmitter.rst:61
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
 msgstr ""
+"**Manches** [Sticks] Calibre le débattement de tous les manches curseurs et "
+"potentiomètres analogiques."
 
 #: ../../source/ch_transmitter.rst:63
 msgid ""
@@ -95,26 +105,35 @@ msgid ""
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"Pour réaliser une calibration de manches, mettez en surbrillance la boite "
+"calibrage et pressez le bouton 'ENT'. Suivez les instructions sur l'écran "
+"pour bouger les manches et confirmez avec le bouton 'ENT'."
 
 #: ../../source/ch_transmitter.rst:65
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "**Horloge (Devo12 uniquement)** [Clock] : Règle la date et l'heure."
 
 #: ../../source/ch_transmitter.rst:72
 msgid "Buzzer settings"
-msgstr ""
+msgstr "Réglages Son [Buzzer settings]"
 
 #: ../../source/ch_transmitter.rst:74
 msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
+"**Alarme d'inactivité** [Power On alarm] : Définit la durée avant    d'être "
+"prévenu si votre émetteur est inactif. La plage est de 0 – 60 minutes par "
+"intervalle d' 1 minute."
 
 #: ../../source/ch_transmitter.rst:76
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
 msgstr ""
+"**Alarme batterie** [Battery alarm] : Fixe le voltage de la batterie qui "
+"déclenchera l'alarme. la plage de voltage est de 3.30 V – 12.00 par pas de "
+"0.01 V."
 
 #: ../../source/ch_transmitter.rst:78
 msgid ""
@@ -122,30 +141,41 @@ msgid ""
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
 msgstr ""
+"**Tempo alarme** [Alarm interval] : Fixe la fréquence de l'alarme quand la "
+"batterie est déchargée. L'intervalle peut être fixé entre 5 secondes et 1 "
+"minute par intervalle de 5 secondes. Elle peut aussi être désactivée."
 
 #: ../../source/ch_transmitter.rst:80
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
 msgstr ""
+"**Volume** [Buzz volume] : Règle le volume du bruiteur. Il peut être réglé "
+"entre 1 et 10. Il peut aussi être mis à l'arrêt."
 
 #: ../../source/ch_transmitter.rst:82
 msgid "**Vibration**: Enable vibration on alarms, if available."
 msgstr ""
+"**Vibration** : Active la vibration durant les alarmes, si elle est "
+"disponible."
 
 #: ../../source/ch_transmitter.rst:84
 msgid "**Power-down alert**: Play sound at power-down."
 msgstr ""
+"**Alerte d'extinction** [Power-down alert] : Joue un son à l'extinction de "
+"l'émetteur."
 
 #: ../../source/ch_transmitter.rst:87
 msgid "LCD settings"
-msgstr ""
+msgstr "Réglages d'écran"
 
 #: ../../source/ch_transmitter.rst:89
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
 msgstr ""
+"**Luminosité** [Backlight] : Règle la luminosité de l'écran. la plage de "
+"règlage va de 1 à 10. Elle peut aussi être désactivée."
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
