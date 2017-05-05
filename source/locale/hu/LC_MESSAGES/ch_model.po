@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-30 20:53+0000\n"
+"POT-Creation-Date: 2017-05-04 20:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -1174,28 +1174,38 @@ msgid ""
 " time. Logs are persistent and Deviation will continue writing to the end of"
 " the previous log by default."
 msgstr ""
+"Az adatnapló funkcióval rögzíteni lehet a bemeneti és kimeneti adatok "
+"történetét a telemetria adatokkal együtt egy bizonyos időintervallumra "
+"vonatkozóan. Ez a repülés újrajátszásához, valamint a telemetria adatok "
+"utólagos vizsgálatához hasznos. A napló adatai megőrződnek, és a Deviation "
+"az előző adatok után folytatni fogja az újabbak írását."
 
 #: ../../source/ch_model.rst:610
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
 msgstr ""
+"**# bájt maradt**: Megmutatja, hogy hány bájt adat írható még a naplóba, "
+"mielőtt az megtelik."
 
 #: ../../source/ch_model.rst:611
 msgid "**Enable**: Input which enables logging."
-msgstr ""
+msgstr "**Engedélyez**: Az a bemenet, ami engedélyezi a naplózást."
 
 #: ../../source/ch_model.rst:612
 msgid "**Reset**: Clear the current log."
-msgstr ""
+msgstr "**Törlés**: Törli az aktuális naplót."
 
 #: ../../source/ch_model.rst:613
 msgid "**Rate**: How often to write current info to the log file."
 msgstr ""
+"**Mintavétel**: Megadja, hogy milyen gyakran íródjanak ki az aktuális adatok"
+" a naplóba."
 
 #: ../../source/ch_model.rst:614
 msgid "**Select**: Quickly set or reset which items are logged."
 msgstr ""
+"**Kiválaszt**: Az összes elem naplózásra jelölésének kiválasztása/törlése."
 
 #: ../../source/ch_model.rst:615
 msgid ""
@@ -1203,6 +1213,10 @@ msgid ""
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
+"**Adatok**: A \"Kiválaszt\" alatt szerepelnek a naplózható adatok kijelölő "
+"négyzetei. Ezek lehetnek időzítő értékek, bemenetek, kimenetek, virtuális "
+"csatornák, és telemetria adatok. Minél több adat naplózódik, annál hamarabb "
+"telik be a napló."
 
 #: ../../source/ch_model.rst:617
 msgid ""
@@ -1212,6 +1226,11 @@ msgid ""
 "increase the size of this file, so its size indicates the maximum data that "
 "can be stored."
 msgstr ""
+"**Több adat naplózása** Alapesetben a naplófájl csak 16kB adatot "
+"tartalmazhat. Ez a méret megnövelhető a távirányítón található datalog.bin "
+"fájl méretének növelésével. A Deviation nem tudja ennek a fájlnak a méretét "
+"megnövelni, így annak mérete meghatározza, hogy mennyi adatot lehet bele "
+"naplózni."
 
 #: ../../source/ch_model.rst:620
 msgid ""
@@ -1220,6 +1239,10 @@ msgid ""
 "within the transmitter. Please check the downloads section on "
 "www.deviationtx.com for conversion tools."
 msgstr ""
+"**MEGJEGYZÉS: Ez a funkció csak haladó felhasználóknak ajánlott**. Jelenleg "
+"semmilyen szoftver támogatás nem létezik a naplófájlok elemzésére, és a "
+"távirányító segítségével sem lehet megtekinteni az adatokat. A "
+"www.deviationtx.com Downloads lapján lehet konvertáló eszközöket találni."
 
 #: ../../source/ch_model.rst:625
 msgid "Main page config (Std & Adv GUI)"
@@ -1230,10 +1253,12 @@ msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
+"A főablak konfigurációval lehet a főképernyő elrendezését testre szabni. "
+"Ezen az oldalon lehet megadni, hogy milyen elemek látsszanak a főképernyőn."
 
 #: ../../source/ch_model.rst:643
 msgid "The following types of objects can be displayed:"
-msgstr ""
+msgstr "A következő objektum típusokat lehet megjeleníteni:"
 
 #: ../../source/ch_model.rst:646
 msgid ""
@@ -1241,6 +1266,9 @@ msgid ""
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
 msgstr ""
+"**Doboz**: Egy számértéket jelez ki. Az értéke lehet időzítő, csatorna "
+"érték, bot bemenet, stb. Kétféle doboz típus létezik: kicsi és nagy. Az "
+"egyetlen különbség a doboznak és a benne megjelenő szövegnek a mérete."
 
 #: ../../source/ch_model.rst:647
 msgid ""
@@ -1249,24 +1277,34 @@ msgid ""
 "types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal "
 "bar. After inserting all trims do have numbers only."
 msgstr ""
+"**Trim**: Grafikusan megjelenít egy trim értéket, melynek aktuális értékét a"
+" trim gombokkal lehet beállítani. Kétféle trim létezik. A \"Függ. trim\" egy"
+" függőleges csuszkát jelenít meg, a \"Vsz. trim\" pedig egy vízszinteset. A "
+"képernyőhöz hozzáadott trim-ek egy sorszámmal vannak azonosítva a tervező "
+"képernyőn."
 
 #: ../../source/ch_model.rst:648
 msgid "**Model (Icon)**: Display the icon related to the selected model."
 msgstr ""
+"**Modell (ikon)**: Megjeleníti a kiválasztott modellhez tartozó ikont."
 
 #: ../../source/ch_model.rst:649
 msgid "**Battery**: Display the battery voltage."
-msgstr ""
+msgstr "**Telep**: Megjeleníti a telepfeszültség értékét."
 
 #: ../../source/ch_model.rst:650
 msgid "**TxPower**: Displays the actual transmitter rating."
 msgstr ""
+"**Tx teljesítmény**: Megjeleníti az aktuálisan kiválasztott adó "
+"teljesítményt."
 
 #: ../../source/ch_model.rst:651
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
 msgstr ""
+"**Oszlopdiagram**: Megjelenít egy függőleges oszlopdiagramot, melynek az "
+"értéke egy kiválasztott csatorna kimeneti értéke."
 
 #: ../../source/ch_model.rst:653
 msgid ""
@@ -1275,16 +1313,22 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
+"**Kapcsoló**: Megjelenít egy kapcsoló állapotaihoz rendelt képet. 1, 2, vagy"
+" 3 féle kép jeleníthető meg egy adott kapcsoló különböző állapotaihoz. A "
+"kétállapotú kapcsolókhoz 2 féle képet lehet megadni, a három állapotúakhoz 3"
+" pedig képet."
 
 #: ../../source/ch_model.rst:654
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
 msgstr ""
+"**(Gyors) Menü**: A gyors menükkel megadhatunk néhány lapot, amit az UP/DN "
+"gombok hosszú megnyomásával közvetlenül elérhetünk."
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring object position"
-msgstr ""
+msgstr "Az objektum pozíciók beállítása"
 
 #: ../../source/ch_model.rst:662
 msgid ""
