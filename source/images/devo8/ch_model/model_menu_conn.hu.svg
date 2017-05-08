@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5062"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   width="454.57086"
+   height="184.57086"
+   sodipodi:docname="New document 3">
+  <metadata
+     id="metadata5068">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5066" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5064"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1"
+     inkscape:cx="241.00146"
+     inkscape:cy="73.731965"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="id20" />
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3761"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id8">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3764"
+         d="m 4559,6968 -1397,0 0,-1143 2794,0 0,1143 -1397,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3766"
+         d="m 4559,6968 -1397,0 0,-1143 2794,0 0,1143 -1397,0 z" />
+      <text
+         id="text3768"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3770"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3772"
+             y="6536"
+             x="3651"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3774">Főablak</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3776"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id9">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3779"
+         d="m 13001,9762 -1207,0 0,-635 2413,0 0,635 -1206,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3781"
+         d="m 13001,9762 -1207,0 0,-635 2413,0 0,635 -1206,0 z" />
+      <text
+         id="text3783"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3785"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3787"
+             y="9584"
+             x="12154"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3789">Telemetria</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3791"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id10">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3794"
+         d="m 12874,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3796"
+         d="m 12874,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <text
+         id="text3798"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3800"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3802"
+             y="8314"
+             x="12366"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3804">Időzítők</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3806"
+     class="com.sun.star.drawing.TextShape">
+    <g
+       id="id11">
+      <text
+         id="text3809"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3811"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3813"
+             y="7503"
+             x="4842"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3815">Modell konfiguráló lapok</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3913"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id20">
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3916"
+         d="m 3137,5571 c -434,0 -868,434 -868,868 l 0,3472 c 0,434 434,868 868,868 l 11092,0 c 434,0 868,-434 868,-868 l 0,-3472 c 0,-434 -434,-868 -868,-868 l -11092,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3918"
+         d="m 2269,5571 0,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3920"
+         d="m 15097,10779 0,0 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3931"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id22">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3934"
+         d="m 4302,10016 -1143,0 0,-1143 2286,0 0,1143 -1143,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3936"
+         d="m 4302,10016 -1143,0 0,-1143 2286,0 0,1143 -1143,0 z" />
+      <text
+         id="text3938"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3940"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3942"
+             y="9343"
+             x="3394"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3944">Főablak</tspan>
+          </tspan>
+        </tspan>
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3946"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3948"
+             y="9826"
+             x="3716"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3950">konfig.</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3952"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id23">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3955"
+         d="m 8747,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3957"
+         d="m 8747,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <text
+         id="text3959"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3961"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3963"
+             y="8314"
+             x="8195"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3965">Modell</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3967"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id24">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3970"
+         d="m 4556,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path3972"
+         d="m 4556,8492 -1397,0 0,-635 2794,0 0,635 -1397,0 z" />
+      <text
+         id="text3974"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan3976"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan3978"
+             y="8314"
+             x="4038"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan3980">Mixer</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3982"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id25">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path3985"
+         d="m 4559,6969 0,444 -3,0 0,15" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3987"
+         d="m 4556,7858 153,-449 -300,-2 147,451 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3989"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id26">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path3992"
+         d="m 6383,8175 537,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3994"
+         d="m 5953,8175 450,150 0,-300 -450,150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path3996"
+         d="m 7350,8175 -450,-150 0,300 450,-150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g3998"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id27">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4001"
+         d="m 10574,8175 473,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4003"
+         d="m 10144,8175 450,150 0,-300 -450,150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4005"
+         d="m 11477,8175 -450,-150 0,300 450,-150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4007"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id28">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4010"
+         d="m 14701,8175 71,0 0,1270 -134,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4012"
+         d="m 14271,8175 450,150 0,-300 -450,150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4014"
+         d="m 14208,9445 450,150 0,-300 -450,150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4016"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id29">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4019"
+         d="m 2729,9445 -71,0 0,-1270 71,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4021"
+         d="m 3159,9445 -450,-150 0,300 450,-150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4023"
+         d="m 3159,8175 -450,-150 0,300 450,-150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4040"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id31">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4043"
+         d="m 10017,9762 -635,0 0,-635 1270,0 0,635 -635,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path4045"
+         d="m 10017,9762 -635,0 0,-635 1270,0 0,635 -635,0 z" />
+      <text
+         id="text4047"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan4049"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan4051"
+             y="9584"
+             x="9602"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan4053">Trim</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4127"
+     class="com.sun.star.drawing.CustomShape">
+    <g
+       id="id38">
+      <path
+         style="fill:#cfe7f5;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4130"
+         d="m 7477,9762 -889,0 0,-635 1778,0 0,635 -889,0 z" />
+      <path
+         style="fill:none;stroke:#808080"
+         inkscape:connector-curvature="0"
+         id="path4132"
+         d="m 7477,9762 -889,0 0,-635 1778,0 0,635 -889,0 z" />
+      <text
+         id="text4134"
+         class="TextShape">
+        <tspan
+           style="font-size:423px;font-weight:400;font-family:'Times New Roman, serif'"
+           id="tspan4136"
+           font-weight="400"
+           font-size="423px"
+           class="TextParagraph">
+          <tspan
+             id="tspan4138"
+             y="9584"
+             x="6810"
+             class="TextPosition">
+            <tspan
+               style="fill:#000000;stroke:none"
+               id="tspan4140">Napló</tspan>
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4142"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id39">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4145"
+         d="m 6369,9445 -705,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4147"
+         d="m 6588,9445 -239,-150 0,300 239,-150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4149"
+         d="m 5445,9445 239,150 0,-300 -239,150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4151"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id40">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4154"
+         d="m 9163,9445 -578,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4156"
+         d="m 9382,9445 -239,-150 0,300 239,-150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4158"
+         d="m 8366,9445 239,150 0,-300 -239,150 z" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.03543307,0,0,0.03543307,-80.379919,-197.37992)"
+     id="g4160"
+     class="com.sun.star.drawing.ConnectorShape">
+    <g
+       id="id41">
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path4163"
+         d="m 11576,9445 -705,0" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4165"
+         d="m 11795,9445 -239,-150 0,300 239,-150 z" />
+      <path
+         style="fill:#000000;stroke:none"
+         inkscape:connector-curvature="0"
+         id="path4167"
+         d="m 10652,9445 239,150 0,-300 -239,150 z" />
+    </g>
+  </g>
+</svg>
+
