@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-08 19:34+0000\n"
+"POT-Creation-Date: 2017-05-08 20:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -183,7 +183,7 @@ msgid ""
 "may also be turned off."
 msgstr ""
 "**Contrast**: Règle le contraste de l'écran. Les valeurs possibles vont de 1"
-" à 10. Il peut aussi être annulé."
+" à 10. Il peut aussi être désactivé."
 
 #: ../../source/ch_transmitter.rst:95
 msgid ""
@@ -193,17 +193,19 @@ msgid ""
 msgstr ""
 "**Veille après**: Règle le délai avant la mise en veille de l'écran. La "
 "durée peut être fixée de 5 secondes à 2 minutes par intervalle de 5 "
-"secondes. Le réglage Arrêt interdira la mise en veille."
+"secondes. Le réglage Arrêt désactivera la mise en veille."
 
 #: ../../source/ch_transmitter.rst:97
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
 msgstr ""
+"**Lum veille** : Fixe la luminosité de l'écran en veille.Les valeurs "
+"possibles vont de 1 à 10. Il peut aussi être désactivé."
 
 #: ../../source/ch_transmitter.rst:100
 msgid "Timer settings"
-msgstr ""
+msgstr "Réglages des chronos"
 
 #: ../../source/ch_transmitter.rst:102
 msgid ""
@@ -211,38 +213,50 @@ msgid ""
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
 msgstr ""
+"**PréAlarme**: Durée de la Préalarme, avant que le chrono atteigne zéro. La "
+"durée peut aller de 5 secondes à 1 minute par intervalle de 5 secondes et "
+"peut aussi être désactivée."
 
 #: ../../source/ch_transmitter.rst:104
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Tempo préAlarm**: Règle l'intervalle des bips pendant la préalarme. "
+"L'intervalle peut être compris entre 1 et 60 secondes et peut aussi être "
+"désactivé."
 
 #: ../../source/ch_transmitter.rst:106
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Tempo Alarme**: Règle l'intervalle de l'alarme quand le chrono a expiré. "
+"Il peut être fixé entre 1 et 60 secondes et peut aussi être désactivé."
 
 #: ../../source/ch_transmitter.rst:109
 msgid "Telemetry settings"
-msgstr ""
+msgstr "Réglages de télémétrie"
 
 #: ../../source/ch_transmitter.rst:111
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
 msgstr ""
+"**Unité T° **: Définit l'unité utilisée pour afficher la température dans "
+"les données de télémétrie. Les options sont Celsius et Fahrenheit."
 
 #: ../../source/ch_transmitter.rst:113
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
 msgstr ""
+"**Unité Long** : Sélectionne l'unité utilisée pour afficher les distances "
+"pour la télémétrie. Les options sont Mètre et pied."
 
 #: ../../source/ch_transmitter.rst:116
 msgid "Channel monitor"
-msgstr ""
+msgstr "Contrôle des canaux"
 
 #: ../../source/ch_transmitter.rst:125
 msgid ""
@@ -251,12 +265,18 @@ msgid ""
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
 msgstr ""
+"L'écran de contrôle des canaux permet à l'utilisateur de voir les valeurs de"
+" chaque sortie de canal de l'émetteur. Les canaux sans mixer ne sont pas "
+"affichés. Les valeurs de sortie sont basées sur les limites minimum et "
+"maximum et l'échelle."
 
 #: ../../source/ch_transmitter.rst:130
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
 msgstr ""
+"**Exemple**: Un canal dont l'échelle est fixée de -60 à +60 n'affichera que "
+"des débattement de -60 à +60 selon la position du manche."
 
 #: ../../source/ch_transmitter.rst:134
 msgid "Input Monitor"
