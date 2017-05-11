@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-08 20:58+0000\n"
+"POT-Creation-Date: 2017-05-10 21:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:134
 msgid "Input Monitor"
-msgstr ""
+msgstr "Contrôle des entrées"
 
 #: ../../source/ch_transmitter.rst:152
 msgid ""
@@ -288,28 +288,37 @@ msgid ""
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
 msgstr ""
+"L'écran de contrôle des entrées affiche les valeurs des positions en cours "
+"des moyens de contrôle. Les valeurs affichées sont un pourcentage de la "
+"portée totale des contrôles basées sur une échelle de -100% à +100%."
 
 #: ../../source/ch_transmitter.rst:157
 msgid ""
 "NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
 "FMOD1."
 msgstr ""
+"NOTE : l'émetteur Devo7e est limité à AIL, ELE, THR, RUD, HOLD0, HOLD1, "
+"FMOD0 and FMOD1."
 
 #: ../../source/ch_transmitter.rst:163
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"NOTE: L'émetteur Devo8 est limité à AIL, ELE, THR, RUD, RUD DR0/1, ELE "
+"DR0/1, AIL DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 
 #: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
 msgstr ""
+"NOTE: L'émetteur Devo6 est limité à AIL, ELE, THR, RUD, DR0/1, GEAR0/1, "
+"FMOD0/1/2, and MIX0/1/2"
 
 #: ../../source/ch_transmitter.rst:170
 msgid "Button Monitor"
-msgstr ""
+msgstr "Contrôle des boutons"
 
 #: ../../source/ch_transmitter.rst:179
 msgid ""
@@ -319,14 +328,19 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"La page de contrôle des boutons sert à vérifier que les boutons physiques de"
+" l'émetteur fonctionnent comme prévu. Presser un bouton de l'émetteur "
+"activera le carré correspondant sur l'écran.  Pour tester les boutons ‘EXT’,"
+" ‘L-’ ou ‘R+’, toucher tout d'abord l'écran pour verrouiller le menu. Le "
+"toucher de nouveau pour le dévérouiller."
 
 #: ../../source/ch_transmitter.rst:183
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "NOTE:  le Devo6 ne possède pas de boutons de Trims L/R supérieurs."
 
 #: ../../source/ch_transmitter.rst:187
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "Contrôle de la télémétrie"
 
 #: ../../source/ch_transmitter.rst:196
 msgid ""
@@ -335,6 +349,10 @@ msgid ""
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
 msgstr ""
+"Certains protocoles ont la possibilité de transmettre des des données de "
+"télémétrie à l'émetteur. Les données de télémétrie peuvent inclure, sans y "
+"être limitées, des températures, des voltages, des vitesses de rotation de "
+"moteurs ou des informations de données GPS."
 
 #: ../../source/ch_transmitter.rst:198
 msgid ""
@@ -342,6 +360,10 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"Les données de télémétrie sont désactivées par défaut pour tous les "
+"protocoles les prenant en charge sauf Devo et FrSky. Voir les  paragraphes "
+"sur les 9 protocoles correspondants pour voir ceux qui supportent la "
+"télémétrie et identifier les champs disponibles."
 
 #: ../../source/ch_transmitter.rst:212
 msgid ""
@@ -349,18 +371,25 @@ msgid ""
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
 msgstr ""
+"Comme chaque protocole possède ses types de données propres, voir la "
+"documentation originale de chaque fabricant concernant les matériels "
+"additionnels qui peuvent être nécessaires pour collecter ces données."
 
 #: ../../source/ch_transmitter.rst:215
 msgid "Until valid data is transmitted the values will all be red."
 msgstr ""
+"Jusqu'à ce que des données valides soient transmises, les valeurs seront "
+"toutes rouges."
 
 #: ../../source/ch_transmitter.rst:219
 msgid "Until valid data is transmitted the values will all be inverted."
 msgstr ""
+"Jusqu'à ce que des données valides soient transmises, les valeurs seront "
+"toutes inversées."
 
 #: ../../source/ch_transmitter.rst:228
 msgid "Range Test"
-msgstr ""
+msgstr "Tes de portée [Range Test]"
 
 #: ../../source/ch_transmitter.rst:237
 msgid ""
@@ -369,6 +398,10 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"Il est recommandé de faire un test de portée avant de faire voler un modèle "
+"pour la première fois pour vérifier que vous pourrez le contrôler à des "
+"distance de vol normales. Dans certains clubs c'est exigé comme mesure de "
+"sécurité. Le test de portée le permet."
 
 #: ../../source/ch_transmitter.rst:241
 msgid ""
@@ -380,6 +413,13 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
+"Quand la page de test de portée est affichée, pressez le bouton ‘Commencer "
+"le test’  [Start test] Les puissances d'émetteur anciens et nouveaux seront "
+"affichés. La procédure standard est ensuite de marcher jusqu'à 30 mètres "
+"environ et de vérifier que vous contrôlez encore le modèle. Vous pouvez "
+"ensuite presser le bouton  'Arrêter le test' [Stop test] pour terminer le "
+"test et restaurer la puissance d'émission. Presser le bouton 'EXT' pour "
+"sortir de la page restaurera aussi la puissance d'émission. "
 
 #: ../../source/ch_transmitter.rst:245
 msgid ""
@@ -389,6 +429,11 @@ msgid ""
 "range test of 30 meters would indicate that you should be able to control "
 "the model out to 900 meters."
 msgstr ""
+"La portée de la radio sera réduite de la racine carrée de la modification du"
+" niveau de puissance. Ainsi, de 100mW à 100µW la puissance sera modifiée "
+"d'un facteur 1000 ou la portée le sera d'un peu plus de 30. Ainsi le test "
+"normal de portée de 30 mètres pourrait indiquer que vous pourriez contrôler "
+"le modèle dehors jusqu'à 900 mètres."
 
 #: ../../source/ch_transmitter.rst:249
 msgid ""
@@ -396,10 +441,13 @@ msgid ""
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
 msgstr ""
+"Le modèle HF installé utilisé pour le modèle doit avoir un amplificateur de "
+"puissance (PA). Dans le cas contraire, ou si le niveau de puissance choisi "
+"pour le modèle est déjà au minimum, un message sera affiché."
 
 #: ../../source/ch_transmitter.rst:262
 msgid "USB/About"
-msgstr ""
+msgstr "USB/A propos"
 
 #: ../../source/ch_transmitter.rst:271
 msgid ""
