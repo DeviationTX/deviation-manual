@@ -18,13 +18,15 @@ Protocol: DEVO
 --------------
 The DEVO protocol is used to maintain compatibility with the Walkera DEVO receivers/models.  This protocol supports up to 12 channels.  The DEVO protocol supports both auto-binding and manual-binding.  If Fixed ID is set to ‘None’ the transmitter will attempt to auto-bind with the receiver every time it is powered on.  If a value is set for Fixed ID, the receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.  Note that the Fixed ID is only part of the binding procedure.  Two transmitters with the Same ID cannot control the same model.
 
-.. macro:: floatimg images/|target|/ch_protocols/devo.png
+.. image:: images/|target|/ch_protocols/devo.png
+   :align: center
 
 The DEVO protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DEVO is shown.
 
 The following fields are available in Devo Telemetry.  Note that not all models/receivers report all fields, and that some fields require extra modules to enable.
 
-.. macro:: floatimg images/|target|/ch_protocols/devo_telem.png
+.. image:: images/|target|/ch_protocols/devo_telem.png
+   :align: center
 
 .. container::
 
@@ -41,7 +43,8 @@ Protocol: WK2601
 ----------------
 The WK2601 protocol is used to control older Walkera models.  The previous Walkera models were segmented into 3 similar but not identical protocols: WK2801, WK2601, WK2401.  This roughly corresponds to the number of channels supported, but many of the newer 6-channel receivers actually support the WK2801 protocol.  It is recommended to try the WK2801 protocol 1st when working with older Walkera models before attempting the WK2601 or WK2401 mode, as the WK2801 is a superior protocol.  The WK2601 protocol supports up to 7 channels, and only supports auto-binding.  The fixed ID can be used, but does not prevent auto-binding during power-on.
 
-.. macro:: floatimg images/|target|/ch_protocols/wk2601.png
+.. image:: images/|target|/ch_protocols/wk2601.png
+   :align: center
 
 The WK2601 protocol also supports additional options.  These are accessed by pressing the Protocol spin-box when Wk2601 is shown:
 
@@ -75,11 +78,13 @@ Note that binding does not exit until you move the AIL or ELE
 controls. This is so you can press the Failsafe button on some DSM
 receivers to set the failsafe value.
 
-.. macro:: floatimg images/|target|/ch_protocols/dsm2.png
+.. image:: images/|target|/ch_protocols/dsm2.png
+   :align: center
 
 The DSM2 protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DSM2 is shown.
 
-.. macro:: floatimg images/|target|/ch_protocols/dsm_telem.png
+.. image:: images/|target|/ch_protocols/dsm_telem.png
+   :align: center
 
 .. container::
 
@@ -103,7 +108,8 @@ receivers to set the failsafe value.
 
 Note that unlike Spektrum™ or JR™ transmitters, Deviation will not automatically select between DSM2 and DSMX.  The user must select which protocol to use.
 
-.. macro:: floatimg images/|target|/ch_protocols/dsmx.png
+.. image:: images/|target|/ch_protocols/dsmx.png
+   :align: center
 
 The DSMX protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DSMX is shown.
 
@@ -175,7 +181,8 @@ Proto X (but not the Proto X SLT).  No other models have been tested with this p
 
 |mod-install-link|
 
-.. macro:: floatimg images/|target|/ch_protocols/hubsan.png
+.. image:: images/|target|/ch_protocols/hubsan.png
+   :align: center
 
 The Hubsan4 protocol supports up to 7 channels, and only supports auto-binding.  The fixed ID can be used, but does not prevent auto-binding during power-on.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control the quadracopter special functions: 
 
@@ -678,7 +685,8 @@ Protocol: \*PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
 
-.. macro:: floatimg images/|target|/ch_protocols/ppm.png
+.. image:: images/|target|/ch_protocols/ppm.png
+   :align: center
 
 .. container::
 
