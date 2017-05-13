@@ -15,11 +15,13 @@ Master Mode
 ~~~~~~~~~~~
 Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section :ref:`model-setup`. Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently: 
 
-.. macro:: floatimg images/|target|/ch_advanced/master_stick.png
+.. image:: images/|target|/ch_advanced/master_stick.png
+   :align: center
 
 **Stick**: In stick mode, each input channel is mapped to a stick on the master transmitter.  In this mode, the student moving the stick will behave exactly as if the instructor had moved the stick. Generally when using this mode, the student’s transmitter will directly pass the stick position (no mixing) and the instructor’s transmitter will do all necessary mixing.
 
-.. macro:: floatimg images/|target|/ch_advanced/master_channel.png
+.. image:: images/|target|/ch_advanced/master_channel.png
+   :align: center
 
 **Channel**: In channel mode, each input channel is mapped to an output channel on the instructor’s transmitter.  In this mode, the student’s transmitter should do all necessary mixing to control the model.  Care must be taken to ensure that the instructor and student transmitters are configured identically, otherwise, the model may not react well when switching between instructor and student control.
 
@@ -42,7 +44,8 @@ Slave mode is configured by choosing ‘PPM’ as the protocol in section :ref:`
 Setting Up FPV or Other External Inputs
 ---------------------------------------
 
-.. macro:: floatimg images/|target|/ch_advanced/ppmin_extend.png
+.. image:: images/|target|/ch_advanced/ppmin_extend.png
+   :align: center
 
 Deviation has the ability to use PPM input signals from an external source (such as an FPV setup).  To configure this mode, set the PPM In mode to ‘Extend’ in section :ref:`model-setup`.
 
@@ -66,12 +69,14 @@ Deviation has the capability to create virtual switches to supplement the mechan
 
 To setup a virtual switch, start by selecting the trim from the 'Trim' page, and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`
 
-.. macro:: floatimg images/|target|/ch_advanced/virtsw.png
+.. image:: images/|target|/ch_advanced/virtsw.png
+   :align: center
 
 Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box until the value is less-than 0.1
 Second select the 'Input' to be the virtual channel to convert to a switch (we'll use 'Virt1')
 
-.. macro:: floatimg images/|target|/ch_advanced/virtsw2.png
+.. image:: images/|target|/ch_advanced/virtsw2.png
+   :align: center
 
 .. container::
 
@@ -99,19 +104,23 @@ Recently, flybarless (FBL) helicopters have become more common, especially in th
 
 Deviation provides control for several swash-plate layouts, these include: 120°, 120° Alternate, 140°,  90°, and None. Each of these options are illustrated below:
 
-.. macro:: floatimg images/common/ch_advanced/swash_120.png
+.. image:: images/common/ch_advanced/swash_120.png
+   :align: center
 
 **120 (3 Servo)**: Servos are placed around the swash-plate at 120° intervals. With Aileron input, the aileron and pitch servos tilt the swash-plate left and right; with Elevator input, the three servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down. Servos working in unison dramatically increases the torque available as well as the precision and centering.
 
-.. macro:: floatimg images/common/ch_advanced/swash_120x.png
+.. image:: images/common/ch_advanced/swash_120x.png
+   :align: center
 
 **120X (3 Servo)**: Same as the above layout except servos are shifted 150°. With Aileron input, the three servos tilt the swash-plate left and right; with Elevator input, the elevator and pitch servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down. 
 
-.. macro:: floatimg images/common/ch_advanced/swash_140.png
+.. image:: images/common/ch_advanced/swash_140.png
+   :align: center
 
 **140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates are almost the same as 120° swash-plates. However, the servo arrangement for elevator operation differs. 140° swash-plate CCPM offers smoother operation of the combined servos and an equal cyclic rate all around. On a 120° setup, the left/right cyclic is slightly faster than the fore/aft cyclic. 
 
-.. macro:: floatimg images/common/ch_advanced/swash_90.png
+.. image:: images/common/ch_advanced/swash_90.png
+   :align: center
 
 **90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the swash-plate left and right; with elevator input, the servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down. Most commonly used for electronic helicopters.
 

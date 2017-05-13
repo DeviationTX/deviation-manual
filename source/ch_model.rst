@@ -30,11 +30,13 @@ The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the functionalit
 **Advanced GUI**:
 
 .. image:: images/devo8/ch_model/model_menu_conn.*
+   :align: center
    :width: 80%
 
 **Standard GUI**:
 
 .. image:: images/devo8/ch_model/model_menu_std.png
+   :align: center
    :width: 45%
 
 .. endif::
@@ -66,11 +68,13 @@ Note: The Advanced Mixer GUI is the default setting for all new models.
 Model setup (Std & Adv GUI)
 ---------------------------
 
-.. macro:: floatimg images/|target|/ch_model/model_setup.png
+.. image:: images/|target|/ch_model/model_setup.png
+   :align: center
 
 The model page provides various model configuration options.
 
-.. macro:: floatimg images/|target|/ch_model/model_load.png
+.. image:: images/|target|/ch_model/model_load.png
+   :align: center
 
 **File**: The File spin-box allows loading a new model, copying the existing model to a new location, resetting the current model to the default (all configuration is lost), and loading templates (see :ref:`predefined-model-templates`).  Note that changing models may result in a safety message being displayed (see :ref:`safety-system`).
 
@@ -83,14 +87,13 @@ The model page provides various model configuration options.
 
    * -
      - .. image:: images/devo10/ch_model/model_copy.png
-          :width: 100%
      - .. image:: images/devo10/ch_model/model_reset.png
-          :width: 100%
      -
 
 .. endif::
 
-.. macro:: floatimg images/|target|/ch_model/switch_mode.png
+.. image:: images/|target|/ch_model/switch_mode.png
+   :align: center
 
 .. container::
 
@@ -114,15 +117,18 @@ The model page provides various model configuration options.
    may be lost.  Your data will be preserved if you switch from
    standard mixer to advanced mixer.
 
-.. macro:: floatimg images/|target|/ch_model/model_name.png
+.. image:: images/|target|/ch_model/model_name.png
+   :align: center
 
 **Model Name**: Set the model’s name. Use the left, right, up, and down buttons then ENT to select each character.
 
-.. macro:: floatimg images/|target|/ch_model/model_icon.png
+.. image:: images/|target|/ch_model/model_icon.png
+   :align: center
 
 **Icon**: Choose the model’s icon.   Additional model icons can be installed (see :ref:`usb-file-system`).
 
-.. macro:: floatimg images/|target|/ch_model/helicopter_opts.png
+.. image:: images/|target|/ch_model/helicopter_opts.png
+   :align: center
 
 .. container:: 
 
@@ -161,11 +167,13 @@ protocol change will disable any currently active protocol and will
 affect any active model.  To enable the newly chosen protocol, use
 the Bind/Re-Init button described below.
 
-.. macro:: floatimg images/|target|/ch_model/binding.png
+.. image:: images/|target|/ch_model/binding.png
+   :align: center
 
 **Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the transmitter may bind with the model on start-up, or may need to be manually bound once.  See :ref:`protocols` for more on specific protocols.  If the protocol does not support binding, the button will show ‘Re-Init’, which can be used to switch protocols without power-cycling the transmitter. 
    
-.. macro:: floatimg images/|target|/ch_model/fixed_id.png
+.. image:: images/|target|/ch_model/fixed_id.png
+   :align: center
 
 **Fixed ID**:  The Fixed ID sets a unique code to ensure that the transmitter will only bind to a specific model.  This is useful to ensure that the transmitter is not accidentally bound to the wrong model. 
 
@@ -176,7 +184,8 @@ the Bind/Re-Init button described below.
 Predefined Model Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/templates.png
+.. image:: images/|target|/ch_model/templates.png
+   :align: center
 
 .. container::
 
@@ -192,12 +201,14 @@ Mixer (Adv GUI)
 .. if:: devo8
 
 .. image:: images/devo8/ch_model/mixer_main.*
+   :align: center
    :width: 80%
 
 .. endif::
 .. if:: devo10
  
-.. macro:: floatimg images/devo10/ch_model/mixer_main.png
+.. image:: images/devo10/ch_model/mixer_main.png
+   :align: center
 
 .. endif::
 
@@ -212,7 +223,8 @@ Mixer (Adv GUI)
 Channel Reorder
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/reorder_channels.png
+.. image:: images/|target|/ch_model/reorder_channels.png
+   :align: center
 
 The Channel reorder page allows moving mixer definitions between channels as well as duplicating channel configurations.  Note that the values displayed are the initial channel assignments.  Whenever the page is loaded, the channels will be sequentially ordered representing the current state.
 
@@ -221,7 +233,8 @@ The Channel reorder page allows moving mixer definitions between channels as wel
 Channel configuration
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/channel_limits.png
+.. image:: images/|target|/ch_model/channel_limits.png
+   :align: center
 
 .. container::
 
@@ -249,7 +262,8 @@ Channel configuration
 Virtual channel configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/channel_name.png
+.. image:: images/|target|/ch_model/channel_name.png
+   :align: center
 
 If you press ENT on a virtual channel a keyboard screen is shown where
 you may edit the default name. You can use L/R/UP/DN buttons followed
@@ -261,7 +275,8 @@ Or just touch each character.
 Simple Mix Type
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/simple_template.png
+.. image:: images/|target|/ch_model/simple_template.png
+   :align: center
 
 .. container::
 
@@ -284,7 +299,8 @@ Simple Mix Type
 Expo & Dual-Rate Mix Type
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/expo_dr.png
+.. image:: images/|target|/ch_model/expo_dr.png
+   :align: center
 
 .. container::
    The Expo/Dual-Rate mix type is a more sophisticated template
@@ -308,7 +324,8 @@ Expo & Dual-Rate Mix Type
 Complex Mix Type
 ~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/complex.png
+.. image:: images/|target|/ch_model/complex.png
+   :align: center
 
 .. container::
 
@@ -385,7 +402,8 @@ Cyclic
 
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_model/cyclic.png
+.. image:: images/devo10/ch_model/cyclic.png
+   :align: center
 
 .. endif::
 **Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate mix. These will represent the 3 servos connected to the helicopter swash-plate (see :ref:`swash-configuration`).
@@ -393,7 +411,8 @@ Cyclic
 Reordering Mixers
 ~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/reorder_mixers.png
+.. image:: images/|target|/ch_model/reorder_mixers.png
+   :align: center
 
 .. container::
    Since the ordering of mixers is important to the output, it is possible to reorder and/or copy mixers in order to facilitate building complex rules.  This page is accessed by pressing ENT on the ‘Page’ spin-box on the complex mixer page.
@@ -438,19 +457,23 @@ The Curve Editor is accessed by pressing a graph or by pressing or selecting the
 
 The Curve editor page will be different depending on which curve is selected.  It is not possible to change the curve type from the curve editor (except when a multi-point curve is selected).  Values can be set using the spin-box or by touching the graph.
 
-.. macro:: floatimg images/|target|/ch_model/curve_minmax.png
+.. image:: images/|target|/ch_model/curve_minmax.png
+   :align: center
 
 For the Min/Max, Zero/Max, >0, <0, and ABSVAL, the controls allow setting the transition point along the x-axis.  A value of ‘0’ will be symmetric around the y-axis, positive or negative values will move the center point accordingly
 
-.. macro:: floatimg images/|target|/ch_model/curve_expo.png
+.. image:: images/|target|/ch_model/curve_expo.png
+   :align: center
 
 For the Expo curve, the controls allow independently configuring the shape of the curve for values greater-than or less-than zero.
 
-.. macro:: floatimg images/|target|/ch_model/curve_deadband.png
+.. image:: images/|target|/ch_model/curve_deadband.png
+   :align: center
 
 For the Deadband curve, the controls allow independently configuring the deadband width for values greater-than or less-than zero.
 
-.. macro:: floatimg images/|target|/ch_model/curve_multipoint.png
+.. image:: images/|target|/ch_model/curve_multipoint.png
+   :align: center
 
 For the Multi-point curves, each point can be individually set.  Points are set by choosing the point number and then choosing a value. The minimum number of points allowable is 3 the maximum number of points is 13.  Enabling 'Smooth' will apply a smoothing function rather than connecting points via straight lines.
 
@@ -462,12 +485,14 @@ Timers (Std & Adv GUI)
 .. if:: devo8
  
 .. image:: images/devo8/ch_model/timers.png
+   :align: center
    :width: 80%
 
 .. endif::
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_model/timers.png
+.. image:: images/devo10/ch_model/timers.png
+   :align: center
 
 .. endif::
 
@@ -484,7 +509,8 @@ Timers (Std & Adv GUI)
 
    Both proportional timers need an input between 0 and 100 to act correctly. If you use these timer for throttle a virtual mixer must be used as the input to scale -100 to 100 values into 0 to 100.
 
-.. macro:: floatimg images/|target|/ch_model/permanent_timer.png
+.. image:: images/|target|/ch_model/permanent_timer.png
+   :align: center
 
 The ‘permanent’ timers are similar to an odometer and have their values saved in the model.ini file. They will maintain their previous value when powering up the transmitter. You can set the timer by using the 'Set to' button and reset by pressing the 'Reset' button.
 
@@ -495,7 +521,8 @@ Telemetry config (Std & Adv GUI)
 --------------------------------
 
 
-.. macro:: floatimg images/|target|/ch_model/telemetry_config.png
+.. image:: images/|target|/ch_model/telemetry_config.png
+   :align: center
 
 .. container::
 
@@ -511,7 +538,8 @@ Telemetry config (Std & Adv GUI)
 Trims and Virtual Inputs (Std & Adv GUI)
 ----------------------------------------
 
-.. macro:: floatimg images/|target|/ch_model/trims.png
+.. image:: images/|target|/ch_model/trims.png
+   :align: center
 
 .. container::
 
@@ -525,7 +553,8 @@ Trims and Virtual Inputs (Std & Adv GUI)
    buttons can operate as a virtual stick to control an output
    channel.
 
-.. macro:: floatimg images/|target|/ch_model/trims2.png
+.. image:: images/|target|/ch_model/trims2.png
+   :align: center
 
 .. container::
 
@@ -547,7 +576,8 @@ Note: This feature is not available for Devo7e.
 
 The Datalog feature allows storing a history of input or output positions as well as telemetry info over a period of time. This can be used to examine and replay a flight as well as to visualize telemetry information at a later time. Logs are persistent and Deviation will continue writing to the end of the previous log by default.
 
-.. macro:: floatimg images/|target|/ch_model/datalog.png
+.. image:: images/|target|/ch_model/datalog.png
+   :align: center
 
 .. container::
 
@@ -571,12 +601,14 @@ Main page config (Std & Adv GUI)
 .. if:: devo8
 
 .. image:: images/devo8/ch_model/mainpage_layout.png
+   :align: center
    :width: 45%
 
 .. endif::
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_model/mainpage_layout.png
+.. image:: images/devo10/ch_model/mainpage_layout.png
+   :align: center
 
 .. endif::
 
@@ -614,7 +646,8 @@ Each of the visual objects can be selected by pressing on them, or with the UP/D
 
 Note: This feature is not available for Devo7e.
 
-.. macro:: floatimg images/devo10/ch_model/layout_position.png
+.. image:: images/devo10/ch_model/layout_position.png
+   :align: center
 
 Pressing and holding the ENT button from the model configuration page will switch to the object position screen.  Each of the visual objects can be selected using the UP/DN buttons.  Pressing ENT again will allow moving the placement of the selected object.  The UP/DN/L/R buttons will move the selected object on the screen.  Press EXT once to exit move mode, and again to go back to the main page config menu.
 
@@ -625,7 +658,8 @@ Creating Objects
 
 .. if:: devo8
 
-.. macro:: floatimg images/devo8/ch_model/mainpage_createobj.png
+.. image:: images/devo8/ch_model/mainpage_createobj.png
+   :align: center
 
 Select the '+' icon to open the add-item dialog.  Then select the object type from the spin-box on the left, then press ‘Add’ to create the object.  This will add the specified object type to the center of the screen.  You can now place and configure the new object.
 
@@ -643,7 +677,8 @@ Select the object type from the spin-box on the left, then press ‘**Add**’ t
 Loading Objects
 ~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/mainpage_load_layout.png
+.. image:: images/|target|/ch_model/mainpage_load_layout.png
+   :align: center
 
 .. container::
 
@@ -678,6 +713,7 @@ Configuring Objects
 .. if:: devo8
 
 .. image:: images/devo8/ch_model/mainpage_edit.*
+   :align: center
    :width: 80%
 
 You can delete any object by configuring the object and pressing the ‘Delete’ button
@@ -692,7 +728,8 @@ option and pressing the 'ENT' button.
 Choosing toggle icons
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/choose_toggle.png
+.. image:: images/|target|/ch_model/choose_toggle.png
+   :align: center
 
 Pressing the ‘Toggle’ button on a toggle object allows selecting the related icons. Channels, sticks, and 2-position sticks can have 2 icons.  3 position sticks (if any) can have 3 icons.  Each of the 2 (or 3) icon states can be set to empty, defining that no icon is shown for this state.  The Deviation firmware comes with several predefined icons to choose from.
 
@@ -701,7 +738,8 @@ Pressing the ‘Toggle’ button on a toggle object allows selecting the related
 Standard GUI Menu items
 -----------------------
 
-.. macro:: floatimg images/|target|/ch_model/model_menu_std.png
+.. image:: images/|target|/ch_model/model_menu_std.png
+   :align: center
 
 .. container::
 
@@ -713,55 +751,38 @@ Standard GUI Menu items
    :widths: 10 40 10 40
 
    * - .. image:: images/devo8/ch_model/icon_modelcfg.png
-          :width: 100%
      - **Model Configuration**: :ref:`model-setup`
      - .. image:: images/devo8/ch_model/icon_trim.png
-          :width: 100%
      - **Trim configuration**: :ref:`trims-and-virtual-inputs`
    * - .. image:: images/devo8/ch_model/icon_servo_reverse.png
-          :width: 100%
      - **Servo reverse**: :ref:`servo-reverse`
      - .. image:: images/devo8/ch_model/icon_switch_assign.png
-          :width: 100%
      - **Switch assignment**: :ref:`switch-assignment`
    * - .. image:: images/devo8/ch_model/icon_servo_trim.png
-          :width: 100%
      - **Servo sub-trim**: :ref:`sub-trim-adjustment`
      - .. image:: images/devo8/ch_model/icon_throttle_hold.png
-          :width: 100%
      - **Throttle-hold configuration**: :ref:`throttle-hold`
    * - .. image:: images/devo8/ch_model/icon_travel_adjust.png
-          :width: 100%
      - **Servo travel-adjust**: :ref:`servo-travel-adjust`
      - .. image:: images/devo8/ch_model/icon_failsafe.png
-          :width: 100%
      - **Fail-Safe configuration**: :ref:`fail-safe-configuration`
    * - .. image:: images/devo8/ch_model/icon_swash.png
-          :width: 100%
      - **Swash Setup**: :ref:`swash-configuration`
      - .. image:: images/devo8/ch_model/icon_timer_config.png
-          :width: 100%
      - **Timer configuration**: :ref:`timers`
    * - .. image:: images/devo8/ch_model/icon_dualrate.png
-          :width: 100%
      - **Dual-rates setup**: :ref:`dual-rate-expo-setting`
      - .. image:: images/devo8/ch_model/icon_telemetry_config.png
-          :width: 100%
      - **Telemetry configuration**: :ref:`telemetry-config`
    * - .. image:: images/devo8/ch_model/icon_throtte_curve.png
-          :width: 100%
      - **Throttle curve setup**: :ref:`throttle-curve`
      - .. image:: images/devo8/ch_model/icon_datalog.png
-          :width: 100%
      - **Datalog configuration**: :ref:`datalog`
    * - .. image:: images/devo8/ch_model/icon_pitch_curve.png
-          :width: 100%
      - **Pitch curve setup**: :ref:`pitch-curve`
      - .. image:: images/devo8/ch_model/icon_mainpagecfg.png
-          :width: 100%
      - **Main page configuration**: :ref:`main-page-config`
    * - .. image:: images/devo8/ch_model/icon_gyro.png
-          :width: 100%
      - **Gyro-sense configuration**: :ref:`gyro-sensitivity`
      -
      -
@@ -794,7 +815,8 @@ Standard GUI Menu items
 Servo Reverse
 ~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/servo_reverse.png
+.. image:: images/|target|/ch_model/servo_reverse.png
+   :align: center
 
 The servo reverse page allows quickly setting each channel to work in either normal or reversed mode.  These settings are equivalent to the ‘Reverse’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see section :ref:`channel-config`)
 
@@ -803,7 +825,8 @@ The servo reverse page allows quickly setting each channel to work in either nor
 Dual-Rate/Expo setting
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/dualrate.png
+.. image:: images/|target|/ch_model/dualrate.png
+   :align: center
 
 The dual-rate and expo page allows configuration of curves for the Aileron, Rudder, and Elevator channels.  Up-to 3 rates can be configured for each channel, and either a scaled-linear or exponential curve can be selected for each.  The number of settings depends on the switch assigned to the dual-rates function on the Switch Assignment page (see :ref:`switch-assignment`)
 
@@ -812,7 +835,8 @@ The dual-rate and expo page allows configuration of curves for the Aileron, Rudd
 Sub-trim Adjustment
 ~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/subtrim.png
+.. image:: images/|target|/ch_model/subtrim.png
+   :align: center
 
 The sub-trim adjust page allows setting the zero-point of the servos for each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see :ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 increments.
 
@@ -821,7 +845,8 @@ The sub-trim adjust page allows setting the zero-point of the servos for each ch
 Servo Travel Adjust
 ~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/travel_adjust.png
+.. image:: images/|target|/ch_model/travel_adjust.png
+   :align: center
 
 The servo-travel adjust page configures the maximum positive/negative travel of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on the Channel Configuration sub-page of the Mixer menu when using the Advanced GUI (see :ref:`channel-config`). Acceptable values for Down are from -175 to -1 and Up values range from +1 to +175. The default values are -100 and +100 respectively.
 
@@ -834,10 +859,12 @@ The Swash configuration page configures the swash type.  More information about 
 
 .. if:: devo8
 .. image:: images/|target|/ch_model/swashmix.*
+   :align: center
    :width: 90%
 .. endif::
 .. if:: devo10
 .. image:: images/|target|/ch_model/swashmix.*
+   :align: center
    :width: 80%
 .. endif::
 
@@ -857,7 +884,8 @@ Note that setting these values too large can result in too much servo throw and 
 Throttle Curve
 ~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/throttle_curve.png
+.. image:: images/|target|/ch_model/throttle_curve.png
+   :align: center
 
 The throttle curve page allows defining a piece-wise linear curve for the throttle channel.  Different curves can be selected for each flight-mode.  Each point value can be enabled to be interpolated from the points surrounding it.
 
@@ -866,7 +894,8 @@ The throttle curve page allows defining a piece-wise linear curve for the thrott
 Pitch Curve
 ~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/pitch_curve.png
+.. image:: images/|target|/ch_model/pitch_curve.png
+   :align: center
 
 The pitch curve allows defining a piece-wise linear curve for the collective/pitch channel.  Different curves can be selected for each flight-mode as well as for throttle-hold.  Each point value can be enabled to be interpolated from the points surrounding it.
 
@@ -875,7 +904,8 @@ The pitch curve allows defining a piece-wise linear curve for the collective/pit
 Gyro Sensitivity
 ~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/gyro_sense.png
+.. image:: images/|target|/ch_model/gyro_sense.png
+   :align: center
 
 The gyro-sensitivity page enables configuring up-to 3 sensitivity values for the gyro as well as which channel to use for sending the gyro value. Acceptable values range from 0 to 100%.
 
@@ -884,7 +914,8 @@ The gyro-sensitivity page enables configuring up-to 3 sensitivity values for the
 Switch Assignment
 ~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/switch_assign.png
+.. image:: images/|target|/ch_model/switch_assign.png
+   :align: center
 
 The switch assignment page enables configuring which switches to use for each capability in the standard-GUI.  The same switch may be assigned to multiple capabilities.
 
@@ -893,7 +924,8 @@ The switch assignment page enables configuring which switches to use for each ca
 Throttle Hold
 ~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/throttle_hold.png
+.. image:: images/|target|/ch_model/throttle_hold.png
+   :align: center
 
 The throttle-hold page is used to enable/disable the throttle-hold capability.  Specifying ‘Hold position’ defines the throttle value when the Throttle-hold switch is set. Hold position can be set from -200 to 200.
 
@@ -902,7 +934,8 @@ The throttle-hold page is used to enable/disable the throttle-hold capability.  
 Fail-Safe Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. macro:: floatimg images/|target|/ch_model/failsafe.png
+.. image:: images/|target|/ch_model/failsafe.png
+   :align: center
 
 The fail-safe page is used to configure the fail-safe value for each channel (if the protocol supports this feature)
 
