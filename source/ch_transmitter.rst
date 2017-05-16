@@ -11,6 +11,7 @@ Transmitter Menu
 .. if:: devo8
 
 .. image:: images/devo8/ch_transmitter/tx_menu_conn.*
+   :align: center
    :width: 80%
 
 .. endif::
@@ -25,12 +26,14 @@ Transmitter config
 The configuration page defines various transmitter functions.  It is entered from the main menu via the TX Options icon. Please note that all screens in this section show the Deviation default settings.
 
 .. image:: images/devo8/ch_transmitter/tx_config.png
+   :align: center
    :width: 80%
 
 .. endif::
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_transmitter/tx_menu.png
+.. image:: images/devo10/ch_transmitter/tx_menu.png
+   :align: center
 
 The configuration page defines various transmitter functions.  It is entered from the main menu via ‘Transmitter menu’ followed by ‘Transmitter config’. Please note that all screens in this section show the Deviation default settings.
 
@@ -41,7 +44,8 @@ Generic settings
 
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_transmitter/tx_config.png
+.. image:: images/devo10/ch_transmitter/tx_config.png
+   :align: center
 
 .. endif::
 
@@ -68,6 +72,7 @@ To perform a stick calibration, highlight the Calibrate option and press the ENT
 **Clock (Devo12 only)**: Set the current time and date
  
 .. image:: images/devo8/ch_transmitter/clock.png
+   :align: center
    :width: 80%
 
 .. endif::
@@ -123,7 +128,8 @@ Telemetry settings
 Channel monitor
 ---------------
 
-.. macro:: floatimg images/|target|/ch_transmitter/channel_monitor.png
+.. image:: images/|target|/ch_transmitter/channel_monitor.png
+   :align: center
 
 .. container::
 
@@ -141,15 +147,18 @@ Input Monitor
 .. if:: devo8
 
 .. image:: images/devo8/ch_transmitter/input_monitor.png
+   :align: center
    :width: 80%
 
 .. image:: images/devo8/ch_transmitter/input_monitor2.png
+   :align: center
    :width: 80%
 
 .. endif::
 .. if:: devo10
 
-.. macro:: floatimg images/devo10/ch_transmitter/input_monitor.png
+.. image:: images/devo10/ch_transmitter/input_monitor.png
+   :align: center
 
 .. endif::
 
@@ -178,7 +187,8 @@ Input Monitor
 Button Monitor
 --------------
 
-.. macro:: floatimg images/devo8/ch_transmitter/button_monitor.png
+.. image:: images/devo8/ch_transmitter/button_monitor.png
+   :align: center
 
 .. container::
 
@@ -193,7 +203,8 @@ Button Monitor
 Telemetry monitor
 -----------------
 
-.. macro:: floatimg images/|target|/ch_transmitter/telemetry_monitor.png
+.. image:: images/|target|/ch_transmitter/telemetry_monitor.png
+   :align: center
 
 .. container::
 
@@ -206,7 +217,8 @@ Telemetry monitor
 
 .. if:: devo8
 
-.. macro:: floatimg images/devo8/ch_transmitter/telemetry_monitor2.png
+.. image:: images/devo8/ch_transmitter/telemetry_monitor2.png
+   :align: center
 
 .. container::
 
@@ -229,6 +241,7 @@ Telemetry monitor
 .. if:: devo10
 
 .. image:: images/devo10/ch_transmitter/telemetry_monitor2.*
+   :align: center
    :width: 80%
 
 .. endif::
@@ -271,7 +284,8 @@ Range Test
 USB/About
 ---------
 
-.. macro:: floatimg images/devo8/ch_transmitter/usb.png
+.. image:: images/devo8/ch_transmitter/usb.png
+   :align: center
 
 .. container::
 
