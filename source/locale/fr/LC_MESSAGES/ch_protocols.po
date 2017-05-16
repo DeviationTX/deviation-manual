@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-14 21:08+0000\n"
+"POT-Creation-Date: 2017-05-15 21:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -72,6 +72,15 @@ msgid ""
 " bound.  Note that the Fixed ID is only part of the binding procedure.  Two "
 "transmitters with the Same ID cannot control the same model."
 msgstr ""
+"Le protocole DEVO est  installé afin de garder la compatibilité avec les  "
+"recepteurs Walkera DEVO. Ce protocole supporte jusqu'à 12 canaux. Il "
+"supporte aussi bien l'auto-appairage que l'appairage manuel par identifiant "
+"fixe. Si l'identifiant fixe (ID fixe) est réglé sur 'Néant' alors l'émetteur"
+" utilisera l'autoappairage à chaque mise sous tension. Si l'identifiant a "
+"une valeur, alors le récepteur doit être appairé la première fois en "
+"utilisant le bouton 'Appairer'. Notez que l'identifiant fixe n'est qu'un "
+"élément de la procédure d'appairage. Deux émetteurs avec la même ID ne "
+"peuvent contrôler le même modèle."
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -79,6 +88,8 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
 msgstr ""
+"Le protocole Devo permet d'activer ou désactiver la télémétrie. On accède à "
+"cette fonction en appuyant sur la boite de sélection quand DEVO est affiché."
 
 #: ../../source/ch_protocols.rst:28
 msgid ""
@@ -86,29 +97,38 @@ msgid ""
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
 msgstr ""
+"Les chanmps suivants sont disponibles dans la télémétrie DEVO. Notez que "
+"tous les modèles ou récepteurs ne rapportent pas toutes les données et que "
+"des données nécessitent des modules supplémentaires pour être disponibles."
 
 #: ../../source/ch_protocols.rst:37
 msgid ""
 "**Temp1/2/3/4**: Temperature readings.  These can be battery, motor, or "
 "ambient values"
 msgstr ""
+"*T° 1/2/3/4**: Données de température. Elles peuvent être celles de la "
+"batterie, du moteur, ou la température ambiante."
 
 #: ../../source/ch_protocols.rst:38
 msgid ""
 "**Volt1/2/3**: Voltage readings for receiver battery, and external batteries"
 msgstr ""
+"**Volt1/2/3**: Données de voltage pour la batterie de réception et/ou des "
+"batteries externes."
 
 #: ../../source/ch_protocols.rst:39
 msgid "**RPM1/2**: Motor/Engine RPM values"
-msgstr ""
+msgstr "**T/mn1/2**: Vitesses de rotation moteur en tours/minute."
 
 #: ../../source/ch_protocols.rst:40 ../../source/ch_protocols.rst:109
 msgid "**GPS Data**: Current position, speed and altitude from GPS module"
 msgstr ""
+"**Données GPS**: Position en cours, vitesse et altitude provenant du module "
+"GPS."
 
 #: ../../source/ch_protocols.rst:43
 msgid "Protocol: WK2801"
-msgstr ""
+msgstr "Protocole : WK2801"
 
 #: ../../source/ch_protocols.rst:44
 msgid ""
@@ -141,7 +161,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:47
 msgid "Protocol: WK2601"
-msgstr ""
+msgstr "Protocole: WK2601"
 
 #: ../../source/ch_protocols.rst:48
 msgid ""
@@ -206,7 +226,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: WK2401"
-msgstr ""
+msgstr "Protocole : WK2401"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
