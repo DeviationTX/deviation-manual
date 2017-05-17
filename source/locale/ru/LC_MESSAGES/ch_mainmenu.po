@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-15 21:07+0000\n"
+"POT-Creation-Date: 2017-05-16 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:12
+#: ../../source/ch_mainmenu.rst:10
 msgid ""
 "The main menu selections of the Deviation firmware are accessed by "
 "momentarily pressing the ENT button on the bottom right of the transmitter. "
@@ -29,7 +29,7 @@ msgid ""
 "Transmitter menu, USB and About Deviation."
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:14
+#: ../../source/ch_mainmenu.rst:12
 msgid ""
 "All settings which pertain to the usage of your Devention transmitter are "
 "accessed from the main menu. They include model options, language selection,"
@@ -37,11 +37,11 @@ msgid ""
 "connectivity as well as version information."
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:17
+#: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:18
+#: ../../source/ch_mainmenu.rst:16
 msgid ""
 "The model menu is the area within Deviation that you can configure the type "
 "of aircraft you are flying. All model data is managed and saved within this "
@@ -49,11 +49,11 @@ msgid ""
 "menu`."
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:21
+#: ../../source/ch_mainmenu.rst:19
 msgid "Transmitter menu"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:22
+#: ../../source/ch_mainmenu.rst:20
 msgid ""
 "The transmitter menu allows you to select transmitter-specific options as "
 "well as monitor channel output & stick input, and monitor telemetry (if "
@@ -61,11 +61,11 @@ msgid ""
 "menu`."
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:25
+#: ../../source/ch_mainmenu.rst:23
 msgid "USB"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:31
+#: ../../source/ch_mainmenu.rst:27
 msgid ""
 "The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
 " can then be toggled on/off to enable access to the transmitter’s file-"
@@ -75,17 +75,17 @@ msgid ""
 "configuration files are accessible in this mode."
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:35
+#: ../../source/ch_mainmenu.rst:31
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:38
+#: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
 msgstr ""
 
-#: ../../source/ch_mainmenu.rst:44
+#: ../../source/ch_mainmenu.rst:38
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."

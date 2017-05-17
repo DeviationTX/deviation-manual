@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-15 21:07+0000\n"
+"POT-Creation-Date: 2017-05-16 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -53,26 +53,26 @@ msgstr ""
 msgid "**Advanced GUI**:"
 msgstr "**Réglages Expert**:"
 
-#: ../../source/ch_model.rst:32
+#: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
 msgstr "**Réglages standard**:"
 
-#: ../../source/ch_model.rst:44
+#: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
 msgstr "**Menu modèle expert**"
 
-#: ../../source/ch_model.rst:45
+#: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
 msgstr "**Menu modèle standard**"
 
-#: ../../source/ch_model.rst:56
+#: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
 msgstr ""
 "Note : le mode de réglage expert est le mode par défaut pour tous les "
 "nouveaux modèles."
 
-#: ../../source/ch_model.rst:61
+#: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
 msgstr "Config Modèle ( Réglages standard et expert)"
 
@@ -80,7 +80,7 @@ msgstr "Config Modèle ( Réglages standard et expert)"
 msgid "The model page provides various model configuration options."
 msgstr "La page modèle fournit diverses options de configuration."
 
-#: ../../source/ch_model.rst:75
+#: ../../source/ch_model.rst:73
 msgid ""
 "**File**: The File spin-box allows loading a new model, copying the existing"
 " model to a new location, resetting the current model to the default (all "
@@ -92,7 +92,7 @@ msgstr ""
 "copier le modèle courant sur un autre modèle, de remettre à zéro la configuration (toute la configuration est perdue )ou de\n"
 "charger un gabarit (voir  :ref:`' gabarits prédéfinis'). Notez que le changement de modèle peut provoquer l'affichage d'un message de sécurité. (voir :ref:`Système de sécurité`)."
 
-#: ../../source/ch_model.rst:98
+#: ../../source/ch_model.rst:92
 msgid ""
 "**Mixer GUI**: Defines which graphical user interface (GUI) to use for this "
 "model.  The ‘Advanced’ GUI is the default for Deviation.  The ‘Standard’ GUI"
@@ -104,7 +104,7 @@ msgstr ""
 " Le mode standard n'est disponible que pour les hélicoptères et ressemble "
 "plus à celui   d'origine."
 
-#: ../../source/ch_model.rst:103
+#: ../../source/ch_model.rst:97
 msgid ""
 "Standard mixer gui is designed for collective pitch helicopters with a "
 "flybar. It includes features spefic to those that aren't needed on other "
@@ -124,7 +124,7 @@ msgstr ""
 "possibilités du réglage expert pour tous les aéronefs sauf les hélicoptères "
 "à pas collectif.**"
 
-#: ../../source/ch_model.rst:114
+#: ../../source/ch_model.rst:108
 msgid ""
 "Note: If you switch from advanced mixer to standard mixer all data may be "
 "lost.  Your data will be preserved if you switch from standard mixer to "
@@ -134,7 +134,7 @@ msgstr ""
 "données pourraient être perdues. Vos données seront préservées si vous "
 "passez du mode standard au mode expert."
 
-#: ../../source/ch_model.rst:123
+#: ../../source/ch_model.rst:115
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
@@ -142,7 +142,7 @@ msgstr ""
 "**Nom Modèle**: Entrez le nom du modèle. Utilisez les flèche haut, bas, "
 "droite et gauche puis ENT pour sélectionner chaque caractère."
 
-#: ../../source/ch_model.rst:130
+#: ../../source/ch_model.rst:120
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
@@ -150,7 +150,7 @@ msgstr ""
 "**Icône**: Choissez l'icône pour le modèle. Des icônes complémentaires "
 "peuvent être installés.  (see :ref:`usb-file-system`)."
 
-#: ../../source/ch_model.rst:139
+#: ../../source/ch_model.rst:127
 msgid ""
 "**Model Type**: Set the model-type available options are Heli, Plane and "
 "Multi. Helicopter models have an additional configuration page that can be "
@@ -160,7 +160,7 @@ msgstr ""
 "Type Modèle: Détermine le type du modèle. Les options sont Avion, Hélicoptère et Multirotor. Les  hélicoptères ont\n"
 "une page d'options supplémentaire à laquelle on accède en cliquant sur le type de modèle. Les options de plateau cyclique sont identiques à celles de la :ref:`configuration du plateau`."
 
-#: ../../source/ch_model.rst:145
+#: ../../source/ch_model.rst:133
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
@@ -169,7 +169,7 @@ msgstr ""
 " passera automatiquement à Expert , parce que le mode de réglage standard ne"
 " s'applique qu'aux hélicoptères."
 
-#: ../../source/ch_model.rst:147
+#: ../../source/ch_model.rst:135
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
@@ -178,7 +178,7 @@ msgstr ""
 "applicable). Les options sont 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, "
 "150mW."
 
-#: ../../source/ch_model.rst:152
+#: ../../source/ch_model.rst:140
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
@@ -186,7 +186,7 @@ msgstr ""
 "Note:un Devo 7e d'origine émet à 7mW. En raison de la configuration du "
 "logiciel, 150mW sera  affiché en permanence."
 
-#: ../../source/ch_model.rst:156
+#: ../../source/ch_model.rst:144
 msgid ""
 "**PPM In**: Allows input from the DSC port primarily to control external "
 "hardware such as camera motors from a 'head tracker'. Secondarily it may be "
@@ -198,7 +198,7 @@ msgstr ""
 "aussi être utilisé pour faire fonctionner un émetteur en Maitre dans une "
 "configuration d'écolage. Les options possibles sont Canaux, Stick et Extend"
 
-#: ../../source/ch_model.rst:162
+#: ../../source/ch_model.rst:150
 msgid ""
 "The Stick and Channel modes are used for buddy-box setup and documentation "
 "can be found in chapter :ref:`setting-up-a-buddy-box`.  The Extend mode is "
@@ -211,7 +211,7 @@ msgstr ""
 " entrée externe et on trouvera la documentation à :ref:`Installation d'un "
 "FPV'."
 
-#: ../../source/ch_model.rst:164
+#: ../../source/ch_model.rst:152
 msgid ""
 "**Protocol**: Set the type of receiver being used.  Note that some protocols"
 " have additional options that can be accessed by pressing the Protocol spin-"
@@ -228,7 +228,7 @@ msgstr ""
 "Pour activer le protocole nouvellement choisi, utiliser le bouton Appairer "
 "décrit ci dessous."
 
-#: ../../source/ch_model.rst:177
+#: ../../source/ch_model.rst:163
 msgid ""
 "**Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the "
 "transmitter may bind with the model on start-up, or may need to be manually "
@@ -243,7 +243,7 @@ msgstr ""
 "n'accepte pas l'appairage, la case affichera ‘Re-Init’, et peut être "
 "utilisée pour changer de protocole sans éteindre et rallumer l'émetteur."
 
-#: ../../source/ch_model.rst:184
+#: ../../source/ch_model.rst:168
 msgid ""
 "**Fixed ID**:  The Fixed ID sets a unique code to ensure that the "
 "transmitter will only bind to a specific model.  This is useful to ensure "
@@ -253,7 +253,7 @@ msgstr ""
 "s'appairera uniquement à un modèle spécifique. C'est pratique pour garantir "
 "que l'émetteur n'est pas accidentellement appairé à un mauvais modèle."
 
-#: ../../source/ch_model.rst:186
+#: ../../source/ch_model.rst:170
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
@@ -261,11 +261,11 @@ msgstr ""
 "**Nbr canaux**: Définit le nombre de canaux à transmettre ( le nombre "
 "maximum de canaux dépend du protocole sélectionné)."
 
-#: ../../source/ch_model.rst:191
+#: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
 msgstr "Gabarits de modèles prédéfinis."
 
-#: ../../source/ch_model.rst:200
+#: ../../source/ch_model.rst:182
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
@@ -274,7 +274,7 @@ msgstr ""
 "prédéfinis personnalisables par l'utilisateur en choisissant 'Gabarit' dans "
 "la boite de sélection Fichier dans la page Config Modèle."
 
-#: ../../source/ch_model.rst:202
+#: ../../source/ch_model.rst:184
 msgid ""
 "Additional templates can be added via USB to the ‘\\\\template’ directory. A"
 " template does not completely replace your existing model, but instead only "
@@ -287,11 +287,11 @@ msgstr ""
 "remplaceront les réglages de trim et de mixage mais n'affecteront pas "
 "l'affichage."
 
-#: ../../source/ch_model.rst:207
+#: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
 msgstr ""
 
-#: ../../source/ch_model.rst:222
+#: ../../source/ch_model.rst:203
 msgid ""
 "The 'Advanced' GUI unleashes the full capabilities of the Deviation "
 "firmware, however it is unlike any commercial transmitter setup. Deviation "
@@ -308,7 +308,7 @@ msgstr ""
 "Le mode de réglage \"Complexe\" libère les pleines possibilités du micrologiciel Deviation. Cependant il est différent des configurations de tous les autres émetteurs du commerce. Deviation a aussi un interface plus traditionnel pour ceux qui préfèrent (vois :ref:`réglage standard`). Chaque canal de sortie  est composé d'un ou de plusieurs 'mixers'. Chaque mixer\n"
 "est constitué d'un signal d'entrée, d'une commande d'activation et d'une fonction qui modifie sa valeur de sortie. C'est une capacité très puissante, mais qui requerra d'apprendre un méthode complètement différente pour configurer un modèle. Pour aider à une configuration rapide il existe quelques réglages prédéfinis (voir :ref:`gabarits de modèles prédéfinis`), mais pour apprendre à modifier et configurerer un modèle lisez entièrement cette section avec attention."
 
-#: ../../source/ch_model.rst:224
+#: ../../source/ch_model.rst:205
 msgid ""
 "The Mixer page controls how inputs (sticks/switches) are assigned to output "
 "channels.  The mixer page is accessed from the main menu by selecting the "
@@ -318,7 +318,7 @@ msgstr ""
 "assignés aux canaux de sortie. On accède à cette page du menu principal en "
 "cliquant sur l'icône du modèle."
 
-#: ../../source/ch_model.rst:226
+#: ../../source/ch_model.rst:207
 msgid ""
 "The number of channels available is dependent on the number of channels "
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
@@ -328,11 +328,11 @@ msgstr ""
 ":ref:`Config modèle`. De plus il existe 10 canaux virtuels qui peuvent être "
 "utilisés comme étapes intermédiaires pour des configurations complexes. "
 
-#: ../../source/ch_model.rst:229
+#: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
 msgstr "Réordonnancement  des canaux"
 
-#: ../../source/ch_model.rst:236
+#: ../../source/ch_model.rst:215
 msgid ""
 "The Channel reorder page allows moving mixer definitions between channels as"
 " well as duplicating channel configurations.  Note that the values displayed"
@@ -342,11 +342,11 @@ msgstr ""
 "La page de réordonnancement des canaux permet de déplacer les définitions de mixers  ou de recopier des\n"
 "configurations de canaux. Notez que les valeurs affichées représentent l'ordre initial des canaux. Chaque fois que la page est chargée, les canaux seront ordonnés séquentiellement selon l'état courant."
 
-#: ../../source/ch_model.rst:241
+#: ../../source/ch_model.rst:220
 msgid "Channel configuration"
 msgstr "Configuration de canal"
 
-#: ../../source/ch_model.rst:250
+#: ../../source/ch_model.rst:227
 msgid ""
 "The Channel configuration provides the ability to configure the final "
 "channel outputs.  Capabilities such as channel reverse and fail-safe values "
@@ -361,7 +361,7 @@ msgstr ""
 "permettre d'assurer qu'un moteur ne pourrait démarrer pendant des travaux "
 "sur un modèle)"
 
-#: ../../source/ch_model.rst:252
+#: ../../source/ch_model.rst:229
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
@@ -370,11 +370,11 @@ msgstr ""
 "du canal. En cliquant sur Annuler on rétablira les valeurs affichées dans le"
 " dernier état sauvegardé."
 
-#: ../../source/ch_model.rst:254
+#: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
 msgstr "**Sens**: Modifie le sens de rotation du servo. "
 
-#: ../../source/ch_model.rst:256
+#: ../../source/ch_model.rst:233
 msgid ""
 "**Fail-safe**:  Specifies a value that the receiver should use when it loses"
 " signal from the transmitter. The range is between -125 and +125 or None. "
@@ -384,7 +384,7 @@ msgstr ""
 "perd le signal de l'émetteur. la valeur peut aller de -125 à +125 ou Arrêt. "
 "Tous les récepteurs ne disposent pas de cette possibilité."
 
-#: ../../source/ch_model.rst:258
+#: ../../source/ch_model.rst:235
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
@@ -393,7 +393,7 @@ msgstr ""
 " forcera le canal de sortie à adopter la valeur ‘Val Sécu’ quand il sera "
 "actionné."
 
-#: ../../source/ch_model.rst:260
+#: ../../source/ch_model.rst:237
 msgid ""
 "**Safe Val**: If a safety switch is chosen the Safe Val can also be "
 "specified. The acceptable range of Safe Val is any value between -150 and "
@@ -402,7 +402,7 @@ msgstr ""
 "**Val Sécu**: Si un interrupteur de sécurité est sélectionné, la Val Sécu "
 "peut aussi être fixée. La valeur choisie doit se situer entre -150 et +150."
 
-#: ../../source/ch_model.rst:262
+#: ../../source/ch_model.rst:239
 msgid ""
 "**Min Limit/Max Limit**: These values define the minimum and maximum values "
 "that the transmitter will ever send to the receiver (after all scaling, "
@@ -419,7 +419,7 @@ msgstr ""
 "limite max. Les valeur Maximum est -250 à 0 pour limite min et 0 à +250 pour"
 " limite max."
 
-#: ../../source/ch_model.rst:264
+#: ../../source/ch_model.rst:241
 msgid ""
 "**Scale-/Scale+**: These values define a final scalar to adjust the servo "
 "throw. Allowed entries are between 1 and 250. When you alternate Scale+  "
@@ -433,7 +433,7 @@ msgstr ""
 "Echelle- a été mis à une valeur différente de Echelle+, les deux données "
 "réagiront séparément jusqu'à ce qu'elles soient de nouveau à la même valeur."
 
-#: ../../source/ch_model.rst:266
+#: ../../source/ch_model.rst:243
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
@@ -441,7 +441,7 @@ msgstr ""
 "**Subtrim**: Ajuste la position zero (neutre) du servo. L'intervalle "
 "disponible va de -50.0 à +50.0  par  incréments de 0.1."
 
-#: ../../source/ch_model.rst:268
+#: ../../source/ch_model.rst:245
 msgid ""
 "**Speed**: Adjust maximum servo speed.  Zero is disabled (fastest), Range is"
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
@@ -452,7 +452,7 @@ msgstr ""
 " la vitesse de servo est définie comme nombre de degrés pour 100 msec (pour "
 "un débattement min/max de 120 degrés)"
 
-#: ../../source/ch_model.rst:269
+#: ../../source/ch_model.rst:246
 msgid ""
 "Example: A value of 60 will give a speed of 60degrees per 100msec which is "
 "equivalent to center-to max in 100msec. Most servos are rated at "
@@ -465,11 +465,11 @@ msgstr ""
 "sur eux. Une valeur de 30 devrait être à peu près deux fois plus lent qu'un "
 "servo standard."
 
-#: ../../source/ch_model.rst:272
+#: ../../source/ch_model.rst:249
 msgid "Virtual channel configuration"
 msgstr "Configuration de canal virtuel"
 
-#: ../../source/ch_model.rst:279
+#: ../../source/ch_model.rst:254
 msgid ""
 "If you press ENT on a virtual channel a keyboard screen is shown where you "
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
@@ -479,11 +479,11 @@ msgstr ""
 " Vous pouvez éditer le nom par défaut. Utilisez les boutons L/R/UP/DN suivis"
 " de 'ENT' ou touchez chaque caractère."
 
-#: ../../source/ch_model.rst:285
+#: ../../source/ch_model.rst:260
 msgid "Simple Mix Type"
 msgstr "Type de mixage simple"
 
-#: ../../source/ch_model.rst:294
+#: ../../source/ch_model.rst:267
 msgid ""
 "The Simple mix type is the simplest manner of defining a channel. It allows "
 "defining a primary-input (stick, switch, or other channel), and applying a "
@@ -498,8 +498,8 @@ msgstr ""
 "utiiiser un inverseur ou interrupteur pour activer ou désactiver cette "
 "configuration."
 
-#: ../../source/ch_model.rst:300 ../../source/ch_model.rst:327
-#: ../../source/ch_model.rst:355
+#: ../../source/ch_model.rst:273 ../../source/ch_model.rst:298
+#: ../../source/ch_model.rst:324
 msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
@@ -507,13 +507,13 @@ msgstr ""
 "Un long appui sur ENT mettra à jour les réglages en cours du mixage, en "
 "permettant de le tester sur l'émetteur."
 
-#: ../../source/ch_model.rst:302 ../../source/ch_model.rst:329
-#: ../../source/ch_model.rst:376
+#: ../../source/ch_model.rst:275 ../../source/ch_model.rst:300
+#: ../../source/ch_model.rst:345
 msgid "**Src**: The input source controlling this mixer."
 msgstr "**Source** : L'entrée contrôlant ce mixage."
 
-#: ../../source/ch_model.rst:304 ../../source/ch_model.rst:331
-#: ../../source/ch_model.rst:378
+#: ../../source/ch_model.rst:277 ../../source/ch_model.rst:302
+#: ../../source/ch_model.rst:347
 msgid ""
 "**Curve**: The function applied to the input to generate the output.  See "
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
@@ -524,8 +524,8 @@ msgstr ""
 "courbe, appuyer sur la coure peut faire afficher l'éditeur de courbe (voir "
 ":ref:`Edition de courbe`)."
 
-#: ../../source/ch_model.rst:306 ../../source/ch_model.rst:335
-#: ../../source/ch_model.rst:380
+#: ../../source/ch_model.rst:279 ../../source/ch_model.rst:306
+#: ../../source/ch_model.rst:349
 msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
@@ -533,16 +533,16 @@ msgstr ""
 "**Echelle** un multiplicateur qui est appliqué après la courbe pour "
 "contrôler la portée de la sortie."
 
-#: ../../source/ch_model.rst:308
+#: ../../source/ch_model.rst:281
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
 "**Offset** : Un décalage additionnel appliqué après la multiplication."
 
-#: ../../source/ch_model.rst:311
+#: ../../source/ch_model.rst:284
 msgid "Expo & Dual-Rate Mix Type"
 msgstr ""
 
-#: ../../source/ch_model.rst:325
+#: ../../source/ch_model.rst:296
 msgid ""
 "Selecting a value for Switch1 or Switch2 will activate the corresponding "
 "section.  Each section can either have a 'linked' curve (curve is the same "
@@ -558,18 +558,18 @@ msgstr ""
 "Appuyer sur le bouton 'Déb med' ou 'Grand déb' pour un interrupteur donné "
 "basculera entre courbes liées et différentes."
 
-#: ../../source/ch_model.rst:333
+#: ../../source/ch_model.rst:304
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
 "**Inter1** ou **Inter2**: Spécifie un interrupteur pour activer les "
 "débattements moyens et grands."
 
-#: ../../source/ch_model.rst:338
+#: ../../source/ch_model.rst:309
 msgid "Complex Mix Type"
 msgstr "Mixage de type complexe"
 
-#: ../../source/ch_model.rst:347
+#: ../../source/ch_model.rst:316
 msgid ""
 "The Complex mix type unlocks the full power of the mixer system. For a given"
 " channel, any number of mixers can be applied to affect the final result.  "
@@ -582,11 +582,11 @@ msgstr ""
 "sortie. Chaque mixer est appliqué pour autant que sa 'Commande' soit active et peut soit remplacer, s'ajouter, se multiplier aux mixers précédemment définis pour ce canal.\n"
 "Cette technique permet de définir un signal de sortie comme une combinaison d'autant de signaux d'entrée que désirés."
 
-#: ../../source/ch_model.rst:357
+#: ../../source/ch_model.rst:326
 msgid "The Complex Mixer page has the following options:"
 msgstr "La page de mixage complexe propose les options suivantes :"
 
-#: ../../source/ch_model.rst:359
+#: ../../source/ch_model.rst:328
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
@@ -595,7 +595,7 @@ msgstr ""
 "canal. Si vous augmentez ce nombre d'un, une nouvelle page de mixer sera "
 "ajoutée après la dernière page."
 
-#: ../../source/ch_model.rst:361
+#: ../../source/ch_model.rst:330
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
@@ -603,7 +603,7 @@ msgstr ""
 "**Page**: Indique le numéro de page de mixer en cours d'édition. Appuyer sur"
 " la boite permet de réordonner les pages de mixers."
 
-#: ../../source/ch_model.rst:363
+#: ../../source/ch_model.rst:332
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
@@ -611,7 +611,7 @@ msgstr ""
 "**Commande**: Indique un interrupteur optionnel qui déterminera si le mixer "
 "courant est actif ou non."
 
-#: ../../source/ch_model.rst:365
+#: ../../source/ch_model.rst:334
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
@@ -619,19 +619,19 @@ msgstr ""
 "**Opération** : Indique comment le mixer de cette page est appliqué aux "
 "mixers définis dans les pages  précédentes pour ce canal. Les options sont:"
 
-#: ../../source/ch_model.rst:367
+#: ../../source/ch_model.rst:336
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
 "**remplacer**: Si ce mixer est actif, tous les mixers des pages précédentes "
 "sont ignorés."
 
-#: ../../source/ch_model.rst:368
+#: ../../source/ch_model.rst:337
 msgid "**Add**: Add the value of this mixer to the previous mixers."
 msgstr ""
 "**ajouter**: Si ce mixer est actif, ajoute la valeur de ce mixer aux mixers "
 "actifs des pages précédentes."
 
-#: ../../source/ch_model.rst:369
+#: ../../source/ch_model.rst:338
 msgid ""
 "**Mult**: Multiply the value of this mixer with the previous mixers. Note "
 "that the values are percentages, so multiplying by 50 actually multiplies by"
@@ -642,7 +642,7 @@ msgstr ""
 "Notez que les valeurs sont des pourcentages. Multiplier par 50 multipliera "
 "en réalité par .5."
 
-#: ../../source/ch_model.rst:372
+#: ../../source/ch_model.rst:341
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
@@ -651,7 +651,7 @@ msgstr ""
 "grande entre celle  de ce mixer et celle de l'ensemble des mixers actifs des"
 " pages précédentes."
 
-#: ../../source/ch_model.rst:373
+#: ../../source/ch_model.rst:342
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
@@ -660,7 +660,7 @@ msgstr ""
 "petite entre celle  de ce mixer et celle de l'ensemble des mixers actifs des"
 " pages précédentes."
 
-#: ../../source/ch_model.rst:374
+#: ../../source/ch_model.rst:343
 msgid ""
 "**Delay**: Delay the output of this mixer when used with a fixed curve. "
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
@@ -670,7 +670,7 @@ msgstr ""
 "courbe fixe. Une valeur d'échelle de 100 représente 5 secondes de retard. On"
 " peut le faire varier par échelle ou offsett."
 
-#: ../../source/ch_model.rst:382
+#: ../../source/ch_model.rst:351
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
@@ -679,13 +679,13 @@ msgstr ""
 "mixer peut avoir une valeur plus grande que 125%, si un offset est déclaré "
 "ou si la valeur du trim est différent de zéro."
 
-#: ../../source/ch_model.rst:384
+#: ../../source/ch_model.rst:353
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
 "**Offset** : Un décalage additif qui est appliqué après le facteur "
 "d'échelle."
 
-#: ../../source/ch_model.rst:386
+#: ../../source/ch_model.rst:355
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
@@ -693,11 +693,11 @@ msgstr ""
 "**Trim** :  Définit si un un trim s'applique ou non pour la source "
 "concernée."
 
-#: ../../source/ch_model.rst:388
+#: ../../source/ch_model.rst:357
 msgid "\\ A given mixer can be considered to have the general form:"
 msgstr "\\Un mixer défini dans une page de mixer a la forme générale suivante :"
 
-#: ../../source/ch_model.rst:391
+#: ../../source/ch_model.rst:360
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
@@ -705,7 +705,7 @@ msgstr ""
 "M(x) = Si(*Commande*) { *Source* * *Courbe* * *Echlle * + *Offset*} sinon  "
 "{0} + *Trim*"
 
-#: ../../source/ch_model.rst:393
+#: ../../source/ch_model.rst:362
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
@@ -713,11 +713,11 @@ msgstr ""
 "Pour un Mixer n activé par la commande n, la combinaison Cx de l'ensemble  "
 "des mixers de 1 à n formant le canal est définie selon le type d'opération:"
 
-#: ../../source/ch_model.rst:395
+#: ../../source/ch_model.rst:364
 msgid "For a ‘Replace’ mux:"
 msgstr "Pour 'Remplacer' :"
 
-#: ../../source/ch_model.rst:397
+#: ../../source/ch_model.rst:366
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
@@ -725,11 +725,11 @@ msgstr ""
 "Cx = Si (Commande n) {Mix n} Sinon Si (Commande n-1) {Mix n-1} … Sinon si "
 "(Commande 0) {Mix 0}"
 
-#: ../../source/ch_model.rst:399
+#: ../../source/ch_model.rst:368
 msgid "For a ‘Multiply’ mux:"
 msgstr "Pour 'multiplier' :"
 
-#: ../../source/ch_model.rst:401
+#: ../../source/ch_model.rst:370
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
@@ -737,41 +737,41 @@ msgstr ""
 "Cx = Si (commande n activée, (Mix n) x (résultat mixer 1 à n-1) sinon "
 "(résultat mixer 1 à n-1)"
 
-#: ../../source/ch_model.rst:403
+#: ../../source/ch_model.rst:372
 msgid "For an ‘Add’ mux:"
 msgstr ""
 
-#: ../../source/ch_model.rst:405
+#: ../../source/ch_model.rst:374
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
 
-#: ../../source/ch_model.rst:407
+#: ../../source/ch_model.rst:376
 msgid "For a ‘Max’ mux:"
 msgstr ""
 
-#: ../../source/ch_model.rst:409
+#: ../../source/ch_model.rst:378
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
 
-#: ../../source/ch_model.rst:411
+#: ../../source/ch_model.rst:380
 msgid "For a ‘Min’ mux:"
 msgstr ""
 
-#: ../../source/ch_model.rst:413
+#: ../../source/ch_model.rst:382
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
 
-#: ../../source/ch_model.rst:416
+#: ../../source/ch_model.rst:385
 msgid "Cyclic"
 msgstr "Cyclique"
 
-#: ../../source/ch_model.rst:424
+#: ../../source/ch_model.rst:391
 msgid ""
 "**Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate "
 "mix. These will represent the 3 servos connected to the helicopter swash-"
@@ -782,11 +782,11 @@ msgstr ""
 "plateau cyclique d'un hélicoptère.  (see :ref:`configuration du plateau "
 "cyclique`)."
 
-#: ../../source/ch_model.rst:427
+#: ../../source/ch_model.rst:394
 msgid "Reordering Mixers"
 msgstr "Réordonner les mixers"
 
-#: ../../source/ch_model.rst:437
+#: ../../source/ch_model.rst:402
 msgid ""
 "Select the respective mixer and use the up/down buttons to move the order of"
 " the selected mixer.  Note that the mixer name represents its position when "
@@ -799,7 +799,7 @@ msgstr ""
 "page de réordonnancement. Si la page est fermée puis réouverte tous les "
 "mixers sont affichés séquentiellement."
 
-#: ../../source/ch_model.rst:439
+#: ../../source/ch_model.rst:404
 msgid ""
 "The reorder page can add new mixers or delete existing ones using the ‘+’ "
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
@@ -810,25 +810,25 @@ msgstr ""
 "également être recopié sur un autre mixer (écrase le précédent) en utilisant"
 " la fonction 'Copier'."
 
-#: ../../source/ch_model.rst:444
+#: ../../source/ch_model.rst:409
 msgid "Available Curves"
 msgstr "Courbes disponibles"
 
-#: ../../source/ch_model.rst:446
+#: ../../source/ch_model.rst:411
 msgid "The following curve functions are supported:"
 msgstr "Les courbes suivantes sont disponibles"
 
-#: ../../source/ch_model.rst:448
+#: ../../source/ch_model.rst:413
 msgid "**1-to-1**: Output is equal to the input (not editable)."
 msgstr "**1-to-1**:l'entrée égale la sortie (non modifiable)"
 
-#: ../../source/ch_model.rst:449
+#: ../../source/ch_model.rst:414
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
 "**Fixe**: La sortie est constante quelle que soit l'entrée. Le décalage "
 "[offset] est modifiable."
 
-#: ../../source/ch_model.rst:450
+#: ../../source/ch_model.rst:415
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
@@ -836,7 +836,7 @@ msgstr ""
 "**Min/Max**: La sortie est -100 si l'entrée est inférieure à une valeur "
 "spécifiée et +100 dans le cas contraire."
 
-#: ../../source/ch_model.rst:451
+#: ../../source/ch_model.rst:416
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
@@ -844,7 +844,7 @@ msgstr ""
 "**0/Max**: La sortie est 0 si l'entrée est inférieure à une valeur spécifiée"
 " ou 100 dans le cas contraire."
 
-#: ../../source/ch_model.rst:452
+#: ../../source/ch_model.rst:417
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
@@ -852,7 +852,7 @@ msgstr ""
 "**>0**: la sortie est égale à l'entrée quand elle est supérieure à une "
 "valeur spécifiée, et 0 dans le cas contraire."
 
-#: ../../source/ch_model.rst:453
+#: ../../source/ch_model.rst:418
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
@@ -860,7 +860,7 @@ msgstr ""
 "**>0**: la sortie est égale à l'entrée quand elle est inférieure à une "
 "valeur spécifiée, et 0 dans le cas contraire."
 
-#: ../../source/ch_model.rst:454
+#: ../../source/ch_model.rst:419
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
@@ -868,7 +868,7 @@ msgstr ""
 "**ValAbs**: La sortie est égale à la valeur absolue de l'entrée (modifier la"
 " valeur définie modifiera la manière dont la valeur absolue est appliquée."
 
-#: ../../source/ch_model.rst:455
+#: ../../source/ch_model.rst:420
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
@@ -876,7 +876,7 @@ msgstr ""
 "**EXP.**:Applique une fonction exponentielle à l'entrée pour une réponse non"
 " linéaire.  (modifiable voir :ref:` Edition de courbe`)."
 
-#: ../../source/ch_model.rst:456
+#: ../../source/ch_model.rst:421
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
@@ -884,7 +884,7 @@ msgstr ""
 "**Zone inerte**:[Deadband] La sortie sera constant pour des valeurs d'entrée"
 " proche de zéro. (modifiable voir :ref:` Edition de courbe`)."
 
-#: ../../source/ch_model.rst:457
+#: ../../source/ch_model.rst:422
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
@@ -892,7 +892,7 @@ msgstr ""
 "**Multi-point**: La courbe est définie par 3, 5, 7, 9, 11 or 13 points "
 "définis par l'utilisateur. (modifiable voir :ref:` Edition de courbe`)."
 
-#: ../../source/ch_model.rst:460
+#: ../../source/ch_model.rst:425
 msgid ""
 "The default value for any of the offsets in above mentioned curves is 0 "
 "(zero). If you change the curve for one input the offset will be transferred"
@@ -902,11 +902,11 @@ msgstr ""
 " es 0 (zero). Si vous changez la courbe pour une entrée, le décalage sera "
 "transféré à la nouvelle si c'est possible."
 
-#: ../../source/ch_model.rst:465
+#: ../../source/ch_model.rst:430
 msgid "Curve Editing"
 msgstr "Edition de courbe"
 
-#: ../../source/ch_model.rst:467
+#: ../../source/ch_model.rst:432
 msgid ""
 "The Curve Editor is accessed by selecting the curve spin-box when it is "
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
@@ -916,7 +916,7 @@ msgstr ""
 "courbe si elle est sélectionnable. Les types de courbes 1 à 1 et  fixe ne "
 "sont pas modifiables et la boite de choix n'est pas cliquable. "
 
-#: ../../source/ch_model.rst:469
+#: ../../source/ch_model.rst:434
 msgid ""
 "The Curve Editor is accessed by pressing a graph or by pressing or selecting"
 " the curve spin-box when it is selectable.  The 1-1 and Fixed curve types "
@@ -928,7 +928,7 @@ msgstr ""
 "Les types de courbes 1 à 1 et  fixe ne sont pas modifiables et la boite de "
 "choix n'est pas cliquable. "
 
-#: ../../source/ch_model.rst:471
+#: ../../source/ch_model.rst:436
 msgid ""
 "The Curve editor page will be different depending on which curve is "
 "selected.  It is not possible to change the curve type from the curve editor"
@@ -941,7 +941,7 @@ msgstr ""
 "peut définir les valeurs en utilisant les boites de sélection ou en touchant"
 " le graphique"
 
-#: ../../source/ch_model.rst:478
+#: ../../source/ch_model.rst:441
 msgid ""
 "For the Min/Max, Zero/Max, >0, <0, and ABSVAL, the controls allow setting "
 "the transition point along the x-axis.  A value of ‘0’ will be symmetric "
@@ -953,7 +953,7 @@ msgstr ""
 "des y, et des valeurs positives ou négatives bougeront le point central en "
 "conséquence."
 
-#: ../../source/ch_model.rst:485
+#: ../../source/ch_model.rst:446
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
@@ -962,7 +962,7 @@ msgstr ""
 "indépendamment la courbure pour les valeurs d'entrée négatives et celle pour"
 " les valeurs positives."
 
-#: ../../source/ch_model.rst:492
+#: ../../source/ch_model.rst:451
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
@@ -971,7 +971,7 @@ msgstr ""
 "de cette zone indépendamment pour les valeurs d'entrée négatives et celle "
 "pour les valeurs positives."
 
-#: ../../source/ch_model.rst:499
+#: ../../source/ch_model.rst:456
 msgid ""
 "For the Multi-point curves, each point can be individually set.  Points are "
 "set by choosing the point number and then choosing a value. The minimum "
@@ -985,11 +985,11 @@ msgstr ""
 "lissage sera appliqué plutôt que les points soient reliés par des lignes "
 "droites."
 
-#: ../../source/ch_model.rst:504
+#: ../../source/ch_model.rst:461
 msgid "Timers (Std & Adv GUI)"
 msgstr "Chronos (Réglages Standard et Expert)"
 
-#: ../../source/ch_model.rst:519
+#: ../../source/ch_model.rst:475
 msgid ""
 "The timer page defines up to 4 available timers.  Timers can count either up"
 " or down, and can be enabled either manually from the main screen or by an "
@@ -1000,7 +1000,7 @@ msgstr ""
 " partir de l'écran principal ou par une entrée les déclenchant (manche ou "
 "interrupteur)."
 
-#: ../../source/ch_model.rst:522
+#: ../../source/ch_model.rst:478
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
@@ -1008,7 +1008,7 @@ msgstr ""
 "Les compteurs disponibles sont : chrono, à rebours, chrono proportionnel "
 "[Stop-Prop], à rebours proportionnel [Cntdn-Prop] et Permanent."
 
-#: ../../source/ch_model.rst:525
+#: ../../source/ch_model.rst:481
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
@@ -1016,7 +1016,7 @@ msgstr ""
 "Les chronos peuvent optionnellement être remis à Zéro par un interrupteur. "
 "(Uniquement dans le mode de réglage avancé)."
 
-#: ../../source/ch_model.rst:528
+#: ../../source/ch_model.rst:484
 msgid ""
 "Both proportional timers need an input between 0 and 100 to act correctly. "
 "If you use these timer for throttle a virtual mixer must be used as the "
@@ -1027,7 +1027,7 @@ msgstr ""
 "devez utiliser un canal virtuel comme entrée pour transformer les valeurs de"
 " -100 à 100 en valeurs de 0 à 100."
 
-#: ../../source/ch_model.rst:535
+#: ../../source/ch_model.rst:489
 msgid ""
 "The ‘permanent’ timers are similar to an odometer and have their values "
 "saved in the model.ini file. They will maintain their previous value when "
@@ -1040,11 +1040,11 @@ msgstr ""
 " utilisant le bouton 'Régler à'  [Set to] et les réinitialiser en utilisant "
 "le bouton 'RàZ'. "
 
-#: ../../source/ch_model.rst:541
+#: ../../source/ch_model.rst:495
 msgid "Telemetry config (Std & Adv GUI)"
 msgstr "Configuration de la télémétrie (Réglages Standard et Expert)"
 
-#: ../../source/ch_model.rst:551
+#: ../../source/ch_model.rst:503
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
@@ -1052,7 +1052,7 @@ msgstr ""
 "La page de configuration de la télémétrie permet de définir les alarmes "
 "lorsque des évènements télémétriques prédéfinis interviennent."
 
-#: ../../source/ch_model.rst:553
+#: ../../source/ch_model.rst:505
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
@@ -1061,7 +1061,7 @@ msgstr ""
 "pour la surveillance de l'alarme. L'ensemble des valeurs disponibles "
 "dépendra du protocole."
 
-#: ../../source/ch_model.rst:555
+#: ../../source/ch_model.rst:507
 msgid ""
 "**Equality**: Can be '>=' or '<=' indicating whether a value above or below "
 "the target causes an alarm."
@@ -1070,15 +1070,15 @@ msgstr ""
 "valeur est supérieure ou inférieure ou égale à la valeur cible qui déclenche"
 " l'alarme."
 
-#: ../../source/ch_model.rst:556
+#: ../../source/ch_model.rst:508
 msgid "**Target**: The target value for the alarm."
 msgstr "Troisième champ : la valeur cible de l'alarme."
 
-#: ../../source/ch_model.rst:561
+#: ../../source/ch_model.rst:513
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
 msgstr "Trims et entrées virtuelles  (Réglages Standard et Expert)"
 
-#: ../../source/ch_model.rst:570
+#: ../../source/ch_model.rst:520
 msgid ""
 "The trim page allows assigning the trim buttons and trim step, as well as "
 "configuring buttons to work as virtual inputs (see :ref:`trim-as-virtual-"
@@ -1090,7 +1090,7 @@ msgstr ""
 "(voir :ref:`Utilisation d'un trim comme interrupteur virtuel.`). On y accède"
 " du menu principal par le Menu Modèles puis Trims."
 
-#: ../../source/ch_model.rst:572
+#: ../../source/ch_model.rst:522
 msgid ""
 "If the ‘Input’ field is set to an input stick, then the trim can be applied "
 "as part of the mixer, and will operate as a typical trim control.  If the "
@@ -1106,7 +1106,7 @@ msgstr ""
 "et ‘Trim -’ choisis peuvent fonctionner comme un manche virtuel pour "
 "contrôler canal de sortie."
 
-#: ../../source/ch_model.rst:587
+#: ../../source/ch_model.rst:535
 msgid ""
 "The trim-step defines how sensitive the trims are to input.  The maximum "
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
@@ -1116,7 +1116,7 @@ msgstr ""
 "maximum de pas d'un step est */- 100. Donc une valeur de pas de 0.1 "
 "permettra un ajustement maximum de +/- 10% sur le débattement du servo. "
 
-#: ../../source/ch_model.rst:589
+#: ../../source/ch_model.rst:537
 msgid ""
 "The trim-step can be changed on the main screen. If you have to change the "
 "source also please use the dialog accessed by pressing the respective "
@@ -1130,16 +1130,16 @@ msgstr ""
 "interrupteur au Trim. Si c'est le cas, le trim aura des valeurs différentes "
 "selon les positions de l'interrupteur."
 
-#: ../../source/ch_model.rst:594
+#: ../../source/ch_model.rst:542
 msgid "Datalog (Std & Adv GUI)"
 msgstr "Datalog [Journal de données]  (Réglages Standard et Expert)"
 
-#: ../../source/ch_model.rst:598 ../../source/ch_model.rst:667
-#: ../../source/ch_model.rst:691
+#: ../../source/ch_model.rst:546 ../../source/ch_model.rst:612
+#: ../../source/ch_model.rst:632
 msgid "Note: This feature is not available for Devo7e."
 msgstr "Note : Cette fonction n'est pas disponible pour le Devo 7e."
 
-#: ../../source/ch_model.rst:601
+#: ../../source/ch_model.rst:549
 msgid ""
 "The Datalog feature allows storing a history of input or output positions as"
 " well as telemetry info over a period of time. This can be used to examine "
@@ -1154,7 +1154,7 @@ msgstr ""
 "Deviation continuera les enregistrements à la suite du précédent journal par"
 " défaut."
 
-#: ../../source/ch_model.rst:610
+#: ../../source/ch_model.rst:556
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
@@ -1162,27 +1162,27 @@ msgstr ""
 "**# bytes left**  [# bytes restant] Indique le nombre de bytes qui peuvent "
 "être écrits avant que le journal soit plein."
 
-#: ../../source/ch_model.rst:611
+#: ../../source/ch_model.rst:557
 msgid "**Enable**: Input which enables logging."
 msgstr "**Enable**  [Activer] : L'entrée qui active l'enregistrement."
 
-#: ../../source/ch_model.rst:612
+#: ../../source/ch_model.rst:558
 msgid "**Reset**: Clear the current log."
 msgstr "**RàZ**: Réinitialise le journal en cours."
 
-#: ../../source/ch_model.rst:613
+#: ../../source/ch_model.rst:559
 msgid "**Rate**: How often to write current info to the log file."
 msgstr ""
 "**Sample Rate** [Vitesse d'échantillonnage] : durée séparant les "
 "enregistrements des informations en cours dans le journal."
 
-#: ../../source/ch_model.rst:614
+#: ../../source/ch_model.rst:560
 msgid "**Select**: Quickly set or reset which items are logged."
 msgstr ""
 "**Select**: [Sélectionner] Active ou annule rapidement quels éléments sont "
 "enregistrés."
 
-#: ../../source/ch_model.rst:615
+#: ../../source/ch_model.rst:561
 msgid ""
 "**Controls**: Following 'Select' are a list of all controls which may be "
 "logged. They include timers, inputs, outputs, and virtual channels, and "
@@ -1193,7 +1193,7 @@ msgstr ""
 "canaux virtuels et la télémétrie. Plus il y aura de données enregistrées, "
 "plus vite le journal sera plein."
 
-#: ../../source/ch_model.rst:617
+#: ../../source/ch_model.rst:563
 msgid ""
 "**Logging more information** By default, the log can only store 16kB of "
 "data. You can increase the amount of data to be stored by changing the "
@@ -1207,7 +1207,7 @@ msgstr ""
 "supérieure. Deviation ne peut augmenter la taille de ce fichier, donc sa "
 "taille indique le nombre maximum de données qui peuvent être enregistrées."
 
-#: ../../source/ch_model.rst:620
+#: ../../source/ch_model.rst:566
 msgid ""
 "**Note: This is a feature for advanced users only**. There is currently no "
 "software provided to analyze the logs, and they cannot be visualized from "
@@ -1219,11 +1219,11 @@ msgstr ""
 "peuvent pas être visualisés à partir de l'émetteur. Vérifiez SVP sur la "
 "partie Downloads de www.deviationtx.com pour des outils de conversion."
 
-#: ../../source/ch_model.rst:625
+#: ../../source/ch_model.rst:571
 msgid "Main page config (Std & Adv GUI)"
 msgstr "Configuration de l'écran d'accueil   (Réglages Standard et Expert)"
 
-#: ../../source/ch_model.rst:640
+#: ../../source/ch_model.rst:585
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
@@ -1232,11 +1232,11 @@ msgstr ""
 "de l'écran d'accueil. Cette page permet de définir quelles éléments sont "
 "affichés sur l'écran d'accueil."
 
-#: ../../source/ch_model.rst:643
+#: ../../source/ch_model.rst:588
 msgid "The following types of objects can be displayed:"
 msgstr "Les types d'objets suivants peuvent être affichés :"
 
-#: ../../source/ch_model.rst:646
+#: ../../source/ch_model.rst:591
 msgid ""
 "**Box**: Display a numeric value.  Values can be timers, channel values, "
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
@@ -1247,7 +1247,7 @@ msgstr ""
 "boites : grande et petite . La seule différence est la taille de la boite et"
 " le du texte."
 
-#: ../../source/ch_model.rst:647
+#: ../../source/ch_model.rst:592
 msgid ""
 "**Trimbar**: Display a trim value.  These generally are controlled by the "
 "trim switch and indicate what the current trim position is.  There are two "
@@ -1260,19 +1260,19 @@ msgstr ""
 " les H-trims qui affichent une barre horizontale. Aprés avoir été insérés "
 "les trims ne portent qu'un numéro."
 
-#: ../../source/ch_model.rst:648
+#: ../../source/ch_model.rst:593
 msgid "**Model (Icon)**: Display the icon related to the selected model."
 msgstr "**Modèle (Icône)** : affiche l'icône correspondant au modèle choisi."
 
-#: ../../source/ch_model.rst:649
+#: ../../source/ch_model.rst:594
 msgid "**Battery**: Display the battery voltage."
 msgstr "**Batterie** : Affiche le voltage de la batterie."
 
-#: ../../source/ch_model.rst:650
+#: ../../source/ch_model.rst:595
 msgid "**TxPower**: Displays the actual transmitter rating."
 msgstr "**Puiss TX* : Affiche la puissance réelle de l'émetteur."
 
-#: ../../source/ch_model.rst:651
+#: ../../source/ch_model.rst:596
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
@@ -1280,7 +1280,7 @@ msgstr ""
 "**Barre graphique** [Bargraph] : Affiche une barre verticale. La valeur de "
 "la barre est une sortie de Canal."
 
-#: ../../source/ch_model.rst:653
+#: ../../source/ch_model.rst:598
 msgid ""
 "**Toggle**: Show an icon indicating the state of a toggle switch.  There can"
 " be 1, 2, or 3 icons defined for a given toggle indicating different states "
@@ -1293,7 +1293,7 @@ msgstr ""
 "l'interrupteur. Les interrupteurs à deux positions peuvent avoir jusqu'à 2 "
 "icônes et les interrupteurs à trois positions 3 icônes."
 
-#: ../../source/ch_model.rst:654
+#: ../../source/ch_model.rst:599
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
@@ -1301,11 +1301,11 @@ msgstr ""
 "**Menus (Rapides)**: Les menus rapides sont des pages à accès rapide qui "
 "peuvent être affichées par une pression longue sur les boutons UP/DN."
 
-#: ../../source/ch_model.rst:659
+#: ../../source/ch_model.rst:604
 msgid "Configuring object position"
 msgstr "Modifier la position des objets."
 
-#: ../../source/ch_model.rst:662
+#: ../../source/ch_model.rst:607
 msgid ""
 "Each of the visual objects can be selected by pressing on them, or with the "
 "UP/DN buttons followed by ENT.  Once selected, the UP/DN/L/R buttons will "
@@ -1319,7 +1319,7 @@ msgstr ""
 " peuvent être utilisées pour déplacer un objet sélectionné. Appuyez une fois"
 " sur EXT pour sortir du mode de déplacement."
 
-#: ../../source/ch_model.rst:674
+#: ../../source/ch_model.rst:617
 msgid ""
 "Pressing and holding the ENT button from the model configuration page will "
 "switch to the object position screen.  Each of the visual objects can be "
@@ -1336,11 +1336,11 @@ msgstr ""
 "sortir du mode de déplacement et revenir à la page principale du menu de "
 "configuration."
 
-#: ../../source/ch_model.rst:678
+#: ../../source/ch_model.rst:621
 msgid "Creating Objects"
 msgstr "Créer des objets"
 
-#: ../../source/ch_model.rst:686
+#: ../../source/ch_model.rst:627
 msgid ""
 "Select the '+' icon to open the add-item dialog.  Then select the object "
 "type from the spin-box on the left, then press ‘Add’ to create the object.  "
@@ -1353,7 +1353,7 @@ msgstr ""
 "désigné au centre de l'écran. Vous pouvez maintenant placer et configurer le"
 " nouvel objet."
 
-#: ../../source/ch_model.rst:693
+#: ../../source/ch_model.rst:634
 msgid ""
 "Select the object type from the spin-box on the left, then press ‘**Add**’ "
 "to create the object.  This will add the relevant object type to the "
@@ -1366,11 +1366,11 @@ msgstr ""
 " lieu). Déplacez le curseur sur l'objet créé et configurez le comme vous le "
 "voulez."
 
-#: ../../source/ch_model.rst:697
+#: ../../source/ch_model.rst:638
 msgid "Loading Objects"
 msgstr "Charger des objets"
 
-#: ../../source/ch_model.rst:706
+#: ../../source/ch_model.rst:645
 msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
 "alternate templates, to change the main page layout."
@@ -1379,13 +1379,13 @@ msgstr ""
 "'Charger' d'autres modèles, pour changer la présentation de la page "
 "principale."
 
-#: ../../source/ch_model.rst:708
+#: ../../source/ch_model.rst:647
 msgid "You can 'Load' alternate templates, to change the main page layout."
 msgstr ""
 "Vous pouvez 'Charger' d'autres modèles pour changer la présentation de la "
 "page principale."
 
-#: ../../source/ch_model.rst:710
+#: ../../source/ch_model.rst:649
 msgid ""
 "If you select 'Default' the layout will be set to the standard layout as "
 "shown in section :ref:`main-page`."
@@ -1393,13 +1393,13 @@ msgstr ""
 "Si vous choisissez 'Default' [Défaut] La mise en page sera la présentation "
 "standard comme montrée dans le paragraphe :ref:`Page principale`."
 
-#: ../../source/ch_model.rst:712
+#: ../../source/ch_model.rst:651
 msgid "Selecting 'Empty' will clear all objects. You may start from scratch."
 msgstr ""
 "Choisir  'Empty' [Vide] effacera tous les objets. Vous pouvez débuter à "
 "partir de zéro."
 
-#: ../../source/ch_model.rst:714
+#: ../../source/ch_model.rst:653
 msgid ""
 "If you want to use a layout from another model select the model whose layout"
 " you wish to use. The object positions (see :ref:`configuring-object-"
@@ -1413,7 +1413,7 @@ msgstr ""
 "modèles de présentation basés sur des modèles rc existants sont suivis de "
 "(M) dans la liste."
 
-#: ../../source/ch_model.rst:716
+#: ../../source/ch_model.rst:655
 msgid ""
 "Additionally these templates can be created in the emulator or downloaded "
 "from the forums or even done by manual edit of the modelxx.ini file."
@@ -1421,41 +1421,41 @@ msgstr ""
 "De plus, ces gabarits peuvent être créés dans l'émulateur ou téléchargés à "
 "partir des forums ou même créés par édition manuelle du fichier modelxx.ini."
 
-#: ../../source/ch_model.rst:719
+#: ../../source/ch_model.rst:658
 msgid "Configuring Objects"
 msgstr "Configurer les objets"
 
-#: ../../source/ch_model.rst:721
+#: ../../source/ch_model.rst:660
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
 msgstr ""
 "**Box** [Boite]: Sélectionne chrono, télémétrie, canal ou entrée à partir de"
 " la boite à défilement."
 
-#: ../../source/ch_model.rst:722
+#: ../../source/ch_model.rst:661
 msgid "**Trim**: Select trim channel from scroll-box"
 msgstr ""
 "**Trim**: Sélectionne  un trim de canal  from scroll-box  à partir de la "
 "boite à défilement."
 
-#: ../../source/ch_model.rst:723
+#: ../../source/ch_model.rst:662
 msgid "**Model**: Not configurable"
 msgstr "**Modèle** [Model] : Non configurable"
 
-#: ../../source/ch_model.rst:724
+#: ../../source/ch_model.rst:663
 msgid "**Battery**: Not configurable"
 msgstr " **Batterie** : Non configurable"
 
-#: ../../source/ch_model.rst:725
+#: ../../source/ch_model.rst:664
 msgid "**TxPower**: Not configurable"
 msgstr "**Puiss TX* : Non configurable"
 
-#: ../../source/ch_model.rst:726
+#: ../../source/ch_model.rst:665
 msgid "**Bargraph**: Select channel from scroll box"
 msgstr ""
 "**Bargraph** [Barre graphique] : Sélectionner un canal dans la boite à "
 "défilement."
 
-#: ../../source/ch_model.rst:727
+#: ../../source/ch_model.rst:666
 msgid ""
 "**Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’"
 " button to choose icon"
@@ -1464,13 +1464,13 @@ msgstr ""
 "boite à défilement. Presser le bouton basculant en rapport pour choisir "
 "l'icône."
 
-#: ../../source/ch_model.rst:728
+#: ../../source/ch_model.rst:667
 msgid "**Menu**: Choose page to display for each of 4 quick-page slots"
 msgstr ""
 "**Menu**: Choisir la page à afficher pour chacun des 4 emplacements de page "
 "à affichage rapide."
 
-#: ../../source/ch_model.rst:734
+#: ../../source/ch_model.rst:674
 msgid ""
 "You can delete any object by configuring the object and pressing the "
 "‘Delete’ button"
@@ -1478,7 +1478,7 @@ msgstr ""
 "Vous pouvez effacer un objet en le configurant et en appuyant sur le bouton "
 "'Delete' [Effacer] ."
 
-#: ../../source/ch_model.rst:736
+#: ../../source/ch_model.rst:676
 msgid ""
 "You can delete any object but a Menu page by selecting the  ‘Delete’ option "
 "and pressing the 'ENT' button."
@@ -1486,11 +1486,11 @@ msgstr ""
 "Vous pouvez effacer n'importe quel objet sauf un menu  en choisissant  le "
 "bouton 'Delete' [Effacer] et pressant le bouton 'ENT'."
 
-#: ../../source/ch_model.rst:741
+#: ../../source/ch_model.rst:681
 msgid "Choosing toggle icons"
 msgstr "Choisir un icône basculant."
 
-#: ../../source/ch_model.rst:748
+#: ../../source/ch_model.rst:686
 msgid ""
 "Pressing the ‘Toggle’ button on a toggle object allows selecting the related"
 " icons. Channels, sticks, and 2-position sticks can have 2 icons.  3 "
@@ -1505,11 +1505,11 @@ msgstr ""
 "vides, marquant qu'aucun icône n'est affiché pour cet état. Le micrologiciel"
 " Deviation fournit plusieurs icônes prédéfinis qui peuvent être choisis."
 
-#: ../../source/ch_model.rst:753
+#: ../../source/ch_model.rst:691
 msgid "Standard GUI Menu items"
 msgstr "Options du Menu de réglage standard"
 
-#: ../../source/ch_model.rst:762
+#: ../../source/ch_model.rst:698
 msgid ""
 "The Standard GUI is an alternative interface from the Advanced GUI’.  Which "
 "interface is used is chosen by the ‘Mixer GUI’ setting in section :ref"
@@ -1522,135 +1522,135 @@ msgstr ""
 " modèles d'hélicoptères pour l'instant. Les pages du mode de réglage "
 "standard sont les suivantes : "
 
-#: ../../source/ch_model.rst:770
+#: ../../source/ch_model.rst:705
 msgid "**Model Configuration**: :ref:`model-setup`"
 msgstr "**Config modèle**: :ref:`Config Modèle`"
 
-#: ../../source/ch_model.rst:773
+#: ../../source/ch_model.rst:707
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
 msgstr "**configuration des trims** :ref:`trims et entrées virtuelles`"
 
-#: ../../source/ch_model.rst:776
+#: ../../source/ch_model.rst:709
 msgid "**Servo reverse**: :ref:`servo-reverse`"
 msgstr "**Sens de servo**: :ref:`Sens de servo`"
 
-#: ../../source/ch_model.rst:779
+#: ../../source/ch_model.rst:711
 msgid "**Switch assignment**: :ref:`switch-assignment`"
 msgstr ""
 "**Affectation des interrupteurs** : :ref:`Affectation des interrupteurs`"
 
-#: ../../source/ch_model.rst:782
+#: ../../source/ch_model.rst:713
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
 msgstr "**Sub-trim de servo**: :ref:`Ajustement des sub-trims`"
 
-#: ../../source/ch_model.rst:785
+#: ../../source/ch_model.rst:715
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
 msgstr "**configuration de la coupure gaz**: :ref:`Coupure gaz`"
 
-#: ../../source/ch_model.rst:788
+#: ../../source/ch_model.rst:717
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
 msgstr "**Débattement de servo**: :ref:`Débattement de servo`"
 
-#: ../../source/ch_model.rst:791
+#: ../../source/ch_model.rst:719
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
 msgstr "**Configuration des sécurités**: :ref:`Configuration des sécurités`"
 
-#: ../../source/ch_model.rst:794
+#: ../../source/ch_model.rst:721
 msgid "**Swash Setup**: :ref:`swash-configuration`"
 msgstr ""
 "**Paramétrage du plateau cyclique**: :ref:`Configuration du plateau "
 "cyclique'"
 
-#: ../../source/ch_model.rst:797
+#: ../../source/ch_model.rst:723
 msgid "**Timer configuration**: :ref:`timers`"
 msgstr "**Configuration des chronos**: :ref:`Chronos`"
 
-#: ../../source/ch_model.rst:800
+#: ../../source/ch_model.rst:725
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
 msgstr ""
 "**Paramétrage des doubles débattements**: :ref:`Configuration des doubles "
 "débattements et Expo'"
 
-#: ../../source/ch_model.rst:803
+#: ../../source/ch_model.rst:727
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
 msgstr "**Configuration de la télémétrie**: :ref:`Config Télémétrie`"
 
-#: ../../source/ch_model.rst:806
+#: ../../source/ch_model.rst:729
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
 msgstr "**Configuration de la courbe des gaz**: :ref:`Courbe de gaz'"
 
-#: ../../source/ch_model.rst:809
+#: ../../source/ch_model.rst:731
 msgid "**Datalog configuration**: :ref:`datalog`"
 msgstr "**Configuration du Datalog **: :ref:`datalog`"
 
-#: ../../source/ch_model.rst:812
+#: ../../source/ch_model.rst:733
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
 msgstr "**Configuration de la courbes de pas**: :ref:`Courbe de pas'"
 
-#: ../../source/ch_model.rst:815
+#: ../../source/ch_model.rst:735
 msgid "**Main page configuration**: :ref:`main-page-config`"
 msgstr "**Configuration de l'écran d'accueil **: :ref: 'Conf écran d'accueil'"
 
-#: ../../source/ch_model.rst:818
+#: ../../source/ch_model.rst:737
 msgid "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
 msgstr "**Configuration du gain gyro**: :ref:`Gain gyro'"
 
-#: ../../source/ch_model.rst:824
+#: ../../source/ch_model.rst:743
 msgid ""
 "**Model setup**: Model configuration page (See section  :ref:`model-setup`)"
 msgstr ""
 "**Config Modèle **: Configuration du modèle(voir section :ref:`Config "
 "modèle`)"
 
-#: ../../source/ch_model.rst:825
+#: ../../source/ch_model.rst:744
 msgid "**Reverse**: Servo reverse"
 msgstr "**Sens**: Sens de servo"
 
-#: ../../source/ch_model.rst:826
+#: ../../source/ch_model.rst:745
 msgid "**D/R & Exp**: Dual-rates setup"
 msgstr "**D/R & Exp**: Programmation des doubles débattements."
 
-#: ../../source/ch_model.rst:827
+#: ../../source/ch_model.rst:746
 msgid "**Subtrim**: Servo sub-trim"
 msgstr "**Sub-trim**:  Sub-trim de servo"
 
-#: ../../source/ch_model.rst:828
+#: ../../source/ch_model.rst:747
 msgid "**Travel adjust**: Servo travel-adjust"
 msgstr "**Course des servos**: Ajustement de la course des servos."
 
-#: ../../source/ch_model.rst:829
+#: ../../source/ch_model.rst:748
 msgid "**Throttle curves**: Throttle curve setup"
 msgstr "**Courbes de gaz**: Programmation des courbes de gaz"
 
-#: ../../source/ch_model.rst:830
+#: ../../source/ch_model.rst:749
 msgid "**Pitch curves**: Pitch curve setup"
 msgstr "**Courbes de pas**: Programmation des courbes de pas"
 
-#: ../../source/ch_model.rst:831
+#: ../../source/ch_model.rst:750
 msgid "**Throttle hold**: Throttle-hold configuration"
 msgstr "**Coupure gaz**: Configuration de la coupure gaz"
 
-#: ../../source/ch_model.rst:832
+#: ../../source/ch_model.rst:751
 msgid "**Gyro sense**: Gyro-sense configuration"
 msgstr "**Gain gyro**: Fixation du gain du gyroscope."
 
-#: ../../source/ch_model.rst:833
+#: ../../source/ch_model.rst:752
 msgid "**Swash**: Swash Setup"
 msgstr "**Plateau cycl.**: Configuration du plateau cyclique."
 
-#: ../../source/ch_model.rst:834
+#: ../../source/ch_model.rst:753
 msgid "**Fail safe**: Fail-Safe configuration"
 msgstr "**Sécurités**: Configuration des sécurités"
 
-#: ../../source/ch_model.rst:835
+#: ../../source/ch_model.rst:754
 msgid "**Switch assignment**: Assign switch controls"
 msgstr "**Affect. inters** : Affectation des interrupteurs"
 
-#: ../../source/ch_model.rst:836
+#: ../../source/ch_model.rst:755
 msgid "**Timers**: Timer configuration (See section :ref:`timers`)"
 msgstr "**Chronos**:Configuraton des chronos  (voir section :ref:`Chronos`)"
 
-#: ../../source/ch_model.rst:837
+#: ../../source/ch_model.rst:756
 msgid ""
 "**Telemetry config**: Configure telemetry alarms (See section :ref"
 ":`telemetry-config`)"
@@ -1658,13 +1658,13 @@ msgstr ""
 "**Config. télémétrie**: Paramétrage des alarmes de télémétrie (Voir section "
 ":ref:`Configuration de la télémétrie`)"
 
-#: ../../source/ch_model.rst:838
+#: ../../source/ch_model.rst:757
 msgid "**Datalog**: Configure telemetry logging (See section :ref:`datalog`)"
 msgstr ""
 "**Datalog**  [Journal de données] : Configure l'engegistrement de la "
 "télémétrie  (Voir section :ref:`datalog`)"
 
-#: ../../source/ch_model.rst:839
+#: ../../source/ch_model.rst:758
 msgid ""
 "**Main page config**: Configure main page display (See section :ref:`main-"
 "page-config`)"
@@ -1672,11 +1672,11 @@ msgstr ""
 "**Conf. écran accueil **:  Configure l'affichage de la page d'accueil (Voir "
 "ref: 'Conf écran d'accueil')"
 
-#: ../../source/ch_model.rst:845
+#: ../../source/ch_model.rst:764
 msgid "Servo Reverse"
 msgstr "Sens de servo"
 
-#: ../../source/ch_model.rst:852
+#: ../../source/ch_model.rst:769
 msgid ""
 "The servo reverse page allows quickly setting each channel to work in either"
 " normal or reversed mode.  These settings are equivalent to the ‘Reverse’ "
@@ -1688,11 +1688,11 @@ msgstr ""
 " sous-page de configuration de canal du menu Mixer dans le mode de réglage "
 "expert. (Voir section :ref:'Configuration des canaux`)"
 
-#: ../../source/ch_model.rst:857
+#: ../../source/ch_model.rst:774
 msgid "Dual-Rate/Expo setting"
 msgstr "Programmation des doubles débattements"
 
-#: ../../source/ch_model.rst:864
+#: ../../source/ch_model.rst:779
 msgid ""
 "The dual-rate and expo page allows configuration of curves for the Aileron, "
 "Rudder, and Elevator channels.  Up-to 3 rates can be configured for each "
@@ -1707,11 +1707,11 @@ msgstr ""
 "assigné aux fonctions de double débattement dans la page d'affectation des "
 "interrupteurs (see :ref:`affectation des interrupteurs`)"
 
-#: ../../source/ch_model.rst:869
+#: ../../source/ch_model.rst:784
 msgid "Sub-trim Adjustment"
 msgstr "Réglage de sub-trim"
 
-#: ../../source/ch_model.rst:876
+#: ../../source/ch_model.rst:789
 msgid ""
 "The sub-trim adjust page allows setting the zero-point of the servos for "
 "each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel "
@@ -1725,11 +1725,11 @@ msgstr ""
 "section :ref:'Configuration des canaux`). Les valeurs admissibles vont de "
 "-50 à +50 par pas de 0.1."
 
-#: ../../source/ch_model.rst:881
+#: ../../source/ch_model.rst:794
 msgid "Servo Travel Adjust"
 msgstr "Réglage de la course de servo"
 
-#: ../../source/ch_model.rst:888
+#: ../../source/ch_model.rst:799
 msgid ""
 "The servo-travel adjust page configures the maximum positive/negative travel"
 " of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on"
@@ -1746,11 +1746,11 @@ msgstr ""
 "haut de 1 à 175. Les valeurs par défaut sont respectivement de -100 et +100 "
 "."
 
-#: ../../source/ch_model.rst:893
+#: ../../source/ch_model.rst:804
 msgid "Swash Configuration"
 msgstr "Configuration du plateau cyclique"
 
-#: ../../source/ch_model.rst:895
+#: ../../source/ch_model.rst:806
 msgid ""
 "The Swash configuration page configures the swash type.  More information "
 "about swash-types can be found in section :ref:`swash-mixing`.  The settings"
@@ -1764,33 +1764,33 @@ msgstr ""
 ":ref:`Config modèle`),  et les configurations pour les deux pages sont "
 "fournies ci dessous."
 
-#: ../../source/ch_model.rst:902
+#: ../../source/ch_model.rst:815
 msgid "The available SwashType values are:"
 msgstr "Les types de plateaux cycliques disponibles sont :"
 
-#: ../../source/ch_model.rst:904
+#: ../../source/ch_model.rst:817
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
 msgstr ""
 "**Néant/1Servo** : Utilisé pour les modèles sans barre de Bell -  flybarless"
 " - Le mixage a lieu dans le récepteur."
 
-#: ../../source/ch_model.rst:905
+#: ../../source/ch_model.rst:818
 msgid "**120/3Servo 120**: 120-degree swash"
 msgstr "**120/3Servo 120**: Plateau à 120 degrés"
 
-#: ../../source/ch_model.rst:906
+#: ../../source/ch_model.rst:819
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
 msgstr "**120x/3Servo 120x**: Plateau à 120 degrés (configuration inversée)"
 
-#: ../../source/ch_model.rst:907
+#: ../../source/ch_model.rst:820
 msgid "**140/3Servo 140**: 140 degree swash"
 msgstr "**140/3Servo 140**: Plateau à 140 degrés"
 
-#: ../../source/ch_model.rst:908
+#: ../../source/ch_model.rst:821
 msgid "**90/3Servo 90**: 90 degrees swash"
 msgstr "**90/3Servo 90**: Plateau à 90 degrés"
 
-#: ../../source/ch_model.rst:910
+#: ../../source/ch_model.rst:823
 msgid ""
 "The ELE Mix, AIL Mix, and PIT Mix are scaling factors applied to the input "
 "sticks before mixing is done.  These can be used to adjust for different "
@@ -1806,11 +1806,11 @@ msgstr ""
 "grande course de servo et rendre le faire mal réagir le modèle au contrôle "
 "des manches."
 
-#: ../../source/ch_model.rst:916
+#: ../../source/ch_model.rst:829
 msgid "Throttle Curve"
 msgstr "Courbe de gaz"
 
-#: ../../source/ch_model.rst:923
+#: ../../source/ch_model.rst:834
 msgid ""
 "The throttle curve page allows defining a piece-wise linear curve for the "
 "throttle channel.  Different curves can be selected for each flight-mode.  "
@@ -1822,11 +1822,11 @@ msgstr ""
 "chaque mode de vol. la valeur de chaque point peut être définie par "
 "interpolation des points proches de lui."
 
-#: ../../source/ch_model.rst:928
+#: ../../source/ch_model.rst:839
 msgid "Pitch Curve"
 msgstr "Courbe de pas"
 
-#: ../../source/ch_model.rst:935
+#: ../../source/ch_model.rst:844
 msgid ""
 "The pitch curve allows defining a piece-wise linear curve for the "
 "collective/pitch channel.  Different curves can be selected for each flight-"
@@ -1838,11 +1838,11 @@ msgstr ""
 "définies pour chaque mode de vol ou en coupure de gaz. La valeur de chaque "
 "point peut être définie par interpolation des points proches de lui."
 
-#: ../../source/ch_model.rst:940
+#: ../../source/ch_model.rst:849
 msgid "Gyro Sensitivity"
 msgstr "Gain gyro"
 
-#: ../../source/ch_model.rst:947
+#: ../../source/ch_model.rst:854
 msgid ""
 "The gyro-sensitivity page enables configuring up-to 3 sensitivity values for"
 " the gyro as well as which channel to use for sending the gyro value. "
@@ -1852,11 +1852,11 @@ msgstr ""
 "gyro ainsi que de définir le canal à utiliser pour envoyer les informations "
 "au gyro. Les valeurs admissibles vont de 0 0 100%."
 
-#: ../../source/ch_model.rst:952
+#: ../../source/ch_model.rst:859
 msgid "Switch Assignment"
 msgstr "Affectation des interrupteurs"
 
-#: ../../source/ch_model.rst:959
+#: ../../source/ch_model.rst:864
 msgid ""
 "The switch assignment page enables configuring which switches to use for "
 "each capability in the standard-GUI.  The same switch may be assigned to "
@@ -1866,11 +1866,11 @@ msgstr ""
 "interrupteurs sont utilisés pour chaque possibilité dans le mode de réglage "
 "standard. Le même interrupteur peut être affecté à plusieurs possibilités."
 
-#: ../../source/ch_model.rst:964
+#: ../../source/ch_model.rst:869
 msgid "Throttle Hold"
 msgstr "Coupure gaz"
 
-#: ../../source/ch_model.rst:971
+#: ../../source/ch_model.rst:874
 msgid ""
 "The throttle-hold page is used to enable/disable the throttle-hold "
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
@@ -1881,11 +1881,11 @@ msgstr ""
 "l'interrupteur de Coupure gaz est activé. Cette valeur peut être fixée entre"
 " -200 et 200 ."
 
-#: ../../source/ch_model.rst:976
+#: ../../source/ch_model.rst:879
 msgid "Fail-Safe Configuration"
 msgstr "Configuration des sécurités"
 
-#: ../../source/ch_model.rst:983
+#: ../../source/ch_model.rst:884
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"

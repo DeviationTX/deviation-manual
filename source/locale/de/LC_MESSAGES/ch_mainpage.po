@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-15 21:07+0000\n"
+"POT-Creation-Date: 2017-05-16 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -26,7 +26,7 @@ msgstr "Hauptseite"
 msgid "The standard main page layout is as follows:"
 msgstr "Das Standardlayout der Hauptseite sieht wie folgt aus:"
 
-#: ../../source/ch_mainpage.rst:13
+#: ../../source/ch_mainpage.rst:14
 msgid ""
 "**Current Model**: The name of the current model. Clicking the label will "
 "open up the Model Load page.  The model is configured from section :ref"
@@ -36,7 +36,7 @@ msgstr ""
 "öffnet den 'Modell laden' Dialog [Model load]. Wird in Abschnitt :ref"
 ":`model-setup` konfiguriert."
 
-#: ../../source/ch_mainpage.rst:15
+#: ../../source/ch_mainpage.rst:16
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
@@ -44,7 +44,7 @@ msgstr ""
 "**Batteriespannung**: Zahlenmäßige Darstellung des aktuellen Batteriestatus "
 "des Senders."
 
-#: ../../source/ch_mainpage.rst:17
+#: ../../source/ch_mainpage.rst:18
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
@@ -52,7 +52,7 @@ msgstr ""
 "**Sendeleistung**: Anzeige der derzeit gewählten Sendeleistung. Wird in "
 "Abschnitt :ref:`model-setup` konfiguriert."
 
-#: ../../source/ch_mainpage.rst:19
+#: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
@@ -60,7 +60,7 @@ msgstr ""
 "**Uhrzeit**: Zeigt die aktuelle Uhrzeit (nur bei Devo12 Sendern). Die Zeit "
 "wird in :ref:`transmitter-config` eingestellt."
 
-#: ../../source/ch_mainpage.rst:21
+#: ../../source/ch_mainpage.rst:22
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
@@ -70,7 +70,7 @@ msgstr ""
 "Abschnitt :ref:`model-setup` konfiguriert. Drücken des Symbols führt Sie zu "
 "dieser Seite."
 
-#: ../../source/ch_mainpage.rst:24
+#: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
@@ -78,7 +78,7 @@ msgstr ""
 "**Modellbild**: Ein Bild, welches das aktuelle Modell darstellt. Wird in "
 "Abschnitt :ref:`model-setup` konfiguriert."
 
-#: ../../source/ch_mainpage.rst:26
+#: ../../source/ch_mainpage.rst:27
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
@@ -86,7 +86,7 @@ msgstr ""
 "**Trimmung**: Die Anzeige der Trimmung kann für bis zu 10 verschiedene "
 "horizontale und vertikale Trimmungen konfiguriert werden."
 
-#: ../../source/ch_mainpage.rst:28
+#: ../../source/ch_mainpage.rst:29
 msgid ""
 "**Displays**: These items can be text-boxes containing input, channel, "
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
@@ -97,7 +97,7 @@ msgstr ""
 "Kanaldaten, oder Icons / Schalter zur Anzeige bestimmter Zustände (z.B. "
 "Fahrwerk, Klappen...) sein."
 
-#: ../../source/ch_mainpage.rst:30
+#: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
@@ -106,11 +106,11 @@ msgstr ""
 "erreicht werden. Sie können in Abschnitt :ref:`main-page-config` "
 "eingerichtet werden."
 
-#: ../../source/ch_mainpage.rst:35
+#: ../../source/ch_mainpage.rst:36
 msgid "Safety System"
 msgstr "Sicherheitssystem"
 
-#: ../../source/ch_mainpage.rst:42
+#: ../../source/ch_mainpage.rst:41
 msgid ""
 "Deviation has a safety system to prevent starting up in a dangerous state "
 "(for instance spinning up the main rotor of a helicopter accidentally). The "
@@ -129,7 +129,7 @@ msgstr ""
 "Deviation hat ein Sicherheitssystem um das Starten in einem gefährlichen Zustand zu verhindern (z.B. das versehentliche Hochlaufen eines\n"
 "Helikopterrotors). Das Sicherheitssystem prüft ob bestimmte Bedingungen erfüllt sind, bevor die Übertragung zum Modell beginnt. Standardmäßig muss der Ausgabekanal welcher mit dem Gasknüppel verbunden ist auf Minimum stehen. Die Deviation Firmware beinhaltet keinen Mechanismus um neue Sicherheitsbedingungen zu definieren, solche können aber durch direktes Editieren der model.ini Datei ergänzt werden. Solange der Sicherheitshinweis angezeigt wird kommuniziert der Sender nicht mit dem Modell. Dieser Hinweis kann entweder beim Einschalten, oder beim Wechsel zu einem anderen Modell erscheinen. Der Hinweis verschwindet, sobald alle Sicherheitsbedingungen erfüllt sind, oder durch Drücken der „ENT“ Taste. In jedem Fall beginnt die Kommunikation mit dem Modell, sobald der Dialog verschwindet."
 
-#: ../../source/ch_mainpage.rst:45
+#: ../../source/ch_mainpage.rst:44
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
@@ -137,7 +137,7 @@ msgstr ""
 "Die Sicherheitswerte befinden sich in der Sektion '[safety]' und sehen "
 "standardmäßig wie folgt aus::"
 
-#: ../../source/ch_mainpage.rst:51
+#: ../../source/ch_mainpage.rst:50
 msgid ""
 "The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
 "'Auto' tries to guess your throttle channel number. If that isn't working, "

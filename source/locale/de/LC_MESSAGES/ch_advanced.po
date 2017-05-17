@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-15 21:07+0000\n"
+"POT-Creation-Date: 2017-05-16 21:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: TheRealMoeder <canofspam@web.de>, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -82,7 +82,7 @@ msgstr ""
 "[Channel] zeigt die 'Lehrer/Sch.' [Trainer Cfg] Seiten. Die beiden Modi "
 "verhalten sich leicht unterschiedlich:"
 
-#: ../../source/ch_advanced.rst:23
+#: ../../source/ch_advanced.rst:21
 msgid ""
 "**Stick**: In stick mode, each input channel is mapped to a stick on the "
 "master transmitter.  In this mode, the student moving the stick will behave "
@@ -97,7 +97,7 @@ msgstr ""
 "Knüppelposition direkt (ohne Mischer) weiterleiten und der Lehrersender wird"
 " das notwendige Mischen übernehmen."
 
-#: ../../source/ch_advanced.rst:30
+#: ../../source/ch_advanced.rst:26
 msgid ""
 "**Channel**: In channel mode, each input channel is mapped to an output "
 "channel on the instructor’s transmitter.  In this mode, the student’s "
@@ -113,11 +113,11 @@ msgstr ""
 " andernfalls könnte das Modell nicht richtig reagieren wenn zwischen Lehrer "
 "und Schüler-Kontrolle umgeschaltet wird."
 
-#: ../../source/ch_advanced.rst:32
+#: ../../source/ch_advanced.rst:28
 msgid "Options configurable on both Trainer Cfg pages:"
 msgstr "Konfigurierbare Optionen auf beiden Lehrer/Sch. [Trainer Cfg] Seiten:"
 
-#: ../../source/ch_advanced.rst:34
+#: ../../source/ch_advanced.rst:30
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the student’s "
 "transmitter transmits to represent centered servo position.  If this number "
@@ -127,7 +127,7 @@ msgstr ""
 "Schülersender überträgt um die Servomitte abzubilden. Falls dieser Wert "
 "nicht zum Schülersender passt, werden die Servos nicht zentriert."
 
-#: ../../source/ch_advanced.rst:36
+#: ../../source/ch_advanced.rst:32
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the student’s transmitter to define max servo throw.  If this value is "
@@ -138,7 +138,7 @@ msgstr ""
 "Falls dieser Wert nicht korrekt ist, werden die Servos nicht den vollen Weg "
 "erreichen (oder werden sich zu viel bewegen)."
 
-#: ../../source/ch_advanced.rst:38
+#: ../../source/ch_advanced.rst:34
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
@@ -146,7 +146,7 @@ msgstr ""
 "**Lehr.Schalt [Trainer Sw]**: Definiert den Schalter, der es ermöglicht, "
 "dass der Schüler die Kontrolle über das Modell bekommt."
 
-#: ../../source/ch_advanced.rst:40
+#: ../../source/ch_advanced.rst:36
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
@@ -154,11 +154,11 @@ msgstr ""
 "**PPM1...PPM8**: Definiert die Zuweisungen (entweder Kanal oder Eingabe) vom"
 " Schülersender zum Lehrer."
 
-#: ../../source/ch_advanced.rst:43
+#: ../../source/ch_advanced.rst:39
 msgid "Slave Mode"
 msgstr "Schülermodus"
 
-#: ../../source/ch_advanced.rst:44
+#: ../../source/ch_advanced.rst:40
 msgid ""
 "Slave mode is configured by choosing ‘PPM’ as the protocol in section :ref"
 ":`model-setup`.  Pressing ‘ENT’ on the Protocol spin-box will enable setting"
@@ -176,11 +176,11 @@ msgstr ""
 "als 'Knüppel' Modus konfiguriert zu benutzen (siehe oben), sollte keine "
 "Mischung im Schülersender stattfinden."
 
-#: ../../source/ch_advanced.rst:49
+#: ../../source/ch_advanced.rst:45
 msgid "Setting Up FPV or Other External Inputs"
 msgstr "Einrichtung von FPV oder anderen externen Eingaben"
 
-#: ../../source/ch_advanced.rst:56
+#: ../../source/ch_advanced.rst:50
 msgid ""
 "Deviation has the ability to use PPM input signals from an external source "
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
@@ -191,7 +191,7 @@ msgstr ""
 "konfigurieren, setzen Sie im Abschnitt :ref:`model-setup` den 'PPM Eingang' "
 "[PPM In] auf 'Erweitert' ['Extend']."
 
-#: ../../source/ch_advanced.rst:58
+#: ../../source/ch_advanced.rst:52
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
@@ -199,17 +199,17 @@ msgstr ""
 "Wurde dieser aktiviert, drücken Sie ‘ENT’ auf der 'PPM Eingang' Spin-Box um "
 "die zusätzlichen Eingänge zu konfigurieren."
 
-#: ../../source/ch_advanced.rst:60
+#: ../../source/ch_advanced.rst:54
 msgid "Configuration options:"
 msgstr "Konfigurationen:"
 
-#: ../../source/ch_advanced.rst:62
+#: ../../source/ch_advanced.rst:56
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
 msgstr ""
 "**Mitte PW [Center PW]**: Definiert die Pulsweite für einen zentrierten "
 "Eingang (in μs)."
 
-#: ../../source/ch_advanced.rst:63
+#: ../../source/ch_advanced.rst:57
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
@@ -217,7 +217,7 @@ msgstr ""
 "**Delta PW**: Definiert den Unterschied in Pulsweite (gemessen von der "
 "Mitte) um den minimalen oder maximalen Servoweg zu erreichen."
 
-#: ../../source/ch_advanced.rst:64
+#: ../../source/ch_advanced.rst:58
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
@@ -225,11 +225,11 @@ msgstr ""
 "**Anz.Kanäle [Num Channels]**: Definiert die Anzahl der Eingangskanäle "
 "(generell werden nicht mehr als 8 unterstützt)."
 
-#: ../../source/ch_advanced.rst:69
+#: ../../source/ch_advanced.rst:63
 msgid "Using a Trim as a Virtual Switch"
 msgstr "Benutzung eines Trimmknopfes als virtuellen Schalter"
 
-#: ../../source/ch_advanced.rst:70
+#: ../../source/ch_advanced.rst:64
 msgid ""
 "Deviation has the capability to create virtual switches to supplement the "
 "mechanical switches of the transmitter.  This capability is only available "
@@ -239,7 +239,7 @@ msgstr ""
 " ergänzen. Diese Fähigkeit ist nur bei Benutzung der Erweiterten GUI "
 "[Advanced GUI] verfügbar. Es sind 3 Schaltertypen verfügbar:"
 
-#: ../../source/ch_advanced.rst:72
+#: ../../source/ch_advanced.rst:66
 msgid ""
 "**Momentary**: The switch will be active only as long as the trim button is "
 "held"
@@ -247,7 +247,7 @@ msgstr ""
 "**Taster [Momentary]**: Der Schalter ist solange aktiv, wie der Trimmknopf "
 "gehalten wird."
 
-#: ../../source/ch_advanced.rst:73
+#: ../../source/ch_advanced.rst:67
 msgid ""
 "**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
 " trim button is pressed"
@@ -255,7 +255,7 @@ msgstr ""
 "**Wechsler [Toggle]**: Der Schalter wechselt jedes Mal von Ein auf Aus oder "
 "von Aus auf Ein, wenn der Trimmer gedrückt wird."
 
-#: ../../source/ch_advanced.rst:74
+#: ../../source/ch_advanced.rst:68
 msgid ""
 "**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
 " will turn it off-to-on"
@@ -263,7 +263,7 @@ msgstr ""
 "**Ein/Aus [On/Off]**: Der Trim+ Knopf schaltet den Schalter ein, und der "
 "Trim- Knopf schaltet ihn aus."
 
-#: ../../source/ch_advanced.rst:76
+#: ../../source/ch_advanced.rst:70
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
@@ -272,7 +272,7 @@ msgstr ""
 "Trimmung von der 'Trimm-Einstellungen' Seite und Öffnen der Bearbeiten-Seite"
 " [Edit]. Siehe auch :ref:`trims-and-virtual-inputs`."
 
-#: ../../source/ch_advanced.rst:83
+#: ../../source/ch_advanced.rst:75
 msgid ""
 "Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This "
 "is done by pressing the left-arrow on the 'Trim Step' spin-box until the "
@@ -286,7 +286,7 @@ msgstr ""
 "virtuellen Kanal, der zum Schalter konvertiert werden soll (wir benutzen "
 "'Virt1')."
 
-#: ../../source/ch_advanced.rst:93
+#: ../../source/ch_advanced.rst:83
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
@@ -294,7 +294,7 @@ msgstr ""
 "Gehen Sie jetzt zu der 'Mischer [Mixer]' Seite und rufen die Konfiguration "
 "für den gewählten virtuellen Kanal auf (Virt1 in unserem Beispiel)."
 
-#: ../../source/ch_advanced.rst:95
+#: ../../source/ch_advanced.rst:85
 msgid ""
 "Set the mixer-type to 'Complex', set the 'src' to the current virtual "
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
@@ -306,7 +306,7 @@ msgstr ""
 "'Skalierung [scale]' auf '0' und letztlich aktivieren Sie die 'Trimmung "
 "[Trim]'."
 
-#: ../../source/ch_advanced.rst:97
+#: ../../source/ch_advanced.rst:87
 msgid ""
 "You can now use the virtual channel ('Virt1') like any other switch input.  "
 "When the virtual switch is active, the virtual channel will have a value of "
@@ -317,11 +317,11 @@ msgstr ""
 "virtuelle Kanal einen Wert von 100, andernfalls wird er einen Wert von -100 "
 "haben."
 
-#: ../../source/ch_advanced.rst:99 ../../source/ch_advanced.rst:147
+#: ../../source/ch_advanced.rst:89 ../../source/ch_advanced.rst:129
 msgid "\\"
 msgstr "\\"
 
-#: ../../source/ch_advanced.rst:103
+#: ../../source/ch_advanced.rst:93
 msgid ""
 "Note: If you use the virtual channel as a 'Src' (as opposed to a 'Switch') "
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
@@ -332,11 +332,11 @@ msgstr ""
 "'Trimmung [trim]' für diesen Mischer deaktiviert ist, andernfalls wird die "
 "Trimmung zweifach angewandt."
 
-#: ../../source/ch_advanced.rst:108
+#: ../../source/ch_advanced.rst:98
 msgid "Swash Mixing"
 msgstr "Taumelscheibenmischer"
 
-#: ../../source/ch_advanced.rst:109
+#: ../../source/ch_advanced.rst:99
 msgid ""
 "A swash-plate is used to control flight on an RC helicopter.  The swash-"
 "plate controls the plane of rotation of the main-rotor as well as the blade "
@@ -357,7 +357,7 @@ msgstr ""
 "Taumelscheibenservos notwendig. Diese Mischung is als 'Cyclic Collective "
 "Pitch Mixing' (CCPM) bekannt."
 
-#: ../../source/ch_advanced.rst:111
+#: ../../source/ch_advanced.rst:101
 msgid ""
 "Traditionally, RC helicopters have used a flybar above or below the main "
 "rotor attached to a series of linkages to maintain stability.  In these "
@@ -383,7 +383,7 @@ msgstr ""
 "Mischer konvertiert dann die Signale in entsprechende Bewegungen der "
 "Taumelscheibenservos."
 
-#: ../../source/ch_advanced.rst:113
+#: ../../source/ch_advanced.rst:103
 msgid ""
 "Recently, flybarless (FBL) helicopters have become more common, especially "
 "in the micro size range.  These helicopters use an eCCPM system along with "
@@ -400,7 +400,7 @@ msgstr ""
 "hergestellt werden und liefert außerdem eine bessere Stabilität und genauere"
 " Kontrolle."
 
-#: ../../source/ch_advanced.rst:115
+#: ../../source/ch_advanced.rst:105
 msgid ""
 "Deviation provides control for several swash-plate layouts, these include: "
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
@@ -409,7 +409,7 @@ msgstr ""
 "Deviation bietet die Steuerung für verschiedene Taumelscheibenausführungen. "
 "Diese beinhalten: 120°, 120° Alternativ, 140°, 90° und keine:"
 
-#: ../../source/ch_advanced.rst:122
+#: ../../source/ch_advanced.rst:110
 msgid ""
 "**120 (3 Servo)**: Servos are placed around the swash-plate at 120° "
 "intervals. With Aileron input, the aileron and pitch servos tilt the swash-"
@@ -426,7 +426,7 @@ msgstr ""
 "Servos erhöhen dramatisch das verfügbare Drehmoment als auch die Präzision "
 "und Zentrierung."
 
-#: ../../source/ch_advanced.rst:129
+#: ../../source/ch_advanced.rst:115
 msgid ""
 "**120X (3 Servo)**: Same as the above layout except servos are shifted 150°."
 " With Aileron input, the three servos tilt the swash-plate left and right; "
@@ -440,7 +440,7 @@ msgstr ""
 "Höhenruder- und das Pitch-Servo die Taumelscheibe nach vorne und hinten, bei"
 " Pitchgabe heben alle drei Servos die Taumelscheibe hoch und runter."
 
-#: ../../source/ch_advanced.rst:136
+#: ../../source/ch_advanced.rst:120
 msgid ""
 "**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates "
 "are almost the same as 120° swash-plates. However, the servo arrangement for"
@@ -455,7 +455,7 @@ msgstr ""
 "und umlaufend gleichmäßigen zyklischen Anteil. Bei einem 120° Aufbau ist "
 "zyklisch links/rechts, leicht schneller als vor/zurück zyklisch."
 
-#: ../../source/ch_advanced.rst:143
+#: ../../source/ch_advanced.rst:125
 msgid ""
 "**90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the "
 "swash-plate left and right; with elevator input, the servos tilt the swash-"
@@ -468,7 +468,7 @@ msgstr ""
 "drei Servos die Taumelscheibe hoch und runter. Überwiegend bei elektrischen "
 "Hubschraubern benutzt."
 
-#: ../../source/ch_advanced.rst:145
+#: ../../source/ch_advanced.rst:127
 msgid ""
 "**None**: This is a special case where all mixing is done on-board the "
 "helicopter using a gyroscopic flight control system. Please refer to the "
@@ -479,7 +479,7 @@ msgstr ""
 "Bitte schlagen Sie in den genauen Herstellerinstruktionen nach, wie die "
 "Mischerausgaben konfiguriert werden."
 
-#: ../../source/ch_advanced.rst:151
+#: ../../source/ch_advanced.rst:133
 msgid ""
 "Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these "
 "cases you will still use the designated swash-plate type but may need to "
@@ -488,11 +488,11 @@ msgstr ""
 "Hinweis: Manche Hubschrauber sind 120 oder 140, aber um 180 Grad gedreht. In diesen Fällen verwenden Sie weiterhin die zugehörige Taumelscheibe, müssen aber möglicherweise bestimmte Kanäle umkehren.\n"
 "   "
 
-#: ../../source/ch_advanced.rst:156
+#: ../../source/ch_advanced.rst:138
 msgid "Modifying sounds"
 msgstr "Töne verändern"
 
-#: ../../source/ch_advanced.rst:158
+#: ../../source/ch_advanced.rst:140
 msgid ""
 "You can edit the sounds your Devo makes, though you have to do it by "
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
@@ -502,56 +502,56 @@ msgstr ""
 "als USB-Laufwerk verbinden und die Datei 'sound.ini' im Ordner 'media' "
 "editieren."
 
-#: ../../source/ch_advanced.rst:162
+#: ../../source/ch_advanced.rst:144
 msgid "The sections, and what causes them to play, are:"
 msgstr "Folgende Sektionen sind in der Datei verfügbar:"
 
-#: ../../source/ch_advanced.rst:164
+#: ../../source/ch_advanced.rst:146
 msgid "**startup**: Powered on."
 msgstr "**startup**: Einschalten des Senders."
 
-#: ../../source/ch_advanced.rst:165
+#: ../../source/ch_advanced.rst:147
 msgid "**shutdown**: Powering off."
 msgstr "**shutdown**: Ausschalten des Senders."
 
-#: ../../source/ch_advanced.rst:166
+#: ../../source/ch_advanced.rst:148
 msgid "**volume**: Configuring transmitter volume."
 msgstr "**volume**: Verändern der Senderlautstärke."
 
-#: ../../source/ch_advanced.rst:167
+#: ../../source/ch_advanced.rst:149
 msgid "**timer_warning**: Timer is about to expire."
 msgstr "**timer_warning**: Ein Timer wird in Kürze ablaufen."
 
-#: ../../source/ch_advanced.rst:168
+#: ../../source/ch_advanced.rst:150
 msgid "**alarm#**: Timer # (1 to 4) has expired."
 msgstr "**alarm#**: Timer # (1 bis 4) ist abgelaufen."
 
-#: ../../source/ch_advanced.rst:169
+#: ../../source/ch_advanced.rst:151
 msgid "**batt_alarm**: Battery low warning."
 msgstr "**batt_alarm**: Niedriger Batteriestand."
 
-#: ../../source/ch_advanced.rst:170
+#: ../../source/ch_advanced.rst:152
 msgid "**done_binding**: Binding finished."
 msgstr "**done_binding**: Bindung abgeschlossen."
 
-#: ../../source/ch_advanced.rst:171
+#: ../../source/ch_advanced.rst:153
 msgid "**key_pressing**: On a key press"
 msgstr "**key_pressing**: Druck einer Taste."
 
-#: ../../source/ch_advanced.rst:172
+#: ../../source/ch_advanced.rst:154
 msgid "**saving**: When saving a model file."
 msgstr "**saving**: Speichern einer Modellkonfiguration."
 
-#: ../../source/ch_advanced.rst:173
+#: ../../source/ch_advanced.rst:155
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
 msgstr "**max_len**: Überschreiten der maximalen Länge einer Bezeichnung."
 
-#: ../../source/ch_advanced.rst:174
+#: ../../source/ch_advanced.rst:156
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
 msgstr "**telem_alarm#**: Telemetriealarm # (1 bis 6) wurde ausgelöst."
 
-#: ../../source/ch_advanced.rst:176
+#: ../../source/ch_advanced.rst:158
 msgid ""
 "In each section, you can adjust set 'volume' from 0 (off) to 100 (max). The "
 "rest of the entries are note names, and the value is the number of "
@@ -563,7 +563,7 @@ msgstr ""
 "der jeweiligen Spieldauer in Millisekunden. Es können maximal 100 Noten pro "
 "Sektion eingegeben werden."
 
-#: ../../source/ch_advanced.rst:181
+#: ../../source/ch_advanced.rst:163
 msgid ""
 "The note names are 'xx', which is a rest (no sound played). You can then "
 "pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's 'a', 'c', "
