@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 21:03+0000\n"
+"POT-Creation-Date: 2017-05-17 21:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -97,9 +97,9 @@ msgid ""
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
 msgstr ""
-"Les chanmps suivants sont disponibles dans la télémétrie DEVO. Notez que "
-"tous les modèles ou récepteurs ne rapportent pas toutes les données et que "
-"des données nécessitent des modules supplémentaires pour être disponibles."
+"Les champs suivants sont disponibles dans la télémétrie DEVO. Notez que tous"
+" les modèles ou récepteurs ne rapportent pas toutes les données et que des "
+"données nécessitent des modules supplémentaires pour être disponibles."
 
 #: ../../source/ch_protocols.rst:33
 msgid ""
@@ -191,16 +191,21 @@ msgid ""
 "The WK2601 protocol also supports additional options.  These are accessed by"
 " pressing the Protocol spin-box when Wk2601 is shown:"
 msgstr ""
+"Le protocole WK2601 possède différentes options. Elle sont accessibles en "
+"appuyant sur la boite de sélection lorsque Wk2601 est affiché."
 
 #: ../../source/ch_protocols.rst:51
 msgid "**Chan mode**: Sets how channels are processed:"
 msgstr ""
+"**Mode canaux** **[Chan mode]**: Indique comment les canaux sont traités :"
 
 #: ../../source/ch_protocols.rst:53
 msgid ""
 "**5+1**: AIL, ELE, THR, RUD,  GYRO (ch 7) are proportional.  Gear (ch 5) is "
 "binary.  Ch 6 is disabled"
 msgstr ""
+"**5+1**:  AIL, PROF, GAZ, DERIVE, GYRO (can. 7) sont proportionnels. TRAIN "
+"(can. 5) est tout ou rien. Le canal 6 est désactivé."
 
 #: ../../source/ch_protocols.rst:54
 msgid ""
@@ -209,20 +214,28 @@ msgid ""
 "curve to the Thr.  If Ch6 < 0, the receiver will apply normal curves to the "
 "Thr.  The value of Ch6 defines the ratio of COL to THR."
 msgstr ""
+"**Heli** :  AIL, PROF, GAZ, DERIVE, GYRO sont proportionnels. TRAIN (can. 5)"
+" est tout ou rien. Le canal 6 est désactivé. le pas ( can 6) est lié à GAZ ."
+" Si Can6 >= 0, le récepteur applique une courbe de type 3D -en V-  au Gaz . "
+"Si Can6 < 0, le récepteur applique une courbe normale au canal Gaz. La "
+"valeur du canal 6 détermine le ratio entre Gaz et Pas."
 
 #: ../../source/ch_protocols.rst:55
 msgid ""
 "**6+1**: AIL, ELE, THR, RUD,  COL (ch 6), GYRO (ch 7) are proportional.  "
 "Gear (ch 5) is binary.  This mode is highly experimental."
 msgstr ""
+"**5+1**:  AIL, PROF, GAZ, DERIVE, Pas (can6) GYRO (can. 7) sont "
+"proportionnels. TRAIN (can. 5) est tout ou rien. Ce mode est fortement "
+"expérimental."
 
 #: ../../source/ch_protocols.rst:56
 msgid "**COL Inv**: Invert COL servo"
-msgstr ""
+msgstr "**Sens pas**: Inversion du sens du servo de pas collectif."
 
 #: ../../source/ch_protocols.rst:57
 msgid "**COL Limit**: Set maximum range of COL servo"
-msgstr ""
+msgstr "**Limite de pas**: Fixe la valeur limite du canal de pas collectif."
 
 #: ../../source/ch_protocols.rst:60
 msgid "Protocol: WK2401"
@@ -253,7 +266,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: DSM2"
-msgstr ""
+msgstr "Protocole : DSM2"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
@@ -282,6 +295,10 @@ msgid ""
 " is so you can press the Failsafe button on some DSM receivers to set the "
 "failsafe value."
 msgstr ""
+"Notez que l'appairage ne s'arrête pas avant que vous bougiez les ailerons ou"
+" la profondeur. C'est pour que vous puissiez appuyer sur le bouton Sécurités"
+" [failsafe] sur certains récepteurs DSM pour régler les valeurs de "
+"sécurités."
 
 #: ../../source/ch_protocols.rst:84
 msgid ""
@@ -289,12 +306,17 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DSM2 is "
 "shown."
 msgstr ""
+"Le protocole DSM2 permet d'activer ou désactiver la télémétrie. On accède à "
+"cette fonction en appuyant sur la boite de sélection quand DSM2 est affiché."
 
 #: ../../source/ch_protocols.rst:91
 msgid ""
 "The following fields are available in DSM2 Telemetry.  Note that a dedicated"
 " telemetry module and additional sensors are needed to capture this data"
 msgstr ""
+"Les champs suivants sont disponibles dans la télémétrie DEVO. Notez qu'un "
+"module de télémétrie dédié et des capteurs sont nécessaires pour  capter les"
+" données."
 
 #: ../../source/ch_protocols.rst:93
 msgid ""
@@ -302,33 +324,42 @@ msgid ""
 "signal.  Ideally these numbers should all be similar, indicating even "
 "reception to each antenna"
 msgstr ""
+"**Affaiblissement A/B/L/R**: **[FadesA/B/L/R]** : Le nombre de fois que "
+"chaque antenne reçoit un signal faible. Idéalement ces nombres devraient "
+"être similaires, indiquant une réception égale de chaque antenne."
 
 #: ../../source/ch_protocols.rst:94
 msgid ""
 "**Loss**: The number of times complete signal loss (dropped frame) occurred"
 msgstr ""
+"**Interruption**  **[Loss]**: le nombre de pertes totales du signal durant "
+"le vol."
 
 #: ../../source/ch_protocols.rst:95
 msgid ""
 "**Holds**: The number of times the receiver entered fail-safe mode due to "
 "loss of signal"
 msgstr ""
+"**Maintiens**: **[Holds]**: Le nombre de fois où le système de Sécurités "
+"[failsafe] a fonctionné en raison d'une perte de signal durant le vol."
 
 #: ../../source/ch_protocols.rst:96
 msgid "**Volt1/2**: Battery voltage for receiver and an external source"
 msgstr ""
+"**RxV et Bat** : Le voltage de la batterie de réception et d'une batterie "
+"externe."
 
 #: ../../source/ch_protocols.rst:97
 msgid "**RPM**: Engine/Motor speed"
-msgstr ""
+msgstr "**T/mn** : Vitesse de rotation du moteur."
 
 #: ../../source/ch_protocols.rst:98
 msgid "**Temp**: Temperature from external temperature sensor"
-msgstr ""
+msgstr "**T°** : Température prise par un capteur extérieur."
 
 #: ../../source/ch_protocols.rst:102
 msgid "Protocol: DSMX"
-msgstr ""
+msgstr "Protocole : DSMX"
 
 #: ../../source/ch_protocols.rst:103
 msgid ""
@@ -357,6 +388,9 @@ msgid ""
 "automatically select between DSM2 and DSMX.  The user must select which "
 "protocol to use."
 msgstr ""
+"Notez que contrairement aux émetteurs Spektrum™ ou JR™, Deviation ne "
+"sélectionnera pas automatiquement entre DSM2 et DSMX. L'utilisateur doit "
+"choisir quel protocole il veut utiliser."
 
 #: ../../source/ch_protocols.rst:114
 msgid ""
@@ -364,16 +398,20 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DSMX is "
 "shown."
 msgstr ""
+"Le protocole DSMX permet d'activer ou désactiver la télémétrie. On accède à "
+"cette fonction en appuyant sur la boite de sélection quand DSM2 est affiché."
 
 #: ../../source/ch_protocols.rst:116
 msgid ""
 "The list of DSMX telemetry fields is identical to those in the DSM2 "
 "Protocol, and are documented in section :ref:`protocol-dsm2`."
 msgstr ""
+"La liste des champs de télémétrie de DSMX sont identiques à ceux du "
+"protocole DSM2 et sont documentés dans la section :ref:`protocol-dsm2`."
 
 #: ../../source/ch_protocols.rst:119
 msgid "Protocol: J6Pro"
-msgstr ""
+msgstr "Protocole : J6Pro"
 
 #: ../../source/ch_protocols.rst:120
 msgid ""
@@ -385,10 +423,18 @@ msgid ""
 "to None, a transmitter-specific ID is used instead.  It is necessary to "
 "manually bind each model before the first use."
 msgstr ""
+"Le protocole J6Pro est utilisé pour prendre en charge les modèles  Nine "
+"Eagles™. Seuls les modèles compatibles J6Pro sont utilisables. De nombreux "
+"modèles anciens à 4 canaux de chez Nine Eagles™ utilisaient un protocole "
+"différent non supporté. Le protocole J6Pro supporte jusqu'à 12 canaux, mais "
+"à ce jour seuls des modèles avec 6 canaux ont été testés. L'auto-appairage "
+"n'est pas possible avec ce protocole. Si l' ID fixe est définie à Néant, une"
+" ID spécifique à l'émetteur est utilisée. Il est nécessaire d'appairer "
+"manuellement chaque modèle avant la première utilisation."
 
 #: ../../source/ch_protocols.rst:123
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "Protocole: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:124
 msgid ""
@@ -396,6 +442,9 @@ msgid ""
 " few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc)."
 "  |a7105-note|"
 msgstr ""
+"Le protocole Flysky est utilisé pour commander les récepteurs Turnigy/Flysky"
+" ainsi que quelques modèles utilisant ce protocole AFHDS (WL V911, Xieda "
+"9958, etc).  |a7105-note|"
 
 #: ../../source/ch_protocols.rst:128
 msgid ""
