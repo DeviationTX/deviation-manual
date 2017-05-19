@@ -66,7 +66,7 @@ html:   $(SPHINXBUILD)
 html-release: $(foreach lang,$(LANGUAGES),html-$(lang))
 	@echo "HTML documentation for languages $(LANGUAGES) successfully built."
 	mkdir $(BUILDDIR)/html-$(TARGET)
-	$(foreach lang,$(LANGUAGES), cd $(BUILDDIR) && zip -r html-$(TARGET)/$(lang).zip html-$(TARGET)-$(lang)/* && cd ..;)
+	$(foreach lang,$(LANGUAGES), cd $(BUILDDIR) && zip -r html-$(TARGET)/html-$(TARGET)-$(lang).zip html-$(TARGET)-$(lang)/* && cd ..;)
 	@echo "Zipped documentation can be found in $(BUILDDIR)/html-$(TARGET)."
 
 html-%:   $(SPHINXBUILD)
