@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 15:26+0000\n"
+"POT-Creation-Date: 2017-05-17 21:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -26,7 +26,7 @@ msgstr "Főképernyő"
 msgid "The standard main page layout is as follows:"
 msgstr "Az általános főképernyő elrendezés a következő:"
 
-#: ../../source/ch_mainpage.rst:13
+#: ../../source/ch_mainpage.rst:14
 msgid ""
 "**Current Model**: The name of the current model. Clicking the label will "
 "open up the Model Load page.  The model is configured from section :ref"
@@ -36,13 +36,13 @@ msgstr ""
 "kattintva megnyílik a \"Modell betöltése\" képernyő. A modell konfigurálása "
 "a :ref:`model-setup` szerint történik."
 
-#: ../../source/ch_mainpage.rst:15
+#: ../../source/ch_mainpage.rst:16
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
 msgstr "\"Telep\": Az aktuális távirányító telepfeszültség számszerű kijelzése."
 
-#: ../../source/ch_mainpage.rst:17
+#: ../../source/ch_mainpage.rst:18
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
@@ -50,7 +50,7 @@ msgstr ""
 "\"Tx telj.\": Az aktuálisan kiválasztott adó teljesítmény kiírása. "
 "Konfigurálása a :ref:`model-setup` fejezet szerint történik."
 
-#: ../../source/ch_mainpage.rst:19
+#: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
@@ -59,7 +59,7 @@ msgstr ""
 "időpont beállítása a következő fejezetben található: :ref:`transmitter-"
 "config`."
 
-#: ../../source/ch_mainpage.rst:21
+#: ../../source/ch_mainpage.rst:22
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
@@ -69,7 +69,7 @@ msgstr ""
 ":`model-setup` fejezet szerint, egyébként egy alapértelmezett kép. A képre "
 "kattintva a modell menübe jutunk."
 
-#: ../../source/ch_mainpage.rst:24
+#: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
@@ -77,7 +77,7 @@ msgstr ""
 "**Modell ikon**: Az aktuális modell képe, ha lett ilyen konfigurálva a :ref"
 ":`model-setup` fejezet szerint, egyébként egy alapértelmezett kép."
 
-#: ../../source/ch_mainpage.rst:26
+#: ../../source/ch_mainpage.rst:27
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
@@ -85,7 +85,7 @@ msgstr ""
 "**Trim**: 10 féle különböző vízszintes és függőleges trim megjelenítése "
 "konfigurálható."
 
-#: ../../source/ch_mainpage.rst:28
+#: ../../source/ch_mainpage.rst:29
 msgid ""
 "**Displays**: These items can be text-boxes containing input, channel, "
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
@@ -96,7 +96,7 @@ msgstr ""
 "kimeneti értéket megjelenítő oszlopdiagramok; vagy állapot megjelenítő "
 "ikonok (pl. futómű, fékszárny, stb...)."
 
-#: ../../source/ch_mainpage.rst:30
+#: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
@@ -104,11 +104,11 @@ msgstr ""
 "**Gyors menük**: A gyors menük hosszú UP/DN nyomógomb megnyomással érhetők "
 "el. Konfigurálásuk a :ref:`main-page-config` fejezet alapján."
 
-#: ../../source/ch_mainpage.rst:35
+#: ../../source/ch_mainpage.rst:36
 msgid "Safety System"
 msgstr "Biztonsági rendszer"
 
-#: ../../source/ch_mainpage.rst:42
+#: ../../source/ch_mainpage.rst:41
 msgid ""
 "Deviation has a safety system to prevent starting up in a dangerous state "
 "(for instance spinning up the main rotor of a helicopter accidentally). The "
@@ -137,7 +137,7 @@ msgstr ""
 " teljesülnek, vagy ha az OK gombot megnyomjuk. Mindkét esetben elkezdődik a "
 "vezérlés, amint az üzenet ablak eltűnik."
 
-#: ../../source/ch_mainpage.rst:45
+#: ../../source/ch_mainpage.rst:44
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
@@ -145,7 +145,7 @@ msgstr ""
 "A biztonsági feltételek a \"[safety]\" szekcióban szerepelnek, és "
 "alapesetben így néznek ki::"
 
-#: ../../source/ch_mainpage.rst:51
+#: ../../source/ch_mainpage.rst:50
 msgid ""
 "The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
 "'Auto' tries to guess your throttle channel number. If that isn't working, "

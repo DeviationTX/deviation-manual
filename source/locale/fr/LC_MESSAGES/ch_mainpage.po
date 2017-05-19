@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 15:26+0000\n"
+"POT-Creation-Date: 2017-05-17 21:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -26,7 +26,7 @@ msgstr "Page principale"
 msgid "The standard main page layout is as follows:"
 msgstr "l'agencement standard de la page principal est le suivant :"
 
-#: ../../source/ch_mainpage.rst:13
+#: ../../source/ch_mainpage.rst:14
 msgid ""
 "**Current Model**: The name of the current model. Clicking the label will "
 "open up the Model Load page.  The model is configured from section :ref"
@@ -36,7 +36,7 @@ msgstr ""
 "nom pour accéder à la page de chargement des modèles . Le modèle est "
 "configuré à la section :ref:`Config modèle`."
 
-#: ../../source/ch_mainpage.rst:15
+#: ../../source/ch_mainpage.rst:16
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
@@ -44,7 +44,7 @@ msgstr ""
 "**Tension de la Batterie** : Tension  présente en chiffres de la batterie de"
 " l'émetteur."
 
-#: ../../source/ch_mainpage.rst:17
+#: ../../source/ch_mainpage.rst:18
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
@@ -52,7 +52,7 @@ msgstr ""
 "**Puissance d'émission** : Indique la puissance de l'émetteur actuellement "
 "sélectionnée. Elle est fixée  dans la page :ref:`Config modèle`."
 
-#: ../../source/ch_mainpage.rst:19
+#: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
@@ -60,7 +60,7 @@ msgstr ""
 "**Heure actuelle** : Ceci indique l'heure présente (sur le Devo 12 "
 "uniquement). L'heure est mise à jour dans la page  :ref:`Config Emetteur`."
 
-#: ../../source/ch_mainpage.rst:21
+#: ../../source/ch_mainpage.rst:22
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
@@ -70,7 +70,7 @@ msgstr ""
 " configuré dans la section :ref:`Config Modèle`. Presser sur l'icône vous "
 "dirigera sur cette page."
 
-#: ../../source/ch_mainpage.rst:24
+#: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
@@ -78,7 +78,7 @@ msgstr ""
 "**Icône du modèle**: C'est une image représentant le modèle en cours. Il est"
 " configuré dans la section :ref:`Config Modèle`. "
 
-#: ../../source/ch_mainpage.rst:26
+#: ../../source/ch_mainpage.rst:27
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
@@ -86,7 +86,7 @@ msgstr ""
 "**Trims**: l'affichage des trims peut être configuré pour afficher jusqu'à "
 "10 trims horizontaux et verticaux différents."
 
-#: ../../source/ch_mainpage.rst:28
+#: ../../source/ch_mainpage.rst:29
 msgid ""
 "**Displays**: These items can be text-boxes containing input, channel, "
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
@@ -97,7 +97,7 @@ msgstr ""
 " affichant les données des canaux ; ou des icônes alternatifs affichant des "
 "états différents ( trains, volets,...)"
 
-#: ../../source/ch_mainpage.rst:30
+#: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
@@ -106,11 +106,11 @@ msgstr ""
 " boutons UP/DN. Ils sont définis dans la secton :ref:Configuration de la "
 "page Principale`."
 
-#: ../../source/ch_mainpage.rst:35
+#: ../../source/ch_mainpage.rst:36
 msgid "Safety System"
 msgstr "Système de sécurité"
 
-#: ../../source/ch_mainpage.rst:42
+#: ../../source/ch_mainpage.rst:41
 msgid ""
 "Deviation has a safety system to prevent starting up in a dangerous state "
 "(for instance spinning up the main rotor of a helicopter accidentally). The "
@@ -141,7 +141,7 @@ msgstr ""
 "Deviation commencera à communiquer avec le modèle quand l' affichage aura "
 "disparu."
 
-#: ../../source/ch_mainpage.rst:45
+#: ../../source/ch_mainpage.rst:44
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
@@ -149,7 +149,7 @@ msgstr ""
 "Les valeurs de sécurité sont dans la section  '[safety]' et les valeurs par "
 "défaut sont :"
 
-#: ../../source/ch_mainpage.rst:51
+#: ../../source/ch_mainpage.rst:50
 msgid ""
 "The 'Auto' value can also be any channel or input name, 'Ch1', etc. The "
 "'Auto' tries to guess your throttle channel number. If that isn't working, "
