@@ -4,7 +4,8 @@
 
 Main Menu
 =========
-.. macro:: floatimg images/devo10/ch_mainmenu/main_menu.png
+.. image:: images/devo10/ch_mainmenu/main_menu.png
+   :align: center
 
 The main menu selections of the Deviation firmware are accessed by momentarily pressing the ENT button on the bottom right of the transmitter. The main menu consists of the following four options: Model menu, Transmitter menu, USB and About Deviation.
 
@@ -20,7 +21,8 @@ The transmitter menu allows you to select transmitter-specific options as well a
 
 USB
 ---
-.. macro:: floatimg images/devo10/ch_mainmenu/usb.png
+.. image:: images/devo10/ch_mainmenu/usb.png
+   :align: center
 
 The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode can then be toggled on/off to enable access to the transmitter’s file-system from a USB equipped computer. In this mode the file system of Deviation is accessible as a mass storage device. This will allow you to move files back and forth between the Deviation file-system and a PC. All configuration files are accessible in this mode.
 
@@ -30,6 +32,7 @@ NOTE: Entering USB mode should never be done while the model is bound, USB usage
 
 About Deviation
 ---------------
-.. macro:: floatimg images/devo10/ch_mainmenu/about.png
+.. image:: images/devo10/ch_mainmenu/about.png
+   :align: center
 
 The Deviation release version can be accessed by selecting ‘About Deviation’ from the main menu.
