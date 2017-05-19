@@ -75,9 +75,11 @@ after_success:
               export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf");
               echo "Uploading Documentation - $TARGET_PDF";
               utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF;
-          else if [[ "$MAKETARGET" == "html-release" ]]; then
-              export TARGET_ZIP=$(echo "*.zip");
-              echo "Uploading Documentation - $TARGET_ZIP";
-              utils/upload_documentation.pl -documentation -html build/html-$TARGET/$TARGET_ZIP;
+          else
+              if [[ "$MAKETARGET" == "html-release" ]]; then
+                  export TARGET_ZIP=$(echo "*.zip");
+                  echo "Uploading Documentation - $TARGET_ZIP";
+                  utils/upload_documentation.pl -documentation -html build/html-$TARGET/$TARGET_ZIP;
+              fi;
           fi;
       fi;
