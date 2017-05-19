@@ -66,12 +66,18 @@ cache:
 # Generate new strings for transifex from manual changes
 # Upload manual builds to deviationtx.com
 after_success:
-    - if [[ "$TRAVIS_EVENT_TYPE" == "push" && "$MAKETARGET" == "latexpdf-release" ]]; then
-           if [[ "$TARGET" == "devo8" ]]; then
-               make gettext; sphinx-intl -c source/conf.py-intl update -p build/locale; tx push -s;
-           fi;
-          export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}');
-          export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf");
-          echo "Uploading Documentation - $TARGET_PDF";
-          utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF;
+    - if [[ "$TRAVIS_EVENT_TYPE" == "push" ]]; then
+          if [[ "$MAKETARGET" == "latexpdf-release" ]]; then
+              if [[ "$TARGET" == "devo8" ]]; then
+                  make gettext; sphinx-intl -c source/conf.py-intl update -p build/locale; tx push -s;
+              fi;
+              export TARGET_VERSION=$(echo $TARGET | egrep -o '[[:digit:]]{1,2}');
+              export TARGET_PDF=$(echo "devo${TARGET_VERSION}manual*.pdf");
+              echo "Uploading Documentation - $TARGET_PDF";
+              utils/upload_documentation.pl -documentation -pdf build/pdf-$TARGET/$TARGET_PDF;
+          else if [[ "$MAKETARGET" == "html-release" ]]; then
+              export TARGET_ZIP=$(echo "*.zip");
+              echo "Uploading Documentation - $TARGET_ZIP";
+              utils/upload_documentation.pl -documentation -html build/html-$TARGET/$TARGET_ZIP;
+          fi;
       fi;
