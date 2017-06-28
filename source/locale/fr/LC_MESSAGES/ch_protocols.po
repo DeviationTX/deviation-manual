@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-26 21:24+0000\n"
+"POT-Creation-Date: 2017-06-27 21:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -454,26 +454,36 @@ msgid ""
 "set for Fixed ID, the receiver must be bound manually one-time using the "
 "‘Bind’ button, after which it should stay bound."
 msgstr ""
+"Le protocole Flysky supporte jusqu'à 12 canaux et l'appairage automatique ou"
+" manuel. Si l'ID fixe est définie à 'Néant' l'émetteur tentera d'effectuer "
+"un appairage automatique avec le récepteur à chaque allumage de l'émetteur. "
+"Si une ID fixe est  définie, le récepteur doit être appairé manuellement une"
+" fois en utilisant le bouton 'Réinit'; après quoi il devrait rester appairé."
 
 #: ../../source/ch_protocols.rst:134
 msgid ""
 "The Flysky protocol also supports WLToys extensions to the protocol. These "
 "are accessed by pressing the Protocol spin-box when Flysky is shown:"
 msgstr ""
+"Le protocole Flysky prend également en charge les extensions WLToys du "
+"protocole. On y accède en pressant la boite de sélection du protocole quand "
+"celui ci est affiché."
 
 #: ../../source/ch_protocols.rst:138
 msgid ""
 "**V9x9**: Enables the extensions for the WLToys V939, V949, V959, v969, etc "
 "quadcopters."
 msgstr ""
+"**V9x9**: Permet les extensions pour les quadricoptères  WLToys V939, V949, "
+"V959, v969, etc."
 
 #: ../../source/ch_protocols.rst:141 ../../source/ch_protocols.rst:148
 msgid "Lights are controlled by Channel 5"
-msgstr ""
+msgstr "Les lumières sont contrôlées par le canal 5."
 
 #: ../../source/ch_protocols.rst:142
 msgid "Video is controlled by Channel 6"
-msgstr ""
+msgstr "La vidéo est contrôlée par le canal 6."
 
 #: ../../source/ch_protocols.rst:143 ../../source/ch_protocols.rst:150
 msgid "Camera is controlled by Channel 7"
@@ -481,38 +491,45 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:144
 msgid "Flip is controlled by Channel 8"
-msgstr ""
+msgstr "Le Flip est contrôlé par le canal 8."
 
 #: ../../source/ch_protocols.rst:146
 msgid ""
 "**V6x6**: Enables the extensions for the WLToys V636 and V686 quadcopters."
 msgstr ""
+"**V6x6**: Permet les extensions pour les quadricoptères  WLToys V636 ry V686"
+" "
 
 #: ../../source/ch_protocols.rst:149
 msgid "Flip is controlled by Channel 6"
-msgstr ""
+msgstr "Le Flip est contrôlé par le canal 6."
 
 #: ../../source/ch_protocols.rst:151
 msgid "Video is controlled by Channel 8"
-msgstr ""
+msgstr "La vidéo est contrôlée par le canal 8."
 
 #: ../../source/ch_protocols.rst:152
 msgid "Headless mode is controlled by Channel 9"
 msgstr ""
+"Le mode à contrôle d'orientation intelligent  [Headless] est contrôlé par le"
+" canal 9."
 
 #: ../../source/ch_protocols.rst:153
 msgid "RTH mode is controlled by Channel 10"
-msgstr ""
+msgstr "Le mode 'Retour à la maison' [RTH] est contrôlé par le canal 10."
 
 #: ../../source/ch_protocols.rst:154
 msgid ""
 "X and Y calibration are controlled by channels 11 and 12, respectively."
 msgstr ""
+"Les calibrations X et Y sont contrôlées respectivement par les canaux 11 et "
+"12."
 
 #: ../../source/ch_protocols.rst:156
 msgid ""
 "**V912**: Enables the extensions for the V912, V913 and V915 helicopters"
 msgstr ""
+"**V912**: Permet les extensions pour les hélicoptères V912, V913 et V915. "
 
 #: ../../source/ch_protocols.rst:159
 msgid ""
