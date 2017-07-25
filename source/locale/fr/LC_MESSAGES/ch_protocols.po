@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-27 21:24+0000\n"
+"POT-Creation-Date: 2017-07-24 21:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -539,16 +539,23 @@ msgid ""
 "Flipping the switch back to off has no effect.  Flipping the switch back on "
 "now turns the lights back off."
 msgstr ""
+"Notez que si ces canaux sont assignés à un interrupteur, ouvrir "
+"l'interrupteur modifie l'état, et fermer l'interrupteur n'a pas d'effet. "
+"Donc pour allumer les lumières, basculer l'interrupteur assigné au canal 5 "
+"de fermé à ouvert. Basculer l'interrupteur à fermé n'a pas d'effet. Basculer"
+" de nouveau a ouvert éteint alors les lumières."
 
 #: ../../source/ch_protocols.rst:162
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "Protocole : \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:163
 msgid ""
 "The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers."
 "  |a7105-note|"
 msgstr ""
+"Le protocole AFHDS-2A est utilisé pour contrôler les récepteurs "
+"Turnigy/Flysky AFHDS 2A. |Note a7105|"
 
 #: ../../source/ch_protocols.rst:167
 msgid ""
@@ -556,10 +563,13 @@ msgid ""
 "binding. The receiver must be bound manually one-time using the ‘Bind’ "
 "button, after which it should stay bound."
 msgstr ""
+"Le protocole AFHDS-2A  supporte jusqu'à 12 canaux et nécessite un appairage "
+"manuel. Le récepteur doit être appairé manuellement une fois en utilisant le"
+" bouton 'Réinit'; après quoi il devrait rester appairé. "
 
 #: ../../source/ch_protocols.rst:170
 msgid "Options configurable on the AFHDS-2A page:"
-msgstr ""
+msgstr "Options configurables sur la page AFHDS-2A :"
 
 #: ../../source/ch_protocols.rst:172
 msgid ""
