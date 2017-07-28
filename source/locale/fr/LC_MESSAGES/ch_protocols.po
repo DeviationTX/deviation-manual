@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-24 21:44+0000\n"
+"POT-Creation-Date: 2017-07-27 21:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -576,20 +576,26 @@ msgid ""
 "**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
 "PWM+SBUS or PPM+SUBS"
 msgstr ""
+"**Outputs**:**[Outputs]** : Détermine le type de sortie sur le récepteur,  "
+"PWM+IBUS, PPM+IBUS, PWM+SBUS ou PPM+SUBS."
 
 #: ../../source/ch_protocols.rst:173
 msgid "**Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
 msgstr ""
+"**Servo Hz**: Fixe le taux de rafraichissement du PWM entre 50 Hz et 400 Hz."
 
 #: ../../source/ch_protocols.rst:175
 msgid ""
 "Partial telemetry support, only receiver voltage and RSSI in dB are "
 "supported for now."
 msgstr ""
+"Prise en charge partielle de la télémétrie. Seuls le voltage du récepteur et"
+" la force du signal de réception (RSSI) en dB ont pris en charge "
+"actuellement."
 
 #: ../../source/ch_protocols.rst:178
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "Protocole: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:179
 msgid ""
@@ -597,6 +603,9 @@ msgid ""
 " X (but not the Proto X SLT).  No other models have been tested with this "
 "protocol.  |a7105-note|"
 msgstr ""
+"Le protocole Hubsan4 prend en charge les quadricoptères  Hubsan-X4 et le "
+"Proto X Estes (mais pas le Proto X SLT). Aucun autres modèles n'ont été "
+"testés avec ce protocole.  |Note-a7105|"
 
 #: ../../source/ch_protocols.rst:187
 msgid ""
@@ -605,22 +614,27 @@ msgid ""
 " power-on.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and "
 "Rudder.  Additional channels control the quadracopter special functions:"
 msgstr ""
+"Le protocole Hubsan4 supporte jusqu'à 7 canaux, et uniquement l'auto-"
+"appairage. L' ID fixe peut être utilisée, mais n'empêche pas l'auto-"
+"appairage durant la mise sous tension. Les 4 premiers canaux représentent "
+"ailerons, profondeur, gaz et dérive . Les canaux additionnels contrôlent les"
+" fonctions spéciales des quadricoptère."
 
 #: ../../source/ch_protocols.rst:189
 msgid "Channel 5 controls the LEDs"
-msgstr ""
+msgstr "Le Canal 5 contrôle les Leds."
 
 #: ../../source/ch_protocols.rst:190 ../../source/ch_protocols.rst:353
 msgid "Channel 6 enables ‘flip’ mode"
-msgstr ""
+msgstr "Le canal 6 permet le mode 'flip'."
 
 #: ../../source/ch_protocols.rst:191
 msgid "Channel 7 Turns video on/off"
-msgstr ""
+msgstr "Le canal 7 contrôle la mise sous/hors tension de la vidéo."
 
 #: ../../source/ch_protocols.rst:193
 msgid "Options configurable on the Hubsan page:"
-msgstr ""
+msgstr "Options configurables sur la page Hubsan :"
 
 #: ../../source/ch_protocols.rst:195
 msgid ""
@@ -628,14 +642,18 @@ msgid ""
 "transmitter (Requires a 5.8GHz receiver capable of receiving and displaying "
 "video)."
 msgstr ""
+"**vTX MHz**: Définit la fréquence utilisée par l'émetteur vidéo du Hubsan "
+"HD107D (nécessite un récepteur 5.8 GHz susceptible de recevoir et d'afficher"
+" la vidéo)."
 
 #: ../../source/ch_protocols.rst:196
 msgid "**Telemetry**: Enable receiving of model battery voltage."
 msgstr ""
+"**Télémetrie**: Permet de recevoir le voltage de la batterie du modèle."
 
 #: ../../source/ch_protocols.rst:199
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "Protocole: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:200
 msgid ""
@@ -645,6 +663,10 @@ msgid ""
 " tested with this protocol, including air versions of the J4C12R.  "
 "|a7105-note|"
 msgstr ""
+"Le protocole Joysway prend en charge le yacht Carribean de Joysway, et le "
+"récepteur J4C12R utilisé dans des yachts Joysway Orion, Explorer, Dragon "
+"Force 65 et le catamaron Force2 60. Aucun autre modèle n'a été testé avec ce"
+" protocole, en incluant les versions aériennes du J4C12R.  |Note-a7105|"
 
 #: ../../source/ch_protocols.rst:208
 msgid ""
@@ -653,22 +675,30 @@ msgid ""
 "set to None, a transmitter-specific ID is used instead. It is necessary to "
 "bind each model before the first use."
 msgstr ""
+"Le Protocole Joysway supporte juqu'à 4 canaux, ne prend pas en charge l"
+"'auto-appairage, mais appairera à chaquedemande  d'appairage. Si l' ID fixe "
+"est positionné sur Néant , une ID spécifique à l'émetteur est utilisée à sa "
+"place. Il faut appairer chaque modèle avant la première utilisation."
 
 #: ../../source/ch_protocols.rst:213
 msgid ""
 "The first channel normally controls the sheets and the second channel the "
 "rudder, but this may vary from model to model."
 msgstr ""
+"Le premier canal commande normalement les voiles et le deuxième le "
+"gouvernail, mais cela peut varier d'un modèle à l'autre."
 
 #: ../../source/ch_protocols.rst:217
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "Protocole: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:218
 msgid ""
 "The Frsky-V8 protocol is used to control older Frsky™ receivers using the "
 "one-way protocol. |cc2500-note|"
 msgstr ""
+"Le protocole Frsky-V8 sert à contrôler les anciens récepteurs Frsky™ "
+"utilisant le protocole à sens unique.  |Note-cc2500|"
 
 #: ../../source/ch_protocols.rst:222
 msgid ""
@@ -676,16 +706,23 @@ msgid ""
 "If Fixed ID is set to None, a transmitter-specific ID is used instead.  It "
 "is necessary to manually bind each model before the first use."
 msgstr ""
+"Le protocole Frsky-V8 supporte jusqu'à 8 canaux et n'autorise pas l'auto-"
+"appairage.  Si l' ID fixe est positionné sur Néant , une ID spécifique à "
+"l'émetteur est utilisée à sa place. Il faut appairer chaque modèle avant la "
+"première utilisation."
 
 #: ../../source/ch_protocols.rst:225
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "Protocole : \\*Frsky"
 
 #: ../../source/ch_protocols.rst:226
 msgid ""
 "The Frsky protocol is used to control newer (telemetry enabled) Frsky™ "
 "receivers using the two-way protocol (D8). |cc2500-note|"
 msgstr ""
+"Le protocole Frsky sert à contrôler les plus récents récepteurs Frsky™ "
+"(disposant de la télémétrie) utilisant un protocole bidirectionnel (D8). "
+"|Note-cc2500|"
 
 #: ../../source/ch_protocols.rst:230
 msgid ""
@@ -693,18 +730,27 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Le protocole Frsky supporte jusqu'à 8 canaux et n'autorise pas l'auto-"
+"appairage.  Si l' ID fixe est positionné sur Néant , une ID spécifique à "
+"l'émetteur est utilisée à sa place. Il faut appairer chaque modèle avant la "
+"première utilisation."
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
 "The Frsky protocol also supports enabling/disabling telemetry.  This option "
 "is accessed by pressing the Protocol spin-box when Frsky is shown."
 msgstr ""
+"Le protocole Frsky autorise également d'activer/désactiver la télémétrie. On"
+" accède à cette fonction et appuyant sur la boite de sélection du protocole "
+"quand Frsky est affiché."
 
 #: ../../source/ch_protocols.rst:234
 msgid ""
 "When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, "
 "VOLT2) are supported."
 msgstr ""
+"Lorsque la télémétrie est activée, les valeurs envoyées par le récepteur "
+"sont RSSI (puissance d'émission) Volt1 et Volt2."
 
 #: ../../source/ch_protocols.rst:236
 msgid ""
@@ -712,6 +758,9 @@ msgid ""
 "protocol on transmitters except the 7e and f7.  See the Frsky Telemetry "
 "section below."
 msgstr ""
+"Des valeurs de télémétrie du Hub sont supportées en commun avec le protocole"
+" FrskyX sur les émetteurs sauf le 7e et le F7. Voir la section télémétrie "
+"Frsky  ci dessous."
 
 #: ../../source/ch_protocols.rst:241
 msgid "Protocol: \\*FrskyX"
