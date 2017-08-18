@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 21:55+0000\n"
+"POT-Creation-Date: 2017-08-17 21:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -576,7 +576,7 @@ msgid ""
 "**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
 "PWM+SBUS or PPM+SUBS"
 msgstr ""
-"**Outputs**:**[Outputs]** : Détermine le type de sortie sur le récepteur,  "
+"**Sorties**:**[Outputs]** : Détermine le type de sortie sur le récepteur,  "
 "PWM+IBUS, PPM+IBUS, PWM+SBUS ou PPM+SUBS."
 
 #: ../../source/ch_protocols.rst:173
@@ -590,7 +590,7 @@ msgid ""
 "supported for now."
 msgstr ""
 "Prise en charge partielle de la télémétrie. Seuls le voltage du récepteur et"
-" la force du signal de réception (RSSI) en dB ont pris en charge "
+" la force du signal de réception (RSSI) en dB sont pris en charge "
 "actuellement."
 
 #: ../../source/ch_protocols.rst:178
@@ -764,23 +764,27 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:241
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "Protocole: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:242
 msgid ""
 "The FryskyX protocol implements the Frsky D16 radio protocol, including "
 "S.Port and hub telemetry.  |cc2500-note|"
 msgstr ""
+"Le protocole FrskyX installe le protocole de la radio Frsky D16, en incluant"
+" le S.Port et le hub de télémétrie.  |note-cc2500|"
 
 #: ../../source/ch_protocols.rst:246
 msgid ""
 "This protocol supports up to 12 channels. Fixed ID binding is supported to "
 "link the transmitter wtih specific receivers."
 msgstr ""
+"Le protocole supporte jusqu'à 12 canaux. L'appairage avec ID fixe est "
+"supporté pour relier l'émetteur aux récepteurs spécifiques."
 
 #: ../../source/ch_protocols.rst:248
 msgid "The following protocol options are available."
-msgstr ""
+msgstr "Les options suivantes sont disponibles pour ce protocole."
 
 #: ../../source/ch_protocols.rst:250
 msgid ""
@@ -790,6 +794,12 @@ msgid ""
 "  Default 0. The LQI telemetry value can be used as a guide for adjusting "
 "the fine frequency protocol option."
 msgstr ""
+"**Freq-fine**: Ajustement du décalage de fréquence. Intervalle -127 à 127. "
+"Ajuste les différences entre les modules CC2500. Généralement un décalage de"
+" 0 ou -41 est nécessaire, mais on devrait tester l'intervalle entier en cas "
+"de problème d'appairage ou de portée. Défaut 0. la valeur télémétrique LQI "
+"(qualité d'appairage) peut être utilisée comme guide pour cet ajustement fin"
+" de fréquence."
 
 #: ../../source/ch_protocols.rst:252
 msgid ""
@@ -798,6 +808,10 @@ msgid ""
 "network.  Default 100 (gain of 1). Range is 1 to 2000 (gain of 0.01 to "
 "20.00)."
 msgstr ""
+"**AD2GAIN**: La valeur de télémétrie VOLT2(entrée AIN - Analog IN- sur le "
+"X4R) est multipliée par cette valeur divisée par 100. Cela permet "
+"l'ajustement  du circuit à résistance diviseur de voltage externe. Le défaut"
+" est 100 (gain 1). l'échelle va de 1 à 2000 (gain de 0.01 à 20.00)."
 
 #: ../../source/ch_protocols.rst:254
 msgid ""
@@ -806,6 +820,11 @@ msgid ""
 "receiver every 9 seconds.  The receiver will use these values in failsafe "
 "mode unless the protocol option is set to RX."
 msgstr ""
+"**Sécurités**:**[Failsafe]**: les options de sécurité Frsky sont toutes "
+"prises en charge. Si la sécurité du canal ( dans la configuration du mixage "
+"du canal) est activée, cette valeur est envoyée au récepteur toutes les 9 "
+"secondes. Le récepteur utilisera ces valeurs dans le mode sécurité sauf si "
+"l'option du protocole est fixée sur RX."
 
 #: ../../source/ch_protocols.rst:256
 msgid ""
@@ -818,6 +837,15 @@ msgid ""
 "the receiver will use whatever failsafe values have been stored in the "
 "receiver."
 msgstr ""
+"Pour les canaux dont la sécurité -failsafe- est réglée sur arrêt -off-, "
+"l'option de sécurité par défaut du protocole, \"Maintien\" -\"Hold\"- "
+"commande au récepteur de maintenir la dernière valeur reçue quand le "
+"récepteur entre en mode sécurité -failsafe-. L'option \"NoPulse\" fait que "
+"le récepteur n'envoie plus aucun signal sur les sorties PPM (des tests sur "
+"X8R ont montré que les valeurs SBUS allaient au minimum, mais le "
+"comportement du SBUS n'est pas spécifié par le protocole). Le réglage \"RX\""
+" empêche Deviation d'envoyer des valeur de sécurité donc le récepteur "
+"utilisera les valeurs de sécurité qui y ont été enregistrées."
 
 #: ../../source/ch_protocols.rst:258
 msgid ""
@@ -825,6 +853,10 @@ msgid ""
 "supports S.Port and hub telemetry sensors as well as GPS on transmitters "
 "(except on 7e and f7) as described in the next section."
 msgstr ""
+"Prise en charge de la télémétrie du récepteur ( Force du signal -RSSI-, "
+"VOLT1) sur tous les émetteur. Prise en chage du S.Port et des capteurs du "
+"hub de télémétrie ainsi que du GPS sur les émetteurs (sauf 7e et f7) comme "
+"décrit dans la section suivante."
 
 #: ../../source/ch_protocols.rst:260
 msgid ""
@@ -834,10 +866,15 @@ msgid ""
 "connect to a standard decoder.  It can be connected directly to the input of"
 " a 3.3V ftdi adapter."
 msgstr ""
+"Lorsque la télémétrie du S.Port est reçue et que le PPMin n'est pas utilisé,"
+" les paquets de données sont envoyés par le port d'écolage. Le débit est de "
+"57600 pour être compatibles avec les décodeurs de S.Port, mais le signal "
+"doit être inversé pour être connecté à un décodeur standard. Il peut être "
+"connecté directement à l'entrée d'un adaptateur FTDI 3.3 V."
 
 #: ../../source/ch_protocols.rst:264
 msgid "*Frsky and FrskyX Extended Telemetry*"
-msgstr ""
+msgstr "*Télémétrie étendue Frsky et FrskyX*"
 
 #: ../../source/ch_protocols.rst:265
 msgid ""
@@ -845,6 +882,10 @@ msgid ""
 "These sensors are supported in all transmitters except the 7e.  They are "
 "available on the telemetry test pages and main page boxes."
 msgstr ""
+"La télémétrie étendue fait référence aux capteurs du hub et du S.Port Frsky."
+" Ces capteurs sont pris en charge sur tous les émetteurs excepté le 7e. Ils "
+"sont disponibles sur les affichages des pages de test de la télémétrie et "
+"des pages principales."
 
 #: ../../source/ch_protocols.rst:267
 msgid ""
@@ -853,51 +894,58 @@ msgid ""
 "the same type, but only one telemetry value is saved.  The value most "
 "recently received from all the sensors of the same type is reported."
 msgstr ""
+"Le S.port de télémétrie Frsky permet de connecter jusqu'à 16 capteurs du "
+"même type ( par ex voltage de batterie). Deviation prend en charge des "
+"capteurs multiples du même type mais une seule valeur de télémétrie est "
+"enregistrée. la valeur la plus récente de tous les capteurs du même type est"
+" rapportée."
 
 #: ../../source/ch_protocols.rst:269
 msgid "*Telemetry test page*"
-msgstr ""
+msgstr "*Page de test de la télémétrie*"
 
 #: ../../source/ch_protocols.rst:275
 msgid "The CELL voltages are labeled C1-C5."
-msgstr ""
+msgstr "Les voltages des éléments de batteries sont désignées C1-C5."
 
 #: ../../source/ch_protocols.rst:278
 msgid ""
 "The following tables show the layout of the telemetry test page display."
 msgstr ""
+"Les tableaux suivant montrent la disposition de l'affichage de la page de "
+"test de la télémétrie."
 
 #: ../../source/ch_protocols.rst:283
 msgid "Devo10"
-msgstr ""
+msgstr "Devo10"
 
 #: ../../source/ch_protocols.rst:285 ../../source/ch_protocols.rst:303
 msgid "Misc"
-msgstr ""
+msgstr "Divers"
 
 #: ../../source/ch_protocols.rst:285 ../../source/ch_protocols.rst:303
 msgid "Bat"
-msgstr ""
+msgstr "Bat"
 
 #: ../../source/ch_protocols.rst:285
 msgid "Cells"
-msgstr ""
+msgstr "Eléments"
 
 #: ../../source/ch_protocols.rst:287 ../../source/ch_protocols.rst:305
 msgid "RSSI"
-msgstr ""
+msgstr "Force signal"
 
 #: ../../source/ch_protocols.rst:287 ../../source/ch_protocols.rst:305
 msgid "VOLT1"
-msgstr ""
+msgstr "VOLT1"
 
 #: ../../source/ch_protocols.rst:287
 msgid "CELL1"
-msgstr ""
+msgstr "ELEM1"
 
 #: ../../source/ch_protocols.rst:288
 msgid "TEMP1"
-msgstr ""
+msgstr "TEMP1"
 
 #: ../../source/ch_protocols.rst:288 ../../source/ch_protocols.rst:306
 msgid "VOLT2"
