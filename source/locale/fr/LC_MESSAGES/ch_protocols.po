@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-18 21:54+0000\n"
+"POT-Creation-Date: 2017-08-19 21:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -949,63 +949,63 @@ msgstr "TEMP1"
 
 #: ../../source/ch_protocols.rst:288 ../../source/ch_protocols.rst:306
 msgid "VOLT2"
-msgstr ""
+msgstr "VOLT2"
 
 #: ../../source/ch_protocols.rst:288
 msgid "CELL2"
-msgstr ""
+msgstr "ELEM2"
 
 #: ../../source/ch_protocols.rst:289
 msgid "TEMP2"
-msgstr ""
+msgstr "TEMP2"
 
 #: ../../source/ch_protocols.rst:289
 msgid "VOLT3"
-msgstr ""
+msgstr "VOLT3"
 
 #: ../../source/ch_protocols.rst:289
 msgid "CELL3"
-msgstr ""
+msgstr "ELEM3"
 
 #: ../../source/ch_protocols.rst:290
 msgid "RPM"
-msgstr ""
+msgstr "Tr/Min"
 
 #: ../../source/ch_protocols.rst:290
 msgid "MINCELL"
-msgstr ""
+msgstr "MINELEM"
 
 #: ../../source/ch_protocols.rst:290
 msgid "CELL4"
-msgstr ""
+msgstr "ELEM4"
 
 #: ../../source/ch_protocols.rst:291
 msgid "FUEL"
-msgstr ""
+msgstr "CARBURANT"
 
 #: ../../source/ch_protocols.rst:291
 msgid "ALLCELL"
-msgstr ""
+msgstr "TOTELEM"
 
 #: ../../source/ch_protocols.rst:291
 msgid "CELL5"
-msgstr ""
+msgstr "ELEM5"
 
 #: ../../source/ch_protocols.rst:292
 msgid "ALTITUDE"
-msgstr ""
+msgstr "ALTITUDE"
 
 #: ../../source/ch_protocols.rst:292
 msgid "VOLTA"
-msgstr ""
+msgstr "VOLTA"
 
 #: ../../source/ch_protocols.rst:292
 msgid "CELL6"
-msgstr ""
+msgstr "ELEM6"
 
 #: ../../source/ch_protocols.rst:293
 msgid "VARIO"
-msgstr ""
+msgstr "VARIO"
 
 #: ../../source/ch_protocols.rst:293
 msgid "CURRENT"
