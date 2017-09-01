@@ -13,7 +13,7 @@ Deviation can be configured to work with virtually any transmitter that supports
 
 Master Mode
 ~~~~~~~~~~~
-Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section :ref:`model-setup`. Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently: 
+Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the ‘PPM In’ spin-box in section :ref:`model-setup`. Pressing ‘ENT’ on either ‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave slightly differently:
 
 .. image:: images/|target|/ch_advanced/master_stick.png
    :align: center
@@ -66,13 +66,14 @@ Deviation has the capability to create virtual switches to supplement the mechan
 * **Momentary**: The switch will be active only as long as the trim button is held
 * **Toggle**: The switch will toggle from on-to-off or off-to-on each time the trim button is pressed
 * **On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button will turn it off-to-on
+* **3 Pos**: The switch will be active in one direction as long as the Trim+ button is held, and in the other direction as long as the Trim- button is held, returning to center when released.
 
 To setup a virtual switch, start by selecting the trim from the 'Trim' page, and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`
 
 .. image:: images/|target|/ch_advanced/virtsw.png
    :align: center
 
-Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box until the value is less-than 0.1
+Next set the 'Trim Step' field to 'Momentary', 'Toggle', 'On/Off' or '3 Pos'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box until the value is less-than 0.1
 Second select the 'Input' to be the virtual channel to convert to a switch (we'll use 'Virt1')
 
 .. image:: images/|target|/ch_advanced/virtsw2.png
@@ -84,9 +85,9 @@ Second select the 'Input' to be the virtual channel to convert to a switch (we'l
 
    Set the mixer-type to 'Complex', set the 'src' to the current virtual channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the scale to '0', and finally enable the 'Trim' button.
 
-You can now use the virtual channel ('Virt1') like any other switch input.  When the virtual switch is active, the virtual channel will have a value of 100, otherwise it will have a value of -100.
+You can now use the virtual channel ('Virt1') like any other switch input.  When the virtual switch is active, the virtual channel will have a value of 100, otherwise it will have a value of -100.  In the case of '3 Pos', virtual channel will have a value of -100 when trim is pressed in one direction, +100 when pressed in the other direction, otherwise it will have a value of 0.
 
-\ 
+\
 
 .. cssclass:: bold-italic
 
@@ -112,21 +113,21 @@ Deviation provides control for several swash-plate layouts, these include: 120°
 .. image:: images/common/ch_advanced/swash_120x.png
    :align: center
 
-**120X (3 Servo)**: Same as the above layout except servos are shifted 150°. With Aileron input, the three servos tilt the swash-plate left and right; with Elevator input, the elevator and pitch servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down. 
+**120X (3 Servo)**: Same as the above layout except servos are shifted 150°. With Aileron input, the three servos tilt the swash-plate left and right; with Elevator input, the elevator and pitch servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down.
 
 .. image:: images/common/ch_advanced/swash_140.png
    :align: center
 
-**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates are almost the same as 120° swash-plates. However, the servo arrangement for elevator operation differs. 140° swash-plate CCPM offers smoother operation of the combined servos and an equal cyclic rate all around. On a 120° setup, the left/right cyclic is slightly faster than the fore/aft cyclic. 
+**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates are almost the same as 120° swash-plates. However, the servo arrangement for elevator operation differs. 140° swash-plate CCPM offers smoother operation of the combined servos and an equal cyclic rate all around. On a 120° setup, the left/right cyclic is slightly faster than the fore/aft cyclic.
 
 .. image:: images/common/ch_advanced/swash_90.png
    :align: center
 
 **90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the swash-plate left and right; with elevator input, the servos tilt the swash-plate fore and aft; with Pitch input, all three servos raise the swash-plate up and down. Most commonly used for electronic helicopters.
 
-**None**: This is a special case where all mixing is done on-board the helicopter using a gyroscopic flight control system. Please refer to the specific manufacturers instructions to see how to configure mixer outputs.  
+**None**: This is a special case where all mixing is done on-board the helicopter using a gyroscopic flight control system. Please refer to the specific manufacturers instructions to see how to configure mixer outputs.
 
-\ 
+\
 
 .. cssclass:: bold-italic
 
