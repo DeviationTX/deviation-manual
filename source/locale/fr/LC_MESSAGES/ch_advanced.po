@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-30 22:05+0000\n"
+"POT-Creation-Date: 2017-09-01 04:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -263,7 +263,14 @@ msgstr ""
 "**On/Off**: Le bouton Trim+ ouvrira l'interrupteur et le bouton Trim- le "
 "fermera."
 
-#: ../../source/ch_advanced.rst:70
+#: ../../source/ch_advanced.rst:69
+msgid ""
+"**3 Pos**: The switch will be active in one direction as long as the Trim+ "
+"button is held, and in the other direction as long as the Trim- button is "
+"held, returning to center when released."
+msgstr ""
+
+#: ../../source/ch_advanced.rst:71
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
@@ -272,20 +279,15 @@ msgstr ""
 "trim en entrant dans la page Trims. Voir :ref:`trims-et-entrées-"
 "virtuelles'.`"
 
-#: ../../source/ch_advanced.rst:75
+#: ../../source/ch_advanced.rst:76
 msgid ""
-"Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This "
-"is done by pressing the left-arrow on the 'Trim Step' spin-box until the "
-"value is less-than 0.1 Second select the 'Input' to be the virtual channel "
-"to convert to a switch (we'll use 'Virt1')"
+"Next set the 'Trim Step' field to 'Momentary', 'Toggle', 'On/Off' or '3 "
+"Pos'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box "
+"until the value is less-than 0.1 Second select the 'Input' to be the virtual"
+" channel to convert to a switch (we'll use 'Virt1')"
 msgstr ""
-"Puis mettre le champ 'Finesse' sur  'Momentary', 'Toggle' ou 'On/Off'. Ceci "
-"est réalisé en pressant la flèche gauche de la boite de choix 'Finesse' "
-"jusqu'à ce que la valeur affichée soit inférieure à 0.1 seconde. "
-"Sélectionner  en 'Entrée' le canal virtuel à convertir en interrupteur (nous"
-" utiliserons 'Virt1')"
 
-#: ../../source/ch_advanced.rst:83
+#: ../../source/ch_advanced.rst:84
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
@@ -293,7 +295,7 @@ msgstr ""
 "Puis aller dans la page 'Mixer' et entrer la configuration pour le canal "
 "virtuel choisi (Virt1 dans notre exemple)."
 
-#: ../../source/ch_advanced.rst:85
+#: ../../source/ch_advanced.rst:86
 msgid ""
 "Set the mixer-type to 'Complex', set the 'src' to the current virtual "
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
@@ -303,21 +305,21 @@ msgstr ""
 "virtuel  ('Virt1'), choisir la courbe '1-à-1' (NE PAS choisir 'Fixe'), fixer"
 " l'échelle à '0' et enfin sélectioner 'Trim'."
 
-#: ../../source/ch_advanced.rst:87
+#: ../../source/ch_advanced.rst:88
 msgid ""
 "You can now use the virtual channel ('Virt1') like any other switch input.  "
 "When the virtual switch is active, the virtual channel will have a value of "
-"100, otherwise it will have a value of -100."
+"100, otherwise it will have a value of -100.  In the case of '3 Pos', "
+"virtual channel will have a value of -100 when trim is pressed in one "
+"direction, +100 when pressed in the other direction, otherwise it will have "
+"a value of 0."
 msgstr ""
-"Vous pouvez maintenant utiliser le canal virtuel  ('Virt1') comme n'importe "
-"quel autre entrée d'interrupteur. Quand l'interrupteur virtuel est actif, le"
-" canal virtuel aura une valeur de 100, autrement il aura une valeur de -100."
 
-#: ../../source/ch_advanced.rst:89 ../../source/ch_advanced.rst:129
+#: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
 msgid "\\"
 msgstr "\\"
 
-#: ../../source/ch_advanced.rst:93
+#: ../../source/ch_advanced.rst:94
 msgid ""
 "Note: If you use the virtual channel as a 'Src' (as opposed to a 'Switch') "
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
@@ -327,11 +329,11 @@ msgstr ""
 "un 'interrupteur\"), assurez vous que 'Trim' est désactivez pour ce mixer, "
 "autrement le trim sera appliqué deux fois."
 
-#: ../../source/ch_advanced.rst:98
+#: ../../source/ch_advanced.rst:99
 msgid "Swash Mixing"
 msgstr "Mixage du plateau cyclique"
 
-#: ../../source/ch_advanced.rst:99
+#: ../../source/ch_advanced.rst:100
 msgid ""
 "A swash-plate is used to control flight on an RC helicopter.  The swash-"
 "plate controls the plane of rotation of the main-rotor as well as the blade "
@@ -352,7 +354,7 @@ msgstr ""
 "mixage est appelé mixage pas cyclique pas collectif (cyclic Collective Pitch"
 " Mixing (CCMP))."
 
-#: ../../source/ch_advanced.rst:101
+#: ../../source/ch_advanced.rst:102
 msgid ""
 "Traditionally, RC helicopters have used a flybar above or below the main "
 "rotor attached to a series of linkages to maintain stability.  In these "
@@ -377,7 +379,7 @@ msgstr ""
 "et le mixer électronique convertit les signaux en mouvements correctes des "
 "servos du plateau cyclique."
 
-#: ../../source/ch_advanced.rst:103
+#: ../../source/ch_advanced.rst:104
 msgid ""
 "Recently, flybarless (FBL) helicopters have become more common, especially "
 "in the micro size range.  These helicopters use an eCCPM system along with "
@@ -393,7 +395,7 @@ msgstr ""
 " barre de Bell. Cette configuration tend à être moins chère à produire, et "
 "elle permet une meilleure stabilité et un contrôle plus précis."
 
-#: ../../source/ch_advanced.rst:105
+#: ../../source/ch_advanced.rst:106
 msgid ""
 "Deviation provides control for several swash-plate layouts, these include: "
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
@@ -403,7 +405,7 @@ msgstr ""
 "cycliques. Ils comprennent : 120°, 120° Alternatif , 140°, 90°, et néant. "
 "Chaque configuration est décrite ci dessous."
 
-#: ../../source/ch_advanced.rst:110
+#: ../../source/ch_advanced.rst:111
 msgid ""
 "**120 (3 Servo)**: Servos are placed around the swash-plate at 120° "
 "intervals. With Aileron input, the aileron and pitch servos tilt the swash-"
@@ -419,7 +421,7 @@ msgstr ""
 "le plateau par les trois servos. Le travail simultané des servos accroit "
 "considérablement le couple disponible ainsi que la précision et le centrage."
 
-#: ../../source/ch_advanced.rst:115
+#: ../../source/ch_advanced.rst:116
 msgid ""
 "**120X (3 Servo)**: Same as the above layout except servos are shifted 150°."
 " With Aileron input, the three servos tilt the swash-plate left and right; "
@@ -433,7 +435,7 @@ msgstr ""
 "servos Profondeur et pas inclinent le plateau en avant et en arrière ; avec "
 "l'entrée pas les trois servos élèvent ou abaissent le plateau."
 
-#: ../../source/ch_advanced.rst:120
+#: ../../source/ch_advanced.rst:121
 msgid ""
 "**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates "
 "are almost the same as 120° swash-plates. However, the servo arrangement for"
@@ -449,7 +451,7 @@ msgstr ""
 " cyclique droite/gauche est légèrement plus rapide que le pas cyclique "
 "avant/arrière. "
 
-#: ../../source/ch_advanced.rst:125
+#: ../../source/ch_advanced.rst:126
 msgid ""
 "**90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the "
 "swash-plate left and right; with elevator input, the servos tilt the swash-"
@@ -462,7 +464,7 @@ msgstr ""
 " servos elèvent ou abaissent le plateau. C'est la configuration la plus "
 "commune pour les hélicoptères électroniques."
 
-#: ../../source/ch_advanced.rst:127
+#: ../../source/ch_advanced.rst:128
 msgid ""
 "**None**: This is a special case where all mixing is done on-board the "
 "helicopter using a gyroscopic flight control system. Please refer to the "
@@ -472,7 +474,7 @@ msgstr ""
 "l'hélicoptère qui utilise un système de contrôle de vol gyroscopique. "
 "Référez vous aux instructions du constructeur pour configurer les mixages."
 
-#: ../../source/ch_advanced.rst:133
+#: ../../source/ch_advanced.rst:134
 msgid ""
 "Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these "
 "cases you will still use the designated swash-plate type but may need to "
@@ -482,11 +484,11 @@ msgstr ""
 " Dans ces cas, vous utiliserez les modèles de plateau considérés, mais vous "
 "pourrez avoir besoin d'inverser certains canaux."
 
-#: ../../source/ch_advanced.rst:138
+#: ../../source/ch_advanced.rst:139
 msgid "Modifying sounds"
 msgstr "Modification des sons."
 
-#: ../../source/ch_advanced.rst:140
+#: ../../source/ch_advanced.rst:141
 msgid ""
 "You can edit the sounds your Devo makes, though you have to do it by "
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
@@ -496,56 +498,56 @@ msgstr ""
 "l'émetteur en mode USB et éditer le fichier 'sound.ini' dans le dossier "
 "'media'"
 
-#: ../../source/ch_advanced.rst:144
+#: ../../source/ch_advanced.rst:145
 msgid "The sections, and what causes them to play, are:"
 msgstr "Les sections et ce qui provoque l'émission du son sont :"
 
-#: ../../source/ch_advanced.rst:146
+#: ../../source/ch_advanced.rst:147
 msgid "**startup**: Powered on."
 msgstr "**startup**: Mise sous tension."
 
-#: ../../source/ch_advanced.rst:147
+#: ../../source/ch_advanced.rst:148
 msgid "**shutdown**: Powering off."
 msgstr "**shutdown**: Mise hors tension."
 
-#: ../../source/ch_advanced.rst:148
+#: ../../source/ch_advanced.rst:149
 msgid "**volume**: Configuring transmitter volume."
 msgstr "**volume**: Régler le volume de l'émetteur."
 
-#: ../../source/ch_advanced.rst:149
+#: ../../source/ch_advanced.rst:150
 msgid "**timer_warning**: Timer is about to expire."
 msgstr "**timer_warning**: La durée du chrono va se terminer."
 
-#: ../../source/ch_advanced.rst:150
+#: ../../source/ch_advanced.rst:151
 msgid "**alarm#**: Timer # (1 to 4) has expired."
 msgstr "**alarm#**: La durée du chrono (1 à 4) est expirée."
 
-#: ../../source/ch_advanced.rst:151
+#: ../../source/ch_advanced.rst:152
 msgid "**batt_alarm**: Battery low warning."
 msgstr "**batt_alarm**: Avertissement batterie déchargée."
 
-#: ../../source/ch_advanced.rst:152
+#: ../../source/ch_advanced.rst:153
 msgid "**done_binding**: Binding finished."
 msgstr "**done_binding**: Liaison terminée."
 
-#: ../../source/ch_advanced.rst:153
+#: ../../source/ch_advanced.rst:154
 msgid "**key_pressing**: On a key press"
 msgstr "**key_pressing**: Lors de la pression d'un bouton."
 
-#: ../../source/ch_advanced.rst:154
+#: ../../source/ch_advanced.rst:155
 msgid "**saving**: When saving a model file."
 msgstr "**saving**: Lors de la sauvegarde d'un fichier de modèle."
 
-#: ../../source/ch_advanced.rst:155
+#: ../../source/ch_advanced.rst:156
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
 msgstr "**max_len**:Quand la chaine entrée au clavier est trop longue."
 
-#: ../../source/ch_advanced.rst:156
+#: ../../source/ch_advanced.rst:157
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
 msgstr "**telem_alarm#**: Une alarme de télémétrie (1 à 6) a été déclenchée."
 
-#: ../../source/ch_advanced.rst:158
+#: ../../source/ch_advanced.rst:159
 msgid ""
 "In each section, you can adjust set 'volume' from 0 (off) to 100 (max). The "
 "rest of the entries are note names, and the value is the number of "
@@ -557,7 +559,7 @@ msgstr ""
 "millisecondes pendant lequel elles sont jouées. Il y a une limite de 100 "
 "notes pour chaque son."
 
-#: ../../source/ch_advanced.rst:163
+#: ../../source/ch_advanced.rst:164
 msgid ""
 "The note names are 'xx', which is a rest (no sound played). You can then "
 "pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's 'a', 'c', "
