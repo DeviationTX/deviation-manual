@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 21:07+0000\n"
+"POT-Creation-Date: 2017-09-01 04:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -269,7 +269,14 @@ msgstr ""
 "**Ki/Be**: A Trim+ gomb bekapcsolja, a Trim- gomb pedig kikapcsolja a "
 "kapcsolót."
 
-#: ../../source/ch_advanced.rst:70
+#: ../../source/ch_advanced.rst:69
+msgid ""
+"**3 Pos**: The switch will be active in one direction as long as the Trim+ "
+"button is held, and in the other direction as long as the Trim- button is "
+"held, returning to center when released."
+msgstr ""
+
+#: ../../source/ch_advanced.rst:71
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
@@ -278,20 +285,15 @@ msgstr ""
 "\"Trim\" képernyőn, és nyisd meg a konfiguráló képernyőt. Lásd :ref:`trims-"
 "and-virtual-inputs`."
 
-#: ../../source/ch_advanced.rst:75
+#: ../../source/ch_advanced.rst:76
 msgid ""
-"Next set the 'Trim Step' field to 'Momentary', 'Toggle' or 'On/Off'.  This "
-"is done by pressing the left-arrow on the 'Trim Step' spin-box until the "
-"value is less-than 0.1 Second select the 'Input' to be the virtual channel "
-"to convert to a switch (we'll use 'Virt1')"
+"Next set the 'Trim Step' field to 'Momentary', 'Toggle', 'On/Off' or '3 "
+"Pos'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box "
+"until the value is less-than 0.1 Second select the 'Input' to be the virtual"
+" channel to convert to a switch (we'll use 'Virt1')"
 msgstr ""
-"Utána állítsd a \"Trim lépés\" mezőt \"Pillanat kapcsoló\", \"Kapcsoló\" "
-"vagy \"Ki/Be\" értékűre. Ezt a \"Trim lépés\" kiválasztó doboz bal oldali "
-"nyilával érheted el, ha a 0.1 érték alatt. Utána add meg a \"Bemenet\" "
-"mezőben a kapcsolóként felhasznált virtuális csatornát (példánkban ez legyen"
-" a Virt1)."
 
-#: ../../source/ch_advanced.rst:83
+#: ../../source/ch_advanced.rst:84
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
@@ -299,7 +301,7 @@ msgstr ""
 "Most menj a \"Mixer\" képernyőre, és nyisd meg az adott virtuális csatorna "
 "(példánkban a Virt1) konfigurációját."
 
-#: ../../source/ch_advanced.rst:85
+#: ../../source/ch_advanced.rst:86
 msgid ""
 "Set the mixer-type to 'Complex', set the 'src' to the current virtual "
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
@@ -310,21 +312,21 @@ msgstr ""
 "\"Fix\"-et), álítsd a skálát \"0\"-ra, és végül engedélyezd a \"Trim\" "
 "gombot."
 
-#: ../../source/ch_advanced.rst:87
+#: ../../source/ch_advanced.rst:88
 msgid ""
 "You can now use the virtual channel ('Virt1') like any other switch input.  "
 "When the virtual switch is active, the virtual channel will have a value of "
-"100, otherwise it will have a value of -100."
+"100, otherwise it will have a value of -100.  In the case of '3 Pos', "
+"virtual channel will have a value of -100 when trim is pressed in one "
+"direction, +100 when pressed in the other direction, otherwise it will have "
+"a value of 0."
 msgstr ""
-"Most már használhatod a virtuális csatornát (Virt1), mint bármely más "
-"kapcsoló bemenetet. Amikor a virtuális kapcsoló aktív, a virtuális csatorna "
-"értéke 100 lesz, egyébként az értéke -100 lesz."
 
-#: ../../source/ch_advanced.rst:89 ../../source/ch_advanced.rst:129
+#: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
 msgid "\\"
 msgstr "\\"
 
-#: ../../source/ch_advanced.rst:93
+#: ../../source/ch_advanced.rst:94
 msgid ""
 "Note: If you use the virtual channel as a 'Src' (as opposed to a 'Switch') "
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
@@ -335,11 +337,11 @@ msgstr ""
 "adott lapon a \"Nincs Trim\" gombbal, különben az adott trim érték duplán "
 "lesz hozzáadva."
 
-#: ../../source/ch_advanced.rst:98
+#: ../../source/ch_advanced.rst:99
 msgid "Swash Mixing"
 msgstr "Imbolygó beállítások"
 
-#: ../../source/ch_advanced.rst:99
+#: ../../source/ch_advanced.rst:100
 msgid ""
 "A swash-plate is used to control flight on an RC helicopter.  The swash-"
 "plate controls the plane of rotation of the main-rotor as well as the blade "
@@ -359,7 +361,7 @@ msgstr ""
 "tárcsa szervóinak vezérléséhez. Ezt a mixelést ciklikus kollektív állásszög "
 "mixelésnek (Cyclic Collective Pitch Mixing - CCPM) hívjuk."
 
-#: ../../source/ch_advanced.rst:101
+#: ../../source/ch_advanced.rst:102
 msgid ""
 "Traditionally, RC helicopters have used a flybar above or below the main "
 "rotor attached to a series of linkages to maintain stability.  In these "
@@ -384,7 +386,7 @@ msgstr ""
 "botkormány bemenetek jeleit küldi, és az elektronikus mixer fogja "
 "átalakítani azokat a megfelelő imbolygó szervó jelekké."
 
-#: ../../source/ch_advanced.rst:103
+#: ../../source/ch_advanced.rst:104
 msgid ""
 "Recently, flybarless (FBL) helicopters have become more common, especially "
 "in the micro size range.  These helicopters use an eCCPM system along with "
@@ -400,7 +402,7 @@ msgstr ""
 "egyszerűbben szervizelhető, ráadásul nagyobb stabilitást és pontosabb "
 "irányítást tesz lehetővé."
 
-#: ../../source/ch_advanced.rst:105
+#: ../../source/ch_advanced.rst:106
 msgid ""
 "Deviation provides control for several swash-plate layouts, these include: "
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
@@ -409,7 +411,7 @@ msgstr ""
 "A Deviation többféle imbolygó tárcsa szervó elrendezést támogat, mint pl. a "
 "120°, 120° fordított, 140°, 90°, és a mixelés nélküli, melyek így néznek ki:"
 
-#: ../../source/ch_advanced.rst:110
+#: ../../source/ch_advanced.rst:111
 msgid ""
 "**120 (3 Servo)**: Servos are placed around the swash-plate at 120° "
 "intervals. With Aileron input, the aileron and pitch servos tilt the swash-"
@@ -426,7 +428,7 @@ msgstr ""
 "összhangban működő szervók drasztikusan megnövelik a rendelkezésre álló "
 "nyomatékot, valamint a precizitást."
 
-#: ../../source/ch_advanced.rst:115
+#: ../../source/ch_advanced.rst:116
 msgid ""
 "**120X (3 Servo)**: Same as the above layout except servos are shifted 150°."
 " With Aileron input, the three servos tilt the swash-plate left and right; "
@@ -440,7 +442,7 @@ msgstr ""
 "kollektív szervók döntik az imbolygót előre és hátra; míg a kollektív bot "
 "mindhárom szervót egy irányba mozgatva emeli és süllyeszti az imbolygót."
 
-#: ../../source/ch_advanced.rst:120
+#: ../../source/ch_advanced.rst:121
 msgid ""
 "**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates "
 "are almost the same as 120° swash-plates. However, the servo arrangement for"
@@ -454,7 +456,7 @@ msgstr ""
 "egyforma ciklikus sebességgel. A 120°-os elrendezésben a bal/jobb döntés "
 "kicsit gyorsabb, mint az előre/hátra."
 
-#: ../../source/ch_advanced.rst:125
+#: ../../source/ch_advanced.rst:126
 msgid ""
 "**90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the "
 "swash-plate left and right; with elevator input, the servos tilt the swash-"
@@ -467,7 +469,7 @@ msgstr ""
 " és süllyeszti az imbolygót. Ez a leggyakoribb elrendezés az elektronikus "
 "helikoptereken."
 
-#: ../../source/ch_advanced.rst:127
+#: ../../source/ch_advanced.rst:128
 msgid ""
 "**None**: This is a special case where all mixing is done on-board the "
 "helicopter using a gyroscopic flight control system. Please refer to the "
@@ -477,7 +479,7 @@ msgstr ""
 "repülésirányító rendszere végzi. A kimenetek konfigurálásához annak gyártója"
 " által kiadott utasításokat kell követni."
 
-#: ../../source/ch_advanced.rst:133
+#: ../../source/ch_advanced.rst:134
 msgid ""
 "Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these "
 "cases you will still use the designated swash-plate type but may need to "
@@ -488,11 +490,11 @@ msgstr ""
 "vagy 140 fokos elrendezést, de lehet, hogy egyes csatornákat invertálnod "
 "kell."
 
-#: ../../source/ch_advanced.rst:138
+#: ../../source/ch_advanced.rst:139
 msgid "Modifying sounds"
 msgstr "Hangok módosítása"
 
-#: ../../source/ch_advanced.rst:140
+#: ../../source/ch_advanced.rst:141
 msgid ""
 "You can edit the sounds your Devo makes, though you have to do it by "
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
@@ -502,58 +504,58 @@ msgstr ""
 "csatlakoztatni kell a távirányítót a PC-hez USB meghajtóként, és át kell "
 "írni a \"media\" könyvtárban található \"sound.ini\" fájl tartalmát."
 
-#: ../../source/ch_advanced.rst:144
+#: ../../source/ch_advanced.rst:145
 msgid "The sections, and what causes them to play, are:"
 msgstr ""
 "A fájlban található szekciók egy-egy hangot írnak le, és az alábbi események"
 " váltják ki őket:"
 
-#: ../../source/ch_advanced.rst:146
+#: ../../source/ch_advanced.rst:147
 msgid "**startup**: Powered on."
 msgstr "**startup**: Bekapcsolás."
 
-#: ../../source/ch_advanced.rst:147
+#: ../../source/ch_advanced.rst:148
 msgid "**shutdown**: Powering off."
 msgstr "**shutdown**: Kikapcsolás."
 
-#: ../../source/ch_advanced.rst:148
+#: ../../source/ch_advanced.rst:149
 msgid "**volume**: Configuring transmitter volume."
 msgstr "**volume**: A távirányító hangerejének változtatása."
 
-#: ../../source/ch_advanced.rst:149
+#: ../../source/ch_advanced.rst:150
 msgid "**timer_warning**: Timer is about to expire."
 msgstr "**timer_warning**: Az időzítő le fog járni."
 
-#: ../../source/ch_advanced.rst:150
+#: ../../source/ch_advanced.rst:151
 msgid "**alarm#**: Timer # (1 to 4) has expired."
 msgstr "**alarm#**: Időzítő # (1...4) lejárt."
 
-#: ../../source/ch_advanced.rst:151
+#: ../../source/ch_advanced.rst:152
 msgid "**batt_alarm**: Battery low warning."
 msgstr "**batt_alarm**: Alacsony telepfeszültség riasztás."
 
-#: ../../source/ch_advanced.rst:152
+#: ../../source/ch_advanced.rst:153
 msgid "**done_binding**: Binding finished."
 msgstr "**done_binding**: A párosítás befejeződött."
 
-#: ../../source/ch_advanced.rst:153
+#: ../../source/ch_advanced.rst:154
 msgid "**key_pressing**: On a key press"
 msgstr "**key_pressing**: Gombnyomás hangja."
 
-#: ../../source/ch_advanced.rst:154
+#: ../../source/ch_advanced.rst:155
 msgid "**saving**: When saving a model file."
 msgstr "**saving**: A modell fájl mentésekor."
 
-#: ../../source/ch_advanced.rst:155
+#: ../../source/ch_advanced.rst:156
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
 msgstr "**max_len**: Ha meghaladtad a maximálisan beírható szöveg hosszát."
 
-#: ../../source/ch_advanced.rst:156
+#: ../../source/ch_advanced.rst:157
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
 msgstr "**telem_alarm#**: Telemetria riasztás # (1...6)."
 
-#: ../../source/ch_advanced.rst:158
+#: ../../source/ch_advanced.rst:159
 msgid ""
 "In each section, you can adjust set 'volume' from 0 (off) to 100 (max). The "
 "rest of the entries are note names, and the value is the number of "
@@ -565,7 +567,7 @@ msgstr ""
 "egy-egy hangjegy neve, a hozzájuk tartozó értékek pedig az adott hangjegy "
 "hossza milliszekundumban. Egy hangjelzés maximum 100 hangjegyből állhat."
 
-#: ../../source/ch_advanced.rst:163
+#: ../../source/ch_advanced.rst:164
 msgid ""
 "The note names are 'xx', which is a rest (no sound played). You can then "
 "pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's 'a', 'c', "
