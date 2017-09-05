@@ -530,7 +530,7 @@ Telemetry config (Std & Adv GUI)
 
    * **Telemetry**: Specify the telemetry input to use for alarm
      control.  The set of values available will depend on the protocol.
-   * **Equality**: Can be '>' or '<=' indicating whether a value above or below the target causes an alarm.
+   * **Equality**: Can be '>' or '<=' indicating whether a value above or below the target causes an alarm. Pushing the ENT button will play the alarm sound once.
    * **Target**: The target value for the alarm. Additionaly, by pushing the ENT button you can cycle through a time delay (between 0 and 9 seconds) for which the target value has to be continuously reached before triggering the alarm. 
 
 .. _trims-and-virtual-inputs:
