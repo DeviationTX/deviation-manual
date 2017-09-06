@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 21:07+0000\n"
+"POT-Creation-Date: 2017-09-06 04:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -1091,15 +1091,18 @@ msgstr ""
 
 #: ../../source/ch_model.rst:507
 msgid ""
-"**Equality**: Can be '>=' or '<=' indicating whether a value above or below "
-"the target causes an alarm."
+"**Equality**: Can be '>' or '<=' indicating whether a value above or below "
+"the target causes an alarm. Pushing the ENT button will play the alarm sound"
+" once."
 msgstr ""
-"**Reláció**: Lehet \">=\" vagy \"<=\", így a megadott értékénél kisebb és "
-"nagyobb értékekre is kérhető riasztás."
 
 #: ../../source/ch_model.rst:508
-msgid "**Target**: The target value for the alarm."
-msgstr "**Határ**: A riasztás határértéke."
+msgid ""
+"**Target**: The target value for the alarm. Additionaly, by pushing the ENT "
+"button you can cycle through a time delay (between 0 and 9 seconds) for "
+"which the target value has to be continuously reached before triggering the "
+"alarm."
+msgstr ""
 
 #: ../../source/ch_model.rst:513
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
