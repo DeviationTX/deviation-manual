@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 22:03+0000\n"
+"POT-Creation-Date: 2017-09-20 22:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -1708,118 +1708,142 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:599
 msgid "Protocol: \\*CG023"
-msgstr ""
+msgstr "Protocole: \\*CG023"
 
 #: ../../source/ch_protocols.rst:600
 msgid ""
 "The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has "
 "not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"Le protocole CG023 est utilisé sur les quadricoptères Eachine  CG023 et 3D "
+"X4  . Il n'a été testé sur aucun autre modèle.  |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:605
 msgid "The CG023 protocol supports 9 channels and only supports auto-binding."
 msgstr ""
+"Le protocole  CG023  supporte 9 canaux et n'autorise que l'auto-appairage."
 
 #: ../../source/ch_protocols.rst:608 ../../source/ch_protocols.rst:632
 #: ../../source/ch_protocols.rst:662
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
 msgstr ""
+"Les quatre premiers canaux sont : Ailerons, profondeur, gaz et dérive."
 
 #: ../../source/ch_protocols.rst:610 ../../source/ch_protocols.rst:634
 msgid "Channel 5 controls the LEDs."
-msgstr ""
+msgstr "Le canal 5 contrôle les Leds."
 
 #: ../../source/ch_protocols.rst:612 ../../source/ch_protocols.rst:636
 #: ../../source/ch_protocols.rst:666
 msgid "Channel 6 controls Flip mode."
-msgstr ""
+msgstr "Le canal 6 permet le mode 'flip'."
 
 #: ../../source/ch_protocols.rst:614 ../../source/ch_protocols.rst:638
 #: ../../source/ch_protocols.rst:668
 msgid "Channel 7 controls the still camera"
-msgstr ""
+msgstr "Le canal 7 contrôle la prise de vue fixe."
 
 #: ../../source/ch_protocols.rst:616 ../../source/ch_protocols.rst:640
 #: ../../source/ch_protocols.rst:670
 msgid "Channel 8 controls the video camera."
-msgstr ""
+msgstr "Le canal 8 contrôle la caméra vidéo."
 
 #: ../../source/ch_protocols.rst:618 ../../source/ch_protocols.rst:642
 #: ../../source/ch_protocols.rst:672
 msgid "Channel 9 controls headless mode."
 msgstr ""
+"Le canal 9 contrôle le mode de contrôle d'orientation intelligent - "
+"[headless}"
 
 #: ../../source/ch_protocols.rst:620
 msgid "The protocol has a Format option for the YD829 quadcopter."
-msgstr ""
+msgstr "Le protocole a une option de format pour le quadricoptère YD829."
 
 #: ../../source/ch_protocols.rst:623
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "Protocole: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:624
 msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"Le protocole H8_3Dest utilisé sur les quadricoptères Eachine  H8 3D, JJRC "
+"H20 et H11D  . Il n'a été testé sur aucun autre modèle.  |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:629
 msgid ""
 "The H8_3D protocol supports 11 channels and only supports auto-binding."
 msgstr ""
+"Le protocole  H8_3D  supporte 11 canaux et n'autorise que l'auto-appairage."
 
 #: ../../source/ch_protocols.rst:644
 msgid "Channel 10 controls RTH mode."
 msgstr ""
+"Le canal 10 contrôle le mode retour au départ  - RTH - Return to home."
 
 #: ../../source/ch_protocols.rst:646
 msgid "Channel 11 controls camera gimball on H11D and has 3 positions."
 msgstr ""
+"Le canal 11 contrôle le support de caméra sur le H11D et a 3 positions."
 
 #: ../../source/ch_protocols.rst:648
 msgid ""
 "Both sticks bottom left starts accelerometer calibration on H8 3D, or "
 "headless calibration on H20."
 msgstr ""
+"Mettre les deux manches en bas à gauche initialise la calibration des "
+"accéléromètres sur le H8 3D ou la calibration du  de contrôle d'orientation "
+"intelligent - [headless} sur le H20."
 
 #: ../../source/ch_protocols.rst:650
 msgid ""
 "Both sticks bottom right starts accelerometer calibration on H20 and H11D."
 msgstr ""
+"Mettre les deux manches en bas à droite initialise la calibration des "
+"accéléromètres sur le H20 et le H11D."
 
 #: ../../source/ch_protocols.rst:653
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "Protocole: \\*MJXq"
 
 #: ../../source/ch_protocols.rst:654
 msgid ""
 "The MJXq protocol supports the MJX quadcopters. It also has format options "
 "for Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|"
 msgstr ""
+"Le protocole MJXq supporte les quadricoptères MJX. Il posséde aussi des "
+"options de format pour les Weilihua WLH08, EAchine E010 et JJRC H26D / "
+"H26WH. |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:659
 msgid "The MJXq protocol supports 12 channels and only supports auto-binding."
 msgstr ""
+"Le protocole  MJXq  supporte 12 canaux et n'autorise que l'auto-appairage."
 
 #: ../../source/ch_protocols.rst:664
 msgid "Channel 5 controls LEDs, or arm if H26WH format is selected."
 msgstr ""
+"Le canal 5 contrôle les LEDs ou active si le format  H26WH est choisi."
 
 #: ../../source/ch_protocols.rst:674
 msgid "Channel 10 controls RTH mode"
 msgstr ""
+"Le canal 10 contrôle le mode retour au départ  - RTH - Return to home."
 
 #: ../../source/ch_protocols.rst:676
 msgid "Channel 11 controls autoflip (X600 & X800 formats) or camera pan"
 msgstr ""
+"Le canal 11 contrôle le flip automatique  (formats X600 & X800 ) ou le "
+"déplacement horizontal de la caméra."
 
 #: ../../source/ch_protocols.rst:678
 msgid "Channel 12 controls camera tilt"
-msgstr ""
+msgstr "Le canal 12 contrôle l'inclinaison verticale de la caméra."
 
 #: ../../source/ch_protocols.rst:681
 msgid "Protocol: \\*PPM"
-msgstr ""
+msgstr "Protocole: \\*PPM"
 
 #: ../../source/ch_protocols.rst:682
 msgid ""
@@ -1828,10 +1852,14 @@ msgid ""
 "other radio-modules that plug into the trainer port.  The Fixed ID has no "
 "effect, and there is no binding associated with this protocol."
 msgstr ""
+"Le protocole PPM est utilisé pour envoyer une modulation PPM sur le port "
+"d'écolage. Il arrête la transmission radio. Il est utile pour connecter les "
+"simulateurs ou d'autres radios qui se branchent sur le port d'écolage. L' ID"
+" fixe est sans effet et il n'y a pas d'appairage avec ce protocole."
 
 #: ../../source/ch_protocols.rst:689
 msgid "Options configurable on the PPM page:"
-msgstr ""
+msgstr "Options configurables sur la pagePPM :"
 
 #: ../../source/ch_protocols.rst:692
 msgid ""
@@ -1839,6 +1867,9 @@ msgid ""
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
 msgstr ""
+"**Imp Neutre** : Définit la durée (en µsec) de l'impulsion que l'émetteur "
+"envoie pour représenter la position du servo au neutre. Si ce nombre ne "
+"correspond pas à l'émetteur maître, les servos ne seront pas centrés."
 
 #: ../../source/ch_protocols.rst:694
 msgid ""
@@ -1846,15 +1877,20 @@ msgid ""
 "the transmitter to define max servo throw.  If this value is incorrect, the "
 "servos will not achieve full range (or will travel too much)"
 msgstr ""
+"**Delta Imp**: Définit la largeur de l'impulsion (mesurée du centre) envoyée"
+" par l'émetteur pour fixer le déplacement maximum du servo. Si cette valeur "
+"est incorrecte, les servos n'auront pas leur déplacement maximum (ou auront "
+"un déplacement trop important)."
 
 #: ../../source/ch_protocols.rst:696
 msgid "**Notch PW**: Defines the delay between the channels."
-msgstr ""
+msgstr "**Imp Fin** : définit le délai entre les canaux."
 
 #: ../../source/ch_protocols.rst:698
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr ""
+"**Larg Signal** : Définit la durée totale pour transmettre tous les canaux."
 
 #: ../../source/ch_protocols.rst:700
 msgid ""
