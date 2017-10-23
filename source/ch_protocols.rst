@@ -449,18 +449,25 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 
 Protocol: \*Bayang
 ------------------
-This protocol is used on BayangToys X6, X7, X8, X9, JJRC/Eachine H8, H10, and JJRC JJ850.
+This protocol is used on BayangToys X6, X7, X8, X9, X16, Boldclash B03, JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and H606 (regular format).
+
+This protocol is used on BayangToys X16 with altitude hold (X16-AH format).
+
+This protocol is used on IRDRONE Ghost X5 (IRDRONE format).
 
 |nrf24l01p-note| |mod-install-link|
 
 The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control special functions: 
 
-* Channel 5 is unused
+* Channel 5 activates LEDs or inverted flight (Floureon H101)
 * Channel 6 enables the flip function
 * Channel 7 captures single photo on positive transition
 * Channel 8 starts/stops video recording on positive transition
 * Channel 9 turns headless mode on/off 
 * Channel 10 engages the return-to-home feature
+* Channel 11 enables Take Off/Landing
+* Channel 12 activates emergency stop
+
 
 Protocol: \*FY326
 ------------------
