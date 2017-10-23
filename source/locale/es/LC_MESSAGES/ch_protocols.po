@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 21:07+0000\n"
+"POT-Creation-Date: 2017-10-23 15:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -39,12 +39,12 @@ msgstr ""
 #: ../../source/ch_protocols.rst:323 ../../source/ch_protocols.rst:331
 #: ../../source/ch_protocols.rst:343 ../../source/ch_protocols.rst:372
 #: ../../source/ch_protocols.rst:382 ../../source/ch_protocols.rst:394
-#: ../../source/ch_protocols.rst:414 ../../source/ch_protocols.rst:482
-#: ../../source/ch_protocols.rst:495 ../../source/ch_protocols.rst:508
-#: ../../source/ch_protocols.rst:520 ../../source/ch_protocols.rst:539
-#: ../../source/ch_protocols.rst:559 ../../source/ch_protocols.rst:571
-#: ../../source/ch_protocols.rst:582 ../../source/ch_protocols.rst:603
-#: ../../source/ch_protocols.rst:627 ../../source/ch_protocols.rst:657
+#: ../../source/ch_protocols.rst:414 ../../source/ch_protocols.rst:489
+#: ../../source/ch_protocols.rst:502 ../../source/ch_protocols.rst:515
+#: ../../source/ch_protocols.rst:527 ../../source/ch_protocols.rst:546
+#: ../../source/ch_protocols.rst:566 ../../source/ch_protocols.rst:578
+#: ../../source/ch_protocols.rst:589 ../../source/ch_protocols.rst:610
+#: ../../source/ch_protocols.rst:634 ../../source/ch_protocols.rst:664
 msgid "|mod-install-link|"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgid "Channel 8 turns video on/off"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:356 ../../source/ch_protocols.rst:442
-#: ../../source/ch_protocols.rst:458 ../../source/ch_protocols.rst:473
+#: ../../source/ch_protocols.rst:462 ../../source/ch_protocols.rst:480
 msgid "Channel 9 turns headless mode on/off"
 msgstr ""
 
@@ -1053,25 +1053,24 @@ msgstr ""
 msgid "This protocol is used on Hontai models F801 and F803."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:434 ../../source/ch_protocols.rst:450
-#: ../../source/ch_protocols.rst:465
+#: ../../source/ch_protocols.rst:434 ../../source/ch_protocols.rst:454
+#: ../../source/ch_protocols.rst:472
 msgid "|nrf24l01p-note| |mod-install-link|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:436 ../../source/ch_protocols.rst:452
-#: ../../source/ch_protocols.rst:467
+#: ../../source/ch_protocols.rst:436 ../../source/ch_protocols.rst:456
+#: ../../source/ch_protocols.rst:474
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control special functions:"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:438 ../../source/ch_protocols.rst:454
-#: ../../source/ch_protocols.rst:469
+#: ../../source/ch_protocols.rst:438 ../../source/ch_protocols.rst:476
 msgid "Channel 5 is unused"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:439 ../../source/ch_protocols.rst:455
-#: ../../source/ch_protocols.rst:470
+#: ../../source/ch_protocols.rst:439 ../../source/ch_protocols.rst:459
+#: ../../source/ch_protocols.rst:477
 msgid "Channel 6 enables the flip function"
 msgstr ""
 
@@ -1083,12 +1082,12 @@ msgstr ""
 msgid "Channel 8 turns video on/off on positive transition"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:443 ../../source/ch_protocols.rst:459
-#: ../../source/ch_protocols.rst:474
+#: ../../source/ch_protocols.rst:443 ../../source/ch_protocols.rst:463
+#: ../../source/ch_protocols.rst:481
 msgid "Channel 10 engages the return-to-home feature"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:444 ../../source/ch_protocols.rst:475
+#: ../../source/ch_protocols.rst:444 ../../source/ch_protocols.rst:482
 msgid "Channel 11 initiates calibration"
 msgstr ""
 
@@ -1098,89 +1097,111 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:448
 msgid ""
-"This protocol is used on BayangToys X6, X7, X8, X9, JJRC/Eachine H8, H10, "
-"and JJRC JJ850."
+"This protocol is used on BayangToys X6, X7, X8, X9, X16, Boldclash B03, "
+"JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and"
+" H606 (regular format)."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:456
+#: ../../source/ch_protocols.rst:450
+msgid ""
+"This protocol is used on BayangToys X16 with altitude hold (X16-AH format)."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:452
+msgid "This protocol is used on IRDRONE Ghost X5 (IRDRONE format)."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:458
+msgid "Channel 5 activates LEDs or inverted flight (Floureon H101)"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:460
 msgid "Channel 7 captures single photo on positive transition"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:457
+#: ../../source/ch_protocols.rst:461
 msgid "Channel 8 starts/stops video recording on positive transition"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:462
+#: ../../source/ch_protocols.rst:464
+msgid "Channel 11 enables Take Off/Landing"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:465
+msgid "Channel 12 activates emergency stop"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:469
 msgid "Protocol: \\*FY326"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:463
+#: ../../source/ch_protocols.rst:470
 msgid "This protocol is used on FY326 red board."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:471
+#: ../../source/ch_protocols.rst:478
 msgid "Channel 7 is unused"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:472
+#: ../../source/ch_protocols.rst:479
 msgid "Channel 8 is unused"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:478
+#: ../../source/ch_protocols.rst:485
 msgid "Protocol: \\*CFlie"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:479
+#: ../../source/ch_protocols.rst:486
 msgid ""
 "The CFlie protocol is used on the CrazyFlie nano quad. It has not been "
 "tested with any other models. |nrf24l01p-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:484
+#: ../../source/ch_protocols.rst:491
 msgid ""
 "The CFlie protocol supports up to 4 channels, does not support auto-binding."
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:491
+#: ../../source/ch_protocols.rst:498
 msgid "Protocol: \\*H377"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:492
+#: ../../source/ch_protocols.rst:499
 msgid ""
 "The H377 protocol supports the NiHui H377 6 channel helicopter. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:497
+#: ../../source/ch_protocols.rst:504
 msgid ""
 "The H377 protocol supports up to 7 channels, does not support auto-binding."
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:504
+#: ../../source/ch_protocols.rst:511
 msgid "Protocol: \\*HM830"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:505
+#: ../../source/ch_protocols.rst:512
 msgid ""
 "The HM830 protocol supports the HM830 Folding A4 Paper airplane. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:510
+#: ../../source/ch_protocols.rst:517
 msgid ""
 "The HM830 protocol supports 5 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:515
+#: ../../source/ch_protocols.rst:522
 msgid "Protocol: \\*KN"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:516
+#: ../../source/ch_protocols.rst:523
 msgid ""
 "The KN protocol is used on the WLToys V930, V931, V966, V977 and V988 "
 "(WLToys format) as well as the Feilun FX067C, FX070C and FX071C (Feilun "
@@ -1188,14 +1209,14 @@ msgid ""
 "note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:522
+#: ../../source/ch_protocols.rst:529
 msgid ""
 "The KN protocol supports up to 11 channels and does not support auto-"
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:527
+#: ../../source/ch_protocols.rst:534
 msgid ""
 "Channels 1-4 are throttle, aileron, elevator and rudder. Channel 5 activates"
 " the model's built-in dual rate. Channel 6 activates throttle hold. Channel "
@@ -1204,220 +1225,220 @@ msgid ""
 "for throttle/pitch, elevator and rudder."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:535
+#: ../../source/ch_protocols.rst:542
 msgid "Protocol: \\*ESky150"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:536
+#: ../../source/ch_protocols.rst:543
 msgid ""
 "The ESky150 protocol supports the smaller ESky models from 2014 onwards "
 "(150, 300, 150X). It has not been tested with any other models. "
 "|nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:541
+#: ../../source/ch_protocols.rst:548
 msgid ""
 "The Esky150 protocol supports up to 7 channels, and does not support auto-"
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:546
+#: ../../source/ch_protocols.rst:553
 msgid ""
 "Channels 1-4 are throttle, aileron, elevator and rudder. Channel 5 is flight"
 " mode  (1 bit switch with only two states). Channel 6 is not yet used on any"
 " of the tested models. Channel 7 is a 2 bit switch (4 states)."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:551
+#: ../../source/ch_protocols.rst:558
 msgid ""
 "It is important if you have a 4 channel model, to configure that your model "
 "only has 4 channels, otherwise the throttle values can go crazy."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:556
+#: ../../source/ch_protocols.rst:563
 msgid "Protocol: \\*Esky"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:557
+#: ../../source/ch_protocols.rst:564
 msgid "Needs to be completed. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:561
+#: ../../source/ch_protocols.rst:568
 msgid ""
 "The Esky protocol supports up to 6 channels, does not support auto-binding."
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:567
+#: ../../source/ch_protocols.rst:574
 msgid "Protocol: \\*BlueFly"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:568
+#: ../../source/ch_protocols.rst:575
 msgid ""
 "The BlueFly protocol is used with the Blue-Fly HP100. It has not been tested"
 " with any other models. |nrf24l01p-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:573
+#: ../../source/ch_protocols.rst:580
 msgid ""
 "The BlueFly protocol supports up to 6 channels, does not support auto-"
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:579
+#: ../../source/ch_protocols.rst:586
 msgid "Protocol: \\*CX10"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:580
+#: ../../source/ch_protocols.rst:587
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:584
+#: ../../source/ch_protocols.rst:591
 msgid ""
 "The CX10 protocol supports 9 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful. The first four channels are "
 "Aileron, Elevator, Throttle and Rudder."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:588
+#: ../../source/ch_protocols.rst:595
 msgid "Channel 5 is Rate except on the CX-10A, where it is headless mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:590
+#: ../../source/ch_protocols.rst:597
 msgid "Channel 6 is flip mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:592
+#: ../../source/ch_protocols.rst:599
 msgid ""
 "The DM007 format also uses channel 7 for the still camera, channel 8 for the"
 " video camera and channel 9 for headless mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:595
+#: ../../source/ch_protocols.rst:602
 msgid ""
 "The protocol has a Format option for the Blue-A, Green, DM007, Q282, "
 "JC3015-1, JC3015-2, MK33041 and Q242 quadcopters."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:599
+#: ../../source/ch_protocols.rst:606
 msgid "Protocol: \\*CG023"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:600
+#: ../../source/ch_protocols.rst:607
 msgid ""
 "The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has "
 "not been tested on other models. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:605
+#: ../../source/ch_protocols.rst:612
 msgid "The CG023 protocol supports 9 channels and only supports auto-binding."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:608 ../../source/ch_protocols.rst:632
-#: ../../source/ch_protocols.rst:662
+#: ../../source/ch_protocols.rst:615 ../../source/ch_protocols.rst:639
+#: ../../source/ch_protocols.rst:669
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:610 ../../source/ch_protocols.rst:634
+#: ../../source/ch_protocols.rst:617 ../../source/ch_protocols.rst:641
 msgid "Channel 5 controls the LEDs."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:612 ../../source/ch_protocols.rst:636
-#: ../../source/ch_protocols.rst:666
+#: ../../source/ch_protocols.rst:619 ../../source/ch_protocols.rst:643
+#: ../../source/ch_protocols.rst:673
 msgid "Channel 6 controls Flip mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:614 ../../source/ch_protocols.rst:638
-#: ../../source/ch_protocols.rst:668
+#: ../../source/ch_protocols.rst:621 ../../source/ch_protocols.rst:645
+#: ../../source/ch_protocols.rst:675
 msgid "Channel 7 controls the still camera"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:616 ../../source/ch_protocols.rst:640
-#: ../../source/ch_protocols.rst:670
+#: ../../source/ch_protocols.rst:623 ../../source/ch_protocols.rst:647
+#: ../../source/ch_protocols.rst:677
 msgid "Channel 8 controls the video camera."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:618 ../../source/ch_protocols.rst:642
-#: ../../source/ch_protocols.rst:672
+#: ../../source/ch_protocols.rst:625 ../../source/ch_protocols.rst:649
+#: ../../source/ch_protocols.rst:679
 msgid "Channel 9 controls headless mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:620
+#: ../../source/ch_protocols.rst:627
 msgid "The protocol has a Format option for the YD829 quadcopter."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:623
+#: ../../source/ch_protocols.rst:630
 msgid "Protocol: \\*H8_3D"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:624
+#: ../../source/ch_protocols.rst:631
 msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:629
+#: ../../source/ch_protocols.rst:636
 msgid ""
 "The H8_3D protocol supports 11 channels and only supports auto-binding."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:644
+#: ../../source/ch_protocols.rst:651
 msgid "Channel 10 controls RTH mode."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:646
+#: ../../source/ch_protocols.rst:653
 msgid "Channel 11 controls camera gimball on H11D and has 3 positions."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:648
+#: ../../source/ch_protocols.rst:655
 msgid ""
 "Both sticks bottom left starts accelerometer calibration on H8 3D, or "
 "headless calibration on H20."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:650
+#: ../../source/ch_protocols.rst:657
 msgid ""
 "Both sticks bottom right starts accelerometer calibration on H20 and H11D."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:653
+#: ../../source/ch_protocols.rst:660
 msgid "Protocol: \\*MJXq"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:654
+#: ../../source/ch_protocols.rst:661
 msgid ""
 "The MJXq protocol supports the MJX quadcopters. It also has format options "
 "for Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:659
+#: ../../source/ch_protocols.rst:666
 msgid "The MJXq protocol supports 12 channels and only supports auto-binding."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:664
+#: ../../source/ch_protocols.rst:671
 msgid "Channel 5 controls LEDs, or arm if H26WH format is selected."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:674
+#: ../../source/ch_protocols.rst:681
 msgid "Channel 10 controls RTH mode"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:676
+#: ../../source/ch_protocols.rst:683
 msgid "Channel 11 controls autoflip (X600 & X800 formats) or camera pan"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:678
+#: ../../source/ch_protocols.rst:685
 msgid "Channel 12 controls camera tilt"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:681
+#: ../../source/ch_protocols.rst:688
 msgid "Protocol: \\*PPM"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:682
+#: ../../source/ch_protocols.rst:689
 msgid ""
 "The PPM protocol is used to output PPM on the trainer port.  It will disable"
 " all radio transmission.  PPM is useful for connecting to simulators, or "
@@ -1425,34 +1446,34 @@ msgid ""
 "effect, and there is no binding associated with this protocol."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:689
+#: ../../source/ch_protocols.rst:696
 msgid "Options configurable on the PPM page:"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:692
+#: ../../source/ch_protocols.rst:699
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the transmitter "
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:694
+#: ../../source/ch_protocols.rst:701
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the transmitter to define max servo throw.  If this value is incorrect, the "
 "servos will not achieve full range (or will travel too much)"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:696
+#: ../../source/ch_protocols.rst:703
 msgid "**Notch PW**: Defines the delay between the channels."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:698
+#: ../../source/ch_protocols.rst:705
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:700
+#: ../../source/ch_protocols.rst:707
 msgid ""
 "Deviation does not auto-detect when a trainer cord is plugged into the "
 "transmitter.  To use Deviation with a simulator (such as Phoenix), create a "
@@ -1460,11 +1481,11 @@ msgid ""
 "Re-Init button or power-cycle to enable PPM."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:705
+#: ../../source/ch_protocols.rst:712
 msgid "Protocol: USBHID"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:706
+#: ../../source/ch_protocols.rst:713
 msgid ""
 "The USBHID protocol will convert he transmitter into a USB joystick.  "
 "Connecting the transmitter to a PC via the USB cable will enable the "
