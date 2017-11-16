@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-14 22:35+0000\n"
+"POT-Creation-Date: 2017-11-15 22:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +20,23 @@ msgstr ""
 
 #: ../../source/ch_install.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 #: ../../source/ch_install.rst:4
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
 msgstr ""
+"Пользователи Windows™ могут выбрать между двумя методами установки прошивки "
+"Deviation."
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr ""
+msgstr "Использование утилиты Deviation Uploader"
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
-msgstr ""
+msgstr "Использование утилиты Walkera DfuSe USB Upgrade (только Windows™)"
 
 #: ../../source/ch_install.rst:9
 msgid ""
@@ -47,12 +50,22 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
+"Если у вас не операционной системы Windows, выберите первый пункт, Deviation"
+" Uploader. Это приложение Java, разработанное командой Deviation, для "
+"эффективного и простого использования с любым передатчиком Devo и любой "
+"версией Deviation или даже с Devention, если вы захотите вернуться к "
+"прошивке Walkera. Утилита Walkera использует двухэтапный подход, сначала вы "
+"устанавливает прошивку, затем библиотеку файловой системы. Утилита Deviation"
+" Uploader делает то же самое в одно простом, удобном шаге, используя ZIP "
+"архив прошивки в качестве источника."
 
 #: ../../source/ch_install.rst:11
 msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
 msgstr ""
+"Если у вас передатчик Devo F7 или Devo F12E, вы **должны** использовать "
+"Deviation Uploader."
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -62,10 +75,15 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
+"Раздел :ref:`preparation` описывает то, что вам нужно сделать перед началом "
+"установки. Затем два раздела установки описывают фактическую установку, в "
+"зависимости от утилиты, которую вы используете. Ниже приведены разделы, "
+"которые включают примечания, относящиеся к обновлению от или до различных "
+"версий и типов сборки."
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr ""
+msgstr "Подготовка"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -75,28 +93,40 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
+"Во-первых, убедитесь, что ваш Devo полностью заряжен перед началом "
+"установки. Загрузите прошивку deviation-devoXX-x.y.z.zip по адресу "
+"http://deviationtx.com/downloads-new/category/1-deviation-releases, где XX "
+"это номер вашего передатчика Walkera Devo. x.y.z указывает номер версии "
+"Deviation."
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
 msgstr ""
+"ПРИМЕЧАНИЕ: Не пытайтесь использовать утилиту Dfuse от STMicroelectronics!"
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
+"Вы можете загрузить утилиту Walkera по адресу: "
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Утилиту Deviation Uploader можно загрузить по адресу: http://deviationtx.com"
+"/downloads-new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:40
 msgid ""
 "If you are using Windows™, you need to install the appropriate USB drivers. "
 "See the section on :ref:`windows_drivers`"
 msgstr ""
+"Если вы используете Windows, вам необходимо установить соответствующий "
+"драйвер USB. Смотрите раздел :ref:`windows_drivers`"
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -105,6 +135,10 @@ msgid ""
 "is recommended that you test the DFU tool by first upgrading your TX to a "
 "different version of Walkera firmware."
 msgstr ""
+"Распакуйте утилиты и установите их на компьютер. Если вы используете утилиту"
+" Deviation Uploader, нет необходимости разархивировать загруженную прошивку."
+" Рекомендуется протестировать утилиту DFU, предварительно обновив ваш "
+"передатчик до другой версии прошивки Walkera."
 
 #: ../../source/ch_install.rst:46
 msgid ""
@@ -113,10 +147,14 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
+"Если вы обновляете предыдущую версию Deviation, настоятельно рекомендуется "
+"создать резервную копию каталога 'models' из передатчика, а также файлов "
+"'tx.ini' и 'hardware.ini', для гарантии, что вы не потеряете модели или "
+"конфигурацию передатчика."
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr ""
+msgstr "Установка драйвера Windows"
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -124,6 +162,10 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Утилита Walkera DfuSe и утилита Deviation Uploader использут разные "
+"драйверы. Оба драйвера могут быть установлены с помощью Deviation USBDrv "
+"Installer, доступного по адресу http://www.deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:63
 msgid ""
@@ -132,10 +174,15 @@ msgid ""
 "the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
 "driver. Install the driver for the Dfu tool you plan on using."
 msgstr ""
+"Разархивируйте Deviation USBDrv Installer, и запустите 'DFU USBDrv "
+"Installer-x.y.exe'. Затем вы можете удалить оба драйвера, или установить "
+"Deviation USB Driver для использования с Deviation Uploader или драйвер "
+"Walkera. Установите драйвер для утилиты DFU, которую вы планируете "
+"использовать."
 
 #: ../../source/ch_install.rst:70
 msgid "DFU Installation With Walkera DfuSe"
-msgstr ""
+msgstr "Установка DFU с помощью Walkera DfuSe"
 
 #: ../../source/ch_install.rst:72
 msgid ""
@@ -145,12 +192,19 @@ msgid ""
 " they cannot be accessed by Deviation, they will be safely preserved should "
 "the Walkera firmware ever need to be reinstalled"
 msgstr ""
+"Установка Deviation  с помощью утилиты Walkera DfuSe выполняется точно так "
+"же, как обновление прошивки Walkera Devention. Имейте в виду, что Deviation"
+"  не будет перезаписывать модели Walkera, хранящиеся в передатчике. Хотя они"
+" недоступны с помощью Deviation, они будут безопасно сохранены, если "
+"потребуется переустановить прошивку Walkera."
 
 #: ../../source/ch_install.rst:81
 msgid ""
 "NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
 "F7 firmware, the original models will be lost when switching to Deviation."
 msgstr ""
+"ПРИМЕЧАНИЕ: По причине ограниченной памяти для прошивок Devo 7e, Devo F12E и"
+" Devo F7, исходные модели будут потеряны при переходе к Deviation."
 
 #: ../../source/ch_install.rst:88
 msgid ""
