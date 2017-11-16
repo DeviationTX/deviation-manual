@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 04:19+0000\n"
+"POT-Creation-Date: 2017-11-15 22:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
+"Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,8 +76,8 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
-"Le mode maitre est configuré en sélectionnant soit 'Canal' soit  \n"
-"'Stick' dans la boite d'entrée 'PPM in' dans la page 'Config Modèle'. En pressant sur 'Canal' ou 'Stick' on affichera les pages 'Trainer Cfg' correspondantes. Les 2 modes se comportent de manière légèrement différentes"
+"Le mode maitre est configuré en sélectionnant soit 'Canal' soit 'Stick' dans la boite d'entrée 'PPM in' dans la page 'Config Modèle'. \n"
+"En pressant sur 'Canal' ou 'Stick' on affichera les pages 'Trainer Cfg' correspondantes. Les 2 modes se comportent de manière légèrement différentes"
 
 #: ../../source/ch_advanced.rst:21
 msgid ""
@@ -269,6 +269,9 @@ msgid ""
 "button is held, and in the other direction as long as the Trim- button is "
 "held, returning to center when released."
 msgstr ""
+"**3 Pos**: L'interrupteur sera actif dans une direction aussi longtemps que "
+"Trim+ sera pressé et dans l'autre direction aussi longtemps que Trim- sera "
+"maintenu. Il retournera au centre lorsqu'il est relâché."
 
 #: ../../source/ch_advanced.rst:71
 msgid ""
@@ -276,7 +279,7 @@ msgid ""
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
 "Pour mettre en place un interrupteur virtuel, commencer par sélectionner le "
-"trim en entrant dans la page Trims. Voir :ref:`trims-et-entrées-"
+"Trim en entrant dans la page Trims. Voir :ref:`trims-et-entrées-"
 "virtuelles'.`"
 
 #: ../../source/ch_advanced.rst:76
@@ -286,6 +289,11 @@ msgid ""
 "until the value is less-than 0.1 Second select the 'Input' to be the virtual"
 " channel to convert to a switch (we'll use 'Virt1')"
 msgstr ""
+"Enfin, définir le champ 'Trim Step' comme 'Momentary', 'Toggle', 'On/Off' ou"
+" '3 Pos'. Pour ce faire presser la flèche gauche de la 'Trim Step' jusqu'à "
+"ce que la valeur affichée soit inférieure à 0.1 seconde. Sélectionner "
+"ensuite l'entrée 'Input' à convertir comme interrupteur (nous utiliserons "
+"'Virt1')."
 
 #: ../../source/ch_advanced.rst:84
 msgid ""
@@ -314,6 +322,11 @@ msgid ""
 "direction, +100 when pressed in the other direction, otherwise it will have "
 "a value of 0."
 msgstr ""
+"Vous pouvez désormais utiliser le canal virtuel ('Virt1') comme n'importe "
+"quel autre interrupteur. Quand cet interrupteur virtuel est actif, la valeur"
+" de son canal sera +100 et dans le cas contraire  -100. Dans le cas d'un '3 "
+"Pos', la valeur sera de -100 dans une direction, +100 dans l'autre direction"
+" et enfin 0 pour sa position médiane."
 
 #: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
 msgid "\\"
@@ -504,11 +517,11 @@ msgstr "Les sections et ce qui provoque l'émission du son sont :"
 
 #: ../../source/ch_advanced.rst:147
 msgid "**startup**: Powered on."
-msgstr "**startup**: Mise sous tension."
+msgstr "**startup** : Mise sous tension."
 
 #: ../../source/ch_advanced.rst:148
 msgid "**shutdown**: Powering off."
-msgstr "**shutdown**: Mise hors tension."
+msgstr "**shutdown** : Mise hors tension."
 
 #: ../../source/ch_advanced.rst:149
 msgid "**volume**: Configuring transmitter volume."
@@ -516,36 +529,36 @@ msgstr "**volume**: Régler le volume de l'émetteur."
 
 #: ../../source/ch_advanced.rst:150
 msgid "**timer_warning**: Timer is about to expire."
-msgstr "**timer_warning**: La durée du chrono va se terminer."
+msgstr "**timer_warning** : La durée du chrono va se terminer."
 
 #: ../../source/ch_advanced.rst:151
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr "**alarm#**: La durée du chrono (1 à 4) est expirée."
+msgstr "**alarm#** : La durée du chrono (1 à 4) est expirée."
 
 #: ../../source/ch_advanced.rst:152
 msgid "**batt_alarm**: Battery low warning."
-msgstr "**batt_alarm**: Avertissement batterie déchargée."
+msgstr "**batt_alarm** : Avertissement batterie déchargée."
 
 #: ../../source/ch_advanced.rst:153
 msgid "**done_binding**: Binding finished."
-msgstr "**done_binding**: Liaison terminée."
+msgstr "**done_binding** : Liaison terminée."
 
 #: ../../source/ch_advanced.rst:154
 msgid "**key_pressing**: On a key press"
-msgstr "**key_pressing**: Lors de la pression d'un bouton."
+msgstr "**key_pressing** : Lors de la pression d'un bouton."
 
 #: ../../source/ch_advanced.rst:155
 msgid "**saving**: When saving a model file."
-msgstr "**saving**: Lors de la sauvegarde d'un fichier de modèle."
+msgstr "**saving** : Lors de la sauvegarde d'un fichier de modèle."
 
 #: ../../source/ch_advanced.rst:156
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
-msgstr "**max_len**:Quand la chaine entrée au clavier est trop longue."
+msgstr "**max_len** : Quand la chaine entrée au clavier est trop longue."
 
 #: ../../source/ch_advanced.rst:157
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
-msgstr "**telem_alarm#**: Une alarme de télémétrie (1 à 6) a été déclenchée."
+msgstr "**telem_alarm#** : Une alarme de télémétrie (1 à 6) a été déclenchée."
 
 #: ../../source/ch_advanced.rst:159
 msgid ""

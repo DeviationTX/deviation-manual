@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-23 15:35+0000\n"
+"POT-Creation-Date: 2017-11-15 22:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
+"Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,11 +35,11 @@ msgstr ""
 "Certains protocoles ont des configurations spécifiques ou certaines "
 "limitations. Chaque protocole est décrit ci-dessous. Un astérisque (‘*’) "
 "avant le nom du protocole dans le titre du paragraphe signifie qu'un module "
-"matériel doit être ajouté à l'émetteur pour permettre le protocole. Sur "
-"l'affichage de l'émetteur un astérisque informe que Deviation ne détecte pas"
-" le module requis (non installé, hardware.ini incorrect ou autre problème de"
-" communication avec le module. D'autres informations peuvent être trouvées "
-"dans le guide d'installation de module."
+"matériel doit être ajouté à l'émetteur pour permettre le support du "
+"protocole. Sur l'affichage de l'émetteur un astérisque informe que Deviation"
+" ne détecte pas le module requis (non installé, hardware.ini incorrect ou "
+"autre problème de communication avec le module). D'autres informations "
+"peuvent être trouvées dans le 'Guide d'installation de Module'."
 
 #: ../../source/ch_protocols.rst:15 ../../source/ch_protocols.rst:126
 #: ../../source/ch_protocols.rst:165 ../../source/ch_protocols.rst:182
@@ -88,8 +88,9 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
 msgstr ""
-"Le protocole Devo permet d'activer ou désactiver la télémétrie. On accède à "
-"cette fonction en appuyant sur la boite de sélection quand DEVO est affiché."
+"Le protocole Devo permet d'activer ou désactiver la télémétrie. Cette "
+"fonction est accessible par l'appui sur la boite de sélection Protocole "
+"quand DEVO est affiché."
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -1440,19 +1441,24 @@ msgid ""
 "JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and"
 " H606 (regular format)."
 msgstr ""
+"Ce protocole est utilisé sur les  BayangToys X6, X7, X8, X9, X16, Boldclash "
+"B03, JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH "
+"H601, and H606 (format standard)."
 
 #: ../../source/ch_protocols.rst:450
 msgid ""
 "This protocol is used on BayangToys X16 with altitude hold (X16-AH format)."
 msgstr ""
+"Ce protocole est utilisé sur le BayangToys X16 avec maintien d'altitude  "
+"(Type X16-AH )."
 
 #: ../../source/ch_protocols.rst:452
 msgid "This protocol is used on IRDRONE Ghost X5 (IRDRONE format)."
-msgstr ""
+msgstr "Ce protocole est utilisé sur IRDRONE Ghost X5 ( type IRDRONE)."
 
 #: ../../source/ch_protocols.rst:458
 msgid "Channel 5 activates LEDs or inverted flight (Floureon H101)"
-msgstr ""
+msgstr "Le canal 5 active les LEDs ou le vol inversé (Floureon H101)"
 
 #: ../../source/ch_protocols.rst:460
 msgid "Channel 7 captures single photo on positive transition"
@@ -1466,11 +1472,11 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:464
 msgid "Channel 11 enables Take Off/Landing"
-msgstr ""
+msgstr "Le canal 11 déclenche le décollage ou l'atterrissage."
 
 #: ../../source/ch_protocols.rst:465
 msgid "Channel 12 activates emergency stop"
-msgstr ""
+msgstr "Le canal 12 active l'arrêt d'urgence."
 
 #: ../../source/ch_protocols.rst:469
 msgid "Protocol: \\*FY326"
@@ -1918,10 +1924,15 @@ msgid ""
 "new model, name it appropriately, and select PPM as the protocol.  Use the "
 "Re-Init button or power-cycle to enable PPM."
 msgstr ""
+"Déviation ne détecte pas automatiquement si un cordon d'écolage est branché "
+"sur l'émetteur. Pour utiliser Deviation avec un simulateur (comme Phoenix), "
+"creer un nouveau modèle, lui attribuer un nom approprié et choisir le "
+"protocole PPM. Utiliser le bouton appairer ou redémarrer l'émetteur pour "
+"activer PPM."
 
 #: ../../source/ch_protocols.rst:712
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "Protocole: USBHID"
 
 #: ../../source/ch_protocols.rst:713
 msgid ""
@@ -1932,3 +1943,9 @@ msgid ""
 "input. Some initial calibration may be necessary and is accomplished via the"
 " control panel applet of your operating system."
 msgstr ""
+"Le protocole USBHID transforme l'émetteur en joystick USB. Connecter "
+"l'émetteur à un PC par un cordon USB permettra à l'émetteur d'être détecté "
+"comme joystick par l'ordinateur. On peut utiliser ceci pour contrôler un "
+"simulateur qui autorise l'entrée par joystilck. Une calibration initiale "
+"peut être nécessaire et et réalisée par le panneau ce contrôle de votre "
+"système d'exploitation."

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-06 04:57+0000\n"
+"POT-Creation-Date: 2017-11-15 22:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
+"Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,10 +28,10 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
-"Le menu modèle permet le choix et l'édition de le la configuration du "
-"modèle, des alarmes, la collecte de données, et la configuration de l'écran."
-" On accède au menu en appuyant la touche ENT pour sélectionner le 'Menu "
-"principal' puis le 'Menu Modèle'"
+"Le menu modèle permet le choix et l'édition de la configuration du modèle, "
+"des alarmes, la collecte de données et la configuration de l'écran. L'accès "
+"au menu se fait à l'aide d'appuis successifs sur la touche ENT pour "
+"sélectionner le 'Menu principal' puis le 'Menu Modèle'."
 
 #: ../../source/ch_model.rst:20
 msgid ""
@@ -39,14 +39,14 @@ msgid ""
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
 "Selon le type de Réglages que vous avez choisi dans la  section :ref:`Config"
-" modèle`, le fonctionnement du Menu modèles sera complètement différent."
+" modèle`, le fonctionnement du Menu modèle sera complètement différent."
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
 msgstr ""
-"La page de Mixer Expert  '2. Mixer' (:ref:`mixer-adv`) fournit les mêmes  "
+"La page avancée '2. Mixer' (:ref:`mixer-adv`) fournit les mêmes "
 "fonctionnalités (et plus) que le modèle standard."
 
 #: ../../source/ch_model.rst:27
@@ -289,7 +289,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "Mixage(Réglage expert)"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -540,7 +540,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:284
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "Mixage de type Expo et double débattement"
 
 #: ../../source/ch_model.rst:296
 msgid ""
@@ -739,33 +739,39 @@ msgstr ""
 
 #: ../../source/ch_model.rst:372
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "Pour 'ajouter'"
 
 #: ../../source/ch_model.rst:374
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx = Si (commande n activée, (Mix n) + (résultat mixer 1 à n-1)) sinon "
+"(résultat mixer 1 à n-1)"
 
 #: ../../source/ch_model.rst:376
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "Pour 'Max"
 
 #: ../../source/ch_model.rst:378
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = Si (commande n activée, ( MAX(Mix n, (résultat mixer 1 à n-1) ) ) )  "
+"sinon (résultat mixer 1 à n-1)"
 
 #: ../../source/ch_model.rst:380
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "Pour 'Min'"
 
 #: ../../source/ch_model.rst:382
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = Si (commande n activée, ( Min(Mix n, (résultat mixer 1 à n-1) ) ) ) "
+"sinon (résultat mixer 1 à n-1)"
 
 #: ../../source/ch_model.rst:385
 msgid "Cyclic"
@@ -1067,6 +1073,10 @@ msgid ""
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
 " once."
 msgstr ""
+"**Egalité** : Le signe de comparaison peut à la fois être '>' ou '<=' selon "
+"que la valeur testée soit supérieure, ou inférieure ou égale, à la valeur "
+"limite qui déclenche l'alarme. Presser le bouton ENT déclenchera la lecture "
+"du son associé à l'alarme."
 
 #: ../../source/ch_model.rst:508
 msgid ""
@@ -1075,6 +1085,10 @@ msgid ""
 "which the target value has to be continuously reached before triggering the "
 "alarm."
 msgstr ""
+"**Cible** : La valeur cible à partir de laquelle l'alarme sera déclenchée. "
+"Via une pression sur le bouton ENT il est de plus possible de régler le "
+"délai d'attente (entre 0 et 9 secondes) pour lequel la valeur cible doit "
+"être atteinte en continu avant d'effectivement déclencher l'alarme."
 
 #: ../../source/ch_model.rst:513
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
@@ -1289,9 +1303,9 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
-"** Toggle**  [Basculant]  : Montre une icône indiquant l'état d'un "
-"interrupteur basculant . Il peut y avoir 1, 2 ou 3 icônes définis pour un "
-"interrupteur indiquant les différents états selon la position de "
+"** Toggle**  [Basculant]  : Affiche une icône indiquant l'état d'un "
+"interrupteur basculant. Il peut y avoir 1, 2 ou 3 icônes définies pour un "
+"interrupteur qui indiquent les différents états selon la position de "
 "l'interrupteur. Les interrupteurs à deux positions peuvent avoir jusqu'à 2 "
 "icônes et les interrupteurs à trois positions 3 icônes."
 
@@ -1301,7 +1315,7 @@ msgid ""
 " via a long UP/DN press."
 msgstr ""
 "**Menus (Rapides)**: Les menus rapides sont des pages à accès rapide qui "
-"peuvent être affichées par une pression longue sur les boutons UP/DN."
+"peuvent être affichées par une pression longue sur l'un des boutons UP/DN."
 
 #: ../../source/ch_model.rst:604
 msgid "Configuring object position"
@@ -1547,7 +1561,7 @@ msgstr "**Sub-trim de servo**: :ref:`Ajustement des sub-trims`"
 
 #: ../../source/ch_model.rst:715
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
-msgstr "**configuration de la coupure gaz**: :ref:`Coupure gaz`"
+msgstr "**configuration du maintien des gaz**: :ref:`Maintien gaz`"
 
 #: ../../source/ch_model.rst:717
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
@@ -1630,7 +1644,7 @@ msgstr "**Courbes de pas**: Programmation des courbes de pas"
 
 #: ../../source/ch_model.rst:750
 msgid "**Throttle hold**: Throttle-hold configuration"
-msgstr "**Coupure gaz**: Configuration de la coupure gaz"
+msgstr "**Maintien gaz**: Configuration du maintien des gaz"
 
 #: ../../source/ch_model.rst:751
 msgid "**Gyro sense**: Gyro-sense configuration"
@@ -1837,7 +1851,7 @@ msgid ""
 msgstr ""
 "La page de courbe de gaz permet de définir une courbe linéaire par segments "
 "pour le canal de pas collectif. Des courbes différentes peuvent être "
-"définies pour chaque mode de vol ou en coupure de gaz. La valeur de chaque "
+"définies pour chaque mode de vol ou en Maintien gaz. La valeur de chaque "
 "point peut être définie par interpolation des points proches de lui."
 
 #: ../../source/ch_model.rst:849
@@ -1870,7 +1884,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:869
 msgid "Throttle Hold"
-msgstr "Coupure gaz"
+msgstr "Maintien gaz"
 
 #: ../../source/ch_model.rst:874
 msgid ""
@@ -1878,10 +1892,10 @@ msgid ""
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
 msgstr ""
-"La page Coupure gaz est utilisée pour activer/désactiver la fonction Coupure"
-" Gaz. La 'Valeur gaz' choisie est la valeur de gaz fixée lorsque "
-"l'interrupteur de Coupure gaz est activé. Cette valeur peut être fixée entre"
-" -200 et 200 ."
+"La page Maintien gaz est utilisée pour activer/désactiver la fonction de "
+"maintien des gaz. La 'Valeur gaz' choisie est la valeur de gaz fixée lorsque"
+" l'interrupteur de Maintien gaz est activé. Cette valeur peut être fixée "
+"entre -200 et 200 ."
 
 #: ../../source/ch_model.rst:879
 msgid "Fail-Safe Configuration"
