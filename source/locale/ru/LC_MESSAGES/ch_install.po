@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 22:36+0000\n"
+"POT-Creation-Date: 2017-11-16 22:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -213,6 +213,10 @@ msgid ""
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
 msgstr ""
+"Разархивируйте файл прошивки, который вы загрузили ранее. Подключите "
+"передатчик к компьютеру через порт USB, и включите передатчик, удерживая "
+"нажатой кнопку 'EXT', чтобы войти в режим прошивки. Для Devo12, это "
+"выполняется удержанием переключателя тренера."
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -221,6 +225,11 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
+"Некоторые пользователи сообщали о проблемах совместимости с Windows и/или "
+"портами USB при использовании этой утилиты. Если DfuSe не распознает ваш "
+"передатчик, попробуйте удалить все USB устройства и перезапустите компьютер "
+"с USB подключением только к передатчику. Примите меры, необходимые для "
+"решения любых проблем с подключением."
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -228,12 +237,17 @@ msgid ""
 "will be displayed under 'Available DFU Devices'. Otherwise this field will "
 "remain blank."
 msgstr ""
+"Если ваш передатчик подключен правильно, в поле 'Available DFU Devices' "
+"будет отображаться 'STM Device in DFU Mode'. В противном случае это поле "
+"останется пустым."
 
 #: ../../source/ch_install.rst:96
 msgid ""
 "Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to "
 "install."
 msgstr ""
+"Нажмите кнопку '…' и выберите файл для установки: deviation-devoXX-"
+"vx.y.z.dfu."
 
 #: ../../source/ch_install.rst:97
 msgid ""
@@ -241,6 +255,9 @@ msgid ""
 "your transmitter is not detected.  **Do NOT use 'Upload' as this will "
 "destroy the dfu file on your PC.**"
 msgstr ""
+"Выберите '**Upgrade**' для установки прошивки. Это будет недоступно, если "
+"ваш передатчик не обнаружен. **НЕ ИСПОЛЬЗУЙТЕ 'Upload', так как это разрушит"
+" файл DFU на вашем компьютере**."
 
 #: ../../source/ch_install.rst:98
 msgid ""
@@ -248,6 +265,8 @@ msgid ""
 "devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to "
 "install the library."
 msgstr ""
+"**Только для Devo12**: выберите закладку 'Library', нажмите '…' и выберите "
+"файл devo12-lib.dfu. Затем выберите '**Upgrade**' для установки библиотеки."
 
 #: ../../source/ch_install.rst:100
 msgid ""
@@ -256,10 +275,14 @@ msgid ""
 "the PC should prompt to format a drive. Format using default options. Next, "
 "upgrade the file system via USB."
 msgstr ""
+"Включите передатчик, удерживая нажатой кнопку 'ENT'. На экране должен "
+"появиться логотип USB. Если это первая установка Deviation, компьютер должен"
+" запросить форматирование USB привода. Отформатируйте с параметрами по "
+"умолчанию. Затем обновите файловую систему на приводе USB."
 
 #: ../../source/ch_install.rst:103
 msgid "Upgrading the file system via USB"
-msgstr ""
+msgstr "Обновление файловой системы через USB"
 
 #: ../../source/ch_install.rst:107
 msgid ""
@@ -268,6 +291,11 @@ msgid ""
 "the 'Deviation Uploader' to manage files. If you enable it, all you can do "
 "is format the drive, which will destroy your installation."
 msgstr ""
+"Для Devo F7 и F12E, не включайте режим USB, так как файловая система "
+"недоступна с компьютера, и для управления файлами вам необходимо "
+"использовать закладку 'File Manager' в утилите 'Deviation Uploader'. Если вы"
+" включите режим USB, все, что вы сможете сделать, это форматирование диска, "
+"что уничтожит вашу установку."
 
 #: ../../source/ch_install.rst:113
 msgid ""
@@ -276,6 +304,10 @@ msgid ""
 "drive. For details of the file-system please see :ref:`usb-file-system`. The"
 " files with the extension 'zip', and 'dfu' need not to be copied."
 msgstr ""
+"Откройте папку, извлеченную из zip-файла, и скопируйте все файлы и каталоги "
+"из этой папки в корень USB-диска передатчика. Подробнее о файловой системе "
+"смотрите :ref:`usb-file-system`. Не нужно копировать файлы с расширением  "
+"'zip' и 'dfu'."
 
 #: ../../source/ch_install.rst:121
 msgid ""
@@ -286,10 +318,16 @@ msgid ""
 "models have the latest options set. If the 'tx.ini' file is overwritten, the"
 " stick calibration must be repeated and any settings reset."
 msgstr ""
+"Если вы обновляете предыдущую версию, не обновляйте файлы 'tx.ini', "
+"'hardware.ini' и папку 'models'. Можно скопировать папку 'models' в "
+"передатчик, исключая файлы текущих настроенных моделей. Этот шаг "
+"гарантирует, что значения по умолчанию для вновь создаваемых моделей будут "
+"иметь самые последние параметры. Если файл 'tx.ini' перезаписан, необходимо "
+"повторить калибровку стиков и заново настроить параметры передатчика."
 
 #: ../../source/ch_install.rst:130
 msgid "DFU Installation with Deviation Uploader"
-msgstr ""
+msgstr "Установка DFU с помощью Deviation Uploader"
 
 #: ../../source/ch_install.rst:134
 msgid ""
@@ -298,6 +336,10 @@ msgid ""
 "GUI, using the Java application to open it. You will need to install Java "
 "from http://www.java.com/ if you haven't already installed it."
 msgstr ""
+"'Deviation Uploader' - это файл Java (jar). Вы можете запустить jar файл в "
+"командной строке, или открыть его в графическом интерфейсе, используя "
+"приложение Java. Вам необходимо установить Java с http://www.java.com/, если"
+" вы его еще не установили."
 
 #: ../../source/ch_install.rst:138
 msgid ""
@@ -305,12 +347,17 @@ msgid ""
 "port, and then turn it on while holding down the 'EXT' button. On the Devo "
 "12, this is done by holding the trainer switch instead."
 msgstr ""
+"Как только 'Deviation Uploader' запущен, подключите ваш передатчик к порту "
+"USB, затем включите его, удерживая нажатой кнопку 'EXT'. Для Devo12, это "
+"выполняется удержанием переключателя тренера."
 
 #: ../../source/ch_install.rst:142
 msgid ""
 "Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
 "port, and then turn it on while holding down the 'EXT' button."
 msgstr ""
+"Как только 'Deviation Uploader' запущен, подключите ваш передатчик к порту "
+"USB, затем включите его, удерживая нажатой кнопку 'EXT'."
 
 #: ../../source/ch_install.rst:145
 msgid ""
@@ -322,6 +369,14 @@ msgid ""
 "installation and try unplugging all other USB devices. Take the steps "
 "necessary to resolve any connection issues."
 msgstr ""
+"Если все работает правильно, вы должны увидеть, что 'Transmitter' изменится "
+"на тип подключенного передатчика. Если он изменится на неправильный тип "
+"передатчика, остановитесь и обратитесь за помощью к форумам. Если он не "
+"изменился, проверьте системную информацию, чтобы узнать есть ли это "
+"устройство в списке. Если отображается в Windows как неизвестное устройство,"
+" проверьте установку драйвера и попробуйте отключить все остальные USB "
+"устройства. Примите меры, необходимые для решения любых проблем с "
+"подключением."
 
 #: ../../source/ch_install.rst:153
 msgid ""
@@ -329,12 +384,17 @@ msgid ""
 "install. There is no need to unpack the zip file since the Deviation "
 "Uploader will handle that."
 msgstr ""
+"Нажмите кнопку '…' и выберите zip-файл прошивки, которую вы будете "
+"устанавливать. Нет необходимости распаковывать zip-файл, так как это сделает"
+" Deviation Uploader."
 
 #: ../../source/ch_install.rst:154
 msgid ""
 "If this is an initial install, all the 'Replace' boxes, along with 'Format' "
 "will be preselected."
 msgstr ""
+"Если это начальная установка, все поля 'Replace' вместе с 'Format' будут "
+"выбраны."
 
 #: ../../source/ch_install.rst:156
 msgid ""
@@ -342,6 +402,9 @@ msgid ""
 "will be preselected. On the Devo F7 and Devo F12E initial install, select "
 "the 'Format' check box if not already selected."
 msgstr ""
+"Если это начальная установка, все поля 'Replace' вместе с 'Format' будут "
+"выбраны. Для начальной установки Devo F7 и Devo F12E, выберите поле "
+"'Format', если оно не выбрано."
 
 #: ../../source/ch_install.rst:159
 msgid ""
@@ -349,12 +412,17 @@ msgid ""
 " be patient. A pop-up dialog box will notify you when installation is "
 "completed. You are done."
 msgstr ""
+"Нажмите на опцию 'Install/Upgrade'. Установка займет несколько минут, будьте"
+" терпеливы. Всплывающее диалоговое окно сообщит вам о завершении установки. "
+"Установка завершена."
 
 #: ../../source/ch_install.rst:160
 msgid ""
 "Turn off your Devo transmitter. When you turn it on again, you'll be greeted"
 " by the Deviation splash screen."
 msgstr ""
+"Выключите передатчик. Когда вы включите его снова, вас поприветствует "
+"заставка Deviation."
 
 #: ../../source/ch_install.rst:165
 msgid ""
@@ -362,6 +430,9 @@ msgid ""
 "accessed from the desktop, and you need to use the 'File Manager' tab on the"
 " 'Deviation Uploader' to manage files."
 msgstr ""
+"Для Devo F7 и F12E, не включайте режим USB, так как файловая система "
+"недоступна с компьютера, и для управления файлами вам необходимо "
+"использовать закладку 'File Manager' в утилите 'Deviation Uploader'."
 
 #: ../../source/ch_install.rst:169
 msgid ""
@@ -370,10 +441,14 @@ msgid ""
 "first-time install of Deviation, your computer may prompt to format a drive."
 " Format using default options."
 msgstr ""
+"Для передатчиков отличных от F7 и F12E, включите передатчик, удерживая "
+"нажатой кнопку 'ENT'. На экране появится логотип USB. Если это первая "
+"установка Deviation, компьютер запросит форматирование диска. Отформатируйте"
+" с параметрами по умолчанию."
 
 #: ../../source/ch_install.rst:172
 msgid "Upgrading the file system with Deviation Uploader"
-msgstr ""
+msgstr "Обновление файловой системы с помощью Deviation Uploader"
 
 #: ../../source/ch_install.rst:175
 msgid ""
@@ -381,6 +456,8 @@ msgid ""
 "formatting the disk from your desktop will destroy your deviation "
 "installation."
 msgstr ""
+"Devo F7 и F12E не поддерживают доступ через USB. Не включайте режим USB, так"
+" как форматирование диска с компьютера уничтожит установку Deviation."
 
 #: ../../source/ch_install.rst:180
 msgid ""
@@ -392,10 +469,16 @@ msgid ""
 "same location. There is no advantage in doing the installation this way, but"
 " it can be done."
 msgstr ""
+"Если вы следовали приведенным выше инструкциям по установке zip-файла "
+"прошивки с помощью утилиты Deviation Uploader, ваша установка завершена и "
+"дальнейших действий не требуется. Если же вы распаковали файл и установили "
+"отдельный файл прошивки DFU, тогда вы должны продолжить, установив файл "
+"библиотеки DFU. В этом способе нет никаких преимуществ, но так можно "
+"сделать."
 
 #: ../../source/ch_install.rst:183
 msgid "Deviation 5.0"
-msgstr ""
+msgstr "Deviation 5.0"
 
 #: ../../source/ch_install.rst:185
 msgid ""
@@ -406,10 +489,16 @@ msgid ""
 " so, development continues, so new controllers will be added to the support "
 "list as well as new protocols and features, when they become available."
 msgstr ""
+"Долгожданное обновление прошивки с версии 4.0.1 до версии 5.0.0 вышло 30 "
+"апреля 2016 и было объявлено на форуме DeviationTX. Версия Deviation 5.0 "
+"является текущей версией и включает все исправления, исправления ошибок, "
+"улучшения и протоколы предыдущей версии. Тем не менее, разработка "
+"продолжается, поэтому в список будут добавляться новые передатчики, а также "
+"новые протоколы и функции, когда они станут доступными."
 
 #: ../../source/ch_install.rst:188
 msgid "Nightly Deviation Builds"
-msgstr ""
+msgstr "Ночные сборки Deviation"
 
 #: ../../source/ch_install.rst:190
 msgid ""
@@ -422,6 +511,15 @@ msgid ""
 "commenting on the features that they've used. Nightly builds are found at "
 "http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
 msgstr ""
+"Ночные сборки - это версии Deviation с дополнительными возможностями, "
+"выходящими за рамки версии Deviaton 5.0. Ночные сборки выпускаются, чтобы "
+"позволить сообществу Deviation полностью протестировать новые возможности, и"
+" сообщество могло предоставить отзывы и предложения для улучшения. Как "
+"пользователь, вы признаете, что Deviation - это поддерживаемая сообществом "
+"программная система, и члены этого сообщества могут внести свой вклад, "
+"проверяя, утверждая или комментируя используемые функции. Ночные сборки "
+"находятся по адресу http://www.deviationtx.com/downloads-new/category/13"
+"-nightly-builds"
 
 #: ../../source/ch_install.rst:200
 msgid ""
@@ -431,6 +529,11 @@ msgid ""
 "full release.  Please read this post! http://www.deviationtx.com/forum/5"
 "-news-announcements/1416-nightly-builds"
 msgstr ""
+"Эти сборки публикуются, когда добавляются новые возможности в ядро "
+"Deviation, когда исправляются серьезные ошибки и кода добавляется новая "
+"аппаратная поддержка. Ночные сборки протестированы, но не так исчерпывающе, "
+"как полный релиз. Прочитайте это сообщение! "
+"http://www.deviationtx.com/forum/5-news-announcements/1416-nightly-builds"
 
 #: ../../source/ch_install.rst:206
 msgid ""
@@ -443,6 +546,15 @@ msgid ""
 "issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
 " edit the source of the manual directly."
 msgstr ""
+"Руководство пользователя для Deviation регулярно просматривается и "
+"обновляется для добавления информации о новых возможностях. Кроме того, хотя"
+" сообщество Deviation прилагает все усилия для обновления руководства "
+"пользователя, эта документация может не полностью описывать особенности "
+"ночных сборок. Любой пользователь Deviation с обновлением или изменением для"
+" руководства может отправить дополнения и изменения через отслеживание "
+"проблем репозитория Deviation-manual Github по адресу "
+"https://github.com/DeviationTX/deviation-manual/issues , или напрямую "
+"отредактировать руководство."
 
 #: ../../source/ch_install.rst:215
 msgid ""
@@ -454,6 +566,13 @@ msgid ""
 "hardware beyond additional transmitter modules, you should consider using "
 "the Nightly build."
 msgstr ""
+"Итак, вы должны загрузить версию Deviation 5.0 или вы должны загрузить "
+"ночную сборку? Ваши собственные требования будут определять ответ на этот "
+"вопрос. Если вы используете модели Walkera, Spektrum или Frsky, и любые "
+"вариации квадрокоптеров WLToys V202, версии Deviation 5.0 будет достаточно. "
+"Если у вас есть один из многих новых небольших квадрокоптеров, или если вам "
+"нужна поддержка дополнительного оборудования, кроме дополнительных "
+"передающих модулей, вам следует рассмотреть использование ночной сборки."
 
 #: ../../source/ch_install.rst:224
 msgid ""
@@ -463,10 +582,15 @@ msgid ""
 " hardware and modify any settings to support your modifications.  This helps"
 " you determine the source of issues later for troubleshooting."
 msgstr ""
+"Если вы выполняете модификацию оборудования, такую как переключатели или "
+"передающие модули, сначала установите ночную сборку Deviation и просмотрите "
+"доступные возможности. После того, как Deviation запущен, установите ваше "
+"оборудование и измените параметры для поддержки вашей модификации. Это "
+"поможет в дальнейшем определить источник проблем, для устранения неполадок."
 
 #: ../../source/ch_install.rst:233
 msgid "Test Builds"
-msgstr ""
+msgstr "Тестовые сборки"
 
 #: ../../source/ch_install.rst:235
 msgid ""
@@ -475,6 +599,11 @@ msgid ""
 "and require a higher level of experience.  These builds may also require "
 "specific transmitter configuration or hardware mods."
 msgstr ""
+"Тестовые сборки предназначены только для опытных пользователей. Тестовые "
+"сборки Deviation готовятся разработчиками программного обеспечения для "
+"тестирования новых возможностей или аппаратных опций, и требуют более "
+"высокого уровня опыта. Эти сборки могут также требовать особой настройки "
+"передатчика или аппаратных модификаций."
 
 #: ../../source/ch_install.rst:240
 msgid ""
@@ -483,6 +612,10 @@ msgid ""
 "detailing the reason for that build and how to use it, and know why you "
 "would want to use it."
 msgstr ""
+"Некоторые тестовые сборки требуют предварительной установки ночной сборки. "
+"НЕ УСТАНАВЛИВАЙТЕ ТЕСТОВУЮ СБОРКУ пока не прочитаете тему подробно "
+"описывающую причину этой сборки и способы ее использования, и если не знаете"
+" почему вы хотите ее использовать."
 
 #: ../../source/ch_install.rst:245
 msgid ""
@@ -491,10 +624,14 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
+"После установки тестовой сборки, пошлите сообщение с соответствующую тему , "
+"чтобы разработчик знал, как все работает! Вот почему они создаются - чтобы "
+"разработчик мог получить отзыв, даже если это только замечание о том, что "
+"все работает нормально."
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
-msgstr ""
+msgstr "USB и файловая система"
 
 #: ../../source/ch_install.rst:255
 msgid ""
@@ -503,92 +640,102 @@ msgid ""
 "‘ENT’ button while powering up the transmitter. Files can then be easily "
 "copied to or from the transmitter."
 msgstr ""
+"Deviation хранит всю конфигурацию, изображения и модели как обычные файлы в "
+"файловой системе USB. USB режим можно легко включить, удерживая нажатой "
+"кнопку 'ENT' при включении питания передатчика. Затем файлы можно "
+"скопировать в передатчик или из него."
 
 #: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
-msgstr ""
+msgstr "Структура каталогов выглядит следующим образом:"
 
 #: ../../source/ch_install.rst:260
 msgid "\\\\tx.ini"
-msgstr ""
+msgstr "\\\\tx.ini"
 
 #: ../../source/ch_install.rst:260
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
+"Конфигурация передатчика. Включает настройки триммеров, данные калибровки и "
+"номер последней модели."
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\hardware.ini"
-msgstr ""
+msgstr "\\\\hardware.ini"
 
 #: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
 msgstr ""
+"Настройка оборудования передатчика, описывает поддерживаемые аппаратные "
+"модификации."
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\errors.txt"
-msgstr ""
+msgstr "\\\\errors.txt"
 
 #: ../../source/ch_install.rst:264
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
+"Если прошивка перезагружается, в этом файле сохраняется отладочная "
+"информация."
 
 #: ../../source/ch_install.rst:265
 msgid "\\\\datalog.bin"
-msgstr ""
+msgstr "\\\\datalog.bin"
 
 #: ../../source/ch_install.rst:265
 msgid "File for telemetry data"
-msgstr ""
+msgstr "Файл для данных телеметрии."
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\media\\\\config.ini"
-msgstr ""
+msgstr "\\\\media\\\\config.ini"
 
 #: ../../source/ch_install.rst:266
 msgid "The color scheme and fonts for the transmitter"
-msgstr ""
+msgstr "Цветовая схема и шрифты для передатчика."
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\media\\\\sound.ini"
-msgstr ""
+msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:267
 msgid "Contains notes to play for various alarms"
-msgstr ""
+msgstr "Содержит ноты для воспроизведения различных сигналов."
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\*.bmp"
-msgstr ""
+msgstr "\\\\media\\\\*.bmp"
 
 #: ../../source/ch_install.rst:268
 msgid "Images used for the current transmitter theme"
-msgstr ""
+msgstr "Изображения для текущей темы передатчика."
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\*.fon"
-msgstr ""
+msgstr "\\\\media\\\\*.fon"
 
 #: ../../source/ch_install.rst:269
 msgid "Font files"
-msgstr ""
+msgstr "Файлы шрифтов."
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\models\\\\default.ini"
-msgstr ""
+msgstr "\\\\models\\\\default.ini"
 
 #: ../../source/ch_install.rst:270
 msgid "The default model, loaded whenever a model is cleared"
-msgstr ""
+msgstr "Настройки модели по умолчанию, загружаются при очистке модели."
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\models\\\\model*.ini"
-msgstr ""
+msgstr "\\\\models\\\\model*.ini"
 
 #: ../../source/ch_install.rst:271
 msgid ""
@@ -596,10 +743,14 @@ msgid ""
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
+"Файлы конфигурации для каждой модели. Из-за ограничений в прошивке, "
+"Deviation  не может создавать новые файлы. Поэтому необходимо иметь файл "
+"modelxx.ini для каждой модели, вне зависимости от ее использования в данный "
+"момент."
 
 #: ../../source/ch_install.rst:274
 msgid "\\\\modelico\\\\*.bmp"
-msgstr ""
+msgstr "\\\\modelico\\\\*.bmp"
 
 #: ../../source/ch_install.rst:274
 msgid ""
@@ -607,10 +758,13 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
+"Все доступные значки моделей (рекомендуется 96x96 пикселей, но не "
+"обязательно). Значки моделей должны быть сохранены как 16-битный BMP файл в "
+"формате RGB565 (непрозрачный) или ARGB1555 (прозрачный)."
 
 #: ../../source/ch_install.rst:277
 msgid "\\\\templates\\\\*.ini"
-msgstr ""
+msgstr "\\\\templates\\\\*.ini"
 
 #: ../../source/ch_install.rst:277
 msgid ""
@@ -618,19 +772,26 @@ msgid ""
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
+"Файлы конфигурации, используемые при загрузке предопределенных шаблонов. Они"
+" почти идентичны файлам конфигурации моделей, однако могут определять не все"
+" параметры."
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\language\\\\lang*.*"
-msgstr ""
+msgstr "\\\\language\\\\lang*.*"
 
 #: ../../source/ch_install.rst:279
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
+"Языковые файлы перевода. Это текстовые файлы UTF-8, содержащие английскую "
+"строку и соответствующую переведенную строку."
 
 #: ../../source/ch_install.rst:285
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
 msgstr ""
+"Примечание: Deviation поддерживает имена файлов только в формате 8.3. Это "
+"означет, что имена файлов не должны быть длиннее, чем 'xxxxxxxx.yyy'."
