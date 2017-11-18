@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-18 20:39+0000\n"
+"POT-Creation-Date: 2017-11-17 22:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr ""
+msgstr "Навигация"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -28,6 +29,10 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"По меню передатчика можно перемещаться нажатием на соответствующее "
+"изображение на экране или с помощью физических кнопок UP, D(ow)N, L(eft), "
+"R(ight), ENT(er), EX(i)T. Все кнопки и переключатели помечены теми же "
+"именами, что используются в этом руководстве."
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -35,26 +40,35 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
+"По меню передатчика можно перемещаться нажатием физические кнопки UP, "
+"D(ow)N, L(eft), R(ight), ENT(er), EX(i)T. Все кнопки и переключатели "
+"помечены теми же именами, что используются в этом руководстве."
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
+"Имеется несколько элементов GUI, которые используются для настройки "
+"передатчика."
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
 msgstr ""
+"**Кнопки**: Кнопки могут выбраны для переключения настроек или для вызова "
+"другого меню."
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
+"**Полосы прокрутки**: Полосы прокрутки используются для выбора одного из "
+"нескольких значений."
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "Имеется два типа полос прокрутки:"
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
@@ -62,44 +76,58 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
+"Полоса прокрутки, состоящая из двух стрелок и 3D кнопки, может действовать "
+"как полоса прокрутки (для выбора значения) и как кнопка (которая может иметь"
+" различные эффекты)."
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
 msgstr ""
+"Полоса прокрутк, состоящая только из двух стрелок и белой метки, не работают"
+" как кнопки, и используются только для выбора значения."
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
+"Имейте в виду, что полоса прокрутки может изменяться между возможностью "
+"выбора и его отсутствием, для разных значений полосы прокрутки."
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
+"**Текстовые окна**: Текстовые окна обычно предоставляют информацию, однако в"
+" некоторых случаях их можно нажать, чтобы выполнить действие (подобно "
+"кнопке)."
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
 msgstr ""
+"**Значки**: Значки могут предоставлять информацию или могут нажиматься для "
+"выполнения действия (подобно кнопке)."
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr ""
+msgstr "Главное меню вызывается нажатием кнопки ‘ENT’ на главном экране."
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "Навигация физическими кнопками"
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
+"На всех страницах меню, кнопки ‘UP’ и ‘DN’ используются для перемещения к "
+"предыдущей/следующей позиции."
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
@@ -107,25 +135,32 @@ msgid ""
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
+"Кнопки ‘R+’ и ‘L-’ используются в полосах прокрутки для увеличения или "
+"уменьшения выбранного значения. В некоторых случаях удержание кнопки будет "
+"использовать больший шаг значений для быстрого перехода к желаемому "
+"значению."
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
+"Для кнопок и закругленных полос прокрутки, нажатие ‘ENT’ нажимает кнопку,"
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
+"Нажатие ‘EXT’ уберет выделение с текущего элемента. Длительное нажатие ‘EXT’"
+" приведет к переходу на один (1) уровень меню выше."
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr ""
+msgstr "Схема меню"
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "Имеется 2 отдельных меню:"
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -134,6 +169,10 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"Меню передатчика позволяет вам выбирать параметры относящиеся к передатчику,"
+" а также контролировать выход каналов и ввод стиков, контролировать "
+"телеметрию (если доступна). Подробная информация о меню находится в разделе "
+":ref:`transmitter-menu`."
 
 #: ../../source/ch_navigating.rst:62
 msgid ""
@@ -142,3 +181,6 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Меню модели позволяет вам настроить тип модели, на которой вы летаете. Все "
+"данные модели управляются и сохраняются в пределах этого меню. Подробная "
+"информация о меню находится в разделе :ref:`model-menu`."
