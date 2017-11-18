@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 22:39+0000\n"
+"POT-Creation-Date: 2017-11-17 22:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "Меню передатчика"
 
 #: ../../source/ch_transmitter.rst:20
 msgid "Transmitter config"
-msgstr ""
+msgstr "Конфигурация передатчика"
 
 #: ../../source/ch_transmitter.rst:23
 msgid ""
@@ -31,6 +32,9 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"На странице конфигурации настраиваются различные функции передатчика. На нее"
+" можно войти из главного меню через значок TX Options. Имейте в виду, что "
+"все экраны в этом разделе показывают настройки по умолчанию. "
 
 #: ../../source/ch_transmitter.rst:33
 msgid ""
@@ -39,46 +43,54 @@ msgid ""
 " Please note that all screens in this section show the Deviation default "
 "settings."
 msgstr ""
+"На странице конфигурации настраиваются различные функции передатчика. На нее"
+" можно войти из главного меню через ‘Transmitter menu’ и далее ‘Transmitter "
+"config’. Имейте в виду, что все экраны в этом разделе показывают настройки "
+"по умолчанию. "
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr ""
+msgstr "Основные настройки"
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Language**: Выберите подходящий язык для всего текста."
 
 #: ../../source/ch_transmitter.rst:50
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "ПРИМЕЧАНИЕ: Эта возможность недоступна для Devo7e."
 
 #: ../../source/ch_transmitter.rst:52
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**Stick mode**: Выберите один из режимов стиков (Mode 1-4)."
 
 #: ../../source/ch_transmitter.rst:54
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
 msgstr ""
+"Mode 1 распространен в Европе. Elevator и Rudder слева, Throttle и Aileron "
+"справа."
 
 #: ../../source/ch_transmitter.rst:55
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
 msgstr ""
+"Mode 2 распространен в Северной Америке. Throttle и Rudder слева, Elevator и"
+" Aileron справа."
 
 #: ../../source/ch_transmitter.rst:56
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
-msgstr ""
+msgstr "Mode 3 имеет Elevator и Aileron слева, Throttle и Rudder справа."
 
 #: ../../source/ch_transmitter.rst:57
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
-msgstr ""
+msgstr "Mode 4 имеет Throttle и Aileron слева, Elevator и Rudder справа."
 
 #: ../../source/ch_transmitter.rst:59
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
-msgstr ""
+msgstr "**Sticks**: Калибровка диапазона всех аналоговых стиков и ручек."
 
 #: ../../source/ch_transmitter.rst:61
 msgid ""
@@ -86,14 +98,17 @@ msgid ""
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"Для калибровки стиков, выделите опцию 'Calibrate' и нажмите кнопку ENT. "
+"Следуйте инструкциям на экране для перемещения стиков и подтверждения "
+"кнопкой ENT."
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "**Clock (только Devo12)**: Настройка текущего времени и даты."
 
 #: ../../source/ch_transmitter.rst:71
 msgid "Buzzer settings"
-msgstr ""
+msgstr "Настройки зуммера"
 
 #: ../../source/ch_transmitter.rst:73
 msgid ""
@@ -130,7 +145,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
-msgstr ""
+msgstr "Настройки экрана"
 
 #: ../../source/ch_transmitter.rst:88
 msgid ""
@@ -159,7 +174,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:99
 msgid "Timer settings"
-msgstr ""
+msgstr "Настройки таймера"
 
 #: ../../source/ch_transmitter.rst:101
 msgid ""
@@ -182,7 +197,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:108
 msgid "Telemetry settings"
-msgstr ""
+msgstr "Настройки телеметрии"
 
 #: ../../source/ch_transmitter.rst:110
 msgid ""
@@ -198,7 +213,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:115
 msgid "Channel monitor"
-msgstr ""
+msgstr "Монитор каналов"
 
 #: ../../source/ch_transmitter.rst:122
 msgid ""
@@ -216,7 +231,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:131
 msgid "Input Monitor"
-msgstr ""
+msgstr "Монитор органов управления"
 
 #: ../../source/ch_transmitter.rst:149
 msgid ""
@@ -245,7 +260,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:167
 msgid "Button Monitor"
-msgstr ""
+msgstr "Монитор кнопок"
 
 #: ../../source/ch_transmitter.rst:174
 msgid ""
@@ -262,7 +277,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:182
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "Монитор телеметрии"
 
 #: ../../source/ch_transmitter.rst:189
 msgid ""
@@ -296,7 +311,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:220
 msgid "Range Test"
-msgstr ""
+msgstr "Тест диапазона действия"
 
 #: ../../source/ch_transmitter.rst:229
 msgid ""
@@ -335,7 +350,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:254
 msgid "USB/About"
-msgstr ""
+msgstr "USB/Информация о прошивке"
 
 #: ../../source/ch_transmitter.rst:261
 msgid ""
@@ -346,9 +361,17 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"Доступ к странице USB может быть получен выбором 'USB' в главном меню. Затем"
+" режим USB может быть включен/выключен, чтобы обеспечить доступ к файловой "
+"системе передатчика с компьютера. В этом режиме файловая система Deviation "
+"доступна как дисковое устройство хранения. Это позволяет вам перемещать "
+"файлы между файловой системой Deviation и компьютером. В этом режиме "
+"доступны все файлы конфигурации."
 
 #: ../../source/ch_transmitter.rst:265
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"ПРИМЕЧАНИЕ: Вход в режим USB никогда не должен выполняться, кода модель "
+"привязана, использование USB нарушит передачу сигнала!"

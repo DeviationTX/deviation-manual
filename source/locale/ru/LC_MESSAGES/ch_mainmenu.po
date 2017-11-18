@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 22:39+0000\n"
+"POT-Creation-Date: 2017-11-17 22:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:6
 msgid "Main Menu"
-msgstr ""
+msgstr "Главное меню"
 
 #: ../../source/ch_mainmenu.rst:10
 msgid ""
@@ -28,6 +29,9 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
+"Доступ к главному меню прошивки Deviation выполняется кратковременным "
+"нажатием на кнопку ENT передатчика. Главное меню состоит из следующих "
+"четырех пунктов: Model menu, Transmitter menu, USB and About Deviation."
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -36,10 +40,14 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
+"Все настройки относящиеся к использованию передатчика Deviation доступны из "
+"главного меню. Это включает в себя настройки модели, выбор языка, настройки "
+"экрана, звуковой сигнал, вибрация, режим стиков, калибровка, подключение "
+"USB, а также информация о версии Deviation."
 
 #: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
-msgstr ""
+msgstr "Меню модели"
 
 #: ../../source/ch_mainmenu.rst:16
 msgid ""
@@ -48,10 +56,13 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"Меню модели позволяет вам настроить тип модели, на которой вы летаете. Все "
+"данные модели управляются и сохраняются в пределах этого меню. Подробная "
+"информация о меню находится в разделе :ref:`model-menu`."
 
 #: ../../source/ch_mainmenu.rst:19
 msgid "Transmitter menu"
-msgstr ""
+msgstr "Меню передатчика"
 
 #: ../../source/ch_mainmenu.rst:20
 msgid ""
@@ -60,10 +71,14 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"Меню передатчика позволяет вам выбирать параметры относящиеся к передатчику,"
+" а также контролировать выход каналов и ввод стиков, контролировать "
+"телеметрию (если доступна). Подробная информация о меню находится в разделе "
+":ref:`transmitter-menu`."
 
 #: ../../source/ch_mainmenu.rst:23
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:27
 msgid ""
@@ -74,19 +89,29 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"Доступ к странице USB может быть получен выбором 'USB' в главном меню. Затем"
+" режим USB может быть включен/выключен, чтобы обеспечить доступ к файловой "
+"системе передатчика с компьютера. В этом режиме файловая система Deviation "
+"доступна как дисковое устройство хранения. Это позволяет вам перемещать "
+"файлы между файловой системой Deviation и компьютером. В этом режиме "
+"доступны все файлы конфигурации."
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"ПРИМЕЧАНИЕ: Вход в режим USB никогда не должен выполняться, кода модель "
+"привязана, использование USB нарушит передачу сигнала!"
 
 #: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
-msgstr ""
+msgstr "About Deviation"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
+"Информация о  версии Deviation может быть получена выбором ‘About Deviation’"
+" из главного меню."
