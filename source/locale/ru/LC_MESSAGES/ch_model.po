@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-17 22:37+0000\n"
+"POT-Creation-Date: 2017-11-18 22:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -28,47 +28,56 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
+"Меню модели позволяет выбирать, редактировать конфигурацию модели, сигналы, "
+"журналирование и конфигурацию экрана. Выможете попасть в меню нажатием "
+"кнопки ENT для выбора 'Main menu' и затем 'Model menu'."
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
+"В зависомости от выбора, который вы сделали для Mixer GUI в разделе :ref"
+":`model-setup`, управление для меню модели будет совершенно различным."
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
 msgstr ""
+"Страница интерфейса Advanced '9.2. Mixer' (:ref:`mixer-adv`) обеспечивает "
+"всю функциональность (и даже больше) интерфеса Standard."
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**Advanced GUI**:"
 
 #: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**Standard GUI**:"
 
 #: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**Меню \"Advanced\"**"
 
 #: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**Меню \"Standard\"**"
 
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
 msgstr ""
+"ПРИМЕЧАНИЕ: Advanced Mixer GUI является настройкой по умолчанию для всех "
+"новых моделей."
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "Настройка модели (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr ""
+msgstr "Страница модели обеспечивает различные опции конфигурации модели."
 
 #: ../../source/ch_model.rst:73
 msgid ""
