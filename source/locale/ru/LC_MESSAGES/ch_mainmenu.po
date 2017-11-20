@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-17 22:37+0000\n"
+"POT-Creation-Date: 2017-11-19 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
-msgstr "About Deviation"
+msgstr "Информация о прошивке"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid ""
