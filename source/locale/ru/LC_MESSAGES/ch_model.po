@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-18 22:40+0000\n"
+"POT-Creation-Date: 2017-11-19 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -29,15 +29,15 @@ msgid ""
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
 "Меню модели позволяет выбирать, редактировать конфигурацию модели, сигналы, "
-"журналирование и конфигурацию экрана. Выможете попасть в меню нажатием "
-"кнопки ENT для выбора 'Main menu' и затем 'Model menu'."
+"журналирование и конфигурацию экрана. Вы можете попасть в меню нажатием "
+"кнопки ENT, для выбора 'Main menu' и затем 'Model menu'."
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
-"В зависомости от выбора, который вы сделали для Mixer GUI в разделе :ref"
+"В зависимости от выбора, который вы сделали для Mixer GUI в разделе :ref"
 ":`model-setup`, управление для меню модели будет совершенно различным."
 
 #: ../../source/ch_model.rst:23
@@ -46,7 +46,7 @@ msgid ""
 "functionality (and more) of the Standard Model."
 msgstr ""
 "Страница интерфейса Advanced '9.2. Mixer' (:ref:`mixer-adv`) обеспечивает "
-"всю функциональность (и даже больше) интерфеса Standard."
+"всю функциональность (и даже больше) интерфейса Standard."
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
@@ -87,6 +87,12 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"**File**: Полоса прокрутки 'File' позволяет загрузить новую модель, "
+"копировать существующую модель в другую модель, сбросить модель к настройкам"
+" по умолчанию (вся конфигурация будет потеряна), и загрузить шаблоны "
+"(смотрите :ref:`predefined-model-templates`). Имейте в виду, что смена "
+"модели может привести к отображению сообщения безопасности (смотрите :ref"
+":`safety-system`)."
 
 #: ../../source/ch_model.rst:92
 msgid ""
@@ -95,6 +101,10 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"**Mixer GUI**: Определяет какой графический интерфейс пользователя (GUI) "
+"будет использован для этой модели. ‘Advanced’ GUI является интерфейсом по "
+"умолчанию для Deviation. ‘Standard’ GUI предназначен только для моделей "
+"вертолетов и похож на интерфейс заводского передатчика."
 
 #: ../../source/ch_model.rst:97
 msgid ""
@@ -106,6 +116,14 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"‘Standard’ GUI разработан для вертолетов коллективного шага с сервоосью. Он "
+"включает в себя специфические функции, которые не нужны для других "
+"летательных аппаратов, и в нем могут отсутствовать функции необходимые для "
+"других летательных аппаратов. Вертолет коллективного шага без сервоси может "
+"получить некоторую пользу от некоторых функций ‘Standard’ GUI, но не "
+"нуждается в них и ему могут потребоваться отсутствующие функции. "
+"**Настоятельно рекомендуется использовать ‘Advanced’ GUI для всех "
+"летательных аппаратов, кроме вертолетов коллективного шага.**"
 
 #: ../../source/ch_model.rst:108
 msgid ""
@@ -113,18 +131,25 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
+"Примечание: Если вы переключитесь с ‘Advanced’ GUI на ‘Standard’ GUI, все "
+"данные модели могут быть потеряны. Но если вы переключитесь со ‘Standard’ "
+"GUI на ‘Advanced’ GUI, все данные модели сохранятся."
 
 #: ../../source/ch_model.rst:115
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
 msgstr ""
+"**Model Name**: Укажите название модели. Используйте кнопки влево, вправо "
+"вверх и вниз, и затем ENT для выбора каждого символа."
 
 #: ../../source/ch_model.rst:120
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
 msgstr ""
+"**Icon**: Выберите значок модели. Могут быть установлены дополнительные "
+"значки (смотрите :ref:`usb-file-system`)."
 
 #: ../../source/ch_model.rst:127
 msgid ""
@@ -133,24 +158,36 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"**Model Type**: Установка типа модели, доступные опции: Heli, Plane и Multi."
+" Модели вертолетов имеют дополнительную страницу конфигурации, которая "
+"доступна при нажатии на тип модели. Опции для 'SwashType' идентичны "
+"параметрам в :ref:`swash-configuration`."
 
 #: ../../source/ch_model.rst:133
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
 msgstr ""
+"Если вы переключитесь с типа модели вертолет, это автоматически изменит "
+"'Mixer GUI' на 'Advanced', так как 'Standard' GUI поддерживает только "
+"вертолеты."
 
 #: ../../source/ch_model.rst:135
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"**Transmitter Power**: Укажите выходную мощность передатчика (когда это "
+"применимо). Доступные опции: 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, "
+"150mW."
 
 #: ../../source/ch_model.rst:140
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
 msgstr ""
+"Примечание: Заводской Devo7e передает с выходной мощностью 7mW. Из-за "
+"программной конфигурации в этом случае всегда будет отображаться 150mW."
 
 #: ../../source/ch_model.rst:144
 msgid ""
@@ -159,6 +196,10 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"**PPM In**: Позволяет использовать вход DSC порта в основном для управления "
+"внешним оборудованием, таким как моторы камеры от 'head tracker'. Кроме "
+"того, он может использоваться для работы передатчика в качестве Master в "
+"режиме тренера. Доступные опции: Channel, Stick и Extend."
 
 #: ../../source/ch_model.rst:150
 msgid ""
@@ -167,6 +208,10 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"Режимы 'Stick' и 'Channel' используются для режима тренера, документацию "
+"можно найти в разделе :ref:`setting-up-a-buddy-box`. Режим 'Extend' "
+"используется для FPV или внешнего ввода, документацию можно найти в разделе "
+":ref:`setting-up-fpv`."
 
 #: ../../source/ch_model.rst:152
 msgid ""
@@ -177,6 +222,13 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"**Protocol**: Устанавливает тип используемого протокола. Имейте в виду, что "
+"некоторые протоколы имеют дополнительные опции, которые доступны при нажатии"
+" на полосу прокрутки 'Protocol', когда она выбрана. Смотрите раздел "
+":ref:`protocols` для дополнительной информации о конкретных протоколах. "
+"Имейте в виду, что изменение протокола отключит активный протокол и повлияет"
+" на активную модель. Для активации нового выбранного протокола, используйте "
+"кнопку 'Bind/Re-Init', описанную ниже."
 
 #: ../../source/ch_model.rst:163
 msgid ""
@@ -186,6 +238,13 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"**Bind/Re-Init**: В зависимости от протокола и настройки 'Fixed-ID', "
+"передатчик может связываться с моделью при включении, или может "
+"потребоваться однократная привязка вручную. Смотрите :ref:`protocols` для "
+"дополнительной информации по конкретным протоколам. Если протокол не "
+"поддерживает привязки, на кнопке появится ‘Re-Init’, и она может быть "
+"использована для активации протокола без выключения и включения питания "
+"передатчика."
 
 #: ../../source/ch_model.rst:168
 msgid ""
@@ -193,22 +252,30 @@ msgid ""
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
 msgstr ""
+"**Fixed ID**: Идентификатор 'Fixed ID' устанавливает уникальный код для "
+"гарантии привязки передатчика только к конкретной модели. Это полезно для "
+"того, чтобы передатчик случайно не привязывался к ошибочной модели."
 
 #: ../../source/ch_model.rst:170
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
 msgstr ""
+"**# Channels**: Устанавливает количество каналов для передачи (максимальное "
+"количество каналов зависит от выбранного протокола)."
 
 #: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "Предопределенные шаблоны моделей"
 
 #: ../../source/ch_model.rst:182
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
 msgstr ""
+"Прошивка Deviation поддерживает настраиваемые пользователем шаблоны. С "
+"помощью выбора ‘Template...’ в полосе прокрутки 'File' на странице "
+"конфигурации модели."
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -217,10 +284,14 @@ msgid ""
 "a portion of it.  The currently supported templates will replace the mixer "
 "and trim definitions, but will not affect the display layout."
 msgstr ""
+"Дополнительные шаблоны могут быть добавлены через USB в каталог "
+"‘\\\\template’. Шаблон не заменяет полностью вашу существующую модель, но "
+"лишь ее часть. Текущие поддерживаемые шаблоны заменяют микшер и определения "
+"триммеров, но не влияют на макет экрана."
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "Микшер (Adv GUI)"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -236,6 +307,17 @@ msgid ""
 ":`predefined-model-templates`), but to learn to modify and configure a "
 "model, read through this entire section carefully."
 msgstr ""
+"Интерфейс 'Advanced' GUI раскрывает все возможности прошивки Deviation, "
+"однако, он не похож на настройки всех коммерческих передатчиков. Deviation "
+"также предоставляет более традиционный интерфейс настройки для тех, кто это "
+"предпочитает (смотрите :ref:`standard-gui`). В 'Advanced' GUI, каждый "
+"выходной канал состоит из одного или более микшеров, каждый из которых "
+"состоит из одного входа, переключателя активации, и функции/кривой, которая "
+"изменяет выход микшера. Это очень мощная возможность, но для этого требуется"
+" изучение совершенно другого метода настройки моделей. Для быстрой настройки"
+" имеется несколько предопределенных конфигураций  (смотрите :ref"
+":`predefined-model-templates`), но для обучения изменению и настройке "
+"модели, внимательно прочитайте весь этот раздел."
 
 #: ../../source/ch_model.rst:205
 msgid ""
@@ -243,6 +325,9 @@ msgid ""
 "channels.  The mixer page is accessed from the main menu by selecting the "
 "model icon.."
 msgstr ""
+"Страница 'Mixer' определяет как вводы (стики/переключатели) назначаются на "
+"выходные каналы. Доступ к странице микшеров осуществляется из главного меню "
+"с помощью выбора значка модели."
 
 #: ../../source/ch_model.rst:207
 msgid ""
@@ -250,10 +335,14 @@ msgid ""
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
 "channels that can be used as an intermediate step for complex setups."
 msgstr ""
+"Количество доступных каналов зависит от количества каналов выбранных в "
+"разделе :ref:`model-setup`. Кроме того, имеется 10 виртуальных каналов, "
+"которые могут использоваться в качестве промежуточного шага для сложных "
+"конфигураций."
 
 #: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
-msgstr ""
+msgstr "Изменение порядка каналов"
 
 #: ../../source/ch_model.rst:215
 msgid ""
@@ -262,10 +351,15 @@ msgid ""
 " are the initial channel assignments.  Whenever the page is loaded, the "
 "channels will be sequentially ordered representing the current state."
 msgstr ""
+"Страница 'Channel reorder' позволяет перемещать определения микшеров между "
+"каналами, а также дублировать конфигурации каналов. Имейте в виду, что "
+"отображаемые значения являются исходным назначением каналов. При каждой "
+"загрузке страницы, каналы будут последовательно упорядочены, отображая "
+"текущее состояние."
 
 #: ../../source/ch_model.rst:220
 msgid "Channel configuration"
-msgstr ""
+msgstr "Настройки канала"
 
 #: ../../source/ch_model.rst:227
 msgid ""
@@ -275,16 +369,24 @@ msgid ""
 "trim, and a safety switch (which could be used to ensure that a motor cannot"
 " spin-up while working on a model)"
 msgstr ""
+"Настройки канала обеспечивают возможность настраивать выходной сигнал "
+"канала. Здесь применяются такие возможности, как реверс канала и безопасное "
+"значение. Также доступна настройка конечных точек, масштаб, субтриммер, "
+"переключатель безопасности (который может использоваться для отключения "
+"двигателя при работе над моделью)."
 
 #: ../../source/ch_model.rst:229
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
 msgstr ""
+"Изменения на этой странице будут немедленно влиять на выходной сигнал "
+"канала. Нажатие на '**Cancel**' восстановит отображаемые значения к их "
+"последнему сохраненному состоянию."
 
 #: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
-msgstr ""
+msgstr "**Reverse**: Реверсирует направление вращения сервопривода."
 
 #: ../../source/ch_model.rst:233
 msgid ""
@@ -292,12 +394,17 @@ msgid ""
 " signal from the transmitter. The range is between -125 and +125 or None. "
 "Not all receivers support this capability."
 msgstr ""
+"**Fail-safe**: Указывает значение, которое приемник должен использовать, "
+"когда он теряет сигнал от передатчика. Диапазон: от -125 до +125 или 'None'."
+" Не все приемники поддерживают эту возможность."
 
 #: ../../source/ch_model.rst:235
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
 msgstr ""
+"**Safety**: Указывает переключатель, который перекрывает все микшеры и "
+"принудительно устанавливает выход канала в значение ‘Safe Val’."
 
 #: ../../source/ch_model.rst:237
 msgid ""
@@ -305,6 +412,8 @@ msgid ""
 "specified. The acceptable range of Safe Val is any value between -150 and "
 "150."
 msgstr ""
+"**Safe Val**: Если выбран переключатель безопасности, может быть указано "
+"значение 'Safe Val'. Допустимый диапазон 'Safe Val' от -150 до 150."
 
 #: ../../source/ch_model.rst:239
 msgid ""
@@ -315,6 +424,13 @@ msgid ""
 "Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is "
 "-250 to 0 for Min Limit and 0 to 250 for Max Limit."
 msgstr ""
+"**Min Limit/Max Limit**: Эти значения определяют минимум и максимум "
+"значений, которые передатчик будет отправлять приемнику (после применения "
+"масштабирования, триммеров и всех микшеров). Если вычисленное значение "
+"выходит за пределы диапазона мин/макс, оно обрезается до минимального или "
+"максимального значения. Значения по умолчанию -150 для 'Min Limit' и +150 "
+"для 'Max Limit'. Максимальное значение от -250 до 0 для 'Min Limit' и от 0 "
+"до 250 для 'Max Limit'."
 
 #: ../../source/ch_model.rst:241
 msgid ""
@@ -324,12 +440,19 @@ msgid ""
 "different value than Scale+ both data will act separately until you set them"
 " to the same value again."
 msgstr ""
+"**Scale-/Scale+**: Эти значения определяют финальный масштаб для настройки "
+"расхода сервопривода. Допустимое значение от 1 до 250. Когда вы изменяете "
+"\"Scale+', 'Scale-' будет изменяться синхронно. Если 'Scale-' установлен в "
+"значение отличное от 'Scale+', оба значения будут изменяться независимо, "
+"пока вы снова не установите их в одинаковое значение."
 
 #: ../../source/ch_model.rst:243
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
 msgstr ""
+"**Subtrim**: Настраивает нулевое положение сервопривода. Допустимый диапазон"
+" от -50.0 до +50.0 с шагом 0.1."
 
 #: ../../source/ch_model.rst:245
 msgid ""
@@ -337,6 +460,11 @@ msgid ""
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
 "degrees per 100msec (assuming a min/max throw of 120degrees)."
 msgstr ""
+"**Speed**: Настраивает максимальную скорость сервопривода. Ноль означает "
+"отключение (самая высокая скорость), диапазон от 1 (самая медленная "
+"скорость) до 250 (самая высокая скорость). Скорость сервопривода "
+"определяется как количество градусов за 100 мсек (при мин/макс расходе 120 "
+"градусов)."
 
 #: ../../source/ch_model.rst:246
 msgid ""
@@ -345,10 +473,15 @@ msgid ""
 "~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A "
 "value of 30 should be approx twice as slow as a typical servo."
 msgstr ""
+"Пример: Значение 60 обеспечит скорость 60 градусов за 100 мсек, что "
+"эквивалентно перемещению от центра в максимум за 100 мсек. Большинство "
+"сервоприводов имеют скорость ~60 градусов/0.1 сек, поэтому скорость > 60 не "
+"будет иметь эффекта для большинства сервоприводов. Со значением 30 это будет"
+" примерно в два раза медленнее, чем для типового сервопривода."
 
 #: ../../source/ch_model.rst:249
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "Настройка виртуального канала"
 
 #: ../../source/ch_model.rst:254
 msgid ""
@@ -356,10 +489,14 @@ msgid ""
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
 msgstr ""
+"Если вы нажмете ENT на виртуальном канале, появится экран клавиатуры, где вы"
+" сможете редактировать имя канала по умолчанию. Вы можете использовать "
+"кнопки L/R/UP/DN и затем ENT для выбора символа. Или просто нажмите на на "
+"символ."
 
 #: ../../source/ch_model.rst:260
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "Простой микшер"
 
 #: ../../source/ch_model.rst:267
 msgid ""
@@ -369,6 +506,11 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"Простой микшер - это самый простой способ определения канала. Он позволяет "
+"задать первичный ввод (стик, переключатель или другой канал) и применить "
+"кривую или функцию к этому вводу. Результат можно масштабировать или "
+"применить смещение нуля. Вы не можете использовать переключатель для "
+"активации этого микшера."
 
 #: ../../source/ch_model.rst:273 ../../source/ch_model.rst:298
 #: ../../source/ch_model.rst:324
@@ -376,11 +518,13 @@ msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
 msgstr ""
+"Длительное нажатие на кнопку ENT обновит текущие настройки микшера, что "
+"позволит проверить их в передатчике."
 
 #: ../../source/ch_model.rst:275 ../../source/ch_model.rst:300
 #: ../../source/ch_model.rst:345
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "**Src**: Входной источник, управляющий микшером."
 
 #: ../../source/ch_model.rst:277 ../../source/ch_model.rst:302
 #: ../../source/ch_model.rst:347
@@ -389,6 +533,10 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"**Curve**: Функция применяемая к входу для генерации выхода. Смотрите раздел"
+" :ref:`available-curves` для дополнительной информации. В зависимости от "
+"типа кривой, нажатие на кривую может вызывать редактор кривой (смотрите :ref"
+":`curve-editing`)."
 
 #: ../../source/ch_model.rst:279 ../../source/ch_model.rst:306
 #: ../../source/ch_model.rst:349
@@ -396,14 +544,17 @@ msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
 msgstr ""
+"**Scale**: Мультипликативный масштаб, который применяется после кривой для "
+"управления выходным диапазоном."
 
 #: ../../source/ch_model.rst:281
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
+"**Offset**: Добавление смещения, которое применяется после масштабирования."
 
 #: ../../source/ch_model.rst:284
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "Микшер 'Expo & Dual-Rate'"
 
 #: ../../source/ch_model.rst:296
 msgid ""
@@ -414,15 +565,23 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"Выбор значения для 'Switch1' или 'Switch2' активирует соответствующий "
+"раздел. Каждый раздел может иметь или 'связанную' кривую (кривая такая же "
+"как кривая 'High-Rate'), и в этом случае может быть изменен только масштаб, "
+"или альтернативно может иметь независимое определение кривой. Нажатие кнопки"
+" 'Mid-Rate' или 'Low-Rate' для данного переключателя будет переключать между"
+" 'связанной' и независимой кривой."
 
 #: ../../source/ch_model.rst:304
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
+"**Switch1** или **Switch2**: Укажите переключатель для включения расходов "
+"'Medium' или 'Low'."
 
 #: ../../source/ch_model.rst:309
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "Комплексный микшер"
 
 #: ../../source/ch_model.rst:316
 msgid ""
@@ -433,42 +592,58 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"Комплексный микшер открывает полную мощность системы микшеров. Для данного "
+"канала, может быть применено любое количество микшеров для воздействия на "
+"конечный результат. Каждый микшер применяется в зависимости от того, активен"
+" ли указанный переключатель, и может ли он заменять, добавлять или умножать "
+"на предыдущие микшеры для этого канала. Используя эту систему, можно "
+"определить выходной канал, как комбинацию любого количества входов."
 
 #: ../../source/ch_model.rst:326
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "Страница комплексного микшера имеет следующие опции:"
 
 #: ../../source/ch_model.rst:328
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
 msgstr ""
+"**Mixers**: Указывает количество микшеров для этого канала. Если вы "
+"увеличите число, новый микшер будет добавлен после последней страницы "
+"микшеров."
 
 #: ../../source/ch_model.rst:330
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
 msgstr ""
+"**Page**: Указывает текущую страницу микшера, которая редактируется. Нажатие"
+" на полосу прокрутки позволяет изменить порядок микшеров текущего канала."
 
 #: ../../source/ch_model.rst:332
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
 msgstr ""
+"**Switch**: Указывает опциональный переключатель, который активирует текущий"
+" микшер."
 
 #: ../../source/ch_model.rst:334
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
 msgstr ""
+"**Mux**: Определяет как текущий микшер применяется к предыдущим микшерам "
+"этого канала. Опции:"
 
 #: ../../source/ch_model.rst:336
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
+"**Replace**: Если этот микшер активен, все предыдущие микшеры игнорируются."
 
 #: ../../source/ch_model.rst:337
 msgid "**Add**: Add the value of this mixer to the previous mixers."
-msgstr ""
+msgstr "**Add**: Добавляет значение этого микшера к предыдущим микшерам."
 
 #: ../../source/ch_model.rst:338
 msgid ""
@@ -476,18 +651,23 @@ msgid ""
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
 msgstr ""
+"**Mult**: Умножает значение этого микшера на предыдущие микшеры. Имейте в "
+"виду, что значения являются процентами, поэтому умножение на 50 означает "
+"умножение на 0,5."
 
 #: ../../source/ch_model.rst:341
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
 msgstr ""
+"**Max**: Выходом будет больше текущего микшера против предыдущих микшеров."
 
 #: ../../source/ch_model.rst:342
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
 msgstr ""
+"**Min**: Выходом будет меньше текущего микшера против предыдущих микшеров."
 
 #: ../../source/ch_model.rst:343
 msgid ""
@@ -495,92 +675,112 @@ msgid ""
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
 msgstr ""
+"**Delay**: Задержка выхода этого микшера, когда используется с фиксированной"
+" кривой. Масштаб 100 представляет 5 секундную задержку. Может варьироваться "
+"с помощью масштаба или смещения."
 
 #: ../../source/ch_model.rst:351
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
 msgstr ""
+"Имейте в виду, хотя значение масштаба ограничено 100%, микшер может "
+"обеспечивать значение больше 100%, если настроено смещение или значение "
+"триммера не равно нулю."
 
 #: ../../source/ch_model.rst:353
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
+"**Offset**: Добавочное смещение, которое применяется после масштабирования."
 
 #: ../../source/ch_model.rst:355
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
-msgstr ""
+msgstr "**Trim**: Выбор, применяется ли триммер для выбранного источника."
 
 #: ../../source/ch_model.rst:357
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "Можно считать, что микшер имеет следующий общий вид:"
 
 #: ../../source/ch_model.rst:360
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 msgstr ""
+"M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
+"*Trim*"
 
 #: ../../source/ch_model.rst:362
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
 msgstr ""
+"Комбинация микшеров для данного выходного канала определяется типом 'Mux':"
 
 #: ../../source/ch_model.rst:364
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "Для ‘Replace’ mux:"
 
 #: ../../source/ch_model.rst:366
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
+"else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 
 #: ../../source/ch_model.rst:368
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "Для ‘Multiply’ mux:"
 
 #: ../../source/ch_model.rst:370
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 
 #: ../../source/ch_model.rst:372
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "Для ‘Add’ mux:"
 
 #: ../../source/ch_model.rst:374
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 
 #: ../../source/ch_model.rst:376
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "Для ‘Max’ mux:"
 
 #: ../../source/ch_model.rst:378
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:380
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "Для ‘Min’ mux:"
 
 #: ../../source/ch_model.rst:382
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:385
 msgid "Cyclic"
-msgstr ""
+msgstr "Циклический микшер"
 
 #: ../../source/ch_model.rst:391
 msgid ""
@@ -588,10 +788,13 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"**Cyclic1, Cyclic2, Cyclic3**: 3 выхода микшера вертолетной тарелки "
+"перекоса. Они будут представлять 3 сервопривода, соединенных с тарелкой "
+"перекоса вертолета (смотрите :ref:`swash-configuration`)."
 
 #: ../../source/ch_model.rst:394
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "Изменение порядка микшеров"
 
 #: ../../source/ch_model.rst:402
 msgid ""
@@ -600,6 +803,11 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"Выберите соответствующий микшер и используйте кнопки вверх/вниз для "
+"перемещения порядка выбранного микшера. Имейте в виду, что имя микшера "
+"представляет его позицию, когда открывается диалог изменения порядка "
+"микшеров. Если диалог закрыт и снова открыт, все микшеры будут показаны как "
+"пронумерованные последовательно."
 
 #: ../../source/ch_model.rst:404
 msgid ""
@@ -607,70 +815,92 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"Страница изменения порядка микшеров может добавлять новые микшеры или "
+"удалять существующие микшеры, с использованием кнопок ‘+’ и ‘-’ "
+"соответственно. Микшер также может быть скопирован в существующий микшер (с "
+"его перезаписью), при использовании функции ‘Copy To’."
 
 #: ../../source/ch_model.rst:409
 msgid "Available Curves"
-msgstr ""
+msgstr "Доступные кривые"
 
 #: ../../source/ch_model.rst:411
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "Поддерживаются следующие функции кривых:"
 
 #: ../../source/ch_model.rst:413
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "**1-to-1**: Выход равен входу (не редактируется)."
 
 #: ../../source/ch_model.rst:414
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
+"**Fixed**: Выход постоянен вне зависимости от входа (смещение "
+"редактируется)."
 
 #: ../../source/ch_model.rst:415
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
 msgstr ""
+"**Min/Max**: Выход равен -100, если вход меньше, чем указанное значение, и "
+"равен 100 в противном случае."
 
 #: ../../source/ch_model.rst:416
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
 msgstr ""
+"**Zero/Max**: Выход равен 0, если вход меньше, чем указанное значение, и "
+"равен 100 в противном случае."
 
 #: ../../source/ch_model.rst:417
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
 msgstr ""
+"**>0**: Выход соответствует входу, когда больше указанного значения, и равен"
+" 0 в противном случае."
 
 #: ../../source/ch_model.rst:418
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
 msgstr ""
+"**<0**: Выход соответствует входу, когда меньше указанного значения, и равен"
+" 0 в противном случае."
 
 #: ../../source/ch_model.rst:419
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
 msgstr ""
+"**ABSVAL**: Выход является абсолютным значением входа (редактирование "
+"указанного значения изменит способ применения абсолютного значения)."
 
 #: ../../source/ch_model.rst:420
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**EXPO**: Применяет экспоненциальную кривую к входу для нелинейного отклика "
+"(редактируется, смотрите :ref:`curve-editing`)."
 
 #: ../../source/ch_model.rst:421
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
 msgstr ""
+"**Deadband**: Выход не откликается на входные значения возле нуля "
+"(редактируется, смотрите :ref:`curve-editing`)."
 
 #: ../../source/ch_model.rst:422
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**Multi-point**: Кривая на основе 3, 5, 7, 9, 11 или 13 пользовательских "
+"точках (редактируется, смотрите :ref:`curve-editing`)."
 
 #: ../../source/ch_model.rst:425
 msgid ""
@@ -678,10 +908,13 @@ msgid ""
 "(zero). If you change the curve for one input the offset will be transferred"
 " to the new curve if possible."
 msgstr ""
+"Значение по умолчанию для любого смещения в вышеперечисленных кривых равно 0"
+" (ноль). Если вы измените кривую для одного входа, смещение будет перенесено"
+" в новую кривую, если это возможно."
 
 #: ../../source/ch_model.rst:430
 msgid "Curve Editing"
-msgstr ""
+msgstr "Редактирование кривой"
 
 #: ../../source/ch_model.rst:432
 msgid ""
@@ -689,6 +922,9 @@ msgid ""
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
 "box will not be selectable if one of these curves is currently active."
 msgstr ""
+"Редактор кривой вызывается выбором полосы прокрутки кривой, если она "
+"выбирается. Типы кривых '1-to-1' и 'Fixed' не редактируются и полоса "
+"прокрутки не выбирается, если одна из этих кривых активна."
 
 #: ../../source/ch_model.rst:434
 msgid ""
@@ -697,6 +933,9 @@ msgid ""
 "may not be edited, and the curve-box will not be selectable if one of these "
 "curves is currently active."
 msgstr ""
+"Редактор кривой вызывается нажатием на график или выбором полосы прокрутки, "
+"если она выбирается. Типы кривых '1-to-1' и 'Fixed' не редактируются и "
+"полоса прокрутки не выбирается, если одна из этих кривых активна."
 
 #: ../../source/ch_model.rst:436
 msgid ""
@@ -705,6 +944,10 @@ msgid ""
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
 msgstr ""
+"Страница редактора кривой будет различной, в зависимости от выбранной "
+"кривой. невозможно изменить тип кривой в редакторе кривой (кроме случая, "
+"когда выбрана многоточечная кривая). Значения могут быть заданы с "
+"использованием полосы прокрутки или нажатием на график."
 
 #: ../../source/ch_model.rst:441
 msgid ""
@@ -713,18 +956,26 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"Для Min/Max, Zero/Max, >0, <0 и ABSVAL, элементы управления позволяют задать"
+" точку перехода вдоль оси X. Значение ‘0’ будет симметричным относительно "
+"оси Y, положительные или отрицательные значения будут соответственно "
+"перемещать центральную точку."
 
 #: ../../source/ch_model.rst:446
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
 msgstr ""
+"Для кривой 'Expo', элементы управления позволяют независимо настраивать "
+"форму кривой для значений больше или меньше нуля."
 
 #: ../../source/ch_model.rst:451
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
 msgstr ""
+"Для кривой 'Deadband', элементы управления позволяют независимо настраивать "
+"ширину мертвой зоны для значений больше или меньше нуля."
 
 #: ../../source/ch_model.rst:456
 msgid ""
@@ -734,6 +985,11 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"Для многоточечных кривых, можно индивидуально настроить каждую точку. Точки "
+"настраиваются выбором номера точки, и затем выбором значения. Минимальное "
+"допустимое количество точек равно 3, максимальное количество точек равно 13."
+" Включение 'Smooth' будет применять функцию сглаживания, а не соединение "
+"точек прямыми линиями."
 
 #: ../../source/ch_model.rst:461
 msgid "Timers (Std & Adv GUI)"
