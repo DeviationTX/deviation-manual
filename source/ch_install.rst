@@ -278,6 +278,8 @@ Deviation stores all configuration, bitmaps, and models as regular files on the 
 
 The directory structure is as follows:
 
+.. tabularcolumns:: |l|L|
+
 =========================  ==================================================
 \\tx.ini                   Transmitter configuration. Includes trim settings, calibration data, and the last-used model
                            number
