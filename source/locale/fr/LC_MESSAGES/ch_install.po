@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-19 22:44+0000\n"
+"POT-Creation-Date: 2017-11-21 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -664,11 +664,11 @@ msgstr ""
 msgid "The directory structure is as follows:"
 msgstr "La structure des répertoires est la suivante :"
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
 msgstr "\\\\tx.ini"
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
@@ -676,11 +676,11 @@ msgstr ""
 "Configuration de l'émetteur. Elle inclut les réglages des trims, les données"
 " de calibration et le numéro du dernier modèle utilisé."
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
 msgstr "\\\\hardware.ini"
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:264
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
@@ -688,11 +688,11 @@ msgstr ""
 "Configuration matérielle de l'émetteur, décrivant les modifications "
 "matérielles acceptées, numéro."
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
 msgstr "\\\\errors.txt"
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:266
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
@@ -700,60 +700,60 @@ msgstr ""
 "Si le micrologiciel - firmware - plante ou redémarre, les informations de "
 "débogage seront enregistrées dans ce fichier."
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
 msgstr "\\\\datalog.bin"
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
 msgstr "Fichier pour les données de télémétrie"
 
-#: ../../source/ch_install.rst:266
+#: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
 msgstr "\\\\media\\\\config.ini"
 
-#: ../../source/ch_install.rst:266
+#: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
 msgstr "L'agencement de couleurs et de polices de l'émetteur."
 
-#: ../../source/ch_install.rst:267
+#: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
 msgstr "\\\\media\\\\sound.ini"
 
-#: ../../source/ch_install.rst:267
+#: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
 msgstr "Contient les notes à jouer pour les diverses alarmes"
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
 msgstr "\\\\media\\\\*.bmp"
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
 msgstr "Images utilisées pour le thème actuel de l'émetteur"
 
-#: ../../source/ch_install.rst:269
+#: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
 msgstr "\\\\media\\\\*.fon"
 
-#: ../../source/ch_install.rst:269
+#: ../../source/ch_install.rst:271
 msgid "Font files"
 msgstr "Fichiers de polices"
 
-#: ../../source/ch_install.rst:270
+#: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
 msgstr "\\\\models\\\\default.ini"
 
-#: ../../source/ch_install.rst:270
+#: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
 "Le modèle par défaut, chargé chaque fois qu'un modèle est réinitialisé."
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
 msgstr "\\\\models\\\\model*.ini"
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:273
 msgid ""
 "Configuration files for each model. Due to a limitation in the firmware, "
 "deviation cannot create new files. It is therefore necessary to have a "
@@ -764,11 +764,11 @@ msgstr ""
 "nécessaire d'avoir un modelxx.ini pour chaque modèle qu'il soit en cours "
 "d'utilisation ou pas."
 
-#: ../../source/ch_install.rst:274
+#: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
 msgstr "\\\\modelico\\\\*.bmp"
 
-#: ../../source/ch_install.rst:274
+#: ../../source/ch_install.rst:276
 msgid ""
 "All available model icons (96x96 pixels is recommended but not required). "
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
@@ -778,11 +778,11 @@ msgstr ""
 "non exigé). Les icônes de modèles doivent être sauvegardés en fichiers BMP "
 "16 bits soit en format RGB565 (non-transparent) ou ARGB1555 (transparent)."
 
-#: ../../source/ch_install.rst:277
+#: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
 msgstr "\\\\templates\\\\*.ini"
 
-#: ../../source/ch_install.rst:277
+#: ../../source/ch_install.rst:279
 msgid ""
 "Configuration files used when loading predefined templates.  These are "
 "nearly identical to the model configuration files, however they do not "
@@ -792,11 +792,11 @@ msgstr ""
 "prédéfinis. Ils sont presque identiques aux fichiers de configuration de "
 "modèles mais ne définissent pas nécessairement tous les paramètres."
 
-#: ../../source/ch_install.rst:279
+#: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
 msgstr "\\\\language\\\\lang*.*"
 
-#: ../../source/ch_install.rst:279
+#: ../../source/ch_install.rst:281
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
@@ -804,7 +804,7 @@ msgstr ""
 "Fichiers de traductions de langues. Ce sont des fichiers text UTF-8 "
 "contenant les chaines de texte anglaises et leurs traductions respectives."
 
-#: ../../source/ch_install.rst:285
+#: ../../source/ch_install.rst:287
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"

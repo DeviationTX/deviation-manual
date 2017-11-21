@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-19 22:44+0000\n"
+"POT-Creation-Date: 2017-11-21 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/deviationtx/teams/73329/es/)\n"
 "MIME-Version: 1.0\n"
@@ -454,128 +454,128 @@ msgstr ""
 msgid "The directory structure is as follows:"
 msgstr ""
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:260
+#: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:262
+#: ../../source/ch_install.rst:264
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
 msgstr ""
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
 msgstr ""
 
-#: ../../source/ch_install.rst:264
+#: ../../source/ch_install.rst:266
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
 msgstr ""
 
-#: ../../source/ch_install.rst:265
+#: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
 msgstr ""
 
-#: ../../source/ch_install.rst:266
+#: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:266
+#: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
 msgstr ""
 
-#: ../../source/ch_install.rst:267
+#: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:267
+#: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
 msgstr ""
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
 msgstr ""
 
-#: ../../source/ch_install.rst:268
+#: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
 msgstr ""
 
-#: ../../source/ch_install.rst:269
+#: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
 msgstr ""
 
-#: ../../source/ch_install.rst:269
+#: ../../source/ch_install.rst:271
 msgid "Font files"
 msgstr ""
 
-#: ../../source/ch_install.rst:270
+#: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:270
+#: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:271
+#: ../../source/ch_install.rst:273
 msgid ""
 "Configuration files for each model. Due to a limitation in the firmware, "
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
 
-#: ../../source/ch_install.rst:274
+#: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
 msgstr ""
 
-#: ../../source/ch_install.rst:274
+#: ../../source/ch_install.rst:276
 msgid ""
 "All available model icons (96x96 pixels is recommended but not required). "
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
 
-#: ../../source/ch_install.rst:277
+#: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
 msgstr ""
 
-#: ../../source/ch_install.rst:277
+#: ../../source/ch_install.rst:279
 msgid ""
 "Configuration files used when loading predefined templates.  These are "
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
 
-#: ../../source/ch_install.rst:279
+#: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
 msgstr ""
 
-#: ../../source/ch_install.rst:279
+#: ../../source/ch_install.rst:281
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
 
-#: ../../source/ch_install.rst:285
+#: ../../source/ch_install.rst:287
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
