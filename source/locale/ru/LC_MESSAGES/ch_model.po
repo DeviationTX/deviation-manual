@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-19 22:44+0000\n"
+"POT-Creation-Date: 2017-11-21 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -993,7 +993,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:461
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "Таймеры (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:475
 msgid ""
@@ -1001,18 +1001,26 @@ msgid ""
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
+"Страница таймера определяет до 4 доступных таймеров. Таймеры могут "
+"отсчитывать вверх или вниз, и могут быть включены вручную на главном экране "
+"или триггером ввода (стик или переключатель)."
 
 #: ../../source/ch_model.rst:478
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
+"Доступные таймеры - это секундомер (stopwatch), обратный отсчет (countdown),"
+" секундомер-пропорциональный (stopwatch-proportional), обратный отсчет- "
+"пропорциональный (countdown-proportional) и постоянный (permanent)."
 
 #: ../../source/ch_model.rst:481
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
 msgstr ""
+"Таймеры также могут быть дополнительно настроены для сброса через "
+"переключатель (только при использовании 'Advanced' GUI)."
 
 #: ../../source/ch_model.rst:484
 msgid ""
@@ -1020,6 +1028,9 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"Оба пропорциональных таймера для правильной работы требуют ввода от 0 до "
+"100. Если вы используете таймер для газа, должен использоваться виртуальный "
+"микшер для масштабирования значений от -100 до 100 в значения от 0 до 100."
 
 #: ../../source/ch_model.rst:489
 msgid ""
@@ -1028,22 +1039,30 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"Таймер ‘permanent’ похож на одометр и сохраняет свои значения в файле "
+"'model.ini'. Он сохраняет свое предыдущее значение при включении "
+"передатчика. Вы можете установить таймер с помощью кнопки 'Set to' и "
+"сбросить таймер нажатием кнопки 'Reset'."
 
 #: ../../source/ch_model.rst:495
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "Настройки телеметрии (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:503
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
 msgstr ""
+"Страница настроек телеметрии позволяет настраивать сигналы при возникновении"
+" определенный событий телеметрии."
 
 #: ../../source/ch_model.rst:505
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
+"**Telemetry**: Укажите данные телеметрии для управления сигналом тревоги. "
+"Доступный набор значений зависит от протокола."
 
 #: ../../source/ch_model.rst:507
 msgid ""
@@ -1051,6 +1070,9 @@ msgid ""
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
 " once."
 msgstr ""
+"**Equality**: Может быть '>' или '<=', указывая, какое значение, выше или "
+"ниже целевого, быдет вызывать сигнал тревоги. Нажатие кнопки 'ENT' "
+"воспроизведет сигнал один раз."
 
 #: ../../source/ch_model.rst:508
 msgid ""
@@ -1059,10 +1081,14 @@ msgid ""
 "which the target value has to be continuously reached before triggering the "
 "alarm."
 msgstr ""
+"**Target**: Целевое значение для сигнала. Кроме того, нажатие кнопки 'ENT' "
+"будет циклически прокручивать временную задержку (от 0 до 9 секунд), в "
+"течение которой которой целевое значение должно быть достигнуто постоянно, "
+"для запуска сигнала."
 
 #: ../../source/ch_model.rst:513
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr ""
+msgstr "Триммеры и виртуальные органы управления (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:520
 msgid ""
@@ -1071,6 +1097,10 @@ msgid ""
 "switch`). It is accessed from the main menu via 'Model menu' followed by "
 "'Trims'."
 msgstr ""
+"Страница триммеров позволяет назначить кнопки триммеров и шаг триммера, а "
+"также настроить кнопки триммера для работы в качестве виртуального органа "
+"управления (смотрите :ref:`trim-as-virtual-switch`). Доступ к странице "
+"осуществляется из главного меню, через 'Model menu' и затем 'Trims'."
 
 #: ../../source/ch_model.rst:522
 msgid ""
@@ -1081,6 +1111,12 @@ msgid ""
 " and ‘Trim -’ buttons can operate as a virtual stick to control an output "
 "channel."
 msgstr ""
+"Если в поле ‘Input’ установлен входной стик, тогда триммер может быть "
+"применен как часть микшера, и будет работать как обычный триммер. Если в "
+"поле ‘Input’ установлен выход канала или виртуального канала, значение "
+"применяется непосредственно к выходу каналу. В этом случае, выбранные кнопки"
+" ‘Trim +’ и ‘Trim -’ могут работать как виртуальный стик для управления "
+"каналом."
 
 #: ../../source/ch_model.rst:535
 msgid ""
@@ -1088,6 +1124,9 @@ msgid ""
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
 msgstr ""
+"Шаг триммера определяет насколько триммер чувствителен к вводу. Максимальное"
+" количество шагов триммера составляет +/-100. Таким образом, шаг 0.1 "
+"обеспечит +/- 10% регулировки расхода на сервоприводе."
 
 #: ../../source/ch_model.rst:537
 msgid ""
@@ -1097,15 +1136,20 @@ msgid ""
 "added to the trim, then it will have different trim values in each switch "
 "position."
 msgstr ""
+"Шаг триммера можно изменить на главном экране. Если вам нужно изменить "
+"источник, используйте диалог доступный по нажатию на соответствующую кнопку "
+"'Input'. Здесь вы также сможете добавить переключатель к триммеру. Если к "
+"триммеру добавлен переключатель, тогда триммер будет иметь различные "
+"значения в каждом положении переключателя."
 
 #: ../../source/ch_model.rst:542
 msgid "Datalog (Std & Adv GUI)"
-msgstr ""
+msgstr "Регистрация данных (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:546 ../../source/ch_model.rst:612
 #: ../../source/ch_model.rst:632
 msgid "Note: This feature is not available for Devo7e."
-msgstr ""
+msgstr "Примечание: Эта возможность недоступна для Devo7e."
 
 #: ../../source/ch_model.rst:549
 msgid ""
@@ -1115,28 +1159,36 @@ msgid ""
 " time. Logs are persistent and Deviation will continue writing to the end of"
 " the previous log by default."
 msgstr ""
+"Функция регистрации данных позволяет хранить историю положений ввода и "
+"вывода, а также информацию телеметрии в течение определенного периода "
+"времени. Это можно использовать для изучения и воспроизведения полета, а "
+"также для последующей визуализации информации телеметрии. Журналы являются "
+"постоянными и Deviation по умолчанию продолжит запись в конец предыдущего "
+"журнала."
 
 #: ../../source/ch_model.rst:556
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
 msgstr ""
+"**# bytes left**: Указывает, сколько байт может быть записано в журнал до "
+"его заполнения."
 
 #: ../../source/ch_model.rst:557
 msgid "**Enable**: Input which enables logging."
-msgstr ""
+msgstr "**Enable**: Ввод, который включает/выключает регистрацию данных."
 
 #: ../../source/ch_model.rst:558
 msgid "**Reset**: Clear the current log."
-msgstr ""
+msgstr "**Reset**: Очистка текущего журнала."
 
 #: ../../source/ch_model.rst:559
 msgid "**Rate**: How often to write current info to the log file."
-msgstr ""
+msgstr "**Rate**: Частота записи текущей информации в файл журнала."
 
 #: ../../source/ch_model.rst:560
 msgid "**Select**: Quickly set or reset which items are logged."
-msgstr ""
+msgstr "**Select**: Установка или сброс позиций для записи в журнал."
 
 #: ../../source/ch_model.rst:561
 msgid ""
@@ -1144,6 +1196,10 @@ msgid ""
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
+"**Controls**: Следующие за 'Select' - это список всех элементов управления, "
+"которые могут регистрироваться. Это включает таймеры, вводы, выходы, "
+"виртуальные каналы и телеметрия. Чем больше записей регистрируется, тем "
+"быстрее заполняется журнал."
 
 #: ../../source/ch_model.rst:563
 msgid ""
@@ -1153,6 +1209,11 @@ msgid ""
 "increase the size of this file, so its size indicates the maximum data that "
 "can be stored."
 msgstr ""
+"**Logging more information** По умолчанию, журнал может хранить только 16kB "
+"данных. Вы можете увеличить объем данных, которые нужно сохранить, изменив "
+"размер файла 'datalog.bin' в передатчике на файл большего размера. Deviation"
+" не может увеличивать размер этого файла, поэтому его размер указывает "
+"максимальные данные, которые можно сохранить."
 
 #: ../../source/ch_model.rst:566
 msgid ""
@@ -1161,6 +1222,10 @@ msgid ""
 "within the transmitter. Please check the downloads section on "
 "www.deviationtx.com for conversion tools."
 msgstr ""
+"**Примечание: Эта возможность только для опытных пользователей**. В "
+"настоящее время нет программного обеспечения для анализа журналов, и они не "
+"могут быть отображены в передатчике. Ознакомьтесь с разделом загрузки по "
+"адресу www.deviationtx.com для утилит конвертации журналов."
 
 #: ../../source/ch_model.rst:571
 msgid "Main page config (Std & Adv GUI)"
