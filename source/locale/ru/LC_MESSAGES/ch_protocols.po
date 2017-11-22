@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 21:38+0000\n"
+"POT-Creation-Date: 2017-11-21 22:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:12
 msgid "Protocols"
-msgstr ""
+msgstr "Протоколы"
 
 #: ../../source/ch_protocols.rst:13
 msgid ""
@@ -31,6 +32,13 @@ msgid ""
 "not correct, or other issue communicating with the module.)  More "
 "information can be found in the Module installation guide:"
 msgstr ""
+"Некоторые протоколы имеют дополнительные настройки или ограничения. Каждый "
+"из протоколов описан ниже. Звездочка (‘*’) перед названием протокола в "
+"заголовке раздела означает, что для поддержки протокола необходимо добавить "
+"в передатчик аппаратный модуль. На экране передатчика звездочка означает, "
+"что Deviation не обнаруживает требуемый модуль (не установлен, неправильный "
+"'hardware.ini', или другие проблемы взаимодействия с модулем).  "
+"Дополнительную информацию можно найти в руководстве по установке модуля:"
 
 #: ../../source/ch_protocols.rst:15 ../../source/ch_protocols.rst:126
 #: ../../source/ch_protocols.rst:165 ../../source/ch_protocols.rst:182
@@ -46,11 +54,11 @@ msgstr ""
 #: ../../source/ch_protocols.rst:589 ../../source/ch_protocols.rst:610
 #: ../../source/ch_protocols.rst:634 ../../source/ch_protocols.rst:664
 msgid "|mod-install-link|"
-msgstr ""
+msgstr "|mod-install-link|"
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
-msgstr ""
+msgstr "Протокол: DEVO"
 
 #: ../../source/ch_protocols.rst:19
 msgid ""
@@ -63,6 +71,16 @@ msgid ""
 " bound.  Note that the Fixed ID is only part of the binding procedure.  Two "
 "transmitters with the Same ID cannot control the same model."
 msgstr ""
+"Протокол DEVO используется для обеспечения совместимости с "
+"приемниками/моделями Walkera DEVO. Этот протокол поддерживает до 12 каналов."
+" Протокол DEVO поддерживает автоматическую привязку и ручную привязку. Если "
+"'Fixed ID' установлен в ‘None’, передатчик будет пытаться автоматически "
+"привязаться к приемнику при каждом включении питания. Если для 'Fixed ID' "
+"установлено значение, приемник должен быть привязан вручную один раз с "
+"помощью кнопки ‘Bind’, после чего он должен оставаться привязанным. Имейте в"
+" виду, что 'Fixed ID' является только частью процедуры привязки. Два "
+"передатчика с одинаковым 'Fixed ID' не могут управлять одной и той же "
+"моделью."
 
 #: ../../source/ch_protocols.rst:24
 msgid ""
@@ -70,6 +88,9 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
 msgstr ""
+"Протокол DEVO также поддерживает включение/выключение функции телеметрии. "
+"Эта опция доступна по нажатию на полосу прокрутки 'Protocol', когда "
+"отображается 'DEVO'."
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -77,25 +98,31 @@ msgid ""
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
 msgstr ""
+"Следующие поля доступны для телеметрии Devo. Имейте в виду, что не все "
+"модели/приемники передают все поля, и некоторые поля требуют наличия "
+"дополнительных модулей."
 
 #: ../../source/ch_protocols.rst:33
 msgid ""
 "**Temp1/2/3/4**: Temperature readings.  These can be battery, motor, or "
 "ambient values"
 msgstr ""
+"**Temp1/2/3/4**: Показания температуры. Это может быть батарея, мотор или "
+"температура окружающей среды"
 
 #: ../../source/ch_protocols.rst:34
 msgid ""
 "**Volt1/2/3**: Voltage readings for receiver battery, and external batteries"
 msgstr ""
+"**Volt1/2/3**: Показания напряжения для батареи приемника, и внешних батарей"
 
 #: ../../source/ch_protocols.rst:35
 msgid "**RPM1/2**: Motor/Engine RPM values"
-msgstr ""
+msgstr "**RPM1/2**: Значения оборотов мотора/двигателя"
 
 #: ../../source/ch_protocols.rst:36 ../../source/ch_protocols.rst:99
 msgid "**GPS Data**: Current position, speed and altitude from GPS module"
-msgstr ""
+msgstr "**GPS Data**: Текущие координаты, скорость и высота от модуля GPS"
 
 #: ../../source/ch_protocols.rst:39
 msgid "Protocol: WK2801"
@@ -780,7 +807,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:306
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../source/ch_protocols.rst:310
 msgid ""

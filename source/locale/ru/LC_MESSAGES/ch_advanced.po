@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 21:38+0000\n"
+"POT-Creation-Date: 2017-11-21 22:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "Дополнительная информация"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "Настройка режима тренера"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +37,14 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviation в режиме тренера может использоваться как передатчик инструктора "
+"(master) или ученика (slave). В этом режиме, инструктор и ученик соединяют "
+"свои передатчики кабелем тренера через порт DSC. Фактически с моделью "
+"связывается передатчик инструктора, но инструктор может использовать "
+"переключатель, чтобы позволить ученику управлять моделью. Когда "
+"переключатель включен, передатчик ученика посылает информацию о вводе "
+"(стики) через кабель тренера в передатчик инструктора, и этот сигнал "
+"заменяет управление инструктора."
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -47,10 +56,16 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviation может быть настроен для работы практически с любым передатчиком, "
+"который поддерживает ведущий (master) или ведомый (slave) режим. Настройка "
+"Deviation на другого производителя требует знания параметров PPM для парного"
+" передатчика, и правильной настройки ‘Center PW’ и ‘Delta PW’, а также "
+"знания количества и порядка передаваемых каналов. Лучшее место для поиска "
+"такой информации - спросить на форумах www.deviationtx.com."
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "Режим ведущего (Master)"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -59,6 +74,10 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"Режим ведущего (Master) настраивается с помощью выбора 'Channel' или 'Stick'"
+" в полосе прокрутки ‘PPM In’ в разделе :ref:`model-setup`. Нажатие кнопки "
+"'ENT' вызовет страницу ‘Trainer Cfg’. Эти 2 режима ведут себя несколько по "
+"разному:"
 
 #: ../../source/ch_advanced.rst:21
 msgid ""
@@ -68,6 +87,12 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Stick**: В этом режиме, каждый входной канал отображается на стик "
+"передатчика инструктора. Ученик, перемещая стик, управляет так же, как если "
+"бы инструктор переместил стик. В целом, при использовании этого режима, "
+"передатчик ученика будет напрямую передавать положение стика (без "
+"микширования), а передатчик инструктора будет выполнять все необходимое "
+"микширование."
 
 #: ../../source/ch_advanced.rst:26
 msgid ""
@@ -78,10 +103,16 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
+"**Channel**: В этом режиме, каждый входной канал отображается на выходной "
+"канал передатчика инструктора. Передатчик ученика должен выполнять все "
+"необходимое микширование для управления моделью. Необходимо следить, чтобы "
+"передатчики инструктора и ученика были настроены одинаково, в противном "
+"случае, модель может реагировать по разному при переключении управления "
+"между инструктором и учеником."
 
 #: ../../source/ch_advanced.rst:28
 msgid "Options configurable on both Trainer Cfg pages:"
-msgstr ""
+msgstr "Параметры, настраиваемые на обеих страницах для тренера:"
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
@@ -89,6 +120,10 @@ msgid ""
 "transmitter transmits to represent centered servo position.  If this number "
 "doesn’t match the students transmitter, the servos will not be centered"
 msgstr ""
+"**Center PW**: Определяет время (в мксек) импульса, который передает "
+"передатчик ученика, чтобы представить центральное положение сервопривода. "
+"Если это число не соответствует передатчику ученика, сервопривод будет не по"
+" центру."
 
 #: ../../source/ch_advanced.rst:32
 msgid ""
@@ -96,22 +131,30 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
+"**Delta PW**: Определяет ширину импульса (измеренную от центра), посылаемого"
+" передатчиком ученика, для определения максимального расхода сервопривода. "
+"Если это значение неверно, сервоприводы не достигнут полного расхода (или "
+"расход будет слишком большим)."
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
 msgstr ""
+"**Trainer Sw**: Назначает переключатель, который позволяет ученику управлять"
+" моделью."
 
 #: ../../source/ch_advanced.rst:36
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
 msgstr ""
+"**PPM1...PPM8**: Определяет отображение (каналов или вводов) от передатчика "
+"ученика к передатчику инструктора."
 
 #: ../../source/ch_advanced.rst:39
 msgid "Slave Mode"
-msgstr ""
+msgstr "Режим ведомого (Slave)"
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
@@ -123,10 +166,18 @@ msgid ""
 "‘Stick’ mode (see above), there should be no mixing done in the slave "
 "transmitter."
 msgstr ""
+"Режим ведомого настраивается выбором 'PPM' в качестве протокола в разделе "
+":ref:`model-setup`. Нажатие кнопки 'ENT' на полосе прокрутки 'Protocol' "
+"позволяет настроить параметры вывода. Для настройки смотрите раздел :ref"
+":`protocol-ppm`. Имейте в виду, что Deviation отправит выходные данные "
+"каналов через PPM. Для использования ведомого передатчика Deviation с "
+"ведущим (Master) передатчиком Deviation настроенным для режима 'Stick' "
+"(смотри выше), в ведомом передатчике не должно быть настроено никакого "
+"микширования."
 
 #: ../../source/ch_advanced.rst:45
 msgid "Setting Up FPV or Other External Inputs"
-msgstr ""
+msgstr "Настройка FPV и других внешних вводов"
 
 #: ../../source/ch_advanced.rst:50
 msgid ""
@@ -134,36 +185,47 @@ msgid ""
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
 msgstr ""
+"Deviation имеет возможность использовать входные сигналы PPM от внешних "
+"источников (такие, как FPV). Для настройки этого режима, установите 'PPM In'"
+" в режим ‘Extend’ в разделе :ref:`model-setup`."
 
 #: ../../source/ch_advanced.rst:52
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
 msgstr ""
+"После настройки, нажмите 'ENT' на полосе прокрутки 'PPM In' для "
+"дополнительной настройки."
 
 #: ../../source/ch_advanced.rst:54
 msgid "Configuration options:"
-msgstr ""
+msgstr "Параметры для настройки:"
 
 #: ../../source/ch_advanced.rst:56
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
 msgstr ""
+"**Center PW**: Определяет ширину импульса для отцентрованного ввода (в "
+"мксек)."
 
 #: ../../source/ch_advanced.rst:57
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
 msgstr ""
+"**Delta PW**: Определяет разницу в ширине импульса (от центрального "
+"значения) для достижения максимального расхода сервопривода."
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
 msgstr ""
+"**Num Channels**: Определяет количество входных каналов  (обычно "
+"поддерживается не более 8 каналов)."
 
 #: ../../source/ch_advanced.rst:63
 msgid "Using a Trim as a Virtual Switch"
-msgstr ""
+msgstr "Использование триммера в качестве виртуального переключателя"
 
 #: ../../source/ch_advanced.rst:64
 msgid ""
@@ -171,24 +233,33 @@ msgid ""
 "mechanical switches of the transmitter.  This capability is only available "
 "when using the Advanced GUI.  There are 3 types of switches available:"
 msgstr ""
+"Deviation имеет возможность создавать виртуальные переключатели для "
+"дополнения механических переключателей передатчика. Эта возможность доступна"
+" только при использовании 'Advanced' GUI. Доступны 4 типа переключателей:"
 
 #: ../../source/ch_advanced.rst:66
 msgid ""
 "**Momentary**: The switch will be active only as long as the trim button is "
 "held"
 msgstr ""
+"**Momentary**: Переключатель будет активен только до тех пор, пока кнопка "
+"триммера удерживается нажатой."
 
 #: ../../source/ch_advanced.rst:67
 msgid ""
 "**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
 " trim button is pressed"
 msgstr ""
+"**Toggle**: Переключатель будет переключаться между положениями "
+"включено/выключено при каждом нажатии на кнопку триммера."
 
 #: ../../source/ch_advanced.rst:68
 msgid ""
 "**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
 " will turn it off-to-on"
 msgstr ""
+"**On/Off**: Кнопка 'Trim+' будет включать переключатель, а кнопка 'Trim-' "
+"будет выключать переключатель."
 
 #: ../../source/ch_advanced.rst:69
 msgid ""
@@ -196,12 +267,19 @@ msgid ""
 "button is held, and in the other direction as long as the Trim- button is "
 "held, returning to center when released."
 msgstr ""
+"**3 Pos**: Переключатель будет активен в одном направлении, пока "
+"удерживается нажатой кнопка 'Trim+', и будет активен в другом направлении, "
+"пока удерживается нажатой кнопка 'Trim-', и возвращается в центральное "
+"положение при отпускании."
 
 #: ../../source/ch_advanced.rst:71
 msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
+"Для настройки виртуального переключателя, начните с выбора триммера на "
+"странице 'Trim', и затем войдите на страницу настройки триммеров. Смотрите "
+":ref:`trims-and-virtual-inputs`"
 
 #: ../../source/ch_advanced.rst:76
 msgid ""
@@ -210,12 +288,18 @@ msgid ""
 "until the value is less-than 0.1 Second select the 'Input' to be the virtual"
 " channel to convert to a switch (we'll use 'Virt1')"
 msgstr ""
+"Затем установите поле 'Trim Step' в 'Momentary', 'Toggle', 'On/Off' или '3 "
+"Pos'. Это выполняется нажатием левой стрелки на полосе прокрутки 'Trim Step'"
+" пока значение не станет меньше 0.1. Затем выберите в 'Input' виртуальный "
+"канал для преобразования в переключатель (мы будем использовать 'Virt1')."
 
 #: ../../source/ch_advanced.rst:84
 msgid ""
 "Now go to the 'Mixer' page, and enter the configuration for the specified "
 "Virtual Channel (Virt1 in our example)"
 msgstr ""
+"Теперь перейдите на страницу 'Mixer', и введите конфигурацию для указанного "
+"выше виртуального канала ('Virt1' в нашем примере)."
 
 #: ../../source/ch_advanced.rst:86
 msgid ""
@@ -223,6 +307,9 @@ msgid ""
 "channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
 "scale to '0', and finally enable the 'Trim' button."
 msgstr ""
+"Установите тип микшера в 'Complex', установите 'Src' в текущий виртуальный "
+"канал ('Virt1'), установите кривую в '1-to-1' (не используйте 'Fixed'), "
+"установите масштаб в '0', и наконец включите кнопку 'Trim'."
 
 #: ../../source/ch_advanced.rst:88
 msgid ""
@@ -233,10 +320,16 @@ msgid ""
 "direction, +100 when pressed in the other direction, otherwise it will have "
 "a value of 0."
 msgstr ""
+"Теперь вы можете использовать виртуальный канал ('Virt1') как любой другой "
+"переключатель. Когда виртуальный переключатель активен, виртуальный канал "
+"будет иметь значение 100, в противном случае он будет иметь значение -100. В"
+" случае '3 Pos', виртуальный канал будет иметь значение -100, когда триммер "
+"нажат в одном направлении, значение +100, когда триммер нажат в другом "
+"направлении, и значение 0, когда он отпущен."
 
 #: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
 msgid "\\"
-msgstr ""
+msgstr "\\"
 
 #: ../../source/ch_advanced.rst:94
 msgid ""
@@ -244,10 +337,13 @@ msgid ""
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
 " applied twice."
 msgstr ""
+"Примечание: Если вы используете виртуальный канал в качестве 'Src' (а не "
+"'Switch'), убедитесь, что для этого микшера отключен 'Trim', в противном "
+"случае триммер будет применен дважды."
 
 #: ../../source/ch_advanced.rst:99
 msgid "Swash Mixing"
-msgstr ""
+msgstr "Микширование тарелки перекоса"
 
 #: ../../source/ch_advanced.rst:100
 msgid ""
@@ -260,6 +356,15 @@ msgid ""
 "the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
 "Mixing (CCMP)."
 msgstr ""
+"Тарелка перекоса используется для управления полетом вертолета. Тарелка "
+"перекоса управляет плоскостью вращения главного ротора, а также шагом "
+"лопастей.  Тарелка перекоса обычно соединена с тремя сервоприводами, "
+"известными как 'Elevator', 'Aileron' и 'Collective', но из-за ее "
+"конструкции, не существует соответствия 1-к-1 между перемещением стика и "
+"перемещением сервопривода. Вместо этого требуется некоторое микширование "
+"между стиками 'throttle', 'elevator' и 'aileron' и сервоприводами тарелки "
+"перекоса. Это микширование известно как микширование коллективного шага "
+"(Collective Pitch Mixing, CCMP)."
 
 #: ../../source/ch_advanced.rst:102
 msgid ""
@@ -274,6 +379,17 @@ msgid ""
 "supplies aileron, elevator, and collective inputs, and the electronic mixer "
 "will convert the signals into appropriate swash-plate servo motion."
 msgstr ""
+"Традиционно, RC вертолеты использовали сервоось (flybar) выше или ниже "
+"главного ротора, прикрепленную к ряду связей, для поддержания стабильности. "
+"В таких конфигурациях, передатчик, как правило, выполняет все микширование, "
+"и напрямую управляет каждым из 3 сервоприводов тарелки перекоса. Эта "
+"конфигурация известна как manual-CCPM (mCCPM). В качестве альтернативы, "
+"электронный микшер может быть включен в вертолет как часть приемника, или "
+"между приемником и сервоприводами, чтобы осуществлять надлежащее "
+"микширование. Эта конфигурация известна как electronic CCPM (eCCPM) и в этом"
+" случае, передатчик напрямую передает 'aileron', 'elevator' и 'collective', "
+"а электронный микшер будет преобразовывать сигналы в соответствующее "
+"перемещение сервоприводов тарелки перекоса."
 
 #: ../../source/ch_advanced.rst:104
 msgid ""
@@ -284,6 +400,13 @@ msgid ""
 "less expensive to manufacture, and also provides better stability and more "
 "precise control."
 msgstr ""
+"В последнее время, стали более распространенными вертолеты без сервооси "
+"(FBL), особенно в микроразмерном диапазоне. Эти вертолеты используют систему"
+" eCCPM вместе с электронным гироскопом для непрерывной регулировки тарелки "
+"перекоса, для поддержания стабильности без необходимости использовать "
+"физическую сервоось (flybar). Эта конфигурация имеет тенденцию быть менее "
+"дорогой в производстве, а также обеспечивает лучшую стабильность и более "
+"точное управление."
 
 #: ../../source/ch_advanced.rst:106
 msgid ""
@@ -291,6 +414,9 @@ msgid ""
 "120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
 "illustrated below:"
 msgstr ""
+"Deviation предоставляет управление для нескольких схем тарелки перекоса, это"
+" включает: 120°, 120° альтернативный, 140°,  90° и 'None'. Каждый их этих "
+"вариантов показан ниже:"
 
 #: ../../source/ch_advanced.rst:111
 msgid ""
@@ -301,6 +427,13 @@ msgid ""
 " up and down. Servos working in unison dramatically increases the torque "
 "available as well as the precision and centering."
 msgstr ""
+"**120 (3 Servo)**: Сервоприводы размещены вокруг тарелки перекоса с "
+"интервалом 120°. При вводе 'Aileron', сервоприводы 'aileron' и 'pitch' "
+"наклоняют тарелку перекоса влево и впрво; при вводе 'Elevator', три "
+"сервопривода наклоняют тарелку перекоса вперед и назад; при вводе 'Pitch', "
+"все три сервопривода перемещают тарелку перекоса вверх и вниз. Сервоприводы,"
+" работающие в унисон, значительно увеличивают доступный крутящий момент, а "
+"также точность и центрирование."
 
 #: ../../source/ch_advanced.rst:116
 msgid ""
@@ -310,6 +443,12 @@ msgid ""
 " and aft; with Pitch input, all three servos raise the swash-plate up and "
 "down."
 msgstr ""
+"**120X (3 Servo)**: Такая же схема, как и выше, заисключением того, что "
+"сервоприводы смещены на 150°. При вводе 'Aileron', три сервопривода "
+"наклоняют тарелку перекоса влево и вправо; при вводе 'Elevator', "
+"сервоприводы 'elevator' и 'pitch' наклоняют тарелку перекоса вперед и назад;"
+" при вводе 'Pitch', все три сервопривода перемещают тарелку перекоса вверх и"
+" вниз."
 
 #: ../../source/ch_advanced.rst:121
 msgid ""
@@ -319,6 +458,12 @@ msgid ""
 " of the combined servos and an equal cyclic rate all around. On a 120° "
 "setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
 msgstr ""
+"**140 (3 Servo)**: По существу, работа сервоприводов 140° тарелки перекоса "
+"почти совпадает с 120° тарелкой перекоса. Однако, механика сервоприводов для"
+" работы 'elevator' отличается. CCPM 140° тарелки перекоса обеспечивает более"
+" плавную работу комбинированных сервоприводов и равномерный циклический "
+"расход. При 120° конфигурации, левый/правый циклический расход немного "
+"быстрее, чем передний/задний."
 
 #: ../../source/ch_advanced.rst:126
 msgid ""
@@ -327,6 +472,11 @@ msgid ""
 "plate fore and aft; with Pitch input, all three servos raise the swash-plate"
 " up and down. Most commonly used for electronic helicopters."
 msgstr ""
+"**90 (3 Servo)**: При вводе 'Aileron', сервоприводы 'aileron' и 'pitch' "
+"наклоняют тарелку перекоса влево и вправо; при вводе 'Elevator', "
+"сервоприводы наклоняют тарелку перекоса вперед и назад; при вводе 'Pitch', "
+"все три сервопривода перемещают тарелку перекоса вверх и вниз. Чаще всего "
+"используется для электрических вертолетов."
 
 #: ../../source/ch_advanced.rst:128
 msgid ""
@@ -334,6 +484,10 @@ msgid ""
 "helicopter using a gyroscopic flight control system. Please refer to the "
 "specific manufacturers instructions to see how to configure mixer outputs."
 msgstr ""
+"**None**: Это особый случай, где все микширование выполняется на борту "
+"вертолета с использованием гироскопической системы управления полетом. "
+"Обратитесь к инструкциям производителя, чтобы узнать, как настроить выходы "
+"микшера."
 
 #: ../../source/ch_advanced.rst:134
 msgid ""
@@ -341,10 +495,14 @@ msgid ""
 "cases you will still use the designated swash-plate type but may need to "
 "reverse specific channels."
 msgstr ""
+"Примечание: Некоторые вертолеты имеют схему 120 или 140, но повернутую на "
+"180 градусов. В этих случая вы по-прежнему будете использовать обозначенный "
+"тип тарелки перекоса, но может потребоваться реверсировать определенный "
+"каналы."
 
 #: ../../source/ch_advanced.rst:139
 msgid "Modifying sounds"
-msgstr ""
+msgstr "Изменение звуков"
 
 #: ../../source/ch_advanced.rst:141
 msgid ""
@@ -352,55 +510,58 @@ msgid ""
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
 "the 'media' folder."
 msgstr ""
+"Вы можете редактировать звуки, которые издает ваш Devo, хотя для этого вам "
+"потребуется использовать передатчик в качестве USB накопителя и "
+"редактировать файл 'sound.ini' в папке 'media'."
 
 #: ../../source/ch_advanced.rst:145
 msgid "The sections, and what causes them to play, are:"
-msgstr ""
+msgstr "Разделы, и события, которые вызывают их вопроизведение:"
 
 #: ../../source/ch_advanced.rst:147
 msgid "**startup**: Powered on."
-msgstr ""
+msgstr "**startup**: Включение питания."
 
 #: ../../source/ch_advanced.rst:148
 msgid "**shutdown**: Powering off."
-msgstr ""
+msgstr "**shutdown**: Выключение питания."
 
 #: ../../source/ch_advanced.rst:149
 msgid "**volume**: Configuring transmitter volume."
-msgstr ""
+msgstr "**volume**: Настройка громкости передатчика."
 
 #: ../../source/ch_advanced.rst:150
 msgid "**timer_warning**: Timer is about to expire."
-msgstr ""
+msgstr "**timer_warning**: Таймер истекает."
 
 #: ../../source/ch_advanced.rst:151
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr ""
+msgstr "**alarm#**: Таймер # (от 1 до 4) истек."
 
 #: ../../source/ch_advanced.rst:152
 msgid "**batt_alarm**: Battery low warning."
-msgstr ""
+msgstr "**batt_alarm**: Предупреждение о разряде батареи."
 
 #: ../../source/ch_advanced.rst:153
 msgid "**done_binding**: Binding finished."
-msgstr ""
+msgstr "**done_binding**: Привязка завершена."
 
 #: ../../source/ch_advanced.rst:154
 msgid "**key_pressing**: On a key press"
-msgstr ""
+msgstr "**key_pressing**: При нажатии на кнопку."
 
 #: ../../source/ch_advanced.rst:155
 msgid "**saving**: When saving a model file."
-msgstr ""
+msgstr "**saving**: При сохранении файла модели."
 
 #: ../../source/ch_advanced.rst:156
 msgid ""
 "**max_len**: When you've exceeded the length of a string in the keyboard."
-msgstr ""
+msgstr "**max_len**: Когда вы превышаете длину строки на клавиатуре."
 
 #: ../../source/ch_advanced.rst:157
 msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
-msgstr ""
+msgstr "**telem_alarm#**: Срабатывание сигнала телеметрии # (от 1 до 6)."
 
 #: ../../source/ch_advanced.rst:159
 msgid ""
@@ -409,6 +570,10 @@ msgid ""
 "milliseconds to play that note. There is a limit of 100 notes for each "
 "sound."
 msgstr ""
+"В каждом разделе, вы можете установить громкость (volume) от 0 (выключено) "
+"до 100 (максимум). Остальные записи это имена нот, а значение это число "
+"миллисекунд для проигрывания этой ноты. Для каждого звука есть предел в 100 "
+"нот."
 
 #: ../../source/ch_advanced.rst:164
 msgid ""
@@ -418,3 +583,8 @@ msgid ""
 "ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
 "addition, 'a', 'ax' and 'b' will play the three notes below middle C."
 msgstr ""
+"Названия нот - 'xx', который является паузой (звук не воспроизводится). "
+"Затем вы можете выбрать ноту ('a'-'g'), повысить ее на полтона, добавив 'x',"
+" если это 'a', 'c', 'd', 'f' или 'g'. Наконец вы можете выбрать октаву одной"
+" цифрой, от '0' до '4'. Эт оприводит к ряду от 'c0' (middle C) до 'b4'. "
+"Кроме того, 'a', 'ax' и 'b' будут воспроизводить три ноты ниже middle C."
