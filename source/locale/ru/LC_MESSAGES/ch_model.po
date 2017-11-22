@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 21:38+0000\n"
+"POT-Creation-Date: 2017-11-21 22:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -1229,17 +1229,20 @@ msgstr ""
 
 #: ../../source/ch_model.rst:571
 msgid "Main page config (Std & Adv GUI)"
-msgstr ""
+msgstr "Настройка главной страницы (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:585
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
+"Настройка главной страницы используется для настройки отображения главной "
+"страницы. Эта страница позволяет определить, какие элементы будут "
+"отображаться на главной странице."
 
 #: ../../source/ch_model.rst:588
 msgid "The following types of objects can be displayed:"
-msgstr ""
+msgstr "Могут отображаться следующие типы объектов:"
 
 #: ../../source/ch_model.rst:591
 msgid ""
@@ -1247,6 +1250,10 @@ msgid ""
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
 msgstr ""
+"**Box**: Окно, отображает числовое значение. Значения могут быть таймерами, "
+"значениями каналов, вводами стиков и т.п. Существует два типа окон: большое "
+"(big) и маленькое (small). Единственное различие - размер окна и текста "
+"внутри него."
 
 #: ../../source/ch_model.rst:592
 msgid ""
@@ -1255,24 +1262,31 @@ msgid ""
 "types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal "
 "bar. After inserting all trims do have numbers only."
 msgstr ""
+"**Trimbar**: Полоса триммера, отображает значение триммера. Они управляются "
+"кнопками триммеров и указывают текущее положение триммера. Существует два "
+"типа триммеров. 'V-Trim' показывает вертикальную полосу, и 'H-Trims' "
+"показывает горизонтальную полосу. После вставки все триммеры обозначаются "
+"только номерами."
 
 #: ../../source/ch_model.rst:593
 msgid "**Model (Icon)**: Display the icon related to the selected model."
-msgstr ""
+msgstr "**Model (Icon)**: Отображает значок, относящийся к выбранной модели."
 
 #: ../../source/ch_model.rst:594
 msgid "**Battery**: Display the battery voltage."
-msgstr ""
+msgstr "**Battery**: Отображает напряжение батареи."
 
 #: ../../source/ch_model.rst:595
 msgid "**TxPower**: Displays the actual transmitter rating."
-msgstr ""
+msgstr "**TxPower**: Отображает выходную мощность передатчика."
 
 #: ../../source/ch_model.rst:596
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
 msgstr ""
+"**Bargraph**: Отображает вертикальную полосу. Значением полосы является "
+"выход канала."
 
 #: ../../source/ch_model.rst:598
 msgid ""
@@ -1281,16 +1295,22 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
+"**Toggle**: Показывает значок, указывающий состояние переключателя. Может "
+"существовать 1, 2 или 3 значка, указывающих разные состояния в зависимости "
+"от положения переключателя. Переключатель с двумя положениями может иметь до"
+" 2 значков. Переключатель с тремя положениями может иметь до 3 значков."
 
 #: ../../source/ch_model.rst:599
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
 msgstr ""
+"**(Quick) Menus**: Быстрое меню определяет страницы с быстрым доступом, "
+"которые могут быть вызваны длительным нажатием на кнопки 'UP/DN'."
 
 #: ../../source/ch_model.rst:604
 msgid "Configuring object position"
-msgstr ""
+msgstr "Настройка положения объекта"
 
 #: ../../source/ch_model.rst:607
 msgid ""
@@ -1300,6 +1320,12 @@ msgid ""
 "boxes which appear in move mode can also be used to move the selected "
 "object.  Press EXT once to exit move mode."
 msgstr ""
+"Каждый из визуальных объектов можно выбрать, нажав на него, или с помощью "
+"кнопок 'UP/DN' и последующим нажатием 'ENT'. После выбора, кнопки "
+"'UP/DN/L/R' перемещают выбранный объект по экрану. В качестве альтернативы, "
+"полосы прокрутки 'X' и 'Y', которые появляются в режиме перемещения, также "
+"могут использоваться для перемещения выбранного объекта. Нажмите кнопку "
+"'EXT' для выхода из режима перемещения."
 
 #: ../../source/ch_model.rst:617
 msgid ""
@@ -1310,10 +1336,16 @@ msgid ""
 "selected object on the screen.  Press EXT once to exit move mode, and again "
 "to go back to the main page config menu."
 msgstr ""
+"Нажатие и удержание кнопки 'ENT' на странице настройки модели вызовет экран "
+"расположения объектов. Каждый визуальный объект может быть выбран с помощью "
+"кнопок 'UP/DN'. Нажатие кнопки 'ENT' включит режим перемещения выбранного "
+"объекта. Кнопки 'UP/DN/L/R' будут перемещать выбранный объект. Нажмите "
+"кнопку 'EXT' для выхода из режима перемещения, и еще раз для возврата на "
+"страницу настройки главной страницы."
 
 #: ../../source/ch_model.rst:621
 msgid "Creating Objects"
-msgstr ""
+msgstr "Создание объектов"
 
 #: ../../source/ch_model.rst:627
 msgid ""
@@ -1322,6 +1354,10 @@ msgid ""
 "This will add the specified object type to the center of the screen.  You "
 "can now place and configure the new object."
 msgstr ""
+"Выберите значок '+' для открытия диалогового окна добавления объектов. Затем"
+" выберите тип объекта в полосе прокрутки слева, затем нажмите 'Add' для "
+"создания объекта. Это добавит указанный тип объекта в центр экрана. Теперь "
+"вы можете разместить и настроить новый объект."
 
 #: ../../source/ch_model.rst:634
 msgid ""
@@ -1330,30 +1366,43 @@ msgid ""
 "relevant section in the menu with a type of ‘None’ (where applicable).  Then"
 " move the cursor to the newly created object and configure as desired."
 msgstr ""
+"Выберите тип объекта в полосе прокрутки слева, затем нажмите 'Add' для "
+"создания объекта. Это добавит соответствующий тип объекта в соответствующий "
+"раздел меню с типом 'None' (если применимо). Затем переместите курсор на "
+"новый объект и настройте по своему желанию."
 
 #: ../../source/ch_model.rst:638
 msgid "Loading Objects"
-msgstr ""
+msgstr "Загрузка объектов"
 
 #: ../../source/ch_model.rst:645
 msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
 "alternate templates, to change the main page layout."
 msgstr ""
+"После выбора значка '+' для открытия диалога добавления объектов, вы можете "
+"загрузить (Load) альтернативные шаблоны, для изменения макета главной "
+"страницы."
 
 #: ../../source/ch_model.rst:647
 msgid "You can 'Load' alternate templates, to change the main page layout."
 msgstr ""
+"Вы можете загрузить (Load) альтернативные шаблоны, для изменения макета "
+"главной страницы."
 
 #: ../../source/ch_model.rst:649
 msgid ""
 "If you select 'Default' the layout will be set to the standard layout as "
 "shown in section :ref:`main-page`."
 msgstr ""
+"Если вы выберите 'Default', макет страницы будет настроен на стандартный, "
+"как показано в разделе :ref:`main-page`."
 
 #: ../../source/ch_model.rst:651
 msgid "Selecting 'Empty' will clear all objects. You may start from scratch."
 msgstr ""
+"Выбор 'Empty' очистит страницу от всех объектов. Вы можете начать с пустой "
+"страницы."
 
 #: ../../source/ch_model.rst:653
 msgid ""
@@ -1363,66 +1412,81 @@ msgid ""
 "model. Templates based on existing models have an (M) designation within the"
 " file list."
 msgstr ""
+"Если вы хотите использовать макет страницы из другой модели, выберите "
+"модель, макет которой вы хотите использовать. Расположение объектов "
+"(смотрите :ref:`configuring-object-position`) будет передано из "
+"существующего шаблона или модели. Шаблоны, основанные на существующих "
+"моделях, имеют обозначение (M) в списке файлов."
 
 #: ../../source/ch_model.rst:655
 msgid ""
 "Additionally these templates can be created in the emulator or downloaded "
 "from the forums or even done by manual edit of the modelxx.ini file."
 msgstr ""
+"Кроме того, шаблоны могут быть созданы в эмуляторе или загружены с форумов "
+"или даже созданы редактированием файла 'modelxx.ini'."
 
 #: ../../source/ch_model.rst:658
 msgid "Configuring Objects"
-msgstr ""
+msgstr "Настройка объектов"
 
 #: ../../source/ch_model.rst:660
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
 msgstr ""
+"**Box**: Выберите таймер, телеметрию, канал или ввод в полосе прокрутки."
 
 #: ../../source/ch_model.rst:661
 msgid "**Trim**: Select trim channel from scroll-box"
-msgstr ""
+msgstr "**Trim**: Выберите канал в полосе прокрутки."
 
 #: ../../source/ch_model.rst:662
 msgid "**Model**: Not configurable"
-msgstr ""
+msgstr "**Model**: Не настраивается."
 
 #: ../../source/ch_model.rst:663
 msgid "**Battery**: Not configurable"
-msgstr ""
+msgstr "**Battery**: Не настраивается."
 
 #: ../../source/ch_model.rst:664
 msgid "**TxPower**: Not configurable"
-msgstr ""
+msgstr "**TxPower**: Не настраивается."
 
 #: ../../source/ch_model.rst:665
 msgid "**Bargraph**: Select channel from scroll box"
-msgstr ""
+msgstr "**Bargraph**: Выберите канал в полосе прокрутки."
 
 #: ../../source/ch_model.rst:666
 msgid ""
 "**Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’"
 " button to choose icon"
 msgstr ""
+"**Toggle**: Выберите канал или ввод в полосе прокрутки. Нажмите на "
+"соответствующую кнопку ‘Toggle’ для выбора значка."
 
 #: ../../source/ch_model.rst:667
 msgid "**Menu**: Choose page to display for each of 4 quick-page slots"
 msgstr ""
+"**Menu**: Выберите страницу для отображения для каждой из 4 быстрых страниц."
 
 #: ../../source/ch_model.rst:674
 msgid ""
 "You can delete any object by configuring the object and pressing the "
 "‘Delete’ button"
 msgstr ""
+"Вы можете удалить любой объект, настроившись на объект и нажав кнопку "
+"'Delete'."
 
 #: ../../source/ch_model.rst:676
 msgid ""
 "You can delete any object but a Menu page by selecting the  ‘Delete’ option "
 "and pressing the 'ENT' button."
 msgstr ""
+"Вы можете удалить любой объект, кроме страницы 'Menu', выбрав опцию ‘Delete’"
+" и нажав кнопку 'ENT'."
 
 #: ../../source/ch_model.rst:681
 msgid "Choosing toggle icons"
-msgstr ""
+msgstr "Выбор значков переключателя"
 
 #: ../../source/ch_model.rst:686
 msgid ""
@@ -1432,10 +1496,17 @@ msgid ""
 " can be set to empty, defining that no icon is shown for this state.  The "
 "Deviation firmware comes with several predefined icons to choose from."
 msgstr ""
+"Нажатие кнопки ‘Toggle’ на объекте переключателя позволит выбрать "
+"соответствующие значки. Каналы, стики и 2-х позиционные переключатели могут "
+"иметь 2 значка. 3-х позиционные переключатели (если имеются) могут иметь 3 "
+"значка. Каждое из 2 (или 3) состояний значка может быть установлено в "
+"пустое, это означает, что для этого состояния значок не отображается. "
+"Прошивка Deviation поставляется вместе с несколькими предопределенными "
+"наборами значков."
 
 #: ../../source/ch_model.rst:691
 msgid "Standard GUI Menu items"
-msgstr ""
+msgstr "Позиции меню 'Standard' GUI"
 
 #: ../../source/ch_model.rst:698
 msgid ""
@@ -1444,147 +1515,158 @@ msgid ""
 ":`model-setup`.  The Standard GUI is only available for Helicopter-type "
 "models at this time.  The pages of the Standard GUI are as follows:"
 msgstr ""
+"'Standard' GUI - это интерфейс альтернативный 'Advanced' GUI. Какой из "
+"интерфейсов используется выбирается в параметре ‘Mixer GUI’ в разделе :ref"
+":`model-setup`. 'Standard' GUI в данный момент доступен только для моделей "
+"вертолетов. Страницы 'Standard' GUI выглядят следующим образом:"
 
 #: ../../source/ch_model.rst:705
 msgid "**Model Configuration**: :ref:`model-setup`"
-msgstr ""
+msgstr "**Model Configuration**: :ref:`model-setup`"
 
 #: ../../source/ch_model.rst:707
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
-msgstr ""
+msgstr "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
 
 #: ../../source/ch_model.rst:709
 msgid "**Servo reverse**: :ref:`servo-reverse`"
-msgstr ""
+msgstr "**Servo reverse**: :ref:`servo-reverse`"
 
 #: ../../source/ch_model.rst:711
 msgid "**Switch assignment**: :ref:`switch-assignment`"
-msgstr ""
+msgstr "**Switch assignment**: :ref:`switch-assignment`"
 
 #: ../../source/ch_model.rst:713
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
-msgstr ""
+msgstr "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
 
 #: ../../source/ch_model.rst:715
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
-msgstr ""
+msgstr "**Throttle-hold configuration**: :ref:`throttle-hold`"
 
 #: ../../source/ch_model.rst:717
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
-msgstr ""
+msgstr "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
 
 #: ../../source/ch_model.rst:719
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
-msgstr ""
+msgstr "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
 
 #: ../../source/ch_model.rst:721
 msgid "**Swash Setup**: :ref:`swash-configuration`"
-msgstr ""
+msgstr "**Swash Setup**: :ref:`swash-configuration`"
 
 #: ../../source/ch_model.rst:723
 msgid "**Timer configuration**: :ref:`timers`"
-msgstr ""
+msgstr "**Timer configuration**: :ref:`timers`"
 
 #: ../../source/ch_model.rst:725
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
-msgstr ""
+msgstr "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
 
 #: ../../source/ch_model.rst:727
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
-msgstr ""
+msgstr "**Telemetry configuration**: :ref:`telemetry-config`"
 
 #: ../../source/ch_model.rst:729
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
-msgstr ""
+msgstr "**Throttle curve setup**: :ref:`throttle-curve`"
 
 #: ../../source/ch_model.rst:731
 msgid "**Datalog configuration**: :ref:`datalog`"
-msgstr ""
+msgstr "**Datalog configuration**: :ref:`datalog`"
 
 #: ../../source/ch_model.rst:733
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
-msgstr ""
+msgstr "**Pitch curve setup**: :ref:`pitch-curve`"
 
 #: ../../source/ch_model.rst:735
 msgid "**Main page configuration**: :ref:`main-page-config`"
-msgstr ""
+msgstr "**Main page configuration**: :ref:`main-page-config`"
 
 #: ../../source/ch_model.rst:737
 msgid "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
-msgstr ""
+msgstr "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
 
 #: ../../source/ch_model.rst:743
 msgid ""
 "**Model setup**: Model configuration page (See section  :ref:`model-setup`)"
 msgstr ""
+"**Model setup**: Страница настройки модели (смотри раздел :ref:`model-"
+"setup`)"
 
 #: ../../source/ch_model.rst:744
 msgid "**Reverse**: Servo reverse"
-msgstr ""
+msgstr "**Reverse**: Реверс сервоприводов"
 
 #: ../../source/ch_model.rst:745
 msgid "**D/R & Exp**: Dual-rates setup"
-msgstr ""
+msgstr "**D/R & Exp**: Настройка двойных расходов"
 
 #: ../../source/ch_model.rst:746
 msgid "**Subtrim**: Servo sub-trim"
-msgstr ""
+msgstr "**Subtrim**: Субтриммеры"
 
 #: ../../source/ch_model.rst:747
 msgid "**Travel adjust**: Servo travel-adjust"
-msgstr ""
+msgstr "**Travel adjust**: Настройка расхода сервоприводов"
 
 #: ../../source/ch_model.rst:748
 msgid "**Throttle curves**: Throttle curve setup"
-msgstr ""
+msgstr "**Throttle curves**: Настройка кривой газа"
 
 #: ../../source/ch_model.rst:749
 msgid "**Pitch curves**: Pitch curve setup"
-msgstr ""
+msgstr "**Pitch curves**: Настройка кривой шага"
 
 #: ../../source/ch_model.rst:750
 msgid "**Throttle hold**: Throttle-hold configuration"
-msgstr ""
+msgstr "**Throttle hold**: Настройка удержания газа"
 
 #: ../../source/ch_model.rst:751
 msgid "**Gyro sense**: Gyro-sense configuration"
-msgstr ""
+msgstr "**Gyro sense**: Настройка чувствительности гироскопа"
 
 #: ../../source/ch_model.rst:752
 msgid "**Swash**: Swash Setup"
-msgstr ""
+msgstr "**Swash**: Настройка тарелки перекоса"
 
 #: ../../source/ch_model.rst:753
 msgid "**Fail safe**: Fail-Safe configuration"
-msgstr ""
+msgstr "**Fail safe**: Настройка системы безопасности"
 
 #: ../../source/ch_model.rst:754
 msgid "**Switch assignment**: Assign switch controls"
-msgstr ""
+msgstr "**Switch assignment**: Настройка назначения переключателей"
 
 #: ../../source/ch_model.rst:755
 msgid "**Timers**: Timer configuration (See section :ref:`timers`)"
-msgstr ""
+msgstr "**Timers**: Настройка таймеров (смотрите раздел :ref:`timers`)"
 
 #: ../../source/ch_model.rst:756
 msgid ""
 "**Telemetry config**: Configure telemetry alarms (See section :ref"
 ":`telemetry-config`)"
 msgstr ""
+"**Telemetry config**: Настройка сигналов телеметрии (смотрите раздел :ref"
+":`telemetry-config`)"
 
 #: ../../source/ch_model.rst:757
 msgid "**Datalog**: Configure telemetry logging (See section :ref:`datalog`)"
 msgstr ""
+"**Datalog**: Настройка регистрации данных (смотрите раздел :ref:`datalog`)"
 
 #: ../../source/ch_model.rst:758
 msgid ""
 "**Main page config**: Configure main page display (See section :ref:`main-"
 "page-config`)"
 msgstr ""
+"**Main page config**: Настройка отображения главной страницы (смотрите "
+"раздел :ref:`main-page-config`)"
 
 #: ../../source/ch_model.rst:764
 msgid "Servo Reverse"
-msgstr ""
+msgstr "Реверс сервоприводов"
 
 #: ../../source/ch_model.rst:769
 msgid ""
@@ -1593,10 +1675,14 @@ msgid ""
 "setting on the Channel Configuration sub-page of the Mixer menu when using "
 "the Advanced GUI (see section :ref:`channel-config`)"
 msgstr ""
+"Страница реверса сервоприводов позволяет быстро настроить каждый канал для "
+"работы в нормальном или реверсном режиме. Эти настройки эквивалентны "
+"настройке ‘Reverse’ на странице настройки канала меню 'Mixer' при "
+"использовании 'Advanced' GUI (смотрите раздел :ref:`channel-config`)"
 
 #: ../../source/ch_model.rst:774
 msgid "Dual-Rate/Expo setting"
-msgstr ""
+msgstr "Настройка Dual-Rate/Expo"
 
 #: ../../source/ch_model.rst:779
 msgid ""
@@ -1606,10 +1692,16 @@ msgid ""
 " each.  The number of settings depends on the switch assigned to the dual-"
 "rates function on the Switch Assignment page (see :ref:`switch-assignment`)"
 msgstr ""
+"Страница настройки двойных расходов и экспоненты позволяет настраивать "
+"кривые для каналов элеронов, руля направления и руля высоты. Для каждого "
+"канала можно настроить до 3 расходов, и для каждого из них может быть "
+"выбрана масштабированная линейная или экспоненциальная кривая. Количество "
+"настроек зависит от переключателя назначенного в функции двойных расходов на"
+" странице назначения переключателей (смотрите :ref:`switch-assignment`)"
 
 #: ../../source/ch_model.rst:784
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "Настройка субтриммеров"
 
 #: ../../source/ch_model.rst:789
 msgid ""
@@ -1619,10 +1711,15 @@ msgid ""
 ":ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 "
 "increments."
 msgstr ""
+"Страница настройки субтриммеров позволяет настроить нулевую точку "
+"сервоприводов для каждого канала. Это эквивалентно настройке ‘Subtrim’ на "
+"странице настройки канала меню 'Mixer' при использовании 'Advanced' GUI "
+"(смотрите :ref:`channel-config`). Допустимый диапазон значений от -50 до +50"
+" с шагом 0.1."
 
 #: ../../source/ch_model.rst:794
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "Настройка расхода сервоприводов"
 
 #: ../../source/ch_model.rst:799
 msgid ""
@@ -1633,10 +1730,16 @@ msgid ""
 "from -175 to -1 and Up values range from +1 to +175. The default values are "
 "-100 and +100 respectively."
 msgstr ""
+"Страница настройки расхода сервоприводов позволяет настроить максимальный "
+"положительный/отрицательный расход каждого сервопривода. Это эквивалентно "
+"настройкам ‘Scale+’ и ‘Scale-’ на странице настройки канала меню 'Mixer' при"
+" использовании 'Advanced' GUI (смотрите :ref:`channel-config`). Допустимые "
+"значения для 'Down' от -175 до -1 и для 'Up' от +1 до +175. Значения по "
+"умолчанию -100 и +100 соответственно."
 
 #: ../../source/ch_model.rst:804
 msgid "Swash Configuration"
-msgstr ""
+msgstr "Настройка тарелки перекоса"
 
 #: ../../source/ch_model.rst:806
 msgid ""
@@ -1645,30 +1748,37 @@ msgid ""
 " on this page are equivalent to those on the model configuration page (see "
 ":ref:`model-setup`), and configuration for both pages is provided below."
 msgstr ""
+"На странице настройки тарелки перекоса настраивается тип тарелки перекоса. "
+"Дополнительную информацию о типах тарелок перекоса можно найти с разделе "
+":ref:`swash-mixing`. Настройки на этой странице эквивалентны настройкам на "
+"странице настройки модели (смотрите :ref:`model-setup`), и настройки для "
+"обеих страниц приведены ниже."
 
 #: ../../source/ch_model.rst:815
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "Доступные типы тарелок перекоса:"
 
 #: ../../source/ch_model.rst:817
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
 msgstr ""
+"**None/1Servo**: Используется для 'FBL'. Микширование происходит в приемнике"
 
 #: ../../source/ch_model.rst:818
 msgid "**120/3Servo 120**: 120-degree swash"
-msgstr ""
+msgstr "**120/3Servo 120**: тарелка 120-градусов"
 
 #: ../../source/ch_model.rst:819
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
 msgstr ""
+"**120x/3Servo 120x**: тарелка 120-градусов (альтернативная конфигурация)"
 
 #: ../../source/ch_model.rst:820
 msgid "**140/3Servo 140**: 140 degree swash"
-msgstr ""
+msgstr "**140/3Servo 140**: тарелка 140-градусов"
 
 #: ../../source/ch_model.rst:821
 msgid "**90/3Servo 90**: 90 degrees swash"
-msgstr ""
+msgstr "**90/3Servo 90**: тарелка 90-градусов"
 
 #: ../../source/ch_model.rst:823
 msgid ""
@@ -1678,10 +1788,16 @@ msgid ""
 " with a default of 60. Note that setting these values too large can result "
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
+"'ELE Mix', 'AIL Mix' и 'PIT Mix' - это коэффициенты масштабирования, "
+"применяемые к входным стикам перед выполнением микширования. Они могут "
+"использоваться для подстройки под различную длину рычагов или различный "
+"расход сервоприводов. Допустимый диапазон от -100 до 100, по умолчанию 60. "
+"Имейте в виду, что слишком большое значение может привести к избыточному "
+"расходу сервоприводов и сделать модель невосприимчивой к управлению стиками."
 
 #: ../../source/ch_model.rst:829
 msgid "Throttle Curve"
-msgstr ""
+msgstr "Кривая газа"
 
 #: ../../source/ch_model.rst:834
 msgid ""
@@ -1690,10 +1806,13 @@ msgid ""
 "Each point value can be enabled to be interpolated from the points "
 "surrounding it."
 msgstr ""
+"Страница кривой газа позволяет определить кусочно-линейную кривую для канала"
+" газа. Для каждого полетного режима может быть выбрана различная кривая. Для"
+" значения каждой точки может быть включена интерполяция из окружающих точек."
 
 #: ../../source/ch_model.rst:839
 msgid "Pitch Curve"
-msgstr ""
+msgstr "Кривая шага"
 
 #: ../../source/ch_model.rst:844
 msgid ""
@@ -1702,10 +1821,14 @@ msgid ""
 "mode as well as for throttle-hold.  Each point value can be enabled to be "
 "interpolated from the points surrounding it."
 msgstr ""
+"Страница кривой шага позволяет определить кусочно-линейную кривую для канала"
+" коллективного шага. Для каждого полетного режима может быть выбрана "
+"различная кривая, а также для режима удержания газа (throttle-hold). Для "
+"значения каждой точки может быть включена интерполяция из окружающих точек."
 
 #: ../../source/ch_model.rst:849
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "Чувствительность гироскопа"
 
 #: ../../source/ch_model.rst:854
 msgid ""
@@ -1713,10 +1836,13 @@ msgid ""
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
 msgstr ""
+"Страница чувствительности гироскопа позволяет настроить до 3 значение "
+"чувствительности гироскопа, а также канал, который будет использоваться для "
+"регулировки чувствительности. Допустимые значения от 0 до 100%."
 
 #: ../../source/ch_model.rst:859
 msgid "Switch Assignment"
-msgstr ""
+msgstr "Назначение переключателей"
 
 #: ../../source/ch_model.rst:864
 msgid ""
@@ -1724,10 +1850,13 @@ msgid ""
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
 msgstr ""
+"Страница назначения переключателей позволяет настроить какие переключатели "
+"будут использоваться для каждой функции в 'Standard' GUI. Один переключатель"
+" может быть назначен на несколько функций."
 
 #: ../../source/ch_model.rst:869
 msgid "Throttle Hold"
-msgstr ""
+msgstr "Удержание газа (Throttle Hold)"
 
 #: ../../source/ch_model.rst:874
 msgid ""
@@ -1735,13 +1864,20 @@ msgid ""
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
 msgstr ""
+"Страница удержания газа используется для включения/выключения функции "
+"удержания газа. Указание ‘Hold position’ определяет значение газа, когда "
+"включен переключатель 'Throttle-hold'. Положение удержания может быть от "
+"-200 до 200."
 
 #: ../../source/ch_model.rst:879
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "Настройка системы безопасности (Fail-Safe)"
 
 #: ../../source/ch_model.rst:884
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
 msgstr ""
+"Страница настройки системы безопасности (отказоустойчивости) используется "
+"для настройки безопасного значения для каждого канала (если протокол "
+"поддерживает такую возможность)."
