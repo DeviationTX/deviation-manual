@@ -95,14 +95,21 @@ Buzzer settings
 LCD settings
 ~~~~~~~~~~~~
 
-**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
 .. if:: devo10
+
+**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
 It may also be turned off.
-.. endif::
 
 **Contrast**: Set screen contrast. Acceptable entries are from 1 to 10.
-.. if:: devo10
 It may also be turned off.
+
+.. endif::
+.. if:: devo8
+
+**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10.
+
+**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10.
+
 .. endif::
 
 **Dimmer time**: Set delay before screen dimming. Times may be set from 5 seconds to 2 minutes in 5 second intervals. A setting of Off will force backlight to remain on as long as the transmitter is on.
