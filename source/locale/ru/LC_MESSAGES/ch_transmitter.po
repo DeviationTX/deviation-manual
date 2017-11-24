@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-22 22:40+0000\n"
+"POT-Creation-Date: 2017-11-24 05:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -158,7 +158,7 @@ msgstr "**Power-down alert**: Сигнал при выключении пита�
 msgid "LCD settings"
 msgstr "Настройки экрана"
 
-#: ../../source/ch_transmitter.rst:88
+#: ../../source/ch_transmitter.rst:89
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
@@ -166,7 +166,7 @@ msgstr ""
 "**Backlight**: Установка яркости экрана. Допустимые значения от 1 до 10. "
 "Яркость также может быть выключена."
 
-#: ../../source/ch_transmitter.rst:91
+#: ../../source/ch_transmitter.rst:92
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
 "may also be turned off."
@@ -174,7 +174,20 @@ msgstr ""
 "**Contrast**: Установка контрастности экрана. Допустимые значения от 1 до "
 "10. Контрастность также может быть выключена."
 
-#: ../../source/ch_transmitter.rst:94
+#: ../../source/ch_transmitter.rst:96
+msgid ""
+"**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
+msgstr ""
+"**Backlight**: Установка яркости экрана. Допустимые значения от 1 до 10."
+
+#: ../../source/ch_transmitter.rst:98
+msgid ""
+"**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10."
+msgstr ""
+"**Contrast**: Установка контрастности экрана. Допустимые значения от 1 до "
+"10."
+
+#: ../../source/ch_transmitter.rst:101
 msgid ""
 "**Dimmer time**: Set delay before screen dimming. Times may be set from 5 "
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
@@ -184,7 +197,7 @@ msgstr ""
 "быть установлено от 5 секунд до 2 минут с шагом 5 секунд. Настройка 'Off' "
 "заставит подсветку оставаться включенной пока включен передатчик."
 
-#: ../../source/ch_transmitter.rst:96
+#: ../../source/ch_transmitter.rst:103
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
@@ -192,11 +205,11 @@ msgstr ""
 "**Dimmer target**: Установка яркости при затемнении экрана. Допустимые "
 "значения от 1 до 10, а также это может быть отключено."
 
-#: ../../source/ch_transmitter.rst:99
+#: ../../source/ch_transmitter.rst:106
 msgid "Timer settings"
 msgstr "Настройки таймера"
 
-#: ../../source/ch_transmitter.rst:101
+#: ../../source/ch_transmitter.rst:108
 msgid ""
 "**Prealert time**: Time before timer reaches zero to start beeping. "
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
@@ -206,7 +219,7 @@ msgstr ""
 "начать звуковой сигнал. Допустимые значения от 5 секунд до 1 минуты с шагом "
 "5 секунд, а также это может быть отключено."
 
-#: ../../source/ch_transmitter.rst:103
+#: ../../source/ch_transmitter.rst:110
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
@@ -215,7 +228,7 @@ msgstr ""
 "нуля. Интервал может быть установлен в интервале 1 – 60 секунд, а также "
 "может быть отключен."
 
-#: ../../source/ch_transmitter.rst:105
+#: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
@@ -224,11 +237,11 @@ msgstr ""
 "может быть установлен в интервале 1 – 60 секунд, а также может быть "
 "отключен."
 
-#: ../../source/ch_transmitter.rst:108
+#: ../../source/ch_transmitter.rst:115
 msgid "Telemetry settings"
 msgstr "Настройки телеметрии"
 
-#: ../../source/ch_transmitter.rst:110
+#: ../../source/ch_transmitter.rst:117
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
@@ -236,7 +249,7 @@ msgstr ""
 "**Temperature**: Установка единиц измерения отображения температуры для "
 "телеметрии. Доступные опции: Celsius и Fahrenheit."
 
-#: ../../source/ch_transmitter.rst:112
+#: ../../source/ch_transmitter.rst:119
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
@@ -244,11 +257,11 @@ msgstr ""
 "**Length**: Установка единиц измерения отображения расстояния для "
 "телеметрии. Доступные опции: Meter и Feet."
 
-#: ../../source/ch_transmitter.rst:115
+#: ../../source/ch_transmitter.rst:122
 msgid "Channel monitor"
 msgstr "Монитор каналов"
 
-#: ../../source/ch_transmitter.rst:122
+#: ../../source/ch_transmitter.rst:129
 msgid ""
 "The channel monitor screen allows the user to see the values of each channel"
 " as output by the transmitter. Channels without mixers will not be "
@@ -260,7 +273,7 @@ msgstr ""
 "выход канала - значение основанное на минимальных/максимальных значениях, а "
 "также на масштабировании."
 
-#: ../../source/ch_transmitter.rst:127
+#: ../../source/ch_transmitter.rst:134
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
@@ -268,11 +281,11 @@ msgstr ""
 "**Пример**: Канал масштабированный от -60 до +60 в зависимости от положения "
 "стика будет отображать диапазон значений от -60 до +60."
 
-#: ../../source/ch_transmitter.rst:131
+#: ../../source/ch_transmitter.rst:138
 msgid "Input Monitor"
 msgstr "Монитор органов управления"
 
-#: ../../source/ch_transmitter.rst:149
+#: ../../source/ch_transmitter.rst:156
 msgid ""
 "The input monitor screen shows the values associated with the current "
 "position of the control points. The values shown are a percentage of the "
@@ -282,7 +295,7 @@ msgstr ""
 "текущим положением органов управления. Значения представляют собой процент "
 "от общего диапазона органов управления на основе шкалы от -100% до +100%."
 
-#: ../../source/ch_transmitter.rst:154
+#: ../../source/ch_transmitter.rst:161
 msgid ""
 "NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
 "FMOD1."
@@ -290,7 +303,7 @@ msgstr ""
 "ПРИМЕЧАНИЕ: Devo7e ограничен AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 и "
 "FMOD1."
 
-#: ../../source/ch_transmitter.rst:160
+#: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
@@ -298,7 +311,7 @@ msgstr ""
 "ПРИМЕЧАНИЕ: Devo8 ограничен AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2 и MIX0/1/2."
 
-#: ../../source/ch_transmitter.rst:164
+#: ../../source/ch_transmitter.rst:171
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
@@ -306,11 +319,11 @@ msgstr ""
 "ПРИМЕЧАНИЕ: Devo6 ограничен AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2 и "
 "MIX0/1/2."
 
-#: ../../source/ch_transmitter.rst:167
+#: ../../source/ch_transmitter.rst:174
 msgid "Button Monitor"
 msgstr "Монитор кнопок"
 
-#: ../../source/ch_transmitter.rst:174
+#: ../../source/ch_transmitter.rst:181
 msgid ""
 "The button monitor page is used to ensure physical buttons on the "
 "transmitter are working as expected.  Pressing any physical button will "
@@ -324,15 +337,15 @@ msgstr ""
 " экран, чтобы отменить переход по меню. Снова нажмите на экран для "
 "разблокировки."
 
-#: ../../source/ch_transmitter.rst:178
+#: ../../source/ch_transmitter.rst:185
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
 msgstr "ПРИМЕЧАНИЕ: Devo6 не имеет верхнего набора кнопок триммеров."
 
-#: ../../source/ch_transmitter.rst:182
+#: ../../source/ch_transmitter.rst:189
 msgid "Telemetry monitor"
 msgstr "Монитор телеметрии"
 
-#: ../../source/ch_transmitter.rst:189
+#: ../../source/ch_transmitter.rst:196
 msgid ""
 "Certain protocols have the ability to transmit telemetry data back to the "
 "transmitter during use. Telemetry data may include, but is not restricted "
@@ -344,7 +357,7 @@ msgstr ""
 "показания температуры, различные показания напряжения, обороты мотора или "
 "двигателя, а также GPS информацию."
 
-#: ../../source/ch_transmitter.rst:191
+#: ../../source/ch_transmitter.rst:198
 msgid ""
 "Telemetry data is turned off by default for all supported protocols except "
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
@@ -354,7 +367,7 @@ msgstr ""
 " Devo и Frsky. Смотрите раздел \"Протоколы\", чтобы узнать, какие протоколы "
 "поддерживают телеметрию, и какие поля будут доступны."
 
-#: ../../source/ch_transmitter.rst:203
+#: ../../source/ch_transmitter.rst:210
 msgid ""
 "Since each protocol differs in the type of data it can return please see the"
 " original equipment manufacturers documentation concerning what additional "
@@ -365,22 +378,22 @@ msgstr ""
 "относительно того, какое дополнительное оборудование может понадобиться для "
 "сбора этих данных."
 
-#: ../../source/ch_transmitter.rst:206
+#: ../../source/ch_transmitter.rst:213
 msgid "Until valid data is transmitted the values will all be red."
 msgstr ""
 "Пока не начнут передаваться действительные данные, все поля будут красными."
 
-#: ../../source/ch_transmitter.rst:210
+#: ../../source/ch_transmitter.rst:217
 msgid "Until valid data is transmitted the values will all be inverted."
 msgstr ""
 "Пока не начнут передаваться действительные данные, все поля будут "
 "инвертированы."
 
-#: ../../source/ch_transmitter.rst:220
+#: ../../source/ch_transmitter.rst:227
 msgid "Range Test"
 msgstr "Тест диапазона действия"
 
-#: ../../source/ch_transmitter.rst:229
+#: ../../source/ch_transmitter.rst:236
 msgid ""
 "It is recommended that you range test a new model before flying it the first"
 " time to verify that you will be able to control the model at normal flying "
@@ -392,7 +405,7 @@ msgstr ""
 "нормальном полете. В некоторых клубах, это требуется как мера безопасности. "
 "Страница теста диапазона действия позволяет это выполнить."
 
-#: ../../source/ch_transmitter.rst:233
+#: ../../source/ch_transmitter.rst:240
 msgid ""
 "Once the range test page is opened, press the ‘Start test’ button to start "
 "the range test. The old and new power levels will be displayed.  The "
@@ -409,7 +422,7 @@ msgstr ""
 "завершения теста и восстановления уровня мощности. Нажатие кнопки  ‘EXT’ для"
 " выхода со страницы, также приведет к восстановлению уровня мощности. "
 
-#: ../../source/ch_transmitter.rst:237
+#: ../../source/ch_transmitter.rst:244
 msgid ""
 "The radio range will be reduced by the square root of the change in power "
 "level. So going from 100mW to 100uW represents a change of power of roughly "
@@ -423,7 +436,7 @@ msgstr ""
 "30 раз. Успешный тест диапазона действия на 30 метрах будет означать, что вы"
 " сможете управлять моделью на расстоянии до 900 метров."
 
-#: ../../source/ch_transmitter.rst:241
+#: ../../source/ch_transmitter.rst:248
 msgid ""
 "The installed RF module used for the current model must have a PA. If that "
 "is not the case, or the power level chosen for the model is already at the "
@@ -433,11 +446,11 @@ msgstr ""
 " Если это не так, или уровень мощности выбранный для модели, уже находится "
 "на минимальном уровне, отобразится соответствующее сообщение."
 
-#: ../../source/ch_transmitter.rst:254
+#: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
 msgstr "USB/Информация о прошивке"
 
-#: ../../source/ch_transmitter.rst:261
+#: ../../source/ch_transmitter.rst:268
 msgid ""
 "The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
 " can then be toggled on/off to enable access to the transmitter’s file-"
@@ -453,7 +466,7 @@ msgstr ""
 "файлы между файловой системой Deviation и компьютером. В этом режиме "
 "доступны все файлы конфигурации."
 
-#: ../../source/ch_transmitter.rst:265
+#: ../../source/ch_transmitter.rst:272
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
