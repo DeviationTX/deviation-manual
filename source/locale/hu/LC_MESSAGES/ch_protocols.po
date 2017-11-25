@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-23 15:35+0000\n"
+"POT-Creation-Date: 2017-11-25 13:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -1436,7 +1436,7 @@ msgid "Channel 12 controls camera tilt"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:688
-msgid "Protocol: \\*PPM"
+msgid "Protocol: PPM"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:689
