@@ -681,7 +681,7 @@ Channel 11 controls autoflip (X600 & X800 formats) or camera pan
 
 Channel 12 controls camera tilt
 
-Protocol: \*PPM
+Protocol: PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
 
