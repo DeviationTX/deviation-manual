@@ -257,6 +257,7 @@ Channel configuration
    **Subtrim**: Adjust servo zero position. The available range is between -50.0 and +50.0 in 0.1 increments.
 
    **Speed**: Adjust maximum servo speed.  Zero is disabled (fastest), Range is between 1 (slowest) and 250 (fastest). Servo speed is defined as number of degrees per 100msec (assuming a min/max throw of 120degrees).
+
      Example: A value of 60 will give a speed of 60degrees per 100msec which is equivalent to center-to max in 100msec. Most servos are rated at ~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A value of 30 should be approx twice as slow as a typical servo.
 
 Virtual channel configuration
