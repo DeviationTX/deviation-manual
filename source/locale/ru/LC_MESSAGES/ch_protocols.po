@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 13:20+0000\n"
+"POT-Creation-Date: 2017-11-25 23:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -1554,7 +1554,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:688
 msgid "Protocol: PPM"
-msgstr ""
+msgstr "Протокол: PPM"
 
 #: ../../source/ch_protocols.rst:689
 msgid ""
