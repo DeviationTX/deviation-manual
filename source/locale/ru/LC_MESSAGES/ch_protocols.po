@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 23:31+0000\n"
+"POT-Creation-Date: 2017-11-26 22:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -426,7 +426,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:123
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "Протокол: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:124
 msgid ""
@@ -434,6 +434,9 @@ msgid ""
 " few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc)."
 "  |a7105-note|"
 msgstr ""
+"Протокол Flysky используется для управления приемниками Turnigy/Flysky, а "
+"также неколькими другими приемниками, использующими протокол AFHDS (WL V911,"
+" Xieda 9958 и т.п.).  |a7105-note|"
 
 #: ../../source/ch_protocols.rst:128
 msgid ""
@@ -443,65 +446,75 @@ msgid ""
 "set for Fixed ID, the receiver must be bound manually one-time using the "
 "‘Bind’ button, after which it should stay bound."
 msgstr ""
+"Протокол Flysky поддерживает до 12 каналов, автоматическую и ручную "
+"привязку.  Если 'Fixed ID' установлен в ‘None’, передатчик будет пытаться "
+"автоматически привязаться к приемнику при каждом включении питания. Если для"
+" 'Fixed ID' установлено значение, приемник должен быть привязан вручную один"
+" раз с помощью кнопки ‘Bind’, после чего он должен оставаться привязанным."
 
 #: ../../source/ch_protocols.rst:134
 msgid ""
 "The Flysky protocol also supports WLToys extensions to the protocol. These "
 "are accessed by pressing the Protocol spin-box when Flysky is shown:"
 msgstr ""
+"Протокол Flysky также поддерживает расширения WLToys для протокола. Доступ к"
+" ним осуществляется по нажатию на полосу прокрутки 'Protocol', когда "
+"отображается 'Flysky':"
 
 #: ../../source/ch_protocols.rst:138
 msgid ""
 "**V9x9**: Enables the extensions for the WLToys V939, V949, V959, v969, etc "
 "quadcopters."
 msgstr ""
+"**V9x9**: Включает расширения для квадрокоптеров WLToys V939, V949, V959, "
+"v969 и т.п."
 
 #: ../../source/ch_protocols.rst:141 ../../source/ch_protocols.rst:148
 msgid "Lights are controlled by Channel 5"
-msgstr ""
+msgstr "Свет управляется каналом 5"
 
 #: ../../source/ch_protocols.rst:142
 msgid "Video is controlled by Channel 6"
-msgstr ""
+msgstr "Видео управляется каналом 6"
 
 #: ../../source/ch_protocols.rst:143 ../../source/ch_protocols.rst:150
 msgid "Camera is controlled by Channel 7"
-msgstr ""
+msgstr "Камера управляется каналом 7"
 
 #: ../../source/ch_protocols.rst:144
 msgid "Flip is controlled by Channel 8"
-msgstr ""
+msgstr "Флип (сальто) управляется каналом 8"
 
 #: ../../source/ch_protocols.rst:146
 msgid ""
 "**V6x6**: Enables the extensions for the WLToys V636 and V686 quadcopters."
-msgstr ""
+msgstr "**V6x6**: Включает расширения для квадрокоптеров WLToys V636 и V686."
 
 #: ../../source/ch_protocols.rst:149
 msgid "Flip is controlled by Channel 6"
-msgstr ""
+msgstr "Флип (сальто) управляется каналом 6"
 
 #: ../../source/ch_protocols.rst:151
 msgid "Video is controlled by Channel 8"
-msgstr ""
+msgstr "Видео управляется каналом 8"
 
 #: ../../source/ch_protocols.rst:152
 msgid "Headless mode is controlled by Channel 9"
-msgstr ""
+msgstr "Режим 'Headless' управляется каналом 9"
 
 #: ../../source/ch_protocols.rst:153
 msgid "RTH mode is controlled by Channel 10"
-msgstr ""
+msgstr "Режим 'RTH' управляется каналом 10"
 
 #: ../../source/ch_protocols.rst:154
 msgid ""
 "X and Y calibration are controlled by channels 11 and 12, respectively."
-msgstr ""
+msgstr "Калибровка X и Y управляется каналами 11 и 12, соответственно."
 
 #: ../../source/ch_protocols.rst:156
 msgid ""
 "**V912**: Enables the extensions for the V912, V913 and V915 helicopters"
-msgstr ""
+msgstr "**V912**: Включает расширения для вертолетов V912, V913 и V915."
 
 #: ../../source/ch_protocols.rst:159
 msgid ""
@@ -511,16 +524,23 @@ msgid ""
 "Flipping the switch back to off has no effect.  Flipping the switch back on "
 "now turns the lights back off."
 msgstr ""
+"Имейте в виду, что если эти каналы назначены на переключатель, включение "
+"переключателя включает состояние, в возврат переключателя не оказывает "
+"влияния. Таким образом, чтобы включить свет, включите переключатель "
+"назначенный на канал 5. Выключение этого переключателя не оказывает влияния."
+" Повторное включение переключателя выключает свет."
 
 #: ../../source/ch_protocols.rst:162
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "Протокол: \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:163
 msgid ""
 "The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers."
 "  |a7105-note|"
 msgstr ""
+"Протокол AFHDS-2A используется для управления приемниками Turnigy/Flysky "
+"AFHDS 2A.  |a7105-note|"
 
 #: ../../source/ch_protocols.rst:167
 msgid ""
@@ -528,30 +548,38 @@ msgid ""
 "binding. The receiver must be bound manually one-time using the ‘Bind’ "
 "button, after which it should stay bound."
 msgstr ""
+"Протокол AFHDS-2A поддерживает до 12 каналов, и требует ручной привязки. "
+"Приемник должен быть привязан вручную один раз с помощью кнопки ‘Bind’, "
+"после чего он должен оставаться привязанным."
 
 #: ../../source/ch_protocols.rst:170
 msgid "Options configurable on the AFHDS-2A page:"
-msgstr ""
+msgstr "Параметры, настраиваемые на странице протокола AFHDS-2A:"
 
 #: ../../source/ch_protocols.rst:172
 msgid ""
 "**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
 "PWM+SBUS or PPM+SUBS"
 msgstr ""
+"**Outputs**: Устанавливает желаемый тип выходов приемника, PWM+IBUS, "
+"PPM+IBUS, PWM+SBUS или PPM+SUBS"
 
 #: ../../source/ch_protocols.rst:173
 msgid "**Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
 msgstr ""
+"**Servo Hz**: Устанавливает частоту обновления PWM между 50 Hz и 400 Hz"
 
 #: ../../source/ch_protocols.rst:175
 msgid ""
 "Partial telemetry support, only receiver voltage and RSSI in dB are "
 "supported for now."
 msgstr ""
+"Частичная поддержка телеметрии, на данный момент поддерживается только "
+"напряжение приемника и RSSI в dB."
 
 #: ../../source/ch_protocols.rst:178
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "Протокол: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:179
 msgid ""
@@ -559,6 +587,9 @@ msgid ""
 " X (but not the Proto X SLT).  No other models have been tested with this "
 "protocol.  |a7105-note|"
 msgstr ""
+"Протокол Hubsan4 поддерживает квадрокоптер Hubsan-X4 и Estes Proto X (но не "
+"Proto X SLT).  Другие модели не тестировались с этим протоколом.  "
+"|a7105-note|"
 
 #: ../../source/ch_protocols.rst:187
 msgid ""
@@ -567,22 +598,27 @@ msgid ""
 " power-on.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and "
 "Rudder.  Additional channels control the quadracopter special functions:"
 msgstr ""
+"Протокол Hubsan4 поддерживает до 7 каналов, и поддерживает только "
+"автоматическую привязку.  'Fixed ID' может быть использован, но он не "
+"препятствует автоматической привязке при включении питания.  Каналы с 1 по 4"
+" представляют Aileron, Elevator, Throttle и Rudder.  Дополнительные каналы "
+"контролируют специальные функции квадрокоптера:"
 
 #: ../../source/ch_protocols.rst:189
 msgid "Channel 5 controls the LEDs"
-msgstr ""
+msgstr "Канал 5 управляет светодиодами"
 
 #: ../../source/ch_protocols.rst:190 ../../source/ch_protocols.rst:353
 msgid "Channel 6 enables ‘flip’ mode"
-msgstr ""
+msgstr "Канал 6 включает режим 'flip'"
 
 #: ../../source/ch_protocols.rst:191
 msgid "Channel 7 Turns video on/off"
-msgstr ""
+msgstr "Канал 7 включает/выключает видео"
 
 #: ../../source/ch_protocols.rst:193
 msgid "Options configurable on the Hubsan page:"
-msgstr ""
+msgstr "Параметры, настраиваемые на странице протокола 'Hubsan':"
 
 #: ../../source/ch_protocols.rst:195
 msgid ""
@@ -590,14 +626,16 @@ msgid ""
 "transmitter (Requires a 5.8GHz receiver capable of receiving and displaying "
 "video)."
 msgstr ""
+"**vTX MHz**: Определяет частоту используемую видео-передатчиком Hubsan H107D"
+" (требует наличия приемника 5.8GHz для приема и отображения видео)."
 
 #: ../../source/ch_protocols.rst:196
 msgid "**Telemetry**: Enable receiving of model battery voltage."
-msgstr ""
+msgstr "**Telemetry**: Включает передачу телеметрии напряжения приемника."
 
 #: ../../source/ch_protocols.rst:199
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "Протокол: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:200
 msgid ""
@@ -607,6 +645,10 @@ msgid ""
 " tested with this protocol, including air versions of the J4C12R.  "
 "|a7105-note|"
 msgstr ""
+"Протокол Joysway поддерживает модель яхты Joysway Caribbean, и приемник "
+"J4C12R, используемый в моделях яхт Joysway Orion, Explorer, Dragon Force 65 "
+"и в катамаране Force2 60. Другие модели не тестировались с этим протоколом, "
+"включая воздушную версию J4C12R.  |a7105-note|"
 
 #: ../../source/ch_protocols.rst:208
 msgid ""
@@ -615,22 +657,31 @@ msgid ""
 "set to None, a transmitter-specific ID is used instead. It is necessary to "
 "bind each model before the first use."
 msgstr ""
+"Протокол Joysway поддерживает до 4 каналов, и не поддерживает автоматической"
+" привязки, но будет привязываться, когда приемник запрашивает привязку. Если"
+" 'Fixed ID' установлен в 'None', вместо него используется идентификатор "
+"передатчика. Перед первым использованием необходимо вручную привязать каждый"
+" приемник."
 
 #: ../../source/ch_protocols.rst:213
 msgid ""
 "The first channel normally controls the sheets and the second channel the "
 "rudder, but this may vary from model to model."
 msgstr ""
+"Первый канал обычно управляет парусами, а второй канал рулем, но это может "
+"варьироваться от модели к модели."
 
 #: ../../source/ch_protocols.rst:217
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "Протокол: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:218
 msgid ""
 "The Frsky-V8 protocol is used to control older Frsky™ receivers using the "
 "one-way protocol. |cc2500-note|"
 msgstr ""
+"Протокол Frsky-V8 используется для управления старыми приемниками Frsky™, "
+"использующими односторонний протокол. |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:222
 msgid ""
@@ -638,16 +689,22 @@ msgid ""
 "If Fixed ID is set to None, a transmitter-specific ID is used instead.  It "
 "is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол Frsky-V8 поддерживает 8 каналов, и не поддерживает автоматической "
+"привязки.  Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:225
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "Протокол: \\*Frsky"
 
 #: ../../source/ch_protocols.rst:226
 msgid ""
 "The Frsky protocol is used to control newer (telemetry enabled) Frsky™ "
 "receivers using the two-way protocol (D8). |cc2500-note|"
 msgstr ""
+"Протокол Frsky используется для управления новыми приемниками Frsky™ (с "
+"телеметрией), с использованием двухстороннего протокола (D8). |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:230
 msgid ""
@@ -655,18 +712,27 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол Frsky поддрживает до 8 каналов, и не поддерживает автоматической "
+"привязки.  Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
 "The Frsky protocol also supports enabling/disabling telemetry.  This option "
 "is accessed by pressing the Protocol spin-box when Frsky is shown."
 msgstr ""
+"Протокол Frsky также поддерживает включение/отключение телеметрии. Эта опция"
+" доступна по нажатию на полосу прокрутки 'Protocol', когда отображается "
+"'Frsky'."
 
 #: ../../source/ch_protocols.rst:234
 msgid ""
 "When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, "
 "VOLT2) are supported."
 msgstr ""
+"Когда телеметрия включена, поддерживаются значения (RSSI, VOLT1, VOLT2), "
+"посылаемые приемником."
 
 #: ../../source/ch_protocols.rst:236
 msgid ""
@@ -674,6 +740,9 @@ msgid ""
 "protocol on transmitters except the 7e and f7.  See the Frsky Telemetry "
 "section below."
 msgstr ""
+"Дополнительные значения телеметрии 'Hub' поддерживаются совместно с "
+"протоколом FrskyX, кроме передатчиков Devo 7e и Devo F7. Смотрите ниже "
+"раздел 'Телеметрия Frsky'."
 
 #: ../../source/ch_protocols.rst:241
 msgid "Protocol: \\*FrskyX"
