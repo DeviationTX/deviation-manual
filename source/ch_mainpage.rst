@@ -46,7 +46,9 @@ Before being displayed, outputs have raw values in the range `[-10000, 10000]`. 
 
 If `display-scale` is omitted, the default value of `100` will be used.
 
-If `display-format` is omitted, the default value of `%3d%%` will be used.
+If `display-format` is omitted, the default value of `%3d%%` will be used. See Wikipedia_ for more details on the format string.
+
+.. _Wikipedia: https://en.wikipedia.org/wiki/Printf_format_string
 
 .. _safety-system:
 
