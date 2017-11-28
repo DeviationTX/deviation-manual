@@ -36,6 +36,20 @@ Pressing the icon will take you to that page.
 
 **Quick Menus**: Quick menus can be reached via a long UP/DN press.  They can be defined from section :ref:`main-page-config`.
 
+By default, channel outputs are displayed as `[-100, 100]%`. This may be tweaked by modifying the following values in the corresponding channel section in `model.ini`::
+
+  [channel1]
+  display-scale=100
+  display-format=%3d%%
+
+Before being displayed, outputs have raw values in the range `[-10000, 10000]`. The displayed text is generated via `sprintf(s, display_format, raw/display_scale)`
+
+If `display-scale` is omitted, the default value of `100` will be used.
+
+If `display-format` is omitted, the default value of `%3d%%` will be used. See Wikipedia_ for more details on the format string.
+
+.. _Wikipedia: https://en.wikipedia.org/wiki/Printf_format_string
+
 .. _safety-system:
 
 Safety System
