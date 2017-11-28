@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 22:40+0000\n"
+"POT-Creation-Date: 2017-11-28 19:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -746,23 +746,27 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:241
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "Протокол: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:242
 msgid ""
 "The FryskyX protocol implements the Frsky D16 radio protocol, including "
 "S.Port and hub telemetry.  |cc2500-note|"
 msgstr ""
+"Протокол FryskyX реализует протокол Frsky D16, включая S.Port и телеметрию "
+"'hub'.  |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:246
 msgid ""
 "This protocol supports up to 12 channels. Fixed ID binding is supported to "
 "link the transmitter wtih specific receivers."
 msgstr ""
+"Этот протокол поддерживает до 12 каналов. Поддерживается привязка с 'Fixed "
+"ID' для привязки передатчика к конкретным приемникам."
 
 #: ../../source/ch_protocols.rst:248
 msgid "The following protocol options are available."
-msgstr ""
+msgstr "Доступны следующие параметры протокола:"
 
 #: ../../source/ch_protocols.rst:250
 msgid ""
@@ -772,6 +776,12 @@ msgid ""
 "  Default 0. The LQI telemetry value can be used as a guide for adjusting "
 "the fine frequency protocol option."
 msgstr ""
+"**Freq-fine**: Регулировка смещения частоты. Диапазон от -127 до 127. Для "
+"настройки отклонений между модулями CC2500. Обычно требуется смещение 0 или "
+"-41, но необходимо проверить весь диапазон, если имеются проблемы с "
+"привязкой или диапазоном действия. По умолчанию 0. Значение телеметрии LQI "
+"может быть использовано как руководства для настройки опции протокола 'Freq-"
+"fine'."
 
 #: ../../source/ch_protocols.rst:252
 msgid ""
@@ -780,6 +790,10 @@ msgid ""
 "network.  Default 100 (gain of 1). Range is 1 to 2000 (gain of 0.01 to "
 "20.00)."
 msgstr ""
+"**AD2GAIN**: Значение телеметрии VOLT2 (вход AIN в приемнике X4R) умножается"
+" на это значение, деленное на 100. Позволяет настроиться на внешний "
+"резистивный делитель напряжения. По умолчанию 100 (усиление 1). Диапазон от "
+"1 до 2000 (усиление от 0,01 до 20,00)."
 
 #: ../../source/ch_protocols.rst:254
 msgid ""
@@ -788,6 +802,11 @@ msgid ""
 "receiver every 9 seconds.  The receiver will use these values in failsafe "
 "mode unless the protocol option is set to RX."
 msgstr ""
+"**Failsafe**: Полностью поддерживаются опции отказоустойчивости Frsky. Если "
+"настроено значение 'failsafe' канала (в настройке канала микшера), это "
+"значение посылается в приемник каждые 9 секунд. Приемник будет использовать "
+"эти значения в отказоустойчивом режиме, если опция протокола не установлена "
+"в 'RX'."
 
 #: ../../source/ch_protocols.rst:256
 msgid ""
