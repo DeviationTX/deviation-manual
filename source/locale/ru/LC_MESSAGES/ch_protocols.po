@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 19:37+0000\n"
+"POT-Creation-Date: 2017-11-28 22:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -819,6 +819,14 @@ msgid ""
 "the receiver will use whatever failsafe values have been stored in the "
 "receiver."
 msgstr ""
+"Для каналов с 'failsafe' установленным в 'off', опция отказоустойчивости "
+"протокола по умолчанию \"Hold\" командует приемнику удерживать последнее "
+"принятое значение, когда приемник переходит в безопасный режим. Настройка "
+"\"NoPulse\" заставляет приемник не посылать какой-либо сигнал на выходы PPM "
+"(тестирование X8R показало, что значения SBUS переходят в минимум, но "
+"поведение SBUS не определено в протоколе). Настройка \"RX\" предотвращает "
+"отправку отказоустойчивых значений, чтобы приемник использовал "
+"отказоустойчивые значения сохраненные в приемнике."
 
 #: ../../source/ch_protocols.rst:258
 msgid ""
@@ -826,6 +834,10 @@ msgid ""
 "supports S.Port and hub telemetry sensors as well as GPS on transmitters "
 "(except on 7e and f7) as described in the next section."
 msgstr ""
+"Поддерживается телеметрия приемника (RSSI, VOLT1) на всех передатчиках. "
+"Также поддерживают датчики 'S.Port' и 'hub' телеметрии, а также GPS, для "
+"всех передатчиков (исключая Devo 7e и Devo F7), как описано в следующем "
+"разделе."
 
 #: ../../source/ch_protocols.rst:260
 msgid ""
@@ -835,10 +847,15 @@ msgid ""
 "connect to a standard decoder.  It can be connected directly to the input of"
 " a 3.3V ftdi adapter."
 msgstr ""
+"Когда принимается телеметрия 'S.Port' и \"PPMIn\" не используется, пакеты "
+"\"S.Port\" отправляются в порт тренера. Скорость передачи 57600 для "
+"совместимости с декодерами 'S.Port', но сигнала должен быть инвертирован для"
+" подключения к стандартному декодеру. Он может быть подключен напрямую ко "
+"входу 3.3V ftdi адаптера."
 
 #: ../../source/ch_protocols.rst:264
 msgid "*Frsky and FrskyX Extended Telemetry*"
-msgstr ""
+msgstr "*Расширенная телеметрия Frsky и FrskyX*"
 
 #: ../../source/ch_protocols.rst:265
 msgid ""
@@ -846,6 +863,9 @@ msgid ""
 "These sensors are supported in all transmitters except the 7e.  They are "
 "available on the telemetry test pages and main page boxes."
 msgstr ""
+"Расширенная телеметрия относится к датчикам телеметрии Frsky 'hub' и "
+"'S.Port'. Эти датчики поддерживаются во всех передатчиках, кроме Devo 7e. "
+"Они доступны на странице телеметрии и на экранах главной страницы."
 
 #: ../../source/ch_protocols.rst:267
 msgid ""
@@ -854,135 +874,139 @@ msgid ""
 "the same type, but only one telemetry value is saved.  The value most "
 "recently received from all the sensors of the same type is reported."
 msgstr ""
+"Телеметрия FrskyX S.Port обеспечивает подключение до 16 датчиков одного типа"
+" (например, напряжение батареи). Deviation поддерживает несколько датчиков "
+"одного типа, но сохраняется только одно значение телеметрии. Сообщается о "
+"последнем значении, полученном от всех датчиков одного типа."
 
 #: ../../source/ch_protocols.rst:269
 msgid "*Telemetry test page*"
-msgstr ""
+msgstr "*Страница телеметрии*"
 
 #: ../../source/ch_protocols.rst:275
 msgid "The CELL voltages are labeled C1-C5."
-msgstr ""
+msgstr "Напряжения банок помечены C1-C5."
 
 #: ../../source/ch_protocols.rst:278
 msgid ""
 "The following tables show the layout of the telemetry test page display."
-msgstr ""
+msgstr "Следующие таблицы показывают схему страницы телеметрии."
 
 #: ../../source/ch_protocols.rst:283
 msgid "Devo10"
-msgstr ""
+msgstr "Devo10"
 
 #: ../../source/ch_protocols.rst:285 ../../source/ch_protocols.rst:303
 msgid "Misc"
-msgstr ""
+msgstr "Разное"
 
 #: ../../source/ch_protocols.rst:285 ../../source/ch_protocols.rst:303
 msgid "Bat"
-msgstr ""
+msgstr "Батарея"
 
 #: ../../source/ch_protocols.rst:285
 msgid "Cells"
-msgstr ""
+msgstr "Банки"
 
 #: ../../source/ch_protocols.rst:287 ../../source/ch_protocols.rst:305
 msgid "RSSI"
-msgstr ""
+msgstr "RSSI"
 
 #: ../../source/ch_protocols.rst:287 ../../source/ch_protocols.rst:305
 msgid "VOLT1"
-msgstr ""
+msgstr "VOLT1"
 
 #: ../../source/ch_protocols.rst:287
 msgid "CELL1"
-msgstr ""
+msgstr "CELL1"
 
 #: ../../source/ch_protocols.rst:288
 msgid "TEMP1"
-msgstr ""
+msgstr "TEMP1"
 
 #: ../../source/ch_protocols.rst:288 ../../source/ch_protocols.rst:306
 msgid "VOLT2"
-msgstr ""
+msgstr "VOLT2"
 
 #: ../../source/ch_protocols.rst:288
 msgid "CELL2"
-msgstr ""
+msgstr "CELL2"
 
 #: ../../source/ch_protocols.rst:289
 msgid "TEMP2"
-msgstr ""
+msgstr "TEMP2"
 
 #: ../../source/ch_protocols.rst:289
 msgid "VOLT3"
-msgstr ""
+msgstr "VOLT3"
 
 #: ../../source/ch_protocols.rst:289
 msgid "CELL3"
-msgstr ""
+msgstr "CELL3"
 
 #: ../../source/ch_protocols.rst:290
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #: ../../source/ch_protocols.rst:290
 msgid "MINCELL"
-msgstr ""
+msgstr "MINCELL"
 
 #: ../../source/ch_protocols.rst:290
 msgid "CELL4"
-msgstr ""
+msgstr "CELL4"
 
 #: ../../source/ch_protocols.rst:291
 msgid "FUEL"
-msgstr ""
+msgstr "FUEL"
 
 #: ../../source/ch_protocols.rst:291
 msgid "ALLCELL"
-msgstr ""
+msgstr "ALLCELL"
 
 #: ../../source/ch_protocols.rst:291
 msgid "CELL5"
-msgstr ""
+msgstr "CELL5"
 
 #: ../../source/ch_protocols.rst:292
 msgid "ALTITUDE"
-msgstr ""
+msgstr "ALTITUDE"
 
 #: ../../source/ch_protocols.rst:292
 msgid "VOLTA"
-msgstr ""
+msgstr "VOLTA"
 
 #: ../../source/ch_protocols.rst:292
 msgid "CELL6"
-msgstr ""
+msgstr "CELL6"
 
 #: ../../source/ch_protocols.rst:293
 msgid "VARIO"
-msgstr ""
+msgstr "VARIO"
 
 #: ../../source/ch_protocols.rst:293
 msgid "CURRENT"
-msgstr ""
+msgstr "CURRENT"
 
 #: ../../source/ch_protocols.rst:293
 msgid "DISCHARGE"
-msgstr ""
+msgstr "DISCHARGE"
 
 #: ../../source/ch_protocols.rst:294 ../../source/ch_protocols.rst:305
 msgid "LQI"
-msgstr ""
+msgstr "LQI"
 
 #: ../../source/ch_protocols.rst:294 ../../source/ch_protocols.rst:306
 msgid "LRSSI"
-msgstr ""
+msgstr "LRSSI"
 
 #: ../../source/ch_protocols.rst:301
 msgid "Devo7e"
-msgstr ""
+msgstr "Devo7e"
 
 #: ../../source/ch_protocols.rst:303
 msgid "Signl"
-msgstr ""
+msgstr "Сигнал"
 
 #: ../../source/ch_protocols.rst:306
 msgid "\\"
@@ -993,6 +1017,8 @@ msgid ""
 "The ALTITUDE value is reported as Above Ground Level.  The ground level is "
 "set to the first altitude telemetry value received."
 msgstr ""
+"Значение ALTITUDE указано над уровнем земли. Уровень земли устанавливается в"
+" первое полученное значение высоты по телеметрии."
 
 #: ../../source/ch_protocols.rst:312
 msgid ""
@@ -1002,6 +1028,11 @@ msgid ""
 " LQI is better and values under 50 are typical.  The LRSSI units is "
 "(approximately) dBm."
 msgstr ""
+"LQI (индикатор качества сигнала) и LRSSI (Local RSSI) указывают качество и "
+"уровень сигнала телеметрии полученного от приемника. LQI может быть "
+"использован в качестве руководства для настройки опции протокола для точной "
+"подстройки частоты. Более низкий LQI является лучшим и обычно значение "
+"меньше 50. Единицы измерения LRSSI (примерно) dBm."
 
 #: ../../source/ch_protocols.rst:314
 msgid ""
@@ -1009,16 +1040,20 @@ msgid ""
 "total of all reported CELL values.  Discharge is total battery discharge "
 "amount in milliAmp-hours."
 msgstr ""
+"Производные значения: MINCELL - это минимальное значение CELL. ALLCELL - это"
+" сумма всех значений CELL. 'Discharge' - это величина разряда батареи в mAh."
 
 #: ../../source/ch_protocols.rst:320
 msgid "Protocol: \\*Skyartec"
-msgstr ""
+msgstr "Протокол: \\*Skyartec"
 
 #: ../../source/ch_protocols.rst:321
 msgid ""
 "The Skyartec protocol is used to control Skyartec™ receivers and models. "
 "|cc2500-note|"
 msgstr ""
+"Протокол Skyartec используется для управления приемниками и моделями "
+"Skyartec™. |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:325
 msgid ""
@@ -1026,10 +1061,14 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол Skyartec поддерживает до 7 каналов, и не поддерживает "
+"автоматическую привязку.  Если 'Fixed ID' установлен в 'None', вместо него "
+"используется идентификатор передатчика. Перед первым использованием "
+"необходимо вручную привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:328
 msgid "Protocol: \\*Futaba S-FHSS"
-msgstr ""
+msgstr "Протокол: \\*Futaba S-FHSS"
 
 #: ../../source/ch_protocols.rst:329
 msgid ""
@@ -1037,6 +1076,9 @@ msgid ""
 "It also used by some models of XK Innovations and has third party compatible"
 " receivers available. |cc2500-note|"
 msgstr ""
+"Протокол Futaba S-FHSS используется для управления приемниками и моделями "
+"Futaba™. Он также используется некоторыми моделями 'XK Innovations' и "
+"сторонними совместимыми приемниками. |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:333
 msgid ""
@@ -1044,6 +1086,10 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол S-FHSS поддерживает до 8 каналов, и поддерживает только "
+"автоматическую привязку.  Если 'Fixed ID' установлен в 'None', вместо него "
+"используется идентификатор передатчика. Перед первым использованием "
+"необходимо вручную привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:335
 msgid ""
@@ -1051,6 +1097,9 @@ msgid ""
 " Rudder, Gear, Pitch, Aux1, and Aux2. So it is suitable for control of "
 "Collective Pitch (CP) helicopters."
 msgstr ""
+"Традиционная схема каналов Futaba следующая: Aileron, Elevator, Throttle, "
+"Rudder, Gear, Pitch, Aux1 и Aux2. Таким образом, он подходит для управления "
+"вертолетами с коллективным шагом."
 
 #: ../../source/ch_protocols.rst:337
 msgid ""
@@ -1058,15 +1107,18 @@ msgid ""
 " is actually used (data by reverse engineering using third party equipment)."
 " Temporal resolution is 6.8ms. No telemetry supported."
 msgstr ""
+"Разрешение протокола составляет 1024 шага (10 бит), из которых фактически "
+"используется меньший диапазон (данные получены с использованием совместимого"
+" оборудования). Период обновления 6.8ms. Телеметрия не поддерживается."
 
 #: ../../source/ch_protocols.rst:340
 msgid "Protocol: \\*V202"
-msgstr ""
+msgstr "Протокол: \\*V202"
 
 #: ../../source/ch_protocols.rst:341
 msgid ""
 "The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|"
-msgstr ""
+msgstr "Протокол V202 поддерживает квадрокоптер WLToys V202. |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:345
 msgid ""
@@ -1074,69 +1126,79 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол V202 поддерживает до 11 каналов, и не поддерживает автоматическую "
+"привязку. Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:350
 msgid ""
 "The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control the quadracopter special functions:"
 msgstr ""
+"Первые 4 канала представляют Aileron, Elevator, Throttle и Rudder.  "
+"Дополнительные каналы управляют специальными функциями квадрокоптера:"
 
 #: ../../source/ch_protocols.rst:352
 msgid "Channel 5 controls the blink speed"
-msgstr ""
+msgstr "Канал 5 управляет скоростью мигания"
 
 #: ../../source/ch_protocols.rst:354
 msgid "Channel 7 takes still pictures"
-msgstr ""
+msgstr "Канал 7 снимает фотографии"
 
 #: ../../source/ch_protocols.rst:355
 msgid "Channel 8 turns video on/off"
-msgstr ""
+msgstr "Канал 8 включает/выключает видео"
 
 #: ../../source/ch_protocols.rst:356 ../../source/ch_protocols.rst:442
 #: ../../source/ch_protocols.rst:462 ../../source/ch_protocols.rst:480
 msgid "Channel 9 turns headless mode on/off"
-msgstr ""
+msgstr "Канал 9 включает/выключает режим 'headless'"
 
 #: ../../source/ch_protocols.rst:357
 msgid "Channel 10 causes the x axis to calibrate"
-msgstr ""
+msgstr "Канал 10 запускает калибровку оси X"
 
 #: ../../source/ch_protocols.rst:358
 msgid "Channel 11 causes the y axis to calibrate"
-msgstr ""
+msgstr "Канал 11 запускает калибровку оси Y"
 
 #: ../../source/ch_protocols.rst:360
 msgid "If JXD-506 format is selected, channels 10-12 are used for:"
-msgstr ""
+msgstr "Если выбран формат 'JXD-506', каналы 10-12 используются для:"
 
 #: ../../source/ch_protocols.rst:362
 msgid "Channel 10 start/stop"
-msgstr ""
+msgstr "Каналl 10 старт/стоп"
 
 #: ../../source/ch_protocols.rst:363
 msgid "Channel 11 emergency stop"
-msgstr ""
+msgstr "Канал 11 аварийная остановка"
 
 #: ../../source/ch_protocols.rst:364
 msgid "Channel 12 gimbal control"
-msgstr ""
+msgstr "Канал 12 управление подвесом"
 
 #: ../../source/ch_protocols.rst:366
 msgid ""
 "Also, models compatible with this format require the throttle stick to be "
 "centered before arming."
 msgstr ""
+"Также, модели совместимые с этим форматом, требуют, чтобы стик газа был "
+"отцентрован перед запуском."
 
 #: ../../source/ch_protocols.rst:369
 msgid "Protocol: \\*SLT"
-msgstr ""
+msgstr "Протокол: \\*SLT"
 
 #: ../../source/ch_protocols.rst:370
 msgid ""
 "The SLT protocol is used to control TacticSLT/Anylink receivers. "
 "|nrf24l01-note|"
 msgstr ""
+"Протокол SLT используется для управления приемниками Tactic SLT/Anylink. "
+"|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:374
 msgid ""
@@ -1144,6 +1206,9 @@ msgid ""
 "  The fixed ID can be used, but does not prevent auto-binding during power-"
 "on."
 msgstr ""
+"Протокол SLT поддерживает до 6 каналов, и поддерживает только автоматическую"
+" привязку. 'Fixed ID' может быть использован, но не мешает автоматической "
+"привязке при включении питания."
 
 #: ../../source/ch_protocols.rst:379
 msgid "Protocol: \\*HiSky"

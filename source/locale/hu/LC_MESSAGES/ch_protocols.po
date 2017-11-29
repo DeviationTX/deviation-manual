@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 19:37+0000\n"
+"POT-Creation-Date: 2017-11-28 22:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -1150,7 +1150,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:485
 msgid "Protocol: \\*CFlie"
-msgstr ""
+msgstr "\\*CFlie protokoll"
 
 #: ../../source/ch_protocols.rst:486
 msgid ""
@@ -1167,7 +1167,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:498
 msgid "Protocol: \\*H377"
-msgstr ""
+msgstr "\\*H377 protokoll"
 
 #: ../../source/ch_protocols.rst:499
 msgid ""
@@ -1184,7 +1184,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:511
 msgid "Protocol: \\*HM830"
-msgstr ""
+msgstr "\\*HM830 protokoll"
 
 #: ../../source/ch_protocols.rst:512
 msgid ""
@@ -1200,7 +1200,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:522
 msgid "Protocol: \\*KN"
-msgstr ""
+msgstr "\\*KN protokoll"
 
 #: ../../source/ch_protocols.rst:523
 msgid ""
@@ -1228,7 +1228,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:542
 msgid "Protocol: \\*ESky150"
-msgstr ""
+msgstr "\\*ESky150 protokoll"
 
 #: ../../source/ch_protocols.rst:543
 msgid ""
@@ -1259,7 +1259,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:563
 msgid "Protocol: \\*Esky"
-msgstr ""
+msgstr "\\*ESky protokoll"
 
 #: ../../source/ch_protocols.rst:564
 msgid "Needs to be completed. |nrf24l01-note|"
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:574
 msgid "Protocol: \\*BlueFly"
-msgstr ""
+msgstr "\\*BlueFly protokoll"
 
 #: ../../source/ch_protocols.rst:575
 msgid ""
@@ -1291,7 +1291,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:586
 msgid "Protocol: \\*CX10"
-msgstr ""
+msgstr "\\*CX10 protokoll"
 
 #: ../../source/ch_protocols.rst:587
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
@@ -1326,7 +1326,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:606
 msgid "Protocol: \\*CG023"
-msgstr ""
+msgstr "\\*CG023 protokoll"
 
 #: ../../source/ch_protocols.rst:607
 msgid ""
@@ -1373,7 +1373,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:630
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "\\*H8_3D protokoll"
 
 #: ../../source/ch_protocols.rst:631
 msgid ""
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:660
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "\\*MJXq protokoll"
 
 #: ../../source/ch_protocols.rst:661
 msgid ""
@@ -1437,7 +1437,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:688
 msgid "Protocol: PPM"
-msgstr ""
+msgstr "PPM protokoll"
 
 #: ../../source/ch_protocols.rst:689
 msgid ""
@@ -1484,7 +1484,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:712
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "USBHID protokoll"
 
 #: ../../source/ch_protocols.rst:713
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 19:37+0000\n"
+"POT-Creation-Date: 2017-11-28 22:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:622
 msgid "Creating Objects"
-msgstr ""
+msgstr "Objektumok létrehozása"
 
 #: ../../source/ch_model.rst:628
 msgid ""
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:639
 msgid "Loading Objects"
-msgstr ""
+msgstr "Objektumok betöltése"
 
 #: ../../source/ch_model.rst:646
 msgid ""
@@ -1431,7 +1431,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring Objects"
-msgstr ""
+msgstr "Objektumok konfigurálása"
 
 #: ../../source/ch_model.rst:661
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
@@ -1494,7 +1494,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:692
 msgid "Standard GUI Menu items"
-msgstr ""
+msgstr "Szokásos menü elemei"
 
 #: ../../source/ch_model.rst:699
 msgid ""
@@ -1643,7 +1643,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:765
 msgid "Servo Reverse"
-msgstr ""
+msgstr "Szervó invertálás"
 
 #: ../../source/ch_model.rst:770
 msgid ""
@@ -1668,7 +1668,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:785
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "Sub-trim beállítás"
 
 #: ../../source/ch_model.rst:790
 msgid ""
@@ -1681,7 +1681,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:795
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "Szervó út állítás"
 
 #: ../../source/ch_model.rst:800
 msgid ""
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:805
 msgid "Swash Configuration"
-msgstr ""
+msgstr "Imbolygó konfiguráció"
 
 #: ../../source/ch_model.rst:807
 msgid ""
@@ -1707,7 +1707,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:816
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "A választható imbolygó típusok a következők:"
 
 #: ../../source/ch_model.rst:818
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
@@ -1740,7 +1740,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
-msgstr ""
+msgstr "Gáz görbe"
 
 #: ../../source/ch_model.rst:835
 msgid ""
@@ -1752,7 +1752,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
-msgstr ""
+msgstr "Állásszög görbe"
 
 #: ../../source/ch_model.rst:845
 msgid ""
@@ -1764,7 +1764,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "Giró érzékenység"
 
 #: ../../source/ch_model.rst:855
 msgid ""
@@ -1775,7 +1775,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
-msgstr ""
+msgstr "Kapcsoló összerendelés"
 
 #: ../../source/ch_model.rst:865
 msgid ""
@@ -1786,7 +1786,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
-msgstr ""
+msgstr "Gáz kapcsoló"
 
 #: ../../source/ch_model.rst:875
 msgid ""
@@ -1797,7 +1797,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "Hibaérték konfiguráció"
 
 #: ../../source/ch_model.rst:885
 msgid ""
