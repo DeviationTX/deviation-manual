@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 22:43+0000\n"
+"POT-Creation-Date: 2017-11-29 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: vladislavy <vladislavy@rambler.ru>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -1212,13 +1212,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:379
 msgid "Protocol: \\*HiSky"
-msgstr ""
+msgstr "Протокол: \\*HiSky"
 
 #: ../../source/ch_protocols.rst:380
 msgid ""
 "The HiSky protocol is used to control HiSky brand models along with the "
 "WLToys v922 v955 models. |nrf24l01-note|"
 msgstr ""
+"Протокол HiSky используется для управления моделями HiSky и моделями WLToys "
+"v922 v955. |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:384
 msgid ""
@@ -1226,10 +1228,14 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол HiSky поддерживает до 7 каналов, и не поддерживает автоматической "
+"привязки. Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:391
 msgid "Protocol: \\*YD717"
-msgstr ""
+msgstr "Протокол: \\*YD717"
 
 #: ../../source/ch_protocols.rst:392
 msgid ""
@@ -1238,17 +1244,24 @@ msgid ""
 "protocol options. See the Supported Modules spreadsheet for a complete list."
 " |nrf24l01-note|"
 msgstr ""
+"Протокол YD717 поддерживает мини квадрокоптеры YD717 и Skybotz UFO, а также "
+"несколько моделей от Sky Walker, XinXun, Ni Hui и Syma через опции "
+"протокола. Смотрите таблицу поддерживаемых моделей для полного списка. "
+"|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:396
 msgid ""
 "The YD717 protocol supports 9 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
 msgstr ""
+"Протокол YD717 поддерживает 9 каналов и только автоматическую привязку. "
+"Протокол остается в режиме привязки до ее успешного завершения."
 
 #: ../../source/ch_protocols.rst:398 ../../source/ch_protocols.rst:418
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder."
 msgstr ""
+"Первые четыре канала представляют Aileron, Elevator, Throttle и Rudder."
 
 #: ../../source/ch_protocols.rst:400
 msgid ""
@@ -1259,30 +1272,42 @@ msgid ""
 "direction initiates a flip in that direction. The YD717 requires at least "
 "four seconds between each auto-flip."
 msgstr ""
+"Пятый канал позволяет использовать функцию автофлип, когда он больше нуля. "
+"Кроме того, чтобы включить автофлип влево и вправо, масштаб канала элеронов "
+"должен быть 87 или больше. Аналогично для канала руля высоты и автофлипа "
+"вперед/назад. Когда автофлип включен, полное перемещение стика в любом "
+"направлении запускает автофлип в этом направлении. YD717 требует не менее "
+"четырех секунд между каждым автофлипом."
 
 #: ../../source/ch_protocols.rst:402
 msgid "The sixth channel turns on lights when greater than zero."
-msgstr ""
+msgstr "Шестой канал включает подсветку, когда он больше нуля."
 
 #: ../../source/ch_protocols.rst:404
 msgid ""
 "The seventh channel takes a picture on transition from negative to positive."
 msgstr ""
+"Седьмой канал выполняет снимок при переходе от отрицательного в "
+"положительное значение."
 
 #: ../../source/ch_protocols.rst:406 ../../source/ch_protocols.rst:426
 msgid ""
 "The eighth channel starts/stops video recording on each positive transition."
 msgstr ""
+"Восьмой канал запускает/останавливает запись видео при каждом переходе в "
+"положительное значение."
 
 #: ../../source/ch_protocols.rst:408
 msgid ""
 "The ninth channel is assigned to last feature flag available in the "
 "protocol.  This may control headless mode on models that have the feature."
 msgstr ""
+"Девятый канал на последнюю функцию доступную в протоколе. Это может "
+"управлять режимом 'headless' в моделях, которые имеют такую функцию."
 
 #: ../../source/ch_protocols.rst:411
 msgid "Protocol: \\*SymaX"
-msgstr ""
+msgstr "Протокол: \\*SymaX"
 
 #: ../../source/ch_protocols.rst:412
 msgid ""
@@ -1292,29 +1317,38 @@ msgid ""
 "SymaX4 option in the YD717 protocol. ) See the Supported Modules spreadsheet"
 " for a complete list. |nrf24l01p-note|"
 msgstr ""
+"Этот протокол используется для моделей Syma: X5C-1, X11, X11C, X12, новый X4"
+" и новый X6. Вариант, поддерживающий оригинальные X5C и X2, включен в опции "
+"протокола  (Syma X3, старый X4 и старый X6 поддерживаются с опцией SymaX4 в "
+"протоколе YD717). Смотрите таблицу поддерживаемых моделей для полного "
+"списка. |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:416
 msgid "The SymaX protocol supports 9 channels and only supports auto-binding."
 msgstr ""
+"Протокол SymaX поддерживает 9 каналов и поддерживает только автоматическую "
+"привязку."
 
 #: ../../source/ch_protocols.rst:420
 msgid "The fifth channel is unused."
-msgstr ""
+msgstr "Пятый канал не используется."
 
 #: ../../source/ch_protocols.rst:422
 msgid ""
 "The sixth channel enables the auto-flip function when greater than zero."
-msgstr ""
+msgstr "Шестой канал включает функцию автофлип, когда он больше нуля."
 
 #: ../../source/ch_protocols.rst:424
 msgid ""
 "The seventh channel takes a picture when the channel moves from negative to "
 "positive."
 msgstr ""
+"Седьмой канал выполняет снимок при переходе от отрицательного в "
+"положительное значение."
 
 #: ../../source/ch_protocols.rst:428
 msgid "The ninth channel enables headless mode when positive."
-msgstr ""
+msgstr "Девятый канал включает режим 'headless', когда он больше нуля."
 
 #: ../../source/ch_protocols.rst:431
 msgid "Protocol: \\*Hontai"
