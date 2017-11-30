@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 19:37+0000\n"
+"POT-Creation-Date: 2017-11-29 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -112,6 +112,9 @@ msgid ""
 "tweaked by modifying the following values in the corresponding channel "
 "section in `model.ini`::"
 msgstr ""
+"Par défaut, les valeurs de sortie des canaux affichées sont  `[-100, 100]%`."
+" Ces valeurs peuvent être ajustées en modifiant les valeurs suivantes dans "
+"la section du canal correspondant dans `model.ini`::"
 
 #: ../../source/ch_mainpage.rst:39
 msgid ""
@@ -119,17 +122,23 @@ msgid ""
 "10000]`. The displayed text is generated via `sprintf(s, display_format, "
 "raw/display_scale)`"
 msgstr ""
+"Avant d'être affichées, les sorties ont des valeurs brutes dans l'intervalle"
+" `[-10000, 10000]`. Le texte affiché est généré par  `sprintf(s, "
+"display_format, raw/display_scale)`"
 
 #: ../../source/ch_mainpage.rst:41
 msgid ""
 "If `display-scale` is omitted, the default value of `100` will be used."
 msgstr ""
+"Si `display-scale`  est omis, la valeur par défaut '100' sera utilisée."
 
 #: ../../source/ch_mainpage.rst:43
 msgid ""
 "If `display-format` is omitted, the default value of `%3d%%` will be used. "
 "See Wikipedia_ for more details on the format string."
 msgstr ""
+"si  `display-format`  est omis, la valeur par défaut '%3d%%' sera utilisé. "
+"Voir Wikipedia_ pour plus de détails sur le format de chaine."
 
 #: ../../source/ch_mainpage.rst:50
 msgid "Safety System"
