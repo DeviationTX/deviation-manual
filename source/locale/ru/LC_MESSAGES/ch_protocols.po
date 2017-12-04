@@ -1352,16 +1352,16 @@ msgstr "Девятый канал включает режим 'headless', ког
 
 #: ../../source/ch_protocols.rst:431
 msgid "Protocol: \\*Hontai"
-msgstr ""
+msgstr "Протокол: \\*Hontai"
 
 #: ../../source/ch_protocols.rst:432
 msgid "This protocol is used on Hontai models F801 and F803."
-msgstr ""
+msgstr "Этот протокол используется в моделях Hontai F801 и F803."
 
 #: ../../source/ch_protocols.rst:434 ../../source/ch_protocols.rst:454
 #: ../../source/ch_protocols.rst:472
 msgid "|nrf24l01p-note| |mod-install-link|"
-msgstr ""
+msgstr "|nrf24l01p-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:436 ../../source/ch_protocols.rst:456
 #: ../../source/ch_protocols.rst:474
@@ -1369,36 +1369,40 @@ msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control special functions:"
 msgstr ""
+"Первые четыре канала представляют Aileron, Elevator, Throttle и Rudder. "
+"Дополнительные каналы управляют специальными функциями:"
 
 #: ../../source/ch_protocols.rst:438 ../../source/ch_protocols.rst:476
 msgid "Channel 5 is unused"
-msgstr ""
+msgstr "Канал 5 не используется"
 
 #: ../../source/ch_protocols.rst:439 ../../source/ch_protocols.rst:459
 #: ../../source/ch_protocols.rst:477
 msgid "Channel 6 enables the flip function"
-msgstr ""
+msgstr "Канал 6 включает функцию 'flip'"
 
 #: ../../source/ch_protocols.rst:440
 msgid "Channel 7 takes a picture on positive transition through zero"
 msgstr ""
+"Канал 7 делает снимок при переходе в положительное значение через ноль"
 
 #: ../../source/ch_protocols.rst:441
 msgid "Channel 8 turns video on/off on positive transition"
 msgstr ""
+"Канал 8 включает/выключает видео при переходе в положительное значение"
 
 #: ../../source/ch_protocols.rst:443 ../../source/ch_protocols.rst:463
 #: ../../source/ch_protocols.rst:481
 msgid "Channel 10 engages the return-to-home feature"
-msgstr ""
+msgstr "Канал 10 включает функцию возврата домой"
 
 #: ../../source/ch_protocols.rst:444 ../../source/ch_protocols.rst:482
 msgid "Channel 11 initiates calibration"
-msgstr ""
+msgstr "Канал 11 запускает калибровку"
 
 #: ../../source/ch_protocols.rst:447
 msgid "Protocol: \\*Bayang"
-msgstr ""
+msgstr "Протокол: \\*Bayang"
 
 #: ../../source/ch_protocols.rst:448
 msgid ""
@@ -1406,61 +1410,69 @@ msgid ""
 "JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and"
 " H606 (regular format)."
 msgstr ""
+"Этот протокол используется в BayangToys X6, X7, X8, X9, X16, Boldclash B03, "
+"JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601 и "
+"H606 (обычный формат)."
 
 #: ../../source/ch_protocols.rst:450
 msgid ""
 "This protocol is used on BayangToys X16 with altitude hold (X16-AH format)."
 msgstr ""
+"Этот проткол используется в BayangToys X16 с удержанием высоты (формат "
+"X16-AH)."
 
 #: ../../source/ch_protocols.rst:452
 msgid "This protocol is used on IRDRONE Ghost X5 (IRDRONE format)."
-msgstr ""
+msgstr "Этот проткол используется в IRDRONE Ghost X5 (формат IRDRONE)."
 
 #: ../../source/ch_protocols.rst:458
 msgid "Channel 5 activates LEDs or inverted flight (Floureon H101)"
-msgstr ""
+msgstr "Канал 5 активирует светодиоды или перевернутый полет (Floureon H101)"
 
 #: ../../source/ch_protocols.rst:460
 msgid "Channel 7 captures single photo on positive transition"
-msgstr ""
+msgstr "Канал 7 выполняет снимок при переходе в положительное значение"
 
 #: ../../source/ch_protocols.rst:461
 msgid "Channel 8 starts/stops video recording on positive transition"
 msgstr ""
+"Канал 8 включает/выключает видео при переходе в положительное значение"
 
 #: ../../source/ch_protocols.rst:464
 msgid "Channel 11 enables Take Off/Landing"
-msgstr ""
+msgstr "Канал 11 включает взлет/приземление (Take Off/Landing)"
 
 #: ../../source/ch_protocols.rst:465
 msgid "Channel 12 activates emergency stop"
-msgstr ""
+msgstr "Канал 12 активирует аварийную остановку (emergency stop)"
 
 #: ../../source/ch_protocols.rst:469
 msgid "Protocol: \\*FY326"
-msgstr ""
+msgstr "Протокол: \\*FY326"
 
 #: ../../source/ch_protocols.rst:470
 msgid "This protocol is used on FY326 red board."
-msgstr ""
+msgstr "Этот протокол используется в FY326 (красная плата)."
 
 #: ../../source/ch_protocols.rst:478
 msgid "Channel 7 is unused"
-msgstr ""
+msgstr "Канал 7 не используется"
 
 #: ../../source/ch_protocols.rst:479
 msgid "Channel 8 is unused"
-msgstr ""
+msgstr "Канал 8 не используется"
 
 #: ../../source/ch_protocols.rst:485
 msgid "Protocol: \\*CFlie"
-msgstr ""
+msgstr "Протокол: \\*CFlie"
 
 #: ../../source/ch_protocols.rst:486
 msgid ""
 "The CFlie protocol is used on the CrazyFlie nano quad. It has not been "
 "tested with any other models. |nrf24l01p-note|"
 msgstr ""
+"Протокол CFlie используется в квадрокоптере CrazyFlie. Он не тестировался в "
+"любыми другими моделями. |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:491
 msgid ""
@@ -1468,16 +1480,22 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол CFlie поддерживает до 4 каналов, и не поддерживает автоматической "
+"привязки. Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:498
 msgid "Protocol: \\*H377"
-msgstr ""
+msgstr "Протокол: \\*H377"
 
 #: ../../source/ch_protocols.rst:499
 msgid ""
 "The H377 protocol supports the NiHui H377 6 channel helicopter. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
+"Протокол H377 поддерживает 6 канальный вертолет NiHui H377. Он не "
+"тестировался с другими моделями. |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:504
 msgid ""
@@ -1485,22 +1503,31 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Протокол H377 поддерживает до 7 каналов, и не поддерживает автоматической "
+"привязки. Если 'Fixed ID' установлен в 'None', вместо него используется "
+"идентификатор передатчика. Перед первым использованием необходимо вручную "
+"привязать каждый приемник."
 
 #: ../../source/ch_protocols.rst:511
 msgid "Protocol: \\*HM830"
-msgstr ""
+msgstr "Проткол: \\*HM830"
 
 #: ../../source/ch_protocols.rst:512
 msgid ""
 "The HM830 protocol supports the HM830 Folding A4 Paper airplane. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
+"Протокол HM830 поддерживает самолет HM830 Folding A4 Paper. Он не "
+"тестировался с другими моделями. |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:517
 msgid ""
 "The HM830 protocol supports 5 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
 msgstr ""
+"Протокол HM830 поддерживает 5 каналов, и поддерживает только автоматическую "
+"привязку. Протокол остается в режиме привязки до успешного завершения "
+"привязки."
 
 #: ../../source/ch_protocols.rst:522
 msgid "Protocol: \\*KN"
