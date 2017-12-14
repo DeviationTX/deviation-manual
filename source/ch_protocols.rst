@@ -261,7 +261,7 @@ The following protocol options are available.
 
 For channels with failsafe set to off, the default Failsafe protocol option "Hold" commands the receiver to hold the last received channel values when the receiver enters failsafe mode.  The "NoPulse" setting causes the receiver to not send any signal on PPM outputs (Testing on X8R showed SBUS values went to minimum, but SBUS behavior is not specified by the protocol).  The "RX" setting prevents Deviation from sending failsafe settings so the receiver will use whatever failsafe values have been stored in the receiver.
 
-When S.Port Out enabled and PPMIn is not used, received S.Port packets are sent out the trainer port.  The bit rate is 57600 for compatibility with S.Port decoders, but the signal must be inverted to connect to a standard decoder.  It can be connected directly to the input of a 3.3V ftdi adapter.
+When S.Port Out is enabled and PPMIn is not used, received S.Port packets are sent out the trainer port.  The bit rate is 57600 for compatibility with S.Port decoders, but the signal must be inverted to connect to a standard decoder.  It can be connected directly to the input of a 3.3V ftdi adapter.
 
 
 *Frsky and FrskyX Extended Telemetry*
