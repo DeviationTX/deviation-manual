@@ -10,21 +10,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-18 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
+"Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/ch_mainpage.rst:6
 msgid "Main Page"
-msgstr "Page principale"
+msgstr ""
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr "L'agencement standard de la page principale est le suivant :"
+msgstr ""
 
 #: ../../source/ch_mainpage.rst:14
 msgid ""
@@ -32,33 +31,24 @@ msgid ""
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
 msgstr ""
-"**Modèle courant** : Nom du modèle en cours d'utilisation. Cliquer sur le "
-"nom pour accéder à la page de chargement des modèles. Le modèle est "
-"configuré à la section :ref:`Config modèle`."
 
 #: ../../source/ch_mainpage.rst:16
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
 msgstr ""
-"**Tension de la Batterie** : Tension  présente en chiffres de la batterie de"
-" l'émetteur."
 
 #: ../../source/ch_mainpage.rst:18
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
 msgstr ""
-"**Puissance d'émission** : Indique la puissance de l'émetteur actuellement "
-"sélectionnée. Elle est fixée dans la page :ref:`Config modèle`."
 
 #: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
 msgstr ""
-"**Heure actuelle** : Ceci indique l'heure présente (sur le Devo 12 "
-"uniquement). L'heure est mise à jour dans la page  :ref:`Config Emetteur`."
 
 #: ../../source/ch_mainpage.rst:22
 msgid ""
@@ -66,25 +56,18 @@ msgid ""
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
 "page."
 msgstr ""
-"**Icône du modèle**: C'est une image représentant le modèle en cours. Il est"
-" configuré dans la section :ref:`Config Modèle`. Presser sur l'icône vous "
-"dirigera sur cette page."
 
 #: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
 msgstr ""
-"**Icône du modèle**: C'est une image représentant le modèle en cours. Il est"
-" configuré dans la section :ref:`Config Modèle`. "
 
 #: ../../source/ch_mainpage.rst:27
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
 msgstr ""
-"**Trims**: l'affichage des trims peut être configuré pour afficher jusqu'à "
-"10 trims horizontaux et verticaux différents."
 
 #: ../../source/ch_mainpage.rst:29
 msgid ""
@@ -92,19 +75,12 @@ msgid ""
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
 "toggles displaying specific states (ex. gear, flaps,…)."
 msgstr ""
-"**Affichages**: Ces éléments peuvent être des boites de texte contenant des "
-"entrées, des canaux, de la télémétrie ou des chronos ; des barres graphiques"
-" affichant les données des canaux ; ou des icônes alternatifs affichant des "
-"états différents ( trains, volets,...)"
 
 #: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
 msgstr ""
-"**Menus rapides** : Les menus rapides sont activés par un appui long sur les"
-" boutons UP/DN. Ils sont définis dans la secton :ref:Configuration de la "
-"page Principale`."
 
 #: ../../source/ch_mainpage.rst:33
 msgid ""
@@ -112,9 +88,6 @@ msgid ""
 "tweaked by modifying the following values in the corresponding channel "
 "section in `model.ini`::"
 msgstr ""
-"Par défaut, les valeurs de sortie des canaux affichées sont  `[-100, 100]%`."
-" Ces valeurs peuvent être ajustées en modifiant les valeurs suivantes dans "
-"la section du canal correspondant dans `model.ini`::"
 
 #: ../../source/ch_mainpage.rst:39
 msgid ""
@@ -122,27 +95,21 @@ msgid ""
 "10000]`. The displayed text is generated via `sprintf(s, display_format, "
 "raw/display_scale)`"
 msgstr ""
-"Avant d'être affichées, les sorties ont des valeurs brutes dans l'intervalle"
-" `[-10000, 10000]`. Le texte affiché est généré par  `sprintf(s, "
-"display_format, raw/display_scale)`"
 
 #: ../../source/ch_mainpage.rst:41
 msgid ""
 "If `display-scale` is omitted, the default value of `100` will be used."
 msgstr ""
-"Si `display-scale`  est omis, la valeur par défaut '100' sera utilisée."
 
 #: ../../source/ch_mainpage.rst:43
 msgid ""
 "If `display-format` is omitted, the default value of `%3d%%` will be used. "
 "See Wikipedia_ for more details on the format string."
 msgstr ""
-"si  `display-format`  est omis, la valeur par défaut '%3d%%' sera utilisé. "
-"Voir Wikipedia_ pour plus de détails sur le format de chaine."
 
 #: ../../source/ch_mainpage.rst:50
 msgid "Safety System"
-msgstr "Système de sécurité"
+msgstr ""
 
 #: ../../source/ch_mainpage.rst:55
 msgid ""
@@ -160,17 +127,12 @@ msgid ""
 " case, Deviation will start communication with the model once the dialog is "
 "dismissed."
 msgstr ""
-"Déviation possède un système de sécurité pour empêcher un démarrage dans un état dangereux (par exemple lancer accidentellement la rotation du rotor principal d'un hélicoptère). \n"
-"Le système de sécurité fonctionne en vérifiant que certaines conditions sont remplies avant d'autoriser le démarrage de la transmission au modèle. Par défaut le canal associé à la commande des gaz doit être au minimum. Le micrologiciel Deviation ne possède pas de dispositif pemettant de définir d'autres conditions de sécurité, mais elles peuvent être ajoutées en modifiant directement le fichier \"model.ini\". \n"
-"A noter que l'émetteur ne communiquera pas avec le modèle tant que le message de sécurité sera affiché. Ce message apparaît lors de l'allumage de l'émetteur, ainsi qu'en passant d'un modèle à un autre. Le message disparaît automatiquement dès que la condition de sécurité est satisfaite ou lorsque l'utilisateur a appuyé sur 'OK'. Dans les deux cas, Deviation ne commencera à communiquer avec le modèle qu'après la disparition du message."
 
 #: ../../source/ch_mainpage.rst:58
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
 msgstr ""
-"Les valeurs de sécurité sont dans la section  '[safety]' et les valeurs par "
-"défaut sont :"
 
 #: ../../source/ch_mainpage.rst:64
 msgid ""
@@ -181,10 +143,3 @@ msgid ""
 "value can also be 'max' or 'zero', to test that the channel or stick is at "
 "the maximum value and 0."
 msgstr ""
-"La valeur 'Auto' peut également être n'importe quel canal ou entrée, 'Ch1', "
-"etc. Auto essaie de deviner quel est le numéro du canal des gaz. Si cela ne "
-"fonctionne pas et si vous rencontrez une alerte non désirée, le changement "
-"pour 'Ch1' (Protocoles DSMx) ou 'Ch3' (la plupart des autres protocoles) "
-"règlera le problème. La valeur 'min' peut également être remplacée par 'max'"
-" ou 'zero' pour tester que le canal ou le manche soit respectivement à la "
-"valeur maximum ou à 0."

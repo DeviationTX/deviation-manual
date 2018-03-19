@@ -10,17 +10,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-18 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: TheRealMoeder, 2017\n"
-"Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
+"Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/ch_overview.rst:2
 msgid "Overview"
-msgstr "Einführung"
+msgstr ""
 
 #: ../../source/ch_overview.rst:4
 msgid ""
@@ -30,11 +29,6 @@ msgid ""
 "firmware is the mixer system, which is modeled after the system used in the "
 "Er9X firmware for the Turnigy/Flysky9x™ transmitters."
 msgstr ""
-"Deviation ist eine alternative Firmware für die Walkera Devention™ (Devo) "
-"Senderserie. Das Hauptziel ist, Support für verschiedene Protokolle "
-"hinzuzufügen, um das ganze Potential dieser Plattform zu erschließen. Der "
-"Kern der Deviation Firmware ist ein Mischersystem, welches dem der Er9X "
-"Firmware für Turnigy/Flysky9x™ Sender nachempfunden wurde."
 
 #: ../../source/ch_overview.rst:6
 msgid ""
@@ -42,9 +36,6 @@ msgid ""
 "transmitter from any PC without the need for specialized upload/download "
 "tools."
 msgstr ""
-"Deviation enthält auch einen USB Dateisystem, wodurch es einfach ist, den "
-"Sender von jedem PC aus zu verwalten ohne eine spezielle Software zu "
-"benötigen."
 
 #: ../../source/ch_overview.rst:8
 msgid ""
@@ -56,38 +47,28 @@ msgid ""
 " mix of inputs, switches, channel data, or timers can be displayed, and "
 "configured per-model."
 msgstr ""
-"Das Design von Deviation ist auf maximale Konfigurierbarkeit ausgelegt. Alle"
-" Modell- und Senderkonfigurationen werden über Textdateien gesteuert, welche"
-" von der Firmware (oder dem Benutzer) gelesen und geschrieben werden können."
-" Dadurch ist zum einen nachvollziehbar, was konfiguriert wurde und zum "
-"anderen ist die Konfiguration am Sender oder per Texteditor änderbar. Der "
-"Hauptbildschirm ist frei anpassbar, jede Kombination von Eingaben, "
-"Schaltern, Kanaldaten, oder Timern kann angezeigt und für jedes Modell "
-"individuell konfiguriert werden."
 
 #: ../../source/ch_overview.rst:10
 msgid ""
 "Deviation supports multiple protocols without any modifications to the "
 "transmitter:"
 msgstr ""
-"Deviation unterstützt bereits ohne irgendeine Änderung am Sender viele "
-"Protokolle:"
 
 #: ../../source/ch_overview.rst:12
 msgid "Walkera Devo 6/7/8/10/12"
-msgstr "Walkera Devo 6/7/8/10/12"
+msgstr ""
 
 #: ../../source/ch_overview.rst:13
 msgid "Walkera WK2401 / WK2601 / WK2801"
-msgstr "Walkera WK2401 / WK2601 / WK2801"
+msgstr ""
 
 #: ../../source/ch_overview.rst:14
 msgid "DSM2 / DSMX"
-msgstr "DSM2 / DSMX"
+msgstr ""
 
 #: ../../source/ch_overview.rst:15
 msgid "Nine Eagles J6 Pro (requires telemetry module)"
-msgstr "Nine Eagles J6 Pro (erfordert ein Telemetriemodul)"
+msgstr ""
 
 #: ../../source/ch_overview.rst:17
 msgid ""
@@ -95,47 +76,38 @@ msgid ""
 "modifications (appropriate transceiver module needed). Among the more "
 "popular are:"
 msgstr ""
-"Deviation kann mit sehr einfachen Modifikationen am Sender (benötigt "
-"entsprechende Sendemodule) zahlreiche weitere Protokolle unterstützen. Zu "
-"den beliebtesten zählen:"
 
 #: ../../source/ch_overview.rst:21
 msgid "Flysky (also for WLToys V911, V9x9, and Xieda 9938)"
-msgstr "Flysky (auch für WLToys V911, V9x9, und Xieda 9938)"
+msgstr ""
 
 #: ../../source/ch_overview.rst:22
 msgid "Hubsan-X4 and Estes Proto X"
-msgstr "Hubsan-X4 und Estes Proto X"
+msgstr ""
 
 #: ../../source/ch_overview.rst:23
 msgid "V202"
-msgstr "V202"
+msgstr ""
 
 #: ../../source/ch_overview.rst:24
 msgid "SLT"
-msgstr "SLT"
+msgstr ""
 
 #: ../../source/ch_overview.rst:25
 msgid "FrSky"
-msgstr "FrSky"
+msgstr ""
 
 #: ../../source/ch_overview.rst:27
 msgid ""
 "Deviation supports (flight) simulators connected via DSC cable (PPM) or USB "
 "cable (USBHID). Deviation also allows Buddy-Box and FPV setups."
 msgstr ""
-"Deviation unterstützt (Flug-)Simulatoren, welche über DSC-Kabel (PPM) oder "
-"USB-Kabel (USBHID) angeschlossen werden. Deviation ermöglicht auch Lehrer-"
-"Schüler und FPV Konfigurationen."
 
 #: ../../source/ch_overview.rst:29
 msgid ""
 "Deviation can store up to 255 different models, and uses a portable syntax "
 "that allows sharing models between any transmitter supported by Deviation."
 msgstr ""
-"Deviation kann bis zu 255 verschiedene Modelle speichern und verwendet eine "
-"portable Syntax welche den Modellaustausch zwischen allen von Deviation "
-"unterstützten Sendern erlaubt."
 
 #: ../../source/ch_overview.rst:31
 msgid ""
@@ -144,15 +116,10 @@ msgid ""
 "Hungarian, Italian, Romanian, Russian and Chinese. New languages can be "
 "added by installing the proper translation file."
 msgstr ""
-"Deviation wurde internationalisiert und wird mit Übersetzungen für Englisch,"
-" Afrikaans, Traditionelles Chinesisch, Holländisch, Spanisch, Französisch, "
-"Deutsch, Ungarisch, Italienisch, Rumänisch, Russisch und Chinesisch "
-"geliefert. Neue Sprachen können durch Installation passender "
-"Übersetzungsdateien hinzugefügt werden."
 
 #: ../../source/ch_overview.rst:34
 msgid "Disclaimer"
-msgstr "Haftungsausschluss"
+msgstr ""
 
 #: ../../source/ch_overview.rst:36
 msgid ""
@@ -164,18 +131,10 @@ msgid ""
 "injury or damage whatsoever caused by the use of the Deviation firmware. Be "
 "careful and cautious."
 msgstr ""
-"Deviation ist experimentelle Software. Es gibt keine Garantie, weder "
-"explizit noch implizit, über die Qualität oder Zuverlässigkeit dieser "
-"Software. RC-Modelle können bei unsachgemäßer Handhabung schwere, womöglich "
-"sogar tödliche Verletzungen verursachen. Mit der Entscheidung die Deviation "
-"Software zu verwenden übernehmen Sie die alleinige Verantwortung über die "
-"Kontrolle Ihrer Modelle. Die Autoren von Deviation können nicht für "
-"Verletzungen, oder Schäden, welche durch die Verwendung von Deviation "
-"verursacht werden, haftbar gemacht werden. Seien Sie vorsichtig."
 
 #: ../../source/ch_overview.rst:39
 msgid "Notices"
-msgstr "Hinweise"
+msgstr ""
 
 #: ../../source/ch_overview.rst:41
 msgid ""
@@ -188,19 +147,10 @@ msgid ""
 "the hardware, firmware of Dfuse tool which would make it incompatible with "
 "Deviation."
 msgstr ""
-"Deviation ist eine unabhängige Arbeit. Das Deviation Projekt ist nicht mit "
-"Walkera® assoziiert, und wurde von Walkera® weder unterstützt noch "
-"autorisiert. Die Autoren waren weder in Kontakt mit Walkera noch kennen Sie "
-"deren Einstellung zu diesem Projekt. Das Deviation-Team übernimmt keine "
-"Garantie, dass die Deviation Firmware nicht Ihren Sender beschädigt (auch "
-"wenn dies nicht möglich sein dürfte). Es gibt auch keine Garantie, dass "
-"Walkera® in zukünftigen Versionen ihrer Hardware, Firmware oder Dfuse "
-"Software Änderungen vornimmt, welche zur Inkompatibilität mit Deviation "
-"führen."
 
 #: ../../source/ch_overview.rst:44
 msgid "Legal status and copyright"
-msgstr "Rechtsstatus und Urheberrecht"
+msgstr ""
 
 #: ../../source/ch_overview.rst:46
 msgid ""
@@ -210,8 +160,6 @@ msgid ""
 "any later version. You should have received a copy of the GNU General Public"
 " License along with Deviation. If not, see www.gnu.org/licenses."
 msgstr ""
-"Dieses Projekt ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren\n"
-"Version. Sie sollten eine Kopie der GNU General Public License mit Deviation erhalten haben. Falls nicht, ist diese unter www.gnu.org/licenses erhältlich. "
 
 #: ../../source/ch_overview.rst:53
 msgid ""
@@ -220,15 +168,9 @@ msgid ""
 "FOR A PARTICULAR PURPOSE. See the GNU General Public License for more "
 "details."
 msgstr ""
-"Die Veröffentlichung von Deviation erfolgt in der Hoffnung, dass es von "
-"Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite "
-"Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. "
-"Details finden Sie in der GNU General Public License."
 
 #: ../../source/ch_overview.rst:57
 msgid ""
 "The Deviation Project is hosted at www.deviationtx.com and the Source are "
 "available at https://github.com/DeviationTX/deviation."
 msgstr ""
-"Das Deviation Projekt wir unter www.deviationtx.com bereitgestellt und der "
-"Quelltext ist unter https://github.com/DeviationTX/deviation verfügbar."

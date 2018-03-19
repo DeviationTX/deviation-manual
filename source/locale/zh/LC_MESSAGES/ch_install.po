@@ -10,33 +10,30 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-18 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: TheRealMoeder, 2017\n"
-"Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
+"Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/ch_install.rst:2
 msgid "Installation"
-msgstr "Installation"
+msgstr ""
 
 #: ../../source/ch_install.rst:4
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
 msgstr ""
-"Windows™ Anwender können zwischen zwei Wegen zur Installation der Deviation "
-"Firmware wählen. "
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr "Verwendung des Deviation Uploader"
+msgstr ""
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
-msgstr "Verwendung des Walker DfuSe USB Upgrade tool (nur Windows™)"
+msgstr ""
 
 #: ../../source/ch_install.rst:9
 msgid ""
@@ -50,23 +47,12 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
-"Falls Sie kein Windows™ Betriebssystem verwenden, nutzen Sie die erste "
-"Möglichkeit, den Deviation Uploader. Es handelt sich um ein Java Programm, "
-"dass vom Deviation Entwicklerteam speziell entwickelt wurde, um effizient "
-"und einfach mit jedem Devo-Sender und jeder Deviation- oder sogar Devention-"
-"Firmware zu verwenden zu sein. Das Walkera-Tool verwendet zwei Schritte, in "
-"denen man zunächst die Firmware und dann die Dateisystem-Bibliothek "
-"installiert. Der Deviation Uploader kombinierte beides in einem einfachen "
-"und bequemen Schritt, in dem er die komprimierte ZIP-Datei der Deviation "
-"Firmware als Quelle verwendet."
 
 #: ../../source/ch_install.rst:11
 msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
 msgstr ""
-"Falls Ihr Sender ein DevoF7 oder F12E ist, **müssen** Sie den Deviation "
-"Uploader verwenden."
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -76,15 +62,10 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
-"Der Abschnitt :ref:`preparation` erläutert die Vorraussetzungen vor der "
-"eigentlichen Installation. Die folgenden zwei Abschnitte beinhalten die "
-"tatsächliche Installation in Abhängigkeit von der gewählten "
-"Installationsvariante. Abschließend finden sich noch weitere Informationen "
-"über das Aktualisieren der Installation sowie besondere Versionen. "
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr "Vorbereitung"
+msgstr ""
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -94,39 +75,28 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
-"Stellen Sie bitte zunächst sicher, dass Ihr Devo-Sender vor der Installation"
-" vollständig geladen ist. Laden this die deviation-devoXX-x.y.z.zip Firmware"
-" von http://deviationtx.com/downloads-new/category/1-deviation-releases "
-"wobei XX die Nummer Ihres Walkera Devo™-Senders ist und x.y.z. die "
-"Deviations Versionsnummer bezeichnet."
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
-msgstr "WARNUNG: Verwenden Sie NICHT das DfuSe tool von STMicroelectronics!"
+msgstr ""
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
-"Sie können das Walkera DfuSe USB Upgrade-Tool hier herunterladen: "
-"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
-"Der Deviation Uploader kann unter http://deviationtx.com/downloads-"
-"new/category/161-dfu-usb-tool heruntergeladen werden."
 
 #: ../../source/ch_install.rst:40
 msgid ""
 "If you are using Windows™, you need to install the appropriate USB drivers. "
 "See the section on :ref:`windows_drivers`"
 msgstr ""
-"Falls Sie Windows™ verwenden, müssen Sie zunächst die korrekten USB-Treiber "
-"installieren. Siehe hierzu den Abschnitt :ref:`windows_drivers`."
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -135,10 +105,6 @@ msgid ""
 "is recommended that you test the DFU tool by first upgrading your TX to a "
 "different version of Walkera firmware."
 msgstr ""
-"Entpacken Sie das Programm und installieren Sie es lokal. Falls Sie den "
-"Deviation Uploader verwenden, muss die zu installierende Firmware nicht "
-"entpackt werden.  Wir empfehlen, dass das DFU-Tool zunächst mittels "
-"Installation einer anderen Walkera Firmware getestet wird. "
 
 #: ../../source/ch_install.rst:46
 msgid ""
@@ -147,14 +113,10 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
-"Wenn Sie eine vorherigen Deviation Firmware aktualisieren, ist eine "
-"vorherige Sicherung des 'model'-Verzeichnisses sowie der Dateien 'tx.ini' "
-"und 'hardware.ini' zu empfehlen, um sicher zu stellen, dass diese bei der "
-"Installation nicht verloren gehen. "
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr "Windows™-Treiber Installation"
+msgstr ""
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -162,10 +124,6 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
-"Das Walkera DfuSe Tool und der Deviation Uploader verwenden unterschiedliche"
-" Treiber. Beide können über den Deviation USBDrv Installer, verfügbar unter "
-"http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool , "
-"installiert werden. "
 
 #: ../../source/ch_install.rst:63
 msgid ""
@@ -174,15 +132,10 @@ msgid ""
 "the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
 "driver. Install the driver for the Dfu tool you plan on using."
 msgstr ""
-"Entdecken Sie den Deviation USBDrv Installer und starten Sie 'DFU USBDrv "
-"Installer-x.y.exe'. Anschließend können beide Treiber deinstalliert und "
-"wahlweise der Deviation USB Treiber zur Verwendung mit dem Deviation "
-"Uploader oder der Walkera Treiber installiert werden. Installieren Sie den "
-"Treiber für das Installationstool, das Sie verwenden möchten."
 
 #: ../../source/ch_install.rst:70
 msgid "DFU Installation With Walkera DfuSe"
-msgstr "DFU Installation mit Walkera DfuSe"
+msgstr ""
 
 #: ../../source/ch_install.rst:72
 msgid ""
@@ -192,20 +145,12 @@ msgid ""
 " they cannot be accessed by Deviation, they will be safely preserved should "
 "the Walkera firmware ever need to be reinstalled"
 msgstr ""
-"Die Installation von Deviation mittels des Walkera DfuSe Tool erfolgt "
-"genauso wie die Aktualisierung der Walkera Devention Firmware. Deviation "
-"überschreibt NICHT die auf dem Sender gespeicherten Walkera Modelle. Auch "
-"wenn Deviation nicht auf diese zugreifen kann, bleiben sie auf dem Sender "
-"erhalten, sollte es jemals erforderlich sein wieder die Walkera Firmware zu "
-"installieren."
 
 #: ../../source/ch_install.rst:81
 msgid ""
 "NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
 "F7 firmware, the original models will be lost when switching to Deviation."
 msgstr ""
-"HINWEIS: Aufgrund von Speicherbeschränkungen von Devo7e, Devo F12E und Devo "
-"F7 gehen die originalen Modelle beim Wechsel zu Deviation verloren."
 
 #: ../../source/ch_install.rst:88
 msgid ""
@@ -214,10 +159,6 @@ msgid ""
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
 msgstr ""
-"Entdecken Sie die zuvor heruntergeladene Firmware. Schließen Sie den Sender "
-"via USB an Ihren PC an und drücken Sie beim Einschalten des Senders die "
-"'EXT' Taste, um den Sender im Programmiermodus zu starten. Bei der Devo12 "
-"wird anstelle dessen der Trainer-Schalter gehalten."
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -226,10 +167,6 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
-"Einige Benutzer hatten bei der Benutzung dieses Tools über "
-"Kompatibilitätsprobleme mit Windows™ und/oder den USB-Anschlüssen berichtet."
-" Wenn DfuSe Ihren Sender nicht erkennt, versuchen Sie alle USB-Geräte zu "
-"entfernen und Ihren PC, mit nur dem Sender angeschlossen, neu zu starten."
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -237,17 +174,12 @@ msgid ""
 "will be displayed under 'Available DFU Devices'. Otherwise this field will "
 "remain blank."
 msgstr ""
-"Wenn Ihr Sender richtig verbunden ist, wird unter 'Available DFU Devices'. "
-"ein 'STM Device in DFU Mode' angezeigt. Ansonsten bleibt dieses Feld leer."
 
 #: ../../source/ch_install.rst:96
 msgid ""
 "Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to "
 "install."
 msgstr ""
-"Drücken Sie den '...' Knopf und wählen Sie die deviation-devoXX-vx.y.z.dfu-"
-"Datei im Hauptverzeichnis der zuvor entpackten ZIP-Datei zur Installation "
-"aus."
 
 #: ../../source/ch_install.rst:97
 msgid ""
@@ -255,9 +187,6 @@ msgid ""
 "your transmitter is not detected.  **Do NOT use 'Upload' as this will "
 "destroy the dfu file on your PC.**"
 msgstr ""
-"Wählen Sie '**Upgrade**' um die Firmware zu installieren. Dieses Feld ist "
-"nicht anwählbar, falls Ihr Sender nicht erkannt wurde. **Wählen Sie NICHT "
-"'Upload', da dies die du-Datei auf Ihrem PC zerstört.**"
 
 #: ../../source/ch_install.rst:98
 msgid ""
@@ -265,9 +194,6 @@ msgid ""
 "devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to "
 "install the library."
 msgstr ""
-"**Nur Devo12**: Wählen Sie den 'Library' Reiter, drücken Sie den '...' Knopf"
-" und wählen Sie die devo12-lib.dfu aus der ZIP-Datei. Dann wählen Sie "
-"wiederum '**Upgrade**' um die Bibliothek zu installieren."
 
 #: ../../source/ch_install.rst:100
 msgid ""
@@ -276,14 +202,10 @@ msgid ""
 "the PC should prompt to format a drive. Format using default options. Next, "
 "upgrade the file system via USB."
 msgstr ""
-"Schalten Sie den Sender aus und dann mit gedrückter 'ENT'-Taste wieder ein. "
-"Es sollte das USB-Logo auf dem Display zu sehen sein. Wenn dies eine "
-"Erstinstallation von Deviation ist, sollte der PC Sie zum Formatieren eines "
-"Laufwerks auffordern. Formatieren Sie es mit den Voreinstellungen."
 
 #: ../../source/ch_install.rst:103
 msgid "Upgrading the file system via USB"
-msgstr "Aktualisierung des Dateisystems über USB"
+msgstr ""
 
 #: ../../source/ch_install.rst:107
 msgid ""
@@ -292,11 +214,6 @@ msgid ""
 "the 'Deviation Uploader' to manage files. If you enable it, all you can do "
 "is format the drive, which will destroy your installation."
 msgstr ""
-"Aktivieren Sie den USB Modus nicht auf einer Devo F7 oder F12E, da das "
-"Dateisystem nicht vom Rechner aus verfügbar ist, sondern über den 'File "
-"Manager' Reiter in Deviation Uploader verwaltet werden muss. Sollten Sie Ihn"
-" dennoch aktivieren, können Sie lediglich das Laufwerk formatieren, was Ihre"
-" Installation zerstören wird."
 
 #: ../../source/ch_install.rst:113
 msgid ""
@@ -305,11 +222,6 @@ msgid ""
 "drive. For details of the file-system please see :ref:`usb-file-system`. The"
 " files with the extension 'zip', and 'dfu' need not to be copied."
 msgstr ""
-"Öffnen Sie den ausgepackten Ordner und kopieren alle Dateien und "
-"Verzeichnisse in diesem Ordner auf das USB-Laufwerk des Senders direkt ins "
-"Hauptverzeichnis. Zu Details der Verzeichnisstruktur siehe Abschnitt :ref"
-":`usb-file-system`. Die Dateien mit der Endung '.zip' und '.dfu' müssen "
-"nicht mit kopiert werden."
 
 #: ../../source/ch_install.rst:121
 msgid ""
@@ -320,18 +232,10 @@ msgid ""
 "models have the latest options set. If the 'tx.ini' file is overwritten, the"
 " stick calibration must be repeated and any settings reset."
 msgstr ""
-"Wenn Sie von einer früheren Deviation Version aktualisieren, überschreiben "
-"Sie bitte nicht die Dateien 'tx.ini' und 'hardware.ini' oder das Verzeichnis"
-" 'models'. Optional können Sie das Verzeichnis 'models' mit Ausnahme der "
-"aktuell konfigurierten Modelle kopieren. Dieser letzte Schritt stellt "
-"sicher, dass neu erzeugte Modelle auch die neuesten Voreinstellungen gesetzt"
-" bekommen. Falls die 'tx.ini' überschrieben wurde, müssen Sie die "
-"Kalibrierung der Knüppel wiederholen und alle Sendereinstellungen neu "
-"vornehmen."
 
 #: ../../source/ch_install.rst:130
 msgid "DFU Installation with Deviation Uploader"
-msgstr "DFU Installation mit dem Deviation Uploader"
+msgstr ""
 
 #: ../../source/ch_install.rst:134
 msgid ""
@@ -340,10 +244,6 @@ msgid ""
 "GUI, using the Java application to open it. You will need to install Java "
 "from http://www.java.com/ if you haven't already installed it."
 msgstr ""
-"Der Deviation Uploader ist eine Java (jar) Datei. Sie können diese entweder "
-"mittels java.exe über die Kommandozeile starten oder mittels des Java-"
-"Programms über die grafische Oberfläche öffnen. Sie müssen Java zunächst von"
-" http://www.java.com/ installieren, falls dies noch nicht erfolgt ist."
 
 #: ../../source/ch_install.rst:138
 msgid ""
@@ -351,19 +251,12 @@ msgid ""
 "port, and then turn it on while holding down the 'EXT' button. On the Devo "
 "12, this is done by holding the trainer switch instead."
 msgstr ""
-"Nachdem Deviation Uploader gestartet wurde, verbinden Sie ihren Sender mit "
-"einem USB-Anschluss und schalten Ihn ein währen sie die 'EXT'-Taste gedrückt"
-" halten. An einer Devo12 müssen Sie hierzu stattdessen den Trainer-Schalter "
-"drücken."
 
 #: ../../source/ch_install.rst:142
 msgid ""
 "Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
 "port, and then turn it on while holding down the 'EXT' button."
 msgstr ""
-"Nachdem Deviation Uploader gestartet wurde, verbinden Sie ihren Sender mit "
-"einem USB-Anschluss und schalten Ihn ein währen sie die 'EXT'-Taste gedrückt"
-" halten."
 
 #: ../../source/ch_install.rst:145
 msgid ""
@@ -375,13 +268,6 @@ msgid ""
 "installation and try unplugging all other USB devices. Take the steps "
 "necessary to resolve any connection issues."
 msgstr ""
-"Wenn alles funktioniert, sollte im Feld 'Transmitter' der verbundene Sender "
-"angezeigt werden. Sollte ein falscher Sender angezeigt werden, versuchen Sie"
-" es erneut oder fragen im Forum nach Hilfe. Wenn keine Änderung angezeigt "
-"wird, prüfen Sie im Geräte-Manager ob das USB-Gerät aufgeführt wird. Falls "
-"unter Windows nur ein unbekanntes Gerät angezeigt wird, prüfen Sie erneut "
-"die Treiberinstallation und entfernen sicherheitshalber alle anderen USB "
-"Geräte."
 
 #: ../../source/ch_install.rst:153
 msgid ""
@@ -389,17 +275,12 @@ msgid ""
 "install. There is no need to unpack the zip file since the Deviation "
 "Uploader will handle that."
 msgstr ""
-"Drücken Sie den '...' Knopf und wählen Sie die ZIP-Datei der Firmware die "
-"Sie installieren möchten. Die Datei muss vorher nicht entpackt werden, da "
-"dies der Deviation Uploader für Sie erledigt."
 
 #: ../../source/ch_install.rst:154
 msgid ""
 "If this is an initial install, all the 'Replace' boxes, along with 'Format' "
 "will be preselected."
 msgstr ""
-"Im Falle einer Erstinstallation sind alle 'Replace' Kästchen und 'Format' "
-"vorausgewählt."
 
 #: ../../source/ch_install.rst:156
 msgid ""
@@ -407,9 +288,6 @@ msgid ""
 "will be preselected. On the Devo F7 and Devo F12E initial install, select "
 "the 'Format' check box if not already selected."
 msgstr ""
-"Im Falle einer Erstinstallation sind alle 'Replace' Kästchen und 'Format' "
-"vorausgewählt. Für eine Erstinstallation auf Devo F7 und Devo F12E stellen "
-"Sie sicher, dass das Kästchen 'Format' aktiviert ist."
 
 #: ../../source/ch_install.rst:159
 msgid ""
@@ -417,17 +295,12 @@ msgid ""
 " be patient. A pop-up dialog box will notify you when installation is "
 "completed. You are done."
 msgstr ""
-"Drücken Sie 'Install/Upgrade'. Die Installation wird einige Minuten dauern, "
-"bitte haben Sie etwas Geduld. Ein Hinweisfeld erscheint, sobald die "
-"Installation vollständig ist. Fertig."
 
 #: ../../source/ch_install.rst:160
 msgid ""
 "Turn off your Devo transmitter. When you turn it on again, you'll be greeted"
 " by the Deviation splash screen."
 msgstr ""
-"Schalten Sie den Devo-Sender aus. Wenn Sie in anschließend wieder "
-"einschalten, sehen Sie erstmals den Deviation Startbildschirm."
 
 #: ../../source/ch_install.rst:165
 msgid ""
@@ -435,9 +308,6 @@ msgid ""
 "accessed from the desktop, and you need to use the 'File Manager' tab on the"
 " 'Deviation Uploader' to manage files."
 msgstr ""
-"Aktivieren Sie den USB Modus nicht auf einer Devo F7 oder F12E, da das "
-"Dateisystem nicht vom Desktop aus verfügbar ist, sondern über den 'File "
-"Manager' Reiter in Deviation Uploader verwaltet werden muss."
 
 #: ../../source/ch_install.rst:169
 msgid ""
@@ -446,14 +316,10 @@ msgid ""
 "first-time install of Deviation, your computer may prompt to format a drive."
 " Format using default options."
 msgstr ""
-"Für Sender außer F7 und F12E, schalten Sie diesen wieder ein währen Sie die "
-"'ENT'-Taste drücken. Auf dem Sender sollte ein USB-Logo erscheinen. Im Falle"
-" einer Erstinstallation kann Ihr Computer Sie bitten das Laufwerk zu "
-"formatieren. Tun Sie dies mit den vorgegebenen Einstellungen."
 
 #: ../../source/ch_install.rst:172
 msgid "Upgrading the file system with Deviation Uploader"
-msgstr "Aktualisierung des Dateisystems mit dem Deviation Uploader"
+msgstr ""
 
 #: ../../source/ch_install.rst:175
 msgid ""
@@ -461,9 +327,6 @@ msgid ""
 "formatting the disk from your desktop will destroy your deviation "
 "installation."
 msgstr ""
-"Devo F7 und F12E unterstützen keinen Zugriff über USB. Aktivieren Sie diesen"
-" nicht, da eine Formatierung des Laufwerks von Ihrem Rechner die Deviation "
-"Installation zerstören wird."
 
 #: ../../source/ch_install.rst:180
 msgid ""
@@ -475,16 +338,10 @@ msgid ""
 "same location. There is no advantage in doing the installation this way, but"
 " it can be done."
 msgstr ""
-"Falls Sie die vorhergehenden Anweisungen zur Installation der Deviation "
-"Firmware ZIP-Datei mit dem Deviation Uploader befolgt haben, ist Ihre "
-"Installation bereits vollständig. Falls Sie jedoch die Datei zuvor entpackt "
-"haben und nur die DFU-Datei installiert haben müssen Sie nun die library dfu"
-"  aus dem gleichen Verzeichnis installieren. Wenngleich dieses Vorgehen "
-"keinen Vorteil hat, ist es prinzipiell möglich."
 
 #: ../../source/ch_install.rst:183
 msgid "Deviation 5.0"
-msgstr "Deviation 5.0"
+msgstr ""
 
 #: ../../source/ch_install.rst:185
 msgid ""
@@ -495,16 +352,10 @@ msgid ""
 " so, development continues, so new controllers will be added to the support "
 "list as well as new protocols and features, when they become available."
 msgstr ""
-"Das langersehnte Firmware Update von Version 4.0.1 zu Version 5.0 wurde am "
-"30. April 2016 vollzogen und im DeviationTX Forum angekündigt. Deviation "
-"Version 5.0 ist die aktuelle Version und enthält alle Patches, "
-"Fehlerbehebungen, Verbesserungen und Protokolle der vorhergehenden Version. "
-"Nichtsdestotrotz geht die Entwicklung weiter, sodass neue Sender sowie "
-"Protokolle und Features hinzukommen werden."
 
 #: ../../source/ch_install.rst:188
 msgid "Nightly Deviation Builds"
-msgstr "Nächtliche Firmware [nightly builds]"
+msgstr ""
 
 #: ../../source/ch_install.rst:190
 msgid ""
@@ -517,15 +368,6 @@ msgid ""
 "commenting on the features that they've used. Nightly builds are found at "
 "http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
 msgstr ""
-"Die nächtlichen Firmwares [nightly builds] enthalten Features die über die "
-"Deviation Version 5.0 hinaus gehen. Sie werden veröffentlicht um stets neue "
-"Möglichkeiten und Verbesserungen zur Verfügung zu stellen und den Anwendern "
-"die Möglichkeit zu geben, frühzeitig diese zu verwenden und "
-"Verbesserungsvorschläge zu machen. Als Anwender sollten Sie bedenken, dass "
-"Deviation ein Gemeinschaftsprojekt ist und nur durch Sie geprüft, korrigiert"
-" und verbessert werden kann. Die nächtlichen Firmwares sind unter "
-"http://www.deviationtx.com/downloads-new/category/13-nightly-builds zu "
-"finden."
 
 #: ../../source/ch_install.rst:200
 msgid ""
@@ -535,12 +377,6 @@ msgid ""
 "full release.  Please read this post! http://www.deviationtx.com/forum/5"
 "-news-announcements/1416-nightly-builds"
 msgstr ""
-"Diese Versionen der Firmware werden veröffentlicht, wenn Deviation um neue "
-"Features erweitert wird, wenn wichtige Fehler behoben werden und wenn neue "
-"Hardware unterstützt wird. Die nächtlichen Firmwares sind zwar getestet, "
-"jedoch nicht in dem Ausmaß wie die vollständigen Veröffentlichungen. Lesen "
-"Sie zur Sicherheit den Forumsbeitrag! http://www.deviationtx.com/forum/5"
-"-news-announcements/1416-nightly-builds  "
 
 #: ../../source/ch_install.rst:206
 msgid ""
@@ -553,13 +389,6 @@ msgid ""
 "issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
 " edit the source of the manual directly."
 msgstr ""
-"Das Online Benutzerhandbuch für Deviation wird regelmäßig geprüft und "
-"aktualisiert um Informationen über neue Features zu enthalten. Wenngleich "
-"versucht wird dieses Handbuch aktuell zu halten, können manchmal Features "
-"der nächtlichen Firmware hier nicht vollständig beschrieben sein. Jeder "
-"Deviation Benutzer kann Ergänzungen oder Korrekturen in GitHub Issues unter "
-"https://github.com/DeviationTX/deviation-manual/issues melden oder die "
-"Quellen des Handbuchs direkt editieren."
 
 #: ../../source/ch_install.rst:215
 msgid ""
@@ -571,13 +400,6 @@ msgid ""
 "hardware beyond additional transmitter modules, you should consider using "
 "the Nightly build."
 msgstr ""
-"Sollen Sie nun Deviation 5.0 oder eine nächtliche Firmware installieren? Das"
-" hängt von Ihren eigenen Bedürfnissen ab. Wenn Sie Walkera, Spectrum und "
-"Flysky Modelle und einen der vielen WLToys V2x2 Quadrocopter verwenden, wird"
-" Ihnen Deviation 5.0 in der Regel genügen. Wenn Sie Unterstützung für eines "
-"der zahlreichen neueren kleinen Flugmodelle, oder zusätzliche "
-"Hardwareerweiterungen benötigen, sollten Sie eine nächtliche Firmware "
-"installieren."
 
 #: ../../source/ch_install.rst:224
 msgid ""
@@ -587,15 +409,10 @@ msgid ""
 " hardware and modify any settings to support your modifications.  This helps"
 " you determine the source of issues later for troubleshooting."
 msgstr ""
-"Auch bei zusätzlichen geplanten Hardwaremodifikationen wie zum Beispiel "
-"Schaltern oder Sendemodulen sollten Sie zunächst die nächtliche Deviation "
-"Firmware installieren. Wenn Deviation läuft, können Sie nun Ihre Hardware "
-"modifizieren und die entsprechenden Einstellungen ändern. Dies hilft später "
-"die Ursachen für Probleme besser zu identifizieren."
 
 #: ../../source/ch_install.rst:233
 msgid "Test Builds"
-msgstr "Testversionen [test builds]"
+msgstr ""
 
 #: ../../source/ch_install.rst:235
 msgid ""
@@ -604,10 +421,6 @@ msgid ""
 "and require a higher level of experience.  These builds may also require "
 "specific transmitter configuration or hardware mods."
 msgstr ""
-"Testversionen sind nur für erfahrene Benutzer. Die Deviation Testversionen "
-"werden von Entwicklern veröffentlich um neue Features oder Hardware zu "
-"testen und setzen größere Erfahrung voraus. Teilweise erfordern diese "
-"Versionen auch spezielle Sonderkonfigurationen oder -modifikationen. "
 
 #: ../../source/ch_install.rst:240
 msgid ""
@@ -616,10 +429,6 @@ msgid ""
 "detailing the reason for that build and how to use it, and know why you "
 "would want to use it."
 msgstr ""
-"Für einige Testversionen muss zunächst die aktuellste nächtliche Firmware "
-"installiert werden. INSTALLIEREN SIE KEINE TESTVERSION ohne zuvor die "
-"zugehörige Diskussion Forum gelesen zu haben und sicher zu sein, dass Sie "
-"diese auch wirklich verwenden wollen."
 
 #: ../../source/ch_install.rst:245
 msgid ""
@@ -628,15 +437,10 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
-"Falls Sie eine Testversion installieren, **bitte** leisten Sie einen Beitrag"
-" in der entsprechenden Diskussion, sodass die Entwickler wissen ob alles "
-"funktioniert! Das ist der Grund, warum Sie erstellt wurde - damit die "
-"Entwickler ein Rückmeldung erhalten können, und wenn es nur eine kurze "
-"Nachricht ist das alles einwandfrei funktioniert."
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
-msgstr "USB & Dateisystem"
+msgstr ""
 
 #: ../../source/ch_install.rst:255
 msgid ""
@@ -645,101 +449,92 @@ msgid ""
 "‘ENT’ button while powering up the transmitter. Files can then be easily "
 "copied to or from the transmitter."
 msgstr ""
-"Deviation speichert alle Konfigurationen, Bitmaps und Modelle als normale "
-"Dateien auf das USB-Dateisystem. USB kann man am einfachsten aktivieren, "
-"indem man beim Einschalten des Senders die 'ENT'-Taste gedrückt hält. "
-"Dateien können dann einfach zum oder vom Sender kopiert werden."
 
 #: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
-msgstr "Die Verzeichnisstruktur ist wie folgt:"
+msgstr ""
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
-msgstr "\\\\tx.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
-"Sendereinstellungen. Einschließlich Trimmeinstellungen, Kalibrationen und "
-"die zuletzt verwendete Modellnummer"
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
-msgstr "\\\\hardware.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:264
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
-msgstr "Hardwareeinstellung, Bezeichnung der unterstützten Modifikationen"
+msgstr ""
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
-msgstr "\\\\errors.txt"
+msgstr ""
 
 #: ../../source/ch_install.rst:266
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
-"Falls die Firmware abstürzt oder neu bootet, werden hier Debuginformationen "
-"gespeichert"
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
-msgstr "\\\\datalog.bin"
+msgstr ""
 
 #: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
-msgstr "gespeicherte Telemetriedaten"
+msgstr ""
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
-msgstr "\\\\media\\\\config.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
-msgstr "Farbschema und Schriftarten für den Sender"
+msgstr ""
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
-msgstr "\\\\media\\\\sound.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
-msgstr "Enthält zu spielende Noten für unterschiedliche Alarme"
+msgstr ""
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
-msgstr "\\\\media\\\\*.bmp"
+msgstr ""
 
 #: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
-msgstr "Bilder für die aktuelle Sonderoberfläche [theme]"
+msgstr ""
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
-msgstr "\\\\media\\\\*.fon"
+msgstr ""
 
 #: ../../source/ch_install.rst:271
 msgid "Font files"
-msgstr "Schriftarten"
+msgstr ""
 
 #: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
-msgstr "\\\\models\\\\default.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
-"Modellvoreinstellung; wird immer geladen wenn ein Modell zurückgesetzt wird"
 
 #: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
-msgstr "\\\\models\\\\model*.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:273
 msgid ""
@@ -747,14 +542,10 @@ msgid ""
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
-"Konfigurationsdateien für jedes Modell. Durch Einschränkungen in der "
-"Firmware kann Deviation keine neuen Dateien anlegen. Daher ist es notwendig,"
-" dass für jedes Modell eine modelxx.ini Datei existiert, unabhängig davon ob"
-" sie gerade benutzt wird."
 
 #: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
-msgstr "\\\\modelico\\\\*.bmp"
+msgstr ""
 
 #: ../../source/ch_install.rst:276
 msgid ""
@@ -762,14 +553,10 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
-"Alle verfügbaren Modellbilder (96x96 Pixel empfohlen, aber nicht "
-"erforderlich). Modellbilder müssen als 16-bit BMP Datei gespeichert sein und"
-" entweder RGB565 (nicht transparent) oder ARGB1555 (transparent) formatiert "
-"sein."
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
-msgstr "\\\\templates\\\\*.ini"
+msgstr ""
 
 #: ../../source/ch_install.rst:279
 msgid ""
@@ -777,26 +564,19 @@ msgid ""
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
-"Konfigurationsdateien um vordefinierte “templates” laden zu können. Diese "
-"sind fast identisch mit den Modell-Konfigurationsdateien, definieren aber "
-"nicht notwendigerweise alle Parameter."
 
 #: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
-msgstr "\\\\language\\\\lang*.*"
+msgstr ""
 
 #: ../../source/ch_install.rst:281
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
-"Sprachübersetzungsdateien. Dieses sind UTF-8 Textdateien, welche die "
-"englischen Texte und die entsprechenden Übersetzungen enthalten."
 
 #: ../../source/ch_install.rst:287
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
 msgstr ""
-"Hinweis: Deviation unterstützt nur 8.3 Dateinamen. D.h. Dateinamen dürfen "
-"nicht länger als 'xxxxxxxx.yyy' sein.**"

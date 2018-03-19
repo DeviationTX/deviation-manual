@@ -10,17 +10,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-18 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
-"Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
+"Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr "Navigálás"
+msgstr ""
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -29,10 +28,6 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
-"A távirányító menüiben a megfelelő képre kattintva, vagy a fizikai "
-"nyomógombokat megnyomva lehet navigálni. A továbbiakban ebben a "
-"dokumentumban a nyomógombokon feltüntetett feliratokat fogjuk használni: UP "
-"(fel), DN (le), L- (balra), R+ (jobbra), ENT (belépés), EXT (kilépés)."
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -40,36 +35,26 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
-"A távirányító menüiben a fizikai nyomógombokat megnyomva lehet navigálni. A "
-"továbbiakban ebben a dokumentumban a nyomógombokon feltüntetett feliratokat "
-"fogjuk használni: UP (fel), DN (le), L- (balra), R+ (jobbra), ENT (belépés),"
-" EXT (kilépés)."
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
-"A távirányító beállításainak konfigurálását az alábbi felületi elemekkel "
-"végezzük"
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
 msgstr ""
-"**Nyomógombok**: Nyomógombokkal átválthatjuk egy kapcsolható beállítás "
-"állapotát, vagy megnyithatunk egy új menüt vagy képernyőt."
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
-"**Kiválasztó dobozok**: Kiválasztó dobozokkal lehet több lehetséges érték "
-"közül egyet kiválasztani."
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr "Kétféle kiválasztó doboz létezik:"
+msgstr ""
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
@@ -77,57 +62,44 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
-"Azok a kiválasztó dobozok, melyek két nyílból, és egy 3D-s nyomógombból "
-"állnak, egyszerre funkcionálnak kiválasztó dobozként (egy érték "
-"kiválasztására), és nyomógombként (ami sokféle dolgot végezhet)."
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
 msgstr ""
-"Azok a kiválasztó dobozok, melyek csak a két nyílból, és egy fehér "
-"szövegdobozból állnak, nem működnek nyomógombként, hanem csak egy érték "
-"kiválasztására szolgálnak."
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
-"Egy kiválasztó doboz típusa változhat a kiválasztott érték függvényében."
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
-"**Szövegdobozok**: A szövegdobozok általában információt jelenítenek meg, de"
-" néha meg is nyomhatók (mint egy nyomógomb), bizonyos események indításához."
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
 msgstr ""
-"**Ikonok**: Az ikonok információt jeleníthetnek meg, vagy megnyomhatók (mint"
-" egy nyomógomb), bizonyos események indításához."
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr "A főmenü a főképernyőről az ENT nyomógomb megnyomásával érhető el."
+msgstr ""
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr "Navigálás a fizikai nyomógombokkal"
+msgstr ""
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
-"Minden menüben az \"UP\" (fel) és \"DN\" (le) nyomógombok használatosak az "
-"előző vagy a következő menüpontra lépéshez."
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
@@ -135,33 +107,25 @@ msgid ""
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
-"Az \"R+\" és \"L-\" nyomógombok használatával lehet a kiválasztó dobozok "
-"értékét növelni vagy csökkenteni. Bizonyos esetekben a nyomógomb hosszabb "
-"idejű megnyomásával lehetőség van nagyobb lépésekben változtatni, hogy "
-"hamarabb elérhessük a kívánt értéket."
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
 msgstr ""
-"A nyomógombokat és a nyomógombbal rendelkező kiválasztó dobozokat az \"ENT\""
-" megnyomásával lehet megnyomni."
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
-"Az \"EXT\" megnyomása egy menüvel kijjebb lép, hosszan megnyomva pedig a "
-"főképernyőre."
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr "Menü szerkezet"
+msgstr ""
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr "2 különböző, független menü van:"
+msgstr ""
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -170,11 +134,6 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
-"A távirányító menü tartalmazza a távirányító specifikus beállításokat, "
-"valamint monitorozási lehetőséget biztosít a csatornák kimeneti-, és a "
-"vezérlő elemek bemeneti adataihoz, valamint a visszakapott telemetria "
-"értékekhez (ha azok rendelkezésre állnak). Részletesen az alábbi fejezet "
-"tárgyalja: :ref:`transmitter-menu`."
 
 #: ../../source/ch_navigating.rst:62
 msgid ""
@@ -183,6 +142,3 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
-"A modell menü a Deviation azon területe, ahol be tudod konfigurálni a "
-"modelled vezérlését. Minden modell adat ezen a menün belül kerül beállításra"
-" és mentésre. Részletesen az alábbi fejezet tárgyalja: :ref:`model-menu`."

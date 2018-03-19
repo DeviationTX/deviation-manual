@@ -10,17 +10,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-18 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
+"Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../source/ch_mainmenu.rst:6
 msgid "Main Menu"
-msgstr "Menu principal"
+msgstr ""
 
 #: ../../source/ch_mainmenu.rst:10
 msgid ""
@@ -29,10 +28,6 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
-"L'accès aux choix du menu principal du micrologiciel Deviation se fait par "
-"une brève pression sur le bouton ENT situé en bas à droite de l'émetteur. Le"
-" menu principal comprend les quatre options suivantes : \"Menu modèle\", "
-"\"Menu émetteur\", USB\" et \"À propos de Deviation\"."
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -41,15 +36,10 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
-"Tous les réglages qui font partie de l'usage de votre émetteur Devention "
-"sont accessibles par le menu principal. Ceci inclut les options des modèles,"
-" la sélection du langage, les options d'affichage, du bruiteur et de la "
-"vibration, ainsi que du mode de pilotage, la calibration et les informations"
-" concernant la version."
 
 #: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
-msgstr "Menu modèle"
+msgstr ""
 
 #: ../../source/ch_mainmenu.rst:16
 msgid ""
@@ -58,14 +48,10 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
-"Le menu  modèle est l'endroit de Deviation où vous pouvez configurer le type"
-" d'avion que vous faites voler. Toutes les données du modèle sont gérées et "
-"sauvegardées avec les choix de ce menu. Les détails du menu sont dans la "
-"section :ref:`Menu Modèle`."
 
 #: ../../source/ch_mainmenu.rst:19
 msgid "Transmitter menu"
-msgstr "Menu émetteur"
+msgstr ""
 
 #: ../../source/ch_mainmenu.rst:20
 msgid ""
@@ -74,14 +60,10 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
-"Le menu émetteur vous permet de choisir les options propres de l'émetteur "
-"ainsi que de contrôler les sorties canaux et les entrées de manches, et de "
-"contrôler la télémétrie (si elle est disponible). Les détails de ce menu "
-"sont dans la section :ref:`Menu émetteur`."
 
 #: ../../source/ch_mainmenu.rst:23
 msgid "USB"
-msgstr "USB"
+msgstr ""
 
 #: ../../source/ch_mainmenu.rst:27
 msgid ""
@@ -92,28 +74,19 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
-"La page USB peut être atteinte en choisissant ‘USB’ dans le menu principal. "
-"L'émetteur peut basculer en mode USB/non USB pour permettre l'accès au "
-"système de fichiers à partir du port USB d'un ordinateur. Dans ce mode, le "
-"système de fichiers de Deviation est accessible comme un periphérique de "
-"stockage de masse. Toutes les configurations sont accessibles dans ce mode."
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
-"NOTE : Ne jamais activer le mode USB lorsqu'un modèle est appairé avec "
-"l'émetteur. Dans le mode USB l'émetteur coupe le signal émis"
 
 #: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
-msgstr "A propos de Deviation"
+msgstr ""
 
 #: ../../source/ch_mainmenu.rst:38
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
-"Le numéro de version de Deviation est accessible en sélectionnant 'A propos "
-"de Deviation' dans le menu principal."
