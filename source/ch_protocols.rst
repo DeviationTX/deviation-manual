@@ -344,6 +344,20 @@ Traditional Futaba channel layout is following: Aileron, Elevator, Throttle, Rud
 
 Protocol resolution is 1024 steps (10 bits) out of which a bit smaller range is actually used (data by reverse engineering using third party equipment). Temporal resolution is 6.8ms. No telemetry supported.
 
+ 
+Protocol: \*Corona
+-------------------------
+The Corona protocol supports Corona V1 and V2 receivers, and Flydream V3 receivers. |cc2500-note| |mod-install-link|
+
+All the protocols support up to 8 channels.  Default channel order is AETR.  No telemetry in the protocols.
+
+The following protocol options are available.
+
+**Format**: Protocol selection. Use V1 and V2 with Corona receivers.  Use FDV3 for Flydream V3.
+
+**Freq-fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0.
+
+
 Protocol: \*V202
 ----------------
 The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|
