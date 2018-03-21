@@ -65,9 +65,8 @@ The WK2401 protocol is used to control older Walkera models.  The previous Walke
 Protocol: DSM2
 --------------
 The DSM2 protocol is used to control many Spektrum™ and JR™, as well
-as other models using this protocol.  While the DSM2 protocol can
-support up to 14 channels, Deviation is currently limited to a maximum
-of 12.  Note that many receivers with less than 8 channels require the
+as other models using this protocol.  The DSM2 protocol can
+support up to 12 channels.  Note that many receivers with less than 8 channels require the
 Transmitter to send 7 or fewer channels.  Make sure the # of channels
 is set appropriately for the receiver.  DSM2 does not support
 auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
@@ -100,7 +99,7 @@ The DSM2 protocol also supports enabling/disabling the telemetry capability.  Th
 
 Protocol: DSMX
 --------------
-The DSMX protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  While the DSMX protocol can support up to 14 channels, Deviation is currently limited to a maximum of 12.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSMX does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
+The DSMX protocol is used to control many Spektrum™ and JR™, as well as other models using this protocol.  The DSMX protocol can support up to 12 channels.  Note that many receivers with less than 8 channels require the Transmitter to send 7 or less channels.  Make sure the # of channels is set appropriately for the receiver.  DSMX does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
 Note that binding does not exit until you move the AIL or ELE
 controls. This is so you can press the Failsafe button on some DSM
@@ -164,7 +163,7 @@ The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers.  |a7
 
 |mod-install-link|
 
-The AFHDS-2A protocol supports up to 12 channels, and requires manual-binding.
+The AFHDS-2A protocol supports up to 14 channels, and requires manual-binding.
 The receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
 
 Options configurable on the AFHDS-2A page:
@@ -243,7 +242,7 @@ The FryskyX protocol implements the Frsky D16 radio protocol, including S.Port a
 
 |cc2500-note| |mod-install-link|
 
-This protocol supports up to 12 channels. Fixed ID binding is supported to link the transmitter wtih specific receivers. Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Supports S.Port and hub telemetry sensors as well as GPS telemetry (except on memory-limited 7e and f-series) as described in the next section.
+This protocol supports up to 16 channels. Fixed ID binding is supported to link the transmitter wtih specific receivers. Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Supports S.Port and hub telemetry sensors as well as GPS telemetry (except on memory-limited 7e and f-series) as described in the next section.
 
 The following protocol options are available.
 
@@ -364,7 +363,7 @@ The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|
 
 |mod-install-link|
 
-The V202 protocol supports up to 11 channels, does not support
+The V202 protocol supports up to 12 channels, does not support
 auto-binding.  If Fixed ID is set to None, a transmitter-specific ID
 is used instead.  It is necessary to manually bind each model before
 the first use.
