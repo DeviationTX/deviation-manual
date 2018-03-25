@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-18 23:39+0000\n"
+"POT-Creation-Date: 2018-03-24 23:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cnshaker <cnshaker@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_bugreport.rst:2
 msgid "Reporting Bugs"
-msgstr ""
+msgstr "报告漏洞"
 
 #: ../../source/ch_bugreport.rst:3
 msgid "Nobody is perfect."
-msgstr ""
+msgstr "人无完人。"
 
 #: ../../source/ch_bugreport.rst:5
 msgid ""
@@ -34,12 +35,14 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
+"这个固件已经开发得很好，并已成功地测试了世界各地的许多用户。然而，在某些情况下，可能会发生发射机不按您预期的方式工作。有时这种行为将是一个处理问题，有时甚至是一个真正的bug。毫不犹豫地在问社区（http://www.deviationtx.com/forum）。请记住固件只有在您的帮助下才能改进。"
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
 "https://github.com/DeviationTX/deviation/issues"
 msgstr ""
+"如果你找到一处Deviation的漏洞，请在这里报告它：https://github.com/DeviationTX/deviation/issues"
 
 #: ../../source/ch_bugreport.rst:9
 msgid ""
