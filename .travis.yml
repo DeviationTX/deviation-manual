@@ -24,6 +24,8 @@ addons:
       - texlive-lang-spanish
       - texlive-lang-cyrillic
       - texlive-lang-european
+      - texlive-lang-portuguese
+      - texlive-lang-chinese
       - latexmk
 
 language: python
