@@ -9,8 +9,8 @@ PAPER         =
 BUILDDIR      = build
 VENVDIR       = $(BUILDDIR)/venv
 TARGET        ?= devo8
-LANGUAGES     = en fr es de ru hu
-
+LANGUAGES     = en fr es de ru hu pt_BR zh
+ 
 # Preparation for SVG handling for LaTeX builds
 SOURCEDIR     = source
 IMAGEDIRS     = $(SOURCEDIR)/images
