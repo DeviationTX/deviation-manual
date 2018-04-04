@@ -9,7 +9,8 @@ PAPER         =
 BUILDDIR      = build
 VENVDIR       = $(BUILDDIR)/venv
 TARGET        ?= devo8
-LANGUAGES     = en fr es de ru hu pt_BR zh
+LANGUAGES_PDF  = en fr es de ru hu pt_BR
+LANGUAGES_HTML = en fr es de ru hu pt_BR zh
 
 # Preparation for SVG handling for LaTeX builds
 SOURCEDIR     = source
@@ -63,10 +64,10 @@ html:   $(SPHINXBUILD)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html-$(TARGET)."
 
-html-release: $(foreach lang,$(LANGUAGES),html-$(lang))
-	@echo "HTML documentation for languages $(LANGUAGES) successfully built."
+html-release: $(foreach lang,$(LANGUAGES_HTML),html-$(lang))
+	@echo "HTML documentation for languages $(LANGUAGES_HTML) successfully built."
 	mkdir $(BUILDDIR)/html-$(TARGET)
-	$(foreach lang,$(LANGUAGES), cd $(BUILDDIR) && zip -r html-$(TARGET)/html-$(TARGET)-$(lang).zip html-$(TARGET)-$(lang)/* && cd ..;)
+	$(foreach lang,$(LANGUAGES_HTML), cd $(BUILDDIR) && zip -r html-$(TARGET)/html-$(TARGET)-$(lang).zip html-$(TARGET)-$(lang)/* && cd ..;)
 	@echo "Zipped documentation can be found in $(BUILDDIR)/html-$(TARGET)."
 
 html-%:   $(SPHINXBUILD)
@@ -86,10 +87,10 @@ latex:  $(SPHINXBUILD) $(PDFs)
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
  
-latexpdf-release: $(foreach lang,$(LANGUAGES),latexpdf-$(lang))
-	@echo "PDFs for languages $(LANGUAGES) successfully built."
+latexpdf-release: $(foreach lang,$(LANGUAGES_PDF),latexpdf-$(lang))
+	@echo "PDFs for languages $(LANGUAGES_PDF) successfully built."
 	mkdir $(BUILDDIR)/pdf-$(TARGET)
-	$(foreach lang, $(LANGUAGES),cp $(BUILDDIR)/latex-$(TARGET)-$(lang)/devo.pdf $(BUILDDIR)/pdf-$(TARGET)/$(TARGET)manual_$(lang).pdf;)
+	$(foreach lang, $(LANGUAGES_PDF),cp $(BUILDDIR)/latex-$(TARGET)-$(lang)/devo.pdf $(BUILDDIR)/pdf-$(TARGET)/$(TARGET)manual_$(lang).pdf;)
 	@echo "PDFs copied to $(BUILDDIR)/pdf-$(TARGET)."
 
 latexpdf-%: $(SPHINXBUILD) $(PDFs)
