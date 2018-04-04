@@ -19,13 +19,7 @@ addons:
       - libz-dev
       - texlive
       - texlive-latex-extra
-      - texlive-lang-german
-      - texlive-lang-french
-      - texlive-lang-spanish
-      - texlive-lang-cyrillic
-      - texlive-lang-european
-      - texlive-lang-portuguese
-      - texlive-lang-chinese
+      - texlive-lang-all
       - latexmk
 
 language: python
