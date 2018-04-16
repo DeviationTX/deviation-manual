@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 23:55+0000\n"
+"POT-Creation-Date: 2018-04-15 23:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Hilton <nhanhabr@yahoo.com.br>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "Menu do Rádio"
 
 #: ../../source/ch_transmitter.rst:20
 msgid "Transmitter config"
-msgstr ""
+msgstr "Configuração do Rádio"
 
 #: ../../source/ch_transmitter.rst:23
 msgid ""
@@ -46,11 +47,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Idioma**: Selecione um idioma apropriado para todo o texto."
 
 #: ../../source/ch_transmitter.rst:50
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "NOTA: Este recurso não está disponível para o Devo7e."
 
 #: ../../source/ch_transmitter.rst:52
 msgid "**Stick mode**: Select one of Mode 1-4."
@@ -61,20 +62,26 @@ msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
 msgstr ""
+"Modo 1 é normalmente utilizado na Europa. Profundor e Leme na esquerda. "
+"Acelerador e Aileron na direita."
 
 #: ../../source/ch_transmitter.rst:55
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
 msgstr ""
+"Modo 2 é normalmente utilizado na América do Norte. Acelerador e Leme na "
+"esquerda. Profundor e Aileron na direita."
 
 #: ../../source/ch_transmitter.rst:56
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
 msgstr ""
+"Modo 3 tem Profundor e Aileron na esquerda, Acelerador e Leme na direita."
 
 #: ../../source/ch_transmitter.rst:57
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
 msgstr ""
+"Modo 4 tem Acelerador e Aileron na esquerda, Profundor e Leme na Direita."
 
 #: ../../source/ch_transmitter.rst:59
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
@@ -89,11 +96,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "**Relógio (Somente Devo12)**: Definir a hora e data atual"
 
 #: ../../source/ch_transmitter.rst:71
 msgid "Buzzer settings"
-msgstr ""
+msgstr "Configuração de Buzzer"
 
 #: ../../source/ch_transmitter.rst:73
 msgid ""
@@ -130,7 +137,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
-msgstr ""
+msgstr "Configurações do LCD"
 
 #: ../../source/ch_transmitter.rst:89
 msgid ""
@@ -306,7 +313,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:227
 msgid "Range Test"
-msgstr ""
+msgstr "Teste de Alcance"
 
 #: ../../source/ch_transmitter.rst:236
 msgid ""
@@ -345,7 +352,7 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
-msgstr ""
+msgstr "USB/Sobre"
 
 #: ../../source/ch_transmitter.rst:268
 msgid ""
