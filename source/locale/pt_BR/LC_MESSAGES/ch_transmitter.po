@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-21 23:58+0000\n"
+"POT-Creation-Date: 2018-04-23 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Hilton <nhanhabr@yahoo.com.br>, 2018\n"
+"Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,9 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"A página de configuração define várias funções do transmissor. Ele é "
+"inserido no menu principal através do ícone Opções de TX. Por favor, note "
+"que todas as telas nesta seção mostram as configurações padrão do desvio."
 
 #: ../../source/ch_transmitter.rst:33
 msgid ""
@@ -40,10 +43,14 @@ msgid ""
 " Please note that all screens in this section show the Deviation default "
 "settings."
 msgstr ""
+"A página de configuração define várias funções do transmissor. É introduzido"
+" a partir do menu principal através do \"Menu Transmissor\" seguido de "
+"\"Configuração do Transmissor\". Por favor, note que todas as telas nesta "
+"seção mostram as configurações padrão do desvio."
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr ""
+msgstr "Configurações genéricas"
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
@@ -55,7 +62,7 @@ msgstr "NOTA: Este recurso não está disponível para o Devo7e."
 
 #: ../../source/ch_transmitter.rst:52
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "** Modo Stick **: Selecione um dos modos 1-4."
 
 #: ../../source/ch_transmitter.rst:54
 msgid ""
@@ -86,6 +93,7 @@ msgstr ""
 #: ../../source/ch_transmitter.rst:59
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
 msgstr ""
+"** Sticks **: Calibre o intervalo de todos os dials e dials analógicos."
 
 #: ../../source/ch_transmitter.rst:61
 msgid ""
@@ -93,6 +101,9 @@ msgid ""
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"Para executar uma calibração com stick, destaque a opção Calibrar e "
+"pressione o botão ENT. Siga as instruções na tela para mover os sticks e "
+"confirme com o botão ENT."
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
