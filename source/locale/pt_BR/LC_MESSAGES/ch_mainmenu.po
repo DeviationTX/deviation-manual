@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-02 23:47+0000\n"
+"POT-Creation-Date: 2018-04-24 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_mainmenu.rst:6
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu principal"
 
 #: ../../source/ch_mainmenu.rst:10
 msgid ""
@@ -28,6 +29,10 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
+"As seleções do menu principal do firmware do Deviation são acessadas "
+"pressionando momentaneamente o botão ENT na parte inferior direita do "
+"transmissor. O menu principal consiste nas quatro opções seguintes: menu "
+"Modelo, menu Transmissor, USB e Sobre o Deviation."
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -36,10 +41,14 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
+"Todas as configurações relativas ao uso do seu transmissor Deviation são "
+"acessadas a partir do menu principal. Eles incluem opções de modelo, seleção"
+" de idioma, opções de exibição, buzzer, vibração, modo stick, calibração, "
+"conectividade USB, bem como informações de versão."
 
 #: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
-msgstr ""
+msgstr "Menu do modelo"
 
 #: ../../source/ch_mainmenu.rst:16
 msgid ""
@@ -48,10 +57,14 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"O menu do modelo é a área no Deviation onde se pode configurar o tipo de "
+"aeronave que você está voando. Todos os dados do modelo são gerenciados e "
+"salvos nessa seleção de menu. Detalhes do menu estão localizados na seção: "
+"ref: `model-menu`."
 
 #: ../../source/ch_mainmenu.rst:19
 msgid "Transmitter menu"
-msgstr ""
+msgstr "Menu do transmissor"
 
 #: ../../source/ch_mainmenu.rst:20
 msgid ""
@@ -60,10 +73,14 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
+"O menu do transmissor permite que você selecione opções específicas para "
+"ele, além de monitorar a saída do canal e a entrada do stick, como também a "
+"telemetria (se disponível). Detalhes do menu estão localizados na seção: "
+"ref: `transmitter-menu`."
 
 #: ../../source/ch_mainmenu.rst:23
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:27
 msgid ""
@@ -74,19 +91,30 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"A página USB pode ser acessada selecionando \"USB\" no menu principal. O "
+"modo USB pode ser ativado desativado para permitir o acesso ao sistema de "
+"arquivos do transmissor a partir de um computador conectado a USB. Neste "
+"modo, o sistema de arquivos do Deviation é acessível como um dispositivo de "
+"armazenamento em massa (como um pendrive). Isso permitirá que você mova "
+"arquivos de um lado para outro entre o Deviation e um PC. Todos os arquivos "
+"de configuração estão acessíveis neste modo."
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
 msgstr ""
+"Entrar no modo USB nunca deve ser feito enquanto o modelo estiver ligado, o "
+"uso do USB interromperá a transmissão do sinal!"
 
 #: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
-msgstr ""
+msgstr "Sobre o Deviation"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
 msgstr ""
+"A consulta à versão de instalada do Deviation pode ser acessada selecionando"
+" ‘About Deviation’ no menu principal."
