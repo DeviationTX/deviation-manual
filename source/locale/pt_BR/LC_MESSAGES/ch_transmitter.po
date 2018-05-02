@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-01 00:03+0000\n"
+"POT-Creation-Date: 2018-05-02 00:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -118,12 +118,17 @@ msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
+"** Power On alarm **: Selecione o intervalo a ser notificado se o seu "
+"transmissor estiver ligado e sem ação. O intervalo é de 0 a 60 minutos em "
+"intervalos de 1 minuto."
 
 #: ../../source/ch_transmitter.rst:75
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
 msgstr ""
+"** Alarme da bateria **: Defina a voltagem mínima da bateria na qual o "
+"alarme soará. A faixa de tensão é de 3,30V - 12,00V em incrementos de 0,01V."
 
 #: ../../source/ch_transmitter.rst:77
 msgid ""
@@ -131,20 +136,27 @@ msgid ""
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
 msgstr ""
+"** Intervalo de alarme **: define a frequência com que o alarme de bateria "
+"está fraca soara. Os intervalos podem ser definidos de 5 segundos a 1 minuto"
+" em intervalos de 5 segundos. Também pode ser definido como Desligado"
 
 #: ../../source/ch_transmitter.rst:79
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
 msgstr ""
+"** Volume do buzz **: define o volume da buzzer. O intervalo disponível é de"
+" 1 a 10; o buzzer também pode ser definido para Desligado."
 
 #: ../../source/ch_transmitter.rst:81
 msgid "**Vibration**: Enable vibration on alarms, if available."
 msgstr ""
+"** Vibração **: ative a vibração nos alarmes, se disponível no modelo do "
+"rádio."
 
 #: ../../source/ch_transmitter.rst:83
 msgid "**Power-down alert**: Play sound at power-down."
-msgstr ""
+msgstr "** Alerta de desligamento **: reproduz som ao desligar."
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
@@ -155,22 +167,30 @@ msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
 msgstr ""
+"** Luz de fundo **: define o brilho da tela. Entradas aceitáveis são de 1 a "
+"10. Também pode ser desativado."
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
 "may also be turned off."
 msgstr ""
+"** Contraste **: define o contraste da tela. Entradas aceitáveis são de 1 a "
+"10. Também pode ser desativado."
 
 #: ../../source/ch_transmitter.rst:96
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
 msgstr ""
+"** Luz de fundo **: define o brilho da tela. Entradas aceitáveis são de 1 a "
+"10."
 
 #: ../../source/ch_transmitter.rst:98
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10."
 msgstr ""
+"** Contraste **: define o contraste da tela. Entradas aceitáveis são de 1 a "
+"10."
 
 #: ../../source/ch_transmitter.rst:101
 msgid ""
@@ -178,16 +198,22 @@ msgid ""
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
 msgstr ""
+"** Tempo do dimmer **: Define o atraso antes do escurecimento da tela. Os "
+"tempos podem ser definidos de 5 segundos a 2 minutos em intervalos de 5 "
+"segundos. Uma configuração de Desligado forçará a luz de fundo a permanecer "
+"acesa enquanto o transmissor estiver ligado."
 
 #: ../../source/ch_transmitter.rst:103
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
 msgstr ""
+"** Alvo do dimmer **: define o brilho da tela quando esmaecido. Entradas "
+"aceitáveis são de 1 a 10 e também podem ser desativadas."
 
 #: ../../source/ch_transmitter.rst:106
 msgid "Timer settings"
-msgstr ""
+msgstr "Configurações do temporizador"
 
 #: ../../source/ch_transmitter.rst:108
 msgid ""
@@ -195,6 +221,9 @@ msgid ""
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
 msgstr ""
+"** Prealerta time **: O tempo antes do timer chegar a zero para iniciar o "
+"bip. Entradas aceitáveis são de 5 segundos a 1 minuto em intervalos de 5 "
+"segundos e também podem ser desativadas."
 
 #: ../../source/ch_transmitter.rst:110
 msgid ""
