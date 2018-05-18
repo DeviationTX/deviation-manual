@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-16 00:12+0000\n"
+"POT-Creation-Date: 2018-05-17 00:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr ""
+msgstr "Navegação"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -29,6 +29,10 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"Os menus do transmissor podem ser navegados pressionando a imagem "
+"correspondente na tela ou através dos botões físicos UP, D(ow) N, L(eft), "
+"R(right), ENT(er), EX(i)T. Todos os botões e interruptores foram marcados "
+"com as mesmas descrições usadas neste manual."
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -36,26 +40,35 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
+"Os menus do transmissor podem ser navegados através dos botões físicos UP, "
+"D(own), L(eft), R(ight), ENT(er), EX(i)T. Todos os botões e interruptores "
+"foram marcados com as mesmas descrições usadas neste manual."
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
 msgstr ""
+"Existem vários elementos GUI que são usados para definir as configurações no"
+" transmissor"
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
 msgstr ""
+"** Buttons **: os botões podem ser selecionados para alternar uma "
+"configuração ou para inserir um novo menu."
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
 msgstr ""
+"** Spin-Boxes **: caixas de rotação são usadas para selecionar um dos vários"
+" valores."
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "Existem dois tipos de caixas de rotação disponíveis:"
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
@@ -63,44 +76,58 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
+"Caixas de rotação consistindo de duas setas e um botão 3D podem atuar tanto "
+"como caixas de rotação (para selecionar um valor) quanto como um botão (que "
+"pode ter vários efeitos)."
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
 msgstr ""
+"Caixas de rotação que contêm apenas setas e uma etiqueta branca não agem "
+"como botões e são usadas apenas para seleção de valores."
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
 msgstr ""
+"Note que uma caixa de rotação pode mudar entre ser selecionável ou não para "
+"valores diferentes da caixa de rotação."
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
+"** Text Boxes **: caixas de texto geralmente fornecem informações, no "
+"entanto, em alguns casos, elas podem ser pressionadas para executar uma ação"
+" (como um botão)"
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
 msgstr ""
+"** Ícons **: os ícones podem fornecer informações ou serem pressionados para"
+" executar uma ação (como um botão)"
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr ""
+msgstr "O menu principal é acessado pressionando ‘ENT’ no menu principal."
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "Navegando com os botões físicos"
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
 msgstr ""
+"Em todas as páginas de menu, \"UP\" e \"DN\" são usados para navegar para o "
+"item anterior / seguinte."
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
@@ -108,25 +135,31 @@ msgid ""
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
+"Os botões \"R+\" e \"L-\" são usados nos widgets da caixa de rotação para "
+"aumentar ou diminuir o valor selecionado. Em alguns casos, manter "
+"pressionado o botão usará valores de etapa maiores para se mover mais "
+"rapidamente para o valor desejado."
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
-msgstr ""
+msgstr "Para botões e caixas arredondadas, pressionar \"ENT\" pressiona o bot,"
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
 msgstr ""
+"Pressionar ‘EXT’ removerá o formulário de seleção do item atual. Uma longa "
+"pressão de \"EXT\" sairá de um (1) nível de menu."
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr ""
+msgstr "Layout do menu"
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "Existem 2 menus diferentes não conectados disponíveis:"
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -147,3 +180,7 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"O menu do modelo é a área dentro do desvio que você pode configurar o tipo "
+"de aeronave que você está voando. Todos os dados do modelo são gerenciados e"
+" salvos nessa seleção de menu. Detalhes do menu estão localizados na seção: "
+"ref: `model-menu`."
