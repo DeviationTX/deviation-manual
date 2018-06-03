@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-01 00:19+0000\n"
+"POT-Creation-Date: 2018-06-02 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -230,32 +230,42 @@ msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"** Prealert intvl **: Com que frequência o sinal sonoro antes do "
+"temporizador chegar a zero. O intervalo pode ser definido de 1 a 60 segundos"
+" e também pode ser desativado."
 
 #: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"** Timeup intvl **: Com que freqüência para soar o bipe quando o "
+"temporizador expirou. O intervalo pode ser definido de 1 a 60 segundos e "
+"também pode ser desativado."
 
 #: ../../source/ch_transmitter.rst:115
 msgid "Telemetry settings"
-msgstr ""
+msgstr "Configurações da telemetria"
 
 #: ../../source/ch_transmitter.rst:117
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
 msgstr ""
+"** Temperature **: defina unidades para exibir a temperatura da telemetria. "
+"As opções disponíveis são Celsius e Fahrenheit."
 
 #: ../../source/ch_transmitter.rst:119
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
 msgstr ""
+"** Lenght **: define unidades para exibir o comprimento da telemetria. As "
+"opções de seleção são Meters e Feet."
 
 #: ../../source/ch_transmitter.rst:122
 msgid "Channel monitor"
-msgstr ""
+msgstr "Monitor de canais"
 
 #: ../../source/ch_transmitter.rst:129
 msgid ""
@@ -264,16 +274,22 @@ msgid ""
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
 msgstr ""
+"A tela do monitor do canal permite que o usuário veja os valores de cada "
+"canal como saída pelo transmissor. Canais sem mixers não serão exibidos. A "
+"saída do canal exibida é o valor com base nos valores mínimo / máximo e no "
+"dimensionamento."
 
 #: ../../source/ch_transmitter.rst:134
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
 msgstr ""
+"** Example **: Um canal escalado de -60 a +60 exibirá somente o intervalo de"
+" valores de -60 a +60, dependendo da posição do bastão"
 
 #: ../../source/ch_transmitter.rst:138
 msgid "Input Monitor"
-msgstr ""
+msgstr "Monitor de entrada"
 
 #: ../../source/ch_transmitter.rst:156
 msgid ""
@@ -281,28 +297,37 @@ msgid ""
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
 msgstr ""
+"A tela do monitor de entrada mostra os valores associados à posição atual "
+"dos pontos de controle. Os valores mostrados são uma porcentagem do "
+"intervalo total dos controles com base em uma escala de -100% a + 100%."
 
 #: ../../source/ch_transmitter.rst:161
 msgid ""
 "NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
 "FMOD1."
 msgstr ""
+"NOTA: O Devo7e está limitado a AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 e "
+"FMOD1."
 
 #: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"NOTA: O Devo8 é limitado a AIL, ELE, THR, RUD, RUD DR0 / 1, ELE DR0 / 1, AIL"
+" DR0 / 1, GEAR0 / 1, FMOD0 / 1/2 e MIX0 / 1/2"
 
 #: ../../source/ch_transmitter.rst:171
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
 msgstr ""
+"NOTA: O Devo6 é limitado a AIL, ELE, THR, RUD, DR0 / 1, GEAR0 / 1, FMOD0 / "
+"1/2 e MIX0 / 1/2"
 
 #: ../../source/ch_transmitter.rst:174
 msgid "Button Monitor"
-msgstr ""
+msgstr "Monitor de botões"
 
 #: ../../source/ch_transmitter.rst:181
 msgid ""
@@ -312,14 +337,19 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"A página do monitor de botão é usada para garantir que os botões físicos do "
+"transmissor estejam funcionando conforme o esperado. Pressionar qualquer "
+"botão físico selecionará o quadrado correspondente na tela. Para testar "
+"\"EXT\", \"L\" ou \"R +\", toque na tela para desativar a passagem de menu. "
+"Toque na tela novamente para desbloquear."
 
 #: ../../source/ch_transmitter.rst:185
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "NOTA: O Devo6 não possui o conjunto superior de botões Trim L/R"
 
 #: ../../source/ch_transmitter.rst:189
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "Monitor da telemetria"
 
 #: ../../source/ch_transmitter.rst:196
 msgid ""
@@ -328,6 +358,10 @@ msgid ""
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
 msgstr ""
+"Certos protocolos têm a capacidade de transmitir dados de telemetria de "
+"volta ao transmissor durante o uso. Os dados de telemetria podem incluir, "
+"mas não se limitam a, leituras de temperatura, várias leituras de tensão, "
+"rpm do motor ou do motor, bem como informações relacionadas ao GPS."
 
 #: ../../source/ch_transmitter.rst:198
 msgid ""
@@ -335,6 +369,10 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"Os dados de telemetria são desativados por padrão para todos os protocolos "
+"suportados, exceto DEVO e FrSky. Consulte a seção 9 Protocolos "
+"correspondente para saber quais protocolos suportam a telemetria e "
+"identificar quais campos estarão disponíveis."
 
 #: ../../source/ch_transmitter.rst:210
 msgid ""
@@ -342,14 +380,19 @@ msgid ""
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
 msgstr ""
+"Como cada protocolo difere no tipo de dado que ele pode retornar, consulte a"
+" documentação original dos fabricantes de equipamentos com relação ao "
+"hardware adicional necessário para coletar esses da"
 
 #: ../../source/ch_transmitter.rst:213
 msgid "Until valid data is transmitted the values will all be red."
 msgstr ""
+"Até que dados válidos sejam transmitidos, os valores serão todos vermelhos."
 
 #: ../../source/ch_transmitter.rst:217
 msgid "Until valid data is transmitted the values will all be inverted."
 msgstr ""
+"Até que dados válidos sejam transmitidos, os valores serão todos invertidos."
 
 #: ../../source/ch_transmitter.rst:227
 msgid "Range Test"
@@ -362,6 +405,10 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"É recomendável que você teste um novo modelo antes de voar pela primeira "
+"vez, para verificar se será possível controlar o modelo em distâncias "
+"normais de vôo. Em alguns clubes, isso é necessário como medida de "
+"segurança. A página de teste de intervalo permite isso"
 
 #: ../../source/ch_transmitter.rst:240
 msgid ""
@@ -373,6 +420,13 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
+"Quando a página de teste de alcance for aberta, pressione o botão \"Start "
+"test\" para iniciar o teste de intervalo. Os antigos e novos níveis de "
+"potência serão exibidos. O procedimento padrão é caminhar cerca de 30 metros"
+" e verificar se você ainda tem o controle da aeronave. Você pode então "
+"pressionar o botão ‘Stop test’ para finalizar o teste de alcance e restaurar"
+" o nível de potência de rádio configurado. Pressionar o botão \"Ext\" para "
+"sair da página também restaurará o nível de energia."
 
 #: ../../source/ch_transmitter.rst:244
 msgid ""
@@ -382,6 +436,11 @@ msgid ""
 "range test of 30 meters would indicate that you should be able to control "
 "the model out to 900 meters."
 msgstr ""
+"O alcance do rádio será reduzido pela raiz quadrada da mudança no nível de "
+"potência. Então, passar de 100mW para 100uW representa uma mudança de "
+"potência de aproximadamente 1000, ou uma redução de faixa de um fator de "
+"pouco mais de 30. Portanto, o teste de alcance normal de 30 metros indicaria"
+" que você deveria poder controlar o modelo para 900 metros."
 
 #: ../../source/ch_transmitter.rst:248
 msgid ""
@@ -389,6 +448,9 @@ msgid ""
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
 msgstr ""
+"O módulo RF instalado usado para o modelo atual deve ter um PA. Se esse não "
+"for o caso, ou o nível de energia escolhido para o modelo já estiver no "
+"valor mínimo, uma mensagem para esse efeito será exibida."
 
 #: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
