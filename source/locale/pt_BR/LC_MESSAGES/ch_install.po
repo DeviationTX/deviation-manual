@@ -8,8 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-15 00:56+0000\n"
+"POT-Creation-Date: 2018-08-16 00:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +20,23 @@ msgstr ""
 
 #: ../../source/ch_install.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Instalação"
 
 #: ../../source/ch_install.rst:4
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
 msgstr ""
+"Os usuários do Windows ™ podem escolher entre dois métodos de instalação do "
+"firmware de Deviation"
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr ""
+msgstr "Use a ferramenta Deviation Uploader"
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
-msgstr ""
+msgstr "Use a ferramenta de atualização USB Walkera DfuSe (somente Windows ™)"
 
 #: ../../source/ch_install.rst:9
 msgid ""
@@ -47,12 +50,23 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
+"Se você não tiver o sistema operacional Windows ™, escolha a primeira opção,"
+" a ferramenta Deviation Uploader. É um aplicativo Java projetado pela equipe"
+" de desenvolvimento do Deviation para ser eficiente e simples de usar com "
+"qualquer rádio Devo e qualquer versão de desvio ou mesmo Devention, se você "
+"desejar reverter para o firmware Walkera original. A ferramenta Walkera usa "
+"uma abordagem de duas etapas, na qual você primeiro instala o firmware e, em"
+" seguida, a biblioteca do sistema de arquivos. A ferramenta Deviation "
+"Uploader faz a mesma coisa em uma etapa simples e conveniente, usando o "
+"arquivo de firmware de desvio compactado ZIP como a origem."
 
 #: ../../source/ch_install.rst:11
 msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
 msgstr ""
+"Se o seu transmissor é um Devo F7 ou F12E, você ** deve ** usar o Deviation "
+"Uploader."
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -62,10 +76,15 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
+"A seção: ref: `preparation` aborda as coisas que você precisa fazer antes de"
+" iniciar uma instalação. Em seguida, duas seções de instalação cobrem a "
+"instalação real, dependendo de qual ferramenta você está usando. Há seções a"
+" seguir que incluem notas específicas para atualizar de ou para várias "
+"versões e tipos de construção."
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr ""
+msgstr "Preparação"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -75,28 +94,39 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
+"Primeiro, certifique-se de que seu Devo esteja totalmente carregado antes de"
+" iniciar a instalação. Faça o download do firmware deviation-"
+"devoXX-x.y.z.zip de http://deviationtx.com/downloads-new/category/1"
+"-deviation-releases, em que XX é o número do seu transmissor Walkera Devo ™."
+" x.y.z identifica o número da versão do desvio."
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
-msgstr ""
+msgstr "NOTA: NÃO tente usar a ferramenta DfuSe da STMicroelectronics!"
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
+"Você pode fazer o download da ferramenta Walkera em: "
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"A ferramenta Deviation Uploader pode ser baixada em http://deviationtx.com"
+"/downloads-new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:40
 msgid ""
 "If you are using Windows™, you need to install the appropriate USB drivers. "
 "See the section on :ref:`windows_drivers`"
 msgstr ""
+"Se você estiver usando o Windows ™, precisará instalar os drivers USB "
+"apropriados. Veja a seção sobre: ref: `windows_drivers`"
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -105,6 +135,10 @@ msgid ""
 "is recommended that you test the DFU tool by first upgrading your TX to a "
 "different version of Walkera firmware."
 msgstr ""
+"Descompacte as ferramentas e instale-as localmente. Se você estiver usando a"
+" ferramenta Deviation Uploader, não é necessário descompactar o firmware que"
+" você baixou. É recomendado que você teste a ferramenta DFU atualizando "
+"primeiro o seu TX para uma versão diferente do firmware do Walkera."
 
 #: ../../source/ch_install.rst:46
 msgid ""
@@ -113,10 +147,14 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
+"Se você está atualizando de uma versão anterior do Deviation, é altamente "
+"recomendável que você faça backup do diretório 'models' do transmissor, bem "
+"como dos arquivos 'tx.ini' e 'hardware.ini' para garantir que você não faça "
+"o upgrade. perder qualquer configuração de modelo ou transmissor."
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr ""
+msgstr "Instalação do Driver do Windows"
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -124,6 +162,10 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"A ferramenta Walkera DfuSe e a ferramenta Deviation Uploader usam drivers "
+"diferentes. Ambos podem ser instalados pelo Instalador de Desvio USBDrv, "
+"disponível em http://www.deviationtx.com/downloads-new/category/161-dfu-usb-"
+"tool"
 
 #: ../../source/ch_install.rst:63
 msgid ""
@@ -132,10 +174,14 @@ msgid ""
 "the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
 "driver. Install the driver for the Dfu tool you plan on using."
 msgstr ""
+"Extraia o instalador do USBDrv de desvio e execute 'DFU USBDrv "
+"Installer-x.y.exe'. Você pode então desinstalar ambos os drivers ou instalar"
+" o Driver USB de Desvio para usar com o Deviation Uploader ou o driver "
+"Walkera. Instale o driver para a ferramenta Dfu que você planeja usar."
 
 #: ../../source/ch_install.rst:70
 msgid "DFU Installation With Walkera DfuSe"
-msgstr ""
+msgstr "Instalação DFU Com Walkera DfuSe"
 
 #: ../../source/ch_install.rst:72
 msgid ""
@@ -145,12 +191,20 @@ msgid ""
 " they cannot be accessed by Deviation, they will be safely preserved should "
 "the Walkera firmware ever need to be reinstalled"
 msgstr ""
+"A instalação do desvio com a ferramenta Walkera DfuSe é feita exatamente da "
+"mesma maneira que a atualização do firmware do Walkera Devention. Observe "
+"que o desvio NÃO substituirá os modelos Walkera armazenados no transmissor. "
+"Embora eles não possam ser acessados pelo Deviation, eles serão preservados "
+"com segurança, caso o firmware do Walkera precise ser reinstalado"
 
 #: ../../source/ch_install.rst:81
 msgid ""
 "NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
 "F7 firmware, the original models will be lost when switching to Deviation."
 msgstr ""
+"NOTA: Como resultado das limitações de memória dos firmware Devo7e, Devo "
+"F12e e Devo F7, os modelos originais serão perdidos ao mudar para o "
+"Deviation."
 
 #: ../../source/ch_install.rst:88
 msgid ""
@@ -159,6 +213,10 @@ msgid ""
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
 msgstr ""
+"Descompacte o arquivo de firmware que você baixou anteriormente. Ligue o "
+"transmissor ao PC via USB e ligue o transmissor enquanto segura 'EXT' para "
+"entrar no modo de programação. No Devo12, isso é feito segurando o "
+"interruptor do instrutor."
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -167,6 +225,11 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
+"Vários usuários relataram problemas de compatibilidade com o Windows ™ e / "
+"ou portas USB ao executar esta ferramenta. Se o DfuSe não reconhecer o seu "
+"TX, tente remover todos os dispositivos USB e reinicie o seu PC apenas com a"
+" conexão USB ao TX. Siga os passos necessários para resolver qualquer "
+"problema de conexão."
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -174,6 +237,9 @@ msgid ""
 "will be displayed under 'Available DFU Devices'. Otherwise this field will "
 "remain blank."
 msgstr ""
+"Se o seu transmissor foi conectado corretamente, 'STM Device in DFU Mode' "
+"será exibido em 'Available DFU Devices'. Caso contrário, este campo "
+"permanecerá em branco."
 
 #: ../../source/ch_install.rst:96
 msgid ""
