@@ -212,6 +212,33 @@ is necessary to bind each model before the first use.
 The first channel normally controls the sheets and the second channel
 the rudder, but this may vary from model to model.
 
+Protocol: \*Bugs3
+------------------
+The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aicraft.  |a7105-note| |mod-install-link|
+
+This protocol requires a special binding procedure.  To bind follow these steps:
+
+#) In the bugs3 model delete all the digits of the fixed id. The display should say fixed id None.
+#) Click Bind on the model screen.
+#) Apply power to the bugs3. The bugs3 should react but deviation bind dialog will remain.
+#) Turn the transmitter off (this saves the model with radioid stored in the fixed id).
+#) Turn the transmitter on, go to the model screen, the fixed id should be the radioid.
+#) With the right radioid bind should succeed. Click Bind on the model screen.
+#) Apply power to the bugs3. Now it should connect. (If not, then repeat 6-7).
+
+Channels used for controlling functions. Set channel value greater than zero to activate.
+
+* Arming is controlled by Channel 5
+* Lights are controlled by Channel 6
+* Flip is controlled by Channel 7
+* Camera is controlled by Channel 8
+* Video is controlled by Channel 9
+
+Telemetry is supported for RSSI and voltage alarm. It uses the Frsky telemetry display with
+signal strength reported in the RSSI field and battery voltage in VOLT1.
+The bugs3 receiver only reports good/bad voltage. This is translated to VOLT1 values
+of 8.4V for good and 6.0V for low voltage.
+
 Protocol: \*Frsky-V8
 --------------------
 The Frsky-V8 protocol is used to control older Frsky™ receivers using the one-way protocol. |cc2500-note|
