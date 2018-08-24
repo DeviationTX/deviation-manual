@@ -216,15 +216,9 @@ Protocol: \*Bugs3
 ------------------
 The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aicraft.  |a7105-note| |mod-install-link|
 
-This protocol requires a special binding procedure.  To bind follow these steps:
-
-#) In the bugs3 model delete all the digits of the fixed id. The display should say fixed id None.
-#) Click Bind on the model screen.
-#) Apply power to the bugs3. The bugs3 should react but deviation bind dialog will remain.
-#) Turn the transmitter off (this saves the model with radioid stored in the fixed id).
-#) Turn the transmitter on, go to the model screen, the fixed id should be the radioid.
-#) With the right radioid bind should succeed. Click Bind on the model screen.
-#) Apply power to the bugs3. Now it should connect. (If not, then repeat 6-7).
+To bind first choose the bugs3 protocol and click Bind.  Then apply power to the aircraft.
+The bind dialog will disappear if bind is successful.  The aircraft's radio id is stored in the model
+Fixed ID field.  Do not change this value.
 
 Channels used for controlling functions. Set channel value greater than zero to activate.
 
