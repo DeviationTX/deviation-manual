@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-22 01:01+0000\n"
+"POT-Creation-Date: 2018-08-23 01:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../../source/ch_install.rst:188
 msgid "Nightly Deviation Builds"
-msgstr ""
+msgstr "Nightly Builds do Deviation "
 
 #: ../../source/ch_install.rst:190
 msgid ""
@@ -572,6 +572,13 @@ msgid ""
 "hardware beyond additional transmitter modules, you should consider using "
 "the Nightly build."
 msgstr ""
+"Então você deve carregar o lançamento do Deviation 5.0 ou carregar um "
+"Nightly? Suas próprias necessidades determinarão a resposta para essa "
+"pergunta. Se você usar os modelos Walkera, Spectrum e Flysky e qualquer "
+"número de variações dos quads do WLToys V2x2, a versão do Deviation 5.0 será"
+" suficiente. Se você tiver um dos muitos quads pequenos mais recentes ou se "
+"quiser suporte para hardware adicional além dos módulos adicionais do "
+"transmissor, considere a possibilidade de usar as build Nightly."
 
 #: ../../source/ch_install.rst:224
 msgid ""
@@ -581,10 +588,16 @@ msgid ""
 " hardware and modify any settings to support your modifications.  This helps"
 " you determine the source of issues later for troubleshooting."
 msgstr ""
+"Se você também estiver adicionando modificações de hardware, como switches "
+"ou módulos transmissores, deverá instalar primeiro a compilação Deviation "
+"Nightly e revisar os recursos disponíveis. Depois que o Desviation estiver "
+"em execução, instale seu hardware e modifique as configurações para suportar"
+" suas modificações. Isso ajuda você a determinar a origem dos problemas "
+"posteriormente para a solução de problemas."
 
 #: ../../source/ch_install.rst:233
 msgid "Test Builds"
-msgstr ""
+msgstr "Builds de teste"
 
 #: ../../source/ch_install.rst:235
 msgid ""
@@ -593,6 +606,11 @@ msgid ""
 "and require a higher level of experience.  These builds may also require "
 "specific transmitter configuration or hardware mods."
 msgstr ""
+"Builds de Teste são apenas para usuários experientes. As compilações do "
+"Teste de Deviation são preparadas por desenvolvedores de software para "
+"testar novos recursos ou opções de hardware e exigem um nível mais alto de "
+"experiência. Essas compilações também podem exigir configuração específica "
+"do transmissor ou mods de hardware."
 
 #: ../../source/ch_install.rst:240
 msgid ""
@@ -601,6 +619,10 @@ msgid ""
 "detailing the reason for that build and how to use it, and know why you "
 "would want to use it."
 msgstr ""
+"Algumas compilações de teste exigem que você instale o Nightly mais recente "
+"antes da instalação. NÃO INSTALE UMA CONSTRUÇÃO DE TESTE até ler o "
+"encadeamento detalhando o motivo dessa compilação e como usá-la, e saiba por"
+" que você deseja usá-la."
 
 #: ../../source/ch_install.rst:245
 msgid ""
@@ -609,10 +631,15 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
+"Depois de instalar uma compilação de teste, ** do ** adicione uma postagem "
+"ao encadeamento apropriado, informando ao desenvolvedor como as coisas "
+"foram! É por isso que eles são criados - para que os desenvolvedores possam "
+"obter feedback, mesmo que seja apenas uma observação de que as coisas "
+"funcionaram bem."
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
-msgstr ""
+msgstr "USB & File-system"
 
 #: ../../source/ch_install.rst:255
 msgid ""
@@ -621,92 +648,103 @@ msgid ""
 "‘ENT’ button while powering up the transmitter. Files can then be easily "
 "copied to or from the transmitter."
 msgstr ""
+"O Deviation armazena todas as configurações, bitmaps e modelos como arquivos"
+" comuns no sistema de arquivos USB. O USB pode ser mais facilmente acessado "
+"pressionando o botão \"ENT\" enquanto  se liga o transmissor. Os arquivos "
+"podem ser facilmente copiados para ou do transmissor."
 
 #: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
-msgstr ""
+msgstr "A estrutura do diretório é a seguinte:"
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
-msgstr ""
+msgstr "\\\\tx.ini"
 
 #: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
 msgstr ""
+"Configuração do transmissor. Inclui configurações de ajuste, dados de "
+"calibração e o último número de modelo usado"
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
-msgstr ""
+msgstr "\\\\hardware.in"
 
 #: ../../source/ch_install.rst:264
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
 msgstr ""
+"Configuração do hardware do transmissor, descrevendo as modificações de "
+"hardware suportadas. Número"
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
-msgstr ""
+msgstr "\\\\errors.txt"
 
 #: ../../source/ch_install.rst:266
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
 msgstr ""
+"Se o firmware falhar ou reiniciar, as informações de depuração serão "
+"armazenadas neste arquivo"
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
-msgstr ""
+msgstr "\\\\datalog.bin"
 
 #: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
-msgstr ""
+msgstr "Arquivo para dados de telemetria"
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
-msgstr ""
+msgstr "\\\\media\\\\config.ini"
 
 #: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
-msgstr ""
+msgstr "O esquema de cores e fontes para o transmissor"
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
-msgstr ""
+msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
-msgstr ""
+msgstr "Contém notas musicais para tocar em vários alarmes"
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
-msgstr ""
+msgstr "\\\\media\\\\*.bmp"
 
 #: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
-msgstr ""
+msgstr "Imagens utilizadas para o tema atual do transmissor"
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
-msgstr ""
+msgstr "\\\\media\\\\*.fon"
 
 #: ../../source/ch_install.rst:271
 msgid "Font files"
-msgstr ""
+msgstr "Arquivos de fontes"
 
 #: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
-msgstr ""
+msgstr "\\\\models\\\\default.ini"
 
 #: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
 msgstr ""
+"O modelo padrão, vazio, carregado sempre que um modelo novo for criado"
 
 #: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
-msgstr ""
+msgstr "\\\\models\\\\model*.ini"
 
 #: ../../source/ch_install.rst:273
 msgid ""
@@ -714,10 +752,14 @@ msgid ""
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
+"Arquivos de configuração para cada modelo. Devido a uma limitação no "
+"firmware, o Deviation não pode criar novos arquivos. Portanto, é necessário "
+"ter um modelxx.ini para cada modelo, independentemente de estar ou não em "
+"uso."
 
 #: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
-msgstr ""
+msgstr "\\\\modelico\\\\*.bmp"
 
 #: ../../source/ch_install.rst:276
 msgid ""
@@ -725,10 +767,13 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
+"Todos os ícones de modelos disponíveis (96x96 pixels são recomendados, mas "
+"não obrigatórios). Os ícones de modelo devem ser salvos como arquivos BMP de"
+" 16 bits no formato RGB565 (não transparente) ou ARGB1555 (transparente)."
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
-msgstr ""
+msgstr "\\\\templates\\\\*.ini"
 
 #: ../../source/ch_install.rst:279
 msgid ""
@@ -736,19 +781,27 @@ msgid ""
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
 msgstr ""
+"Arquivos de configurações usados ao carregar modelos predefinidos. Estes são"
+" quase idênticos aos arquivos de configuração do modelo, no entanto, eles "
+"não necessariamente definem todos os parâmetros"
 
 #: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
-msgstr ""
+msgstr "\\\\language\\\\lang*.*"
 
 #: ../../source/ch_install.rst:281
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
 msgstr ""
+"Arquivos de tradução de idiomas. Estes são arquivos de texto UTF-8 contendo "
+"a string em inglês e a respectiva string traduzida."
 
 #: ../../source/ch_install.rst:287
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
 msgstr ""
+"Nota: O Deviation suporta apenas nomes de arquivo de estilo 8.3. Isso "
+"significa que os nomes dos arquivos não devem ser maiores que 'xxxxxxxx.yyy'"
+" **"
