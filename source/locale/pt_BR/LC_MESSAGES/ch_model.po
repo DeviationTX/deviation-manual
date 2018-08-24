@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-24 00:00+0000\n"
+"POT-Creation-Date: 2018-08-23 01:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -28,47 +28,57 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
+"O menu do modelo permite a seleção, edição de configurações do modelo, "
+"alarmes, registro e configurações de tela. Você pode acessar o menu "
+"pressionando a tecla ENT para selecionar o 'Menu Principal' e depois "
+"novamente em 'Menu Modelo'."
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
 msgstr ""
+"Dependendo da seleção que você fez para a GUI do Mixer na seção: ref: "
+"`model-setup`, a operação do menu do modelo será completamente diferente."
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
 msgstr ""
+"O avançado '2. A página do mixer (: ref: `mixer-adv`) fornece toda a "
+"funcionalidade (e mais) do Modelo Padrão."
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "** GUI Avançada **:"
 
 #: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**GUI Padrão**:"
 
 #: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**Menu Avançado de Modelos**"
 
 #: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**Menu Padrão de Modelos**"
 
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
 msgstr ""
+"Nota: A GUI do Mixer Avançado é a configuração padrão para todos os novos "
+"modelos."
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "Configuração do modelo (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr ""
+msgstr "A página do modelo fornece várias opções de configuração do model"
 
 #: ../../source/ch_model.rst:73
 msgid ""
@@ -78,6 +88,11 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"** Arquivo **: A caixa de rotação Arquivo permite carregar um novo modelo, "
+"copiar o modelo existente para um novo local, redefinir o modelo atual para "
+"o padrão (toda a configuração é perdida) e carregar modelos (consulte: ref: "
+"`predefinidos -modelo-modelos`). Note que mudar modelos pode resultar em uma"
+" mensagem de segurança sendo mostrada (veja: ref: `safety-system`)."
 
 #: ../../source/ch_model.rst:92
 msgid ""
@@ -86,6 +101,10 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"** Mixer GUI **: Define qual interface gráfica do usuário (GUI) usar para "
+"este modelo. A GUI \"Avançada\" é o padrão para o desvio. A GUI \"padrão\" "
+"só está disponível para modelos de helicópteros e se assemelha mais à GUI "
+"padrão."
 
 #: ../../source/ch_model.rst:97
 msgid ""
@@ -97,6 +116,14 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"O gui misturador padrão é projetado para helicópteros de lançamento coletivo"
+" com um flybar. Ele inclui recursos específicos para aqueles que não são "
+"necessários em outras aeronaves e pode estar faltando recursos necessários "
+"para controlar adequadamente outras aeronaves. Um helicóptero de lançamento "
+"coletivo flybarless pode se beneficiar de alguns dos recursos da GUI padrão,"
+" não precisa deles e pode precisar desses recursos ausentes. ** É altamente "
+"recomendável usar o mixer avançado para todas as aeronaves, exceto para "
+"helicópteros de campo coletivos. **"
 
 #: ../../source/ch_model.rst:108
 msgid ""
@@ -104,18 +131,25 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
+"Nota: Se você mudar de mixer avançado para mixer padrão, todos os dados "
+"podem ser perdidos. Seus dados serão preservados se você mudar do mixer "
+"padrão para o mixer avançado."
 
 #: ../../source/ch_model.rst:115
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
 msgstr ""
+"** Nome do modelo **: defina o nome do modelo. Use os botões esquerdo, "
+"direito, para cima e para baixo e depois ENT para selecionar cada caractere."
 
 #: ../../source/ch_model.rst:120
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
 msgstr ""
+"** Ícone **: escolha o ícone do modelo. Ícones de modelos adicionais podem "
+"ser instalados (veja: ref: `usb-file-system`)."
 
 #: ../../source/ch_model.rst:127
 msgid ""
@@ -124,24 +158,36 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"** Tipo de modelo **: Defina as opções disponíveis do tipo de modelo: Heli, "
+"Plane e Multi. Os modelos de helicóptero têm uma página de configuração "
+"adicional que pode ser acessada clicando no tipo de modelo. As opções para "
+"SwashType são idênticas às de: ref: `swash-configuration`."
 
 #: ../../source/ch_model.rst:133
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
 msgstr ""
+"Se você alternar do tipo de modelo Helicopter, isso alterará a GUI do mixer "
+"para Advanced automaticamente, pois a GUI padrão suporta apenas "
+"helicópteros."
 
 #: ../../source/ch_model.rst:135
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"** Potência do Transmissor **: Especifique a potência de saída de rádio "
+"(quando aplicável). As opções disponíveis são 100µW, 300µW, 1mW, 3mW, 10mW, "
+"30mW, 100mW, 150m"
 
 #: ../../source/ch_model.rst:140
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
 msgstr ""
+"Nota:  Devo7e transmite com 7mW. Devido à configuração do software, 150mW "
+"será sempre exibido."
 
 #: ../../source/ch_model.rst:144
 msgid ""
@@ -150,6 +196,11 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"** PPM In **: Permite a entrada da porta DSC principalmente para controlar "
+"hardware externo, como motores de câmera de um 'rastreador de cabeça'. "
+"Secundariamente, ele pode ser usado para permitir que o transmissor atue "
+"como um Mestre em uma configuração de camarada. As opções disponíveis são "
+"Channel, Stick e Extend."
 
 #: ../../source/ch_model.rst:150
 msgid ""
@@ -158,6 +209,10 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"Os modos Stick e Channel são usados para a configuração da caixa de amigos e"
+" a documentação pode ser encontrada no capítulo: ref: `set-up-a-buddy-box`. "
+"O modo Extend é usado para FPV ou configuração de entrada externa e a "
+"documentação pode ser encontrada no capítulo: ref: `setting-up-fpv`."
 
 #: ../../source/ch_model.rst:152
 msgid ""
@@ -168,6 +223,13 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"** Protocolo **: define o tipo de receptor usado. Observe que alguns "
+"protocolos possuem opções adicionais que podem ser acessadas pressionando-se"
+" a caixa de rotação do protocolo quando ela estiver ativa. Veja a seção: "
+"ref: `protocols` para mais informações sobre protocolos específicos. Observe"
+" que uma alteração de protocolo desativará qualquer protocolo atualmente "
+"ativo e afetará qualquer modelo ativo. Para ativar o protocolo recém-"
+"escolhido, use o botão Vincular / Reinicializar, descrito abaixo."
 
 #: ../../source/ch_model.rst:163
 msgid ""
@@ -177,6 +239,12 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"** Vincular / Reinicializar **: Dependendo do protocolo e da configuração de"
+" ID fixa, o transmissor pode ligar-se ao modelo na inicialização ou pode "
+"precisar ser vinculado manualmente uma vez. Veja: ref: `protocols` para mais"
+" sobre protocolos específicos. Se o protocolo não suportar a ligação, o "
+"botão mostrará \"Re-Init\", que pode ser usado para alternar protocolos sem "
+"ligar e desligar o transmissor."
 
 #: ../../source/ch_model.rst:168
 msgid ""
@@ -184,22 +252,31 @@ msgid ""
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
 msgstr ""
+"** ID Fixa **: A ID Fixa define um código exclusivo para garantir que o "
+"transmissor se ligue apenas a um modelo específico. Isso é útil para "
+"garantir que o transmissor não esteja acidentalmente ligado ao modelo "
+"errado."
 
 #: ../../source/ch_model.rst:170
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
 msgstr ""
+"** # Channels **: Define o número de canais a transmitir (o número máximo de"
+" canais depende do protocolo selecionado)."
 
 #: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "Modelos de modelos predefinidos"
 
 #: ../../source/ch_model.rst:182
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
 msgstr ""
+"O firmware de Devoiation suporta modelos predefinidos personalizáveis pelo "
+"usuário. Ao selecionar \"Modelo ...\" na caixa de seleção Arquivo na página "
+"Modelo."
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -208,10 +285,14 @@ msgid ""
 "a portion of it.  The currently supported templates will replace the mixer "
 "and trim definitions, but will not affect the display layout."
 msgstr ""
+"Modelos adicionais podem ser adicionados via USB ao diretório \"\\\\ "
+"template\". Um modelo não substitui completamente seu modelo existente, mas "
+"apenas uma parte dele. Os modelos atualmente suportados substituirão as "
+"definições do mixer e do trim, mas não afetarão o layout de exibição."
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "Mixer (Adv GUI)"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -227,6 +308,18 @@ msgid ""
 ":`predefined-model-templates`), but to learn to modify and configure a "
 "model, read through this entire section carefully."
 msgstr ""
+"A GUI 'Advanced' libera todos os recursos do firmware Deviation, porém é "
+"diferente de qualquer configuração de transmissor comercial. O desvio também"
+" fornece uma interface de configuração mais tradicional para aqueles que "
+"preferem (veja: ref: `standard-gui`). Com o Advanced GUI, cada canal de "
+"saída é composto de uma série de um ou mais mixers, cada um dos quais "
+"consiste em uma única entrada, um interruptor de ativação e uma função / "
+"curva que modifica a saída do mixer. Esta é uma capacidade muito poderosa, "
+"mas exigirá aprender um método completamente diferente para configurar um "
+"modelo. Para ajudar na configuração rápida, existem algumas configurações "
+"predefinidas disponíveis (consulte: ref: `predefinidos-modelos-modelo`), mas"
+" para aprender a modificar e configurar um modelo, leia atentamente essa "
+"seção inteira."
 
 #: ../../source/ch_model.rst:205
 msgid ""
@@ -234,6 +327,9 @@ msgid ""
 "channels.  The mixer page is accessed from the main menu by selecting the "
 "model icon.."
 msgstr ""
+"A página Mixer controla como as entradas (sticks / switches) são atribuídas "
+"aos canais de saída. A página do mixer é acessada a partir do menu "
+"principal, selecionando o ícone do modelo."
 
 #: ../../source/ch_model.rst:207
 msgid ""
@@ -241,10 +337,13 @@ msgid ""
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
 "channels that can be used as an intermediate step for complex setups."
 msgstr ""
+"O número de canais disponíveis depende do número de canais selecionados na "
+"seção: ref: `model-setup`. Além disso, existem 10 canais virtuais que podem "
+"ser usados como uma etapa intermediária para configurações complexas."
 
 #: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
-msgstr ""
+msgstr "Reordenamento de canal"
 
 #: ../../source/ch_model.rst:215
 msgid ""
@@ -253,10 +352,15 @@ msgid ""
 " are the initial channel assignments.  Whenever the page is loaded, the "
 "channels will be sequentially ordered representing the current state."
 msgstr ""
+"A página de reordenamento de canal permite mover definições de mixer entre "
+"canais, além de duplicar configurações de canal. Observe que os valores "
+"exibidos são as atribuições iniciais de canal. Sempre que a página é "
+"carregada, os canais serão ordenados sequencialmente representando o estado "
+"atual."
 
 #: ../../source/ch_model.rst:220
 msgid "Channel configuration"
-msgstr ""
+msgstr "Configuração de Canais"
 
 #: ../../source/ch_model.rst:227
 msgid ""
@@ -266,16 +370,23 @@ msgid ""
 "trim, and a safety switch (which could be used to ensure that a motor cannot"
 " spin-up while working on a model)"
 msgstr ""
+"A configuração de canal fornece a capacidade de setar as saídas finais do "
+"canal. Recursos como valores de inversão de canal e fail-safe são aplicados "
+"aqui. Também estão disponíveis controles para pontos finais, "
+"dimensionamento, sub-trim e um interruptor de segurança (que pode ser usado "
+"para garantir que um motor não possa girar durante o trabalho em um modelo)"
 
 #: ../../source/ch_model.rst:229
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
 msgstr ""
+"Alterações nesta página afetarão imediatamente a saída do canal. Pressionar "
+"'** Cancelar **' restaurará os valores mostrados para o último estado salvo."
 
 #: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
-msgstr ""
+msgstr "** Reverso **: Inverta a direção da rotação do servo"
 
 #: ../../source/ch_model.rst:233
 msgid ""
@@ -283,12 +394,17 @@ msgid ""
 " signal from the transmitter. The range is between -125 and +125 or None. "
 "Not all receivers support this capability."
 msgstr ""
+"** Fail-safe **: Especifica um valor que o receptor deve usar quando perde o"
+" sinal do transmissor. O intervalo está entre -125 e +125 ou nenhum. Nem "
+"todos os receptores suportam esse recurso."
 
 #: ../../source/ch_model.rst:235
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
 msgstr ""
+"** Segurança **: especifica um comutador que substituirá todos os "
+"misturadores e forçará a saída do canal para \"Safe Val\" quando invertido."
 
 #: ../../source/ch_model.rst:237
 msgid ""
@@ -296,6 +412,9 @@ msgid ""
 "specified. The acceptable range of Safe Val is any value between -150 and "
 "150."
 msgstr ""
+"** Safe Val **: Se um interruptor de segurança for escolhido, o Safe Val "
+"também pode ser especificado. O intervalo aceitável de Val Seguro é qualquer"
+" valor entre -150 e 150."
 
 #: ../../source/ch_model.rst:239
 msgid ""
@@ -306,6 +425,12 @@ msgid ""
 "Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is "
 "-250 to 0 for Min Limit and 0 to 250 for Max Limit."
 msgstr ""
+"** Limite Mín / Limite Máx **: Estes valores definem os valores mínimos e "
+"máximos do transmissor antes do receptor (depois de toda a escala, trim e "
+"mixer em primeiro lugar). Se for um valor mais baixo ou máximo, será "
+"apropriado para o valor mínimo ou máximo, conforme apropriado. O padrão é "
+"-150 para o limite mínimo e +150 para o limite máximo. Uma definição máxima "
+"é de -250 a 0 para o limite mínimo de 0 a 250 para o máximo possível."
 
 #: ../../source/ch_model.rst:241
 msgid ""
@@ -315,12 +440,19 @@ msgid ""
 "different value than Scale+ both data will act separately until you set them"
 " to the same value again."
 msgstr ""
+"** Escala- / Escala + **: Esses valores definem um escalar final para "
+"ajustar o lance do servo. As entradas permitidas estão entre 1 e 250. Quando"
+" você alterna Escala + Escala, elas serão alteradas da mesma maneira. Se "
+"Scale for definido para um valor diferente de Scale +, os dois dados irão "
+"atuar separadamente até que você os configure para o mesmo valor novamente."
 
 #: ../../source/ch_model.rst:243
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
 msgstr ""
+"** Subtrim **: Ajusta a posição zero do servo. O intervalo disponível está "
+"entre -50,0 e +50,0 em incrementos de 0,1."
 
 #: ../../source/ch_model.rst:245
 msgid ""
@@ -328,6 +460,10 @@ msgid ""
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
 "degrees per 100msec (assuming a min/max throw of 120degrees)."
 msgstr ""
+"** Velocidade **: Ajusta a velocidade máxima do servo. Zero é desativado "
+"(mais rápido), o intervalo é entre 1 (mais lento) e 250 (mais rápido). A "
+"velocidade servo é definida como o número de graus por 100 ms (assumindo um "
+"lance mínimo / máximo de 120 graus)."
 
 #: ../../source/ch_model.rst:247
 msgid ""
@@ -336,10 +472,15 @@ msgid ""
 "~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A "
 "value of 30 should be approx twice as slow as a typical servo."
 msgstr ""
+"Exemplo: Um valor de 60 dará uma velocidade de 60 graus por 100 ms, o que "
+"equivale ao centro para o máximo em 100 ms. A maioria dos servos é "
+"classificada em ~ 60 graus / 0,1 segundo, então uma velocidade> 60 não "
+"afetará a maioria dos servos. Um valor de 30 deve ser aproximadamente duas "
+"vezes mais lento que um servo típico."
 
 #: ../../source/ch_model.rst:250
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "Configuração de canal virtual"
 
 #: ../../source/ch_model.rst:255
 msgid ""
@@ -347,10 +488,13 @@ msgid ""
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
 msgstr ""
+"Se você pressionar ENT em um canal virtual, será exibida uma tela do teclado"
+" onde você poderá editar o nome padrão. Você pode usar os botões L / R / UP "
+"/ DN seguidos de 'ENT' para selecionar. Ou apenas toque em cada personagem."
 
 #: ../../source/ch_model.rst:261
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "Tipo de mistura simples"
 
 #: ../../source/ch_model.rst:268
 msgid ""
@@ -360,6 +504,11 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"O tipo de mistura simples é a maneira mais simples de definir um canal. "
+"Permite definir uma entrada primária (stick, switch ou outro canal) e "
+"aplicar uma curva ou função a essa entrada. O resultado também pode ser "
+"dimensionado ou ter um deslocamento zero alternativo. Você não pode usar um "
+"botão ou alternar para ativar ou desativar essa configuração."
 
 #: ../../source/ch_model.rst:274 ../../source/ch_model.rst:299
 #: ../../source/ch_model.rst:325
@@ -367,11 +516,13 @@ msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
 msgstr ""
+"Uma pressão \"Long-ENT\" atualizará as configurações atuais do mixer, "
+"possibilitando testá-las no transmissor."
 
 #: ../../source/ch_model.rst:276 ../../source/ch_model.rst:301
 #: ../../source/ch_model.rst:346
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "** Src **: A fonte de entrada que controla este mixer."
 
 #: ../../source/ch_model.rst:278 ../../source/ch_model.rst:303
 #: ../../source/ch_model.rst:348
@@ -380,6 +531,10 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"** Curva **: A função aplicada à entrada para gerar a saída. Veja a seção: "
+"ref: `available-curves` para mais informações. Dependendo do tipo de curva, "
+"a curva de pressão pode exibir o editor de curva (consulte: ref: `curve-"
+"editing`)."
 
 #: ../../source/ch_model.rst:280 ../../source/ch_model.rst:307
 #: ../../source/ch_model.rst:350
@@ -387,14 +542,17 @@ msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
 msgstr ""
+"** Escala **: Um escalar multiplicativo aplicado após a Curva para controlar"
+" o intervalo de saída."
 
 #: ../../source/ch_model.rst:282
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
+"** Deslocamento **: Um deslocamento aditivo aplicado após o dimensionamento."
 
 #: ../../source/ch_model.rst:285
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "Tipo de Mix de Expo e Dual-Rate"
 
 #: ../../source/ch_model.rst:297
 msgid ""
@@ -405,15 +563,23 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"Selecionar um valor para Switch1 ou Switch2 ativará a seção correspondente. "
+"Cada seção pode ter uma curva 'ligada' (a curva é a mesma que a curva 'Alta "
+"taxa'), caso em que apenas o escalar pode ser modificado ou, "
+"alternativamente, pode ter uma definição de curva independente. Pressionar o"
+" botão 'Mid-Rate' ou 'Low-Rate' para um determinado switch alternará entre "
+"curvas vinculadas e independentes."
 
 #: ../../source/ch_model.rst:305
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
+"** Switch1 ** ou ** Switch2 **: especifique um switch para ativar as taxas "
+"Média ou Baixa."
 
 #: ../../source/ch_model.rst:310
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "Tipo de mistura complexa"
 
 #: ../../source/ch_model.rst:317
 msgid ""
@@ -424,42 +590,60 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"O tipo de mistura Complex desbloqueia a potência total do sistema de "
+"mixagem. Para um determinado canal, qualquer número de mixers pode ser "
+"aplicado para afetar o resultado final. Cada mixer é aplicado com base em se"
+" o comutador especificado está ativo e pode substituir, adicionar ou "
+"multiplicar para os mixers anteriores para este canal. Usando este sistema, "
+"deve ser possível definir um canal de saída como uma combinação de qualquer "
+"número de entradas."
 
 #: ../../source/ch_model.rst:327
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "A página do Mixer Complexo tem as seguintes opções:"
 
 #: ../../source/ch_model.rst:329
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
 msgstr ""
+"** Mixers **: especifique o número de mixers para este canal. Se você "
+"aumentar o número, um novo mixer será adicionado após a última página "
+"existente."
 
 #: ../../source/ch_model.rst:331
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
 msgstr ""
+"** Página **: Especifique a página atual do mixer que está sendo editada. "
+"Pressionar a caixa de rotação permitirá reordenar as páginas do canal atual."
 
 #: ../../source/ch_model.rst:333
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
 msgstr ""
+"** Switch **: Especifique um interruptor opcional que determina se o mixer "
+"atual está ativo."
 
 #: ../../source/ch_model.rst:335
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
 msgstr ""
+"** Mux **: Define como o mixer atual é aplicado aos mixers definidos "
+"anteriormente para este canal. As opções são:"
 
 #: ../../source/ch_model.rst:337
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
+"** Substituir **: Se este mixer estiver ativo, todos os mixers anteriores "
+"serão ignorados"
 
 #: ../../source/ch_model.rst:338
 msgid "**Add**: Add the value of this mixer to the previous mixers."
-msgstr ""
+msgstr "** Adicionar **: Adicione o valor deste mixer aos mixers anteriores."
 
 #: ../../source/ch_model.rst:339
 msgid ""
@@ -467,18 +651,25 @@ msgid ""
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
 msgstr ""
+"** Mult **: Multiplique o valor deste mixer com os mixers anteriores. Note "
+"que os valores são porcentagens, então multiplicar por 50 na verdade "
+"multiplica por 0,5."
 
 #: ../../source/ch_model.rst:342
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
 msgstr ""
+"** Max **: A saída será a maior do mixer atual em relação aos mixers "
+"anteriores."
 
 #: ../../source/ch_model.rst:343
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
 msgstr ""
+"** Mín **: A saída será a menor do mixer atual em relação aos mixers "
+"anteriores."
 
 #: ../../source/ch_model.rst:344
 msgid ""
@@ -486,12 +677,18 @@ msgid ""
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
 msgstr ""
+"** Delay **: Atrasa a saída deste mixer quando usado com uma curva fixa. A "
+"escala de 100 representa 5 segundos de atraso. Pode ser variado usando "
+"escala ou deslocamento."
 
 #: ../../source/ch_model.rst:352
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
 msgstr ""
+"Observe que, embora o valor da escala esteja limitado a 100%, o mixer pode "
+"fornecer um valor maior que 100% se um deslocamento for definido ou se o "
+"valor de ajuste for diferente de zero."
 
 #: ../../source/ch_model.rst:354
 msgid "**Offset**: an additive offset that is applied after the scaling."
