@@ -214,7 +214,7 @@ the rudder, but this may vary from model to model.
 
 Protocol: \*Bugs3
 ------------------
-The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aicraft.  |a7105-note| |mod-install-link|
+The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  |a7105-note| |mod-install-link|
 
 To bind first choose the bugs3 protocol and click Bind.  Then apply power to the aircraft.
 The bind dialog will disappear if bind is successful.  The aircraft's radio id is stored in the model
