@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 01:03+0000\n"
+"POT-Creation-Date: 2018-08-24 01:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
+"Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -693,82 +693,99 @@ msgstr ""
 #: ../../source/ch_model.rst:354
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
+"** Deslocamento **: um deslocamento aditivo aplicado após o dimensionamento."
 
 #: ../../source/ch_model.rst:356
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
 msgstr ""
+"** Trim **: Seleciona se os ajustes para a fonte selecionada são aplicados "
+"ou não a este mixer."
 
 #: ../../source/ch_model.rst:358
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "\\ Um determinado mixer pode ser considerado como tendo a forma geral:"
 
 #: ../../source/ch_model.rst:361
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 msgstr ""
+"M (x) = if (*Switch*) {*Src* * *Curva* * *Escala* + *Offset*} else {0} + "
+"*Trim*"
 
 #: ../../source/ch_model.rst:363
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
 msgstr ""
+"A combinação de mixers para um determinado canal de saída é definida pelo "
+"tipo Mux:"
 
 #: ../../source/ch_model.rst:365
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "Para mux \"Substituir\":"
 
 #: ../../source/ch_model.rst:367
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
+"else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 
 #: ../../source/ch_model.rst:369
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "Para mux \"Multiply\":"
 
 #: ../../source/ch_model.rst:371
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 
 #: ../../source/ch_model.rst:373
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "Para \"add\" mux:"
 
 #: ../../source/ch_model.rst:375
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 
 #: ../../source/ch_model.rst:377
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "Para \"Max\" mux:"
 
 #: ../../source/ch_model.rst:379
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:381
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "Para \"Min\" mux:"
 
 #: ../../source/ch_model.rst:383
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:386
 msgid "Cyclic"
-msgstr ""
+msgstr "Cíclico"
 
 #: ../../source/ch_model.rst:392
 msgid ""
@@ -776,10 +793,13 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"** Cyclic1, Cyclic2, Cyclic3 **: As 3 saídas da mistura de placa oscilante "
+"de helicóptero. Estes representarão os 3 servos conectados à placa oscilante"
+" do helicóptero (veja: ref: `swash-configuration`)."
 
 #: ../../source/ch_model.rst:395
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "Reordenando Mixers"
 
 #: ../../source/ch_model.rst:403
 msgid ""
@@ -788,6 +808,11 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"Selecione o respectivo mixer e use os botões para cima / para baixo para "
+"mover a ordem do mixer selecionado. Observe que o nome do mixer representa "
+"sua posição quando a caixa de diálogo reordenar foi aberta. Se a caixa de "
+"diálogo for fechada e reaberta, todos os mixers serão mostrados como "
+"numerados sequencialmente."
 
 #: ../../source/ch_model.rst:405
 msgid ""
@@ -795,58 +820,76 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"A página de reordenamento pode adicionar novos mixers ou excluir os "
+"existentes usando os botões \"+\" e \"-\", respectivamente. Um mixer também "
+"pode ser copiado para um mixer existente (sobrescrevendo-o no processo) "
+"usando a funcionalidade \"Copiar para\"."
 
 #: ../../source/ch_model.rst:410
 msgid "Available Curves"
-msgstr ""
+msgstr "Curvas Disponíveis"
 
 #: ../../source/ch_model.rst:412
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "As seguintes funções de curva são suportadas:"
 
 #: ../../source/ch_model.rst:414
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "** 1 para 1 **: a saída é igual à entrada (não editável)."
 
 #: ../../source/ch_model.rst:415
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
+"** Fixo **: A saída é constante, independentemente da entrada (offset "
+"editável)."
 
 #: ../../source/ch_model.rst:416
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
 msgstr ""
+"** Mín / Máx **: A saída é -100 se a entrada for menor que o valor "
+"especificado e 100, caso contrário."
 
 #: ../../source/ch_model.rst:417
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
 msgstr ""
+"** Zero / Max **: A saída é 0 se a entrada for menor que o valor "
+"especificado e 100 caso contrário."
 
 #: ../../source/ch_model.rst:418
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
 msgstr ""
+"**> 0 **: Saída corresponde à entrada quando maior que o valor especificado "
+"e 0 caso contrário."
 
 #: ../../source/ch_model.rst:419
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
 msgstr ""
+"** <0 **: A saída corresponde à entrada quando menor que o valor "
+"especificado e 0 caso contrário."
 
 #: ../../source/ch_model.rst:420
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
 msgstr ""
+"** ABSVAL **: A saída é o valor absoluto da entrada (a edição do valor "
+"especificado alterará como o valor absoluto é aplicado)"
 
 #: ../../source/ch_model.rst:421
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"** EXPO **: Aplique a curva exponencial à entrada para resposta não linear "
+"(editável veja: ref: `curve-editing`)."
 
 #: ../../source/ch_model.rst:422
 msgid ""
