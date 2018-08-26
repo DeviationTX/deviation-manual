@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-24 01:02+0000\n"
+"POT-Creation-Date: 2018-08-25 01:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -896,12 +896,16 @@ msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
 msgstr ""
+"** Deadband **: A saída não responderá aos valores de entrada próximos a "
+"zero (editável veja: ref: `curve-editing`)."
 
 #: ../../source/ch_model.rst:423
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"** Multi-ponto **: A curva é baseada em 3, 5, 7, 9, 11 ou 13 pontos "
+"definidos pelo usuário (editável ver: ref: `curve-editing`)."
 
 #: ../../source/ch_model.rst:426
 msgid ""
@@ -909,10 +913,13 @@ msgid ""
 "(zero). If you change the curve for one input the offset will be transferred"
 " to the new curve if possible."
 msgstr ""
+"O valor padrão para qualquer um dos deslocamentos nas curvas acima "
+"mencionadas é 0 (zero). Se você alterar a curva de uma entrada, o "
+"deslocamento será transferido para a nova curva, se possível."
 
 #: ../../source/ch_model.rst:431
 msgid "Curve Editing"
-msgstr ""
+msgstr "Edição de Curvas"
 
 #: ../../source/ch_model.rst:433
 msgid ""
@@ -920,6 +927,9 @@ msgid ""
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
 "box will not be selectable if one of these curves is currently active."
 msgstr ""
+"O Curve Editor é acessado selecionando a caixa de curva quando esta é "
+"selecionável. Os tipos 1-1 e Curva fixa podem não ser editados e a caixa de "
+"curva não será selecionável se uma dessas curvas estiver ativa no momento."
 
 #: ../../source/ch_model.rst:435
 msgid ""
@@ -928,6 +938,10 @@ msgid ""
 "may not be edited, and the curve-box will not be selectable if one of these "
 "curves is currently active."
 msgstr ""
+"O Curve Editor é acessado pressionando um gráfico ou selecionando a caixa de"
+" curva quando disponívell. Os tipos 1-1 e Curva fixa não podem ser editados "
+"e a caixa de curva não será selecionável se uma dessas curvas estiver ativa "
+"no momento."
 
 #: ../../source/ch_model.rst:437
 msgid ""
@@ -936,6 +950,10 @@ msgid ""
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
 msgstr ""
+"A página do Curve Editor será diferente dependendo da curva selecionada. Não"
+" é possível alterar o tipo de curva do editor (exceto quando uma curva "
+"multiponto é selecionada). Os valores podem ser definidos usando a caixa de "
+"rotação ou tocando no gráfico."
 
 #: ../../source/ch_model.rst:442
 msgid ""
@@ -944,18 +962,27 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"Para os valores Mín / Máx, Zero / Máx,> 0, <0 e ABSVAL, os controles "
+"permitem configurar o ponto de transição ao longo do eixo x. Um valor de "
+"\"0\" será simétrico em torno do eixo y, valores positivos ou negativos "
+"moverão o ponto central de acordo"
 
 #: ../../source/ch_model.rst:447
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
 msgstr ""
+"Para a curva Expo, os controles permitem configurar, de forma independente, "
+"a forma da curva para valores maiores ou menores que zero."
 
 #: ../../source/ch_model.rst:452
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
 msgstr ""
+"Para a curva Deadband, os controles permitem configurar de forma "
+"independente a largura da faixa morta para valores maiores ou menores que "
+"zero."
 
 #: ../../source/ch_model.rst:457
 msgid ""
@@ -965,10 +992,15 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"Para as curvas multipontos, cada ponto pode ser definido individualmente. Os"
+" pontos são definidos escolhendo o número do ponto e depois escolhendo um "
+"valor. O número mínimo de pontos permitidos é 3, o número máximo de pontos é"
+" 13. Ativar 'Smooth' irá aplicar uma função de suavização ao invés de "
+"conectar pontos através de linhas retas."
 
 #: ../../source/ch_model.rst:462
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "Temporizadores (Std e Adv GUI)"
 
 #: ../../source/ch_model.rst:476
 msgid ""
@@ -976,18 +1008,27 @@ msgid ""
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
+"A página do temporizador define até 4 temporizadores disponíveis. Os "
+"temporizadores podem contar para cima ou para baixo e podem ser ativados "
+"manualmente a partir da tela principal ou por um acionador de entrada "
+"(alavanca ou interruptor)."
 
 #: ../../source/ch_model.rst:479
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
+"Os cronômetros disponíveis são cronômetro, contagem regressiva, proporcional"
+" ao cronômetro, proporcional à contagem regressiva e permanente."
 
 #: ../../source/ch_model.rst:482
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
 msgstr ""
+"Os temporizadores também podem ser configurados opcionalmente para serem "
+"redefinidos por meio de um comutador alternativo (somente ao usar a GUI "
+"avançada)."
 
 #: ../../source/ch_model.rst:485
 msgid ""
@@ -995,6 +1036,10 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"Os dois timers proporcionais precisam de uma entrada entre 0 e 100 para agir"
+" corretamente. Se você usar esses temporizadores para aceleração, um mixer "
+"virtual deve ser usado como entrada para escalar -100 a 100 valores em 0 a "
+"100."
 
 #: ../../source/ch_model.rst:490
 msgid ""
@@ -1003,22 +1048,31 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"Os temporizadores \"permanentes\" são semelhantes a um odômetro e têm seus "
+"valores salvos no arquivo model.ini. Eles manterão seu valor anterior ao "
+"energizar o transmissor. Você pode ajustar o timer usando o botão 'Set to' e"
+" reiniciar pressionando o botão 'Reset'."
 
 #: ../../source/ch_model.rst:496
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "Configuração da telemetria (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:504
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
 msgstr ""
+"A página de configuração da telemetria permite especificar alarmes quando "
+"ocorrem eventos específicos de telemetria."
 
 #: ../../source/ch_model.rst:506
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
+"** Telemetria **: Especifique a entrada de telemetria a ser usada para "
+"controle de alarme. O conjunto de valores disponíveis dependerá do "
+"protocolo."
 
 #: ../../source/ch_model.rst:508
 msgid ""
@@ -1026,6 +1080,9 @@ msgid ""
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
 " once."
 msgstr ""
+"** Igualdade **: Pode ser '>' ou '<=' indicando se um valor acima ou abaixo "
+"do alvo causa um alarme. Pressionar o botão ENT reproduzirá o som do alarme "
+"uma ve"
 
 #: ../../source/ch_model.rst:509
 msgid ""
