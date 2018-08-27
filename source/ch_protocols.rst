@@ -290,6 +290,12 @@ Extended telemetry refers to the hub and S.Port Frsky telemetry sensors.  These 
 
 The FrskyX S.Port telemetry provides for connecting up to 16 sensors of the same type (e.g. battery voltage).  Deviation supports multiple sensors of the same type, but only one telemetry value is saved.  The value most recently received from all the sensors of the same type is reported.
 
+Telemetry values are reset on long press of the Up button while displaying the telemetry monitor page.  
+For Frsky telemetry this resets the vario altitude "ground level" to the next received telemetry value, 
+which zeroes the vario altitude telemetry value.  It also resets the battery discharge accumulator and minimum cell voltage.
+The ground level value is saved in the model file to save the setting through
+power cycles - the value is fairly constant during a single day of flying in stable air.
+
 *Telemetry test page*
 
 .. if:: devo8
