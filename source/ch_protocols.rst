@@ -212,6 +212,27 @@ is necessary to bind each model before the first use.
 The first channel normally controls the sheets and the second channel
 the rudder, but this may vary from model to model.
 
+Protocol: \*Bugs3
+------------------
+The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  |a7105-note| |mod-install-link|
+
+To bind first choose the bugs3 protocol and click Bind.  Then apply power to the aircraft.
+The bind dialog will disappear if bind is successful.  The aircraft's radio id is stored in the model
+Fixed ID field.  Do not change this value.
+
+Channels used for controlling functions. Set channel value greater than zero to activate.
+
+* Arming is controlled by Channel 5
+* Lights are controlled by Channel 6
+* Flip is controlled by Channel 7
+* Camera is controlled by Channel 8
+* Video is controlled by Channel 9
+
+Telemetry is supported for RSSI and voltage alarm. It uses the Frsky telemetry display with
+signal strength reported in the RSSI field and battery voltage in VOLT1.
+The bugs3 receiver only reports good/bad voltage. This is translated to VOLT1 values
+of 8.4V for good and 6.0V for low voltage.
+
 Protocol: \*Frsky-V8
 --------------------
 The Frsky-V8 protocol is used to control older Frsky™ receivers using the one-way protocol. |cc2500-note|
@@ -732,3 +753,58 @@ Deviation does not auto-detect when a trainer cord is plugged into the transmitt
 Protocol: USBHID
 ----------------
 The USBHID protocol will convert he transmitter into a USB joystick.  Connecting the transmitter to a PC via the USB cable will enable the transmitter to be detected as a joystick by the computer. This may be used to enable the transmitter to control any simulators that support joystick input. Some initial calibration may be necessary and is accomplished via the control panel applet of your operating system.
+
+Protocol: SBUS
+----------------
+The SBUS protocol sends serial data on the transmitter's trainer port (tip connector).  The trainer port ring is ground.
+On the T8SG PLUS transmitter the serial data also appears on the top pin in the JR module bay.
+The serial data is not inverted so an adapter may be needed for some SBUS equipment.
+Up to sixteen channels are supported.
+Data rate is 100kbps. Format is 8 data bits, even parity, two stop bits.
+
+Protocol: CRSF (Crossfire)
+--------------------------
+The CRSF protocol sends Crossfire protocol serial data on the transmitter's trainer port (tip connector).  The trainer port ring is ground.
+On the T8SG PLUS transmitter the serial data also appears on the top pin in the JR module bay.
+To enable telemetry the serial input must be tied to serial output.  For the trainer port tie tip to ring1.
+In the T8SG module bay tie the top and bottom pins together.
+Up to sixteen channels are supported.
+
+The CRSF bind and configuration operations are not yet supported.
+Use a PC to bind the Crossfire module and receiver before using with Deviation.
+
+Telemetry is not available on limited memory transmitters (7e, F4, F12).
+
+*Telemetry test page*
+
+.. if:: devo8
+
+.. image:: images/devo8/ch_protocols/crsf_telem.png
+   :width: 80%
+
+The CELL voltages are labeled C1-C5.
+
+.. endif::
+.. if:: devo10
+
+The following tables show the layout of the telemetry test page display.
+
+.. cssclass:: telemtable
+
+======== ======= =========
+      Devo10
+--------------------------
+ RX       TX      Bat 
+======== ======= =========
+RxRSSI   TxRSSI  VBATT
+RSSI2    TxPOWER CURRENT
+RxSNR    TxSNR   CAPACITY
+RxQUAL   TxQUAL  FMODE
+PITCH    ROLL    YAW
+RFMODE
+======== ======= =========
+
+.. endif::
+
+
+
