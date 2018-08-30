@@ -227,6 +227,7 @@ Channels used for controlling functions. Set channel value greater than zero to 
 * Flip is controlled by Channel 7
 * Camera is controlled by Channel 8
 * Video is controlled by Channel 9
+* Angle/Acro mode is controlled by Channel 10 (>0 is Angle)
 
 Telemetry is supported for RSSI and voltage alarm. It uses the Frsky telemetry display with
 signal strength reported in the RSSI field and battery voltage in VOLT1.
