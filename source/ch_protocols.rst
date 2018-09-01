@@ -170,29 +170,43 @@ Options configurable on the AFHDS-2A page:
 
 * **Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
 * **Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
+* **LQI output**: Output LQI to an optional channel
+* **Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for variances betweeen A7105 modules. Default 0. The LQI telemetry value can be used as a guide for adjusting the fine frequency protocol option.
 
-Partial telemetry support, only receiver voltage and RSSI in dB are supported for now.
+Telemetry is supported.
 
 Protocol: \*Hubsan4
 -------------------
-The Hubsan4 protocol supports the Hubsan-X4 quadracopter and the Estes
-Proto X (but not the Proto X SLT).  No other models have been tested with this protocol.  |a7105-note|
+This protocol is used on the Hubsan-X4 quadracopters of the H107 series, H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the Proto X SLT). (regular format).
 
-|mod-install-link|
+This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)
+
+This protocol is used on Hubsan H501S, H122D and H123D (H501 format)
+
+|a7105-note| |mod-install-link|
 
 .. image:: images/|target|/ch_protocols/hubsan.png
    :align: center
 
-The Hubsan4 protocol supports up to 7 channels, and only supports auto-binding.  The fixed ID can be used, but does not prevent auto-binding during power-on.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control the quadracopter special functions: 
+The Hubsan4 protocol supports up to 13 channels, regular format only supports auto-binding.  The fixed ID can be used, but does not prevent auto-binding during power-on.  The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  Additional channels control the quadracopter special functions: 
 
-* Channel 5 controls the LEDs
-* Channel 6 enables ‘flip’ mode
-* Channel 7 Turns video on/off
+With H301 and H501 format it is necessary to manually bind each model before the first use.
+
+* Channel 5 Controls the LEDs
+* Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending on format.
+* Channel 7 Turns video on/off (H102) or takes a snapshot
+* Channel 8 Takes a snapshot
+* Channel 9 Enables headless mode
+* Channel 10 Enables return to home
+* Channel 11 Enables GPS hold
+* Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)
+* Channel 13 Enables ‘flip’ mode (H122D)
 
 Options configurable on the Hubsan page:
 
 * **vTX MHz**: Defines the frequency used by the Hubsan H107D video transmitter (Requires a 5.8GHz receiver capable of receiving and displaying video).
 * **Telemetry**: Enable receiving of model battery voltage.
+* **Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for variances betweeen A7105 modules. Default 0.
 
 Protocol: \*Joysway
 -------------------
