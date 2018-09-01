@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-30 01:05+0000\n"
+"POT-Creation-Date: 2018-08-31 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -1774,14 +1774,17 @@ msgid ""
 "It is important if you have a 4 channel model, to configure that your model "
 "only has 4 channels, otherwise the throttle values can go crazy."
 msgstr ""
+"É importante que você tenha um modelo de 4 canais e que seja configurado "
+"para somente 4 canais e nada mais, caso contrário os valores de aceleração "
+"podem ficar simplesmente loucos."
 
 #: ../../source/ch_protocols.rst:608
 msgid "Protocol: \\*Esky"
-msgstr ""
+msgstr "Protocolo: \\*Esky"
 
 #: ../../source/ch_protocols.rst:609
 msgid "Needs to be completed. |nrf24l01-note|"
-msgstr ""
+msgstr "Precisa ser concluído. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:613
 msgid ""
@@ -1789,16 +1792,21 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"O protocolo Esky suporta até 6 canais, não suporta auto-Bind. Se o ID fixo "
+"estiver definido como Nenhum, será usado um ID específico do transmissor. É "
+"necessário Bindar manualmente cada modelo antes do primeiro uso."
 
 #: ../../source/ch_protocols.rst:619
 msgid "Protocol: \\*BlueFly"
-msgstr ""
+msgstr "Protocolo: \\*BlueFly"
 
 #: ../../source/ch_protocols.rst:620
 msgid ""
 "The BlueFly protocol is used with the Blue-Fly HP100. It has not been tested"
 " with any other models. |nrf24l01p-note|"
 msgstr ""
+"O protocolo BlueFly é usado com o Blue-Fly HP100. Não foi testado com nenhum"
+" outro modelo. | nrf24l01p-note |"
 
 #: ../../source/ch_protocols.rst:625
 msgid ""
@@ -1806,14 +1814,18 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"O protocolo BlueFly suporta até 6 canais, não suporta Bind automático. Se o "
+"ID fixo estiver definido como Nenhum, será usado um ID específico do "
+"transmissor. É necessário Bindar manualmente cada modelo antes do primeiro "
+"uso."
 
 #: ../../source/ch_protocols.rst:631
 msgid "Protocol: \\*CX10"
-msgstr ""
+msgstr "Protocolo: \\*CX10"
 
 #: ../../source/ch_protocols.rst:632
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
-msgstr ""
+msgstr "O formato CX10 suporta o quadcopter Cheerson CX10. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:636
 msgid ""
@@ -1821,141 +1833,161 @@ msgid ""
 "protocol stays in bind mode until successful. The first four channels are "
 "Aileron, Elevator, Throttle and Rudder."
 msgstr ""
+"O protocolo CX10 suporta 9 canais e suporta apenas Bind automático. O "
+"protocolo permanece no modo de Bind até ser bem sucedido. Os primeiros "
+"quatro canais são o Aileron, o Elevator, o Throttle e o Rudder."
 
 #: ../../source/ch_protocols.rst:640
 msgid "Channel 5 is Rate except on the CX-10A, where it is headless mode."
-msgstr ""
+msgstr "O canal 5 é a taxa, exceto no CX-10A, onde é o modo sem cabeça."
 
 #: ../../source/ch_protocols.rst:642
 msgid "Channel 6 is flip mode."
-msgstr ""
+msgstr "Canal 6 é o flip"
 
 #: ../../source/ch_protocols.rst:644
 msgid ""
 "The DM007 format also uses channel 7 for the still camera, channel 8 for the"
 " video camera and channel 9 for headless mode."
 msgstr ""
+"O formato DM007 também usa o canal 7 para a câmera fotográfica, o canal 8 "
+"para a câmera de vídeo e o canal 9 para o modo sem cabeça."
 
 #: ../../source/ch_protocols.rst:647
 msgid ""
 "The protocol has a Format option for the Blue-A, Green, DM007, Q282, "
 "JC3015-1, JC3015-2, MK33041 and Q242 quadcopters."
 msgstr ""
+"O protocolo tem uma opção de formato para os quadcopters Blue-A, Green, "
+"DM007, Q282, JC3015-1, JC3015-2, MK33041 e Q242."
 
 #: ../../source/ch_protocols.rst:651
 msgid "Protocol: \\*CG023"
-msgstr ""
+msgstr "Protocolo: \\*CG023"
 
 #: ../../source/ch_protocols.rst:652
 msgid ""
 "The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has "
 "not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"O protocolo CG023 suporta os quadcopters Eachine CG023 e 3D X4. Não foi "
+"testado em outros modelos. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:657
 msgid "The CG023 protocol supports 9 channels and only supports auto-binding."
-msgstr ""
+msgstr "O protocolo CG023 suporta 9 canais e aceita apenas Bing automático."
 
 #: ../../source/ch_protocols.rst:660 ../../source/ch_protocols.rst:684
 #: ../../source/ch_protocols.rst:714
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
 msgstr ""
+"Os primeiros quatro canais são o Aileron, o Elevator, o Throttle e o Rudder."
 
 #: ../../source/ch_protocols.rst:662 ../../source/ch_protocols.rst:686
 msgid "Channel 5 controls the LEDs."
-msgstr ""
+msgstr "Canal 5 controla os LEDs."
 
 #: ../../source/ch_protocols.rst:664 ../../source/ch_protocols.rst:688
 #: ../../source/ch_protocols.rst:718
 msgid "Channel 6 controls Flip mode."
-msgstr ""
+msgstr "Canal 6 controla o modoFflip."
 
 #: ../../source/ch_protocols.rst:666 ../../source/ch_protocols.rst:690
 #: ../../source/ch_protocols.rst:720
 msgid "Channel 7 controls the still camera"
-msgstr ""
+msgstr "Canal 7 controla a câmera fotográfica"
 
 #: ../../source/ch_protocols.rst:668 ../../source/ch_protocols.rst:692
 #: ../../source/ch_protocols.rst:722
 msgid "Channel 8 controls the video camera."
-msgstr ""
+msgstr "Canal 8 controla a câmera de vídeo"
 
 #: ../../source/ch_protocols.rst:670 ../../source/ch_protocols.rst:694
 #: ../../source/ch_protocols.rst:724
 msgid "Channel 9 controls headless mode."
-msgstr ""
+msgstr "Canal 9 controla o modo sem cabeça"
 
 #: ../../source/ch_protocols.rst:672
 msgid "The protocol has a Format option for the YD829 quadcopter."
-msgstr ""
+msgstr "O protocolo tem o formato para o quadcopter YD829."
 
 #: ../../source/ch_protocols.rst:675
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "Protocolo: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:676
 msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"O protocolo H8_3D suporta os quadcopters Eachine H8 3D, JJRC H20 e H11D. Não"
+" foi testado em outros modelos. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:681
 msgid ""
 "The H8_3D protocol supports 11 channels and only supports auto-binding."
-msgstr ""
+msgstr "O protocolo H8_3D suporta 11 canais e suporta apenas Bind automático."
 
 #: ../../source/ch_protocols.rst:696
 msgid "Channel 10 controls RTH mode."
-msgstr ""
+msgstr "Canal 10 aciona o RTH"
 
 #: ../../source/ch_protocols.rst:698
 msgid "Channel 11 controls camera gimball on H11D and has 3 positions."
-msgstr ""
+msgstr "O canal 11 controla o gimbal da câmera no H11D com 3 posições."
 
 #: ../../source/ch_protocols.rst:700
 msgid ""
 "Both sticks bottom left starts accelerometer calibration on H8 3D, or "
 "headless calibration on H20."
 msgstr ""
+"Ambos os sticks posicionados no canto inferior esquerdo iniciam a calibração"
+" do acelerômetro no H8 3D ou a calibração sem cabeça no H20."
 
 #: ../../source/ch_protocols.rst:702
 msgid ""
 "Both sticks bottom right starts accelerometer calibration on H20 and H11D."
 msgstr ""
+"Ambos os sticks no canto inferior direito iniciam a calibração do "
+"acelerômetro no H20 e H11D."
 
 #: ../../source/ch_protocols.rst:705
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "Protocolo: \\*MJXq"
 
 #: ../../source/ch_protocols.rst:706
 msgid ""
 "The MJXq protocol supports the MJX quadcopters. It also has format options "
 "for Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|"
 msgstr ""
+"O protocolo MJXq suporta os quadricopters MJX. Também tem opções de formato "
+"para Weilihua WLH08, EAchine E010 e JJRC H26D / H26WH. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:711
 msgid "The MJXq protocol supports 12 channels and only supports auto-binding."
-msgstr ""
+msgstr "O protocolo MJXq suporta 12 canais e suporta apenas Bind automático."
 
 #: ../../source/ch_protocols.rst:716
 msgid "Channel 5 controls LEDs, or arm if H26WH format is selected."
 msgstr ""
+"O canal 5 controla os LEDs ou armar se o formato H26WH estiver selecionado."
 
 #: ../../source/ch_protocols.rst:726
 msgid "Channel 10 controls RTH mode"
-msgstr ""
+msgstr "O canal 10 aciona o modo RTH"
 
 #: ../../source/ch_protocols.rst:728
 msgid "Channel 11 controls autoflip (X600 & X800 formats) or camera pan"
 msgstr ""
+"O canal 11 controla o autoflip (formatos X600 e X800) ou o pan da câmera"
 
 #: ../../source/ch_protocols.rst:730
 msgid "Channel 12 controls camera tilt"
-msgstr ""
+msgstr "O canal 12 controla o Tilt da camera"
 
 #: ../../source/ch_protocols.rst:733
 msgid "Protocol: PPM"
-msgstr ""
+msgstr "Protocolo: PPM"
 
 #: ../../source/ch_protocols.rst:734
 msgid ""
@@ -1964,10 +1996,14 @@ msgid ""
 "other radio-modules that plug into the trainer port.  The Fixed ID has no "
 "effect, and there is no binding associated with this protocol."
 msgstr ""
+"O protocolo PPM é usado para gerar o PPM na porta do instrutor. Ele desativa"
+" todas as transmissões de rádio. O PPM é útil para conectar a simuladores ou"
+" outros módulos de rádio que se conectam à porta do instrutor. O ID fixo não"
+" tem efeito e não há bindagem associada a esse protocolo."
 
 #: ../../source/ch_protocols.rst:741
 msgid "Options configurable on the PPM page:"
-msgstr ""
+msgstr "Opções configuráveis na página PPM:"
 
 #: ../../source/ch_protocols.rst:744
 msgid ""
@@ -1975,6 +2011,9 @@ msgid ""
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
 msgstr ""
+"** Centro PW **: Define o tempo (em µsec) do pulso que o transmissor envia "
+"para representar a posição centralizada do servo. Se esse número não "
+"corresponder ao transmissor mestre, os servos não serão centralizados."
 
 #: ../../source/ch_protocols.rst:746
 msgid ""
@@ -1982,15 +2021,21 @@ msgid ""
 "the transmitter to define max servo throw.  If this value is incorrect, the "
 "servos will not achieve full range (or will travel too much)"
 msgstr ""
+"** Delta PW **: Define a largura do pulso (medido a partir do centro) "
+"enviado pelo transmissor para definir o limite máximo do servo. Se este "
+"valor estiver incorreto, os servos não atingirão o alcance total (ou irão "
+"girar muito e sem controle)"
 
 #: ../../source/ch_protocols.rst:748
 msgid "**Notch PW**: Defines the delay between the channels."
-msgstr ""
+msgstr "** Notch PW **: Define o delay entre os canais."
 
 #: ../../source/ch_protocols.rst:750
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr ""
+"** Tamanho do Quadro **: Define o tempo total para que todos os canais sejam"
+" acionados"
 
 #: ../../source/ch_protocols.rst:752
 msgid ""
@@ -1999,10 +2044,15 @@ msgid ""
 "new model, name it appropriately, and select PPM as the protocol.  Use the "
 "Re-Init button or power-cycle to enable PPM."
 msgstr ""
+"O Deviation não detecta automaticamente quando um cabo de instrutor é "
+"conectado ao transmissor. Para usar o Deviation com um simulador (como o "
+"Phoenix por exemplo), crie um novo modelo, nomeie-o adequadamente e "
+"selecione PPM como o protocolo. Use o botão Re-Init ou desligue e religue o "
+"transmissor para ativar o PPM."
 
 #: ../../source/ch_protocols.rst:757
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "Protocolo: USBHID"
 
 #: ../../source/ch_protocols.rst:758
 msgid ""
@@ -2013,10 +2063,16 @@ msgid ""
 "input. Some initial calibration may be necessary and is accomplished via the"
 " control panel applet of your operating system."
 msgstr ""
+"O protocolo USBHID converterá o transmissor em um joystick USB. Conectar o "
+"transmissor a um PC via cabo USB permitirá que o transmissor seja detectado "
+"como um joystick pelo computador. Isso permite que o transmissor controle "
+"qualquer simulador que suporte a entrada por joystick. Alguma calibração "
+"inicial pode ser necessária e é realizada através do applet do painel de "
+"controle do seu sistema operacional e/ou simulador."
 
 #: ../../source/ch_protocols.rst:761
 msgid "Protocol: SBUS"
-msgstr ""
+msgstr "Protocolo: SBUS"
 
 #: ../../source/ch_protocols.rst:762
 msgid ""
@@ -2027,10 +2083,17 @@ msgid ""
 "Up to sixteen channels are supported. Data rate is 100kbps. Format is 8 data"
 " bits, even parity, two stop bits."
 msgstr ""
+"O protocolo SBUS envia dados seriais na porta de treinamento do transmissor "
+"(conector de ponta). O link entre os dois permanece desligado. No "
+"transmissor T8SG PLUS, os dados seriais também aparecem no pino superior no "
+"conector do módulo JR. Os dados seriais não estão invertidos, portanto, um "
+"adaptador pode ser necessário para alguns equipamentos SBUS. Até dezesseis "
+"canais são suportados. A taxa de dados é de 100kbps. Formato é 8 bits de "
+"dados, paridade par, dois bits de parada."
 
 #: ../../source/ch_protocols.rst:769
 msgid "Protocol: CRSF (Crossfire)"
-msgstr ""
+msgstr "Protocool: CRSF (Crossfire)"
 
 #: ../../source/ch_protocols.rst:770
 msgid ""
@@ -2041,65 +2104,76 @@ msgid ""
 "output.  For the trainer port tie tip to ring1. In the T8SG module bay tie "
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
+"O protocolo CRSF envia dados seriais no padrão Crossfire na porta de "
+"treinamento do transmissor. O link estará desligado. No transmissor T8SG "
+"PLUS, os dados seriais também aparecem no pino superior do conector do "
+"módulo JR. Para ativar a telemetria, a entrada serial deve estar vinculada à"
+" saída serial. No compartimento do módulo T8SG, junte os pinos superior e "
+"inferior. Até dezesseis canais são suportados."
 
 #: ../../source/ch_protocols.rst:776
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
+"As operações de Bind e configuração de CRSF ainda não são suportadas. Use um"
+" PC para ligar o módulo Crossfire e o receptor antes de usar com o "
+"Deviation."
 
 #: ../../source/ch_protocols.rst:779
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
+"A telemetria não está disponível em transmissores de pouca memória (7e, F4, "
+"F12)."
 
 #: ../../source/ch_protocols.rst:797
 msgid "RX"
-msgstr ""
+msgstr "RX"
 
 #: ../../source/ch_protocols.rst:797
 msgid "TX"
-msgstr ""
+msgstr "TX"
 
 #: ../../source/ch_protocols.rst:799
 msgid "RxRSSI"
-msgstr ""
+msgstr "RxRSSI"
 
 #: ../../source/ch_protocols.rst:799
 msgid "TxRSSI"
-msgstr ""
+msgstr "TxRSSI"
 
 #: ../../source/ch_protocols.rst:799
 msgid "VBATT"
-msgstr ""
+msgstr "VBATT"
 
 #: ../../source/ch_protocols.rst:800
 msgid "RSSI2"
-msgstr ""
+msgstr "RASSI1"
 
 #: ../../source/ch_protocols.rst:800
 msgid "TxPOWER"
-msgstr ""
+msgstr "TxPOWER"
 
 #: ../../source/ch_protocols.rst:801
 msgid "RxSNR"
-msgstr ""
+msgstr "RxSNR"
 
 #: ../../source/ch_protocols.rst:801
 msgid "TxSNR"
-msgstr ""
+msgstr "TxSNR"
 
 #: ../../source/ch_protocols.rst:801
 msgid "CAPACITY"
-msgstr ""
+msgstr "CAPACITY"
 
 #: ../../source/ch_protocols.rst:802
 msgid "RxQUAL"
-msgstr ""
+msgstr "RxQUAL"
 
 #: ../../source/ch_protocols.rst:802
 msgid "TxQUAL"
-msgstr ""
+msgstr "TxQUAL"
 
 #: ../../source/ch_protocols.rst:802
 msgid "FMODE"
@@ -2107,16 +2181,16 @@ msgstr "FMODE"
 
 #: ../../source/ch_protocols.rst:803
 msgid "PITCH"
-msgstr ""
+msgstr "PITCH"
 
 #: ../../source/ch_protocols.rst:803
 msgid "ROLL"
-msgstr ""
+msgstr "ROLL"
 
 #: ../../source/ch_protocols.rst:803
 msgid "YAW"
-msgstr ""
+msgstr "AW"
 
 #: ../../source/ch_protocols.rst:804
 msgid "RFMODE"
-msgstr ""
+msgstr "RFMODE"

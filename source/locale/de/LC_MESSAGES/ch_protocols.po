@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-30 00:27+0000\n"
+"POT-Creation-Date: 2018-08-31 01:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: TheRealMoeder, 2017\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -684,13 +684,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:216
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "Protokoll: \\*Bugs3"
 
 #: ../../source/ch_protocols.rst:217
 msgid ""
 "The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  "
 "|a7105-note| |mod-install-link|"
 msgstr ""
+"Das Bugs3 Protokoll wird für den MJX Bugs3 und Bugs8 verwendet.  "
+"|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:219
 msgid ""
@@ -699,36 +701,43 @@ msgid ""
 "aircraft's radio id is stored in the model Fixed ID field.  Do not change "
 "this value."
 msgstr ""
+"Zur Bindung zunächst das Bugs3-Protokoll wählen und Binden drücken. "
+"Anschließend das Modell an die Stromversorgung anschließen. Der "
+"Verbindungsdialog verschwindet, sobald die Bindung erfolgreich war. Die ID "
+"des Modells wird automatisch im Feld fixed ID gespeichert. Dieser Wert darf "
+"nicht geändert werden."
 
 #: ../../source/ch_protocols.rst:223
 msgid ""
 "Channels used for controlling functions. Set channel value greater than zero"
 " to activate."
 msgstr ""
+"Die folgenden Kanäle werden für Sonderfunktionen verwendet. Eine Kanalwert "
+"größer als null aktiviert die Funktion."
 
 #: ../../source/ch_protocols.rst:225
 msgid "Arming is controlled by Channel 5"
-msgstr ""
+msgstr "Aktivieren wird von Kanal 5 gesteuert"
 
 #: ../../source/ch_protocols.rst:226
 msgid "Lights are controlled by Channel 6"
-msgstr ""
+msgstr "Lichter werden von Kanal 6 gesteuert"
 
 #: ../../source/ch_protocols.rst:227
 msgid "Flip is controlled by Channel 7"
-msgstr ""
+msgstr "Flip wird von Kanal 7 gesteuert"
 
 #: ../../source/ch_protocols.rst:228
 msgid "Camera is controlled by Channel 8"
-msgstr ""
+msgstr "Kamera wird von Kanal 8 gesteuert"
 
 #: ../../source/ch_protocols.rst:229
 msgid "Video is controlled by Channel 9"
-msgstr ""
+msgstr "Video wird von Kanal 9 gesteuert"
 
 #: ../../source/ch_protocols.rst:230
 msgid "Angle/Acro mode is controlled by Channel 10 (>0 is Angle)"
-msgstr ""
+msgstr "Angle/Acro-Modus wird von Kanal 10 gesteuert (>0 ist Angle-Modus)"
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
@@ -738,6 +747,11 @@ msgid ""
 "This is translated to VOLT1 values of 8.4V for good and 6.0V for low "
 "voltage."
 msgstr ""
+"Telemetrie wird für RSSI und Spannungsalarm unterstützt. Es verwendet den "
+"FrSky Telemetriebildschirm, die Signalstärke wird im RSSI-Feld angezeigt und"
+" die Batteriespannung in VOLT1. Der Bugs3-Empfänger sendet nur eine "
+"ausreichende oder zu niedrige Spannung. Dies wird im VOLT1-Feld als 8.4V für"
+" ausreichend oder 6.0V für niedrige Spannung umgesetzt."
 
 #: ../../source/ch_protocols.rst:238
 msgid "Protocol: \\*Frsky-V8"
@@ -989,6 +1003,13 @@ msgid ""
 " model file to save the setting through power cycles - the value is fairly "
 "constant during a single day of flying in stable air."
 msgstr ""
+"Telemetriewerte werden mit langem Druck auf die \"Hoch\"-Taste [up] während "
+"der Anzeige der Telemetrieseite zurückgesetzt. Für Frsky Telemetrie wird "
+"hiermit die Variometer-Nullhöhe auf den nächsten empfangenen Wert gesetzt. "
+"Außerdem werden der Batterieentladungszähler und die minimale Zellenspannung"
+" zurückgesetzt. Die Variometer-Nullhöhe wird in der Modelldatei gespeichert,"
+" sodass er nach dem Wiedereinschalten direkt zur Verfügung steht - der Wert "
+"ist im Verlaufe eines Tages bei stabilem Luftdruck relativ konstant."
 
 #: ../../source/ch_protocols.rst:300 ../../source/ch_protocols.rst:781
 msgid "*Telemetry test page*"
@@ -2095,7 +2116,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:761
 msgid "Protocol: SBUS"
-msgstr ""
+msgstr "Protokoll: SBUS"
 
 #: ../../source/ch_protocols.rst:762
 msgid ""
@@ -2106,10 +2127,17 @@ msgid ""
 "Up to sixteen channels are supported. Data rate is 100kbps. Format is 8 data"
 " bits, even parity, two stop bits."
 msgstr ""
+"Das SBUS-Protokoll sendet serielle Daten auf dem DSC/Trainer-Port des "
+"Senders (Spitze des Klinkensteckers). Der Ring der Steckers führt Masse. Auf"
+" dem T8SG PLUS Sender sind die seriellen Daten auch auf dem obersten Pin des"
+" JR-Schachts verfügbar. Die seriellen Daten sind nicht invertiert, sodass "
+"für manche SBUS-Geräte ein zusätzlicher Adapter erforderlich ist. Bis zu 16 "
+"Kanäle werden unterstützt. Die Datenrate beträgt 100 kbps. Das Format ist 8 "
+"Datenbits, Parität gerade, zwei Stopp-Bits."
 
 #: ../../source/ch_protocols.rst:769
 msgid "Protocol: CRSF (Crossfire)"
-msgstr ""
+msgstr "Protokoll: CRSF (Crossfire)"
 
 #: ../../source/ch_protocols.rst:770
 msgid ""
@@ -2120,65 +2148,78 @@ msgid ""
 "output.  For the trainer port tie tip to ring1. In the T8SG module bay tie "
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
+"Das CRSF-Protokoll sendet serielle Daten des Crossfire-Protokolls auf dem "
+"DSC-Port des Senders (Spitze des Klinkensteckers). Der Ring des Steckers "
+"führt Masse. Auf dem T8SG PLUS Sender sind die seriellen Daten auch auf dem "
+"obersten Pin des JR-Schachts verfügbar. Um Telemtrie zu aktivieren, muss der"
+" serielle Ausgang mit dem seriellen Eingang verbunden werden. Verbinden Sie "
+"hierfür die Spitze des DSC-Steckers mit Ring1 des Steckers. Im T8SG-"
+"Modulschacht müssen der oberste und der unterste Pin verbunden werden. Bis "
+"zu 16 Kanäle werden unterstützt."
 
 #: ../../source/ch_protocols.rst:776
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
+"Die CRSF Bindungs- und Konfigurationsmöglichkeiten werden noch nicht "
+"unterstützt. Verwenden Sie einen Computer um ihr Crossfire-Modul mit einem "
+"Empfänger zu Verbindung, bevor Sie es in Deviation verwenden wollen."
 
 #: ../../source/ch_protocols.rst:779
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
+"Telemetrie is auf den Sendern mit begrenztem Speicher nicht verfügbar (7e, "
+"F4, F12)."
 
 #: ../../source/ch_protocols.rst:797
 msgid "RX"
-msgstr ""
+msgstr "RX"
 
 #: ../../source/ch_protocols.rst:797
 msgid "TX"
-msgstr ""
+msgstr "TX"
 
 #: ../../source/ch_protocols.rst:799
 msgid "RxRSSI"
-msgstr ""
+msgstr "RxRSSI"
 
 #: ../../source/ch_protocols.rst:799
 msgid "TxRSSI"
-msgstr ""
+msgstr "TxRSSI"
 
 #: ../../source/ch_protocols.rst:799
 msgid "VBATT"
-msgstr ""
+msgstr "VBATT"
 
 #: ../../source/ch_protocols.rst:800
 msgid "RSSI2"
-msgstr ""
+msgstr "RSSI2"
 
 #: ../../source/ch_protocols.rst:800
 msgid "TxPOWER"
-msgstr ""
+msgstr "TxPOWER"
 
 #: ../../source/ch_protocols.rst:801
 msgid "RxSNR"
-msgstr ""
+msgstr "RxSNR"
 
 #: ../../source/ch_protocols.rst:801
 msgid "TxSNR"
-msgstr ""
+msgstr "TxSNR"
 
 #: ../../source/ch_protocols.rst:801
 msgid "CAPACITY"
-msgstr ""
+msgstr "CAPACITY"
 
 #: ../../source/ch_protocols.rst:802
 msgid "RxQUAL"
-msgstr ""
+msgstr "RxQUAL"
 
 #: ../../source/ch_protocols.rst:802
 msgid "TxQUAL"
-msgstr ""
+msgstr "TxQUAL"
 
 #: ../../source/ch_protocols.rst:802
 msgid "FMODE"
@@ -2186,16 +2227,16 @@ msgstr "FMODE"
 
 #: ../../source/ch_protocols.rst:803
 msgid "PITCH"
-msgstr ""
+msgstr "PITCH"
 
 #: ../../source/ch_protocols.rst:803
 msgid "ROLL"
-msgstr ""
+msgstr "ROLL"
 
 #: ../../source/ch_protocols.rst:803
 msgid "YAW"
-msgstr ""
+msgstr "YAW"
 
 #: ../../source/ch_protocols.rst:804
 msgid "RFMODE"
-msgstr ""
+msgstr "RFMODE"
