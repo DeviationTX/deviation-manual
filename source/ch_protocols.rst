@@ -170,8 +170,10 @@ Options configurable on the AFHDS-2A page:
 
 * **Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, PWM+SBUS or PPM+SUBS
 * **Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz
+* **LQI output**: Output LQI to an optional channel
+* **Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for variances betweeen A7105 modules. Default 0. The LQI telemetry value can be used as a guide for adjusting the fine frequency protocol option.
 
-Partial telemetry support, only receiver voltage and RSSI in dB are supported for now.
+Telemetry is supported.
 
 Protocol: \*Hubsan4
 -------------------
