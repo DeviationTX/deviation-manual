@@ -399,6 +399,19 @@ The following protocol options are available.
 **Freq-fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0.
 
 
+Protocol: \*Hitec
+-------------------------
+The Hitec protocol supports Optima and Minima receivers. |cc2500-note| |mod-install-link|
+
+The protocol supports up to 9 channels.  Default channel order is AETR.  Telemetry is supported using the Frsky telemetry layout.  The following values are supported: VOLT1, VOLT2, CURRENT, TEMP1, TEMP2, FUEL, RPM, LRSSI, LQI, and GPS (latitude, longitude, altitude, speed, heading).  Receiver RSSI is not available in this protocol.
+
+The following protocol options are available.
+
+**Format**: Receiver selection for Optima or Minima.
+
+**Freq-fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0.
+
+
 Protocol: \*V202
 ----------------
 The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|
