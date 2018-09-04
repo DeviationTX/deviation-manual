@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-02 01:05+0000\n"
+"POT-Creation-Date: 2018-09-03 01:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -36,7 +36,7 @@ msgstr ""
 "protocolos é descrito abaixo. Um asterisco (‘*’) antes do nome do protocolo "
 "no cabeçalho da seção significa que um módulo de hardware deve ser "
 "adicionado ao transmissor para suportar o protocolo. Na tela do transmissor,"
-" o asterisco significa que o desvio não detecta o módulo necessário (não "
+" o asterisco significa que o Deviation não detecta o módulo necessário (não "
 "instalado, o hardware.ini não está correto ou outro problema de comunicação "
 "com o módulo). Mais informações podem ser encontradas no guia de instalação "
 "do módulo:"
@@ -574,7 +574,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:173
 msgid "**LQI output**: Output LQI to an optional channel"
-msgstr ""
+msgstr "** Saída LQI **: Saída LQI para canal opcional"
 
 #: ../../source/ch_protocols.rst:174
 msgid ""
@@ -582,10 +582,14 @@ msgid ""
 "variances betweeen A7105 modules. Default 0. The LQI telemetry value can be "
 "used as a guide for adjusting the fine frequency protocol option."
 msgstr ""
+"** Freq-fine **: Ajuste de desvio de frequência. Intervalo de -300 a 300. "
+"Ajusta para variações entre os módulos A7105. Padrão 0. O valor de "
+"telemetria do LQI pode ser usado como um guia para ajustar a opção de "
+"protocolo de frequência fina."
 
 #: ../../source/ch_protocols.rst:176
 msgid "Telemetry is supported."
-msgstr ""
+msgstr "Aceita Telemetria"
 
 #: ../../source/ch_protocols.rst:179
 msgid "Protocol: \\*Hubsan4"
@@ -597,19 +601,23 @@ msgid ""
 "H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the "
 "Proto X SLT). (regular format)."
 msgstr ""
+"Este protocolo é usado nos quadracópteros Hubsan-X4 dos helicópteros da "
+"série H107, H111, H101, H102, H201, H202 e no Estes Proto X (mas não no "
+"Proto X SLT). (formato padrão)."
 
 #: ../../source/ch_protocols.rst:182
 msgid ""
 "This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)"
 msgstr ""
+"Este protocolo é usado no Hubsan H301F, H302F, H303F e H304F (formato H301)"
 
 #: ../../source/ch_protocols.rst:184
 msgid "This protocol is used on Hubsan H501S, H122D and H123D (H501 format)"
-msgstr ""
+msgstr "Este protocolo é usado no Hubsan H501S, H122D e H123D (formato H501)"
 
 #: ../../source/ch_protocols.rst:186
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "| a7105-note | | mod-install-link |"
 
 #: ../../source/ch_protocols.rst:191
 msgid ""
@@ -619,50 +627,59 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
+"O protocolo Hubsan4 suporta até 13 canais, o formato padrão suporta apenas a"
+" Bind automático. O ID fixo pode ser usado, mas não impede o Bind automático"
+" durante a inicialização. Os canais da 1 a 4 representam o Aileron, o "
+"Elevator, o Throttle e o Rudder. Canais adicionais controlam as funções "
+"especiais do quadricoptero:"
 
 #: ../../source/ch_protocols.rst:193
 msgid ""
 "With H301 and H501 format it is necessary to manually bind each model before"
 " the first use."
 msgstr ""
+"Com o formato H301 e H501, é necessário vincular manualmente cada modelo "
+"antes do primeiro uso"
 
 #: ../../source/ch_protocols.rst:195
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "O canal 5 controla dos LEDs"
 
 #: ../../source/ch_protocols.rst:196
 msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
 msgstr ""
+"Canal 6 Permite o modo \"flip\" ou modo de espera ou estabilizado, "
+"dependendo do formato."
 
 #: ../../source/ch_protocols.rst:197
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
-msgstr ""
+msgstr "Canal 7 Liga ou desliga o vídeo (H102) ou tira fotografias"
 
 #: ../../source/ch_protocols.rst:198
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "Canal 8 tira uma fotografia"
 
 #: ../../source/ch_protocols.rst:199
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "Canal 9 Ativa o modo sem cabeça"
 
 #: ../../source/ch_protocols.rst:200
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "Canal 10 ativa o RTH"
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "Canal 11 Permite o nivelamento por GPS"
 
 #: ../../source/ch_protocols.rst:202
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
-msgstr ""
+msgstr "Canal 12 Define Sport 1, Sport 2 ou modo Acro (H123D)"
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 13 Enables ‘flip’ mode (H122D)"
-msgstr ""
+msgstr "Canal 13 Permite o modo \"flip\" (H122D)"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Options configurable on the Hubsan page:"
@@ -686,6 +703,8 @@ msgid ""
 "**Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for "
 "variances betweeen A7105 modules. Default 0."
 msgstr ""
+"** Freq-fine **: Ajuste de desvio de frequência. Intervalo de -300 a 300. "
+"Ajusta para variações entre os módulos A7105. Padrão 0"
 
 #: ../../source/ch_protocols.rst:212
 msgid "Protocol: \\*Joysway"
@@ -1027,7 +1046,7 @@ msgid ""
 "recently received from all the sensors of the same type is reported."
 msgstr ""
 "A telemetria FrskyX S.Port permite conectar até 16 sensores do mesmo tipo "
-"(por exemplo, voltagem da bateria). O desvio suporta vários sensores do "
+"(por exemplo, voltagem da bateria). O Deviation suporta vários sensores do "
 "mesmo tipo, mas apenas um valor de telemetria é salvo. O valor mais "
 "recentemente recebido de todos os sensores do mesmo tipo é relatado."
 
