@@ -118,6 +118,12 @@ Protocol: J6Pro
 ---------------
 The J6Pro protocol is used to support Nine Eagles™ models.  Only models compatible with the J6Pro transmitter can be used.  Many older 4-channel Nine Eagles models used a different protocol that is unsupported.  The J6Pro protocol supports up to 12 channels, although only models with 6 channels have been tested.  J6Pro does not support auto-binding.  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It is necessary to manually bind each model before the first use.
 
+Protocol: WFLY
+-------------------------
+The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S.
+
+The protocol supports up to 9 channels.  Default channel order is AETR.
+
 Protocol: \*Flysky
 ------------------
 The Flysky protocol is used to control Turnigy/Flysky receivers as well as a few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc).  |a7105-note|
