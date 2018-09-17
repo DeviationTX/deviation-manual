@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 09:22+0000\n"
+"POT-Creation-Date: 2018-09-14 01:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -370,6 +370,14 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
+"Le protocole DSMX est utilisé pour commander de nombreux récepteurs des "
+"marques Spektrum™ et JR™ , mais aussi d'autres modèles utilisant ce "
+"protocole. Il supporte jusque 12 canaux. Note: de nombreux récepteurs ayant "
+"moins de 8 canaux requièrent que l'émetteur ne transmette que 7 canaux ou "
+"moins. S'assurer que le nombre de canaux est approprié pour le récepteur. L"
+"'auto-appairage n'est pas possible avec ce protocole. Si l'ID Fixe est mis à"
+" 'Néant' l'émetteur utilisera un identifiant qui lui est spécifique. Il est "
+"nécessaire d'appairer chaque nouveau modèle avant la première utilisation."
 
 #: ../../source/ch_protocols.rst:108
 msgid ""
@@ -423,17 +431,21 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr ""
+msgstr "Protocole: WFLY"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
 msgstr ""
+"Le protocole WFLY supporte les récepteurs WFLY comme les WFR04S, WFR07S et "
+"WFR09S."
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
 "The protocol supports up to 9 channels.  Default channel order is AETR."
 msgstr ""
+"Le protocole accepte jusqu'à 9 canaux. L'ordre par défaut des canaux est "
+"AETR - Ailerons Profondeur Gaz Direction."
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
@@ -566,6 +578,9 @@ msgid ""
 "binding. The receiver must be bound manually one-time using the ‘Bind’ "
 "button, after which it should stay bound."
 msgstr ""
+"Le protocole AFHDS-2A  supporte jusqu'à 14 canaux et nécessite un appairage "
+"manuel. Le récepteur doit être appairé manuellement une fois en utilisant le"
+" bouton 'Réinit'; après quoi il devrait rester appairé. "
 
 #: ../../source/ch_protocols.rst:175
 msgid "Options configurable on the AFHDS-2A page:"
@@ -587,6 +602,8 @@ msgstr ""
 #: ../../source/ch_protocols.rst:179
 msgid "**LQI output**: Output LQI to an optional channel"
 msgstr ""
+"**Sortie LQI**: -LQi Output- Envoie le LQI -Link Quality Indicator, "
+"Indicateur de qualité de lien sur un canal optionnel."
 
 #: ../../source/ch_protocols.rst:180
 msgid ""
@@ -594,10 +611,14 @@ msgid ""
 "variances betweeen A7105 modules. Default 0. The LQI telemetry value can be "
 "used as a guide for adjusting the fine frequency protocol option."
 msgstr ""
+"**Freq-fine**: Ajustement du décalage de fréquence. Intervalle -300 à 300. "
+"Ajuste les différences entre les modules A7105. La valeur par défaut est 0. "
+"la valeur télémétrique LQI (qualité d'appairage) peut être utilisée comme "
+"guide pour cet ajustement fin de fréquence."
 
 #: ../../source/ch_protocols.rst:182
 msgid "Telemetry is supported."
-msgstr ""
+msgstr "La télémétrie est prise en charge."
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
@@ -609,19 +630,26 @@ msgid ""
 "H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the "
 "Proto X SLT). (regular format)."
 msgstr ""
+"Ce protocole est utilisé sur les  Hubssan-X4 quadricoptères  séries H107 et "
+"H111 et hélicoptères H101,H102, H201, H202 et des Estes Proto X (mais pas le"
+" Proto X SLT). (format standard)"
 
 #: ../../source/ch_protocols.rst:188
 msgid ""
 "This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)"
 msgstr ""
+"Ce protocole est utilisé sur les Hubsan H301F, H302F, H303F et H304F ( "
+"format H301)"
 
 #: ../../source/ch_protocols.rst:190
 msgid "This protocol is used on Hubsan H501S, H122D and H123D (H501 format)"
 msgstr ""
+"Ce protocole est utilisé sur les Hubsan H501S, H122D and H123D ( format "
+"H501)"
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:197
 msgid ""
@@ -631,50 +659,63 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
+"Le protocole Hubsan4 supporte jusqu'à 13 canaux, et seul le format standard "
+"accepte l'auto-appairage. L' ID fixe peut être utilisée, mais n'empêche pas "
+"l'auto-appairage durant la mise sous tension. Les 4 premiers canaux "
+"représentent ailerons, profondeur, gaz et dérive . Les canaux additionnels "
+"contrôlent les fonctions spéciales des quadricoptère."
 
 #: ../../source/ch_protocols.rst:199
 msgid ""
 "With H301 and H501 format it is necessary to manually bind each model before"
 " the first use."
 msgstr ""
+"Avec les formats H301 et H305 Il faut appairer manuellement chaque modèle "
+"avant la première utilisation."
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "Le Canal 5 contrôle les Leds."
 
 #: ../../source/ch_protocols.rst:202
 msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
 msgstr ""
+"Le canal 6 permet le mode 'flip' ou le maintien d'altitude ou le mode "
+"stabilisé, en fonction de la version."
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
 msgstr ""
+"Le canal 7 contrôle la mise sous/hors tension de la vidéo(H102) ou prend une"
+" photo.."
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "Le canal 8 prend une photo."
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
 msgstr ""
+"Le canal 9 contrôle le mode de contrôle d'orientation intelligent - "
+"[headless}"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "Le canal 10 active la fonction retour au départ."
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "Le canal 11 permet le maintien GPS"
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
-msgstr ""
+msgstr "Le canal 12 détermine le mode Sport 1, Sport 2 ou Acro. (H123D)"
 
 #: ../../source/ch_protocols.rst:209
 msgid "Channel 13 Enables ‘flip’ mode (H122D)"
-msgstr ""
+msgstr "Le canal 13 permet le mode 'flip'."
 
 #: ../../source/ch_protocols.rst:211
 msgid "Options configurable on the Hubsan page:"
@@ -700,6 +741,8 @@ msgid ""
 "**Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for "
 "variances betweeen A7105 modules. Default 0."
 msgstr ""
+"**Freq-fine**: Ajustement du décalage de fréquence. Intervalle -300 à 300. "
+"Ajuste les différences entre les modules A7105. La valeur par défaut est 0. "
 
 #: ../../source/ch_protocols.rst:218
 msgid "Protocol: \\*Joysway"
@@ -740,13 +783,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:236
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "Protocole: \\*Bugs3"
 
 #: ../../source/ch_protocols.rst:237
 msgid ""
 "The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  "
 "|a7105-note| |mod-install-link|"
 msgstr ""
+"Le protocole Bugs3 est utilisé pour controler les avions MJX Bugs3 et Bugs8 . \n"
+"|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:239
 msgid ""
@@ -755,36 +800,45 @@ msgid ""
 "aircraft's radio id is stored in the model Fixed ID field.  Do not change "
 "this value."
 msgstr ""
+"Pour appairer, sélectionner le protocole Bugs3 et cliquer sur Appairer. Puis"
+" mettre l'avion sous tension. La boite de dialoguer d'appairage disparaitra "
+"si l'appairage est effectif. l' identification de la radio de l'avion est "
+"enregistrée dans le champ ID fixd. Ne pas changer cette valeur."
 
 #: ../../source/ch_protocols.rst:243
 msgid ""
 "Channels used for controlling functions. Set channel value greater than zero"
 " to activate."
 msgstr ""
+"Canaux utilisés pour contrôler les fonctions. Fixer une valeur de canal plus"
+" grande que zéro pour activer."
 
 #: ../../source/ch_protocols.rst:245
 msgid "Arming is controlled by Channel 5"
-msgstr ""
+msgstr "L'armement est contrôlé par le canal 5."
 
 #: ../../source/ch_protocols.rst:246
 msgid "Lights are controlled by Channel 6"
-msgstr ""
+msgstr "Les lumières sont contrôlées par le canal 6."
 
 #: ../../source/ch_protocols.rst:247
 msgid "Flip is controlled by Channel 7"
-msgstr ""
+msgstr "Le Flip est contrôlé par le canal 7."
 
 #: ../../source/ch_protocols.rst:248
 msgid "Camera is controlled by Channel 8"
-msgstr ""
+msgstr "La camera est contrôlée par le canal 8"
 
 #: ../../source/ch_protocols.rst:249
 msgid "Video is controlled by Channel 9"
 msgstr ""
+"La vidéo est contrôlée par le canal 9\n"
+"."
 
 #: ../../source/ch_protocols.rst:250
 msgid "Angle/Acro mode is controlled by Channel 10 (>0 is Angle)"
 msgstr ""
+"Les modes  Angle et Acro sont contrôlés par le canal 10. (>0 pour Angle)"
 
 #: ../../source/ch_protocols.rst:252
 msgid ""
@@ -794,6 +848,11 @@ msgid ""
 "This is translated to VOLT1 values of 8.4V for good and 6.0V for low "
 "voltage."
 msgstr ""
+"Les fonctions de télémétrie supportées sont RSSI et alarme de voltage. Ils "
+"utilisent l'affichage de télémétrie Frsky. La force de signal est affichée "
+"dans le champ RSSI et le voltage de la batterie dans le champ VOLT. Les "
+"récepteurs Bugs3 affichent uniquement un voltage bon ou faible. Cela est "
+"traduit en VOLT1 par des valeurs de 8.4 pour bon et 6.0  pour mauvais."
 
 #: ../../source/ch_protocols.rst:258
 msgid "Protocol: \\*Frsky-V8"
@@ -893,6 +952,11 @@ msgid ""
 "sensors as well as GPS telemetry (except on memory-limited 7e and f-series) "
 "as described in the next section."
 msgstr ""
+"Ce protocole supporte jusqu'à 16 canaux. L'appairage avec ID fixe est "
+"supporté avec des récepteurs spécifiques. Il accepte la réception de "
+"télémétrie (RSSI,VOLT1) sur tous les émetteurs. Il accepte le S.Port et les "
+"capteurs du hub de télémétrie ainsi que la télémétrie GPS (Sauf sur le 7e et"
+" la série f à mémoire limitée) comme décrit dans la section suivante."
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
 #: ../../source/ch_protocols.rst:410
