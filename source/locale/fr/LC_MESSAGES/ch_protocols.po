@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 01:13+0000\n"
+"POT-Creation-Date: 2018-09-19 01:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -1020,6 +1020,10 @@ msgid ""
 "setting in the model. The channel value is the received RSSI value "
 "multiplied by 21."
 msgstr ""
+"**RSSIChan** -Canal RSSI- Lorsque cette valeur est sur LastChan - dernier "
+"canal- la valeur RSSI reçue sera transmise sur le dernier canal de la radio,"
+" basé sur le nombre de canaux défini dans le modèle. La valeur du canal est "
+"la valeur RSSI reçue multipliée par 21."
 
 #: ../../source/ch_protocols.rst:301
 msgid ""
@@ -1101,6 +1105,13 @@ msgid ""
 " model file to save the setting through power cycles - the value is fairly "
 "constant during a single day of flying in stable air."
 msgstr ""
+"Les valeurs de télémétrie sont réinitialisées par une pression longue sur le"
+" bouton Up pendant l'affichage de la page de télémétrie. Pour Frsky,  "
+"l'altitude \"au niveau du sol\" est réinitialisée à zéro. La décharge de la "
+"batterie et le voltage de la cellule de batterie minimum sont aussi "
+"réinitialisés. L'altitude sol est sauvegardée dans le fichier du modèle pour"
+" la conserver en cas d'extinction de l'émetteur. La valeur est assez "
+"constante pendant une journée de vol en atmosphère stable."
 
 #: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:814
 msgid "*Telemetry test page*"
@@ -1341,25 +1352,32 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:392
 msgid "Protocol: \\*Corona"
-msgstr ""
+msgstr "Protocole: \\*Corona"
 
 #: ../../source/ch_protocols.rst:393
 msgid ""
 "The Corona protocol supports Corona V1 and V2 receivers, and Flydream V3 "
 "receivers. |cc2500-note| |mod-install-link|"
 msgstr ""
+"Le protocole Corona prend en charte les récepteurs Corona V1 et V2 et Flydream V3.\n"
+"|cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:395
 msgid ""
 "All the protocols support up to 8 channels.  Default channel order is AETR."
 "  No telemetry in the protocols."
 msgstr ""
+"Le protocole accepte jusqu'à 8 canaux. L'ordre par défaut des canaux est "
+"AETR - Ailerons Profondeur Gaz Direction. Pas de télémétrie pour ce "
+"protocole."
 
 #: ../../source/ch_protocols.rst:399
 msgid ""
 "**Format**: Protocol selection. Use V1 and V2 with Corona receivers.  Use "
 "FDV3 for Flydream V3."
 msgstr ""
+"**Format**: Sélection du protocole. Utiliser V1 et V2 pour les récepteurs "
+"Corona. Utiliser FDV3 pour les récepteurs Flydream V3."
 
 #: ../../source/ch_protocols.rst:401 ../../source/ch_protocols.rst:414
 msgid ""
@@ -1368,16 +1386,22 @@ msgid ""
 "but full range should be tested if there are problems with binding or range."
 "  Default 0."
 msgstr ""
+"**Freq-fine**: Ajustement du décalage de fréquence. Intervalle -127 à 127. "
+"Ajuste les différences entre les modules CC2500. Généralement un décalage de"
+" 0 ou -41 est nécessaire, mais on devrait tester l'intervalle entier en cas "
+"de problème d'appairage ou de portée. Défaut 0. "
 
 #: ../../source/ch_protocols.rst:405
 msgid "Protocol: \\*Hitec"
-msgstr ""
+msgstr "Protocole: \\*Hitec"
 
 #: ../../source/ch_protocols.rst:406
 msgid ""
 "The Hitec protocol supports Optima and Minima receivers. |cc2500-note| |mod-"
 "install-link|"
 msgstr ""
+"Le protocole Hitec prend en charge les récepteurs Optima et Minima.\n"
+"|cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:408
 msgid ""
@@ -1387,10 +1411,16 @@ msgid ""
 " LQI, and GPS (latitude, longitude, altitude, speed, heading).  Receiver "
 "RSSI is not available in this protocol."
 msgstr ""
+"Le protocole accepte jusqu'à 9 canaux. L'ordre par défaut des canaux est "
+"AETR - Ailerons Profondeur Gaz Direction. La télémétrie est prise en charge "
+"selon la configuration Frsky. Les valeurs suivantes sont supportées : VOLT1,"
+" VOLT2, CURRENT, TEMP1, TEMP2, FUEL, RPM, LRSSI, LQI, et GPS (latitude, "
+"longitude, altitude, vitesse, direction). Le RSSI (force du signal du "
+"récepteur) n'est pas disponible pour ce protocole."
 
 #: ../../source/ch_protocols.rst:412
 msgid "**Format**: Receiver selection for Optima or Minima."
-msgstr ""
+msgstr "**Format**: Sélection du récepteur pour Optima ou Minima."
 
 #: ../../source/ch_protocols.rst:418
 msgid "Protocol: \\*V202"
@@ -1408,6 +1438,10 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Le protocole V202 supporte jusqu'à 12 canaux et n'autorise pas l'auto-"
+"appairage.  Si l' ID fixe est positionné sur Néant , une ID spécifique à "
+"l'émetteur est utilisée à sa place. Il faut appairer manuellement chaque "
+"modèle avant la première utilisation."
 
 #: ../../source/ch_protocols.rst:428
 msgid ""
@@ -2207,7 +2241,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:794
 msgid "Protocol: SBUS"
-msgstr ""
+msgstr "Protocoel: SBUS"
 
 #: ../../source/ch_protocols.rst:795
 msgid ""
@@ -2218,10 +2252,17 @@ msgid ""
 "Up to sixteen channels are supported. Data rate is 100kbps. Format is 8 data"
 " bits, even parity, two stop bits."
 msgstr ""
+"Le protocole SBUS envoie des données série sur la sortie d'écolage de "
+"l'émetteur (raccord jack)  L'anneau de l'entrée d'écolage est la terre. Sur "
+"l'émetteur  T8SG PLUS les données série sont présentes sur la broche "
+"supérieure de la baie pour module JR. Les données série ne sont pas "
+"inversées donc un adaptateur peut être nécessaire pour certains équipement "
+"SBUS. Un maximum de 16 canaux peut être pris en charge. Le débit des données"
+" est de 100kbps. Le format est 8 bits, parité paire et 2 bits de stop."
 
 #: ../../source/ch_protocols.rst:802
 msgid "Protocol: CRSF (Crossfire)"
-msgstr ""
+msgstr "Protocole: CRSF (Crossfire)"
 
 #: ../../source/ch_protocols.rst:803
 msgid ""
@@ -2232,6 +2273,13 @@ msgid ""
 "output.  For the trainer port tie tip to ring1. In the T8SG module bay tie "
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
+"Le protocole SBUS envoie des données série sur la sortie d'écolage de "
+"l'émetteur (raccord jack) L'anneau de l'entrée d'écolage est la terre. Sur "
+"l'émetteur T8SG PLUS les données série sont présentes sur la broche "
+"supérieure de la baie pour module JR. Pour permettre la télémétrie l'entrée "
+"série doit être reliée à la sortie série. pour le port d'écolage, relier la "
+"pointe au 1er  anneau. Dans la baie de module T8SG, relier les broches "
+"supérieure et inférieure ensemble. Jusqu'à 16 canaux sont pris en charge."
 
 #: ../../source/ch_protocols.rst:809
 msgid ""
