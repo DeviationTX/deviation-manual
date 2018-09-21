@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-19 01:15+0000\n"
+"POT-Creation-Date: 2018-09-20 01:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Me Myself <frerefra@gmail.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -2286,59 +2286,64 @@ msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
+"Les opérations de configuration et d'appairage CRSF ne sont pas encore "
+"prises en charge. Utilisez un PC pour appairer le module Crossfire et le "
+"récepteur avant de l'utiliser avec Deviation."
 
 #: ../../source/ch_protocols.rst:812
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
+"La Télémétrie n'est pas prise en charge par les émetteurs à mémoire limitée "
+"(7e, F4, F12)."
 
 #: ../../source/ch_protocols.rst:830
 msgid "RX"
-msgstr ""
+msgstr "RX -Récepteur-"
 
 #: ../../source/ch_protocols.rst:830
 msgid "TX"
-msgstr ""
+msgstr "TX -Emetteur-"
 
 #: ../../source/ch_protocols.rst:832
 msgid "RxRSSI"
-msgstr ""
+msgstr "RxRSSI"
 
 #: ../../source/ch_protocols.rst:832
 msgid "TxRSSI"
-msgstr ""
+msgstr "TxRSSI"
 
 #: ../../source/ch_protocols.rst:832
 msgid "VBATT"
-msgstr ""
+msgstr "VBATT"
 
 #: ../../source/ch_protocols.rst:833
 msgid "RSSI2"
-msgstr ""
+msgstr "RSSI2"
 
 #: ../../source/ch_protocols.rst:833
 msgid "TxPOWER"
-msgstr ""
+msgstr "TxPOWER"
 
 #: ../../source/ch_protocols.rst:834
 msgid "RxSNR"
-msgstr ""
+msgstr "RxSNR"
 
 #: ../../source/ch_protocols.rst:834
 msgid "TxSNR"
-msgstr ""
+msgstr "TxSNR"
 
 #: ../../source/ch_protocols.rst:834
 msgid "CAPACITY"
-msgstr ""
+msgstr "CAPACITE"
 
 #: ../../source/ch_protocols.rst:835
 msgid "RxQUAL"
-msgstr ""
+msgstr "RxQUAL"
 
 #: ../../source/ch_protocols.rst:835
 msgid "TxQUAL"
-msgstr ""
+msgstr "TxQUAL"
 
 #: ../../source/ch_protocols.rst:835
 msgid "FMODE"
@@ -2346,16 +2351,16 @@ msgstr "FMODE"
 
 #: ../../source/ch_protocols.rst:836
 msgid "PITCH"
-msgstr ""
+msgstr "TANGAGE"
 
 #: ../../source/ch_protocols.rst:836
 msgid "ROLL"
-msgstr ""
+msgstr "ROULIS"
 
 #: ../../source/ch_protocols.rst:836
 msgid "YAW"
-msgstr ""
+msgstr "LACET"
 
 #: ../../source/ch_protocols.rst:837
 msgid "RFMODE"
-msgstr ""
+msgstr "RFMODE"
