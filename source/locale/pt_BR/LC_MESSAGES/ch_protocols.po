@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 01:21+0000\n"
+"POT-Creation-Date: 2018-09-29 01:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
@@ -425,17 +425,18 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr ""
+msgstr "Protocolo: WFLY"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
 msgstr ""
+"O protocolo WFLY suporta receptores WFLY, como WFR04S, WFR07S e WFR09S."
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
 "The protocol supports up to 9 channels.  Default channel order is AETR."
-msgstr ""
+msgstr "O protocolo suporta até 9 canais. A ordem dos canais padrão é AETR."
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
@@ -1364,13 +1365,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:405
 msgid "Protocol: \\*Hitec"
-msgstr ""
+msgstr "Protocolo: \\*Hitec"
 
 #: ../../source/ch_protocols.rst:406
 msgid ""
 "The Hitec protocol supports Optima and Minima receivers. |cc2500-note| |mod-"
 "install-link|"
 msgstr ""
+"O protocolo Hitec suporta receptores Optima e Minima. |cc2500-note| |mod-"
+"install-link|"
 
 #: ../../source/ch_protocols.rst:408
 msgid ""
@@ -1380,10 +1383,15 @@ msgid ""
 " LQI, and GPS (latitude, longitude, altitude, speed, heading).  Receiver "
 "RSSI is not available in this protocol."
 msgstr ""
+"O protocolo suporta até 9 canais. A ordem dos canais padrão é AETR. "
+"Suportada telemetria usando o layout da Frsky. Os seguintes valores são "
+"suportados: VOLT1, VOLT2, CURRENT, TEMP1, TEMP2, COMBUSTÍVEL, RPM, LRSSI, "
+"LQI e GPS (latitude, longitude, altitude, velocidade, direção). Receiver "
+"RSSI não está disponível neste protocolo."
 
 #: ../../source/ch_protocols.rst:412
 msgid "**Format**: Receiver selection for Optima or Minima."
-msgstr ""
+msgstr "**Format**: Seleção do receptor para Optima ou Minima."
 
 #: ../../source/ch_protocols.rst:418
 msgid "Protocol: \\*V202"
