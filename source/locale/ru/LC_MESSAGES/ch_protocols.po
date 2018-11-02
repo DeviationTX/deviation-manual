@@ -3,14 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# vladislavy, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-06 09:22+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: vladislavy, 2017\n"
+"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: vladislavy, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -421,17 +424,20 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr ""
+msgstr "Протокол: WFLY"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
 msgstr ""
+"Протокол WFLY поддерживает приемники WFLY, такие как WFR04S, WFR07S и "
+"WFR09S."
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
 "The protocol supports up to 9 channels.  Default channel order is AETR."
 msgstr ""
+"Протокол поддерживает до 9 каналов. По умолчанию порядок каналов AETR."
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
@@ -580,7 +586,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:179
 msgid "**LQI output**: Output LQI to an optional channel"
-msgstr ""
+msgstr "**LQI output**: Вывод LQI в выбранный канал"
 
 #: ../../source/ch_protocols.rst:180
 msgid ""
@@ -588,10 +594,14 @@ msgid ""
 "variances betweeen A7105 modules. Default 0. The LQI telemetry value can be "
 "used as a guide for adjusting the fine frequency protocol option."
 msgstr ""
+"**Freq-fine**: Регулировка смещения частоты. Диапазон от -300 до 300. "
+"Регулируется для различия между модулями A7105. По умолчанию 0. Значение "
+"телеметрии LQI может быть использовано как руководство для регулировки "
+"смещения частоты."
 
 #: ../../source/ch_protocols.rst:182
 msgid "Telemetry is supported."
-msgstr ""
+msgstr "Поддерживается телеметрия."
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
@@ -603,19 +613,25 @@ msgid ""
 "H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the "
 "Proto X SLT). (regular format)."
 msgstr ""
+"Этот протокол используется в квадрокоптерах Hubsan-X4 серии H107, вертолетах"
+" H111, H101, H102, H201, H202 и Estes Proto X (но не Proto X SLT) (обычный "
+"формат)."
 
 #: ../../source/ch_protocols.rst:188
 msgid ""
 "This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)"
 msgstr ""
+"Этот протокол используется в Hubsan H301F, H302F, H303F и H304F (формат "
+"H301)."
 
 #: ../../source/ch_protocols.rst:190
 msgid "This protocol is used on Hubsan H501S, H122D and H123D (H501 format)"
 msgstr ""
+"Этот протоко используется в Hubsan H501S, H122D и H123D (формат H501)."
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:197
 msgid ""
@@ -625,50 +641,59 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
+"Протокол Hubsan4 поддерживает до 13 каналов, обычный формат поддерживает "
+"только автоматическую привязку. Может быть использован Fixed ID, но это не "
+"предотвращает автоматическую привязку во время включения питания.Первые 4 "
+"канала это Aileron, Elevator, Throttle и Rudder.  Дополнительные каналы "
+"управляют специальными функциями квадрокоптера:"
 
 #: ../../source/ch_protocols.rst:199
 msgid ""
 "With H301 and H501 format it is necessary to manually bind each model before"
 " the first use."
 msgstr ""
+"С форматами H301 и H501 необходимо вручную привязать каждую модель перед "
+"первым использованием."
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "Канал 5 управляет индикаторами (LED)"
 
 #: ../../source/ch_protocols.rst:202
 msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
 msgstr ""
+"Канал 6 включает режим ‘flip’ или altitude hold или stabilized mode, в "
+"зависимости от формата."
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
-msgstr ""
+msgstr "Канал 7 включае/выключает видео (H102) или делает снимок"
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "Канал 8 делает снимок"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "Канал 9 включает режим \"headless\""
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "Каанал 10 включает возврат домой (return to home)"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "Канал 11 включает \"GPS hold\""
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
-msgstr ""
+msgstr "Каанал 12 устанавливает режим Sport 1, Sport 2 или Acro (H123D)"
 
 #: ../../source/ch_protocols.rst:209
 msgid "Channel 13 Enables ‘flip’ mode (H122D)"
-msgstr ""
+msgstr "Канал 13 включает режим ‘flip’ (H122D)"
 
 #: ../../source/ch_protocols.rst:211
 msgid "Options configurable on the Hubsan page:"
@@ -692,6 +717,8 @@ msgid ""
 "**Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for "
 "variances betweeen A7105 modules. Default 0."
 msgstr ""
+"**Freq-fine**: регулировка смещения частоты. Диапазон от -300 до 300. "
+"Регулировка для компенсации различия между модулями A7105. По умолчанию 0."
 
 #: ../../source/ch_protocols.rst:218
 msgid "Protocol: \\*Joysway"
@@ -733,13 +760,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:236
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "Протокол: \\*Bugs3"
 
 #: ../../source/ch_protocols.rst:237
 msgid ""
 "The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  "
 "|a7105-note| |mod-install-link|"
 msgstr ""
+"Протокол \"Bugs3\" используется для управления MJX Bugs3 и Bugs8.  "
+"|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:239
 msgid ""
@@ -1310,13 +1339,15 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:405
 msgid "Protocol: \\*Hitec"
-msgstr ""
+msgstr "Протокол: \\*Hitec"
 
 #: ../../source/ch_protocols.rst:406
 msgid ""
 "The Hitec protocol supports Optima and Minima receivers. |cc2500-note| |mod-"
 "install-link|"
 msgstr ""
+"Протокол Hitec поддерживает приемники Optima и Minima. |cc2500-note| |mod-"
+"install-link|"
 
 #: ../../source/ch_protocols.rst:408
 msgid ""
@@ -1326,10 +1357,15 @@ msgid ""
 " LQI, and GPS (latitude, longitude, altitude, speed, heading).  Receiver "
 "RSSI is not available in this protocol."
 msgstr ""
+"Протокол поддерживает до 9 каналов. По умолчания порядок каналов AETR. "
+"Телеметрия поддерживается с использованием схемы телеметрии Frsky. "
+"Поддерживаются следующие значения: VOLT1, VOLT2, CURRENT, TEMP1, TEMP2, "
+"FUEL, RPM, LRSSI, LQI и GPS (latitude, longitude, altitude, speed, heading)."
+" В этом протоколе RSSI недоступно."
 
 #: ../../source/ch_protocols.rst:412
 msgid "**Format**: Receiver selection for Optima or Minima."
-msgstr ""
+msgstr "**Format**: Выбор приемника Optima или Minima."
 
 #: ../../source/ch_protocols.rst:418
 msgid "Protocol: \\*V202"
@@ -2139,7 +2175,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:794
 msgid "Protocol: SBUS"
-msgstr ""
+msgstr "Протокол: SBUS"
 
 #: ../../source/ch_protocols.rst:795
 msgid ""
@@ -2153,7 +2189,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:802
 msgid "Protocol: CRSF (Crossfire)"
-msgstr ""
+msgstr "Протокол: CRSF (Crossfire)"
 
 #: ../../source/ch_protocols.rst:803
 msgid ""
@@ -2175,54 +2211,55 @@ msgstr ""
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
+"Телеметрия недоступна в передатчиках с ограниченной памятью (7e, F4, F12)."
 
 #: ../../source/ch_protocols.rst:830
 msgid "RX"
-msgstr ""
+msgstr "RX"
 
 #: ../../source/ch_protocols.rst:830
 msgid "TX"
-msgstr ""
+msgstr "TX"
 
 #: ../../source/ch_protocols.rst:832
 msgid "RxRSSI"
-msgstr ""
+msgstr "RxRSSI"
 
 #: ../../source/ch_protocols.rst:832
 msgid "TxRSSI"
-msgstr ""
+msgstr "TxRSSI"
 
 #: ../../source/ch_protocols.rst:832
 msgid "VBATT"
-msgstr ""
+msgstr "VBATT"
 
 #: ../../source/ch_protocols.rst:833
 msgid "RSSI2"
-msgstr ""
+msgstr "RSSI2"
 
 #: ../../source/ch_protocols.rst:833
 msgid "TxPOWER"
-msgstr ""
+msgstr "TxPOWER"
 
 #: ../../source/ch_protocols.rst:834
 msgid "RxSNR"
-msgstr ""
+msgstr "RxSNR"
 
 #: ../../source/ch_protocols.rst:834
 msgid "TxSNR"
-msgstr ""
+msgstr "TxSNR"
 
 #: ../../source/ch_protocols.rst:834
 msgid "CAPACITY"
-msgstr ""
+msgstr "CAPACITY"
 
 #: ../../source/ch_protocols.rst:835
 msgid "RxQUAL"
-msgstr ""
+msgstr "RxQUAL"
 
 #: ../../source/ch_protocols.rst:835
 msgid "TxQUAL"
-msgstr ""
+msgstr "TxQUAL"
 
 #: ../../source/ch_protocols.rst:835
 msgid "FMODE"
@@ -2230,16 +2267,16 @@ msgstr "FMODE"
 
 #: ../../source/ch_protocols.rst:836
 msgid "PITCH"
-msgstr ""
+msgstr "PITCH"
 
 #: ../../source/ch_protocols.rst:836
 msgid "ROLL"
-msgstr ""
+msgstr "ROLL"
 
 #: ../../source/ch_protocols.rst:836
 msgid "YAW"
-msgstr ""
+msgstr "YAW"
 
 #: ../../source/ch_protocols.rst:837
 msgid "RFMODE"
-msgstr ""
+msgstr "RFMODE"
