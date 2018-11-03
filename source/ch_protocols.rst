@@ -766,6 +766,28 @@ Channel 11 controls autoflip (X600 & X800 formats) or camera pan
 
 Channel 12 controls camera tilt
 
+Protocol: \*Bugs3Mini
+------------------
+The Bugs3Mini protocol is used to control MJX Bugs3 Mini and Bugs 3H aircraft.  |nrf24l01-note|
+
+To bind first choose the Bugs3Mini protocol and click Bind.  Then apply power to the aircraft.
+The bind dialog will disappear if bind is successful.
+
+Channels used for controlling functions. Set channel value greater than zero to activate.
+
+* Arming is controlled by Channel 5
+* Lights are controlled by Channel 6
+* Flip is controlled by Channel 7
+* Camera is controlled by Channel 8
+* Video is controlled by Channel 9
+* Angle/Acro mode is controlled by Channel 10 (>0 is Angle)
+
+Telemetry is supported for RSSI and voltage alarm. It uses the Frsky telemetry display with
+signal strength reported in the RSSI field and battery voltage in VOLT1.
+The Bugs3 Mini receiver only reports good/warning/low voltage. This is translated to VOLT1 values
+of 8.40V for good, 7.10V for warning and 6.40V for low voltage.
+
+
 Protocol: PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
