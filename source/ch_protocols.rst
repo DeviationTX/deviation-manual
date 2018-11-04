@@ -787,6 +787,37 @@ signal strength reported in the RSSI field and battery voltage in VOLT1.
 The Bugs3 Mini receiver only reports good/warning/low voltage. This is translated to VOLT1 values
 of 8.40V for good, 7.10V for warning and 6.40V for low voltage.
 
+Protocol: \*E012
+----------------
+The E012 protocol is used to control the Eachine E012 quadcopter.  |nrf24l01-note|
+
+|mod-install-link|
+
+The E012 protocol supports 10 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+* Flip is controlled by Channel 6
+* Headless mode is controlled by Channel 9
+* RTH mode is controlled by Channel 10
+
+Protocol: \*E015
+----------------
+The E015 protocol is used to control the Eachine E015 quad/car/boat.  |nrf24l01-note|
+
+|mod-install-link|
+
+The E015 protocol supports 10 channels and only supports
+auto-binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+* Arming is controlled by Channel 5
+* Led light is controlled by Channel 6
+* Flip is controlled by Channel 7
+* Headless mode is controlled by Channel 9
+* RTH mode is controlled by Channel 10
 
 Protocol: PPM
 ---------------
