@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018
+# Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-04 13:12+0000\n"
+"POT-Creation-Date: 2018-11-12 01:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Manuel Chaves (mchaves-br) <mchaves.br@gmail.com>, 2018\n"
+"Last-Translator: Manuel Cristovao Chaves <mchaves.br@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/deviationtx/teams/73329/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2115,19 +2115,24 @@ msgstr "O canal 12 controla o Tilt da camera"
 
 #: ../../source/ch_protocols.rst:766
 msgid "Protocol: \\*Bugs3Mini"
-msgstr ""
+msgstr "Protocolo: \\*Bugs3Mini"
 
 #: ../../source/ch_protocols.rst:767
 msgid ""
 "The Bugs3Mini protocol is used to control MJX Bugs3 Mini and Bugs 3H "
 "aircraft.  |nrf24l01-note|"
 msgstr ""
+"O protocolo Bugs3Mini é usado para controlar drones MJX Bugs3 Mini e Bugs "
+"3H. | nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:769
 msgid ""
 "To bind first choose the Bugs3Mini protocol and click Bind.  Then apply "
 "power to the aircraft. The bind dialog will disappear if bind is successful."
 msgstr ""
+"Para Bind primeiro selecone o protocolo Bugs3Mini e clique em Bind. Em "
+"seguida, energize o drone. A caixa de diálogo do Bind desaparecerá se a "
+"ligação for bem-sucedida."
 
 #: ../../source/ch_protocols.rst:781
 msgid ""
@@ -2137,38 +2142,49 @@ msgid ""
 "good/warning/low voltage. This is translated to VOLT1 values of 8.40V for "
 "good, 7.10V for warning and 6.40V for low voltage."
 msgstr ""
+"A telemetria é suportada por RSSI e alarme de voltagem. Ele usa a tela de "
+"telemetria Frsky com a intensidade do sinal informada no campo RSSI e a "
+"voltagem da bateria em VOLT1. O receptor Bugs3 Mini reporta apenas Boa / "
+"Aviso / Baixa Tensão. Isso se traduz em valores de VOLT1 de 8,40V para bom, "
+"7,10V para aviso e 6,40V para baixa tensão."
 
 #: ../../source/ch_protocols.rst:787
 msgid "Protocol: \\*E012"
-msgstr ""
+msgstr "Protocolo: \\*E012"
 
 #: ../../source/ch_protocols.rst:788
 msgid ""
 "The E012 protocol is used to control the Eachine E012 quadcopter.  "
 "|nrf24l01-note|"
 msgstr ""
+"O protocolo E012 é usado para controlar o drone Eachine E012. | "
+"nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:792
 msgid "The E012 protocol supports 10 channels and only supports auto-binding."
 msgstr ""
+"O protocolo E012 suporta 10 canais e aceita apenas ligação automática."
 
 #: ../../source/ch_protocols.rst:802
 msgid "Protocol: \\*E015"
-msgstr ""
+msgstr "Protocolo: \\*E015"
 
 #: ../../source/ch_protocols.rst:803
 msgid ""
 "The E015 protocol is used to control the Eachine E015 quad/car/boat.  "
 "|nrf24l01-note|"
 msgstr ""
+"O protocolo E015 é usado para controlar o Eachine E015 quad / car / boat. | "
+"nrf24l01-note |"
 
 #: ../../source/ch_protocols.rst:807
 msgid "The E015 protocol supports 10 channels and only supports auto-binding."
 msgstr ""
+"O protocolo E015 suporta 10 canais e aceita apenas ligação automática."
 
 #: ../../source/ch_protocols.rst:813
 msgid "Led light is controlled by Channel 6"
-msgstr ""
+msgstr "Os LEDs são controlados pelo canal 6"
 
 #: ../../source/ch_protocols.rst:819
 msgid "Protocol: PPM"
