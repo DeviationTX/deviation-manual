@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 01:51+0000\n"
+"POT-Creation-Date: 2018-11-29 01:54+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: vladislavy, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -2103,19 +2103,23 @@ msgstr "Канал 12 управляет наклоном камеры."
 
 #: ../../source/ch_protocols.rst:766
 msgid "Protocol: \\*Bugs3Mini"
-msgstr ""
+msgstr "Протокол: \\*Bugs3Mini"
 
 #: ../../source/ch_protocols.rst:767
 msgid ""
 "The Bugs3Mini protocol is used to control MJX Bugs3 Mini and Bugs 3H "
 "aircraft.  |nrf24l01-note|"
 msgstr ""
+"Протокол Bugs3Mini используется для управления авиамоделями MJX Bugs3 Mini и"
+" Bugs 3H.  |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:769
 msgid ""
 "To bind first choose the Bugs3Mini protocol and click Bind.  Then apply "
 "power to the aircraft. The bind dialog will disappear if bind is successful."
 msgstr ""
+"Для привязки выберите протокол Bugs3Mini и нажмите Bind. Затем включите "
+"питание авиамодели. Диалог привязки исчезнет, если привязка прошла успешно."
 
 #: ../../source/ch_protocols.rst:781
 msgid ""
@@ -2125,38 +2129,52 @@ msgid ""
 "good/warning/low voltage. This is translated to VOLT1 values of 8.40V for "
 "good, 7.10V for warning and 6.40V for low voltage."
 msgstr ""
+"Телеметрия поддерживается для RSSI и сигнала напряжения. Она использует "
+"экран телеметрии Frsky с отображением уровня сигнала в поле RSSI и "
+"напряжения батареи в поле VOLT1. Приемник Bugs3 Mini сигнализирует только "
+"хорошее/предупреждение/низкое напряжение. Это транслируется в значения VOLT1"
+" 8.40V для хорошего, 7.10V для предупреждения и 6.40V для низкого "
+"напряжения."
 
 #: ../../source/ch_protocols.rst:787
 msgid "Protocol: \\*E012"
-msgstr ""
+msgstr "Протокол: \\*E012"
 
 #: ../../source/ch_protocols.rst:788
 msgid ""
 "The E012 protocol is used to control the Eachine E012 quadcopter.  "
 "|nrf24l01-note|"
 msgstr ""
+"Протокол E012 используется для управления квадрокоптером Eachine E012.  "
+"|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:792
 msgid "The E012 protocol supports 10 channels and only supports auto-binding."
 msgstr ""
+"Протокол E012 поддерживает 10 каналов и поддерживает только автоматическую "
+"привязку."
 
 #: ../../source/ch_protocols.rst:802
 msgid "Protocol: \\*E015"
-msgstr ""
+msgstr "Протокол: \\*E015"
 
 #: ../../source/ch_protocols.rst:803
 msgid ""
 "The E015 protocol is used to control the Eachine E015 quad/car/boat.  "
 "|nrf24l01-note|"
 msgstr ""
+"Протокол E015 используется для управления квадрокоптером/автомоделью/катером"
+" Eachine E015.  |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:807
 msgid "The E015 protocol supports 10 channels and only supports auto-binding."
 msgstr ""
+"Протокол E015 поддерживает 10 каналов и поддерживает только автоматическую "
+"привязку."
 
 #: ../../source/ch_protocols.rst:813
 msgid "Led light is controlled by Channel 6"
-msgstr ""
+msgstr "Световая индикация управляется каналом 6"
 
 #: ../../source/ch_protocols.rst:819
 msgid "Protocol: PPM"
