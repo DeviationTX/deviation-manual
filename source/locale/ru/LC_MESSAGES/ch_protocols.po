@@ -2298,6 +2298,9 @@ msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
+"Операции CRSF по привязке и конфигурации пока не поддерживаются. Используйте"
+" компьютер для привязки модуля Crossfire и приемника перед использованием с "
+"Deviation."
 
 #: ../../source/ch_protocols.rst:865
 msgid ""
