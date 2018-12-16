@@ -819,6 +819,18 @@ The first four channels are Aileron, Elevator, Throttle and Rudder.
 * Headless mode is controlled by Channel 9
 * RTH mode is controlled by Channel 10
 
+Protocol: \*NCC1701
+----------------
+The NCC1701 protocol is used to control the Air Hog Star Strek NCC-1701 quadcopter.  |nrf24l01-note|
+
+|mod-install-link|
+
+The NCC1701 protocol supports 5 channels and only supports auto binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+* Warp is controlled by Channel 5
+
 Protocol: PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
