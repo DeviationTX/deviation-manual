@@ -831,6 +831,18 @@ The first four channels are Aileron, Elevator, Throttle and Rudder.
 
 * Warp is controlled by Channel 5
 
+Protocol: \*V911S
+----------------
+The V911S protocol is used to control the WL Toys V911-S helicopter.  |nrf24l01-note|
+
+|mod-install-link|
+
+The V911S protocol supports 5 channels. The receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+* Calibration is controlled by Channel 5
+
 Protocol: PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
