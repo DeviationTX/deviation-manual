@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/ch_bugreport.rst:2
+msgid "Reporting Bugs"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:3
+msgid "Nobody is perfect."
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:5
+msgid ""
+"This firmware has been developed carefully and has been successfully tested "
+"by many users around the world. Nevertheless under some circumstances it "
+"could happen that the transmitter does not work as you expect. Sometimes "
+"this behavior will be a handling problem and sometimes a real bug. Do not "
+"hesitate to ask the community at http://www.deviationtx.com/forum. Please "
+"bear in mind that the firmware can only improved with your help."
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:7
+msgid ""
+"If you find a bug in Deviation, please report it here: "
+"https://github.com/DeviationTX/deviation/issues"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:9
+msgid ""
+"You will need to register for an account on the Deviation forums to submit a"
+" bug.  That account will also allow you to communicate with the Deviation "
+"community, and will enable you to get email updates when the bug is "
+"updated/fixed."
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:11
+msgid ""
+"Please provide as much information as possible in your ticket. Include:"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:13
+msgid "Build version (you can find this on the 'USB' page of the transmitter)"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:14
+msgid "Did you compile yourself, or download the dfu?"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:15
+msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:16
+msgid "Have you tried reproducing this on the emulator?"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:17
+msgid ""
+"Is this easily reproducible?  If so, please provide step-by-step "
+"instructions"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:18
+msgid "What protocol are you using?"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:19
+msgid ""
+"If your transmitter rebooted, please provide the errors.txt on the root "
+"file-system of the transmitter along with the 'debug-devo???.zip file that "
+"came with the dfu"
+msgstr ""
+
+#: ../../source/ch_bugreport.rst:21
+msgid "The more detail you can provide, the faster fixing the issue will be."
+msgstr ""
