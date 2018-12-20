@@ -852,7 +852,7 @@ The GD00X protocol is used to control the C17 C-17 Transport and GD006 Diamond D
 The GD00X protocol supports 5 channels and only supports auto binding.
 
 The first four channels are Aileron, Elevator, Throttle and Rudder.
-Only throttle and rudder are used by the model.
+Only throttle and aileron channels are used by the model.
 
 * Lights are controlled by Channel 5
 
