@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"POT-Creation-Date: 2018-12-19 16:34+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "拡張トピックス"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "バディボックス設定"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +40,11 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviationはインストラクター(マスター)、または受講者(スレーブ)送信機のいずれかのバディボックス設定で動作するために使用します。 "
+"このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。 "
+"インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。"
+" "
+"スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に(スティック)入力情報を送信し、これらの入力信号はインストラクターの入力信号を置き換えます。"
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -310,6 +319,8 @@ msgid ""
 " and aft; with Pitch input, all three servos raise the swash-plate up and "
 "down."
 msgstr ""
+"**120X (3サーボ)**: "
+"サーボが150度シフトされている点を除き、上記のレイアウトと同じです。エルロン入力では、3つのサーボがスワッシュプレートを左右に傾けます。エレベーター入力の場合、エレベーターおよびピッチサーボは、スワッシュプレートを前後に傾動させます。ピッチ入力では、3つのサーボがすべてスワッシュプレートを上下させます。"
 
 #: ../../source/ch_advanced.rst:121
 msgid ""
