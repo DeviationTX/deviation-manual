@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-19 16:34+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_overview.rst:2
 msgid "Overview"
-msgstr ""
+msgstr "总览"
 
 #: ../../source/ch_overview.rst:4
 msgid ""
@@ -29,13 +33,16 @@ msgid ""
 "firmware is the mixer system, which is modeled after the system used in the "
 "Er9X firmware for the Turnigy/Flysky9x™ transmitters."
 msgstr ""
+"Deviation 是一个运行在 T8SG,T8SGV2 或者 T8SGV2PLUS 上的固件。其主要目 "
+"的是为了支持更多协议的接收机，从而开发遥控器所有的潜能。Deviation 固件 的核心是基于 Turnigy/Flysky9x™遥控器的 Er9x "
+"固件系统修改而来的。"
 
 #: ../../source/ch_overview.rst:6
 msgid ""
 "Deviation also brings USB file-system support, making it easy to manage the "
 "transmitter from any PC without the need for specialized upload/download "
 "tools."
-msgstr ""
+msgstr "Deviation 还拥有 USB 文件管理功能，使其可以更方便的通过 PC 电脑管理 遥控器，并且不需要特别的升级/下载工具。"
 
 #: ../../source/ch_overview.rst:8
 msgid ""
@@ -47,6 +54,9 @@ msgid ""
 " mix of inputs, switches, channel data, or timers can be displayed, and "
 "configured per-model."
 msgstr ""
+"Deviation 是可以完全配置的。所有的模型和遥控器设置都可以通过固件（或 用户）可读写的文本文件进行修改。你可以很清楚的明白这是什么，并且通过遥 "
+"控器或文本编辑器修改这些设置。主界面的显示是可以根据需求自己修改的，你 可以将任何输入、开关、通道数据、计时器随意组合显示在主界面上，而且可以 "
+"分别对每个模型进行设置。"
 
 #: ../../source/ch_overview.rst:10
 msgid ""
@@ -87,27 +97,29 @@ msgstr ""
 
 #: ../../source/ch_overview.rst:23
 msgid "V202"
-msgstr ""
+msgstr "V202"
 
 #: ../../source/ch_overview.rst:24
 msgid "SLT"
-msgstr ""
+msgstr "SLT"
 
 #: ../../source/ch_overview.rst:25
 msgid "FrSky"
-msgstr ""
+msgstr "FrSky"
 
 #: ../../source/ch_overview.rst:27
 msgid ""
 "Deviation supports (flight) simulators connected via DSC cable (PPM) or USB "
 "cable (USBHID). Deviation also allows Buddy-Box and FPV setups."
 msgstr ""
+"Deviation 可以通过 DSC 线（PPM）或 USB 线（USBHID）连接（飞行）模拟器。Deviation 也支持教练和 FPV 设置。"
 
 #: ../../source/ch_overview.rst:29
 msgid ""
 "Deviation can store up to 255 different models, and uses a portable syntax "
 "that allows sharing models between any transmitter supported by Deviation."
 msgstr ""
+"Deviation 可以存储多达 255 个不同的模型设置，并且通过特别的语法，使 其可以在各种支持 Deviation 固件的遥控器共享模型。"
 
 #: ../../source/ch_overview.rst:31
 msgid ""
@@ -116,10 +128,12 @@ msgid ""
 "Hungarian, Italian, Romanian, Russian and Chinese. New languages can be "
 "added by installing the proper translation file."
 msgstr ""
+"Deviation 已经国际化，并且已经翻译成了英语、南非语、繁体中文、荷兰 语、西班牙语、法语、德语、匈牙利语、意大利语、罗马尼亚语、俄语和简体中 "
+"文。新语言可以通过添加翻译文件进行安装。 "
 
 #: ../../source/ch_overview.rst:34
 msgid "Disclaimer"
-msgstr ""
+msgstr " 免责声明"
 
 #: ../../source/ch_overview.rst:36
 msgid ""
@@ -131,6 +145,9 @@ msgid ""
 "injury or damage whatsoever caused by the use of the Deviation firmware. Be "
 "careful and cautious."
 msgstr ""
+"Deviation 是一款实验固件。对该固件的质量和可靠性不做任何保证或暗示。 如果操作不当，RC 模型可能会导致严重的伤害甚至死亡。如果决定使用 "
+"Deviation 固件，你将对你的模型全权负责。任何使用 Deviation 固件导致的伤害 或损伤，Deviation "
+"的作者不承担任何责任。请小心谨慎的使用。 "
 
 #: ../../source/ch_overview.rst:39
 msgid "Notices"
@@ -150,7 +167,7 @@ msgstr ""
 
 #: ../../source/ch_overview.rst:44
 msgid "Legal status and copyright"
-msgstr ""
+msgstr "法律地位和版权"
 
 #: ../../source/ch_overview.rst:46
 msgid ""
@@ -160,6 +177,8 @@ msgid ""
 "any later version. You should have received a copy of the GNU General Public"
 " License along with Deviation. If not, see www.gnu.org/licenses."
 msgstr ""
+"这个项目是一个免费软件:你可以在遵守自由软件基金会发布的 GNU 通用公 共许可协议、V3 版本的协议，或(任选)更新版本协议的前提下重新发布和/或修 "
+"改。你应该收到 Deviation 项目的 GNU 通用公共许可协议的副本。如果没有， 见 www.gnu.org/licenses。"
 
 #: ../../source/ch_overview.rst:53
 msgid ""
@@ -168,9 +187,13 @@ msgid ""
 "FOR A PARTICULAR PURPOSE. See the GNU General Public License for more "
 "details."
 msgstr ""
+"Deviation 固件的发布，希望它会造福大众，但它没有任何担保；甚至不 包括隐含的商业授权或者为一个特殊目的的适用性。更多详细信息，请参阅 GNU "
+"通用公共许可协议"
 
 #: ../../source/ch_overview.rst:57
 msgid ""
 "The Deviation Project is hosted at www.deviationtx.com and the Source are "
 "available at https://github.com/DeviationTX/deviation."
 msgstr ""
+"Deviation 项目托管在 www.deviationtx.com 上，源文件等可以在 "
+"https://github.com/DeviationTX/deviation 上找到。"

@@ -5,15 +5,16 @@
 # 
 # Translators:
 # cnshaker <cnshaker@gmail.com>, 2018
+# Howard Su <howard0su@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-19 16:34+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: cnshaker <cnshaker@gmail.com>, 2018\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,37 +55,39 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
+"你需要在“Deviation”论坛上注册帐户才能提交 Bug。你还可以使用该帐户 与 Deviation 社区进行通信，并在更新/修复 Bug "
+"时你将会获得电子邮件提醒。 "
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
 "Please provide as much information as possible in your ticket. Include:"
-msgstr ""
+msgstr "请在你的报告上提供尽可能多的信息。包括："
 
 #: ../../source/ch_bugreport.rst:13
 msgid "Build version (you can find this on the 'USB' page of the transmitter)"
-msgstr ""
+msgstr "固件版本（你可以在遥控器的“关于本系统”页上找到此项） "
 
 #: ../../source/ch_bugreport.rst:14
 msgid "Did you compile yourself, or download the dfu?"
-msgstr ""
+msgstr "你是自己编译，还是下载的 dfu 文件？"
 
 #: ../../source/ch_bugreport.rst:15
 msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
-msgstr ""
+msgstr "遥控器型号（devo8，devo7e，devo8-emulator或者其他）"
 
 #: ../../source/ch_bugreport.rst:16
 msgid "Have you tried reproducing this on the emulator?"
-msgstr ""
+msgstr "你试过在仿真器上重现这个问题吗？ "
 
 #: ../../source/ch_bugreport.rst:17
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
-msgstr ""
+msgstr "这很容易重现吗？如果可以，请提供分步说明。"
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"
-msgstr ""
+msgstr "你使用的是什么协议？"
 
 #: ../../source/ch_bugreport.rst:19
 msgid ""
@@ -92,7 +95,8 @@ msgid ""
 "file-system of the transmitter along with the 'debug-devo???.zip file that "
 "came with the dfu"
 msgstr ""
+"如果你的遥控器可以重新启动，请提供遥控器文件系统中的 errors.txt 文 件和 dfu 附带的“debug-devo???.zip”文件 "
 
 #: ../../source/ch_bugreport.rst:21
 msgid "The more detail you can provide, the faster fixing the issue will be."
-msgstr ""
+msgstr "你可以提供的详细信息越多，解决问题的速度就越快。 "
