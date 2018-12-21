@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:34+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr ""
+msgstr "操作"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -28,6 +32,7 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"遥控器菜单可以通过点击屏幕上的图片或者按压物理按钮操作，上UP，下DN，左L，右R，进入ENT，退出EXIT。所有按钮和遥控器的标记都与本手册中使用的描述相同。"
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -35,97 +40,98 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
+"遥控器菜单可以通过物理按钮操作，上UP，下DN，左L-，右R+，进入ENT，退出EXIT。所有按钮和遥控器的标记都与本手册中使用的描述相同。"
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
-msgstr ""
+msgstr "有几个图形界面的元素用于配置遥控器。"
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
-msgstr ""
+msgstr "**按钮**:可以选择按钮来切换设置或输入新菜单。"
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
-msgstr ""
+msgstr "**选择框**:用于选择多个值中的一个。"
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "有两种类型的选择框："
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
 "Spin-boxes consisting of both arrows and a 3d button may act both as spin-"
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
-msgstr ""
+msgstr "由箭头和 3D 按钮组成的选择框可以作为选择框(用于选择值)和按钮(有不同的功能)。"
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
-msgstr ""
+msgstr "仅包含箭头和空白的选择框，不充当按钮，仅用于选择值。"
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
-msgstr ""
+msgstr "请注意，在选择框可选或不可选的情况下，选择框会根据选择的值不同可能会发生变化。"
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
-msgstr ""
+msgstr "**文本框**：文本框一般用于提供信息，在某些场合也可以点击触发一个动作（和按钮一样）。"
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
-msgstr ""
+msgstr "**图标**：图标用来提供信息，或者点击触发一个动作（和按钮一样）。"
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr ""
+msgstr "主菜单通过在主界面按“ENT”按键来访问。"
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "通过物理按钮来操作"
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
-msgstr ""
+msgstr "在所有菜单页上，“UP”和“DN”用于移动到上一个/下一个项目。"
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
 "The ‘R+’ and ‘L-’ buttons are used on spin-box widgets to increase or "
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
-msgstr ""
+msgstr "R+和L-按钮用于选择框，用来增加或减少所选值。在某些情况下， 长按按钮可以增大步长值用于更快地移动到所需的值。"
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
-msgstr ""
+msgstr "对于按钮和可选选择框，按下“ENT”将选择按钮。"
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
-msgstr ""
+msgstr "按“EXT”将退出当前选择的项目。长按“EXT”将退回主界面。"
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr ""
+msgstr "菜单布局"
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "有两种不相关的菜单。"
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -133,7 +139,7 @@ msgid ""
 "well as monitor channel output & stick input, and monitor telemetry (if "
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
-msgstr ""
+msgstr "遥控设置允许你选择遥控器特定的选项，以及监视通道输出&输入，监视回传(如果可用)。菜单的详细信息请见遥控设置。"
 
 #: ../../source/ch_navigating.rst:62
 msgid ""
@@ -141,4 +147,4 @@ msgid ""
 "of aircraft you are flying. All model data is managed and saved within this "
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
-msgstr ""
+msgstr "你可以是用模型菜单来配置你的飞行器。所有模型的数据由这个菜单来管理和保存。详细的介绍在:ref:`model-menu`。"

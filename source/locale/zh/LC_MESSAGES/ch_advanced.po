@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:34+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:4
 msgid "Advanced Topics"
-msgstr ""
+msgstr "高级内容"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr ""
+msgstr "教练模式设置"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -36,6 +40,9 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
+"Deviation 可以通过教练模式设置被用来作为教练(主)或学生(从)遥控 器。在这种模式下，教练和学生通过 DSC 端口用教练线把各自的遥控器连接到"
+" 一起。教练的遥控器将与模型实际通信，但教练可以通过一个开关，让学生来控 制模型。当开关打开，学生的遥控器的输入(摇杆)信息通过教练线发送到教练 "
+"的遥控器然后替换教练的摇杆信息。"
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -47,10 +54,12 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviation 实际上可以与任何遥控器设置为主或从模式。Deviation 匹配不同制 造商的遥控器需要知道配对遥控器的 "
+"PPM参数，并正确配置“中点脉宽”和 “脉宽变化”，以及知道发送几个通道，通道的顺序。"
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "主模式"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -59,6 +68,8 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"主模式是在“PPM In”选择框中选择“通道”或“Stick”设置的，详情参照:ref:`model-"
+"setup`。在“Stick”或“通道”上按“ENT”键将显“Trainer Cfg”页面。该 2 种模式的功能稍有不同:"
 
 #: ../../source/ch_advanced.rst:21
 msgid ""
@@ -68,6 +79,8 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Stick模式**：在 Stick模式下，每个输入通道映射到在主遥控器的摇杆。在这个模式 "
+"下，如果教练移动摇杆，学生的摇杆将被教练接管。通常使用此模式时，学生的遥控器将只确定摇杆的位置(没有混控)但教练的遥控器将设置一切必要的混控。"
 
 #: ../../source/ch_advanced.rst:26
 msgid ""
@@ -78,40 +91,43 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
+"**通道模式**：在通道模式中，每个输入信道映射到主遥控器的输出信道。在这种模式\n"
+"下，学生的遥控器应该设置一切必要的混控。必须注意，要确保教师和学生遥控\n"
+"器配置相同，否则，教师和学生控制之间进行切换时，模型可能无法做出反应。"
 
 #: ../../source/ch_advanced.rst:28
 msgid "Options configurable on both Trainer Cfg pages:"
-msgstr ""
+msgstr "两个页面共同的配置选项:"
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the student’s "
 "transmitter transmits to represent centered servo position.  If this number "
 "doesn’t match the students transmitter, the servos will not be centered"
-msgstr ""
+msgstr "**中点脉宽**：定义学生遥控器发射代表舵机中心位置的脉冲时间(微秒)。如果这个数字和学生遥控器不匹配，舵机不会回中。"
 
 #: ../../source/ch_advanced.rst:32
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
-msgstr ""
+msgstr "**脉宽变化**：定义学生遥控器发射代表舵机最大位置的脉冲宽度(从中心测 量)。如果该值不正确，舵机不会满舵(或摆动太大)。"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
 "**Trainer Sw**: Defines the switch that enables the student to take control "
 "of the model"
-msgstr ""
+msgstr "教练开关:定义让学生遥控器控制的开关。"
 
 #: ../../source/ch_advanced.rst:36
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
-msgstr ""
+msgstr "**PPM1 ... PPM8**：定义从学生遥控器到教练遥控器的映射(频道或输入)"
 
 #: ../../source/ch_advanced.rst:39
 msgid "Slave Mode"
-msgstr ""
+msgstr "从模式"
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
