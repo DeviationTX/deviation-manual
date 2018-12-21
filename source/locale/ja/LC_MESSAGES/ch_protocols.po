@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:34+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -46,6 +46,7 @@ msgstr ""
 #: ../../source/ch_protocols.rst:712 ../../source/ch_protocols.rst:742
 #: ../../source/ch_protocols.rst:790 ../../source/ch_protocols.rst:805
 #: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
+#: ../../source/ch_protocols.rst:846
 msgid "|mod-install-link|"
 msgstr ""
 
@@ -352,6 +353,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ch_protocols.rst:146 ../../source/ch_protocols.rst:153
+#: ../../source/ch_protocols.rst:853
 msgid "Lights are controlled by Channel 5"
 msgstr ""
 
@@ -816,20 +818,20 @@ msgid ""
 "constant during a single day of flying in stable air."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:891
+#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:904
 msgid "*Telemetry test page*"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:897
+#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:910
 msgid "The CELL voltages are labeled C1-C5."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:900
+#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:913
 msgid ""
 "The following tables show the layout of the telemetry test page display."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:905
+#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:918
 msgid "Devo10"
 msgstr ""
 
@@ -838,7 +840,7 @@ msgid "Misc"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:336 ../../source/ch_protocols.rst:354
-#: ../../source/ch_protocols.rst:907
+#: ../../source/ch_protocols.rst:920
 msgid "Bat"
 msgstr ""
 
@@ -922,7 +924,7 @@ msgstr ""
 msgid "VARIO"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:910
+#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:923
 msgid "CURRENT"
 msgstr ""
 
@@ -1758,10 +1760,30 @@ msgid "Calibration is controlled by Channel 5"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:843
-msgid "Protocol: PPM"
+msgid "Protocol: \\*GD00X"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:844
+msgid ""
+"The GD00X protocol is used to control the C17 C-17 Transport and GD006 "
+"Diamond DA62 fixed wings.  |nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:848
+msgid "The GD00X protocol supports 5 channels and only supports auto binding."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:850
+msgid ""
+"The first four channels are Aileron, Elevator, Throttle and Rudder. Only "
+"throttle and aileron channels are used by the model."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:856
+msgid "Protocol: PPM"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:857
 msgid ""
 "The PPM protocol is used to output PPM on the trainer port.  It will disable"
 " all radio transmission.  PPM is useful for connecting to simulators, or "
@@ -1769,34 +1791,34 @@ msgid ""
 "effect, and there is no binding associated with this protocol."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:851
+#: ../../source/ch_protocols.rst:864
 msgid "Options configurable on the PPM page:"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:854
+#: ../../source/ch_protocols.rst:867
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the transmitter "
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:856
+#: ../../source/ch_protocols.rst:869
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the transmitter to define max servo throw.  If this value is incorrect, the "
 "servos will not achieve full range (or will travel too much)"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:858
+#: ../../source/ch_protocols.rst:871
 msgid "**Notch PW**: Defines the delay between the channels."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:860
+#: ../../source/ch_protocols.rst:873
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:862
+#: ../../source/ch_protocols.rst:875
 msgid ""
 "Deviation does not auto-detect when a trainer cord is plugged into the "
 "transmitter.  To use Deviation with a simulator (such as Phoenix), create a "
@@ -1804,11 +1826,11 @@ msgid ""
 "Re-Init button or power-cycle to enable PPM."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:867
+#: ../../source/ch_protocols.rst:880
 msgid "Protocol: USBHID"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:868
+#: ../../source/ch_protocols.rst:881
 msgid ""
 "The USBHID protocol will convert he transmitter into a USB joystick.  "
 "Connecting the transmitter to a PC via the USB cable will enable the "
@@ -1818,11 +1840,11 @@ msgid ""
 " control panel applet of your operating system."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:871
+#: ../../source/ch_protocols.rst:884
 msgid "Protocol: SBUS"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:872
+#: ../../source/ch_protocols.rst:885
 msgid ""
 "The SBUS protocol sends serial data on the transmitter's trainer port (tip "
 "connector).  The trainer port ring is ground. On the T8SG PLUS transmitter "
@@ -1832,11 +1854,11 @@ msgid ""
 " bits, even parity, two stop bits."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:879
+#: ../../source/ch_protocols.rst:892
 msgid "Protocol: CRSF (Crossfire)"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:880
+#: ../../source/ch_protocols.rst:893
 msgid ""
 "The CRSF protocol sends Crossfire protocol serial data on the transmitter's "
 "trainer port (tip connector).  The trainer port ring is ground. On the T8SG "
@@ -1846,81 +1868,81 @@ msgid ""
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:886
+#: ../../source/ch_protocols.rst:899
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:889
+#: ../../source/ch_protocols.rst:902
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:907
+#: ../../source/ch_protocols.rst:920
 msgid "RX"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:907
+#: ../../source/ch_protocols.rst:920
 msgid "TX"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:909
+#: ../../source/ch_protocols.rst:922
 msgid "RxRSSI"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:909
+#: ../../source/ch_protocols.rst:922
 msgid "TxRSSI"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:909
+#: ../../source/ch_protocols.rst:922
 msgid "VBATT"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:910
+#: ../../source/ch_protocols.rst:923
 msgid "RSSI2"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:910
+#: ../../source/ch_protocols.rst:923
 msgid "TxPOWER"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:911
+#: ../../source/ch_protocols.rst:924
 msgid "RxSNR"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:911
+#: ../../source/ch_protocols.rst:924
 msgid "TxSNR"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:911
+#: ../../source/ch_protocols.rst:924
 msgid "CAPACITY"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:912
+#: ../../source/ch_protocols.rst:925
 msgid "RxQUAL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:912
+#: ../../source/ch_protocols.rst:925
 msgid "TxQUAL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:912
+#: ../../source/ch_protocols.rst:925
 msgid "FMODE"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:913
+#: ../../source/ch_protocols.rst:926
 msgid "PITCH"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:913
+#: ../../source/ch_protocols.rst:926
 msgid "ROLL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:913
+#: ../../source/ch_protocols.rst:926
 msgid "YAW"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:914
+#: ../../source/ch_protocols.rst:927
 msgid "RFMODE"
 msgstr ""

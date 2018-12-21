@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,14 +23,14 @@ msgstr ""
 
 #: ../../source/ch_model.rst:16
 msgid "Model menu"
-msgstr ""
+msgstr "模型设置"
 
 #: ../../source/ch_model.rst:18
 msgid ""
 "The model menu allows selection, editing model configuration, alarms, "
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
-msgstr ""
+msgstr "模型设置提供了编辑模型配置，警告，数据记录和屏幕配置。可以通过按ENT或者选择主菜单然后选择模型设置进入。"
 
 #: ../../source/ch_model.rst:20
 msgid ""
@@ -42,24 +46,24 @@ msgstr ""
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**高级界面**"
 
 #: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**标准界面**"
 
 #: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**高级模型设置**"
 
 #: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**标准模型设置**"
 
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
-msgstr ""
+msgstr "注意：在所有遥控器上，高级混控设置界面都是缺省界面。"
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
@@ -1104,7 +1108,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:692
 msgid "Standard GUI Menu items"
-msgstr ""
+msgstr "标准模式"
 
 #: ../../source/ch_model.rst:699
 msgid ""
@@ -1113,6 +1117,8 @@ msgid ""
 ":`model-setup`.  The Standard GUI is only available for Helicopter-type "
 "models at this time.  The pages of the Standard GUI are as follows:"
 msgstr ""
+"标准模式 GUI 是高级模式 GUI 的替代。其在“混控 GUI”界面设定选择， 见:ref:`model-setup`。标准模式 GUI "
+"仅适用于直升机类型模型。标准模 式 GUI 的页面如下:"
 
 #: ../../source/ch_model.rst:706
 msgid "**Model Configuration**: :ref:`model-setup`"
@@ -1253,7 +1259,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:765
 msgid "Servo Reverse"
-msgstr ""
+msgstr "反向"
 
 #: ../../source/ch_model.rst:770
 msgid ""
@@ -1262,10 +1268,12 @@ msgid ""
 "setting on the Channel Configuration sub-page of the Mixer menu when using "
 "the Advanced GUI (see section :ref:`channel-config`)"
 msgstr ""
+"舵机反向页面允许快速设定每个通道在正常或反向模式下工作。这些设置相当 于使用高级模式 GUI 时混控菜单的通道配置子页面上的“反向”设置(见:ref"
+":`channel-config`)"
 
 #: ../../source/ch_model.rst:775
 msgid "Dual-Rate/Expo setting"
-msgstr ""
+msgstr "舵量/曲线"
 
 #: ../../source/ch_model.rst:780
 msgid ""
@@ -1275,10 +1283,12 @@ msgid ""
 " each.  The number of settings depends on the switch assigned to the dual-"
 "rates function on the Switch Assignment page (see :ref:`switch-assignment`)"
 msgstr ""
+"舵量/曲线页面是副翼，方向舵和升降舵通道曲线的配置。每个通道可以分 为三段，以及每个可以选择一个线性放大或指数曲线。设置的数值取决于开关分 "
+"配页面上的双速率功能开关(见开关分配)"
 
 #: ../../source/ch_model.rst:785
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "微调"
 
 #: ../../source/ch_model.rst:790
 msgid ""
@@ -1288,10 +1298,12 @@ msgid ""
 ":ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 "
 "increments."
 msgstr ""
+"微调页面允许设置舵机针对每个通道的零点。这相当于高级模式 GUI 混控菜 单的通道设置子页面上的“微调”设置(见通道设置)。可接受值的范围从-50 "
+"到+50，增量为 0.1。"
 
 #: ../../source/ch_model.rst:795
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "舵机行程"
 
 #: ../../source/ch_model.rst:800
 msgid ""
@@ -1302,10 +1314,12 @@ msgid ""
 "from -175 to -1 and Up values range from +1 to +175. The default values are "
 "-100 and +100 respectively."
 msgstr ""
+"舵机行程调整页面设置每个舵机的最大正/负行程。这相当于高级模式 GUI混控菜单的通道设置子页面上的“比例+”“比例-”设置(见通道设置)。可接受 "
+"的“比例-”值从-175 到-1，“比例+”值的范围从+1 到+175。默认值分别为-100至+100。"
 
 #: ../../source/ch_model.rst:805
 msgid "Swash Configuration"
-msgstr ""
+msgstr "十字盘设置"
 
 #: ../../source/ch_model.rst:807
 msgid ""
@@ -1314,30 +1328,32 @@ msgid ""
 " on this page are equivalent to those on the model configuration page (see "
 ":ref:`model-setup`), and configuration for both pages is provided below."
 msgstr ""
+"在十字盘设置页面设置十字盘类型。关于十字盘类型的更多信息可以在 :ref:`swash-"
+"mixing`中找到。此页面上的设置等同于模型设置页(请参阅:ref:`model-setup`)，下面提供两个设置页面。"
 
 #: ../../source/ch_model.rst:816
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "可用的十字盘模式有:"
 
 #: ../../source/ch_model.rst:818
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
-msgstr ""
+msgstr "**无/ 单舵机**：用于 FBL。混控在接收器工作。"
 
 #: ../../source/ch_model.rst:819
 msgid "**120/3Servo 120**: 120-degree swash"
-msgstr ""
+msgstr "**120 / 3 舵机 120**：120 度十字盘"
 
 #: ../../source/ch_model.rst:820
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
-msgstr ""
+msgstr "**120X / 3 舵机 120X**：120 度十字盘(交替配置)"
 
 #: ../../source/ch_model.rst:821
 msgid "**140/3Servo 140**: 140 degree swash"
-msgstr ""
+msgstr "**140 / 3 舵机 140**：140 度十字盘"
 
 #: ../../source/ch_model.rst:822
 msgid "**90/3Servo 90**: 90 degrees swash"
-msgstr ""
+msgstr "**90/3 舵机 90**：90 度十字盘"
 
 #: ../../source/ch_model.rst:824
 msgid ""
@@ -1347,10 +1363,12 @@ msgid ""
 " with a default of 60. Note that setting these values too large can result "
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
+"升降螺距，副翼螺距，和 PIT Mix 是混控完成之前，添加到输入摇杆的比例 因素。这些可以被用于调整不同的连结长度或不同的舵机摆动。允许的范围为 - "
+"100 至 100，默认 60。注意，这些值设置过大可能会导致过多的舵机摆动，使摇杆控制模型反应迟钝。"
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
-msgstr ""
+msgstr "油门曲线"
 
 #: ../../source/ch_model.rst:835
 msgid ""
@@ -1359,10 +1377,12 @@ msgid ""
 "Each point value can be enabled to be interpolated from the points "
 "surrounding it."
 msgstr ""
+"油门曲线页面允许油门通道设置一个分段线性曲线。每个飞行模式可以选择\n"
+"不同的曲线。每个点的值可以用周围的点插入。"
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
-msgstr ""
+msgstr "螺距曲线"
 
 #: ../../source/ch_model.rst:845
 msgid ""
@@ -1370,47 +1390,47 @@ msgid ""
 "collective/pitch channel.  Different curves can be selected for each flight-"
 "mode as well as for throttle-hold.  Each point value can be enabled to be "
 "interpolated from the points surrounding it."
-msgstr ""
+msgstr "螺距曲线允许俯仰通道设置一个分段线性曲线。不同的曲线可以被选择不同的飞行模式以及用于油门熄火。每个点的值可以用周围的点插入。"
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "锁尾感度"
 
 #: ../../source/ch_model.rst:855
 msgid ""
 "The gyro-sensitivity page enables configuring up-to 3 sensitivity values for"
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
-msgstr ""
+msgstr "锁尾感度页面设置 3 个陀螺仪的灵敏度值以及哪个通道用于发送陀螺仪值。 可接受值的数值范围从 0 到 100%。"
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
-msgstr ""
+msgstr "开关分配"
 
 #: ../../source/ch_model.rst:865
 msgid ""
 "The switch assignment page enables configuring which switches to use for "
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
-msgstr ""
+msgstr "开关分配页面设置开关切换标准模式 GUI的每个功能。相同的开关可以分配 多种功能。"
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
-msgstr ""
+msgstr "油门熄火"
 
 #: ../../source/ch_model.rst:875
 msgid ""
 "The throttle-hold page is used to enable/disable the throttle-hold "
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
-msgstr ""
+msgstr "油门熄火页用来启用/禁用油门熄火功能。当油门熄火开关设置时，指定 “油门熄火值”。油门熄火值可以从-200到 200。"
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "失控保护"
 
 #: ../../source/ch_model.rst:885
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
-msgstr ""
+msgstr "失控保护页面用于设置每个通道的失控保护值(如果当前协议支持此功能)"

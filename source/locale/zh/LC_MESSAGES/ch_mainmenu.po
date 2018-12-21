@@ -5,15 +5,16 @@
 # 
 # Translators:
 # cnshaker <cnshaker@gmail.com>, 2018
+# Howard Su <howard0su@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: cnshaker <cnshaker@gmail.com>, 2018\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +33,7 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
+"通过按下在遥控器右下角的“ENT”按钮，可访问 Deviation 固件的主菜单。 主菜单包括以下四个选项:模型设置，遥控设置，USB 和关于本系统"
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -40,10 +42,12 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
+"所有与使用 Devention 遥控器有关的设置都可以从主菜单中访问。它们包括 模型选项、语言选择、显示选项、蜂鸣器、振动、摇杆模式、校准、USB 连接"
+" 以及版本信息。"
 
 #: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
-msgstr ""
+msgstr "模型设置"
 
 #: ../../source/ch_mainmenu.rst:16
 msgid ""
@@ -52,10 +56,12 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"模型设置是在 Deviation 固件内，你可以配置你正在飞行的飞机类型的地方。 所有模型数据都在此菜单选择中进行管理和保存。菜单的详细信息请见模型设 "
+"置。"
 
 #: ../../source/ch_mainmenu.rst:19
 msgid "Transmitter menu"
-msgstr ""
+msgstr "遥控设置"
 
 #: ../../source/ch_mainmenu.rst:20
 msgid ""
@@ -63,11 +69,11 @@ msgid ""
 "well as monitor channel output & stick input, and monitor telemetry (if "
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
-msgstr ""
+msgstr "遥控设置允许你选择遥控器特定的选项，以及监视通道输出&输入，监视回传(如果可用)。菜单的详细信息请见遥控设置。"
 
 #: ../../source/ch_mainmenu.rst:23
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../source/ch_mainmenu.rst:27
 msgid ""
@@ -78,19 +84,22 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"可以通过从主菜单中选择“USB”来访问 USB 页面。USB 模式下可以切换USB开关，以便在有 USB接口的计算机上访问遥控器的文件系统。在这种模式 "
+"下， Deviation 的文件系统可以作为一个大容量存储设备。这将允许您在Deviation文件系统和 "
+"PC电脑之间来回移动文件。所有的配置文件都可以在此模 式下访问。"
 
 #: ../../source/ch_mainmenu.rst:31
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
-msgstr ""
+msgstr "注意: 使用 USB 功能时，不要在模型连接时进行，USB 开启时会中断信号传输！"
 
 #: ../../source/ch_mainmenu.rst:34
 msgid "About Deviation"
-msgstr ""
+msgstr "关于本系统"
 
 #: ../../source/ch_mainmenu.rst:38
 msgid ""
 "The Deviation release version can be accessed by selecting ‘About Deviation’"
 " from the main menu."
-msgstr ""
+msgstr "可以通过从主菜单中选择“关于本系统”来查找 Deviation 版本号。"

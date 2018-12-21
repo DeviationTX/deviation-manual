@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,18 +23,18 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "遥控器菜单"
 
 #: ../../source/ch_transmitter.rst:20
 msgid "Transmitter config"
-msgstr ""
+msgstr "遥控器设置"
 
 #: ../../source/ch_transmitter.rst:23
 msgid ""
 "The configuration page defines various transmitter functions.  It is entered"
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
-msgstr ""
+msgstr "配置页定义了各种遥控器功能。它是通过点击遥控器配置图标进入。请注意，本节中的所有屏幕截图都显示的是 Deviation 默 认设置。"
 
 #: ../../source/ch_transmitter.rst:33
 msgid ""
@@ -39,176 +43,178 @@ msgid ""
 " Please note that all screens in this section show the Deviation default "
 "settings."
 msgstr ""
+"配置页定义了各种遥控器功能。它是从主菜单中进入，进入“遥控设置”下， 然后是“遥控设置”。请注意，本节中的所有屏幕截图都显示的是 Deviation 默"
+" 认设置。"
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr ""
+msgstr "通用设置"
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**语言**：为所有文本选择适当的语言。"
 
 #: ../../source/ch_transmitter.rst:50
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "注意：Devo7e不支持此功能。"
 
 #: ../../source/ch_transmitter.rst:52
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**摇杆模式**：选择模式 1-4。"
 
 #: ../../source/ch_transmitter.rst:54
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
-msgstr ""
+msgstr "模式 1 在欧洲是常见的。升降和方向舵在左边，油门和副翼在右边。"
 
 #: ../../source/ch_transmitter.rst:55
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
-msgstr ""
+msgstr "模式 2 在北美洲是普遍的。油门和方向舵在左边，升降和副翼在右边。"
 
 #: ../../source/ch_transmitter.rst:56
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
-msgstr ""
+msgstr "模式 3 升降和副翼在左边，油门和方向舵在右边。"
 
 #: ../../source/ch_transmitter.rst:57
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
-msgstr ""
+msgstr "模式 4 油门和副翼在左边，升降和方向舵在右边"
 
 #: ../../source/ch_transmitter.rst:59
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
-msgstr ""
+msgstr "**摇杆**：校准所有摇杆和旋钮。"
 
 #: ../../source/ch_transmitter.rst:61
 msgid ""
 "To perform a stick calibration, highlight the Calibrate option and press the"
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
-msgstr ""
+msgstr "要执行摇杆校准，请把光标移到校准选项并按 ENT 按钮。按照屏幕提示移动摇杆，并按 ENT 按钮确认。"
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "**时间**：设置当前的日期和时间。只在Devo12上支持。"
 
 #: ../../source/ch_transmitter.rst:71
 msgid "Buzzer settings"
-msgstr ""
+msgstr "报警设置"
 
 #: ../../source/ch_transmitter.rst:73
 msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
-msgstr ""
+msgstr "**关机提醒**：选择遥控器未操作时通知的间隔。范围为 0-60 分钟，以 1 分钟为增量。"
 
 #: ../../source/ch_transmitter.rst:75
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
-msgstr ""
+msgstr "**电压报警**：设置电池报警电压。电压范围为 3.30V-12.00V,以 0.01V为增量。"
 
 #: ../../source/ch_transmitter.rst:77
 msgid ""
 "**Alarm interval**: Set frequency of alarm when battery is low. Alarm "
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
-msgstr ""
+msgstr "**报警间隔**：当电池电量不足时设置报警频率。警报间隔范围可以设置从 5 秒到1 分钟，以 5 秒为增量。它也可以被设置为 Off。"
 
 #: ../../source/ch_transmitter.rst:79
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
-msgstr ""
+msgstr "**音量**：设置蜂鸣器音量。可用范围为 1-10;蜂鸣器也可以设置为“无”。"
 
 #: ../../source/ch_transmitter.rst:81
 msgid "**Vibration**: Enable vibration on alarms, if available."
-msgstr ""
+msgstr "**振动**：在报警时启用振动 。"
 
 #: ../../source/ch_transmitter.rst:83
 msgid "**Power-down alert**: Play sound at power-down."
-msgstr ""
+msgstr "**关机提示**： 在关机时播放声音。"
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
-msgstr ""
+msgstr "液晶屏设置"
 
 #: ../../source/ch_transmitter.rst:89
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
-msgstr ""
+msgstr "**背光**：设置屏幕背光的亮度。可以从 1 到 10 设置。也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
 "may also be turned off."
-msgstr ""
+msgstr "**对比度**：设置屏幕对比度。可以从 1 到 10 设置。也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:96
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
-msgstr ""
+msgstr "**背光**：设置屏幕背光的亮度。可以从 1 到 10 设置。也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:98
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10."
-msgstr ""
+msgstr "**对比度**：设置屏幕对比度。可以从 1 到 10 设置。也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:101
 msgid ""
 "**Dimmer time**: Set delay before screen dimming. Times may be set from 5 "
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
-msgstr ""
+msgstr "**背光减弱**：在屏幕变暗之前设置延迟。时间可以设置从 5 秒到 2 分钟，增 量为 5 秒。设置关闭时，遥控器将强制背光开启。"
 
 #: ../../source/ch_transmitter.rst:103
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
-msgstr ""
+msgstr "**背光最小亮度**：设置变暗时的屏幕亮度。可以从 1 到 10 设置。也以可关闭。"
 
 #: ../../source/ch_transmitter.rst:106
 msgid "Timer settings"
-msgstr ""
+msgstr "定时器设置"
 
 #: ../../source/ch_transmitter.rst:108
 msgid ""
 "**Prealert time**: Time before timer reaches zero to start beeping. "
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
-msgstr ""
+msgstr "**预警时间**:计时器到达零时开始报警。时间可以设置从 5 秒到 1 分钟，增量为5 秒，也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:110
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
-msgstr ""
+msgstr "**预警间隔**：计时器在定时器达到零之前发出报警的间隔。间隔可以设置从 1 到60 秒，也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
-msgstr ""
+msgstr "**超时报警间隔**:计时器超时后发出报警的频率。间隔可以设置从 1 到 60 秒，也可以关闭。"
 
 #: ../../source/ch_transmitter.rst:115
 msgid "Telemetry settings"
-msgstr ""
+msgstr "双向回传设置"
 
 #: ../../source/ch_transmitter.rst:117
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
-msgstr ""
+msgstr "**温度**：设置显示遥测温度的单位。可用的选项是摄氏和华氏。"
 
 #: ../../source/ch_transmitter.rst:119
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
-msgstr ""
+msgstr "**距离**：回传距离的的单位。可用的选项是米和英尺。"
 
 #: ../../source/ch_transmitter.rst:122
 msgid "Channel monitor"
-msgstr ""
+msgstr "通道监控"
 
 #: ../../source/ch_transmitter.rst:129
 msgid ""
@@ -216,46 +222,48 @@ msgid ""
 " as output by the transmitter. Channels without mixers will not be "
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
-msgstr ""
+msgstr "通道监控界面允许用户查看遥控器输出的每个通道的值。没有设置的通道将 不会显示。显示的通道输出值是基于最小值/最大值以及缩放的值。"
 
 #: ../../source/ch_transmitter.rst:134
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
-msgstr ""
+msgstr "例如:一个通道只从-60 到+60，那么摇杆位置显示的范围也只从-60 到+60。"
 
 #: ../../source/ch_transmitter.rst:138
 msgid "Input Monitor"
-msgstr ""
+msgstr "输入监控"
 
 #: ../../source/ch_transmitter.rst:156
 msgid ""
 "The input monitor screen shows the values associated with the current "
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
-msgstr ""
+msgstr "摇杆输入界面显示了摇杆当前位置对应的值。显示的值是总范围的百分比， 比例从-100%到+ 100%。"
 
 #: ../../source/ch_transmitter.rst:161
 msgid ""
 "NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
 "FMOD1."
-msgstr ""
+msgstr "注意：Devo7e只支持AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0和FMOD1。"
 
 #: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"注意：Devo8只支持AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL DR0/1, GEAR0/1, "
+"FMOD0/1/2和MIX0/1/2。"
 
 #: ../../source/ch_transmitter.rst:171
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
-msgstr ""
+msgstr "注意：Devo6只支持AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2和MIX0/1/2。"
 
 #: ../../source/ch_transmitter.rst:174
 msgid "Button Monitor"
-msgstr ""
+msgstr "按键监控"
 
 #: ../../source/ch_transmitter.rst:181
 msgid ""
@@ -265,14 +273,15 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"按键监视器用来检查遥控器的物理按钮是不是正常工作。按任何一个按钮，屏幕上对应的方块将显示。为了测试EXT，L-，R+，点击屏幕使得按这几个按钮不会退出监视器。再一次点击屏幕恢复这几个按钮功能。"
 
 #: ../../source/ch_transmitter.rst:185
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "注意：Devo6没有上部的两个L/R的微调按钮。"
 
 #: ../../source/ch_transmitter.rst:189
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "双向回传监控"
 
 #: ../../source/ch_transmitter.rst:196
 msgid ""
@@ -280,7 +289,7 @@ msgid ""
 "transmitter during use. Telemetry data may include, but is not restricted "
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
-msgstr ""
+msgstr "某些协议可以在使用期间将数据发送回遥控器。回传数据包括，但不限于， 温度读数，各种电压读数，电机或螺旋桨转速，以及 GPS 相关的信息。"
 
 #: ../../source/ch_transmitter.rst:198
 msgid ""
@@ -288,25 +297,26 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"除了 DEVO 和 FrSky 之外，所有支持的协议都默认关闭遥测数据。请参见9 协议部分，然后了解哪些协议支持回传，并确定哪些信息将可用。"
 
 #: ../../source/ch_transmitter.rst:210
 msgid ""
 "Since each protocol differs in the type of data it can return please see the"
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
-msgstr ""
+msgstr "由于每个协议中可以返回的数据类型不同，请参阅原始设备制造商的文档，了解需要什么额外的硬件来收集这些数据。"
 
 #: ../../source/ch_transmitter.rst:213
 msgid "Until valid data is transmitted the values will all be red."
-msgstr ""
+msgstr "直到所有有效数据传输的值都显示为红色。"
 
 #: ../../source/ch_transmitter.rst:217
 msgid "Until valid data is transmitted the values will all be inverted."
-msgstr ""
+msgstr "直到所有有效数据传输的值都高亮显示。"
 
 #: ../../source/ch_transmitter.rst:227
 msgid "Range Test"
-msgstr ""
+msgstr "拉距测试"
 
 #: ../../source/ch_transmitter.rst:236
 msgid ""
@@ -315,6 +325,7 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"建议你在建立新模型的第一时间进行拉锯测试，以确保你能够在正常飞行 距离之内控制你的模型。在一些俱乐部，这是必要的安全措施。你可以在拉锯测试页面完成测试。"
 
 #: ../../source/ch_transmitter.rst:240
 msgid ""
@@ -326,6 +337,8 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
+"一旦拉锯测试界面打开，按“ENT”按钮，开始拉锯测试。最大最小功率将 被显示。测试标准程序是，步行约 30 米的距离，并确保你仍然可以控制你的飞 "
+"机。然后，您可以按“ENT”按钮结束拉锯测试然后恢复发射功率。按下“EXT” 按钮退出测试页面也将恢复发射功率。"
 
 #: ../../source/ch_transmitter.rst:244
 msgid ""
@@ -335,17 +348,19 @@ msgid ""
 "range test of 30 meters would indicate that you should be able to control "
 "the model out to 900 meters."
 msgstr ""
+"遥控范围通过发射功率变化的平方根减小。所以从 100MW到 100uW代表 大约 1000功率的变化，或者一个因素使范围缩小超过 30。因此 "
+"30米拉锯测试 正常将表明你应该能够控制模型距离大于 900米。"
 
 #: ../../source/ch_transmitter.rst:248
 msgid ""
 "The installed RF module used for the current model must have a PA. If that "
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
-msgstr ""
+msgstr "用于当前模型的已安装的 RF 模块必须具有 PA。如果不是这样的话，或者为 模型选择的功率电平已经在最小值，那么将显示一个到该效果的消息。"
 
 #: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
-msgstr ""
+msgstr "USB/关于"
 
 #: ../../source/ch_transmitter.rst:268
 msgid ""
@@ -356,9 +371,12 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"可以通过从主菜单中选择“USB”来访问 USB 页面。USB 模式下可以切换USB开关，以便在有 USB接口的计算机上访问遥控器的文件系统。在这种模式 "
+"下， Deviation 的文件系统可以作为一个大容量存储设备。这将允许您在Deviation文件系统和 "
+"PC电脑之间来回移动文件。所有的配置文件都可以在此模 式下访问。"
 
 #: ../../source/ch_transmitter.rst:272
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
-msgstr ""
+msgstr "注意: 使用 USB 功能时，不要在模型连接时进行，USB 开启时会中断信号传输！"

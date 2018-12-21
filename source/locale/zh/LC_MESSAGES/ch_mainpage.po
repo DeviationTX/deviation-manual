@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,55 +23,55 @@ msgstr ""
 
 #: ../../source/ch_mainpage.rst:6
 msgid "Main Page"
-msgstr ""
+msgstr "主页"
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr ""
+msgstr "标准的主页布局如下图所示:"
 
 #: ../../source/ch_mainpage.rst:14
 msgid ""
 "**Current Model**: The name of the current model. Clicking the label will "
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
-msgstr ""
+msgstr "**模型名称**：当前模型的名称。模型可以通过:ref:`model-setup`配置。"
 
 #: ../../source/ch_mainpage.rst:16
 msgid ""
 "**Battery Voltage**: Numerical representation of current transmitter battery"
 " state."
-msgstr ""
+msgstr "**电池电压**：遥控器电池的电压值。"
 
 #: ../../source/ch_mainpage.rst:18
 msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
-msgstr ""
+msgstr "**发射功率**:这表示当前选定的发射功率。它可以通过 :ref:`model-setup`配置。"
 
 #: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
-msgstr ""
+msgstr "**当前时间**：显示当前的时间（只有Devo12支持）。时间可以通过 :ref:`transmitter-config`设置。"
 
 #: ../../source/ch_mainpage.rst:22
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
 "page."
-msgstr ""
+msgstr "**模型图标**：显示当前模型的图像。它可以通过 :ref:`model-setup`配置。点击图标会跳转到配置页面。"
 
 #: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
-msgstr ""
+msgstr "**模型图标**：显示当前模型的图像。它可以通过 :ref:`model-setup`配置。"
 
 #: ../../source/ch_mainpage.rst:27
 msgid ""
 "**Trims**: The trim display can be configured to show up to 10 different "
 "horizontal and vertical trims."
-msgstr ""
+msgstr "**微调**：显示微调配置，可以显示多达 10 种不同的水平和垂直微调数据。"
 
 #: ../../source/ch_mainpage.rst:29
 msgid ""
@@ -75,19 +79,20 @@ msgid ""
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
 "toggles displaying specific states (ex. gear, flaps,…)."
 msgstr ""
+"**其他显示**：这些项目可以是包含摇杆、通道、回传或定时器数据的文本框; 显示通道数据的条形图;或图标/切换显示特定状态(例如起落架，襟翼，...)。"
 
 #: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
-msgstr ""
+msgstr "**快速菜单**：长按 UP/DN 按钮可以进入快速菜单。可以在:ref:`main-page-config`定义这些内容。"
 
 #: ../../source/ch_mainpage.rst:33
 msgid ""
 "By default, channel outputs are displayed as `[-100, 100]%`. This may be "
 "tweaked by modifying the following values in the corresponding channel "
 "section in `model.ini`::"
-msgstr ""
+msgstr "默认情况下，通道输出显示为[-100、100]%。可以通过修改 model.ini 文件 中相应通道部分来调整这一数值:"
 
 #: ../../source/ch_mainpage.rst:39
 msgid ""
@@ -95,21 +100,23 @@ msgid ""
 "10000]`. The displayed text is generated via `sprintf(s, display_format, "
 "raw/display_scale)`"
 msgstr ""
+"在显示之前，输出原始值的范围[-10000、10000]。显示的文本通过 sprintf(s, display_format, "
+"raw/display_scale)生成。"
 
 #: ../../source/ch_mainpage.rst:41
 msgid ""
 "If `display-scale` is omitted, the default value of `100` will be used."
-msgstr ""
+msgstr "如果省略显示比例，将使用默认值 100。"
 
 #: ../../source/ch_mainpage.rst:43
 msgid ""
 "If `display-format` is omitted, the default value of `%3d%%` will be used. "
 "See Wikipedia_ for more details on the format string."
-msgstr ""
+msgstr "如果省略显示格式，将使用默认值%3d%%。关于格式的解释参考Wikipedia_。"
 
 #: ../../source/ch_mainpage.rst:50
 msgid "Safety System"
-msgstr ""
+msgstr "安全系统"
 
 #: ../../source/ch_mainpage.rst:55
 msgid ""
@@ -127,12 +134,17 @@ msgid ""
 " case, Deviation will start communication with the model once the dialog is "
 "dismissed."
 msgstr ""
+"Deviation 有安全系统，为了防止启动时处于危险状态(例如意外打开直升机 的主旋翼)。安全系统的工作原理是开始传输模型之前，验证特定条件完成。默 "
+"认情况下，输出通道和油门摇杆必须最低。Deviation 固件不包括另外一种机制来 定义新的安全条件，然而，他们可以通过 model.ini "
+"文件直接添加修改。安全信 息触发时，遥控器不会打开模型。这个消息可能会出现在最初打开遥控器时，或 "
+"者当切换到另一个模型时。一旦所有安全条件已经被满足或者当你按下“OK” 按钮时，安全消息将自动消失。在这两种情况下,一旦对话框消失 Deviation "
+"会开 始工作。"
 
 #: ../../source/ch_mainpage.rst:58
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
-msgstr ""
+msgstr "安全值在“[safety]”的部分，默认为:"
 
 #: ../../source/ch_mainpage.rst:64
 msgid ""
@@ -143,3 +155,6 @@ msgid ""
 "value can also be 'max' or 'zero', to test that the channel or stick is at "
 "the maximum value and 0."
 msgstr ""
+"“Auto”的值也可以是任何通道或者输入名字，例如“Ch1”，“Auto”会 识别你的油门通道。如果没有识别到，你会得到一个另一个警告，手动修改为 "
+"“CH1”(DSMx 协议)或“CH3”(大部分其他协议)将解决这个问题。 “min” 值也可以修改为“max”或“0”，用于检测通道数值是否是最大值或"
+" 者 0。"

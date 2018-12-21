@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:34+0000\n"
+"POT-Creation-Date: 2018-12-20 15:44+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -56,10 +56,12 @@ msgid ""
 "  The best place to find this information is to ask on the "
 "www.deviationtx.com forums."
 msgstr ""
+"Deviationは、マスターモードまたはスレーブモードのいずれかをサポートしているほとんどの送信機で動作するよう設定が可能です。別メーカー間によるDeviationの組み合わせの場合は、ペアとなる送信機のPPMパラメータを確認する必要があります。また「センターPW」と「デルタPW」を適切に設定するだけでなく、送信されるチャンネル数とチャンネルの順序が分かります。この情報を確認する最も良い場所は、www.deviationtx.com"
+" フォーラムで尋ねてみてください。"
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr ""
+msgstr "マスターモード"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -68,6 +70,9 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
+"マスターモードは、セクション:ref:「model-setup」の「PPM "
+"In」スピンボックスから「Channel」または「Stick」のいずれかを選択して設定します。「Stick」または「Channel」で「ENT」を押すと、「Trainer"
+" Cfg」ページが表示されます。2つのモードの動作は若干異なります。"
 
 #: ../../source/ch_advanced.rst:21
 msgid ""
@@ -77,6 +82,8 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
+"**Stick**: "
+"スティックモードでは、各入力チャンネルはマスター送信機のスティックにマッピングされます。このモードでは、スティックを動かしている受講者は、インストラクターがスティックを動かした場合とまったく同じように動作します。一般にこのモードを使用すると、受講者の送信機はスティックポジション信号(ミキシングなし)を直接通過し、インストラクターの送信機側で必要なミキシングをすべて行います。"
 
 #: ../../source/ch_advanced.rst:26
 msgid ""
