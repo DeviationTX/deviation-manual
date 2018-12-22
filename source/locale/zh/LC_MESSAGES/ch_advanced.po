@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 15:44+0000\n"
+"POT-Creation-Date: 2018-12-21 02:06+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
@@ -91,9 +91,7 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
-"**通道模式**：在通道模式中，每个输入信道映射到主遥控器的输出信道。在这种模式\n"
-"下，学生的遥控器应该设置一切必要的混控。必须注意，要确保教师和学生遥控\n"
-"器配置相同，否则，教师和学生控制之间进行切换时，模型可能无法做出反应。"
+"**通道模式**：在通道模式中，每个输入信道映射到主遥控器的输出信道。在这种模式下，学生的遥控器应该设置一切必要的混控。必须注意，要确保教师和学生遥控器配置相同，否则，教师和学生控制之间进行切换时，模型可能无法做出反应。"
 
 #: ../../source/ch_advanced.rst:28
 msgid "Options configurable on both Trainer Cfg pages:"
@@ -111,7 +109,7 @@ msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
-msgstr "**脉宽变化**：定义学生遥控器发射代表舵机最大位置的脉冲宽度(从中心测 量)。如果该值不正确，舵机不会满舵(或摆动太大)。"
+msgstr "**脉宽变化**：定义学生遥控器发射代表舵机最大位置的脉冲宽度(从中心测量)。如果该值不正确，舵机不会满舵(或摆动太大)。"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -142,40 +140,40 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:45
 msgid "Setting Up FPV or Other External Inputs"
-msgstr ""
+msgstr "配置FPV或者其他外部输入"
 
 #: ../../source/ch_advanced.rst:50
 msgid ""
 "Deviation has the ability to use PPM input signals from an external source "
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
-msgstr ""
+msgstr "Deviation可以接受外部的PPM输入型号（比如FPV头追）。首先需要参考:ref:`model-setup`配置PPM IN模式。"
 
 #: ../../source/ch_advanced.rst:52
 msgid ""
 "Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
 " inputs."
-msgstr ""
+msgstr "当打开以后，在PPMIN模式下按ENT键来配置额外的输入。"
 
 #: ../../source/ch_advanced.rst:54
 msgid "Configuration options:"
-msgstr ""
+msgstr "配置选项："
 
 #: ../../source/ch_advanced.rst:56
 msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
-msgstr ""
+msgstr "**中点脉宽**：定义学生遥控器发射代表舵机中心位置的脉冲时间(微秒)。"
 
 #: ../../source/ch_advanced.rst:57
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
-msgstr ""
+msgstr "**脉宽变化**：定义学生遥控器发射代表舵机最大位置的脉冲宽度(从中心测量)"
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
 "**Num Channels**: Defines the number of channels to input (generally no more"
 " than 8 can be supported)"
-msgstr ""
+msgstr "**通道数**：设置有几个输入的通道（一般不超过8个）。"
 
 #: ../../source/ch_advanced.rst:63
 msgid "Using a Trim as a Virtual Switch"
