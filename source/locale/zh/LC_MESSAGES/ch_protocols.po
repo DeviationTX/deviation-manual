@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 15:44+0000\n"
+"POT-Creation-Date: 2018-12-22 02:07+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
@@ -55,7 +55,7 @@ msgstr ""
 #: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
 #: ../../source/ch_protocols.rst:846
 msgid "|mod-install-link|"
-msgstr ""
+msgstr "|mod-install-link|"
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
@@ -347,12 +347,12 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr "协议：天地飞"
+msgstr "协议:天地飞"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
-msgstr ""
+msgstr "天地飞协议支持天地飞的接收器，如WFR04S, WFR07S和WFR09S。"
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
@@ -547,7 +547,7 @@ msgstr "H301和H501格式只支持手工对频。"
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "通道5控制LED灯。"
 
 #: ../../source/ch_protocols.rst:202
 msgid ""
@@ -561,11 +561,11 @@ msgstr "通道 7 控制视频打开/关闭(H102)，或者拍一张照片。"
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "通道8控制拍照。"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "通道9打开无头模式。"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
