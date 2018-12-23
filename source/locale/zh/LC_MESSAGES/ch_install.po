@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 02:06+0000\n"
+"POT-Creation-Date: 2018-12-22 02:07+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
@@ -33,7 +33,7 @@ msgstr "Windows™用户可以在两种方法之间进行选择，安装 Deviati
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr "使用 Deviation 上传工具（Deviation Uploader tool）。"
+msgstr "使用 Deviation 上传工具（Deviation Uploader）。"
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
@@ -539,7 +539,7 @@ msgstr "目录结构如下:"
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
-msgstr ""
+msgstr "\\\\tx.ini"
 
 #: ../../source/ch_install.rst:262
 msgid ""
@@ -549,7 +549,7 @@ msgstr "遥控器配置。包括调整设置，校准数据和使用的模型编
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
-msgstr ""
+msgstr "\\\\hardware.ini"
 
 #: ../../source/ch_install.rst:264
 msgid ""
@@ -559,7 +559,7 @@ msgstr "遥控器硬件设置，描述支持硬件的修改。数量。"
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
-msgstr ""
+msgstr "\\\\errors.txt"
 
 #: ../../source/ch_install.rst:266
 msgid ""
@@ -569,7 +569,7 @@ msgstr "如果固件崩溃或重新启动，调试信息将存储在这个文件
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
-msgstr ""
+msgstr "\\\\datalog.bin"
 
 #: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
@@ -577,7 +577,7 @@ msgstr "遥测数据文件"
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
-msgstr ""
+msgstr "\\\\media\\\\config.ini"
 
 #: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
@@ -585,7 +585,7 @@ msgstr "遥控器的颜色和字体设置文件"
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
-msgstr ""
+msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
@@ -593,7 +593,7 @@ msgstr "各种警告的语音设置文件"
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
-msgstr ""
+msgstr "\\\\media\\\\*.bmp"
 
 #: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
@@ -601,7 +601,7 @@ msgstr "主题图像"
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
-msgstr ""
+msgstr "\\\\media\\\\*.fon"
 
 #: ../../source/ch_install.rst:271
 msgid "Font files"
@@ -609,7 +609,7 @@ msgstr "字体文件"
 
 #: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
-msgstr ""
+msgstr "\\\\models\\\\default.ini"
 
 #: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
@@ -617,7 +617,7 @@ msgstr "缺省的模型配置，当清空模型配置时加载。"
 
 #: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
-msgstr ""
+msgstr "\\\\models\\\\model*.ini"
 
 #: ../../source/ch_install.rst:273
 msgid ""
@@ -629,7 +629,7 @@ msgstr ""
 
 #: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
-msgstr ""
+msgstr "\\\\modelico\\\\*.bmp"
 
 #: ../../source/ch_install.rst:276
 msgid ""
@@ -642,7 +642,7 @@ msgstr ""
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
-msgstr ""
+msgstr "\\\\templates\\\\*.ini"
 
 #: ../../source/ch_install.rst:279
 msgid ""
@@ -653,7 +653,7 @@ msgstr "配置文件加载时使用的预定义模板。这些都是几乎相同
 
 #: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
-msgstr ""
+msgstr "\\\\language\\\\lang*.*"
 
 #: ../../source/ch_install.rst:281
 msgid ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 02:06+0000\n"
+"POT-Creation-Date: 2018-12-22 02:07+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
@@ -1218,59 +1218,59 @@ msgstr ""
 
 #: ../../source/ch_model.rst:706
 msgid "**Model Configuration**: :ref:`model-setup`"
-msgstr ""
+msgstr "**模型配置**: :ref:`model-setup`"
 
 #: ../../source/ch_model.rst:708
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
-msgstr ""
+msgstr "**微调设置**: :ref:`trims-and-virtual-inputs`"
 
 #: ../../source/ch_model.rst:710
 msgid "**Servo reverse**: :ref:`servo-reverse`"
-msgstr ""
+msgstr "**舵机反向**: :ref:`servo-reverse`"
 
 #: ../../source/ch_model.rst:712
 msgid "**Switch assignment**: :ref:`switch-assignment`"
-msgstr ""
+msgstr "**开关设置**: :ref:`switch-assignment`"
 
 #: ../../source/ch_model.rst:714
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
-msgstr ""
+msgstr "**舵机微调**: :ref:`sub-trim-adjustment`"
 
 #: ../../source/ch_model.rst:716
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
-msgstr ""
+msgstr "**油门设置**: :ref:`throttle-hold`"
 
 #: ../../source/ch_model.rst:718
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
-msgstr ""
+msgstr "**舵机行程**: :ref:`servo-travel-adjust`"
 
 #: ../../source/ch_model.rst:720
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
-msgstr ""
+msgstr "**失控设置**: :ref:`fail-safe-configuration`"
 
 #: ../../source/ch_model.rst:722
 msgid "**Swash Setup**: :ref:`swash-configuration`"
-msgstr ""
+msgstr "**十字盘设置**: :ref:`swash-configuration`"
 
 #: ../../source/ch_model.rst:724
 msgid "**Timer configuration**: :ref:`timers`"
-msgstr ""
+msgstr "**定时器**: :ref:`timers`"
 
 #: ../../source/ch_model.rst:726
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
-msgstr ""
+msgstr "**双曲率设置**: :ref:`dual-rate-expo-setting`"
 
 #: ../../source/ch_model.rst:728
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
-msgstr ""
+msgstr "**回传设置**: :ref:`telemetry-config`"
 
 #: ../../source/ch_model.rst:730
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
-msgstr ""
+msgstr "**油门曲线**: :ref:`throttle-curve`"
 
 #: ../../source/ch_model.rst:732
 msgid "**Datalog configuration**: :ref:`datalog`"
-msgstr ""
+msgstr "**数据记录**: :ref:`datalog`"
 
 #: ../../source/ch_model.rst:734
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
