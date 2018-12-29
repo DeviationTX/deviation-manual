@@ -20,7 +20,10 @@ addons:
       - texlive
       - texlive-latex-extra
       - texlive-lang-all
+      - texlive-generic-extra
+      - texlive-xetex
       - latexmk
+
 
 language: python
 
