@@ -23,6 +23,7 @@ addons:
       - texlive-generic-extra
       - texlive-xetex
       - latexmk
+      - lmodern
 
 
 language: python
