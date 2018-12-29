@@ -6,7 +6,7 @@ env:
       - TARGET=devo10 MAKETARGET=latexpdf-release
       - TARGET=devo10 MAKETARGET=html-release
 
-dist: xenial
+dist: trusty
 sudo: false
 
 addons:
@@ -20,11 +20,7 @@ addons:
       - texlive
       - texlive-latex-extra
       - texlive-lang-all
-      - texlive-generic-extra
-      - texlive-xetex
       - latexmk
-      - lmodern
-
 
 language: python
 
