@@ -6,7 +6,7 @@ env:
       - TARGET=devo10 MAKETARGET=latexpdf-release
       - TARGET=devo10 MAKETARGET=html-release
 
-dist: trusty
+dist: xenial
 sudo: false
 
 addons:
