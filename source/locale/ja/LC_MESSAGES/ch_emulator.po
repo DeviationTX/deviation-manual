@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 02:06+0000\n"
+"POT-Creation-Date: 2018-12-30 02:10+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_emulator.rst:4
 msgid "Emulator"
-msgstr ""
+msgstr "エミュレーター"
 
 #: ../../source/ch_emulator.rst:5
 msgid ""
@@ -33,17 +33,19 @@ msgid ""
 "virtual-stick/switch states as well as the Channel output that would be "
 "received by the servos."
 msgstr ""
+"エミュレーターは、ファームウェアを送信機にアップロードせずにPC上でDeviationをテストする方法を提供します。現在のバーチャルスティック、バーチャルスイッチの状態とサーボが受信するチャンネル出力を表示するサイドスクリーンと共に、送信機と同等のビジュアル表示を提供します。"
 
 #: ../../source/ch_emulator.rst:7
 msgid ""
 "Download and unzip the deviation-emu_devoXX-vx.y.z.zip emulator package "
 "from:"
-msgstr ""
+msgstr "deviation-emu_devoXX-vx.y.z.zipのエミュレータパッケージを次の場所からダウンロードし解凍します:"
 
 #: ../../source/ch_emulator.rst:9
 msgid ""
 "http://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 msgstr ""
+"http://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 
 #: ../../source/ch_emulator.rst:11
 msgid ""
@@ -51,23 +53,24 @@ msgid ""
 "deviation version number. Normally you should use the latest one. To start "
 "the emulator just run the exe file in the sub-directory."
 msgstr ""
+"XXはあなたのDeviation送信機の番号です。x.y.zはDeviationバージョン番号を表します。通常は最新のものを使うべきです。エミュレーターを起動するには、サブディレクトリにあるexeファイルを実行してください。"
 
 #: ../../source/ch_emulator.rst:26
 msgid ""
 "The emulator controls are as follows (based an an English QWERTY keyboard):"
-msgstr ""
+msgstr "エミュレーターコントロールは次の通りです。(英語QWERTYキーボード配列ベース):"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Keyboard"
-msgstr ""
+msgstr "キーボード"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Function"
-msgstr ""
+msgstr "ファンクション"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Transmitter"
-msgstr ""
+msgstr "送信機"
 
 #: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:34
 msgid "\\"
@@ -75,35 +78,35 @@ msgstr "\\"
 
 #: ../../source/ch_emulator.rst:33
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/ch_emulator.rst:33
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../source/ch_emulator.rst:33
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: ../../source/ch_emulator.rst:34
 msgid "12e"
-msgstr ""
+msgstr "12e"
 
 #: ../../source/ch_emulator.rst:34
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../source/ch_emulator.rst:34
 msgid "7e"
-msgstr ""
+msgstr "7e"
 
 #: ../../source/ch_emulator.rst:36
 msgid "q/a"
-msgstr ""
+msgstr "q/a"
 
 #: ../../source/ch_emulator.rst:36
 msgid "Left-Vertical stick (Throttle in mode 2)"
-msgstr ""
+msgstr "左-縦 スティック (モード2 スロットル)"
 
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:36
 #: ../../source/ch_emulator.rst:36 ../../source/ch_emulator.rst:37
@@ -153,264 +156,264 @@ msgstr ""
 #: ../../source/ch_emulator.rst:77 ../../source/ch_emulator.rst:78
 #: ../../source/ch_emulator.rst:78 ../../source/ch_emulator.rst:78
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../../source/ch_emulator.rst:37
 msgid "Q/A"
-msgstr ""
+msgstr "Q/A"
 
 #: ../../source/ch_emulator.rst:37
 msgid "Left-Vertical trim"
-msgstr ""
+msgstr "左-縦 トリム"
 
 #: ../../source/ch_emulator.rst:38
 msgid "w/s"
-msgstr ""
+msgstr "w/s"
 
 #: ../../source/ch_emulator.rst:38
 msgid "Left-Horizontal stick (Rudder in mode 2)"
-msgstr ""
+msgstr "左-横 スティック (モード2 ラダー)"
 
 #: ../../source/ch_emulator.rst:39
 msgid "W/S"
-msgstr ""
+msgstr "W/S"
 
 #: ../../source/ch_emulator.rst:39
 msgid "Left-Horizontal trim"
-msgstr ""
+msgstr "左-横 トリム"
 
 #: ../../source/ch_emulator.rst:40
 msgid "e/d"
-msgstr ""
+msgstr "e/d"
 
 #: ../../source/ch_emulator.rst:40
 msgid "Right-Vertical stick (Elevator in mode 2)"
-msgstr ""
+msgstr "右-縦 スティック (モード2 エレベーター)"
 
 #: ../../source/ch_emulator.rst:41
 msgid "E/D"
-msgstr ""
+msgstr "E/D"
 
 #: ../../source/ch_emulator.rst:41
 msgid "Right-Vertical trim"
-msgstr ""
+msgstr "右-縦 トリム"
 
 #: ../../source/ch_emulator.rst:42
 msgid "r/f"
-msgstr ""
+msgstr "r/f"
 
 #: ../../source/ch_emulator.rst:42
 msgid "Right-Horizontal stick (Aileron in mode 2)"
-msgstr ""
+msgstr "右-横 スティック (モード2 エレロン)"
 
 #: ../../source/ch_emulator.rst:43
 msgid "R/F"
-msgstr ""
+msgstr "R/F"
 
 #: ../../source/ch_emulator.rst:43
 msgid "Right-Horizontal trim"
-msgstr ""
+msgstr "右-横 トリム"
 
 #: ../../source/ch_emulator.rst:44
 msgid "o/l"
-msgstr ""
+msgstr "o/l"
 
 #: ../../source/ch_emulator.rst:44
 msgid "AUX2"
-msgstr ""
+msgstr "AUX2"
 
 #: ../../source/ch_emulator.rst:45
 msgid "p/;"
-msgstr ""
+msgstr "p/;"
 
 #: ../../source/ch_emulator.rst:45
 msgid "AUX3"
-msgstr ""
+msgstr "AUX3"
 
 #: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
 msgid "t/g"
-msgstr ""
+msgstr "t/g"
 
 #: ../../source/ch_emulator.rst:46 ../../source/ch_emulator.rst:60
 msgid "AUX4"
-msgstr ""
+msgstr "AUX4"
 
 #: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
 msgid "T/G"
-msgstr ""
+msgstr "T/G"
 
 #: ../../source/ch_emulator.rst:47 ../../source/ch_emulator.rst:61
 msgid "Top-Left trim"
-msgstr ""
+msgstr "トリム 左端"
 
 #: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
 msgid "y/h"
-msgstr ""
+msgstr "y/h"
 
 #: ../../source/ch_emulator.rst:48 ../../source/ch_emulator.rst:62
 msgid "AUX5"
-msgstr ""
+msgstr "AUX5"
 
 #: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
 msgid "Y/H"
-msgstr ""
+msgstr "Y/H"
 
 #: ../../source/ch_emulator.rst:49 ../../source/ch_emulator.rst:63
 msgid "Top-Right trim"
-msgstr ""
+msgstr "トリム 右端"
 
 #: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
 msgid "u/j"
-msgstr ""
+msgstr "u/j"
 
 #: ../../source/ch_emulator.rst:50 ../../source/ch_emulator.rst:64
 msgid "AUX6"
-msgstr ""
+msgstr "AUX6"
 
 #: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
 msgid "i/k"
-msgstr ""
+msgstr "i/k"
 
 #: ../../source/ch_emulator.rst:51 ../../source/ch_emulator.rst:65
 msgid "AUX7"
-msgstr ""
+msgstr "AUX7"
 
 #: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
 msgid "z"
-msgstr ""
+msgstr "z"
 
 #: ../../source/ch_emulator.rst:52 ../../source/ch_emulator.rst:66
 msgid "Gear"
-msgstr ""
+msgstr "ギヤ"
 
 #: ../../source/ch_emulator.rst:53 ../../source/ch_emulator.rst:67
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../../source/ch_emulator.rst:53
 msgid "Rudder Dual-Rate switch/SW B"
-msgstr ""
+msgstr "ラダー デュアルレート スイッチ/SW B"
 
 #: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: ../../source/ch_emulator.rst:54 ../../source/ch_emulator.rst:68
 msgid "Elevator Dual-Rate switch/SW A"
-msgstr ""
+msgstr "エレベーター デュアルレート スイッチ/SW A"
 
 #: ../../source/ch_emulator.rst:55 ../../source/ch_emulator.rst:69
 msgid "v"
-msgstr ""
+msgstr "v"
 
 #: ../../source/ch_emulator.rst:55
 msgid "Aileron Dual-Rate switch/"
-msgstr ""
+msgstr "エレロン デュアルレート スイッチ/"
 
 #: ../../source/ch_emulator.rst:55
 msgid "DR"
-msgstr ""
+msgstr "DR"
 
 #: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: ../../source/ch_emulator.rst:56 ../../source/ch_emulator.rst:70
 msgid "Mix 0/1/2 switch"
-msgstr ""
+msgstr "Mix 0/1/2 スイッチ"
 
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: ../../source/ch_emulator.rst:57 ../../source/ch_emulator.rst:71
 msgid "FMode 0/1/2 switch"
-msgstr ""
+msgstr "FMode 0/1/2 スイッチ"
 
 #: ../../source/ch_emulator.rst:58
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: ../../source/ch_emulator.rst:58
 msgid "Hold switch"
-msgstr ""
+msgstr "Hold スイッチ"
 
 #: ../../source/ch_emulator.rst:59
 msgid ","
-msgstr ""
+msgstr ","
 
 #: ../../source/ch_emulator.rst:59
 msgid "Train switch"
-msgstr ""
+msgstr "Train スイッチ"
 
 #: ../../source/ch_emulator.rst:66
 msgid "FMODE"
-msgstr ""
+msgstr "FMODE"
 
 #: ../../source/ch_emulator.rst:67
 msgid "Rudder Dual-Rate switch"
-msgstr ""
+msgstr "ラダー デュアルレート スイッチ"
 
 #: ../../source/ch_emulator.rst:67
 msgid "HOLD"
-msgstr ""
+msgstr "HOLD"
 
 #: ../../source/ch_emulator.rst:69
 msgid "Aileron Dual-Rate switch/SW B"
-msgstr ""
+msgstr "エレロン デュアルレート スイッチ/SW B"
 
 #: ../../source/ch_emulator.rst:72
 msgid "\\\\"
-msgstr ""
+msgstr "\\\\"
 
 #: ../../source/ch_emulator.rst:72
 msgid "Power off"
-msgstr ""
+msgstr "電源OFF"
 
 #: ../../source/ch_emulator.rst:73
 msgid "Left-arrow"
-msgstr ""
+msgstr "Left-arrow"
 
 #: ../../source/ch_emulator.rst:73
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: ../../source/ch_emulator.rst:74
 msgid "Right-arrow"
-msgstr ""
+msgstr "Right-arrow"
 
 #: ../../source/ch_emulator.rst:74
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: ../../source/ch_emulator.rst:75
 msgid "Up-arrow"
-msgstr ""
+msgstr "Up-arrow"
 
 #: ../../source/ch_emulator.rst:75
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 #: ../../source/ch_emulator.rst:76
 msgid "Down-arrow"
-msgstr ""
+msgstr "Down-arrow"
 
 #: ../../source/ch_emulator.rst:76
 msgid "Down"
-msgstr ""
+msgstr "下"
 
 #: ../../source/ch_emulator.rst:77
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../../source/ch_emulator.rst:77
 msgid "Ent"
-msgstr ""
+msgstr "Ent"
 
 #: ../../source/ch_emulator.rst:78
 msgid "Escape"
-msgstr ""
+msgstr "Escape"
 
 #: ../../source/ch_emulator.rst:78
 msgid "Exit"
-msgstr ""
+msgstr "Exit"

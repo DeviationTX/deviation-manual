@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"POT-Creation-Date: 2018-12-30 02:10+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../source/ch_bugreport.rst:2
 msgid "Reporting Bugs"
-msgstr ""
+msgstr "バグ報告"
 
 #: ../../source/ch_bugreport.rst:3
 msgid "Nobody is perfect."
-msgstr ""
+msgstr "すべてが完璧ではありません。"
 
 #: ../../source/ch_bugreport.rst:5
 msgid ""
@@ -34,12 +38,17 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
+"このファームウェアは慎重に開発されており、世界中の多くのユーザによって正常テストが行われております。それにも関わらず、状況によっては送信機が想定通りに動作しないことがあります。"
+" 時々このような事象は処理上の問題があり、正にバグということとなります。 http://www.deviationtx.com/forum "
+"でコミュニティに尋ねることを是非躊躇しないでください。ファームウェアはあなた方の助けを乞うことでしか改善ができないことに意識いただければ幸いです。"
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
 "If you find a bug in Deviation, please report it here: "
 "https://github.com/DeviationTX/deviation/issues"
 msgstr ""
+"Deviationにバグが見つかった場合は、ここに報告してください: "
+"https://github.com/DeviationTX/deviation/issues "
 
 #: ../../source/ch_bugreport.rst:9
 msgid ""
@@ -48,37 +57,38 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
+"バグ報告するには、Deviationフォーラムにアカウントを登録する必要があります。そのアカウントはまたあなたがDeviationコミュニティと連絡することを可能とし、バグが更新および修正されたときにあなたが電子メールでのお知らせを受けることができます。"
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
 "Please provide as much information as possible in your ticket. Include:"
-msgstr ""
+msgstr "チケットには、できるだけ多くの情報を含めるよう入力してください:"
 
 #: ../../source/ch_bugreport.rst:13
 msgid "Build version (you can find this on the 'USB' page of the transmitter)"
-msgstr ""
+msgstr "ビルドバージョン (これは送信機ページの「USB」項にあります)"
 
 #: ../../source/ch_bugreport.rst:14
 msgid "Did you compile yourself, or download the dfu?"
-msgstr ""
+msgstr "自身でコンパイルしましたか？それともDFUをダウンロードしましたか？"
 
 #: ../../source/ch_bugreport.rst:15
 msgid "Type of transmitter (Devo8, Devo7e, Devo8-emulator,...)"
-msgstr ""
+msgstr "送信機タイプ (Devo8、Devo7e、Devo8―emulator等)"
 
 #: ../../source/ch_bugreport.rst:16
 msgid "Have you tried reproducing this on the emulator?"
-msgstr ""
+msgstr "これをエミュレーターで再現してみましたか？"
 
 #: ../../source/ch_bugreport.rst:17
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
-msgstr ""
+msgstr "これは容易に再現できますか？もし再現可能ならステップバイステップの手順を提供してください。"
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"
-msgstr ""
+msgstr "何のプロトコルを使用していますか？"
 
 #: ../../source/ch_bugreport.rst:19
 msgid ""
@@ -86,7 +96,9 @@ msgid ""
 "file-system of the transmitter along with the 'debug-devo???.zip file that "
 "came with the dfu"
 msgstr ""
+"送信機を再起動した場合、DFU内の「debug-"
+"devo???.zip」ファイルと共に、送信機のrootファイルシステムにerrors.txtが記載されます。"
 
 #: ../../source/ch_bugreport.rst:21
 msgid "The more detail you can provide, the faster fixing the issue will be."
-msgstr ""
+msgstr "提供される詳細情報が多ければ多いほど、問題の修正は早くなります。"

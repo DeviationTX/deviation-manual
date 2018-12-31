@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"POT-Creation-Date: 2018-12-30 02:10+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +23,21 @@ msgstr ""
 
 #: ../../source/ch_install.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #: ../../source/ch_install.rst:4
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
-msgstr ""
+msgstr "Windowsユーザは、Deviationファームウェアをインストールする方法を2種選択できます。"
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr ""
+msgstr "Deviation Uploaderツールを使用"
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
-msgstr ""
+msgstr "Walkera DfuSe USB Upgradeツールを使用 (Windowsのみ)"
 
 #: ../../source/ch_install.rst:9
 msgid ""
@@ -47,12 +51,16 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
+"Windowsオペレーティングシステムがない場合は、最初の選択肢であるDeviation Uploaderツールを使用してください。 "
+"オリジナルのWalkeraファームウェアに戻す必要がある場合は、Deviation開発チームによって設計されたJavaアプリケーションで、Devo送信機やDeviationの任意のバージョン、さらにはDeventionのすべてのバージョンで効率的かつ簡単に使用ができます。Walkeraツールは、まずファームウェアをインストールしてからファイルシステムライブラリをインストールするという2段階の手順が必要です。"
+" Deviation "
+"Uploaderツールは、ZIP圧縮されたDeviationファームウェアファイルをソースとして使用し、アップデートを1つの簡単かつ便利な手順で実行します。"
 
 #: ../../source/ch_install.rst:11
 msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
-msgstr ""
+msgstr "送信機がDevo F7またはF12Eの場合は、Deviation Uploaderツールを使用する必要があります。"
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -62,10 +70,12 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
+":ref:`Preparation` "
+"項はインストールを始める前にするべきことを補完しています。次に使用しているツールに応じて、2つのインストール項で実際のインストール手法について説明を行います。以下の項目には、様々なバージョンやビルドタイプからのアップグレード、または様々なバージョンへのアップグレードに固有の注意事項が含まれています。"
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr ""
+msgstr "Preparation"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -75,28 +85,37 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
+"最初に、インストールを開始する前にDevo送信機がフル充電されていることを確認してください。 　http://deviationtx.com"
+"/downloads-new/category/1-deviation-releases から variation-devoXX-x.y.z.zip "
+"ファームウェアをダウンロードします。ここでXXはWalkera Devo送信機の番号です。x.y.zはDeviationバージョン番号を表します。"
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
-msgstr ""
+msgstr "注: STMicroelectronicsのDfuSeツールを使用しないでください！"
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
+"Walkeraツールは次のサイトからダウンロードできます: 　"
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Deviation Uploaderツールは下記よりダウンロード可能です。 http://deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:40
 msgid ""
 "If you are using Windows™, you need to install the appropriate USB drivers. "
 "See the section on :ref:`windows_drivers`"
 msgstr ""
+"Windowsを使用している場合は、適切なUSBドライバをインストールする必要があります。 :ref:`windows_drivers` "
+"項をご確認ください。"
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -105,6 +124,8 @@ msgid ""
 "is recommended that you test the DFU tool by first upgrading your TX to a "
 "different version of Walkera firmware."
 msgstr ""
+"ツールを解凍しローカルにインストールします。Deviation "
+"Uploaderツールを使用している場合は、ダウンロードしたファームウェアを解凍する必要はありません。最初に送信機をWalkeraファームウェアの別のバージョンにアップグレードして、DFUツールをテストすることをお勧めします。"
 
 #: ../../source/ch_install.rst:46
 msgid ""
@@ -113,10 +134,11 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
+"以前のDeviationリリースからアップグレードする場合は、モデルデータや送信機の設定を失う可能性があるため、送信機から「models」ディレクトリをバックアップし「tx.ini」ファイルおよび「hardware.ini」ファイルを変更しないことを強くお勧めします。"
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr ""
+msgstr "Windowsドライバのインストール"
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -124,6 +146,9 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Walkera DfuSeツールとDeviation Uploaderツールは異なるドライバを使用します。どちらも下記Deviation "
+"USBDrvインストーラによりインストールが可能です。 http://www.deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool "
 
 #: ../../source/ch_install.rst:63
 msgid ""
@@ -132,10 +157,14 @@ msgid ""
 "the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
 "driver. Install the driver for the Dfu tool you plan on using."
 msgstr ""
+"Deviation USBDrv インストーラを解凍し、「DFU USBDrv "
+"Installer-x.y.exe」を実行します。その後、両方のドライバをアンインストールするか、もしくはDeviation "
+"Uploaderと一緒に使用するためにDeviation "
+"USBドライバまたはWalkeraドライバのいずれかをインストールします。または使用する予定のDFUツールドライバをインストールします。"
 
 #: ../../source/ch_install.rst:70
 msgid "DFU Installation With Walkera DfuSe"
-msgstr ""
+msgstr "Walkera DfuSeによるDFUインストール"
 
 #: ../../source/ch_install.rst:72
 msgid ""
@@ -145,12 +174,16 @@ msgid ""
 " they cannot be accessed by Deviation, they will be safely preserved should "
 "the Walkera firmware ever need to be reinstalled"
 msgstr ""
+"Walkera DfuSeツールを使用したDeviationのインストールは、Walkera "
+"Deventionファームウェアのアップグレードとまったく同一方法で行われます。Deviationが送信機側に保存されたWalkeraモデルを間違って上書きしないようご注意ください。またDeviationからはアクセスできませんが、Walkeraファームウェアを再インストールする場合も安全に保存されます。"
 
 #: ../../source/ch_install.rst:81
 msgid ""
 "NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
 "F7 firmware, the original models will be lost when switching to Deviation."
 msgstr ""
+"注: Devo7e、Devo F12e、およびDevo "
+"F7ファームウェアのメモリ制限により、Deviationに切り替えるとオリジナル機体モデルが失われます。"
 
 #: ../../source/ch_install.rst:88
 msgid ""
@@ -159,6 +192,7 @@ msgid ""
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
 msgstr ""
+"以前にダウンロードしたファームウェアファイルを解凍します。送信機をUSB経由でPCに接続し「EXT」を押しながら送信機を電源ONし、プログラミングモードに入ります。Devo12では代わりにトレーナースイッチを押し続けプログラミングモードに入ります。"
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -167,6 +201,7 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
+"このツールを実行に際し、何名かのユーザがWindowsやUSBポートとの互換性問題を報告しています。DfuSeが送信機を認識しない場合は、すべてのUSBデバイスを取り外し送信機のみをUSB接続し、PCを再起動してみてください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -174,12 +209,14 @@ msgid ""
 "will be displayed under 'Available DFU Devices'. Otherwise this field will "
 "remain blank."
 msgstr ""
+"送信機が正しく接続されている場合は「Available DFU Devices」の下に「STM Device in DFU "
+"Mode」が表示されます。それ以外の場合この欄は空白のままになります。"
 
 #: ../../source/ch_install.rst:96
 msgid ""
 "Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to "
 "install."
-msgstr ""
+msgstr "「…」ボタンを押し、インストールする Deviation-devoXX-vx.y.z.dfu ファイルを選択します。"
 
 #: ../../source/ch_install.rst:97
 msgid ""
@@ -187,6 +224,7 @@ msgid ""
 "your transmitter is not detected.  **Do NOT use 'Upload' as this will "
 "destroy the dfu file on your PC.**"
 msgstr ""
+"ファームウェアをインストールするには「**Upgrade**」を選択してください。送信機が検出されない場合、ここはグレー表示されます。**これはあなたのPC上のDFUファイルを破壊するので「アップロード」を使わないでください。**"
 
 #: ../../source/ch_install.rst:98
 msgid ""
@@ -194,6 +232,8 @@ msgid ""
 "devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to "
 "install the library."
 msgstr ""
+"**Devo12のみ**: 「ライブラリ」タブを選択し、「…」をクリックしてZIPファイルから devo12-lib.dfu "
+"を選択します。それからもう一度 「**Upgrade**」を選択してライブラリをインストールしてください。"
 
 #: ../../source/ch_install.rst:100
 msgid ""
@@ -202,10 +242,11 @@ msgid ""
 "the PC should prompt to format a drive. Format using default options. Next, "
 "upgrade the file system via USB."
 msgstr ""
+"送信機の電源を切り「ENT」を押しながら電源を入れます。画面にUSBロゴが表示されます。これが初めてのDeviationインストールである場合、PCはそのドライブをフォーマットするように促されますので、デフォルトオプションを使用してフォーマットします。次にUSB経由でファイルシステムをアップグレードします。"
 
 #: ../../source/ch_install.rst:103
 msgid "Upgrading the file system via USB"
-msgstr ""
+msgstr "USB経由でファイルシステムをアップグレード"
 
 #: ../../source/ch_install.rst:107
 msgid ""
@@ -214,6 +255,10 @@ msgid ""
 "the 'Deviation Uploader' to manage files. If you enable it, all you can do "
 "is format the drive, which will destroy your installation."
 msgstr ""
+"Devo "
+"F7およびF12Eでは、デスクトップからファイルシステムにアクセスできないため、USBモードを有効にしないでください。ファイルを管理するには「Deviation"
+" Uploader」の「File Manager」タブを使用する必要があります。 "
+"有効にした場合は、ドライブをフォーマットするだけでインストールが中断されます。"
 
 #: ../../source/ch_install.rst:113
 msgid ""
@@ -222,6 +267,8 @@ msgid ""
 "drive. For details of the file-system please see :ref:`usb-file-system`. The"
 " files with the extension 'zip', and 'dfu' need not to be copied."
 msgstr ""
+"ZIPファイルを解凍したフォルダを開き、このフォルダ内のすべてのファイルとディレクトリを送信機USBドライブのルート部へコピーします。ファイルシステムの詳細については"
+" :ref:`usb-file-system` を参照してください。拡張子が「zip」「dfu」のファイルはコピーする必要はありません。"
 
 #: ../../source/ch_install.rst:121
 msgid ""
@@ -232,10 +279,12 @@ msgid ""
 "models have the latest options set. If the 'tx.ini' file is overwritten, the"
 " stick calibration must be repeated and any settings reset."
 msgstr ""
+"旧リリースバージョンからアップグレードする場合は「tx.ini」ファイル「hardware.ini」ファイル、または "
+"「models」ディレクトリをアップグレードしないでください。必要に応じて、現在設定されている機体モデルファイルを除いて、「models」ディレクトリを送信機にコピーします。この最後のステップでは、新しく作成された機体モデルの初期値に最新のオプションが設定されていることを確認します。「tx.ini」ファイルが上書きされた場合、スティックキャリブレーションを再び行い設定をリセットする必要があります。"
 
 #: ../../source/ch_install.rst:130
 msgid "DFU Installation with Deviation Uploader"
-msgstr ""
+msgstr "Deviation Uploaderを使用したDFUインストール"
 
 #: ../../source/ch_install.rst:134
 msgid ""
