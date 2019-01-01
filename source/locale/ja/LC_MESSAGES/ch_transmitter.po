@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"POT-Creation-Date: 2018-12-31 02:10+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -356,9 +360,11 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
+"USB項にアクセスするには、メインメニューから「USB」を選択します。USB "
+"modeをON/OFFに切り替えて、USB搭載PCから送信機のファイルシステムにアクセスすることができます。このモードでは、Deviationのファイルシステムへストレージデバイスとしてアクセス可能です。これにより、DeviationファイルシステムとPCの間でファイルをやり取りができ、またすべての設定ファイルにアクセスができます。"
 
 #: ../../source/ch_transmitter.rst:272
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
-msgstr ""
+msgstr "注: USB modeは機体とバインドされている間は決して行わないでください。USB modeが使用されると信号が混信します！"
