@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 02:04+0000\n"
+"POT-Creation-Date: 2019-01-01 02:11+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_overview.rst:2
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/ch_overview.rst:4
 msgid ""
@@ -29,6 +33,8 @@ msgid ""
 "firmware is the mixer system, which is modeled after the system used in the "
 "Er9X firmware for the Turnigy/Flysky9x™ transmitters."
 msgstr ""
+"Deviationは、Walkera "
+"Deventionシリーズ(Devo)送信機の代替ファームウェアです。主な目的は、このプラットフォームの可能性を最大限に引き出すため、マルチプロトコルのサポートを追加することとなります。Deviationファームウェアの中核は、Turnigy/Flysky9x送信機用のEr9Xファームウェアで使用されているシステムをモデルにしたミキサーシステムです。"
 
 #: ../../source/ch_overview.rst:6
 msgid ""
@@ -36,6 +42,7 @@ msgid ""
 "transmitter from any PC without the need for specialized upload/download "
 "tools."
 msgstr ""
+"DeviationはUSBファイルシステムのサポートもされており、専用のアップロード/ダウンロードツールを必要とせずに、どのPCからでも送信機の管理を容易にします。"
 
 #: ../../source/ch_overview.rst:8
 msgid ""
@@ -47,28 +54,29 @@ msgid ""
 " mix of inputs, switches, channel data, or timers can be displayed, and "
 "configured per-model."
 msgstr ""
+"Deviationは、送信機における設定の究極な可能性を想定してデザインされました。すべての機体モデルと送信機の設定はファームウェア(またはユーザ)が読み書きできるテキストファイルを通して制御されます。何が設定されているのかを正確に知ること、および送信機またはテキストエディタを使用して設定を変更することは簡単です。メイン画面は容易にカスタマイズ可能です。入力、スイッチ、チャンネルデータ、またはタイマーを任意に組み合わせて表示し、機体モデルごとに設定することができます。"
 
 #: ../../source/ch_overview.rst:10
 msgid ""
 "Deviation supports multiple protocols without any modifications to the "
 "transmitter:"
-msgstr ""
+msgstr "Deviationは送信機への修正なしでマルチプロトコルをサポートします:"
 
 #: ../../source/ch_overview.rst:12
 msgid "Walkera Devo 6/7/8/10/12"
-msgstr ""
+msgstr "Walkera Devo 6/7/8/10/12"
 
 #: ../../source/ch_overview.rst:13
 msgid "Walkera WK2401 / WK2601 / WK2801"
-msgstr ""
+msgstr "Walkera WK2401 / WK2601 / WK2801"
 
 #: ../../source/ch_overview.rst:14
 msgid "DSM2 / DSMX"
-msgstr ""
+msgstr "DSM2 / DSMX"
 
 #: ../../source/ch_overview.rst:15
 msgid "Nine Eagles J6 Pro (requires telemetry module)"
-msgstr ""
+msgstr "Nine Eagles J6 Pro (要テレメトリーモジュール)"
 
 #: ../../source/ch_overview.rst:17
 msgid ""
@@ -76,38 +84,41 @@ msgid ""
 "modifications (appropriate transceiver module needed). Among the more "
 "popular are:"
 msgstr ""
+"Deviationは、非常に簡単な送信機の変更を行うことで他の多くのプロトコルをサポートすることができます(適切な送受信機モジュールが必要)。モジュールは、より人気のあるものもあります:"
 
 #: ../../source/ch_overview.rst:21
 msgid "Flysky (also for WLToys V911, V9x9, and Xieda 9938)"
-msgstr ""
+msgstr "Flysky (WLToys V911, V9x9, Xieda 9938を含む)"
 
 #: ../../source/ch_overview.rst:22
 msgid "Hubsan-X4 and Estes Proto X"
-msgstr ""
+msgstr "Hubsan-X4 & Estes Proto X"
 
 #: ../../source/ch_overview.rst:23
 msgid "V202"
-msgstr ""
+msgstr "V202"
 
 #: ../../source/ch_overview.rst:24
 msgid "SLT"
-msgstr ""
+msgstr "SLT"
 
 #: ../../source/ch_overview.rst:25
 msgid "FrSky"
-msgstr ""
+msgstr "FrSky"
 
 #: ../../source/ch_overview.rst:27
 msgid ""
 "Deviation supports (flight) simulators connected via DSC cable (PPM) or USB "
 "cable (USBHID). Deviation also allows Buddy-Box and FPV setups."
 msgstr ""
+"DeviationはDSCケーブル(PPM)またはUSBケーブル(USBHID)を介して接続された(フライト)シミュレータをサポートします。DeviationはバディボックスとFPVの設定も可能にします。"
 
 #: ../../source/ch_overview.rst:29
 msgid ""
 "Deviation can store up to 255 different models, and uses a portable syntax "
 "that allows sharing models between any transmitter supported by Deviation."
 msgstr ""
+"Deviationは最大255の異なる機体モデルを保存でき、Deviationでサポートされている任意の送信機間でモデル情報を共有可能にする移植性のある構文を使用します。"
 
 #: ../../source/ch_overview.rst:31
 msgid ""
@@ -116,10 +127,11 @@ msgid ""
 "Hungarian, Italian, Romanian, Russian and Chinese. New languages can be "
 "added by installing the proper translation file."
 msgstr ""
+"Deviationは国際化対応され、英語、アフリカーンス語、中国語:繁体、オランダ語、スペイン語、フランス語、ドイツ語、ハンガリー語、イタリア語、ルーマニア語、ロシア語、中国語:簡体の翻訳が付属しています。適切な翻訳ファイルをインストールすることで、新しい言語を追加できます。"
 
 #: ../../source/ch_overview.rst:34
 msgid "Disclaimer"
-msgstr ""
+msgstr "免責事項"
 
 #: ../../source/ch_overview.rst:36
 msgid ""
@@ -131,10 +143,11 @@ msgid ""
 "injury or damage whatsoever caused by the use of the Deviation firmware. Be "
 "careful and cautious."
 msgstr ""
+"Deviationは実験的なソフトウェアです。このソフトウェアの品質や信頼性について保証はされません。RC機体は、不適切に飛行させると、重傷を負わせたり死に至らしめることさえあります。Deviationソフトウェアを使用することを決定することによって、あなたはあなたのRC機体の制御に対して単独に責任を負うこととなります。Deviation開発者は、Deviationファームウェアの使用によって生じたいかなる怪我または損害についても責任を負いません。非常に注意してください。"
 
 #: ../../source/ch_overview.rst:39
 msgid "Notices"
-msgstr ""
+msgstr "お知らせ"
 
 #: ../../source/ch_overview.rst:41
 msgid ""
@@ -147,10 +160,13 @@ msgid ""
 "the hardware, firmware of Dfuse tool which would make it incompatible with "
 "Deviation."
 msgstr ""
+"Deviationは独立して運営されています。Deviationプロジェクトは、Walkera社によって提携、サポート、承認されている訳ではありません。開発者はWalkera社と接触したことがなく、Walkera社はこのプロジェクトに対する姿勢についても把握していませんでした。Deviationチームは、Deviationファームウェアが送信機に害を及ぼさないことを保証していません(ただし保証は不可能です)。"
+" "
+"またWalkera社が将来のバージョンのハードウェア、Dfuseツールのファームウェアを変更して、Deviationとの互換性がなくなることを保証するものでもありません。"
 
 #: ../../source/ch_overview.rst:44
 msgid "Legal status and copyright"
-msgstr ""
+msgstr "法的地位および著作権"
 
 #: ../../source/ch_overview.rst:46
 msgid ""
@@ -160,6 +176,10 @@ msgid ""
 "any later version. You should have received a copy of the GNU General Public"
 " License along with Deviation. If not, see www.gnu.org/licenses."
 msgstr ""
+"このプロジェクトはフリーソフトウェアです: それらは再配布することができ、そしてFree Software Foundationによって公表される "
+"GNU General Public License Version3 "
+"もしくは(あなたの選択で)それ以降の条件下で修正することができます。これらの詳細はDeviationと一緒にGNU General Public "
+"Licenseの約款を受け取っているはずです。そうでない場合は、 www.gnu.org/licenses を参照してください。"
 
 #: ../../source/ch_overview.rst:53
 msgid ""
@@ -168,9 +188,14 @@ msgid ""
 "FOR A PARTICULAR PURPOSE. See the GNU General Public License for more "
 "details."
 msgstr ""
+"Deviationは非常に有用であることを期待され配布されていますが、いかなる場合も保証はありません; "
+"商品性や特定の目的への適合性についての暗黙な保証すらありません。詳細については GNU General Public License "
+"を参照してください。"
 
 #: ../../source/ch_overview.rst:57
 msgid ""
 "The Deviation Project is hosted at www.deviationtx.com and the Source are "
 "available at https://github.com/DeviationTX/deviation."
 msgstr ""
+"Deviationプロジェクトは、 www.deviationtx.com で取り纏められており、ソースは "
+"https://github.com/DeviationTX/deviation で入手できます。"

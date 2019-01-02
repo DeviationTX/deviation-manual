@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 02:10+0000\n"
+"POT-Creation-Date: 2019-01-01 02:11+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_navigating.rst:4 ../../source/ch_navigating.rst:49
 msgid "Navigating"
-msgstr ""
+msgstr "ナビゲーティング"
 
 #: ../../source/ch_navigating.rst:6
 msgid ""
@@ -32,6 +32,7 @@ msgid ""
 "ENT(er), EX(i)T. All buttons and switches have been marked with the same "
 "descriptions as used in this manual."
 msgstr ""
+"送信機メニューは、画面上の対応する画像を押すか、物理的なボタンUP、D(ow)N、L(eft)、R(ight)、ENT(er)、EX(i)Tを使って操作します。すべてのボタンとスイッチには、このマニュアルで使用されているものと同じ説明が記載されています。"
 
 #: ../../source/ch_navigating.rst:12
 msgid ""
@@ -39,26 +40,27 @@ msgid ""
 "L(eft), R(ight), ENT(er), EX(i)T. All buttons and switches have been marked "
 "with the same descriptions as used in this manual."
 msgstr ""
+"送信機メニューは、物理ボタンUP、D(ow)N、L(eft)、R(ight)、ENT(er)、EX(i)Tを使って操作します。すべてのボタンとスイッチには、このマニュアルで使用されているものと同じ説明が記載されています。"
 
 #: ../../source/ch_navigating.rst:17
 msgid ""
 "There are several GUI elements that are used to configure settings on the "
 "transmitter"
-msgstr ""
+msgstr "送信機のコンフィグ設定をするために使用されるいくつかのGUI項目があります"
 
 #: ../../source/ch_navigating.rst:19
 msgid ""
 "**Buttons**: Buttons can be selected to either toggle a setting or to enter "
 "a new menu."
-msgstr ""
+msgstr "**Buttons**: ボタンを選択して設定を切り替えるか、または新しいメニューに入ることができます。"
 
 #: ../../source/ch_navigating.rst:22
 msgid "**Spin-Boxes**: Spin-boxes are used to select one of multiple values."
-msgstr ""
+msgstr "**Spin-Boxes**: スピンボックスは複数の値の中の1つを選択するために使用されます。"
 
 #: ../../source/ch_navigating.rst:24
 msgid "There are two types of spin-boxes available:"
-msgstr ""
+msgstr "利用可能なスピンボックスは2種類あります:"
 
 #: ../../source/ch_navigating.rst:26
 msgid ""
@@ -66,44 +68,46 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
+"2つの矢印と3Dボタンで構成されるスピンボックスは、(値を選択する)スピンボックスと、(様々な効果を持つ)ボタンの両方を機能させることができます。"
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
 "Spin-boxes that contain only arrows and a white label do not act as buttons,"
 " and are only used for value selection."
-msgstr ""
+msgstr "矢印で白ラベルを選択したスピンボックスは、ボタンとして機能せず、値の選択にのみ使用されます。"
 
 #: ../../source/ch_navigating.rst:29
 msgid ""
 "Note that a spin-box may change between being selectable or not for "
 "different values of the spin-box."
-msgstr ""
+msgstr "スピンボックスの値が異なった場合、スピンボックスが選択可能となるか選択できなくなるか、選択状態が変化することがあります。"
 
 #: ../../source/ch_navigating.rst:33
 msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
+"**Text Boxes**: テキストボックスは通常、情報等を提供しますが、場合によっては(ボタンを押すように)アクションを実行することができます。"
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
-msgstr ""
+msgstr "**Icons**: アイコンは情報等を提供するか、(ボタンを押すように)アクションを実行することができます。"
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr ""
+msgstr "メインメニューにアクセスするには、メインメニューにある「ENT」を押します。"
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
-msgstr ""
+msgstr "物理ボタンでナビゲートします"
 
 #: ../../source/ch_navigating.rst:50
 msgid ""
 "On all menu pages, ‘UP’ and ‘DN’ are used to navigate to the previous/next "
 "item."
-msgstr ""
+msgstr "すべてのメニューページで「UP」と「DN」を使用して前項目または次項目に移動します。"
 
 #: ../../source/ch_navigating.rst:51
 msgid ""
@@ -111,25 +115,26 @@ msgid ""
 "decrease the selected value. In some cases holding down the button will use "
 "larger step values to move more quickly to the desired value."
 msgstr ""
+"スピンボックスウィジェットの「R+」ボタンと「L-」ボタンは、選択した値を増減するために使用します。場合によっては、ボタンを押したままにすると、より大きなステップ値が使われ目的の値にすばやく可変できます。"
 
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
-msgstr ""
+msgstr "ボタンや円型スピンボックスの場合「ENT」を押すとボタンが押されます。"
 
 #: ../../source/ch_navigating.rst:53
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
-msgstr ""
+msgstr "「EXT」を押すと現在のアイテムから選択を削除します。 「EXT」を長押しするとメニューレベルが(1つ)終了します。"
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
-msgstr ""
+msgstr "メニューレイアウト"
 
 #: ../../source/ch_navigating.rst:59
 msgid "There are 2 different unconnected menus available:"
-msgstr ""
+msgstr "2つの異なる未接続メニューがあります:"
 
 #: ../../source/ch_navigating.rst:61
 msgid ""
@@ -148,3 +153,5 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
+"モデルメニューは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
+" :ref:`model-menu` にあります。"
