@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 02:10+0000\n"
+"POT-Creation-Date: 2019-01-01 02:11+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,6 +148,7 @@ msgid ""
 " case, Deviation will start communication with the model once the dialog is "
 "dismissed."
 msgstr ""
+"Deviationには、危険な状態での始動を防ぐためのセーフティシステムを内包しています(例えば、誤ってヘリコプターのメインローターを回転させてしまう等)。セーフティシステムは、機体への送信を開始する前に特定条件が満たされているか否かをチェックすることによって機能します。デフォルトでは、スロットルスティックに関連する出力チャンネルは最小でなければなりません。Deviationファームウェアには、新しい安全条件を定義するためのメカニズムは含まれていませんが、model.iniファイルを直接変更することによって追加できます。セーフティメッセージが表示されている間は、送信機は機体と通信しません。このメッセージは、最初に送信機の電源を入れたとき、または別の機体に切り替えたときに表示されることがあります。すべての安全条件が満たされる、または[OK]が押されると、メッセージは自動的に消えます。どちらの場合でも、ダイアログが閉じられるとDeviationは機体との通信を開始します。"
 
 #: ../../source/ch_mainpage.rst:58
 msgid ""
@@ -164,6 +165,6 @@ msgid ""
 "value can also be 'max' or 'zero', to test that the channel or stick is at "
 "the maximum value and 0."
 msgstr ""
-"「Auto」の値は任意のチャンネル名または入力名、例えば「Ch1」等にすることもできます。「Auto」はスロットルチャンネル番号を推測します。それでも上手くいかず不要な警告が表示される場合は「Ch1」(DSMxプロトコル)"
+"「Auto」の値は任意のチャンネル名または入力文字列、例えば「Ch1」等にすることもできます。「Auto」はスロットルチャンネル番号を推測します。それでも上手くいかず不要な警告が表示される場合は「Ch1」(DSMxプロトコル)"
 " "
-"または「CH3」(他の殆どのプロトコル)に変更すると問題が解決します。「min」の値は「max」または「zero」にすることもできます。これはチャネルまたはスティックが最大値、および0にあることをテストするためです。"
+"または「CH3」(他の殆どのプロトコル)に変更すると問題が解決します。「min」の値は「max」または「zero」にすることもできます。これはチャネルまたはスティックが最大値、および0にあることをテストするためのものです。"
