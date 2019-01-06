@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 02:13+0000\n"
+"POT-Creation-Date: 2019-01-05 02:13+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr ""
+msgstr "送信機メニュー"
 
 #: ../../source/ch_transmitter.rst:20
 msgid "Transmitter config"
-msgstr ""
+msgstr "送信機設定"
 
 #: ../../source/ch_transmitter.rst:23
 msgid ""
@@ -46,43 +46,43 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr ""
+msgstr "一般設定"
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
-msgstr ""
+msgstr "**Language**: すべてのテキストに対し適切な言語を選択してください。"
 
 #: ../../source/ch_transmitter.rst:50
 msgid "NOTE: This feature is not available for Devo7e."
-msgstr ""
+msgstr "注: この機能はDevo7eでは使用できません。"
 
 #: ../../source/ch_transmitter.rst:52
 msgid "**Stick mode**: Select one of Mode 1-4."
-msgstr ""
+msgstr "**Stick mode**: Mode 1-4のいずれかを選択してください。"
 
 #: ../../source/ch_transmitter.rst:54
 msgid ""
 "Mode 1 is common in Europe.  Elevator and Rudder on left, Throttle and "
 "Aileron on right."
-msgstr ""
+msgstr "Mode 1はヨーロッパでは一般的なモードです。左側はエレベーターとラダー、右側はスロットルとエルロンとなります。"
 
 #: ../../source/ch_transmitter.rst:55
 msgid ""
 "Mode 2 is common in North America.  Throttle and Rudder on left, Elevator "
 "and Aileron on right."
-msgstr ""
+msgstr "Mode 2は北米で一般的なモードです。左側はスロットルとラダー、右側はエレベーターとエルロンとなります。"
 
 #: ../../source/ch_transmitter.rst:56
 msgid "Mode 3 has Elevator and Aileron on left, Throttle and Rudder on right"
-msgstr ""
+msgstr "Mode 3は左側にエレベーターとエルロン、右側はスロットルとラダーになります。"
 
 #: ../../source/ch_transmitter.rst:57
 msgid "Mode 4 has Throttle and Aileron on left, Elevator and Rudder on right"
-msgstr ""
+msgstr "Mode 4は左側にスロットルとエルロン、右側はエレベーターとラダーになります。"
 
 #: ../../source/ch_transmitter.rst:59
 msgid "**Sticks**: Calibrate the range of all analog sticks and dials."
-msgstr ""
+msgstr "**Sticks**: すべてのアナログスティックとダイヤルの範囲を調整します。"
 
 #: ../../source/ch_transmitter.rst:61
 msgid ""
@@ -93,11 +93,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
-msgstr ""
+msgstr "**Clock (Devo12のみ)**: 現在の日時を設定します"
 
 #: ../../source/ch_transmitter.rst:71
 msgid "Buzzer settings"
-msgstr ""
+msgstr "ブザー設定"
 
 #: ../../source/ch_transmitter.rst:73
 msgid ""
@@ -122,31 +122,31 @@ msgstr ""
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
-msgstr ""
+msgstr "**Buzz volume**: ブザー音量を設定します。利用可能な範囲は1 - 10です。ブザー無効:Noneも設定できます。"
 
 #: ../../source/ch_transmitter.rst:81
 msgid "**Vibration**: Enable vibration on alarms, if available."
-msgstr ""
+msgstr "**Vibration**: 可能な場合、アラームのバイブレーションを有効にします。"
 
 #: ../../source/ch_transmitter.rst:83
 msgid "**Power-down alert**: Play sound at power-down."
-msgstr ""
+msgstr "**Power-down alert**: 電源OFF時に音を鳴らします。"
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
-msgstr ""
+msgstr "LED設定"
 
 #: ../../source/ch_transmitter.rst:89
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
-msgstr ""
+msgstr "*Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
 "may also be turned off."
-msgstr ""
+msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:96
 msgid ""

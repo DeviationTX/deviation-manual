@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Toshihiro Makuuchi, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-04 02:13+0000\n"
+"POT-Creation-Date: 2019-01-05 02:13+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_txdiff.rst:2
 msgid "A Note About this Manual"
-msgstr ""
+msgstr "マニュアルに関する特記事項"
 
 #: ../../source/ch_txdiff.rst:4
 msgid ""
@@ -30,6 +34,7 @@ msgid ""
 "Situations where the Devo6, 8, or 12 behave differently will be noted "
 "accordingly."
 msgstr ""
+"このマニュアルの画像は一般的にDevo6/8インターフェイスを示していますが、場合によりDevo12の画像が代替で使用され、機能をより良く表しています。Devo6/8とDevo12の画面は若干異なる場合がありますが、通常は同じ動作となります。Devo6、8、または12の動作が異なる場合は、それに応じて説明致します。"
 
 #: ../../source/ch_txdiff.rst:7
 msgid ""
@@ -38,3 +43,4 @@ msgid ""
 "be slightly different. Situations where the Devo7e, 10, or 12E behave "
 "differently will be noted accordingly."
 msgstr ""
+"このマニュアルの画像は一般にDevo7e/10/12Eインターフェイスを示しています。場合によっては、Devo7eが特定の機能をサポートしていないか、画面が多少異なる場合があります。Devo7e、10、または12Eの動作が異なる場合は、それに応じて説明致します。"
