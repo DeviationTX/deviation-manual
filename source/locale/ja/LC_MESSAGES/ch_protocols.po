@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 02:13+0000\n"
+"POT-Creation-Date: 2019-01-06 02:13+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:12
 msgid "Protocols"
-msgstr ""
+msgstr "Protocols"
 
 #: ../../source/ch_protocols.rst:13
 msgid ""
@@ -35,6 +35,8 @@ msgid ""
 "not correct, or other issue communicating with the module.)  More "
 "information can be found in the Module installation guide:"
 msgstr ""
+"プロトコルによっては、追加カスタマイズや制限があります。各プロトコルについて以下に説明します。ヘッダのプロトコル名の前のアスタリスク (‘*’)  "
+"は、プロトコルをサポートするためにハードウェアモジュールを送信機に追加する必要があることを意味しています。送信機ディスプレイ上のアスタリスクは、Deviationが必要なモジュールを検出しないことを意味します(インストールされていない、hardware.iniが正しくない、またはモジュールとの通信に関するその他の問題)。詳細は、モジュールのインストールガイドを参照してください。"
 
 #: ../../source/ch_protocols.rst:15 ../../source/ch_protocols.rst:131
 #: ../../source/ch_protocols.rst:170 ../../source/ch_protocols.rst:225
@@ -52,11 +54,11 @@ msgstr ""
 #: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
 #: ../../source/ch_protocols.rst:846
 msgid "|mod-install-link|"
-msgstr ""
+msgstr "|mod-install-link|"
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
-msgstr ""
+msgstr "Protocol: DEVO"
 
 #: ../../source/ch_protocols.rst:19
 msgid ""
@@ -69,6 +71,8 @@ msgid ""
 " bound.  Note that the Fixed ID is only part of the binding procedure.  Two "
 "transmitters with the Same ID cannot control the same model."
 msgstr ""
+"DEVOプロトコルは、Walkera "
+"DEVO受信機/機体との互換性を維持するため使用されます。このプロトコルは最大12チャンネルをサポートします。DEVOプロトコルは自動バインドと手動バインドの両方をサポートしています。固定IDが「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信者は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままになります。固定IDはバインド手順の一部にすぎません。同じIDを持つ2つの送信機は同じ機体を制御できません。"
 
 #: ../../source/ch_protocols.rst:24
 msgid ""
@@ -76,6 +80,7 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
 msgstr ""
+"DEVOプロトコルはテレメトリー機能の有効化/無効化もサポートします。このオプションは、DEVOが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -83,29 +88,31 @@ msgid ""
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
 msgstr ""
+"Devo "
+"テレメトリーでは以下のフィールドが利用可能です。すべての機体/受信機がすべてのフィールドを報告するわけではないこと、そしていくつかのフィールドは有効にするために追加のモジュールを必要とすることに注意してください。"
 
 #: ../../source/ch_protocols.rst:33
 msgid ""
 "**Temp1/2/3/4**: Temperature readings.  These can be battery, motor, or "
 "ambient values"
-msgstr ""
+msgstr "**Temp1/2/3/4**: 温度の読値。これらはバッテリー、モーター、またはその周囲の値。"
 
 #: ../../source/ch_protocols.rst:34
 msgid ""
 "**Volt1/2/3**: Voltage readings for receiver battery, and external batteries"
-msgstr ""
+msgstr "**Volt1/2/3**: 受信機バッテリーと外部バッテリーの電圧測定値。"
 
 #: ../../source/ch_protocols.rst:35
 msgid "**RPM1/2**: Motor/Engine RPM values"
-msgstr ""
+msgstr "**RPM1/2**: モーター / エンジン回転数。"
 
 #: ../../source/ch_protocols.rst:36 ../../source/ch_protocols.rst:98
 msgid "**GPS Data**: Current position, speed and altitude from GPS module"
-msgstr ""
+msgstr "**GPS Data**: GPSモジュールからの現在位置、速度、高度のデータ取得。"
 
 #: ../../source/ch_protocols.rst:39
 msgid "Protocol: WK2801"
-msgstr ""
+msgstr "Protocol: WK2801"
 
 #: ../../source/ch_protocols.rst:40
 msgid ""
@@ -122,10 +129,13 @@ msgid ""
 "must be bound manually one-time using the ‘Bind’ button, after which it "
 "should stay bound."
 msgstr ""
+"WK2801プロトコルは、古いWalkera機体の制御に使用されています。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
+" "
+"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkeraモデルで作業するときは、まずWK2801プロトコルを最初に試すことをお勧めします。WK2801プロトコルは最大8つのチャンネル、および自動バインドと手動バインドの両方をサポートします。固定IDが「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信者は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままとなります。"
 
 #: ../../source/ch_protocols.rst:43
 msgid "Protocol: WK2601"
-msgstr ""
+msgstr "Protocol: WK2601"
 
 #: ../../source/ch_protocols.rst:44
 msgid ""
@@ -139,6 +149,9 @@ msgid ""
 " to 7 channels, and only supports auto-binding.  The fixed ID can be used, "
 "but does not prevent auto-binding during power-on."
 msgstr ""
+"WK2601プロトコルは、古いWalkera機体を制御するために使用されます。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
+" "
+"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkera機体で作業するときは、WK2801プロトコルを最初に試すことをお勧めします。WK2601プロトコルは最大7チャンネルをサポートし、自動バインドのみをサポートします。固定IDを使用できますが、電源投入時の自動バインドを妨げることはありません。"
 
 #: ../../source/ch_protocols.rst:49
 msgid ""

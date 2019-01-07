@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-05 02:13+0000\n"
+"POT-Creation-Date: 2019-01-06 02:13+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/ch_transmitter.rst:9
 msgid "Transmitter Menu"
-msgstr "送信機メニュー"
+msgstr "Transmitter Menu"
 
 #: ../../source/ch_transmitter.rst:20
 msgid "Transmitter config"
-msgstr "送信機設定"
+msgstr "Transmitter config"
 
 #: ../../source/ch_transmitter.rst:23
 msgid ""
@@ -35,6 +35,8 @@ msgid ""
 " from the main menu via the TX Options icon. Please note that all screens in"
 " this section show the Deviation default settings."
 msgstr ""
+"設定画面では、様々な送信機機能を定義します。 それはメインメニューから「TX "
+"Options」アイコンを介して入力します。この項目のすべての画面はDeviationのデフォルト設定を示しています。"
 
 #: ../../source/ch_transmitter.rst:33
 msgid ""
@@ -43,10 +45,12 @@ msgid ""
 " Please note that all screens in this section show the Deviation default "
 "settings."
 msgstr ""
+"設定画面では、様々な送信機機能を定義します。メインメニューから「Transmitter menu」「Transmitter "
+"config」の順に選択します。この項目のすべての画面はDeviationのデフォルト設定を示しています。"
 
 #: ../../source/ch_transmitter.rst:37
 msgid "Generic settings"
-msgstr "一般設定"
+msgstr "Generic settings"
 
 #: ../../source/ch_transmitter.rst:46
 msgid "**Language**: Select an appropriate language for all text."
@@ -90,6 +94,8 @@ msgid ""
 " ENT button. Follow the on screen prompts for moving the sticks and "
 "confirming with the ENT button."
 msgstr ""
+"スティックキャリブレーションを実行するには「Calibrate "
+"option」をハイライト表示してENTボタンを押します。画面の指示に従ってスティックを動かしENTボタンで確認します。"
 
 #: ../../source/ch_transmitter.rst:63
 msgid "**Clock (Devo12 only)**: Set the current time and date"
@@ -97,19 +103,21 @@ msgstr "**Clock (Devo12のみ)**: 現在の日時を設定します"
 
 #: ../../source/ch_transmitter.rst:71
 msgid "Buzzer settings"
-msgstr "ブザー設定"
+msgstr "Buzzer settings"
 
 #: ../../source/ch_transmitter.rst:73
 msgid ""
 "**Power On alarm**: Select the interval to be notified if your transmitter "
 "is on without action. Range is 0 – 60 minutes in 1 minute intervals."
 msgstr ""
+"**Power On alarm**: "
+"送信機がアクションなしでONとなった場合に通知されるアラームの間隔を選択します。有効範囲は1分間隔で0〜60分です。"
 
 #: ../../source/ch_transmitter.rst:75
 msgid ""
 "**Battery alarm**: Set battery voltage at which alarm will sound. The "
 "voltage range is 3.30V – 12.00V in 0.01V increments."
-msgstr ""
+msgstr "**Battery alarm**: アラームが鳴るバッテリー電圧を設定します。電圧範囲は0.01V刻みで3.30V〜12.00Vです。"
 
 #: ../../source/ch_transmitter.rst:77
 msgid ""
@@ -117,12 +125,14 @@ msgid ""
 "intervals can be set from 5 seconds to 1 minute in 5 second intervals. It "
 "may also be set to Off."
 msgstr ""
+"**Alarm interval**: "
+"バッテリー残量が少なくなったときの警報頻度を設定します。警報間隔は5秒間隔で5秒～1分まで設定できます。無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:79
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
-msgstr "**Buzz volume**: ブザー音量を設定します。利用可能な範囲は1 - 10です。ブザー無効:Noneも設定できます。"
+msgstr "**Buzz volume**: ブザー音量を設定します。利用可能な範囲は1 - 10です。ブザー無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:81
 msgid "**Vibration**: Enable vibration on alarms, if available."
@@ -134,13 +144,13 @@ msgstr "**Power-down alert**: 電源OFF時に音を鳴らします。"
 
 #: ../../source/ch_transmitter.rst:86
 msgid "LCD settings"
-msgstr "LED設定"
+msgstr "LCD settings"
 
 #: ../../source/ch_transmitter.rst:89
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
-msgstr "*Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
+msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
@@ -151,12 +161,12 @@ msgstr "**Contrast**: 画面のコントラストを設定します。有効範�
 #: ../../source/ch_transmitter.rst:96
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
-msgstr ""
+msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。"
 
 #: ../../source/ch_transmitter.rst:98
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10."
-msgstr ""
+msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1 - 10です。"
 
 #: ../../source/ch_transmitter.rst:101
 msgid ""
@@ -164,16 +174,18 @@ msgid ""
 "seconds to 2 minutes in 5 second intervals. A setting of Off will force "
 "backlight to remain on as long as the transmitter is on."
 msgstr ""
+"**Dimmer time**: "
+"画面が暗くなるまでの遅延時間を設定します。遅延時間は5秒間隔で5秒～2分に設定できます。Offに設定すると、送信機が電源ONしている限りバックライトは明るいままになります。"
 
 #: ../../source/ch_transmitter.rst:103
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
-msgstr ""
+msgstr "**Dimmer target**: 薄暗くなったときの画面の明るさを設定します。有効範囲は1 - 10で、無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:106
 msgid "Timer settings"
-msgstr ""
+msgstr "Timer settings"
 
 #: ../../source/ch_transmitter.rst:108
 msgid ""
@@ -181,38 +193,40 @@ msgid ""
 "Acceptable entries are from 5 seconds to 1 minute in 5 second intervals and "
 "may also be turned off."
 msgstr ""
+"**Prealert time**: タイマーがゼロに達してビープ音が鳴るまでの時間。有効範囲は5秒間隔で5秒～1分で、無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:110
 msgid ""
 "**Prealert intvl**: How often to beep before timer reaches zero. Interval "
 "may be set from 1 – 60 seconds and may also be turned off."
 msgstr ""
+"**Prealert intvl**: タイマーがゼロになる前にビープ音を鳴らす頻度。間隔は1〜60秒の範囲で設定でき、無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:112
 msgid ""
 "**Timeup intvl**: How often to beep once timer has expired. Interval may be "
 "set from 1 – 60 seconds and may also be turned off."
-msgstr ""
+msgstr "**Timeup intvl**: タイマーが切れ、ビープ音を鳴らす頻度。間隔は1〜60秒の範囲で設定でき、無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:115
 msgid "Telemetry settings"
-msgstr ""
+msgstr "Telemetry settings"
 
 #: ../../source/ch_transmitter.rst:117
 msgid ""
 "**Temperature**: Set units to display temperature for telemetry. Available "
 "options are Celsius and Fahrenheit."
-msgstr ""
+msgstr "**Temperature**: テレメトリー表示させる温度の単位を設定します。利用可能なオプションは摂氏と華氏です。"
 
 #: ../../source/ch_transmitter.rst:119
 msgid ""
 "**Length**: Set units to display length for telemetry. Selection choices are"
 " Meters and Feet."
-msgstr ""
+msgstr "**Length**: テレメトリー表示させる距離の単位を設定します。 選択の選択肢はメートルとフィートです。"
 
 #: ../../source/ch_transmitter.rst:122
 msgid "Channel monitor"
-msgstr ""
+msgstr "Channel monitor"
 
 #: ../../source/ch_transmitter.rst:129
 msgid ""
@@ -221,16 +235,18 @@ msgid ""
 "displayed. Channel output displayed is the value based on minimum / maximum "
 "values as well as scaling."
 msgstr ""
+"Channel "
+"monitor画面は、送信機による各チャンネルの出力値をユーザが閲覧することを可能にします。ミキサーのないチャンネルは表示されません。表示されるチャンネル出力は、スケーリングに合わせ最小/最大値に基づく値となります。"
 
 #: ../../source/ch_transmitter.rst:134
 msgid ""
 "**Example**: A channel scaled from -60 to +60 will only display the range of"
 " values from -60 to +60 depending on the stick position."
-msgstr ""
+msgstr "**Example**: -60～+60までのチャンネルスケールは、スティックの位置に応じて-60～+60までの範囲の値を表示します。"
 
 #: ../../source/ch_transmitter.rst:138
 msgid "Input Monitor"
-msgstr ""
+msgstr "Input Monitor"
 
 #: ../../source/ch_transmitter.rst:156
 msgid ""
@@ -238,28 +254,32 @@ msgid ""
 "position of the control points. The values shown are a percentage of the "
 "total range of the controls based on a -100% to +100% scale."
 msgstr ""
+"Input "
+"monitor画面には、コントロールポイントの現在位置に関連値が表示されます。表示される値は-100%～+100%までのスケールに基づいた合計範囲のパーセンテージです。"
 
 #: ../../source/ch_transmitter.rst:161
 msgid ""
 "NOTE: Devo7e is limited to AIL, ELE, THR, RUD, HOLD0, HOLD1, FMOD0 and "
 "FMOD1."
-msgstr ""
+msgstr "注: Devo7eはAIL、ELE、THR、RUD、HOLD0、HOLD1、FMOD0、FMOD1に制限されています。"
 
 #: ../../source/ch_transmitter.rst:167
 msgid ""
 "NOTE: Devo8 is limited to AIL, ELE, THR, RUD, RUD DR0/1, ELE DR0/1, AIL "
 "DR0/1, GEAR0/1, FMOD0/1/2, and MIX0/1/2"
 msgstr ""
+"注: Devo8はAIL、ELE、THR、RUD、RUD DR0/1、ELE DR0/1、AIL "
+"DR0/1、GEAR0/1、FMOD0/1/2、MIX0/1/2に制限されています。"
 
 #: ../../source/ch_transmitter.rst:171
 msgid ""
 "NOTE: Devo6 is limited to AIL, ELE, THR, RUD, DR0/1, GEAR0/1, FMOD0/1/2, and"
 " MIX0/1/2"
-msgstr ""
+msgstr "注: Devo6はAIL、ELE、THR、RUD、DR0/1、GEAR0/1、FMOD0/1/2、MIX0/1/2に制限されています。"
 
 #: ../../source/ch_transmitter.rst:174
 msgid "Button Monitor"
-msgstr ""
+msgstr "Button Monitor"
 
 #: ../../source/ch_transmitter.rst:181
 msgid ""
@@ -269,14 +289,15 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
+"ボタンモニター項は、送信機の物理ボタンが想定通りに機能することを確認するために使用されます。物理的なボタンを押すと、画面上の対応する四角形が選択されます。「EXT」「L-」または「R+」をテストするには、画面をタッチしてメニュー移動を無効にします。もう一度タッチするとロックが解除されます。"
 
 #: ../../source/ch_transmitter.rst:185
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr ""
+msgstr "注: Devo6はトリム L/R ボタンの上位値がありません。"
 
 #: ../../source/ch_transmitter.rst:189
 msgid "Telemetry monitor"
-msgstr ""
+msgstr "Telemetry monitor"
 
 #: ../../source/ch_transmitter.rst:196
 msgid ""
@@ -285,6 +306,7 @@ msgid ""
 "to, temperature readings, various voltage readings, motor or engine rpm, as "
 "well as GPS related information."
 msgstr ""
+"特定のプロトコルは、使用中にテレメトリーデータを送信機に送り返すことができます。テレメトリーデータは、GPS関連情報などに限定されず、温度測定値や様々な電圧測定値、モーターまたはエンジン回転数などが含まれます。"
 
 #: ../../source/ch_transmitter.rst:198
 msgid ""
@@ -292,6 +314,7 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
+"テレメトリーデータは、DEVOとFrSkyを除く、サポートされているすべてのプロトコルでデフォルトでOFFになっています。対応する9つのプロトコル項目を参照し、どのプロトコルがテレメトリーをサポートしているかを調べ、どのフィールドが利用可能になるかを確認してください。"
 
 #: ../../source/ch_transmitter.rst:210
 msgid ""
@@ -299,18 +322,19 @@ msgid ""
 " original equipment manufacturers documentation concerning what additional "
 "hardware may be needed to collect this data."
 msgstr ""
+"各プロトコルは返信することができるデータの種類が異なるため、このデータを収集するためにどのような追加ハードウェアが必要となるかについては、対象メーカーのドキュメント等を参照してください。"
 
 #: ../../source/ch_transmitter.rst:213
 msgid "Until valid data is transmitted the values will all be red."
-msgstr ""
+msgstr "有効なデータが送信されるまで、値はすべて赤となります。"
 
 #: ../../source/ch_transmitter.rst:217
 msgid "Until valid data is transmitted the values will all be inverted."
-msgstr ""
+msgstr "有効なデータが送信されるまで、値はすべて反転されます。"
 
 #: ../../source/ch_transmitter.rst:227
 msgid "Range Test"
-msgstr ""
+msgstr "Range Test"
 
 #: ../../source/ch_transmitter.rst:236
 msgid ""
@@ -319,6 +343,8 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
+"最初に、実飛行する前に新しい機体を通信レンジテストして、通常の飛行距離にて機体を制御できるか確認することをお勧めします。いくつかの団体では、これは安全対策として必要となります。range"
+" test画面はこれを可能とします。"
 
 #: ../../source/ch_transmitter.rst:240
 msgid ""
@@ -330,6 +356,10 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
+"range test画面を開いたら「Start "
+"test」ボタンを押して通信レンジテストを開始します。新旧の電力レベルが表示されます。その後の標準的な手順は、約30メートル離れたところから、まだ機体を離陸させず操作の確認をします。その後「Stop"
+" "
+"test」ボタンを押して通信レンジテストを終了し、設定されている無線の電力レベルを復元することができます。設定画面を終了するため「EXT」ボタンを押すことも同様に電力レベルを元に戻します。"
 
 #: ../../source/ch_transmitter.rst:244
 msgid ""
@@ -339,6 +369,7 @@ msgid ""
 "range test of 30 meters would indicate that you should be able to control "
 "the model out to 900 meters."
 msgstr ""
+"無線の通信レンジは電力レベルの変化の平方根によって減少します。したがって100mWから100uWへの変位は約1000の値の電力の変化、つまり30mを少し上回る範囲の距離の減少を表します。したがって通常の30mの距離テストでは、機体を900mまで制御できるはずです。"
 
 #: ../../source/ch_transmitter.rst:248
 msgid ""
@@ -346,10 +377,11 @@ msgid ""
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
 msgstr ""
+"現在の機体に装着されるRFモジュールにはPA:パワーアンプが必要です。それ以外の場合、または機体に選択されている電力レベルがすでに最小値になっている場合は、その旨のメッセージが表示されます。"
 
 #: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
-msgstr ""
+msgstr "USB/About"
 
 #: ../../source/ch_transmitter.rst:268
 msgid ""
@@ -360,7 +392,7 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
-"USB項にアクセスするには、メインメニューから「USB」を選択します。USB "
+"USB画面にアクセスするには、メインメニューから「USB」を選択します。USB "
 "modeをON/OFFに切り替えて、USB搭載PCから送信機のファイルシステムにアクセスすることができます。このモードでは、Deviationのファイルシステムへストレージデバイスとしてアクセス可能です。これにより、DeviationファイルシステムとPCの間でファイルをやり取りができ、またすべての設定ファイルにアクセスができます。"
 
 #: ../../source/ch_transmitter.rst:272
