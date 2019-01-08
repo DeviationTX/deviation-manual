@@ -5,16 +5,16 @@
 # 
 # Translators:
 # cnshaker <cnshaker@gmail.com>, 2018
-# Howard Su <howard0su@gmail.com>, 2018
+# Howard Su <howard0su@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-06 02:13+0000\n"
+"POT-Creation-Date: 2019-01-07 02:13+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2019\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,7 +169,7 @@ msgstr "**通道模式**：设置通道如何运行:"
 msgid ""
 "**5+1**: AIL, ELE, THR, RUD,  GYRO (ch 7) are proportional.  Gear (ch 5) is "
 "binary.  Ch 6 is disabled"
-msgstr "**5 + 1**：AIL，ELE，THR，RUD，GYRO(CH 7)是成比例的。Gear(CH 5)是二 进制的。CH6 被禁用。"
+msgstr "**5+1**：AIL，ELE，THR，RUD，GYRO(CH 7)是成比例的。Gear(CH 5)是二 进制的。CH6 被禁用。"
 
 #: ../../source/ch_protocols.rst:54
 msgid ""
@@ -187,7 +187,7 @@ msgid ""
 "**6+1**: AIL, ELE, THR, RUD,  COL (ch 6), GYRO (ch 7) are proportional.  "
 "Gear (ch 5) is binary.  This mode is highly experimental."
 msgstr ""
-"**6 + 1**：AIL，ELE，THR，RUD，COL(CH 6)，GYRO(CH 7)是成比例的。Gear(CH "
+"**6+1**：AIL，ELE，THR，RUD，COL(CH 6)，GYRO(CH 7)是成比例的。Gear(CH "
 "5)是二进制的。这种模式是高度实验性的。"
 
 #: ../../source/ch_protocols.rst:56
@@ -361,7 +361,7 @@ msgstr "这个协议支持最多9个通道。缺省的通道顺序是AETR。"
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
-msgstr "协议:Flysky"
+msgstr "协议: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:129
 msgid ""
@@ -458,7 +458,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:167
 msgid "Protocol: \\*AFHDS-2A"
-msgstr "协议:AFHDS-2A"
+msgstr "协议: \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:168
 msgid ""
@@ -504,7 +504,7 @@ msgstr "支持回传。"
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
-msgstr "协议:Hubsan4"
+msgstr "协议: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:186
 msgid ""
@@ -526,7 +526,7 @@ msgstr "协议也用在Hubsan的H501S, H122和H123D上(H501格式)"
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:197
 msgid ""
@@ -569,11 +569,11 @@ msgstr "通道9打开无头模式。"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "通道10打开返回起点"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "通道11打开GPS保持"
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:218
 msgid "Protocol: \\*Joysway"
-msgstr "协议:Joysway"
+msgstr "协议: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:219
 msgid ""
@@ -638,7 +638,7 @@ msgstr "第一信道通常控制拉帆绳和第二通道控制船舵。"
 
 #: ../../source/ch_protocols.rst:236
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "协议：\\*Bugs3"
 
 #: ../../source/ch_protocols.rst:237
 msgid ""
@@ -697,7 +697,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:258
 msgid "Protocol: \\*Frsky-V8"
-msgstr "协议:Frsky-V8"
+msgstr "协议: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:259
 msgid ""
@@ -715,7 +715,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:266
 msgid "Protocol: \\*Frsky"
-msgstr "协议:Frsky"
+msgstr "协议: \\*Frsky"
 
 #: ../../source/ch_protocols.rst:267
 msgid ""
@@ -752,7 +752,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:282
 msgid "Protocol: \\*FrskyX"
-msgstr "协议:FrskyX"
+msgstr "协议: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:283
 msgid ""
@@ -762,7 +762,7 @@ msgstr "FrskyX 协议支持 Frsky D16 无线协议，包括 S.Port 和双向回�
 
 #: ../../source/ch_protocols.rst:285
 msgid "|cc2500-note| |mod-install-link|"
-msgstr ""
+msgstr "|cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:287
 msgid ""
@@ -862,7 +862,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:309
 msgid "*Frsky and FrskyX Extended Telemetry*"
-msgstr "Frsky 和 FrskyX 扩展双向回传"
+msgstr "*Frsky 和 FrskyX 扩展双向回传*"
 
 #: ../../source/ch_protocols.rst:310
 msgid ""
@@ -1254,7 +1254,7 @@ msgstr "SLT 协议支持多达 6 个通道，并且只支持自动对频。固�
 
 #: ../../source/ch_protocols.rst:457
 msgid "Protocol: \\*HiSky"
-msgstr "协议:HiSky"
+msgstr "协议: \\*HiSky"
 
 #: ../../source/ch_protocols.rst:458
 msgid ""
@@ -1272,7 +1272,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:469
 msgid "Protocol: \\*YD717"
-msgstr "协议:YD717"
+msgstr "协议: \\*YD717"
 
 #: ../../source/ch_protocols.rst:470
 msgid ""
@@ -1377,7 +1377,7 @@ msgstr "该协议用于在 Hontai F801 和 F803 模型。"
 #: ../../source/ch_protocols.rst:512 ../../source/ch_protocols.rst:532
 #: ../../source/ch_protocols.rst:550
 msgid "|nrf24l01p-note| |mod-install-link|"
-msgstr ""
+msgstr "|nrf24l01p-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:514 ../../source/ch_protocols.rst:534
 #: ../../source/ch_protocols.rst:552
@@ -1406,7 +1406,7 @@ msgstr "通道 8 变为正时开启/关闭视频"
 #: ../../source/ch_protocols.rst:521 ../../source/ch_protocols.rst:541
 #: ../../source/ch_protocols.rst:559
 msgid "Channel 10 engages the return-to-home feature"
-msgstr ""
+msgstr "通道10进入回家模式"
 
 #: ../../source/ch_protocols.rst:522 ../../source/ch_protocols.rst:560
 msgid "Channel 11 initiates calibration"
@@ -1414,7 +1414,7 @@ msgstr "通道 11启动校准"
 
 #: ../../source/ch_protocols.rst:525
 msgid "Protocol: \\*Bayang"
-msgstr "协议:Bayang"
+msgstr "协议: \\*Bayang"
 
 #: ../../source/ch_protocols.rst:526
 msgid ""
@@ -1456,7 +1456,7 @@ msgstr "通道 12 紧急停机"
 
 #: ../../source/ch_protocols.rst:547
 msgid "Protocol: \\*FY326"
-msgstr "协议:FY326"
+msgstr "协议: \\*FY326"
 
 #: ../../source/ch_protocols.rst:548
 msgid "This protocol is used on FY326 red board."
@@ -1472,7 +1472,7 @@ msgstr "通道 8未使用"
 
 #: ../../source/ch_protocols.rst:563
 msgid "Protocol: \\*CFlie"
-msgstr "协议:CFlie"
+msgstr "协议: \\*CFlie"
 
 #: ../../source/ch_protocols.rst:564
 msgid ""
@@ -1508,7 +1508,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:589
 msgid "Protocol: \\*HM830"
-msgstr "协议:HM830"
+msgstr "协议: \\*HM830"
 
 #: ../../source/ch_protocols.rst:590
 msgid ""
@@ -1557,7 +1557,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:620
 msgid "Protocol: \\*ESky150"
-msgstr "协议:ESky150"
+msgstr "协议: \\*ESky150"
 
 #: ../../source/ch_protocols.rst:621
 msgid ""
@@ -1597,7 +1597,7 @@ msgstr "协议:Esky"
 
 #: ../../source/ch_protocols.rst:642
 msgid "Needs to be completed. |nrf24l01-note|"
-msgstr ""
+msgstr "需要完成。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:646
 msgid ""
@@ -1609,7 +1609,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:652
 msgid "Protocol: \\*BlueFly"
-msgstr "协议:BlueFly"
+msgstr "协议: \\*BlueFly"
 
 #: ../../source/ch_protocols.rst:653
 msgid ""
@@ -1627,7 +1627,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:664
 msgid "Protocol: \\*CX10"
-msgstr "协议:CX10"
+msgstr "协议: \\*CX10"
 
 #: ../../source/ch_protocols.rst:665
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
@@ -1663,7 +1663,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:684
 msgid "Protocol: \\*CG023"
-msgstr "协议:CG023"
+msgstr "协议: \\*CG023"
 
 #: ../../source/ch_protocols.rst:685
 msgid ""
@@ -1712,13 +1712,14 @@ msgstr "该协议模式选项有 YD829 四轴飞行器。"
 
 #: ../../source/ch_protocols.rst:708
 msgid "Protocol: \\*H8_3D"
-msgstr "协议:H8_3D"
+msgstr "协议: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:709
 msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
-msgstr "H8_3D 协议支持 Eachine H8 3D，JJRC H20 和 H11D 四轴飞行器。其他模型没 有进行测试。"
+msgstr ""
+"H8_3D 协议支持 Eachine H8 3D，JJRC H20 和 H11D 四轴飞行器。其他模型没 有进行测试。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:714
 msgid ""
@@ -1746,7 +1747,7 @@ msgstr "两个摇杆打到右下角，开始 H20 和 H11D 的加速度计校准�
 
 #: ../../source/ch_protocols.rst:738
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "协议: \\*MJXq"
 
 #: ../../source/ch_protocols.rst:739
 msgid ""
@@ -1754,7 +1755,7 @@ msgid ""
 "for Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|"
 msgstr ""
 "MJXq 协议支持美嘉欣(MJX)四轴飞行器。模式选项还有 Weilihua WLH08，EAchine E010 和 JJRC H26D / "
-"H26WH。"
+"H26WH。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:744
 msgid "The MJXq protocol supports 12 channels and only supports auto-binding."
