@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-06 02:13+0000\n"
+"POT-Creation-Date: 2019-01-08 02:15+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -129,7 +129,7 @@ msgid ""
 "must be bound manually one-time using the ‘Bind’ button, after which it "
 "should stay bound."
 msgstr ""
-"WK2801プロトコルは、古いWalkera機体の制御に使用されています。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
+"WK2801プロトコルは、古いWalkera機体の制御に使用されていました。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
 " "
 "WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkeraモデルで作業するときは、まずWK2801プロトコルを最初に試すことをお勧めします。WK2801プロトコルは最大8つのチャンネル、および自動バインドと手動バインドの両方をサポートします。固定IDが「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信者は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままとなります。"
 
@@ -149,25 +149,26 @@ msgid ""
 " to 7 channels, and only supports auto-binding.  The fixed ID can be used, "
 "but does not prevent auto-binding during power-on."
 msgstr ""
-"WK2601プロトコルは、古いWalkera機体を制御するために使用されます。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
+"WK2601プロトコルは、古いWalkera機体を制御するために使用されていました。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
 " "
-"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkera機体で作業するときは、WK2801プロトコルを最初に試すことをお勧めします。WK2601プロトコルは最大7チャンネルをサポートし、自動バインドのみをサポートします。固定IDを使用できますが、電源投入時の自動バインドを妨げることはありません。"
+"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkera機体で作業するときは、WK2801プロトコルを最初に試すことをお勧めします。WK2601プロトコルは最大7チャンネルをサポートし、自動バインドのみをサポートします。固定IDを使用できますが、電源投入時の自動バインドを妨げることはありません。"
 
 #: ../../source/ch_protocols.rst:49
 msgid ""
 "The WK2601 protocol also supports additional options.  These are accessed by"
 " pressing the Protocol spin-box when Wk2601 is shown:"
 msgstr ""
+"WK2601プロトコルは追加オプションもサポートしており、WK2601が表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:51
 msgid "**Chan mode**: Sets how channels are processed:"
-msgstr ""
+msgstr "**Chan mode**: チャンネル構成を設定:"
 
 #: ../../source/ch_protocols.rst:53
 msgid ""
 "**5+1**: AIL, ELE, THR, RUD,  GYRO (ch 7) are proportional.  Gear (ch 5) is "
 "binary.  Ch 6 is disabled"
-msgstr ""
+msgstr "**5+1**: AIL、ELE、THR、RUD、GYRO (ch 7) は比例信号、ギア(ch 5)は二択信号、Ch 6は無効です。"
 
 #: ../../source/ch_protocols.rst:54
 msgid ""
@@ -176,24 +177,29 @@ msgid ""
 "curve to the Thr.  If Ch6 < 0, the receiver will apply normal curves to the "
 "Thr.  The value of Ch6 defines the ratio of COL to THR."
 msgstr ""
+"**Hel**: AIL、ELE、THR、RUD、GYROは比例信号となります。Gear (ch 5)は二択信号です。COL (ch "
+"6)はThrにリンクされています。Ch6 >= 0の場合、受信機はThrに対し3Dカーブが適用されます。Ch6 < "
+"0の場合、受信機はThrに対し通常曲線が適用されます。Ch6の値は、COL to THRの比率を定義します。"
 
 #: ../../source/ch_protocols.rst:55
 msgid ""
 "**6+1**: AIL, ELE, THR, RUD,  COL (ch 6), GYRO (ch 7) are proportional.  "
 "Gear (ch 5) is binary.  This mode is highly experimental."
 msgstr ""
+"**6+1**: AIL、ELE、THR、RUD、COL (ch 6)、GYRO (ch 7)は比例信号、ギア (ch "
+"5)は二択信号です。このモードは非常に実験的なものです。"
 
 #: ../../source/ch_protocols.rst:56
 msgid "**COL Inv**: Invert COL servo"
-msgstr ""
+msgstr "**COL Inv**: COLサーボを反転"
 
 #: ../../source/ch_protocols.rst:57
 msgid "**COL Limit**: Set maximum range of COL servo"
-msgstr ""
+msgstr "**COL Limit**: COLサーボの最大範囲を設定"
 
 #: ../../source/ch_protocols.rst:60
 msgid "Protocol: WK2401"
-msgstr ""
+msgstr "Protocol: WK2401"
 
 #: ../../source/ch_protocols.rst:61
 msgid ""
@@ -207,10 +213,13 @@ msgid ""
 " to 4 channels, and only supports auto-binding.  The fixed ID can be used, "
 "but does not prevent auto-binding during power-on."
 msgstr ""
+"WK2401プロトコルは、古いWalkera機体を制御するために使用されていました。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
+" "
+"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の主であるWK2801は4チャンネルまでサポートしており、autoしかサポートしていないため、WK2601またはWK2401を試みる前に、古いWalkera機体で作業するときは、WK2801プロトコルを最初に試すことをお勧めします。固定IDを使用できますが、電源投入時の自動バインドを妨げることはありません。"
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: DSM2"
-msgstr ""
+msgstr "Protocol: DSM2"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
@@ -222,6 +231,9 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
+"DSM2プロトコルは多くのSpektrum社、JR社、およびこのプロトコルを使用している他機体を制御するために使用されます。DSM2プロトコルは最大12チャンネルをサポートします。8チャンネル以下の多くの受信機は送信機が7もしくはそれ以下のチャンネルを送信する必要があることに注意してください。チャンネル"
+" # が受信機に設定されていることを確認してください。DSM2は自動バインドをサポートしていません。Fixed "
+"IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:76 ../../source/ch_protocols.rst:104
 msgid ""
@@ -229,6 +241,8 @@ msgid ""
 " is so you can press the Failsafe button on some DSM receivers to set the "
 "failsafe value."
 msgstr ""
+"注: "
+"AILまたはELE操作から離れるまでバインドは終了しません。これはフェイルセーフ値を設定するため一部のDSM受信機のフェイルセーフボタンを押すことができるようにするためです。"
 
 #: ../../source/ch_protocols.rst:83
 msgid ""
@@ -236,12 +250,14 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DSM2 is "
 "shown."
 msgstr ""
+"DSM2プロトコルはテレメトリー機能の有効 / 無効もサポートします。 "
+"DSM2が表示されているときにこのオプションにアクセスするには、Protocolスピンボックスを押します。"
 
 #: ../../source/ch_protocols.rst:90
 msgid ""
 "The following fields are available in DSM2 Telemetry.  Note that a dedicated"
 " telemetry module and additional sensors are needed to capture this data"
-msgstr ""
+msgstr "DSM2テレメトリーでは以下のフィールドが利用可能です。このデータを取得するには、専用テレメトリーモジュールと追加センサーが必要です。"
 
 #: ../../source/ch_protocols.rst:92
 msgid ""
@@ -249,17 +265,19 @@ msgid ""
 "signal.  Ideally these numbers should all be similar, indicating even "
 "reception to each antenna"
 msgstr ""
+"**FadesA/B/L/R**: "
+"各アンテナが弱い信号を受信した回数。理想的にはこれらの数はすべて同じであるべきであり、各アンテナへの均等な受信を示します。"
 
 #: ../../source/ch_protocols.rst:93
 msgid ""
 "**Loss**: The number of times complete signal loss (dropped frame) occurred"
-msgstr ""
+msgstr "**Loss**: 完全な信号損失(廃棄されたフレーム)が発生した回数"
 
 #: ../../source/ch_protocols.rst:94
 msgid ""
 "**Holds**: The number of times the receiver entered fail-safe mode due to "
 "loss of signal"
-msgstr ""
+msgstr "**Hold**: 信号が失われたために受信機がフェイルセーフモードになった回数"
 
 #: ../../source/ch_protocols.rst:95
 msgid "**Volt1/2**: Battery voltage for receiver and an external source"
@@ -310,7 +328,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:118
 msgid "Protocol: J6Pro"
-msgstr ""
+msgstr "Protocol: J6Pro"
 
 #: ../../source/ch_protocols.rst:119
 msgid ""
@@ -325,7 +343,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr ""
+msgstr "Protocol: WFLY"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
@@ -339,7 +357,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "Protocol: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:129
 msgid ""
@@ -430,7 +448,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:167
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "Protocol: \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:168
 msgid ""
@@ -476,7 +494,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "Protocol: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:186
 msgid ""
@@ -496,7 +514,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:197
 msgid ""
