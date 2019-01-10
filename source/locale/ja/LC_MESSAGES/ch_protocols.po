@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-08 02:15+0000\n"
+"POT-Creation-Date: 2019-01-09 02:15+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -231,7 +231,7 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
-"DSM2プロトコルは多くのSpektrum社、JR社、およびこのプロトコルを使用している他機体を制御するために使用されます。DSM2プロトコルは最大12チャンネルをサポートします。8チャンネル以下の多くの受信機は送信機が7もしくはそれ以下のチャンネルを送信する必要があることに注意してください。チャンネル"
+"DSM2プロトコルは多くのSpektrum社、JR社、およびこのプロトコルを使用している他機体を制御するために使用されます。DSM2プロトコルは最大12チャンネルをサポートします。8チャンネル以下の多くの受信機は送信機が7もしくはそれ以下のチャンネルに対応する必要があることに注意してください。チャンネル"
 " # が受信機に設定されていることを確認してください。DSM2は自動バインドをサポートしていません。Fixed "
 "IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動でバインドする必要があります。"
 
@@ -281,19 +281,19 @@ msgstr "**Hold**: 信号が失われたために受信機がフェイルセー�
 
 #: ../../source/ch_protocols.rst:95
 msgid "**Volt1/2**: Battery voltage for receiver and an external source"
-msgstr ""
+msgstr "**Volt1/2**: 受信機と外部電源のバッテリー電圧"
 
 #: ../../source/ch_protocols.rst:96
 msgid "**RPM**: Engine/Motor speed"
-msgstr ""
+msgstr "**RPM**: エンジン / モーター回転数"
 
 #: ../../source/ch_protocols.rst:97
 msgid "**Temp**: Temperature from external temperature sensor"
-msgstr ""
+msgstr "**Temp**: 外部温度センサーからの温度"
 
 #: ../../source/ch_protocols.rst:101
 msgid "Protocol: DSMX"
-msgstr ""
+msgstr "Protocol: DSMX"
 
 #: ../../source/ch_protocols.rst:102
 msgid ""
@@ -305,6 +305,9 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
+"DSMXプロトコルは多くのSpektrum社、JR社、およびこのプロトコルを使用している他機体を制御するために使用されます。DSMXプロトコルは最大12チャンネルをサポートします。8チャンネル以下の多くの受信機は送信機が7もしくはそれ以下のチャンネルに対応する必要があることに注意してください。チャンネル"
+" # が受信機に設定されていることを確認してください。DSMXは自動バインドをサポートしていません。Fixed "
+"IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:108
 msgid ""
