@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-09 02:15+0000\n"
+"POT-Creation-Date: 2019-01-10 02:14+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -80,7 +80,8 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
 msgstr ""
-"DEVOプロトコルはテレメトリー機能の有効化/無効化もサポートします。このオプションは、DEVOが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
+"DEVOプロトコルはテレメトリー機能の有効 "
+"/無効もサポートします。このオプションは、DEVOが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -88,8 +89,7 @@ msgid ""
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
 msgstr ""
-"Devo "
-"テレメトリーでは以下のフィールドが利用可能です。すべての機体/受信機がすべてのフィールドを報告するわけではないこと、そしていくつかのフィールドは有効にするために追加のモジュールを必要とすることに注意してください。"
+"Devoテレメトリーでは以下のフィールドが利用可能です。すべての機体/受信機がすべてのフィールドを報告するわけではないこと、そしていくつかのフィールドは有効にするために追加のモジュールを必要とすることに注意してください。"
 
 #: ../../source/ch_protocols.rst:33
 msgid ""
@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 "WK2801プロトコルは、古いWalkera機体の制御に使用されていました。以前のWalkera機体は、3つの類似しているものの同一ではないプロトコルに分割されていました:"
 " "
-"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkeraモデルで作業するときは、まずWK2801プロトコルを最初に試すことをお勧めします。WK2801プロトコルは最大8つのチャンネル、および自動バインドと手動バインドの両方をサポートします。固定IDが「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信者は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままとなります。"
+"WK2801、WK2601、WK2401。これは、サポートされているチャンネル数にほぼ相当しますが、最近の6チャンネル受信機の多くは、実際にはWK2801プロトコルをサポートしています。WK2801は優れたプロトコルであるため、WK2601またはWK2401を試みる前に、古いWalkeraモデルで作業するときは、まずWK2801プロトコルを最初に試すことをお勧めします。WK2801プロトコルは最大8つのチャンネル、および自動バインドと手動バインドの両方をサポートします。固定IDが「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信機は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままとなります。"
 
 #: ../../source/ch_protocols.rst:43
 msgid "Protocol: WK2601"
@@ -250,8 +250,8 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DSM2 is "
 "shown."
 msgstr ""
-"DSM2プロトコルはテレメトリー機能の有効 / 無効もサポートします。 "
-"DSM2が表示されているときにこのオプションにアクセスするには、Protocolスピンボックスを押します。"
+"DSM2プロトコルはテレメトリー機能の有効 / "
+"無効もサポートします。このオプションは、DSM2が表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:90
 msgid ""
@@ -315,6 +315,7 @@ msgid ""
 "automatically select between DSM2 and DSMX.  The user must select which "
 "protocol to use."
 msgstr ""
+"Spektrum社またはJR社製の送信機とは異なり、DeviationはDSM2とDSMXとで自動的には選択されません。ユーザは使用するプロトコルを明示的に選択する必要があります。"
 
 #: ../../source/ch_protocols.rst:113
 msgid ""
@@ -322,12 +323,14 @@ msgid ""
 "  This option is accessed by pressing the Protocol spin-box when DSMX is "
 "shown."
 msgstr ""
+"DSMXプロトコルはテレメトリー機能の有効 / "
+"無効もサポートします。このオプションは、DSMXが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:115
 msgid ""
 "The list of DSMX telemetry fields is identical to those in the DSM2 "
 "Protocol, and are documented in section :ref:`protocol-dsm2`."
-msgstr ""
+msgstr "DSMXテレメトリーフィールドのリストはDSM2プロトコルと同じであり、項目 :ref:`protocol-dsm2`に明記されています。"
 
 #: ../../source/ch_protocols.rst:118
 msgid "Protocol: J6Pro"
@@ -343,6 +346,10 @@ msgid ""
 "to None, a transmitter-specific ID is used instead.  It is necessary to "
 "manually bind each model before the first use."
 msgstr ""
+"J6Proプロトコルは、Nine "
+"Eagles社の機体をサポートするために使用されます。J6Pro送信機と互換性のある機体のみ使用できます。多くの古い4チャンネルのNine "
+"Eagles社製機体は、サポートされていない異なるプロトコルを使用されていました。J6Proプロトコルは最大12チャンネルをサポートしますが、6チャンネルのモデルのみがテストされています。J6Proは自動バインドをサポートしていません。Fixed"
+" IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
@@ -351,12 +358,12 @@ msgstr "Protocol: WFLY"
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
-msgstr ""
+msgstr "WFLYプロトコルは、WFR04S、WFR07S、WFR09SなどのWFLY受信機をサポートしています。"
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
 "The protocol supports up to 9 channels.  Default channel order is AETR."
-msgstr ""
+msgstr "このプロトコルは最大9チャンネルをサポートします。デフォルトのチャネルマップはAETRです。"
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
@@ -368,6 +375,8 @@ msgid ""
 " few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc)."
 "  |a7105-note|"
 msgstr ""
+"Flyskyプロトコルは、Turnigy / Flysky受信機、および同じAFHDSプロトコル (WL V911、Xieda 9958等) "
+"を使用する他のいくつかの機体を制御するために使用されます。 |a7105-note|"
 
 #: ../../source/ch_protocols.rst:133
 msgid ""
@@ -377,68 +386,70 @@ msgid ""
 "set for Fixed ID, the receiver must be bound manually one-time using the "
 "‘Bind’ button, after which it should stay bound."
 msgstr ""
+"Flyskyプロトコルは最大12チャンネル、そして自動バインドと手動バインドの両方をサポートします。「固定ID」が「None」に設定されている場合、送信機は電源を入れるたびに受信機との自動バインドを試みます。固定IDに値が設定されている場合、受信機は「Bind」ボタンを使用して1回手動でバインドする必要があります。その後、バインドされたままになります。"
 
 #: ../../source/ch_protocols.rst:139
 msgid ""
 "The Flysky protocol also supports WLToys extensions to the protocol. These "
 "are accessed by pressing the Protocol spin-box when Flysky is shown:"
 msgstr ""
+"Flyskyプロトコルは、WLToysプロトコル拡張もサポートしています。Flyskyが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:143
 msgid ""
 "**V9x9**: Enables the extensions for the WLToys V939, V949, V959, v969, etc "
 "quadcopters."
-msgstr ""
+msgstr "**V9x9**: WLToys V939、V949、V959、V969などのクワッドコプターの拡張機能を有効にします。"
 
 #: ../../source/ch_protocols.rst:146 ../../source/ch_protocols.rst:153
 #: ../../source/ch_protocols.rst:853
 msgid "Lights are controlled by Channel 5"
-msgstr ""
+msgstr "ライトはチャンネル5にて制御します"
 
 #: ../../source/ch_protocols.rst:147
 msgid "Video is controlled by Channel 6"
-msgstr ""
+msgstr "ビデオはチャンネル6にて制御します"
 
 #: ../../source/ch_protocols.rst:148 ../../source/ch_protocols.rst:155
 msgid "Camera is controlled by Channel 7"
-msgstr ""
+msgstr "カメラはチャンネル7にて制御します"
 
 #: ../../source/ch_protocols.rst:149
 msgid "Flip is controlled by Channel 8"
-msgstr ""
+msgstr "フリップはチャンネル8にて制御します"
 
 #: ../../source/ch_protocols.rst:151
 msgid ""
 "**V6x6**: Enables the extensions for the WLToys V636 and V686 quadcopters."
-msgstr ""
+msgstr "**V6x6**: WLToys V636およびV686クワッドコプターの拡張機能を有効にします。"
 
 #: ../../source/ch_protocols.rst:154 ../../source/ch_protocols.rst:797
 msgid "Flip is controlled by Channel 6"
-msgstr ""
+msgstr "フリップはチャンネル6にて制御します"
 
 #: ../../source/ch_protocols.rst:156
 msgid "Video is controlled by Channel 8"
-msgstr ""
+msgstr "ビデオはチャンネル8にて制御します"
 
 #: ../../source/ch_protocols.rst:157 ../../source/ch_protocols.rst:798
 #: ../../source/ch_protocols.rst:815
 msgid "Headless mode is controlled by Channel 9"
-msgstr ""
+msgstr "ヘッドレスモードはチャンネル9にて制御します"
 
 #: ../../source/ch_protocols.rst:158 ../../source/ch_protocols.rst:799
 #: ../../source/ch_protocols.rst:816
 msgid "RTH mode is controlled by Channel 10"
-msgstr ""
+msgstr "RTHモードはチャンネル10にて制御します"
 
 #: ../../source/ch_protocols.rst:159
 msgid ""
 "X and Y calibration are controlled by channels 11 and 12, respectively."
-msgstr ""
+msgstr "XおよびYのキャリブレーションは、それぞれチャンネル11と12によって制御します。"
 
 #: ../../source/ch_protocols.rst:161
 msgid ""
 "**V912**: Enables the extensions for the V912, V913 and V915 helicopters"
-msgstr ""
+msgstr "**V912**: V912、V913、V915ヘリコプターの拡張機能を有効にします。"
 
 #: ../../source/ch_protocols.rst:164
 msgid ""
@@ -448,6 +459,7 @@ msgid ""
 "Flipping the switch back to off has no effect.  Flipping the switch back on "
 "now turns the lights back off."
 msgstr ""
+"これらのチャンネルをスイッチに割り当てる場合、スイッチをONにすることで状態が切り替わり、スイッチをOFFにすると効果はありません。したがってライトを点灯するには、チャンネル5に割り当てられているスイッチをOFFからONへ切り替えます。スイッチをOFFにしても効果はありません。スイッチをONにするとライトが消えます。"
 
 #: ../../source/ch_protocols.rst:167
 msgid "Protocol: \\*AFHDS-2A"
@@ -458,6 +470,7 @@ msgid ""
 "The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers."
 "  |a7105-note|"
 msgstr ""
+"AFHDS-2AプロトコルはTurnigy / Flysky AFHDS 2A受信機を制御するために使用されます。 |a7105-note|"
 
 #: ../../source/ch_protocols.rst:172
 msgid ""
@@ -465,24 +478,26 @@ msgid ""
 "binding. The receiver must be bound manually one-time using the ‘Bind’ "
 "button, after which it should stay bound."
 msgstr ""
+"AFHDS-"
+"2Aプロトコルは最大14チャネルをサポートし、手動バインドが必要です。受信機は「Bind」ボタンを使用して1回手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:175
 msgid "Options configurable on the AFHDS-2A page:"
-msgstr ""
+msgstr "「AFHDS-2A」ページで設定可能なオプション:"
 
 #: ../../source/ch_protocols.rst:177
 msgid ""
 "**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
 "PWM+SBUS or PPM+SUBS"
-msgstr ""
+msgstr "**Outputs**: 受信機に希望の出力タイプを設定します。PWM+IBUS、PPM+IBUS、PWM+SBUSまたはPPM+SUBS"
 
 #: ../../source/ch_protocols.rst:178
 msgid "**Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
-msgstr ""
+msgstr "**Servo Hz**: 受信機のPWMリフレッシュレートを50Hz〜400Hzに設定します"
 
 #: ../../source/ch_protocols.rst:179
 msgid "**LQI output**: Output LQI to an optional channel"
-msgstr ""
+msgstr "**LQI output**: オプションチャンネルにLQIを出力"
 
 #: ../../source/ch_protocols.rst:180
 msgid ""
@@ -490,10 +505,12 @@ msgid ""
 "variances betweeen A7105 modules. Default 0. The LQI telemetry value can be "
 "used as a guide for adjusting the fine frequency protocol option."
 msgstr ""
+"**Freq-fine**: "
+"周波数オフセット調整。範囲-300〜300。A7105モジュール間の差異を調整します。デフォルトは0です。LQIテレメトリー値は、良好な周波数プロトコルオプションを調整するためのガイドとして使用します。"
 
 #: ../../source/ch_protocols.rst:182
 msgid "Telemetry is supported."
-msgstr ""
+msgstr "テレメトリーをサポートします。"
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
@@ -505,15 +522,17 @@ msgid ""
 "H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the "
 "Proto X SLT). (regular format)."
 msgstr ""
+"このプロトコルは、H107シリーズのHubsan-X4クワッドコプター、H111、H101、H102、H201、H202ヘリコプター、およびEstes "
+"Proto X (ただしProto X SLTではなく) で使用されます。 (通常フォーマット)"
 
 #: ../../source/ch_protocols.rst:188
 msgid ""
 "This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)"
-msgstr ""
+msgstr "このプロトコルはHubsan H301F、H302F、H303F、およびH304F (H301フォーマット) で使用されます。"
 
 #: ../../source/ch_protocols.rst:190
 msgid "This protocol is used on Hubsan H501S, H122D and H123D (H501 format)"
-msgstr ""
+msgstr "このプロトコルはHubsan H501S、H122DおよびH123D (H501フォーマット) で使用されます。"
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
@@ -527,54 +546,55 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
+"Hubsan4プロトコルは最大13チャンネルをサポートし、通常フォーマットは自動バインドのみをサポートします。固定IDも使用できますが、電源投入時の自動バインドを妨げることはありません。最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します。"
 
 #: ../../source/ch_protocols.rst:199
 msgid ""
 "With H301 and H501 format it is necessary to manually bind each model before"
 " the first use."
-msgstr ""
+msgstr "H301およびH501フォーマットでは、一番最初の使用前に各機体を手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "チャンネル5はLEDを制御します"
 
 #: ../../source/ch_protocols.rst:202
 msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
-msgstr ""
+msgstr "チャンネル6フォーマットに応じて「フリップ」モード、高度維持モード、またはスタビライズドモードを有効にします。"
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
-msgstr ""
+msgstr "チャンネル7はビデオのON / OFF (H102) またはスナップショット撮影をします。"
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "チャンネル8はスナップショット撮影をします"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "チャンネル9はヘッドレスモードを有効にします"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "チャンネル10はRetern To Homeを有効にします"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "チャンネル11はGPSホールドを有効にします"
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
-msgstr ""
+msgstr "チャンネル12はスポーツ1、スポーツ2またはアクロモードに設定します (H123D)"
 
 #: ../../source/ch_protocols.rst:209
 msgid "Channel 13 Enables ‘flip’ mode (H122D)"
-msgstr ""
+msgstr "チャンネル13は「フリップ」モードを有効にします (H122D)"
 
 #: ../../source/ch_protocols.rst:211
 msgid "Options configurable on the Hubsan page:"
-msgstr ""
+msgstr "「Hubsan」ページで設定可能なオプション:"
 
 #: ../../source/ch_protocols.rst:213
 msgid ""
@@ -582,20 +602,22 @@ msgid ""
 "transmitter (Requires a 5.8GHz receiver capable of receiving and displaying "
 "video)."
 msgstr ""
+"**vTX MHz**: Hubsan "
+"H107Dビデオトランスミッターで使用される周波数を定義します。(ビデオを受信および表示できる5.8GHz受信機が必要です。)"
 
 #: ../../source/ch_protocols.rst:214
 msgid "**Telemetry**: Enable receiving of model battery voltage."
-msgstr ""
+msgstr "**Telemetry**: 機体のバッテリー電圧情報の受信を有効にします。"
 
 #: ../../source/ch_protocols.rst:215
 msgid ""
 "**Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for "
 "variances betweeen A7105 modules. Default 0."
-msgstr ""
+msgstr "**Freq-fine**: 周波数オフセット調整。範囲-300〜300。A7105モジュール間の差異を調整します。デフォルトは0です。"
 
 #: ../../source/ch_protocols.rst:218
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "Protocol: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:219
 msgid ""
@@ -605,6 +627,10 @@ msgid ""
 " tested with this protocol, including air versions of the J4C12R.  "
 "|a7105-note|"
 msgstr ""
+"Joyswayプロトコルは、Joysway Caribbeanヨット、およびJoysway Orion、Explorer、Dragon Force "
+"65ヨット、およびForce2 "
+"60カタマランで使用されているJ4C12R受信機をサポートします。J4C12Rの飛行機バージョンを含む、他の機体や受信機はこのプロトコルでテストされていません。"
+" |a7105-note|"
 
 #: ../../source/ch_protocols.rst:227
 msgid ""
@@ -613,22 +639,26 @@ msgid ""
 "set to None, a transmitter-specific ID is used instead. It is necessary to "
 "bind each model before the first use."
 msgstr ""
+"Joyswayプロトコルは最大4つのチャンネルをサポートし、自動バインドをサポートしませんが、受信機側が要求するたびにバインドします。Fixed "
+"IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体をバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
 "The first channel normally controls the sheets and the second channel the "
 "rudder, but this may vary from model to model."
-msgstr ""
+msgstr "最初のチャンネルはノーマルシートをコントロールし、2番目のチャンネルはラダーをコントロールしますが、これは機体モデルによって異なります。"
 
 #: ../../source/ch_protocols.rst:236
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "Protocol: \\*Bugs3"
 
 #: ../../source/ch_protocols.rst:237
 msgid ""
 "The Bugs3 protocol is used to control MJX Bugs3 and Bugs8 aircraft.  "
 "|a7105-note| |mod-install-link|"
 msgstr ""
+"Bugs3プロトコルは、MJX Bugs3およびBugs8の機体を制御するために使用されます。 |a7105-note| |mod-install-"
+"link|"
 
 #: ../../source/ch_protocols.rst:239
 msgid ""
@@ -637,38 +667,40 @@ msgid ""
 "aircraft's radio id is stored in the model Fixed ID field.  Do not change "
 "this value."
 msgstr ""
+"バインドするには、まずBugs3プロトコルを選択して「Bind」をクリックします。その後、機体の電源を入れます。バインドが成功すると、バインドダイアログが消えます。機体の無線IDは機体のFixed"
+" IDフィールドに格納されています。この値は変更しないでください。"
 
 #: ../../source/ch_protocols.rst:243 ../../source/ch_protocols.rst:772
 msgid ""
 "Channels used for controlling functions. Set channel value greater than zero"
 " to activate."
-msgstr ""
+msgstr "機能を制御するために使用されるチャンネル。有効にするにはチャンネル値をゼロより大きな有効値へ設定してください。"
 
 #: ../../source/ch_protocols.rst:245 ../../source/ch_protocols.rst:774
 #: ../../source/ch_protocols.rst:812
 msgid "Arming is controlled by Channel 5"
-msgstr ""
+msgstr "アーミングはチャンネル5にて制御します"
 
 #: ../../source/ch_protocols.rst:246 ../../source/ch_protocols.rst:775
 msgid "Lights are controlled by Channel 6"
-msgstr ""
+msgstr "ライトはチャンネル6にて制御します"
 
 #: ../../source/ch_protocols.rst:247 ../../source/ch_protocols.rst:776
 #: ../../source/ch_protocols.rst:814
 msgid "Flip is controlled by Channel 7"
-msgstr ""
+msgstr "フリップはチャンネル7にて制御します"
 
 #: ../../source/ch_protocols.rst:248 ../../source/ch_protocols.rst:777
 msgid "Camera is controlled by Channel 8"
-msgstr ""
+msgstr "カメラはチャンネル8にて制御します"
 
 #: ../../source/ch_protocols.rst:249 ../../source/ch_protocols.rst:778
 msgid "Video is controlled by Channel 9"
-msgstr ""
+msgstr "ビデオはチャンネル9にて制御します"
 
 #: ../../source/ch_protocols.rst:250 ../../source/ch_protocols.rst:779
 msgid "Angle/Acro mode is controlled by Channel 10 (>0 is Angle)"
-msgstr ""
+msgstr "アングル / アクロモードはチャンネル10にて制御します (アングルは0以上の値)"
 
 #: ../../source/ch_protocols.rst:252
 msgid ""
@@ -681,7 +713,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:258
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "Protocol: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:259
 msgid ""
@@ -698,7 +730,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:266
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "Protocol: \\*Frsky"
 
 #: ../../source/ch_protocols.rst:267
 msgid ""
