@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 02:14+0000\n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -710,6 +710,8 @@ msgid ""
 "This is translated to VOLT1 values of 8.4V for good and 6.0V for low "
 "voltage."
 msgstr ""
+"テレメトリー機能はRSSIと電圧アラームをサポートします。RSSIフィールドに報告される信号強度とVOLT1のバッテリー電圧の表示はFrskyテレメトリーディスプレイを使用します。Bugs3受信機は良好"
+" / 不良電圧を報告するのみとなります。これは良好の場合は8.4V、低電圧の場合は6.0VのVOLT1値に変換されます。"
 
 #: ../../source/ch_protocols.rst:258
 msgid "Protocol: \\*Frsky-V8"
@@ -719,7 +721,7 @@ msgstr "Protocol: \\*Frsky-V8"
 msgid ""
 "The Frsky-V8 protocol is used to control older Frsky™ receivers using the "
 "one-way protocol. |cc2500-note|"
-msgstr ""
+msgstr "Frsky-V8プロトコルは片方向送信のみを使用する古いFrsky製の受信機を制御するために使用されます。 |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:263
 msgid ""
@@ -727,6 +729,8 @@ msgid ""
 "If Fixed ID is set to None, a transmitter-specific ID is used instead.  It "
 "is necessary to manually bind each model before the first use."
 msgstr ""
+"Frsky-V8プロトコルは8チャンネルをサポートし、自動バインドをサポートしません。Fixed "
+"IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動バインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:266
 msgid "Protocol: \\*Frsky"
@@ -737,6 +741,8 @@ msgid ""
 "The Frsky protocol is used to control newer (telemetry enabled) Frsky™ "
 "receivers using the two-way protocol (D8). |cc2500-note|"
 msgstr ""
+"Frskyプロトコルは、双方向プロトコル(D8)を使用して新しい (テレメトリー対応) Frsky製受信機を制御するために使用されます。 "
+"|cc2500-note|"
 
 #: ../../source/ch_protocols.rst:271
 msgid ""
@@ -744,18 +750,22 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Frskyプロトコルは最大8チャンネルをサポートし、自動バインドをサポートしません。Fixed "
+"IDがNoneに設定されている場合は、代わりに送信機固有のIDが使用されます。最初の使用の前に各機体を手動バインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:273
 msgid ""
 "The Frsky protocol also supports enabling/disabling telemetry.  This option "
 "is accessed by pressing the Protocol spin-box when Frsky is shown."
 msgstr ""
+"Frskyプロトコルはテレメトリーの有効 / "
+"無効もサポートします。このオプションは、Frskyが表示されているときにProtocolスピンボックスを押すことでアクセスできます。"
 
 #: ../../source/ch_protocols.rst:275
 msgid ""
 "When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, "
 "VOLT2) are supported."
-msgstr ""
+msgstr "テレメトリー機能が有効になっていると、受信機から送信された値 (RSSI、VOLT1、VOLT2) がサポートされます。"
 
 #: ../../source/ch_protocols.rst:277
 msgid ""
@@ -763,20 +773,22 @@ msgid ""
 "protocol on transmitters except the 7e and f7.  See the Frsky Telemetry "
 "section below."
 msgstr ""
+"7eとf7以外の送信機では、追加のハブテレメトリー値がFrsky Xプロトコルと共通でサポートされています。下記の「Frsky "
+"Telemetry」項を参照してください。"
 
 #: ../../source/ch_protocols.rst:282
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "Protocol: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:283
 msgid ""
 "The FryskyX protocol implements the Frsky D16 radio protocol, including "
 "S.Port and hub telemetry."
-msgstr ""
+msgstr "Frysky Xプロトコルは、S.Portおよびハブテレメトリーを含むFrsky D16無線プロトコルを実装しています。"
 
 #: ../../source/ch_protocols.rst:285
 msgid "|cc2500-note| |mod-install-link|"
-msgstr ""
+msgstr "|cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:287
 msgid ""
@@ -1863,7 +1875,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:864
 msgid "Options configurable on the PPM page:"
-msgstr ""
+msgstr "「PPM」ページで設定可能なオプション:"
 
 #: ../../source/ch_protocols.rst:867
 msgid ""
@@ -1871,6 +1883,8 @@ msgid ""
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
 msgstr ""
+"**Center PW**: "
+"送信機がセンターへサーボ位置を調整するために送信するパルス時間(μSec)を定義します。この数値がマスター送信機と一致しない場合、サーボは中央に配置されません。"
 
 #: ../../source/ch_protocols.rst:869
 msgid ""
@@ -1898,7 +1912,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:880
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "Protocol: USBHID"
 
 #: ../../source/ch_protocols.rst:881
 msgid ""
@@ -1909,10 +1923,11 @@ msgid ""
 "input. Some initial calibration may be necessary and is accomplished via the"
 " control panel applet of your operating system."
 msgstr ""
+"USBHIDプロトコルは送信機をUSBジョイスティックに変換します。USBケーブルで送信機をPCに接続すると、送信機がコンピュータによってジョイスティックとして検出されることを可能にします。これは、送信機がジョイスティック入力をサポートし、任意のシミュレータでの利用を可能にするために、このプロトコルは使用されます。初期調整が必要になる場合があります。これはOS側のコントロールパネルアプリを使用して行います。"
 
 #: ../../source/ch_protocols.rst:884
 msgid "Protocol: SBUS"
-msgstr ""
+msgstr "Protocol: SBUS"
 
 #: ../../source/ch_protocols.rst:885
 msgid ""
@@ -1923,10 +1938,13 @@ msgid ""
 "Up to sixteen channels are supported. Data rate is 100kbps. Format is 8 data"
 " bits, even parity, two stop bits."
 msgstr ""
+"SBUSプロトコルは、送信機のトレーナーポート (チップコネクタ) "
+"にシリアルデータを送信します。トレーナーポートリングはそれにより接続されます。T8SG "
+"PLUS送信機では、シリアルデータはJRモジュールベイの一番上のピンにも表示されます。シリアルデータは反転されないため、SBUS機器によってはアダプタが必要になる場合があります。最大16チャンネルがサポートされます。データレートは100kbpsです。フォーマットは8データビット、偶数パリティ、2ストップビットです。"
 
 #: ../../source/ch_protocols.rst:892
 msgid "Protocol: CRSF (Crossfire)"
-msgstr ""
+msgstr "Protocol: CRSF (Crossfire)"
 
 #: ../../source/ch_protocols.rst:893
 msgid ""
@@ -1937,82 +1955,86 @@ msgid ""
 "output.  For the trainer port tie tip to ring1. In the T8SG module bay tie "
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
+"CRSFプロトコルは、Crossfireプロトコルのシリアルデータを送信機側ののトレーナーポート (チップコネクタ) に送信します。 "
+"トレーナーポートリングはそれにより接続されます。T8SG "
+"PLUS送信機では、シリアルデータはJRモジュールベイの一番上のピンにも表示されます。テレメトリーを有効にするには、シリアル入力をシリアル出力に接続する必要があります。トレーナーポートの場合はring1ポート先端へ、T8SGモジュールベイでは、上部ピンと下部ピンを互いに接続します。最大16チャンネルがサポートされます。"
 
 #: ../../source/ch_protocols.rst:899
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
+"CRSFバインドおよび設定操作等はまだサポートされていません。Deviationを使用する前に、PCを使用してCrossfireモジュールと受信機をバインドしてください。"
 
 #: ../../source/ch_protocols.rst:902
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
-msgstr ""
+msgstr "テレメトリー機能は、特定の送信機 (7e、F4、F12) では利用できません。"
 
 #: ../../source/ch_protocols.rst:920
 msgid "RX"
-msgstr ""
+msgstr "RX"
 
 #: ../../source/ch_protocols.rst:920
 msgid "TX"
-msgstr ""
+msgstr "TX"
 
 #: ../../source/ch_protocols.rst:922
 msgid "RxRSSI"
-msgstr ""
+msgstr "RxRSSI"
 
 #: ../../source/ch_protocols.rst:922
 msgid "TxRSSI"
-msgstr ""
+msgstr "TxRSSI"
 
 #: ../../source/ch_protocols.rst:922
 msgid "VBATT"
-msgstr ""
+msgstr "VBATT"
 
 #: ../../source/ch_protocols.rst:923
 msgid "RSSI2"
-msgstr ""
+msgstr "RSSI2"
 
 #: ../../source/ch_protocols.rst:923
 msgid "TxPOWER"
-msgstr ""
+msgstr "TxPOWER"
 
 #: ../../source/ch_protocols.rst:924
 msgid "RxSNR"
-msgstr ""
+msgstr "RxSNR"
 
 #: ../../source/ch_protocols.rst:924
 msgid "TxSNR"
-msgstr ""
+msgstr "TxSNR"
 
 #: ../../source/ch_protocols.rst:924
 msgid "CAPACITY"
-msgstr ""
+msgstr "CAPACITY"
 
 #: ../../source/ch_protocols.rst:925
 msgid "RxQUAL"
-msgstr ""
+msgstr "RxQUAL"
 
 #: ../../source/ch_protocols.rst:925
 msgid "TxQUAL"
-msgstr ""
+msgstr "TxQUAL"
 
 #: ../../source/ch_protocols.rst:925
 msgid "FMODE"
-msgstr "Fモード"
+msgstr "FMODE"
 
 #: ../../source/ch_protocols.rst:926
 msgid "PITCH"
-msgstr ""
+msgstr "PITCH"
 
 #: ../../source/ch_protocols.rst:926
 msgid "ROLL"
-msgstr ""
+msgstr "ROLL"
 
 #: ../../source/ch_protocols.rst:926
 msgid "YAW"
-msgstr ""
+msgstr "YAW"
 
 #: ../../source/ch_protocols.rst:927
 msgid "RFMODE"
-msgstr ""
+msgstr "RFMODE"
