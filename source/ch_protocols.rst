@@ -284,7 +284,7 @@ The FryskyX protocol implements the Frsky D16 radio protocol, including S.Port a
 
 |cc2500-note| |mod-install-link|
 
-This protocol supports up to 16 channels. Fixed ID binding is supported to link the transmitter wtih specific receivers. Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Supports S.Port and hub telemetry sensors as well as GPS telemetry (except on memory-limited 7e and f-series) as described in the next section.
+This protocol supports up to 16 channels. Fixed ID binding is supported to link the transmitter with specific receivers. Supports receiver telemetry (RSSI, VOLT1) on all transmitters.  Supports S.Port and hub telemetry sensors as well as GPS telemetry (except on memory-limited 7e and f-series) as described in the next section.
 
 The following protocol options are available.
 
@@ -767,7 +767,7 @@ Channel 11 controls autoflip (X600 & X800 formats) or camera pan
 Channel 12 controls camera tilt
 
 Protocol: \*Bugs3Mini
-------------------
+----------------------
 The Bugs3Mini protocol is used to control MJX Bugs3 Mini and Bugs 3H aircraft.  |nrf24l01-note|
 
 To bind first choose the Bugs3Mini protocol and click Bind.  Then apply power to the aircraft.
@@ -936,5 +936,33 @@ RFMODE
 
 .. endif::
 
+
+Protocol: PXX
+--------------
+The PXX protocol is an Frsky serial interface to their transmitter modules. Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but protocol is available on the serial port of other transmitters.
+
+Up to 16 channels are supported. Supports receiver telemetry (RSSI, VOLT1) on all transmitters. Telemetry (S.Port) is supported in the Frsky format. Range check operation is supported. Module power level settings correspond to top four deviation power settings.
+
+Fixed ID is supported to link the transmitter with specific receivers. The Fixed ID corresponds to the receiver number in OpenTX to make sharing easier. Values 0 to 63 are valid. Fixed IDs above 63 are truncated to the valid range.
+
+Due to memory constraints PXX is available only in non-modular builds.
+
+The following protocol options are available.
+
+**Failsafe**: If the channel failsafe (in mixer channel config) is set this value is sent to the receiver every 9 seconds.  The receiver will use these values in failsafe mode unless the protocol option is set to RX.
+For channels with failsafe set to off, the default Failsafe protocol option "Hold" commands the receiver to hold the last received channel values when the receiver enters failsafe mode.  The "NoPulse" setting causes the receiver to not send any signal on PPM outputs (Testing on X8R showed SBUS values went to minimum, but SBUS behavior is not specified by the protocol).  The "RX" setting prevents Deviation from sending failsafe settings so the receiver will use whatever failsafe values have been stored in the receiver.
+
+**Country**: Set the country to match the firmware in the receiver.  Options are US, JP, EU.
+
+**Rx PWM out**: Choose whether PWM outputs of receiver are channels 1-8 or 9-16.
+
+**Rx Telem**: Turn receiver telemetry on or off.
+
+For transmitters without JR module the PXX signal is available on the serial port output.  This is normally the trainer jack except for the Devo12.  Use a stereo plug. Tip will be the PXX output, and ring is the s.port input. Sleeve is ground.
+
+The T8SG V2 Plus requires a hardware modification to receive telemetry from a module in the JR bay.  The trainer port ring must be connected to the bottom JR pin (see picture).
+
+.. image:: images/common/ch_protocols/PXX_telemetry_mod.png
+   :width: 80%
 
 
