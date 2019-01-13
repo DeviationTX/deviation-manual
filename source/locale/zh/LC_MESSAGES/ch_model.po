@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 01:58+0000\n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,55 +23,55 @@ msgstr ""
 
 #: ../../source/ch_model.rst:16
 msgid "Model menu"
-msgstr ""
+msgstr "模型设置"
 
 #: ../../source/ch_model.rst:18
 msgid ""
 "The model menu allows selection, editing model configuration, alarms, "
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
-msgstr ""
+msgstr "模型设置提供了编辑模型配置，警告，数据记录和屏幕配置。可以通过按ENT或者选择主菜单然后选择模型设置进入。"
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
-msgstr ""
+msgstr "根据在:ref:`model-setup`中选择的混控的界面类型不同，模型菜单也会有所不通。"
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
-msgstr ""
+msgstr "高级混控:ref:`mixer-adv`提供所有标准混控的功能，同时提供许多额外的功能和配置。"
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**高级界面**"
 
 #: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**标准界面**"
 
 #: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**高级模型设置**"
 
 #: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**标准模型设置**"
 
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
-msgstr ""
+msgstr "注意：在所有遥控器上，高级混控设置界面都是缺省界面。"
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "模型设置"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr ""
+msgstr "该模型页面提供了多个可供修改的配置选项。"
 
 #: ../../source/ch_model.rst:73
 msgid ""
@@ -77,6 +81,8 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"**文件**:文件选择框，可以加载一个新的模型，复制现有的模型到新的位置， 恢复当前模式为默认(所有配置将丢失)，和加载模板(见:ref"
+":`predefined-model-templates)。注 意，更改模型可能会导致安全消息显示(见:ref:`safety-system`)。"
 
 #: ../../source/ch_model.rst:92
 msgid ""
@@ -85,6 +91,8 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"**混控界面**：确认图形用户界面(GUI)，以用于该模型。Deviation 默认“高级模 "
+"式”界面。“标准模式”界面仅可用于直升机模型，更接近于原版固件的界面。"
 
 #: ../../source/ch_model.rst:97
 msgid ""
@@ -96,25 +104,27 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"标准模式 GUI 是专为有副翼的直升机设计的。它包含那些其他飞机不需要 的特殊功能，并可能缺少适合控制其他飞机所需的功能。一个无副翼直升机可能 "
+"不适合使用标准模式 GUI，它并不需要这些特殊的功能，而且可能需要这些缺少 的功能。**我们强烈建议除带副翼的直升机之外的所有的飞机使用高级模式。**"
 
 #: ../../source/ch_model.rst:108
 msgid ""
 "Note: If you switch from advanced mixer to standard mixer all data may be "
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
-msgstr ""
+msgstr "注意:如果你从高级模式切换到标准模式，所有数据都可能丢失。如果你从标准模式切换到高级模式，你的数据将被保留。"
 
 #: ../../source/ch_model.rst:115
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
-msgstr ""
+msgstr "**模型名称**：设定模型的名称。使用左，右，上，下键然后使用 ENT键选择每个 字符。"
 
 #: ../../source/ch_model.rst:120
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
-msgstr ""
+msgstr "**图标**选择模型的图标。可以安装额外的模型图标(见:ref:`usb-file-system`)。"
 
 #: ../../source/ch_model.rst:127
 msgid ""
@@ -123,24 +133,27 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"**模型类型**设置机种，可供选择的有，直升机，固定翼和多轴。直升机模型可以\n"
+"通过点击模型类型进入额外的配置页。对于十字盘模式的选项请见十字盘配置。"
 
 #: ../../source/ch_model.rst:133
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
-msgstr ""
+msgstr "如果模型类型从直升机切换到其他，这将自动更改为高级混控模式 GUI，因 为标准模式 GUI 只支持直升机。"
 
 #: ../../source/ch_model.rst:135
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"**发射功率**：设定遥控器输出功率(如果可以用)。可用选项为 100μW，300μW，1mW，3mW，10mW，30mW，100mW，150mW。"
 
 #: ../../source/ch_model.rst:140
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
-msgstr ""
+msgstr "注意：原生的Devo7e的功率是7mW。由于软件限制，150mW会被错误的显示。"
 
 #: ../../source/ch_model.rst:144
 msgid ""
@@ -149,6 +162,8 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"**PPM In**教练口信号输入，可以用来连接 头追之类硬件的 PPM "
+"信号输入，也可以接入教练主机(教练遥控器信号)。有的选项是通道，Stick和协议。"
 
 #: ../../source/ch_model.rst:150
 msgid ""
@@ -157,6 +172,8 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"Stick 和通道 用于教练模式设置，(具体设置方法可以在 :ref:`setting-up-a-buddy-box`找到)Extend 模式用于 "
+"FPV 或外部输入(比如头追)，文档参见:ref:`setting-up-fpv`"
 
 #: ../../source/ch_model.rst:152
 msgid ""
@@ -167,6 +184,8 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"协议: "
+"设置接收机的协议类型，具体可以参照:ref:`protocols`。注意协议的改变会关闭现在的的协议，这会影响任何现在激活的模型。可以使用对频或者重新初始化的方法来启动新选中的协议。"
 
 #: ../../source/ch_model.rst:163
 msgid ""
@@ -176,29 +195,31 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"对频/初始化:通过对频和固定 ID 的设置，遥控器可以在开机时自动与模型对 频，或者可能需要手动对频一次。详见协议查找更具体的解释。如果协议不支持 "
+"对频，该按钮将显示“初始化”，这样不需要重启遥控器就可以切换协议。"
 
 #: ../../source/ch_model.rst:168
 msgid ""
 "**Fixed ID**:  The Fixed ID sets a unique code to ensure that the "
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
-msgstr ""
+msgstr "**固定 ID**:固定 ID 设置一个唯一的代码，以确保遥控器将对频到特定模型。这是 很有用的，以确保遥控器不会意外对频到错误的模型。"
 
 #: ../../source/ch_model.rst:170
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
-msgstr ""
+msgstr "**通道数**：设置传输的通道数量(最大通道数取决于所选择的协议)。"
 
 #: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "内置模板"
 
 #: ../../source/ch_model.rst:182
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
-msgstr ""
+msgstr "Deviation 固件支持用户自定义预定义模型模板。通过从模型设置页面选择文 件选择框内的“模板...”。"
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -207,10 +228,12 @@ msgid ""
 "a portion of it.  The currently supported templates will replace the mixer "
 "and trim definitions, but will not affect the display layout."
 msgstr ""
+"其他模板可通过 USB添加到“\\template”目录下。模板不能完全取代你的现 有模型, 而只是一部分. "
+"当前支持的模板会改变混控和微调定义，但不会影响显示布局。"
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "混控"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -226,13 +249,18 @@ msgid ""
 ":`predefined-model-templates`), but to learn to modify and configure a "
 "model, read through this entire section carefully."
 msgstr ""
+"“高级模式” GUI 包含 Deviation 固件的全部功能，但它不同于任何商业遥 控器的设置。Deviation "
+"还为喜欢它的人提供了更传统的设置界面(请参阅标准 菜单项)。使用高级菜单，每个输出通道由一系列一个或多个混控器组成，每个 "
+"混控器由单个输入，一个激活开关以及一个修改混控器输出的功能/曲线组成。 这是一个非常强大的功能，但它需要学习完全不同的方法来建立模型。为了帮助 "
+"快速设置，有几个预定义的配置可用(请参阅:ref:`predefined-model-templates`)，但要学习修改 "
+"和配置模型，请仔细阅读整个部分。"
 
 #: ../../source/ch_model.rst:205
 msgid ""
 "The Mixer page controls how inputs (sticks/switches) are assigned to output "
 "channels.  The mixer page is accessed from the main menu by selecting the "
 "model icon.."
-msgstr ""
+msgstr "混控页面控制如何把输入(摇杆/开关)分配给输出通道。混控页面从主菜 单进入。"
 
 #: ../../source/ch_model.rst:207
 msgid ""
@@ -240,10 +268,11 @@ msgid ""
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
 "channels that can be used as an intermediate step for complex setups."
 msgstr ""
+"可用的通道数量取决于模型设置( :ref:`model-setup`)部分中选择的通道数 量。此外，还有 10 个虚拟通道可用作复杂设置的中间步骤。"
 
 #: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
-msgstr ""
+msgstr "通道重新排序"
 
 #: ../../source/ch_model.rst:215
 msgid ""
@@ -252,10 +281,11 @@ msgid ""
 " are the initial channel assignments.  Whenever the page is loaded, the "
 "channels will be sequentially ordered representing the current state."
 msgstr ""
+"通道重新排序页面允许在通道之间移动混控器定义以及复制频道配置。 请注意， 显示的值是初始通道分配。 无论何时加载页面，通道将按顺序排列，表示当前 状态。"
 
 #: ../../source/ch_model.rst:220
 msgid "Channel configuration"
-msgstr ""
+msgstr "通道设置"
 
 #: ../../source/ch_model.rst:227
 msgid ""
@@ -265,36 +295,38 @@ msgid ""
 "trim, and a safety switch (which could be used to ensure that a motor cannot"
 " spin-up while working on a model)"
 msgstr ""
+"通道设置提供了设置最终的通道输出的功能。例如可以在这里设置通道反向 和失控保护安全值。此外，还包括设置舵量，比例，微调，以及一个安全开关 "
+"(其可以用来确保模型开始工作时电机不会自己旋转)。"
 
 #: ../../source/ch_model.rst:229
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
-msgstr ""
+msgstr "该页面更改通道输出将立即生效。按“取消”将把值恢复到上次保存 的状态。"
 
 #: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
-msgstr ""
+msgstr "**反向**:反转舵机旋转方向"
 
 #: ../../source/ch_model.rst:233
 msgid ""
 "**Fail-safe**:  Specifies a value that the receiver should use when it loses"
 " signal from the transmitter. The range is between -125 and +125 or None. "
 "Not all receivers support this capability."
-msgstr ""
+msgstr "**失控保护**：设置遥控器失去信号时接收器应使用的值。它的范围是-125 和 125之间或者关闭。并非所有的接收器支持此功能。"
 
 #: ../../source/ch_model.rst:235
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
-msgstr ""
+msgstr "**熄火开关**:设置一个开关，当打开时将覆盖所有混控，使通道强制输出“熄火值”。"
 
 #: ../../source/ch_model.rst:237
 msgid ""
 "**Safe Val**: If a safety switch is chosen the Safe Val can also be "
 "specified. The acceptable range of Safe Val is any value between -150 and "
 "150."
-msgstr ""
+msgstr "**熄火值**：如果设置了了熄火开关，熄火值才可以设定。熄火值的可调范围是-150到 150 之间的任意值。"
 
 #: ../../source/ch_model.rst:239
 msgid ""
@@ -305,6 +337,8 @@ msgid ""
 "Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is "
 "-250 to 0 for Min Limit and 0 to 250 for Max Limit."
 msgstr ""
+"**最小舵量/最大舵量**：这些值定义遥控器发送到接收器的最小值和最大值(在所 有比例，微调和混控后应用)。如果最终的值在最小/最大范围之外，它将被设置"
+" 为最小或最大值。默认值最小舵量是-150，最大舵量是+150。最小舵量的设置范 围是-250 到 0，最大舵量的范围是 0 到 250。"
 
 #: ../../source/ch_model.rst:241
 msgid ""
@@ -313,13 +347,13 @@ msgid ""
 "Scale- will be changed in the same way. If Scale- has been set to a "
 "different value than Scale+ both data will act separately until you set them"
 " to the same value again."
-msgstr ""
+msgstr "**比例-/比例+**：这些值定义了通道的行程。允许的范围是 1 和 250 之间。"
 
 #: ../../source/ch_model.rst:243
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
-msgstr ""
+msgstr "**微调**：调整舵机中位。可用范围从-50.0 到+50.0，以 0.1 为增量。"
 
 #: ../../source/ch_model.rst:245
 msgid ""
@@ -327,6 +361,8 @@ msgid ""
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
 "degrees per 100msec (assuming a min/max throw of 120degrees)."
 msgstr ""
+"**舵机速率**：调整最大的舵机速度，设置为 0 时被禁用(最快速度)，范围在 1(最慢)- 250(最快)之间，舵机速度定义为 100 "
+"毫秒每度(假设舵机为 120 度)。"
 
 #: ../../source/ch_model.rst:247
 msgid ""
@@ -335,21 +371,23 @@ msgid ""
 "~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A "
 "value of 30 should be approx twice as slow as a typical servo."
 msgstr ""
+"例如:60 的值 将给出每 100 毫秒 60 度的速度，这相当于从中位到最大需要 100 毫秒。大多 数舵机额定速度为 60 度/ 100 "
+"毫秒，这样的话，设置速度> 60 将对大多数舵 机没有任何影响。设置值为 30 应大约比普通舵机慢一半。"
 
 #: ../../source/ch_model.rst:250
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "虚拟通道设置"
 
 #: ../../source/ch_model.rst:255
 msgid ""
 "If you press ENT on a virtual channel a keyboard screen is shown where you "
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
-msgstr ""
+msgstr "如果在虚拟通道按 ENT键会显示键盘屏幕，你可以编辑默认名称。你可以 使用 L/R/UP/DN键移动光标，然后按“ENT”键进行选择。"
 
 #: ../../source/ch_model.rst:261
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "一段式混控"
 
 #: ../../source/ch_model.rst:268
 msgid ""
@@ -359,18 +397,20 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"一段式混控类型是设置通道最简单的方式。它允许定义一个主输入端(摇 杆，开关，或其它通道)，以及应用曲线或函数来输入。结果也可以缩放或具有 "
+"备用的零偏移量。 您不能使用切换键或开关来激活或取消激活此设置"
 
 #: ../../source/ch_model.rst:274 ../../source/ch_model.rst:299
 #: ../../source/ch_model.rst:325
 msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
-msgstr ""
+msgstr "长按“ENT”将更新当前的混控设置，以便在遥控器上进行测试。"
 
 #: ../../source/ch_model.rst:276 ../../source/ch_model.rst:301
 #: ../../source/ch_model.rst:346
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "**输入**:混控输入源。"
 
 #: ../../source/ch_model.rst:278 ../../source/ch_model.rst:303
 #: ../../source/ch_model.rst:348
@@ -379,21 +419,22 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"**曲线**: 该函数应用于输入以生成输出。 有关更多信息，请参见可用曲线部分。 根据曲线类型，按下曲线可能会显示曲线编辑器(请参阅曲线编辑)。"
 
 #: ../../source/ch_model.rst:280 ../../source/ch_model.rst:307
 #: ../../source/ch_model.rst:350
 msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
-msgstr ""
+msgstr "**比例**:在曲线之后应用的乘法标量，用于控制输出范围。"
 
 #: ../../source/ch_model.rst:282
 msgid "**Offset**: An additive offset that is applied after the scaling."
-msgstr ""
+msgstr "**偏移**:在比例修改之后添加的附加偏移。"
 
 #: ../../source/ch_model.rst:285
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "三段式混控"
 
 #: ../../source/ch_model.rst:297
 msgid ""
@@ -404,15 +445,17 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"为开关 1 或者开关 2 设置一个值，当开关在相应挡位时激活相应部分。每个 部分可以设置一个 “关联”曲线(曲线和“普通飞行”曲线是一样的)，在这种 "
+"情况下，仅比例可以被修改，或者可以具有独立的曲线定义。通过开关的“中 位”或“低位”控制关联和独立曲线之间切换。"
 
 #: ../../source/ch_model.rst:305
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
-msgstr ""
+msgstr "开关 1 or 开关 2: 指定一个开关用来启用设置。"
 
 #: ../../source/ch_model.rst:310
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "多段式混控"
 
 #: ../../source/ch_model.rst:317
 msgid ""
@@ -423,154 +466,164 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"多段式混控类型拥有混控系统的全部功能。对于给定的通道，可以使用任意\n"
+"数量的混控器来影响最终效果。根据指定的开关是否启用来控制每个混控器，并\n"
+"且可以替换，添加或乘以该通道之前的混控器。使用该系统应该可以将输出通道\n"
+"定义为任意数量输入的组合。"
 
 #: ../../source/ch_model.rst:327
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "多段式混控页面有如下选择:"
 
 #: ../../source/ch_model.rst:329
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
-msgstr ""
+msgstr "**混控**:指定当前通道的混控器数量。如果增加数量，则在最后一个现有页面之后添加新的混控器。"
 
 #: ../../source/ch_model.rst:331
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
-msgstr ""
+msgstr "**页面**:指定需要编辑的混控器页面。按下ENT键可以进入到排序页面。"
 
 #: ../../source/ch_model.rst:333
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
-msgstr ""
+msgstr "**开关**：指定一个开关来启用或者关闭混控。"
 
 #: ../../source/ch_model.rst:335
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
-msgstr ""
+msgstr "**作用**:定义当前的混控器如何应用于此通道先前定义的混控器。选项包括:"
 
 #: ../../source/ch_model.rst:337
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
-msgstr ""
+msgstr "**替换**:如果启用这个混控器，所有之前的混控都会被忽略。"
 
 #: ../../source/ch_model.rst:338
 msgid "**Add**: Add the value of this mixer to the previous mixers."
-msgstr ""
+msgstr "**附加**:将此混控器的值添加到之前的混控器。"
 
 #: ../../source/ch_model.rst:339
 msgid ""
 "**Mult**: Multiply the value of this mixer with the previous mixers. Note "
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
-msgstr ""
+msgstr "**叠加**:将该混控器的值与之前的混控器的值相乘。请注意，这些值是百分比，所以乘以 50 实际上是乘以 0.5。"
 
 #: ../../source/ch_model.rst:342
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
-msgstr ""
+msgstr "**最大**:输出当前混控器和之前混控器比较最大的一个值。"
 
 #: ../../source/ch_model.rst:343
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
-msgstr ""
+msgstr "**最小**:输出当前混控器和之前混控器比较最小的一个值。"
 
 #: ../../source/ch_model.rst:344
 msgid ""
 "**Delay**: Delay the output of this mixer when used with a fixed curve. "
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
-msgstr ""
+msgstr "**延时**:当与固定曲线一起使用时，延迟该混控器的输出。100的缩放表 示 5 秒延迟。 可以通过使用比例或偏移来改变。"
 
 #: ../../source/ch_model.rst:352
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
-msgstr ""
+msgstr "注意，尽管比例值限制为 100%，如果设置补偿或者微调值是非零的偏移量，"
 
 #: ../../source/ch_model.rst:354
 msgid "**Offset**: an additive offset that is applied after the scaling."
-msgstr ""
+msgstr "**偏移**:在比例修改之后添加的附加偏移。"
 
 #: ../../source/ch_model.rst:356
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
-msgstr ""
+msgstr "**微调**:微调选择的输入源应用到当前混控器。"
 
 #: ../../source/ch_model.rst:358
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "混控器可以具有如下形式:"
 
 #: ../../source/ch_model.rst:361
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
-msgstr ""
+msgstr "输出(x) =如果(*开关*) {*输入* * *曲线* * *比例*+*偏移*} 否则{0} + *微调*"
 
 #: ../../source/ch_model.rst:363
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
-msgstr ""
+msgstr "给定输出通道的混控器组合由作用类型定义:"
 
 #: ../../source/ch_model.rst:365
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "对于“替换”作用:"
 
 #: ../../source/ch_model.rst:367
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
-msgstr ""
+msgstr "Cx = 如果(开关 n) {Mn} 否则如果 (开关 n-1) {Mn-1} ...否则如果 (开关 0) {M0}"
 
 #: ../../source/ch_model.rst:369
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "对于“叠加”作用:"
 
 #: ../../source/ch_model.rst:371
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx =如果(开关n) {Mn}否则{1} * if (开关n-1) {Mn-1}否则{1} * ... *如果(开关 0) {M0} 否则 {1}"
 
 #: ../../source/ch_model.rst:373
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "对于“附加”作用:"
 
 #: ../../source/ch_model.rst:375
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx =如果(开关n) {Mn}否则{0} +如果(开关n-1) {Mn-1}否则{0} + ... +如果(开关0) {M0} 否则 {0}"
 
 #: ../../source/ch_model.rst:377
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "对于“最大”作用"
 
 #: ../../source/ch_model.rst:379
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = 最大(如果 (开关 n) {Mn} 否则 {0},如果 (开关 n-1) {Mn-1}否则 {0}, ...,如果 (开关 0) {M0} "
+"否则 {0})"
 
 #: ../../source/ch_model.rst:381
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "对于“最小”作用:"
 
 #: ../../source/ch_model.rst:383
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = 最小(如果(开关 n) {Mn} 否则 {0}, 如果 (开关 n-1) {Mn-1}否则{0}, ...,如果 (开关 0) {M0} 否则"
+" {0})"
 
 #: ../../source/ch_model.rst:386
 msgid "Cyclic"
-msgstr ""
+msgstr "CCPM"
 
 #: ../../source/ch_model.rst:392
 msgid ""
@@ -578,10 +631,12 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"**CCPM1，CCPM2，CCPM3**:直升机十字盘混控的 3 个输出。这些将代表 3个舵机连接到直升机十字盘上(见:ref:`swash-"
+"configuration`)。"
 
 #: ../../source/ch_model.rst:395
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "混控重新排序"
 
 #: ../../source/ch_model.rst:403
 msgid ""
@@ -590,6 +645,8 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"选择相应的混控，并使用上/下按钮来移动所选择的混控的顺序。需要注意 的是混控名称代表的是打开重新排序对话框时它的位置。如果对话框关闭并重新 "
+"打开，所有混控将被示为按顺序编号。"
 
 #: ../../source/ch_model.rst:405
 msgid ""
@@ -597,81 +654,83 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"重新排序页面可以添加新的混控或删除现有的，分别使用“+”和“-”按 钮操作。混控也可以通过使用“复制到”功能复制到现有的混控(在这个过程 "
+"中将会覆盖它)。"
 
 #: ../../source/ch_model.rst:410
 msgid "Available Curves"
-msgstr ""
+msgstr "可用曲线"
 
 #: ../../source/ch_model.rst:412
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "支持以下曲线功能:"
 
 #: ../../source/ch_model.rst:414
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "45度曲线:输出等于输入(不可编辑)。"
 
 #: ../../source/ch_model.rst:415
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
-msgstr ""
+msgstr "固定:无论输入如何，输出都是常量 (偏移量可编辑)。"
 
 #: ../../source/ch_model.rst:416
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
-msgstr ""
+msgstr "最低/最高:如果输入小于指定值，则输出为-100，否则为100。"
 
 #: ../../source/ch_model.rst:417
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
-msgstr ""
+msgstr "零/最大:如果输入小于指定值，则输出为0，否则为100。"
 
 #: ../../source/ch_model.rst:418
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
-msgstr ""
+msgstr ">0:输出大于指定值时匹配输入，否则为0。"
 
 #: ../../source/ch_model.rst:419
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
-msgstr ""
+msgstr "<0:输出在小于指定值时匹配输入，否则为0。"
 
 #: ../../source/ch_model.rst:420
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
-msgstr ""
+msgstr "绝对值:输出是输入的绝对值(编辑指定的值将改变绝对值的应用方式)"
 
 #: ../../source/ch_model.rst:421
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
-msgstr ""
+msgstr "指数曲线:将输入的指数曲线应用于非线性响应(可编辑参见:ref:`curve-editing`)。"
 
 #: ../../source/ch_model.rst:422
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
-msgstr ""
+msgstr "死区:输出将不会响应接近零的输入值(可编辑参见:ref:`curve-editing`)。"
 
 #: ../../source/ch_model.rst:423
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
-msgstr ""
+msgstr "多点曲线:曲线是基于 3，5，7，9，11 或 13 个用户定义的点（可编辑参见:ref:`curve-editing`)。"
 
 #: ../../source/ch_model.rst:426
 msgid ""
 "The default value for any of the offsets in above mentioned curves is 0 "
 "(zero). If you change the curve for one input the offset will be transferred"
 " to the new curve if possible."
-msgstr ""
+msgstr "任何上述曲线中的偏移默认值为 0(零)。如果你改变了曲线的一个输入，偏移可能被转移到新的曲线。"
 
 #: ../../source/ch_model.rst:431
 msgid "Curve Editing"
-msgstr ""
+msgstr "曲线编辑"
 
 #: ../../source/ch_model.rst:433
 msgid ""
@@ -679,6 +738,8 @@ msgid ""
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
 "box will not be selectable if one of these curves is currently active."
 msgstr ""
+"可以选中需要编辑的曲线并且按ENT键来打开曲线编辑页面。 45度曲线和 固定曲线类型可能不会被编辑，如果其中一条曲线当前处于启用状态，曲线编辑 "
+"页面则不可选。"
 
 #: ../../source/ch_model.rst:435
 msgid ""
@@ -687,6 +748,8 @@ msgid ""
 "may not be edited, and the curve-box will not be selectable if one of these "
 "curves is currently active."
 msgstr ""
+"可以选中需要编辑的曲线并且按ENT键，或者直接点击图形来打开曲线编辑页面。 45度曲线和 "
+"固定曲线类型可能不会被编辑，如果其中一条曲线当前处于启用状态，曲线编辑 页面则不可选。"
 
 #: ../../source/ch_model.rst:437
 msgid ""
@@ -694,7 +757,7 @@ msgid ""
 "selected.  It is not possible to change the curve type from the curve editor"
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
-msgstr ""
+msgstr "曲线编辑器页面将根据选择的曲线而有所不同。 无法从曲线编辑器中更改 曲线类型(除非选择了多点曲线)。值可以通过使用按钮或者点击图形来改变。"
 
 #: ../../source/ch_model.rst:442
 msgid ""
@@ -703,18 +766,19 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"对于最低/最高，零/最大，> 0，< 0，和绝对值，控件允许沿 X 轴设置转换点。值“0”将围绕 y 轴对称，正值或负值将相应地移动中立点。"
 
 #: ../../source/ch_model.rst:447
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
-msgstr ""
+msgstr "对于指数曲线, 控件允许独立配置曲线的形状以获得大于或小于零的值。"
 
 #: ../../source/ch_model.rst:452
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
-msgstr ""
+msgstr "对于死区曲线, 控制器允许独立配置死区宽度的值大于或小于零。"
 
 #: ../../source/ch_model.rst:457
 msgid ""
@@ -724,29 +788,31 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"对于多点曲线, 每个点可以单独设置。点通过选择点号然后选择一个 值来设置。允许的最小点数是 3，最大点数是 13。启用“Smooth” 将应 "
+"用平滑功能，而不是通过直线连接点。"
 
 #: ../../source/ch_model.rst:462
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "定时器"
 
 #: ../../source/ch_model.rst:476
 msgid ""
 "The timer page defines up to 4 available timers.  Timers can count either up"
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
-msgstr ""
+msgstr "定时器页面可以定义多达 4 个可用的定时器。定时器可以计时或倒计时， 可以从主屏幕手动启用或通过输入触发器(摇杆或者开关)启用。"
 
 #: ../../source/ch_model.rst:479
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
-msgstr ""
+msgstr "可用的计时器有秒表，倒计时，比例秒表，比例倒计时和持续计时。"
 
 #: ../../source/ch_model.rst:482
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
-msgstr ""
+msgstr "定时器也可以选择配置为通过备用开关重置(仅在使用高级菜单时)。"
 
 #: ../../source/ch_model.rst:485
 msgid ""
@@ -754,6 +820,8 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"两个比列定时器都需要一个介于 0 和 100 之间的输入才能正常工作。如果 使用这些定时器作油门虚拟混控必须使用输入-100 至 100 的值转换成 0"
+" 到100。"
 
 #: ../../source/ch_model.rst:490
 msgid ""
@@ -762,29 +830,31 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"持续计时器类似于里程表，并且它们的值保存在 model.ini "
+"文件里。在开启遥控器时，他们将保持以前的值。您可以使用“设置为”按钮来设置计时器，并通过按“重置”按钮进行重置。"
 
 #: ../../source/ch_model.rst:496
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "双向回传设置"
 
 #: ../../source/ch_model.rst:504
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
-msgstr ""
+msgstr "双向回传设置页面允许在特定的回传事件发生时指定报警。"
 
 #: ../../source/ch_model.rst:506
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
-msgstr ""
+msgstr "双向回传设置:指定用于报警控制的回传输入。可用的值取决于通信协议。"
 
 #: ../../source/ch_model.rst:508
 msgid ""
 "**Equality**: Can be '>' or '<=' indicating whether a value above or below "
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
 " once."
-msgstr ""
+msgstr "**比较**:可以是“>”或“<=”设置目标之上或之下的值是否导致报警。按 下 ENT 键将播放一次报警声。"
 
 #: ../../source/ch_model.rst:509
 msgid ""
@@ -792,11 +862,11 @@ msgid ""
 "button you can cycle through a time delay (between 0 and 9 seconds) for "
 "which the target value has to be continuously reached before triggering the "
 "alarm."
-msgstr ""
+msgstr "**目标**:报警的目标值。另外，按下ENT键你可以设置一个时间延迟(0-9秒 之间)，在触发报警之前必须持续达到目标值。"
 
 #: ../../source/ch_model.rst:514
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr ""
+msgstr "微调和虚拟输入"
 
 #: ../../source/ch_model.rst:521
 msgid ""
@@ -805,6 +875,7 @@ msgid ""
 "switch`). It is accessed from the main menu via 'Model menu' followed by "
 "'Trims'."
 msgstr ""
+"微调页面允许指定微调输入和微调幅度，以及配置按钮以用作虚拟输入。 (见使用微调作一个虚拟开关)。它通过主菜单的“模型设置”里的“微调”访 问。"
 
 #: ../../source/ch_model.rst:523
 msgid ""
@@ -815,13 +886,15 @@ msgid ""
 " and ‘Trim -’ buttons can operate as a virtual stick to control an output "
 "channel."
 msgstr ""
+"如果“输入”被设置为输入摇杆，然后微调可以用作混控的一部分，并且作 为一个典型的微调操作。如果“输入”被设置为通道或虚拟通道输出，则该值直 "
+"接应用于通道输出。在这种情况下，所选择的“微调+”和“微调 -”按钮可以 作为虚拟摇杆以控制输出通道。"
 
 #: ../../source/ch_model.rst:536
 msgid ""
 "The trim-step defines how sensitive the trims are to input.  The maximum "
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
-msgstr ""
+msgstr "微调幅度定义了微调输入的灵敏度。微调幅度最大数是+/- 100。步长为 0.1时，伺服系统可以进行完整的+/-10%的调整。"
 
 #: ../../source/ch_model.rst:538
 msgid ""
@@ -831,15 +904,17 @@ msgid ""
 "added to the trim, then it will have different trim values in each switch "
 "position."
 msgstr ""
+"微调幅度可以在主屏幕上修改。如果你还必须更改来源，需要通过按下相应的输 入按钮来访问对话框。 在这里你也可以添加一个开关到微调。 如果开关被添加 "
+"到微调，那么它将在每个开关位置具有不同的微调值。"
 
 #: ../../source/ch_model.rst:543
 msgid "Datalog (Std & Adv GUI)"
-msgstr ""
+msgstr "数据记录 Datalog"
 
 #: ../../source/ch_model.rst:547 ../../source/ch_model.rst:613
 #: ../../source/ch_model.rst:633
 msgid "Note: This feature is not available for Devo7e."
-msgstr ""
+msgstr "注意：Devo7e不支持此功能。"
 
 #: ../../source/ch_model.rst:550
 msgid ""
@@ -849,28 +924,30 @@ msgid ""
 " time. Logs are persistent and Deviation will continue writing to the end of"
 " the previous log by default."
 msgstr ""
+"数据记录功能可存储历史的输入或输出位置，以及一段时间内的回传信息。 这可以用于检查和重现飞行，以及在之后输出可视化回传信息。日志是持续记录 "
+"的，Deviation 默认情况下会继续写入到以前的日志的结尾。"
 
 #: ../../source/ch_model.rst:557
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
-msgstr ""
+msgstr "#bytes left:表示内存满之前有多少字节日志可以写入。"
 
 #: ../../source/ch_model.rst:558
 msgid "**Enable**: Input which enables logging."
-msgstr ""
+msgstr "Enable:启用日志记录"
 
 #: ../../source/ch_model.rst:559
 msgid "**Reset**: Clear the current log."
-msgstr ""
+msgstr "重置:重置并清空当前记录。"
 
 #: ../../source/ch_model.rst:560
 msgid "**Rate**: How often to write current info to the log file."
-msgstr ""
+msgstr "Rate:多久写入一次信息到日志文件。"
 
 #: ../../source/ch_model.rst:561
 msgid "**Select**: Quickly set or reset which items are logged."
-msgstr ""
+msgstr "Select:快速设置或重置记录数值。"
 
 #: ../../source/ch_model.rst:562
 msgid ""
@@ -878,6 +955,8 @@ msgid ""
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
+"Controls:“Select”是可以被记录的所有控件的列表。它们包括定时器，输 入，输出，和虚拟通道，和双向回传。项目记录越多，日志填满的速度越 "
+"快。"
 
 #: ../../source/ch_model.rst:564
 msgid ""
@@ -887,6 +966,8 @@ msgid ""
 "increase the size of this file, so its size indicates the maximum data that "
 "can be stored."
 msgstr ""
+"记录的更多信息默认状态下，日志仅可以占用 16kB空间的数据。可以通过更改 来增加要存储的数据量，需要通过遥控器上的 "
+"datalog.bin文件设置。Deviation不能增加该文件的大小，所以它的大小表示可以存储的最大数据。"
 
 #: ../../source/ch_model.rst:567
 msgid ""
@@ -895,27 +976,31 @@ msgid ""
 "within the transmitter. Please check the downloads section on "
 "www.deviationtx.com for conversion tools."
 msgstr ""
+"注:只有高级模式才有此功能。目前还没有提供给日志分析软件，并且它们不能 在遥控器内显示。请在 www.deviationtx.com "
+"的下载界面查找转换工具。"
 
 #: ../../source/ch_model.rst:572
 msgid "Main page config (Std & Adv GUI)"
-msgstr ""
+msgstr "主页面设置"
 
 #: ../../source/ch_model.rst:586
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
+"主页面设置页面是用来配置主页面显示的。此页面允许定义哪些元素显示在\n"
+"主页上。"
 
 #: ../../source/ch_model.rst:589
 msgid "The following types of objects can be displayed:"
-msgstr ""
+msgstr "下列为可显示的类型:"
 
 #: ../../source/ch_model.rst:592
 msgid ""
 "**Box**: Display a numeric value.  Values can be timers, channel values, "
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
-msgstr ""
+msgstr "Box:显示数值。值可以是定时器，通道数值，摇杆输入，等等。有两种类 型的 Box:大和小。唯一的区别是框的大小及其中的文本。"
 
 #: ../../source/ch_model.rst:593
 msgid ""
@@ -924,24 +1009,26 @@ msgid ""
 "types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal "
 "bar. After inserting all trims do have numbers only."
 msgstr ""
+"Trimbar:显示微调值。这些通常是通过微调开关控制，并且显示当前微调位 置是什么。有两种类型的微调。V-微调显示垂直微调，H-微调显示水平微 "
+"调。将所有微调加入后将只显示数字。"
 
 #: ../../source/ch_model.rst:594
 msgid "**Model (Icon)**: Display the icon related to the selected model."
-msgstr ""
+msgstr "Model(Icon):显示与所选择的模型的图标。"
 
 #: ../../source/ch_model.rst:595
 msgid "**Battery**: Display the battery voltage."
-msgstr ""
+msgstr "Battery:显示电池电压。"
 
 #: ../../source/ch_model.rst:596
 msgid "**TxPower**: Displays the actual transmitter rating."
-msgstr ""
+msgstr "TxPower:显示实际发射功率。"
 
 #: ../../source/ch_model.rst:597
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
-msgstr ""
+msgstr "Bargraph:显示一个条。条是通道输出的值。"
 
 #: ../../source/ch_model.rst:599
 msgid ""
@@ -950,16 +1037,18 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
+"Toggle:显示拨动开关状态的图标。开关位置的不同状态可以定义 1，2 或 3个图标，用来显示切换。两段开关最多可以有 2 个图标。三段开关最多可以有"
+" 3个图标。"
 
 #: ../../source/ch_model.rst:600
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
-msgstr ""
+msgstr "快捷菜单:快速菜单定义可通过长按 UP / DN 到达快速访问页面。"
 
 #: ../../source/ch_model.rst:605
 msgid "Configuring object position"
-msgstr ""
+msgstr "设置项目位置"
 
 #: ../../source/ch_model.rst:608
 msgid ""
@@ -969,6 +1058,8 @@ msgid ""
 "boxes which appear in move mode can also be used to move the selected "
 "object.  Press EXT once to exit move mode."
 msgstr ""
+"每一个可见的对象都可以点击来选择，或者使用 UP / DN 按钮来选择。当选中时，UP/DN / L+ / R- "
+"按钮将所选择的项目在屏幕上移动。同时X和Y的选择框也能用来移动对象。按 EXT 退出移动模式。"
 
 #: ../../source/ch_model.rst:618
 msgid ""
@@ -979,10 +1070,12 @@ msgid ""
 "selected object on the screen.  Press EXT once to exit move mode, and again "
 "to go back to the main page config menu."
 msgstr ""
+"长按 ENT 键从模型设置页切换到项目设置界面。每一个项目都可以使用 UP / DN 按钮来选择。再次按下 ENT 将允许移动选定项目的位置。UP/DN"
+" / L+ / R- 按钮将所选择的项目在屏幕上移动。按 EXT 退出移动模式，再次按将 回到主界面的配置菜单。"
 
 #: ../../source/ch_model.rst:622
 msgid "Creating Objects"
-msgstr ""
+msgstr "创建项目"
 
 #: ../../source/ch_model.rst:628
 msgid ""
@@ -991,6 +1084,7 @@ msgid ""
 "This will add the specified object type to the center of the screen.  You "
 "can now place and configure the new object."
 msgstr ""
+"点击'+'的图标来创建项目。这将把相关的对 象类型与类型“无”(如适用)添加到相关部分的菜单中。然后将光标移动到新 创建的项目，然后根据需要设置。"
 
 #: ../../source/ch_model.rst:635
 msgid ""
@@ -999,30 +1093,32 @@ msgid ""
 "relevant section in the menu with a type of ‘None’ (where applicable).  Then"
 " move the cursor to the newly created object and configure as desired."
 msgstr ""
+"从左选择框选择项目类型，然后按“ Add ”来创建项目。这将把相关的对 象类型与类型“无”(如适用)添加到相关部分的菜单中。然后将光标移动到新 "
+"创建的项目，然后根据需要设置。"
 
 #: ../../source/ch_model.rst:639
 msgid "Loading Objects"
-msgstr ""
+msgstr "读取对象"
 
 #: ../../source/ch_model.rst:646
 msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
 "alternate templates, to change the main page layout."
-msgstr ""
+msgstr "点击'+'的图标来创建项目。你可以“读取”备用模板，改变主页面布局。"
 
 #: ../../source/ch_model.rst:648
 msgid "You can 'Load' alternate templates, to change the main page layout."
-msgstr ""
+msgstr "你可以“读取”备用模板，改变主页面布局。"
 
 #: ../../source/ch_model.rst:650
 msgid ""
 "If you select 'Default' the layout will be set to the standard layout as "
 "shown in section :ref:`main-page`."
-msgstr ""
+msgstr "如果选择“Default”，主页将被设置为标准布局，见:ref:`main-page`.。"
 
 #: ../../source/ch_model.rst:652
 msgid "Selecting 'Empty' will clear all objects. You may start from scratch."
-msgstr ""
+msgstr "选择“Empty”将清除所有项目。你可以从头开始设置。"
 
 #: ../../source/ch_model.rst:654
 msgid ""
@@ -1032,66 +1128,68 @@ msgid ""
 "model. Templates based on existing models have an (M) designation within the"
 " file list."
 msgstr ""
+"如果你想使用其他模型中的布局，选择你希望使用的模型布局。项目位置 (参见:ref:`configuring-object-"
+"position`)被设置为你选择的现有模板或模型。根据模板设置的模 型，文件列表内有标识(M)。"
 
 #: ../../source/ch_model.rst:656
 msgid ""
 "Additionally these templates can be created in the emulator or downloaded "
 "from the forums or even done by manual edit of the modelxx.ini file."
-msgstr ""
+msgstr "此外，这些模板可以在仿真器中创建或从论坛下载或者甚至可以手工编辑modelxx.ini 文件进行设置。"
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring Objects"
-msgstr ""
+msgstr "设置项目"
 
 #: ../../source/ch_model.rst:661
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
-msgstr ""
+msgstr "Box:通过选择框选择计时器，双向回传，通道，或输入"
 
 #: ../../source/ch_model.rst:662
 msgid "**Trim**: Select trim channel from scroll-box"
-msgstr ""
+msgstr "Trimbar:通过选择框选择微调通道"
 
 #: ../../source/ch_model.rst:663
 msgid "**Model**: Not configurable"
-msgstr ""
+msgstr "Model:不能设置"
 
 #: ../../source/ch_model.rst:664
 msgid "**Battery**: Not configurable"
-msgstr ""
+msgstr "Battery:不能设置。"
 
 #: ../../source/ch_model.rst:665
 msgid "**TxPower**: Not configurable"
-msgstr ""
+msgstr "TxPower:不能设置。"
 
 #: ../../source/ch_model.rst:666
 msgid "**Bargraph**: Select channel from scroll box"
-msgstr ""
+msgstr "Bargraph:通过选择框选择一个通道"
 
 #: ../../source/ch_model.rst:667
 msgid ""
 "**Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’"
 " button to choose icon"
-msgstr ""
+msgstr "Toggle:通过选择框选择一个通道或输入，按下相关的“toggle”选择按钮"
 
 #: ../../source/ch_model.rst:668
 msgid "**Menu**: Choose page to display for each of 4 quick-page slots"
-msgstr ""
+msgstr "快捷菜单:选择四个快捷菜单的显示界面"
 
 #: ../../source/ch_model.rst:675
 msgid ""
 "You can delete any object by configuring the object and pressing the "
 "‘Delete’ button"
-msgstr ""
+msgstr "你可以删除除了快捷菜单外的任何项目，通过选择“删除”按钮。"
 
 #: ../../source/ch_model.rst:677
 msgid ""
 "You can delete any object but a Menu page by selecting the  ‘Delete’ option "
 "and pressing the 'ENT' button."
-msgstr ""
+msgstr "你可以删除除了快捷菜单外的任何项目，通过选择“删除”选项，然后按下 “ENT”按钮。"
 
 #: ../../source/ch_model.rst:682
 msgid "Choosing toggle icons"
-msgstr ""
+msgstr "选择 Toggle 图标"
 
 #: ../../source/ch_model.rst:687
 msgid ""
@@ -1101,10 +1199,12 @@ msgid ""
 " can be set to empty, defining that no icon is shown for this state.  The "
 "Deviation firmware comes with several predefined icons to choose from."
 msgstr ""
+"在一个 Toggle 项目上按下“Toggle”按钮可以选择相关的图标。通道，摇 杆，和两段开关可以有 2个图标。三段开关(如果有的话)可以有 "
+"3个图标。2(或 3)个图标的每一个都可以被设置为空，表示此状态没有图标。Deviation 固 件提供了几个预定义的图标选择。"
 
 #: ../../source/ch_model.rst:692
 msgid "Standard GUI Menu items"
-msgstr ""
+msgstr "标准模式"
 
 #: ../../source/ch_model.rst:699
 msgid ""
@@ -1113,62 +1213,64 @@ msgid ""
 ":`model-setup`.  The Standard GUI is only available for Helicopter-type "
 "models at this time.  The pages of the Standard GUI are as follows:"
 msgstr ""
+"标准模式 GUI 是高级模式 GUI 的替代。其在“混控 GUI”界面设定选择， 见:ref:`model-setup`。标准模式 GUI "
+"仅适用于直升机类型模型。标准模 式 GUI 的页面如下:"
 
 #: ../../source/ch_model.rst:706
 msgid "**Model Configuration**: :ref:`model-setup`"
-msgstr ""
+msgstr "**模型配置**: :ref:`model-setup`"
 
 #: ../../source/ch_model.rst:708
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
-msgstr ""
+msgstr "**微调设置**: :ref:`trims-and-virtual-inputs`"
 
 #: ../../source/ch_model.rst:710
 msgid "**Servo reverse**: :ref:`servo-reverse`"
-msgstr ""
+msgstr "**舵机反向**: :ref:`servo-reverse`"
 
 #: ../../source/ch_model.rst:712
 msgid "**Switch assignment**: :ref:`switch-assignment`"
-msgstr ""
+msgstr "**开关设置**: :ref:`switch-assignment`"
 
 #: ../../source/ch_model.rst:714
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
-msgstr ""
+msgstr "**舵机微调**: :ref:`sub-trim-adjustment`"
 
 #: ../../source/ch_model.rst:716
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
-msgstr ""
+msgstr "**油门设置**: :ref:`throttle-hold`"
 
 #: ../../source/ch_model.rst:718
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
-msgstr ""
+msgstr "**舵机行程**: :ref:`servo-travel-adjust`"
 
 #: ../../source/ch_model.rst:720
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
-msgstr ""
+msgstr "**失控设置**: :ref:`fail-safe-configuration`"
 
 #: ../../source/ch_model.rst:722
 msgid "**Swash Setup**: :ref:`swash-configuration`"
-msgstr ""
+msgstr "**十字盘设置**: :ref:`swash-configuration`"
 
 #: ../../source/ch_model.rst:724
 msgid "**Timer configuration**: :ref:`timers`"
-msgstr ""
+msgstr "**定时器**: :ref:`timers`"
 
 #: ../../source/ch_model.rst:726
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
-msgstr ""
+msgstr "**双曲率设置**: :ref:`dual-rate-expo-setting`"
 
 #: ../../source/ch_model.rst:728
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
-msgstr ""
+msgstr "**回传设置**: :ref:`telemetry-config`"
 
 #: ../../source/ch_model.rst:730
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
-msgstr ""
+msgstr "**油门曲线**: :ref:`throttle-curve`"
 
 #: ../../source/ch_model.rst:732
 msgid "**Datalog configuration**: :ref:`datalog`"
-msgstr ""
+msgstr "**数据记录**: :ref:`datalog`"
 
 #: ../../source/ch_model.rst:734
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
@@ -1253,7 +1355,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:765
 msgid "Servo Reverse"
-msgstr ""
+msgstr "反向"
 
 #: ../../source/ch_model.rst:770
 msgid ""
@@ -1262,10 +1364,12 @@ msgid ""
 "setting on the Channel Configuration sub-page of the Mixer menu when using "
 "the Advanced GUI (see section :ref:`channel-config`)"
 msgstr ""
+"舵机反向页面允许快速设定每个通道在正常或反向模式下工作。这些设置相当 于使用高级模式 GUI 时混控菜单的通道配置子页面上的“反向”设置(见:ref"
+":`channel-config`)"
 
 #: ../../source/ch_model.rst:775
 msgid "Dual-Rate/Expo setting"
-msgstr ""
+msgstr "舵量/曲线"
 
 #: ../../source/ch_model.rst:780
 msgid ""
@@ -1275,10 +1379,12 @@ msgid ""
 " each.  The number of settings depends on the switch assigned to the dual-"
 "rates function on the Switch Assignment page (see :ref:`switch-assignment`)"
 msgstr ""
+"舵量/曲线页面是副翼，方向舵和升降舵通道曲线的配置。每个通道可以分 为三段，以及每个可以选择一个线性放大或指数曲线。设置的数值取决于开关分 "
+"配页面上的双速率功能开关(见开关分配)"
 
 #: ../../source/ch_model.rst:785
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "微调"
 
 #: ../../source/ch_model.rst:790
 msgid ""
@@ -1288,10 +1394,12 @@ msgid ""
 ":ref:`channel-config`). Acceptable values range from -50 to +50 in 0.1 "
 "increments."
 msgstr ""
+"微调页面允许设置舵机针对每个通道的零点。这相当于高级模式 GUI 混控菜 单的通道设置子页面上的“微调”设置(见通道设置)。可接受值的范围从-50 "
+"到+50，增量为 0.1。"
 
 #: ../../source/ch_model.rst:795
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "舵机行程"
 
 #: ../../source/ch_model.rst:800
 msgid ""
@@ -1302,10 +1410,12 @@ msgid ""
 "from -175 to -1 and Up values range from +1 to +175. The default values are "
 "-100 and +100 respectively."
 msgstr ""
+"舵机行程调整页面设置每个舵机的最大正/负行程。这相当于高级模式 GUI混控菜单的通道设置子页面上的“比例+”“比例-”设置(见通道设置)。可接受 "
+"的“比例-”值从-175 到-1，“比例+”值的范围从+1 到+175。默认值分别为-100至+100。"
 
 #: ../../source/ch_model.rst:805
 msgid "Swash Configuration"
-msgstr ""
+msgstr "十字盘设置"
 
 #: ../../source/ch_model.rst:807
 msgid ""
@@ -1314,30 +1424,32 @@ msgid ""
 " on this page are equivalent to those on the model configuration page (see "
 ":ref:`model-setup`), and configuration for both pages is provided below."
 msgstr ""
+"在十字盘设置页面设置十字盘类型。关于十字盘类型的更多信息可以在 :ref:`swash-"
+"mixing`中找到。此页面上的设置等同于模型设置页(请参阅:ref:`model-setup`)，下面提供两个设置页面。"
 
 #: ../../source/ch_model.rst:816
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "可用的十字盘模式有:"
 
 #: ../../source/ch_model.rst:818
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
-msgstr ""
+msgstr "**无/ 单舵机**：用于 FBL。混控在接收器工作。"
 
 #: ../../source/ch_model.rst:819
 msgid "**120/3Servo 120**: 120-degree swash"
-msgstr ""
+msgstr "**120 / 3 舵机 120**：120 度十字盘"
 
 #: ../../source/ch_model.rst:820
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
-msgstr ""
+msgstr "**120X / 3 舵机 120X**：120 度十字盘(交替配置)"
 
 #: ../../source/ch_model.rst:821
 msgid "**140/3Servo 140**: 140 degree swash"
-msgstr ""
+msgstr "**140 / 3 舵机 140**：140 度十字盘"
 
 #: ../../source/ch_model.rst:822
 msgid "**90/3Servo 90**: 90 degrees swash"
-msgstr ""
+msgstr "**90/3 舵机 90**：90 度十字盘"
 
 #: ../../source/ch_model.rst:824
 msgid ""
@@ -1347,10 +1459,12 @@ msgid ""
 " with a default of 60. Note that setting these values too large can result "
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
+"升降螺距，副翼螺距，和 PIT Mix 是混控完成之前，添加到输入摇杆的比例 因素。这些可以被用于调整不同的连结长度或不同的舵机摆动。允许的范围为 - "
+"100 至 100，默认 60。注意，这些值设置过大可能会导致过多的舵机摆动，使摇杆控制模型反应迟钝。"
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
-msgstr ""
+msgstr "油门曲线"
 
 #: ../../source/ch_model.rst:835
 msgid ""
@@ -1359,10 +1473,12 @@ msgid ""
 "Each point value can be enabled to be interpolated from the points "
 "surrounding it."
 msgstr ""
+"油门曲线页面允许油门通道设置一个分段线性曲线。每个飞行模式可以选择\n"
+"不同的曲线。每个点的值可以用周围的点插入。"
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
-msgstr ""
+msgstr "螺距曲线"
 
 #: ../../source/ch_model.rst:845
 msgid ""
@@ -1370,47 +1486,47 @@ msgid ""
 "collective/pitch channel.  Different curves can be selected for each flight-"
 "mode as well as for throttle-hold.  Each point value can be enabled to be "
 "interpolated from the points surrounding it."
-msgstr ""
+msgstr "螺距曲线允许俯仰通道设置一个分段线性曲线。不同的曲线可以被选择不同的飞行模式以及用于油门熄火。每个点的值可以用周围的点插入。"
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "锁尾感度"
 
 #: ../../source/ch_model.rst:855
 msgid ""
 "The gyro-sensitivity page enables configuring up-to 3 sensitivity values for"
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
-msgstr ""
+msgstr "锁尾感度页面设置 3 个陀螺仪的灵敏度值以及哪个通道用于发送陀螺仪值。 可接受值的数值范围从 0 到 100%。"
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
-msgstr ""
+msgstr "开关分配"
 
 #: ../../source/ch_model.rst:865
 msgid ""
 "The switch assignment page enables configuring which switches to use for "
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
-msgstr ""
+msgstr "开关分配页面设置开关切换标准模式 GUI的每个功能。相同的开关可以分配 多种功能。"
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
-msgstr ""
+msgstr "油门熄火"
 
 #: ../../source/ch_model.rst:875
 msgid ""
 "The throttle-hold page is used to enable/disable the throttle-hold "
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
-msgstr ""
+msgstr "油门熄火页用来启用/禁用油门熄火功能。当油门熄火开关设置时，指定 “油门熄火值”。油门熄火值可以从-200到 200。"
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "失控保护"
 
 #: ../../source/ch_model.rst:885
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
-msgstr ""
+msgstr "失控保护页面用于设置每个通道的失控保护值(如果当前协议支持此功能)"

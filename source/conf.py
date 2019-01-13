@@ -227,6 +227,7 @@ else:
 
 toctree_only = True
 
+# latex_engine = 'xelatex'
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',

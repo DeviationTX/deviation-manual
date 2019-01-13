@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 01:58+0000\n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_emulator.rst:4
 msgid "Emulator"
-msgstr ""
+msgstr "仿真器"
 
 #: ../../source/ch_emulator.rst:5
 msgid ""
@@ -29,17 +33,20 @@ msgid ""
 "virtual-stick/switch states as well as the Channel output that would be "
 "received by the servos."
 msgstr ""
+"仿真器提供了一种方法来测试你的电脑上没有上传到遥控器的 Deviation 固 件。它提供了一个和遥控器相同的虚拟的显示屏，还有一个侧屏显示由键盘虚拟 "
+"的摇杆/开关的状态以及信道输出。"
 
 #: ../../source/ch_emulator.rst:7
 msgid ""
 "Download and unzip the deviation-emu_devoXX-vx.y.z.zip emulator package "
 "from:"
-msgstr ""
+msgstr "从这里下载并解压缩deviation-emu_devoXX-vx.y.z.zip："
 
 #: ../../source/ch_emulator.rst:9
 msgid ""
 "http://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 msgstr ""
+"http://www.deviationtx.com/downloads-new/category/1-deviation-releases/"
 
 #: ../../source/ch_emulator.rst:11
 msgid ""
@@ -47,23 +54,25 @@ msgid ""
 "deviation version number. Normally you should use the latest one. To start "
 "the emulator just run the exe file in the sub-directory."
 msgstr ""
+"其中 XX 是你的 Devention 遥控器型号。XYZ 是 Deviation 版本号。通常情况下， "
+"你应该使用最新的版本。要启动模拟器只需要运行文件夹中的 exe 文件。"
 
 #: ../../source/ch_emulator.rst:26
 msgid ""
 "The emulator controls are as follows (based an an English QWERTY keyboard):"
-msgstr ""
+msgstr "仿真器控制如下(以英文 QWERTY 键盘为准):"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Keyboard"
-msgstr ""
+msgstr "键盘"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Function"
-msgstr ""
+msgstr "功能"
 
 #: ../../source/ch_emulator.rst:31
 msgid "Transmitter"
-msgstr ""
+msgstr "遥控器"
 
 #: ../../source/ch_emulator.rst:33 ../../source/ch_emulator.rst:34
 msgid "\\"

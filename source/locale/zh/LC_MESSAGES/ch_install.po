@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Deviation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Howard Su <howard0su@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 01:58+0000\n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2018\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +23,21 @@ msgstr ""
 
 #: ../../source/ch_install.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: ../../source/ch_install.rst:4
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
-msgstr ""
+msgstr "Windows™用户可以在两种方法之间进行选择，安装 Deviation 固件。"
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
-msgstr ""
+msgstr "使用 Deviation 上传工具（Deviation Uploader）。"
 
 #: ../../source/ch_install.rst:7
 msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
-msgstr ""
+msgstr "使用 Walkera DfuSe USB Upgrade tool (仅限 Windows™用户) "
 
 #: ../../source/ch_install.rst:9
 msgid ""
@@ -47,12 +51,15 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
+"如果您没有 Windows™操作系统，选择第一种方法 \"Deviation Uploader tool\"。 这是一个由 Deviation "
+"开发人员团队设计的 Java 应用程序，高效并简单，可适用 于任何遥控器和任何版本的 Deviation .工具升级需要两步，首先安装固件，然后 "
+"是文件库。Deviation 上传工具只需要一步就可以完成同样的事情, 使用 ZIP 压缩 Deviation 固件文件作为源。"
 
 #: ../../source/ch_install.rst:11
 msgid ""
 "If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
 "Uploader."
-msgstr ""
+msgstr "DevoF7或者DevoF12E，必须使用Deviation 上传工具。"
 
 #: ../../source/ch_install.rst:14
 msgid ""
@@ -62,10 +69,12 @@ msgid ""
 "following that include notes specific to upgrading from or to various "
 "versions and build types."
 msgstr ""
+"\\:ref\\:`preparation` 介绍在开始安装固件之前你需要做的事情。然后, 根据你使用的工 具, "
+"两个安装步骤将覆盖原始程序。这些步骤适用于版本升级或者不同版本和开 发者版本的安装"
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr ""
+msgstr "准备"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -75,28 +84,34 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
+"首先, 确保你的遥控器在开始安装固件之前电池是充满电的。在 http://deviationtx.com/downloads-"
+"new/category/1-deviation-releases 中下载 deviation-t8sgXX-x.y.z.zip 固件, 其中 XX "
+"是遥控器的型号。 x.y.z 指的是Deviation 固件的版本号。"
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
-msgstr ""
+msgstr "注意: 不要使用从 STMicroelectronics 下载的 DfuSe 工 具！"
 
 #: ../../source/ch_install.rst:34
 msgid ""
 "You can download the Walkera tool from: "
 "https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 msgstr ""
+"你可以在这里下载固件升级工具：https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
 
 #: ../../source/ch_install.rst:37
 msgid ""
 "The Deviation Uploader tool can be downloaded from http://deviationtx.com"
 "/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Deviation Uploader tool 可以在这里下载： http://deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:40
 msgid ""
 "If you are using Windows™, you need to install the appropriate USB drivers. "
 "See the section on :ref:`windows_drivers`"
-msgstr ""
+msgstr "如果你使用的是 Windows™，则需要安装相应的 USB 驱动程序。请参阅 Windows 驱动程序安装部分。"
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -104,7 +119,7 @@ msgid ""
 "Uploader tool, it is not necessary to unzip the firmware you downloaded. It "
 "is recommended that you test the DFU tool by first upgrading your TX to a "
 "different version of Walkera firmware."
-msgstr ""
+msgstr "将下载好的工具解压缩并且安装。如果你使用的是 Deviation Uploader tool，则不需要解压下载好的固件。"
 
 #: ../../source/ch_install.rst:46
 msgid ""
@@ -113,10 +128,12 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
+"如果你要升级旧版本的 Deviation 固件，强烈建议你备份遥控器“Models” "
+"目录以及\"tx.ini”和“hardware.ini”文件，以确保你不会丢失任何的模型或遥控器配置。 "
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
-msgstr ""
+msgstr "Windows 驱动程序安装"
 
 #: ../../source/ch_install.rst:56
 msgid ""
@@ -124,6 +141,9 @@ msgid ""
 "drivers. Both can be installed by the Deviation USBDrv Installer, available "
 "from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
 msgstr ""
+"Walkera DfuSe tool 和 Deviation Uploader tool 使用不同的驱动程序。两个都 可以通过 Deviation "
+"USBDrv Installer 安装，可以在这里下载： http://www.deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool"
 
 #: ../../source/ch_install.rst:63
 msgid ""
@@ -132,10 +152,13 @@ msgid ""
 "the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
 "driver. Install the driver for the Dfu tool you plan on using."
 msgstr ""
+"提取 Deviation USBDrv Installer，并运行“DFU USBDrv Installer-x.y.exe”。然 后, "
+"你可以卸载这两个驱动程序，或者安装 Deviation USB Driver，以便使用 Deviation Uploader tool；或者安装 "
+"Walkera driver 以便 Walkera DfuSe tool。选择 要使用的 Dfu 工具，安装对应的驱动程序。"
 
 #: ../../source/ch_install.rst:70
 msgid "DFU Installation With Walkera DfuSe"
-msgstr ""
+msgstr "用 Walkera DfuSe 安装 DFU"
 
 #: ../../source/ch_install.rst:72
 msgid ""
@@ -144,13 +167,13 @@ msgid ""
 "Deviation will NOT overwrite Walkera models stored on the transmitter. While"
 " they cannot be accessed by Deviation, they will be safely preserved should "
 "the Walkera firmware ever need to be reinstalled"
-msgstr ""
+msgstr "用 Walkera DfuSe tool 安装 Deviation 固件和升级 Walkera Devention 固件的 方式完全相同。"
 
 #: ../../source/ch_install.rst:81
 msgid ""
 "NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
 "F7 firmware, the original models will be lost when switching to Deviation."
-msgstr ""
+msgstr "注意：由于Devo7e，Devo F12e和Devo F7内存的限制，切换到Deviation会导致本来的模型配置文件丢失。"
 
 #: ../../source/ch_install.rst:88
 msgid ""
@@ -158,7 +181,7 @@ msgid ""
 "into the PC via USB, and turn on the transmitter while holding ‘EXT’ to "
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
-msgstr ""
+msgstr "将之前下载的固件文件解压缩，遥控器通过线连接到 PC 电脑的 USB 接口， 按住“EXT”键，同时打开遥控器，进入编程模式。"
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -167,6 +190,8 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
+"一些用户报告 Windows™ 和/或 USB 接口在运行这个工具时的兼容性问题。 如果 DfuSe 不识别你的遥控器，尝试移除所有的 USB "
+"设备并重启你的电脑，确 保只有遥控器的 USB 连接电脑。采取必要的措施解决任何连接问题。"
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -174,12 +199,14 @@ msgid ""
 "will be displayed under 'Available DFU Devices'. Otherwise this field will "
 "remain blank."
 msgstr ""
+"如果你的遥控器已正确连接，Available DFU Devices 将会显示为 “STM Device in DFU "
+"Mode”。否则这个区域显示空白。 "
 
 #: ../../source/ch_install.rst:96
 msgid ""
 "Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to "
 "install."
-msgstr ""
+msgstr "点击“…”按钮并选择“deviation-devoXX-vx.y.z.dfu 文 件进行安装。 "
 
 #: ../../source/ch_install.rst:97
 msgid ""
@@ -187,6 +214,8 @@ msgid ""
 "your transmitter is not detected.  **Do NOT use 'Upload' as this will "
 "destroy the dfu file on your PC.**"
 msgstr ""
+"点击“**Upgrade**”按钮安装固件。待进度条完成后关闭遥控器，按住“ENT” 键，同时打开遥控器。屏幕上应该显示一个 USB "
+"标志。如果这是你首次安装 Deviation，电脑会提示你格式化磁盘。格式化磁盘使用默认选项。接下来,通过 USB 接口升级文件系统。 "
 
 #: ../../source/ch_install.rst:98
 msgid ""
@@ -194,6 +223,8 @@ msgid ""
 "devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to "
 "install the library."
 msgstr ""
+"**Devo12的方法**：选择'Library'标签页，点击“...”按钮，选择zip "
+"文件里的devo12-lib.dfu。然后再一次选择'**Upgrade**' 安装库文件。"
 
 #: ../../source/ch_install.rst:100
 msgid ""
@@ -202,10 +233,12 @@ msgid ""
 "the PC should prompt to format a drive. Format using default options. Next, "
 "upgrade the file system via USB."
 msgstr ""
+"按住“ENT”键，同时打开遥控器。屏幕上应该显示一 个 USB标志。如果这是你首次安装 "
+"Deviation，电脑会提示你格式化磁盘。格式化磁盘使用默认选项。然后通过USB来升级文件系统。"
 
 #: ../../source/ch_install.rst:103
 msgid "Upgrading the file system via USB"
-msgstr ""
+msgstr "通过 USB 接口升级文件系统"
 
 #: ../../source/ch_install.rst:107
 msgid ""
@@ -214,6 +247,8 @@ msgid ""
 "the 'Deviation Uploader' to manage files. If you enable it, all you can do "
 "is format the drive, which will destroy your installation."
 msgstr ""
+"Devo F7和F12E不要打开USB模式，因为这是不支持的。你需要使用 'Deviation Uploader'的'File "
+"Manager'的标签页来管理文件。如果打开USB并做了格式化，你的安装就被摧毁了。"
 
 #: ../../source/ch_install.rst:113
 msgid ""
@@ -222,6 +257,8 @@ msgid ""
 "drive. For details of the file-system please see :ref:`usb-file-system`. The"
 " files with the extension 'zip', and 'dfu' need not to be copied."
 msgstr ""
+"打开从 zip 文件中提取的文件夹，将此文件夹中所有的文件复制到遥控器USB 驱动器的根目录。文件系统的详细信息请参阅 USB 和文件系统。类型为 "
+"“zip”，和“dfu”的文件不需要复制。"
 
 #: ../../source/ch_install.rst:121
 msgid ""
@@ -232,10 +269,13 @@ msgid ""
 "models have the latest options set. If the 'tx.ini' file is overwritten, the"
 " stick calibration must be repeated and any settings reset."
 msgstr ""
+"如果你是从旧版本升级的，不需要升级“tx.ini”和“hardware.ini”文件或者 "
+"“models”文件夹。或者，将“models”文件夹中除了已经配置好的模型文件 之外的模型复制到遥控器。最后一步将确保最后选择了新创建的模型。如果 "
+"“tx.ini”文件覆盖，必须重复校准和设置重置。"
 
 #: ../../source/ch_install.rst:130
 msgid "DFU Installation with Deviation Uploader"
-msgstr ""
+msgstr "通过 Deviation Uploader 安装 DFU"
 
 #: ../../source/ch_install.rst:134
 msgid ""
@@ -244,6 +284,9 @@ msgid ""
 "GUI, using the Java application to open it. You will need to install Java "
 "from http://www.java.com/ if you haven't already installed it."
 msgstr ""
+"Deviation Uploader 是一个 "
+"Java(jar)文件。你可以在命令行把jar文件作为参数运行java，或者直接通过图形界面打开jar文件。运行程序之前，你需要从http://www.java.com/安装"
+" Java。"
 
 #: ../../source/ch_install.rst:138
 msgid ""
@@ -251,12 +294,14 @@ msgid ""
 "port, and then turn it on while holding down the 'EXT' button. On the Devo "
 "12, this is done by holding the trainer switch instead."
 msgstr ""
+"首先打开“Deviation Uploader”，将遥控器连接到电脑 USB 接口，按住“EXT” "
+"键的同时打开遥控器。Devo12上，按住Trainer开关同时打开遥控器。"
 
 #: ../../source/ch_install.rst:142
 msgid ""
 "Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
 "port, and then turn it on while holding down the 'EXT' button."
-msgstr ""
+msgstr "打开“Deviation Uploader”以后，将遥控器连接到电脑 USB 接口，按住 “EXT” 键的同时打开遥控器。 "
 
 #: ../../source/ch_install.rst:145
 msgid ""
@@ -268,19 +313,21 @@ msgid ""
 "installation and try unplugging all other USB devices. Take the steps "
 "necessary to resolve any connection issues."
 msgstr ""
+"如果一切正常，你应该看到“遥控器”的连接的类型改变。如果不改变，检查 系统信息，查看是否列出你的设备。如果显示有一个未知的设备在 Windows "
+"上,检查你的驱动是否安装成功并且试着拔掉其他所有 USB 设备。 采取必要的措施解决任何连接问题。"
 
 #: ../../source/ch_install.rst:153
 msgid ""
 "Press the '…' button and select the zip file for the firmware you will "
 "install. There is no need to unpack the zip file since the Deviation "
 "Uploader will handle that."
-msgstr ""
+msgstr "点击“...”按钮，选择你要安装的固件的 zip 文件。Deviation Uploader 不 需要解压 zip 文件。"
 
 #: ../../source/ch_install.rst:154
 msgid ""
 "If this is an initial install, all the 'Replace' boxes, along with 'Format' "
 "will be preselected."
-msgstr ""
+msgstr "如果这是一个第一次安装，所有的“Replace”框，连同“Format”将预选。"
 
 #: ../../source/ch_install.rst:156
 msgid ""
@@ -288,19 +335,21 @@ msgid ""
 "will be preselected. On the Devo F7 and Devo F12E initial install, select "
 "the 'Format' check box if not already selected."
 msgstr ""
+"如果这是一个第一次安装，所有的“Replace”框，连同“Format”将预选。 "
+"在DevoF7或者DevoF12E，如果“Format”框尚未选中，请手动选择。"
 
 #: ../../source/ch_install.rst:159
 msgid ""
 "Click the 'Install/Upgrade' option. Installation will take a few minutes, so"
 " be patient. A pop-up dialog box will notify you when installation is "
 "completed. You are done."
-msgstr ""
+msgstr "点击“安装/升级”选项。安装将花费几分钟的时间，所以要有耐心。在安装完成后将弹出对话框通知你。安装完成。"
 
 #: ../../source/ch_install.rst:160
 msgid ""
 "Turn off your Devo transmitter. When you turn it on again, you'll be greeted"
 " by the Deviation splash screen."
-msgstr ""
+msgstr "关掉你的遥控器。按住“ENT”键，同时打开遥控器。你会看到一个Deviation的欢迎界面。"
 
 #: ../../source/ch_install.rst:165
 msgid ""
@@ -308,6 +357,8 @@ msgid ""
 "accessed from the desktop, and you need to use the 'File Manager' tab on the"
 " 'Deviation Uploader' to manage files."
 msgstr ""
+"Devo F7和F12E不要打开USB模式，因为这是不支持的。你需要使用 'Deviation Uploader'的'File "
+"Manager'的标签页来管理文件。"
 
 #: ../../source/ch_install.rst:169
 msgid ""
@@ -316,17 +367,19 @@ msgid ""
 "first-time install of Deviation, your computer may prompt to format a drive."
 " Format using default options."
 msgstr ""
+"在除了F7和F12E的遥控器上，按住“ENT”键，同时打开遥控器。屏幕上应该显示一 个 USB标志。如果这是你首次安装 "
+"Deviation，电脑会提示你格式化磁盘。格式 化磁盘使用默认选项。"
 
 #: ../../source/ch_install.rst:172
 msgid "Upgrading the file system with Deviation Uploader"
-msgstr ""
+msgstr "通过 Deviation Uploader 上传文件系统"
 
 #: ../../source/ch_install.rst:175
 msgid ""
 "The Devo F7 and F12E do not support access via USB. Do not turn it on, as "
 "formatting the disk from your desktop will destroy your deviation "
 "installation."
-msgstr ""
+msgstr "Devo F7和F12E不支持通过USB访问。不要打开它。如果从电脑格式化磁盘的话，会破坏Deviaition的安装。"
 
 #: ../../source/ch_install.rst:180
 msgid ""
@@ -338,10 +391,13 @@ msgid ""
 "same location. There is no advantage in doing the installation this way, but"
 " it can be done."
 msgstr ""
+"如果你遵循上述指导使用 Deviation Uploader tool 为你的 Devo 遥控器安装 Deviation 固件 ZIP "
+"文件，那么安装已完成,不需要再进行更多的安装了。另一方 面，如果你解压文件并单独安装了固件 dfu 文件，那么你必须继续从同一位置安 装 dfu "
+"文件。用这种方式安装没有优势,但这是可以做到的。 "
 
 #: ../../source/ch_install.rst:183
 msgid "Deviation 5.0"
-msgstr ""
+msgstr " Deviation 5.0"
 
 #: ../../source/ch_install.rst:185
 msgid ""
@@ -352,10 +408,13 @@ msgid ""
 " so, development continues, so new controllers will be added to the support "
 "list as well as new protocols and features, when they become available."
 msgstr ""
+"2016 年 4 月 30 日，期待已久的固件从 4.0.1 版本更新到了 5.0 版本，并在 DeviationTx "
+"网站发布。Deviation5.0 版本是当前最新的版本，它包括所有的补 丁、bug 修复、改进之前版本的协议。 "
+"同时开发工作任然在继续。新的遥控器将被支持，新的协议和新的功能都将被加入。"
 
 #: ../../source/ch_install.rst:188
 msgid "Nightly Deviation Builds"
-msgstr ""
+msgstr "每晚构建的Deviation固件"
 
 #: ../../source/ch_install.rst:190
 msgid ""
@@ -368,6 +427,11 @@ msgid ""
 "commenting on the features that they've used. Nightly builds are found at "
 "http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
 msgstr ""
+"每晚构建的Deviation固件版本是在Deviation5.0版本的基础上增加其他功 "
+"能的版本。你可以在社区里获得每晚构建的Deviation固件，充分熟悉使用新功 能，然后可以通过论坛提交反馈和建议改进。作为用户，你要知道 "
+"Deviation 软 件系统通过一个社区支持，这个论坛的成员可以通过检查、验证或评论使用的功 能。每晚构建的Deviation "
+"固件可以在这里找到:http://www.deviationtx.com/downloads-new/category/13-nightly-"
+"builds"
 
 #: ../../source/ch_install.rst:200
 msgid ""
@@ -377,6 +441,9 @@ msgid ""
 "full release.  Please read this post! http://www.deviationtx.com/forum/5"
 "-news-announcements/1416-nightly-builds"
 msgstr ""
+"当有新功能添加到 Deviation "
+"核心功能中，重要的错误被修正，添加了对新硬件的支持的时候，这些固件将会发表。每晚构建的固件会进行简单的测试,但不是严格的测试每一个版本。请阅读这篇文章!http://www.deviationtx.com/forum/5"
+"-news-announcements/1416-nightly-builds"
 
 #: ../../source/ch_install.rst:206
 msgid ""
@@ -389,6 +456,10 @@ msgid ""
 "issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
 " edit the source of the manual directly."
 msgstr ""
+"Deviation 的在线用户手册定期检查和更新使其包括最新的功能信息。此外， 虽然尽了最大努力在 Deviation "
+"社区更新这些用户指南，但这个文档可能不能完全描述每晚构建固件的功能。任何 Deviation 用户可以更新或修改用户手 册，你可以通过 "
+"Deviation-manual Github 库的问题修改器提交增加和变更，地址为:https://github.com/DeviationTX"
+"/deviation-manual/issues 或者直接编辑手册的源文件提交PR。"
 
 #: ../../source/ch_install.rst:215
 msgid ""
@@ -400,6 +471,10 @@ msgid ""
 "hardware beyond additional transmitter modules, you should consider using "
 "the Nightly build."
 msgstr ""
+"所以你应该选择安装 Deviation 5.0 版本还是安装每晚构建固件版本呢? "
+"你自己的需求将决定这个问题的答案。如果你使用华科尔(Walkera)、地平线 "
+"(Spectrum)和富斯(Flysky)模型或者其他类似于伟力(WLToys)V2x2 四轴的模型，Deviation5.0 "
+"版本就足够了。如果你有一些新型号的小四轴，或者如果你想要得到额外的硬件或者额外的高频头模块的支持，你应该考虑使用每晚构建固 件。"
 
 #: ../../source/ch_install.rst:224
 msgid ""
@@ -409,10 +484,12 @@ msgid ""
 " hardware and modify any settings to support your modifications.  This helps"
 " you determine the source of issues later for troubleshooting."
 msgstr ""
+"如果你想修改硬件，比如增加或者改变开关或传感器模块，你应该首先安装Deviation每晚构建固件然后熟悉可用的功能。运行 Deviation "
+"固件后，安装硬件和修改一些设置来支持你的修改。这可以帮助你找出问题的来源，然后排除故障。"
 
 #: ../../source/ch_install.rst:233
 msgid "Test Builds"
-msgstr ""
+msgstr "测试版本"
 
 #: ../../source/ch_install.rst:235
 msgid ""
@@ -421,6 +498,8 @@ msgid ""
 "and require a higher level of experience.  These builds may also require "
 "specific transmitter configuration or hardware mods."
 msgstr ""
+"测试版本仅供有经验的用户。Deviation 测试固件是由软件开发人员来测试新 功能或硬件选项，并要求更高层次的经验。这些构建有些也可能需要特定的遥控 "
+"器配置或硬件属性。"
 
 #: ../../source/ch_install.rst:240
 msgid ""
@@ -429,6 +508,7 @@ msgid ""
 "detailing the reason for that build and how to use it, and know why you "
 "would want to use it."
 msgstr ""
+"一些测试固件要求你在安装之前安装最新的每晚构建固件。在你了解固 件详细信息和如何使用，并且知道你为什么要使用它之前，不要尝试安装测试固 件。"
 
 #: ../../source/ch_install.rst:245
 msgid ""
@@ -437,10 +517,11 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
+"一旦你安装了一个测试固件，写一篇帖子添加到适当的版块让开发人员知道你在使用!这就是测试固件出现的原因，开发人员可以得到反馈，即便仅仅是固件正常工作的消息。"
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
-msgstr ""
+msgstr "USB 和文件系统"
 
 #: ../../source/ch_install.rst:255
 msgid ""
@@ -449,92 +530,94 @@ msgid ""
 "‘ENT’ button while powering up the transmitter. Files can then be easily "
 "copied to or from the transmitter."
 msgstr ""
+"Deviation 在 USB 文件系统中包含所有的配置、位图和模型文件。按住 “ENT” 键，同时打开遥控器。可以很容易的进入 USB "
+"文件系统。文件可以被 轻松地复制到遥控器或者在遥控器中复制出来。"
 
 #: ../../source/ch_install.rst:257
 msgid "The directory structure is as follows:"
-msgstr ""
+msgstr "目录结构如下:"
 
 #: ../../source/ch_install.rst:262
 msgid "\\\\tx.ini"
-msgstr ""
+msgstr "\\\\tx.ini"
 
 #: ../../source/ch_install.rst:262
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
-msgstr ""
+msgstr "遥控器配置。包括调整设置，校准数据和使用的模型编号"
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
-msgstr ""
+msgstr "\\\\hardware.ini"
 
 #: ../../source/ch_install.rst:264
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
-msgstr ""
+msgstr "遥控器硬件设置，描述支持硬件的修改。数量。"
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
-msgstr ""
+msgstr "\\\\errors.txt"
 
 #: ../../source/ch_install.rst:266
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
-msgstr ""
+msgstr "如果固件崩溃或重新启动，调试信息将存储在这个文件中"
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
-msgstr ""
+msgstr "\\\\datalog.bin"
 
 #: ../../source/ch_install.rst:267
 msgid "File for telemetry data"
-msgstr ""
+msgstr "遥测数据文件"
 
 #: ../../source/ch_install.rst:268
 msgid "\\\\media\\\\config.ini"
-msgstr ""
+msgstr "\\\\media\\\\config.ini"
 
 #: ../../source/ch_install.rst:268
 msgid "The color scheme and fonts for the transmitter"
-msgstr ""
+msgstr "遥控器的颜色和字体设置文件"
 
 #: ../../source/ch_install.rst:269
 msgid "\\\\media\\\\sound.ini"
-msgstr ""
+msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
-msgstr ""
+msgstr "各种警告的语音设置文件"
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"
-msgstr ""
+msgstr "\\\\media\\\\*.bmp"
 
 #: ../../source/ch_install.rst:270
 msgid "Images used for the current transmitter theme"
-msgstr ""
+msgstr "主题图像"
 
 #: ../../source/ch_install.rst:271
 msgid "\\\\media\\\\*.fon"
-msgstr ""
+msgstr "\\\\media\\\\*.fon"
 
 #: ../../source/ch_install.rst:271
 msgid "Font files"
-msgstr ""
+msgstr "字体文件"
 
 #: ../../source/ch_install.rst:272
 msgid "\\\\models\\\\default.ini"
-msgstr ""
+msgstr "\\\\models\\\\default.ini"
 
 #: ../../source/ch_install.rst:272
 msgid "The default model, loaded whenever a model is cleared"
-msgstr ""
+msgstr "缺省的模型配置，当清空模型配置时加载。"
 
 #: ../../source/ch_install.rst:273
 msgid "\\\\models\\\\model*.ini"
-msgstr ""
+msgstr "\\\\models\\\\model*.ini"
 
 #: ../../source/ch_install.rst:273
 msgid ""
@@ -542,10 +625,11 @@ msgid ""
 "deviation cannot create new files. It is therefore necessary to have a "
 "modelxx.ini for each model regardless of whether it is currently in use."
 msgstr ""
+"每个模型的配置文件。由于固件限制，Deviation 不能创建 新文件。因此有必要为每个模型创建 modelxx.ini，无论它目前是否正在使用。"
 
 #: ../../source/ch_install.rst:276
 msgid "\\\\modelico\\\\*.bmp"
-msgstr ""
+msgstr "\\\\modelico\\\\*.bmp"
 
 #: ../../source/ch_install.rst:276
 msgid ""
@@ -553,30 +637,32 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
+"所有可用的模型图标(建议像素为 96 x96，但其他的大小也可以)。模型图标必须保存为 16 位的 BMP 文件，RGB565(不透明的)或 "
+"ARGB1555(透明)格式。"
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"
-msgstr ""
+msgstr "\\\\templates\\\\*.ini"
 
 #: ../../source/ch_install.rst:279
 msgid ""
 "Configuration files used when loading predefined templates.  These are "
 "nearly identical to the model configuration files, however they do not "
 "necessarily define all parameters"
-msgstr ""
+msgstr "配置文件加载时使用的预定义模板。这些都是几乎相同的模型配置文件，但是他们不一定定义所有参数。"
 
 #: ../../source/ch_install.rst:281
 msgid "\\\\language\\\\lang*.*"
-msgstr ""
+msgstr "\\\\language\\\\lang*.*"
 
 #: ../../source/ch_install.rst:281
 msgid ""
 "Language translation files.  These are UTF-8 text files containing the "
 "English string and the respective translated string."
-msgstr ""
+msgstr "语言翻译文件。这些是 UTF - 8 文本文件包含英文字符和 各自翻译的字符。"
 
 #: ../../source/ch_install.rst:287
 msgid ""
 "Note: Deviation only supports 8.3 style file names.  That means file names "
 "should be no larger than 'xxxxxxxx.yyy'**"
-msgstr ""
+msgstr "注意:Deviation 仅支持 8.3 格式的文件名。意思是文件名应该不大于 “xxxxxxxx.yyy”。"

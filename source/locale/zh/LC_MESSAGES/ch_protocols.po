@@ -5,15 +5,16 @@
 # 
 # Translators:
 # cnshaker <cnshaker@gmail.com>, 2018
+# Howard Su <howard0su@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 01:58+0000\n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: cnshaker <cnshaker@gmail.com>, 2018\n"
+"Last-Translator: Howard Su <howard0su@gmail.com>, 2019\n"
 "Language-Team: Chinese (https://www.transifex.com/deviationtx/teams/73329/zh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +36,8 @@ msgid ""
 "not correct, or other issue communicating with the module.)  More "
 "information can be found in the Module installation guide:"
 msgstr ""
+"有些协议有额外的配置和限制。每个协议的描述见下文。遥控器上的显示中，星号是指 Deviation 固件没有检测到所需的硬件模块(未安装，或者 "
+"hardware.ini 文件不正确，或模块通信有其他 的问题)更多信息可在模块安装指南中找到:"
 
 #: ../../source/ch_protocols.rst:15 ../../source/ch_protocols.rst:131
 #: ../../source/ch_protocols.rst:170 ../../source/ch_protocols.rst:225
@@ -49,12 +52,14 @@ msgstr ""
 #: ../../source/ch_protocols.rst:667 ../../source/ch_protocols.rst:688
 #: ../../source/ch_protocols.rst:712 ../../source/ch_protocols.rst:742
 #: ../../source/ch_protocols.rst:790 ../../source/ch_protocols.rst:805
+#: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
+#: ../../source/ch_protocols.rst:846
 msgid "|mod-install-link|"
-msgstr ""
+msgstr "|mod-install-link|"
 
 #: ../../source/ch_protocols.rst:18
 msgid "Protocol: DEVO"
-msgstr ""
+msgstr "协议:DEVO"
 
 #: ../../source/ch_protocols.rst:19
 msgid ""
@@ -67,43 +72,46 @@ msgid ""
 " bound.  Note that the Fixed ID is only part of the binding procedure.  Two "
 "transmitters with the Same ID cannot control the same model."
 msgstr ""
+"DEVO 协议用于支持华科尔 DEVO 接收机/模型。该协议支持多达 12 个通道。DEVO 协议支持自动对频和手动对频。如果固定 ID "
+"设置为“无”时，遥控器每次 开机时将尝试与接收机自动对频。如果固定 ID 被设置为一个值，当需要配对接 "
+"收机时必须通过使用“对频”按钮，手动对频一次。需要注意的是固定 ID 是对 频过程必须的操作。两个遥控器使用相同的 ID 无法控制相同的模型。"
 
 #: ../../source/ch_protocols.rst:24
 msgid ""
 "The DEVO protocol also supports enabling/disabling the telemetry capability."
 "  This option is accessed by pressing the Protocol spin-box when DEVO is "
 "shown."
-msgstr ""
+msgstr "DEVO协议还支持启用/禁用双向回传。选择框为 DEVO时按下ENT键，访问 此选项。"
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
 "The following fields are available in Devo Telemetry.  Note that not all "
 "models/receivers report all fields, and that some fields require extra "
 "modules to enable."
-msgstr ""
+msgstr "以下功能 Devo遥控器是可用的。请注意，并非所有型号/接收机会传回所有 信息，而且有些信息需要添加额外的模块来实现。"
 
 #: ../../source/ch_protocols.rst:33
 msgid ""
 "**Temp1/2/3/4**: Temperature readings.  These can be battery, motor, or "
 "ambient values"
-msgstr ""
+msgstr "**温度 1/2/3/4**：温度读数，这些可以是电池、电机、或环境值"
 
 #: ../../source/ch_protocols.rst:34
 msgid ""
 "**Volt1/2/3**: Voltage readings for receiver battery, and external batteries"
-msgstr ""
+msgstr "**电压 1/2/3**：接收机电池和外部电池电压读数"
 
 #: ../../source/ch_protocols.rst:35
 msgid "**RPM1/2**: Motor/Engine RPM values"
-msgstr ""
+msgstr "**转数 1/2**：电机/螺旋桨转数值"
 
 #: ../../source/ch_protocols.rst:36 ../../source/ch_protocols.rst:98
 msgid "**GPS Data**: Current position, speed and altitude from GPS module"
-msgstr ""
+msgstr "**GPS数据**：GPS模块当前位置，速度和高度"
 
 #: ../../source/ch_protocols.rst:39
 msgid "Protocol: WK2801"
-msgstr ""
+msgstr "协议：WK2801"
 
 #: ../../source/ch_protocols.rst:40
 msgid ""
@@ -120,10 +128,15 @@ msgid ""
 "must be bound manually one-time using the ‘Bind’ button, after which it "
 "should stay bound."
 msgstr ""
+"WK2801协议用于控制较老款华科尔。以前华科尔模型分成 3种相似但不完 "
+"全相同的协议:WK2801，WK2601，WK2401。这大致对应于所支持的通道数，但 许多新的 6 通道接收机实际上支持 WK2801 "
+"协议。建议与老款华科尔接收机WK2601 或 WK2401 对频之前，先尝试 WK2801 协议，因为 WK2801 是一个更好 的协议。WK2801 "
+"协议支持最多 8 个通道，并且可以自动对频和手动对频。如果 固定 ID 设置为“无”时，遥控器每次开机时将尝试与接收机自动对频。如果固 定 ID "
+"被设置为一个值，需要配对的接收机必须通过使用“对频”按钮，手动对 频一次。"
 
 #: ../../source/ch_protocols.rst:43
 msgid "Protocol: WK2601"
-msgstr ""
+msgstr "协议:WK2601"
 
 #: ../../source/ch_protocols.rst:44
 msgid ""
@@ -137,22 +150,26 @@ msgid ""
 " to 7 channels, and only supports auto-binding.  The fixed ID can be used, "
 "but does not prevent auto-binding during power-on."
 msgstr ""
+"WK2601协议用于控制较老款华科尔。以前华科尔模型分成 3种相似但不完 "
+"全相同的协议:WK2801，WK2601，WK2401。这大致对应于所支持的通道数，但 许多新的 6 通道接收机实际上支持 WK2801 "
+"协议。建议与老款华科尔接收机WK2601 或 WK2401 对频之前，先尝试 WK2801 协议，因为 WK2801 是一个更好 的协议。WK2601 "
+"协议支持多达 7 个通道，并且只支持自动对频。固定 ID 可以 使用，但通电期间不能使用自动对频。"
 
 #: ../../source/ch_protocols.rst:49
 msgid ""
 "The WK2601 protocol also supports additional options.  These are accessed by"
 " pressing the Protocol spin-box when Wk2601 is shown:"
-msgstr ""
+msgstr "WK2601协议还支持其他选项。选择框为 WK2601时按下ENT键，访问 此选项:"
 
 #: ../../source/ch_protocols.rst:51
 msgid "**Chan mode**: Sets how channels are processed:"
-msgstr ""
+msgstr "**通道模式**：设置通道如何运行:"
 
 #: ../../source/ch_protocols.rst:53
 msgid ""
 "**5+1**: AIL, ELE, THR, RUD,  GYRO (ch 7) are proportional.  Gear (ch 5) is "
 "binary.  Ch 6 is disabled"
-msgstr ""
+msgstr "**5+1**：AIL，ELE，THR，RUD，GYRO(CH 7)是成比例的。Gear(CH 5)是二 进制的。CH6 被禁用。"
 
 #: ../../source/ch_protocols.rst:54
 msgid ""
@@ -161,24 +178,29 @@ msgid ""
 "curve to the Thr.  If Ch6 < 0, the receiver will apply normal curves to the "
 "Thr.  The value of Ch6 defines the ratio of COL to THR."
 msgstr ""
+"**直升机**：AIL，ELE，THR，RUD，GYRO 是成比例的。Gear(CH 5)是二进制 的。螺距(CH 6)与 THR 连接。如果 "
+"CH6大于等于 0，则接收机将提供一个适合的3D 曲线给 THR。如果 CH6 小于0，则接收机将提供一个正常曲线给 THR。CH6的值定义 THR "
+"通道的螺距比率。"
 
 #: ../../source/ch_protocols.rst:55
 msgid ""
 "**6+1**: AIL, ELE, THR, RUD,  COL (ch 6), GYRO (ch 7) are proportional.  "
 "Gear (ch 5) is binary.  This mode is highly experimental."
 msgstr ""
+"**6+1**：AIL，ELE，THR，RUD，COL(CH 6)，GYRO(CH 7)是成比例的。Gear(CH "
+"5)是二进制的。这种模式是高度实验性的。"
 
 #: ../../source/ch_protocols.rst:56
 msgid "**COL Inv**: Invert COL servo"
-msgstr ""
+msgstr "**螺距方向**：反转螺距舵机"
 
 #: ../../source/ch_protocols.rst:57
 msgid "**COL Limit**: Set maximum range of COL servo"
-msgstr ""
+msgstr "**螺距**：设定螺距舵机的最大范围"
 
 #: ../../source/ch_protocols.rst:60
 msgid "Protocol: WK2401"
-msgstr ""
+msgstr "协议:WK2401"
 
 #: ../../source/ch_protocols.rst:61
 msgid ""
@@ -192,10 +214,14 @@ msgid ""
 " to 4 channels, and only supports auto-binding.  The fixed ID can be used, "
 "but does not prevent auto-binding during power-on."
 msgstr ""
+"WK2401协议用于控制较老款华科尔接收机。以前华科尔模型分成 3种相似 "
+"但不完全相同的协议:WK2801，WK2601，WK2401。这大致对应于所支持的通道 数，但许多新的 6 通道接收机实际上支持 WK2801 "
+"协议。建议与老款华科尔接 收机 WK2601 或 WK2401 对频之前，先尝试 WK2801 协议，因为 WK2801 是一 "
+"个更好的协议。WK2401 协议支持多达 4 个通道，并且只支持自动对频。固定 ID可以使用，但通电期间不能使用自动对频。"
 
 #: ../../source/ch_protocols.rst:66
 msgid "Protocol: DSM2"
-msgstr ""
+msgstr "协议:DSM2"
 
 #: ../../source/ch_protocols.rst:67
 msgid ""
@@ -207,38 +233,41 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
+"DSM2 协议被用于控制 Spektrum™ 和 JR™的接收机，以及使用这种协议的其他模型。DSM2 协议可以支持多达 12 "
+"个通道。请注意，许多接收机少于 8 个通 道，需要遥控器发送 7个或更少的通道。确保接收机的通道数设置适当。DSM2不支持自动绑定。如果固定 "
+"ID被设置为无，遥控器会用特定的 ID来代替。需要 在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:76 ../../source/ch_protocols.rst:104
 msgid ""
 "Note that binding does not exit until you move the AIL or ELE controls. This"
 " is so you can press the Failsafe button on some DSM receivers to set the "
 "failsafe value."
-msgstr ""
+msgstr "请注意，在移动 AIL 或 ELE 摇杆之前，对频不会退出。因此，您可以按下 DSM接收器上的失控保护按钮来设置失控保护值。"
 
 #: ../../source/ch_protocols.rst:83
 msgid ""
 "The DSM2 protocol also supports enabling/disabling the telemetry capability."
 "  This option is accessed by pressing the Protocol spin-box when DSM2 is "
 "shown."
-msgstr ""
+msgstr "DSM2协议还支持启用/禁用双向回传功能。选择框为 DSM2时按下ENT键， 访问此选项。"
 
 #: ../../source/ch_protocols.rst:90
 msgid ""
 "The following fields are available in DSM2 Telemetry.  Note that a dedicated"
 " telemetry module and additional sensors are needed to capture this data"
-msgstr ""
+msgstr "以下功能 DSM2 遥控器是可用的。需要注意的是获得这些数据需要专用的回 传模块和额外的传感器。"
 
 #: ../../source/ch_protocols.rst:92
 msgid ""
 "**FadesA/B/L/R**: The number of times each antenna has received a weak "
 "signal.  Ideally these numbers should all be similar, indicating even "
 "reception to each antenna"
-msgstr ""
+msgstr "**FadesA/B/L/R**:每个天线接收到的弱信号数量。理想的情况是，这些数字都 应该是相似的，这表明每个天线都接收到信号。"
 
 #: ../../source/ch_protocols.rst:93
 msgid ""
 "**Loss**: The number of times complete signal loss (dropped frame) occurred"
-msgstr ""
+msgstr "**丢失**：出现完整的信号丢失(丢失帧)的次数。"
 
 #: ../../source/ch_protocols.rst:94
 msgid ""
@@ -260,7 +289,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:101
 msgid "Protocol: DSMX"
-msgstr ""
+msgstr "协议:DSMX"
 
 #: ../../source/ch_protocols.rst:102
 msgid ""
@@ -272,6 +301,9 @@ msgid ""
 "Fixed ID is set to None, a transmitter-specific ID is used instead.  It is "
 "necessary to manually bind each model before the first use."
 msgstr ""
+"DSMX 协议被用于控制 Spektrum™ 和 JR™的接收机，以及使用这种协议的其他模型。DSM2 协议可以支持多达 12 "
+"个通道。请注意，许多接收机少于 8 个通 道，需要遥控器发送 7个或更少的通道。确保接收机的通道数设置适当。DSMX不支持自动绑定。如果固定 "
+"ID被设置为无，遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:108
 msgid ""
@@ -279,23 +311,25 @@ msgid ""
 "automatically select between DSM2 and DSMX.  The user must select which "
 "protocol to use."
 msgstr ""
+"注意，不像 Spektrum™ 或 JR™或遥控器，Deviation 不会自动在 DSM2 和DSMX "
+"协议之间进行选择。用户必须要手动选择使用的协议。"
 
 #: ../../source/ch_protocols.rst:113
 msgid ""
 "The DSMX protocol also supports enabling/disabling the telemetry capability."
 "  This option is accessed by pressing the Protocol spin-box when DSMX is "
 "shown."
-msgstr ""
+msgstr "DSMX协议支持启用/禁用双向回传功能。选择框为 DSMX时按下ENT键，访 问此选项。"
 
 #: ../../source/ch_protocols.rst:115
 msgid ""
 "The list of DSMX telemetry fields is identical to those in the DSM2 "
 "Protocol, and are documented in section :ref:`protocol-dsm2`."
-msgstr ""
+msgstr "DSMX 回传功能列表与 DSM2 协议相同，详情请见协议:ref:`protocol-dsm2`。"
 
 #: ../../source/ch_protocols.rst:118
 msgid "Protocol: J6Pro"
-msgstr ""
+msgstr "协议:J6Pro"
 
 #: ../../source/ch_protocols.rst:119
 msgid ""
@@ -307,24 +341,27 @@ msgid ""
 "to None, a transmitter-specific ID is used instead.  It is necessary to "
 "manually bind each model before the first use."
 msgstr ""
+"J6Pro 协议用于九鹰(Nine Eagles™ )模型。只有能与 J6Pro 遥控器对频的模 型可以使用。许多老的 4 "
+"通道九鹰模型中使用的是不同的协议，这是不支持的。J6Pro协议支持多达 12个通道，当前只测试过6个通道。J6Pro不支持自动对 频。如果固定 ID "
+"被设置为无，遥控器会用特定的 ID 来代替。需要在第一次使用 模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:122
 msgid "Protocol: WFLY"
-msgstr ""
+msgstr "协议:天地飞"
 
 #: ../../source/ch_protocols.rst:123
 msgid ""
 "The WFLY protocol supports WFLY receivers such as WFR04S, WFR07S and WFR09S."
-msgstr ""
+msgstr "天地飞协议支持天地飞的接收器，如WFR04S, WFR07S和WFR09S。"
 
 #: ../../source/ch_protocols.rst:125
 msgid ""
 "The protocol supports up to 9 channels.  Default channel order is AETR."
-msgstr ""
+msgstr "这个协议支持最多9个通道。缺省的通道顺序是AETR。"
 
 #: ../../source/ch_protocols.rst:128
 msgid "Protocol: \\*Flysky"
-msgstr ""
+msgstr "协议: \\*Flysky"
 
 #: ../../source/ch_protocols.rst:129
 msgid ""
@@ -332,6 +369,8 @@ msgid ""
 " few other models using the same AFHDS protocol (WL V911, Xieda 9958, etc)."
 "  |a7105-note|"
 msgstr ""
+"Flysky 协议被用于控制 Turnigy / Flysky 接收机以及其它几个使用 AFHDS 协议的模型(WL V911，Xieda 9958 "
+"等)。|a7105-note|"
 
 #: ../../source/ch_protocols.rst:133
 msgid ""
@@ -341,67 +380,70 @@ msgid ""
 "set for Fixed ID, the receiver must be bound manually one-time using the "
 "‘Bind’ button, after which it should stay bound."
 msgstr ""
+"Flysky 协议支持多达 12 个通道，并且支持自动对频和手动对频。如果固定ID 设置为“无”时，遥控器每次开机时将尝试与接收机自动对频。如果固定 "
+"ID被设置为一个值，需要配对的接收机必须通过使用“对频”按钮，手动对频一次。"
 
 #: ../../source/ch_protocols.rst:139
 msgid ""
 "The Flysky protocol also supports WLToys extensions to the protocol. These "
 "are accessed by pressing the Protocol spin-box when Flysky is shown:"
-msgstr ""
+msgstr "Flysky协议还支持 WLToys扩展的协议。选择框为 Flysky时按下ENT键，访问此选项。"
 
 #: ../../source/ch_protocols.rst:143
 msgid ""
 "**V9x9**: Enables the extensions for the WLToys V939, V949, V959, v969, etc "
 "quadcopters."
-msgstr ""
+msgstr "**V9x9**：WLToys V939，V949，V959，V969 等四轴飞行器的扩展通道。"
 
 #: ../../source/ch_protocols.rst:146 ../../source/ch_protocols.rst:153
+#: ../../source/ch_protocols.rst:853
 msgid "Lights are controlled by Channel 5"
-msgstr ""
+msgstr "灯由通道 5控制"
 
 #: ../../source/ch_protocols.rst:147
 msgid "Video is controlled by Channel 6"
-msgstr ""
+msgstr "摄像由通道 6控制"
 
 #: ../../source/ch_protocols.rst:148 ../../source/ch_protocols.rst:155
 msgid "Camera is controlled by Channel 7"
-msgstr ""
+msgstr "相机由通道 7控制"
 
 #: ../../source/ch_protocols.rst:149
 msgid "Flip is controlled by Channel 8"
-msgstr ""
+msgstr "翻转由通道 8控制"
 
 #: ../../source/ch_protocols.rst:151
 msgid ""
 "**V6x6**: Enables the extensions for the WLToys V636 and V686 quadcopters."
-msgstr ""
+msgstr "**V6x6**：WLToys V636 和 V686 四轴飞行器的扩展通道。"
 
 #: ../../source/ch_protocols.rst:154 ../../source/ch_protocols.rst:797
 msgid "Flip is controlled by Channel 6"
-msgstr ""
+msgstr "翻转由通道 6控制"
 
 #: ../../source/ch_protocols.rst:156
 msgid "Video is controlled by Channel 8"
-msgstr ""
+msgstr "摄像由通道 8控制"
 
 #: ../../source/ch_protocols.rst:157 ../../source/ch_protocols.rst:798
 #: ../../source/ch_protocols.rst:815
 msgid "Headless mode is controlled by Channel 9"
-msgstr ""
+msgstr "无头模式由通道 9 控制"
 
 #: ../../source/ch_protocols.rst:158 ../../source/ch_protocols.rst:799
 #: ../../source/ch_protocols.rst:816
 msgid "RTH mode is controlled by Channel 10"
-msgstr ""
+msgstr "回家模式由通道 10 控制"
 
 #: ../../source/ch_protocols.rst:159
 msgid ""
 "X and Y calibration are controlled by channels 11 and 12, respectively."
-msgstr ""
+msgstr "X和 Y校准通过通道 11和 12分别控制"
 
 #: ../../source/ch_protocols.rst:161
 msgid ""
 "**V912**: Enables the extensions for the V912, V913 and V915 helicopters"
-msgstr ""
+msgstr "**V912**：V912，V913 和 V915 直升机的扩展通道"
 
 #: ../../source/ch_protocols.rst:164
 msgid ""
@@ -411,56 +453,58 @@ msgid ""
 "Flipping the switch back to off has no effect.  Flipping the switch back on "
 "now turns the lights back off."
 msgstr ""
+"请注意，如果这些通道被分配到一个开关，将开关拨到一边触发，将开关拨回不 会有任何影响。因此如果要打开灯，将分配给通道 5的开关从 OFF拨到 ON。 "
+"开关拨回到 OFF 时没有任何效果。现在再将开关拨到 ON，灯光关闭。"
 
 #: ../../source/ch_protocols.rst:167
 msgid "Protocol: \\*AFHDS-2A"
-msgstr ""
+msgstr "协议: \\*AFHDS-2A"
 
 #: ../../source/ch_protocols.rst:168
 msgid ""
 "The AFHDS-2A protocol is used to control Turnigy/Flysky AFHDS 2A receivers."
 "  |a7105-note|"
-msgstr ""
+msgstr "AFHDS-2A 的协议用来控制 Turnigy / Flysky 的 AFHDS 2A 接收机。|a7105-note|"
 
 #: ../../source/ch_protocols.rst:172
 msgid ""
 "The AFHDS-2A protocol supports up to 14 channels, and requires manual-"
 "binding. The receiver must be bound manually one-time using the ‘Bind’ "
 "button, after which it should stay bound."
-msgstr ""
+msgstr "AFHDS-2A 协议支持多达 14 个通道，并且需要手动对频。需要配对的接收机 必须通过使用“对频”按钮，手动对频一次。"
 
 #: ../../source/ch_protocols.rst:175
 msgid "Options configurable on the AFHDS-2A page:"
-msgstr ""
+msgstr "AFHDS-2A 页面上的设置:"
 
 #: ../../source/ch_protocols.rst:177
 msgid ""
 "**Outputs**: Sets desired outputs type on the receiver, PWM+IBUS, PPM+IBUS, "
 "PWM+SBUS or PPM+SUBS"
-msgstr ""
+msgstr "**输出**：设置接收机的输出类型，PWM + IBUS，PPM + IBUS，PWM + SBUS 或PPM + SUBS"
 
 #: ../../source/ch_protocols.rst:178
 msgid "**Servo Hz**: Sets receiver PWM refresh rate between 50 Hz and 400 Hz"
-msgstr ""
+msgstr "**舵机速率**：设置接收器 PWM 刷新速率，范围在 50 赫兹和 400 赫兹之间"
 
 #: ../../source/ch_protocols.rst:179
 msgid "**LQI output**: Output LQI to an optional channel"
-msgstr ""
+msgstr "**LQI输出**：输出LQI到一个可选的通道"
 
 #: ../../source/ch_protocols.rst:180
 msgid ""
 "**Freq-fine**: Frequency offset adjustment. Range -300 to 300. Adjusts for "
 "variances betweeen A7105 modules. Default 0. The LQI telemetry value can be "
 "used as a guide for adjusting the fine frequency protocol option."
-msgstr ""
+msgstr "**频率微调**：频率的微调，区间是-300到300。在不同的A7105模块间调整。LQI回传的数据可以作为调整的参考依据。"
 
 #: ../../source/ch_protocols.rst:182
 msgid "Telemetry is supported."
-msgstr ""
+msgstr "支持回传。"
 
 #: ../../source/ch_protocols.rst:185
 msgid "Protocol: \\*Hubsan4"
-msgstr ""
+msgstr "协议: \\*Hubsan4"
 
 #: ../../source/ch_protocols.rst:186
 msgid ""
@@ -468,19 +512,21 @@ msgid ""
 "H111, H101, H102, H201, H202 helicopters and the Estes Proto X (but not the "
 "Proto X SLT). (regular format)."
 msgstr ""
+"Hubsan4 协议支持 Hubsan-X4 四轴的H107系列，直升飞机的H111，H101，H102，H201和H202，和Estes Proto "
+"X(但不是 Proto X SLT)。（普通格式）"
 
 #: ../../source/ch_protocols.rst:188
 msgid ""
 "This protocol is used on Hubsan H301F, H302F, H303F and H304F (H301 format)"
-msgstr ""
+msgstr "协议也用在Hubsan的H301F, H302F, H303F和H304F上 (H301格式)。"
 
 #: ../../source/ch_protocols.rst:190
 msgid "This protocol is used on Hubsan H501S, H122D and H123D (H501 format)"
-msgstr ""
+msgstr "协议也用在Hubsan的H501S, H122和H123D上(H501格式)"
 
 #: ../../source/ch_protocols.rst:192
 msgid "|a7105-note| |mod-install-link|"
-msgstr ""
+msgstr "|a7105-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:197
 msgid ""
@@ -490,42 +536,44 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
+"Hubsan4 协议支持多达 13 个通道，普通模式只支持自动对频。固定 ID 可以使 用，但是不能防止在开机时自动对频。前4 "
+"个通道分别表示副翼，升降，油门，和方向。附加通道可以控制四轴的特殊功能:"
 
 #: ../../source/ch_protocols.rst:199
 msgid ""
 "With H301 and H501 format it is necessary to manually bind each model before"
 " the first use."
-msgstr ""
+msgstr "H301和H501格式只支持手工对频。"
 
 #: ../../source/ch_protocols.rst:201
 msgid "Channel 5 Controls the LEDs"
-msgstr ""
+msgstr "通道5控制LED灯。"
 
 #: ../../source/ch_protocols.rst:202
 msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
-msgstr ""
+msgstr "通道6在不同的格式下支持不同功能，如翻转，定高，自稳模式。"
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
-msgstr ""
+msgstr "通道 7 控制视频打开/关闭(H102)，或者拍一张照片。"
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
-msgstr ""
+msgstr "通道8控制拍照。"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "通道9打开无头模式。"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "通道10打开返回起点"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "通道11打开GPS保持"
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
@@ -558,7 +606,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:218
 msgid "Protocol: \\*Joysway"
-msgstr ""
+msgstr "协议: \\*Joysway"
 
 #: ../../source/ch_protocols.rst:219
 msgid ""
@@ -568,6 +616,9 @@ msgid ""
 " tested with this protocol, including air versions of the J4C12R.  "
 "|a7105-note|"
 msgstr ""
+"Joysway 协议支持 Joysway Caribbean 帆船模型，和使用的 J4C12R 接收机的Joysway Orion, Explorer,"
+" Dragon Force 65 帆船模型和 Force2 60 双体船模型。没有 其他模型或接收器测试过该协议，包括 J4C12R "
+"的空中版本。|a7105-note|"
 
 #: ../../source/ch_protocols.rst:227
 msgid ""
@@ -576,16 +627,18 @@ msgid ""
 "set to None, a transmitter-specific ID is used instead. It is necessary to "
 "bind each model before the first use."
 msgstr ""
+"Joysway 协议支持最多四个通道，不支持自动对频，但每当接收机请求对频 时，它将对频。如果固定 ID 被设置为无，遥控器会用特定的 ID "
+"来代替。需要 在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:232
 msgid ""
 "The first channel normally controls the sheets and the second channel the "
 "rudder, but this may vary from model to model."
-msgstr ""
+msgstr "第一信道通常控制拉帆绳和第二通道控制船舵。"
 
 #: ../../source/ch_protocols.rst:236
 msgid "Protocol: \\*Bugs3"
-msgstr ""
+msgstr "协议：\\*Bugs3"
 
 #: ../../source/ch_protocols.rst:237
 msgid ""
@@ -644,13 +697,13 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:258
 msgid "Protocol: \\*Frsky-V8"
-msgstr ""
+msgstr "协议: \\*Frsky-V8"
 
 #: ../../source/ch_protocols.rst:259
 msgid ""
 "The Frsky-V8 protocol is used to control older Frsky™ receivers using the "
 "one-way protocol. |cc2500-note|"
-msgstr ""
+msgstr "Frsky-V8 协议被用于控制旧的 FrskyTM单向协议接收机。|cc2500-note|"
 
 #: ../../source/ch_protocols.rst:263
 msgid ""
@@ -658,16 +711,17 @@ msgid ""
 "If Fixed ID is set to None, a transmitter-specific ID is used instead.  It "
 "is necessary to manually bind each model before the first use."
 msgstr ""
+"Frsky-V8 协议支持 8 个通道，不支持自动对频。如果固定 ID 被设置为无，遥控器会用特定的 ID 来代替。需要在第一 次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:266
 msgid "Protocol: \\*Frsky"
-msgstr ""
+msgstr "协议: \\*Frsky"
 
 #: ../../source/ch_protocols.rst:267
 msgid ""
 "The Frsky protocol is used to control newer (telemetry enabled) Frsky™ "
 "receivers using the two-way protocol (D8). |cc2500-note|"
-msgstr ""
+msgstr "Frsky 协议被用于控制使用较新的(启用双向回传)Frsky™双向协议(D8) 接收机。|cc2500-note|"
 
 #: ../../source/ch_protocols.rst:271
 msgid ""
@@ -675,18 +729,19 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"Frsky 协议支持最多 8 个通道，不支持自动对频。如果固定 ID 被设置为无，遥控器会用特定的 ID 来代替。需要在 第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:273
 msgid ""
 "The Frsky protocol also supports enabling/disabling telemetry.  This option "
 "is accessed by pressing the Protocol spin-box when Frsky is shown."
-msgstr ""
+msgstr "Frsky协议支持使用/禁用双向回传。选择框为 Frsky时按下ENT键，访问此选项。"
 
 #: ../../source/ch_protocols.rst:275
 msgid ""
 "When telemetry is enabled the values sent by the receiver (RSSI, VOLT1, "
 "VOLT2) are supported."
-msgstr ""
+msgstr "当双向回传启用时接收机支持发送的值(RSSI，VOLT1，VOLT2)。"
 
 #: ../../source/ch_protocols.rst:277
 msgid ""
@@ -697,17 +752,17 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:282
 msgid "Protocol: \\*FrskyX"
-msgstr ""
+msgstr "协议: \\*FrskyX"
 
 #: ../../source/ch_protocols.rst:283
 msgid ""
 "The FryskyX protocol implements the Frsky D16 radio protocol, including "
 "S.Port and hub telemetry."
-msgstr ""
+msgstr "FrskyX 协议支持 Frsky D16 无线协议，包括 S.Port 和双向回传。"
 
 #: ../../source/ch_protocols.rst:285
 msgid "|cc2500-note| |mod-install-link|"
-msgstr ""
+msgstr "|cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:287
 msgid ""
@@ -717,11 +772,13 @@ msgid ""
 "sensors as well as GPS telemetry (except on memory-limited 7e and f-series) "
 "as described in the next section."
 msgstr ""
+"协议支持多达 16 个通道。固定 ID 对频可以使遥控器连接到特殊的接收机。 所有遥控器支持接收回传的(RSSI，VOLT1)。支持 S.Port "
+"总线和传感器例如GPS 回传。"
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
 #: ../../source/ch_protocols.rst:410
 msgid "The following protocol options are available."
-msgstr ""
+msgstr "以下协议选项可供选择。"
 
 #: ../../source/ch_protocols.rst:291
 msgid ""
@@ -731,6 +788,8 @@ msgid ""
 "  Default 0. The LQI telemetry value can be used as a guide for adjusting "
 "the fine frequency protocol option."
 msgstr ""
+"**频率微调**：频率偏移调节。范围从-127到 127调整，以适应不同的 CC2500模 块。一般偏移需要 0 "
+"或-41，但如果有对频或范围的问题，则需要进行全范围测试。 默认为 0。LQI回传值可以被用作调节频率的参考。"
 
 #: ../../source/ch_protocols.rst:293
 msgid ""
@@ -739,6 +798,8 @@ msgid ""
 "network.  Default 100 (gain of 1). Range is 1 to 2000 (gain of 0.01 to "
 "20.00)."
 msgstr ""
+"**AD2GAIN**：VOLT2 回传数值(X4R 的 AIN 输入)乘以该值然后除以 100。允许对 外部电阻进行调节。默认 100(增量为 "
+"1)。范围为 1 到 2000(增量从 0.01 到20.00)。"
 
 #: ../../source/ch_protocols.rst:295
 msgid ""
@@ -747,6 +808,8 @@ msgid ""
 "receiver every 9 seconds.  The receiver will use these values in failsafe "
 "mode unless the protocol option is set to RX."
 msgstr ""
+"**失控保护**：Frsky 失控保护选项完全支持。如果通道失控保护(在混控通道设 置)开启后设置的值每 "
+"9秒发送到接收机。除非将协议选项设置为RX，否则接 收器将在失控保护模式下使用这些值。"
 
 #: ../../source/ch_protocols.rst:297
 msgid ""
@@ -754,6 +817,7 @@ msgid ""
 "and EU.  The EU version is compatible with the Frsky LBT firmware, but does "
 "not actually perform the LBT test."
 msgstr ""
+"**格式**：设置格式以匹配接收机固件。可以选择 FCC 和 EU。EU 版本与 Frsky LBT固件兼容，但实际上并不执行 LBT 测试。"
 
 #: ../../source/ch_protocols.rst:299
 msgid ""
@@ -762,12 +826,14 @@ msgid ""
 "setting in the model. The channel value is the received RSSI value "
 "multiplied by 21."
 msgstr ""
+"**RSSIChan**：设置 LastChan 后，接收的 RSSI 将在最后一个通道上传输。最后一个 通道是基于模型中的通道设置的。信道值是接收到的"
+" RSSI 值乘以 21。"
 
 #: ../../source/ch_protocols.rst:301
 msgid ""
 "**S.Port Out**: When enabled received s.port packets are echoed to the "
 "trainer port and extended voice is disabled."
-msgstr ""
+msgstr "**S.Port Out**：当启用时，收到 s.port 包将回应教练端口，并且扩展的语音被禁用。"
 
 #: ../../source/ch_protocols.rst:303
 msgid ""
@@ -780,6 +846,9 @@ msgid ""
 "the receiver will use whatever failsafe values have been stored in the "
 "receiver."
 msgstr ""
+"通道的失控保护关闭，默认失控保护协议选项“HOLD”，即命令接收机当 接收机进入失控保护模式时保持最后接收到的通道值。“NoPulse”设置将导致 "
+"接收机不向 PPM 输出发送任何信号(X8R 测试表明 SBUS 值变为最小，而不是协议规定的 SBUS 行为)。“RX”设置防止 Deviation "
+"发送失控保护设定，以便接收 机使用已经存储在接收机的失控保护值。"
 
 #: ../../source/ch_protocols.rst:305
 msgid ""
@@ -788,17 +857,19 @@ msgid ""
 " S.Port decoders, but the signal must be inverted to connect to a standard "
 "decoder.  It can be connected directly to the input of a 3.3V ftdi adapter."
 msgstr ""
+"当 S.Port Out 被启用，PPM In 不用，收到的 S.Port 数据包在教练端口发出。 比特率是 57600 与 S.Port "
+"解码器兼容，但必须将信号反相，以连接到一个标准 解码器。它可以直接连接到 3.3V FTDI 适配器的输入端。"
 
 #: ../../source/ch_protocols.rst:309
 msgid "*Frsky and FrskyX Extended Telemetry*"
-msgstr ""
+msgstr "*Frsky 和 FrskyX 扩展双向回传*"
 
 #: ../../source/ch_protocols.rst:310
 msgid ""
 "Extended telemetry refers to the hub and S.Port Frsky telemetry sensors.  "
 "These sensors are supported in all transmitters except the 7e.  They are "
 "available on the telemetry test pages and main page boxes."
-msgstr ""
+msgstr "扩展双向回传和 S.Port Frsky 回传传感器。除了Devo 7e外所有的遥控器都支持。他们可以在回传测试和主页面中查看。"
 
 #: ../../source/ch_protocols.rst:312
 msgid ""
@@ -807,6 +878,8 @@ msgid ""
 "the same type, but only one telemetry value is saved.  The value most "
 "recently received from all the sensors of the same type is reported."
 msgstr ""
+"FrskyX S.Port 双向回传支持连接多达 16 个相同类型的传感器(例如，电池 电压)。Deviation "
+"支持相同类型的多个传感器，但只有一个回传数值被保存。相 同类型的所有传感器接收到的最新的数值将会显示。"
 
 #: ../../source/ch_protocols.rst:314
 msgid ""
@@ -819,20 +892,20 @@ msgid ""
 "constant during a single day of flying in stable air."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:867
+#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:904
 msgid "*Telemetry test page*"
-msgstr ""
+msgstr "*双向回传测试页*"
 
-#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:873
+#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:910
 msgid "The CELL voltages are labeled C1-C5."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:876
+#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:913
 msgid ""
 "The following tables show the layout of the telemetry test page display."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:881
+#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:918
 msgid "Devo10"
 msgstr ""
 
@@ -841,7 +914,7 @@ msgid "Misc"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:336 ../../source/ch_protocols.rst:354
-#: ../../source/ch_protocols.rst:883
+#: ../../source/ch_protocols.rst:920
 msgid "Bat"
 msgstr ""
 
@@ -925,7 +998,7 @@ msgstr ""
 msgid "VARIO"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:886
+#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:923
 msgid "CURRENT"
 msgstr ""
 
@@ -957,7 +1030,7 @@ msgstr ""
 msgid ""
 "The ALTITUDE value is reported as Above Ground Level.  The ground level is "
 "set to the first altitude telemetry value received."
-msgstr ""
+msgstr "高度值为报告高于地面的数值。第一个接收到的海拔回传值被设置为地面。"
 
 #: ../../source/ch_protocols.rst:363
 msgid ""
@@ -967,23 +1040,25 @@ msgid ""
 " LQI is better and values under 50 are typical.  The LRSSI units is "
 "(approximately) dBm."
 msgstr ""
+"LQI(连接质量)和 LRSSI(本地 RSSI)表示接收回传信号的质量和信号强度。LQI回传值可以被用作调节频率的参考。LQI越低越好，数值小于 "
+"50是正常的。LRSSI 单位是(大约)dBm。"
 
 #: ../../source/ch_protocols.rst:365
 msgid ""
 "Derived values: MINCELL is the lowest reported CELL value.  ALLCELL is the "
 "total of all reported CELL values.  Discharge is total battery discharge "
 "amount in milliAmp-hours."
-msgstr ""
+msgstr "派生值:MINCELL 电芯最低电压的值。ALLCELL 是所有电芯电压的总值。DISCHARGE 是总电池放电量，单位为毫安/小时。"
 
 #: ../../source/ch_protocols.rst:371
 msgid "Protocol: \\*Skyartec"
-msgstr ""
+msgstr "协议:Skyartec"
 
 #: ../../source/ch_protocols.rst:372
 msgid ""
 "The Skyartec protocol is used to control Skyartec™ receivers and models. "
 "|cc2500-note|"
-msgstr ""
+msgstr "Skyartec 协议被用于控制 Skyartec™接收机和模型"
 
 #: ../../source/ch_protocols.rst:376
 msgid ""
@@ -991,17 +1066,19 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"Skyartec 协议支持多达 7 个通道，不支持自动对频。如果固定 ID 被设置为 无，遥控器会用特定的 ID "
+"来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:379
 msgid "Protocol: \\*Futaba S-FHSS"
-msgstr ""
+msgstr "协议:Futaba S-FHSS"
 
 #: ../../source/ch_protocols.rst:380
 msgid ""
 "The Futaba S-FHSS protocol is used to control Futaba™ receivers and models. "
 "It also used by some models of XK Innovations and has third party compatible"
 " receivers available. |cc2500-note|"
-msgstr ""
+msgstr "Futaba S-FHSS 协议被用于控制 Futaba™接收机和模型。它还可以用于 XK 的 某些型号，还有有第三方兼容接收器可用。"
 
 #: ../../source/ch_protocols.rst:384
 msgid ""
@@ -1009,6 +1086,7 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"S-FHSS协议支持多达 8个通道，并且只支持自动对频。如果固定 ID被设置 为无，遥控器会用特定的 ID 来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:386
 msgid ""
@@ -1016,6 +1094,7 @@ msgid ""
 " Rudder, Gear, Pitch, Aux1, and Aux2. So it is suitable for control of "
 "Collective Pitch (CP) helicopters."
 msgstr ""
+"传统的 Futaba 通道布局为:副翼，升降，油门，方向，Gear，Pitch，Aux1，和 Aux2。所以它适合控制同桨距(CP)直升机。"
 
 #: ../../source/ch_protocols.rst:388
 msgid ""
@@ -1023,28 +1102,31 @@ msgid ""
 " is actually used (data by reverse engineering using third party equipment)."
 " Temporal resolution is 6.8ms. No telemetry supported."
 msgstr ""
+"协议的分辨率是 1024(10bits)，所以很小的范围就可以使用(通过第三方设备逆向得到数据)。时间分辨率为 6.8ms。没有双向回传支持。"
 
 #: ../../source/ch_protocols.rst:392
 msgid "Protocol: \\*Corona"
-msgstr ""
+msgstr "协议:Corona"
 
 #: ../../source/ch_protocols.rst:393
 msgid ""
 "The Corona protocol supports Corona V1 and V2 receivers, and Flydream V3 "
 "receivers. |cc2500-note| |mod-install-link|"
 msgstr ""
+"Corona 协议支持 CoronaV1 和 V2 接收机，以及 Flydream V3 接收机。 |cc2500-note| |mod-"
+"install-link|"
 
 #: ../../source/ch_protocols.rst:395
 msgid ""
 "All the protocols support up to 8 channels.  Default channel order is AETR."
 "  No telemetry in the protocols."
-msgstr ""
+msgstr "所有协议都支持多达 8个通道。默认通道顺序是 AETR。协议没有双向回传。"
 
 #: ../../source/ch_protocols.rst:399
 msgid ""
 "**Format**: Protocol selection. Use V1 and V2 with Corona receivers.  Use "
 "FDV3 for Flydream V3."
-msgstr ""
+msgstr "**协议**：选择协议。Corona 接收机为 V1 和 V2，Flydream V3 为 FDV3。"
 
 #: ../../source/ch_protocols.rst:401 ../../source/ch_protocols.rst:414
 msgid ""
@@ -1053,6 +1135,8 @@ msgid ""
 "but full range should be tested if there are problems with binding or range."
 "  Default 0."
 msgstr ""
+"**频率微调**：频率偏移调节。范围从-127到 127调整，以适应不同的 CC2500模 块。一般偏移需要 0 "
+"或-41，但如果有对频或范围的问题，则需要进行全范围测试。默认为 0。"
 
 #: ../../source/ch_protocols.rst:405
 msgid "Protocol: \\*Hitec"
@@ -1079,12 +1163,12 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:418
 msgid "Protocol: \\*V202"
-msgstr ""
+msgstr "协议:V202"
 
 #: ../../source/ch_protocols.rst:419
 msgid ""
 "The V202 protocol supports the WLToys V202 quadracopter. |nrf24l01-note|"
-msgstr ""
+msgstr "V202 协议支持 WLToys V202 四轴飞行器。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:423
 msgid ""
@@ -1092,90 +1176,91 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"V202协议支持多达 12个通道，不支持自动对频。如果固定 ID被设置为 无，遥控器会用特定的 ID 来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:428
 msgid ""
 "The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control the quadracopter special functions:"
-msgstr ""
+msgstr "4 个通道分别为副翼，升降，油门，方向。添加通道控制四轴的特殊功能:"
 
 #: ../../source/ch_protocols.rst:430
 msgid "Channel 5 controls the blink speed"
-msgstr ""
+msgstr "通道 5 控制闪烁速度"
 
 #: ../../source/ch_protocols.rst:431
 msgid "Channel 6 enables ‘flip’ mode"
-msgstr ""
+msgstr "通道 6 使“翻滚”模式"
 
 #: ../../source/ch_protocols.rst:432
 msgid "Channel 7 takes still pictures"
-msgstr ""
+msgstr "通道 7拍摄图片"
 
 #: ../../source/ch_protocols.rst:433
 msgid "Channel 8 turns video on/off"
-msgstr ""
+msgstr "通道 8 视频打开/关闭"
 
 #: ../../source/ch_protocols.rst:434 ../../source/ch_protocols.rst:520
 #: ../../source/ch_protocols.rst:540 ../../source/ch_protocols.rst:558
 msgid "Channel 9 turns headless mode on/off"
-msgstr ""
+msgstr "通道 9 无头模式开/关"
 
 #: ../../source/ch_protocols.rst:435
 msgid "Channel 10 causes the x axis to calibrate"
-msgstr ""
+msgstr "通道 10校准 X轴"
 
 #: ../../source/ch_protocols.rst:436
 msgid "Channel 11 causes the y axis to calibrate"
-msgstr ""
+msgstr "通道 11校准 Y轴"
 
 #: ../../source/ch_protocols.rst:438
 msgid "If JXD-506 format is selected, channels 10-12 are used for:"
-msgstr ""
+msgstr "如果选择 JXD-506 格式，通道 10 到 12 被用于:"
 
 #: ../../source/ch_protocols.rst:440
 msgid "Channel 10 start/stop"
-msgstr ""
+msgstr "通道 10 启动/停止"
 
 #: ../../source/ch_protocols.rst:441
 msgid "Channel 11 emergency stop"
-msgstr ""
+msgstr "通道 11紧急停止"
 
 #: ../../source/ch_protocols.rst:442
 msgid "Channel 12 gimbal control"
-msgstr ""
+msgstr "通道 12云台控制"
 
 #: ../../source/ch_protocols.rst:444
 msgid ""
 "Also, models compatible with this format require the throttle stick to be "
 "centered before arming."
-msgstr ""
+msgstr "另外，在该兼容模式下，开机时需要将油门杆回到中心。"
 
 #: ../../source/ch_protocols.rst:447
 msgid "Protocol: \\*SLT"
-msgstr ""
+msgstr "协议:SLT"
 
 #: ../../source/ch_protocols.rst:448
 msgid ""
 "The SLT protocol is used to control TacticSLT/Anylink receivers. "
 "|nrf24l01-note|"
-msgstr ""
+msgstr "SLT 协议被用于控制 TacticSLT / Anylink 接收机。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:452
 msgid ""
 "The SLT protocol supports up to 6 channels, and only supports auto-binding."
 "  The fixed ID can be used, but does not prevent auto-binding during power-"
 "on."
-msgstr ""
+msgstr "SLT 协议支持多达 6 个通道，并且只支持自动对频。固定 ID 可以使用，但 通电期间不能阻止自动对频。"
 
 #: ../../source/ch_protocols.rst:457
 msgid "Protocol: \\*HiSky"
-msgstr ""
+msgstr "协议: \\*HiSky"
 
 #: ../../source/ch_protocols.rst:458
 msgid ""
 "The HiSky protocol is used to control HiSky brand models along with the "
 "WLToys v922 v955 models. |nrf24l01-note|"
-msgstr ""
+msgstr "HiSky 协议用于 HiSky 品牌模型和 WLToys v922 V955 型号模型。"
 
 #: ../../source/ch_protocols.rst:462
 msgid ""
@@ -1183,10 +1268,11 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"HiSky 协议支持多达 7 个通道，不支持自动对频。如果固定 ID 被设置为无， 遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:469
 msgid "Protocol: \\*YD717"
-msgstr ""
+msgstr "协议: \\*YD717"
 
 #: ../../source/ch_protocols.rst:470
 msgid ""
@@ -1195,17 +1281,19 @@ msgid ""
 "protocol options. See the Supported Modules spreadsheet for a complete list."
 " |nrf24l01-note|"
 msgstr ""
+"YD717 协议支持 YD717 和 Skybotz UFO 迷你四轴飞行器，以及 Sky Walker, XinXun, Ni Hui 的多种模型，和"
+" Syma 协议选项。请参阅支持模型的完整列表。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:474
 msgid ""
 "The YD717 protocol supports 9 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
-msgstr ""
+msgstr "YD717 协议支持 9 个通道，并且只支持自动对频。该协议对频时会一直停留在对频模式，直到成功为止。"
 
 #: ../../source/ch_protocols.rst:476 ../../source/ch_protocols.rst:496
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder."
-msgstr ""
+msgstr "前四个通道依次代表副翼，升降，油门，和方向。"
 
 #: ../../source/ch_protocols.rst:478
 msgid ""
@@ -1216,30 +1304,32 @@ msgid ""
 "direction initiates a flip in that direction. The YD717 requires at least "
 "four seconds between each auto-flip."
 msgstr ""
+"通道 5 大于零时为一键翻滚功能。另外，要想左/右翻滚，副翼通道数值应 该为 87 或更大。同样地，升降通道控制前/后翻滚。如果启用一键翻滚，摇 "
+"杆移动任何方向就开始朝这个方向翻滚。YD717 要求每次一键翻滚之间至少 间隔四秒钟。"
 
 #: ../../source/ch_protocols.rst:480
 msgid "The sixth channel turns on lights when greater than zero."
-msgstr ""
+msgstr "通道6大于零时接通灯"
 
 #: ../../source/ch_protocols.rst:482
 msgid ""
 "The seventh channel takes a picture on transition from negative to positive."
-msgstr ""
+msgstr "通道7接收到由低到高的变化时拍照。"
 
 #: ../../source/ch_protocols.rst:484 ../../source/ch_protocols.rst:504
 msgid ""
 "The eighth channel starts/stops video recording on each positive transition."
-msgstr ""
+msgstr "通道8每次拨动开关，开始/停止视频录制。"
 
 #: ../../source/ch_protocols.rst:486
 msgid ""
 "The ninth channel is assigned to last feature flag available in the "
 "protocol.  This may control headless mode on models that have the feature."
-msgstr ""
+msgstr "通道9被分配给协议可用的最后一个功能。这可能是控制特定模型的无头模式。"
 
 #: ../../source/ch_protocols.rst:489
 msgid "Protocol: \\*SymaX"
-msgstr ""
+msgstr "协议:SymaX"
 
 #: ../../source/ch_protocols.rst:490
 msgid ""
@@ -1249,79 +1339,82 @@ msgid ""
 "SymaX4 option in the YD717 protocol. ) See the Supported Modules spreadsheet"
 " for a complete list. |nrf24l01p-note|"
 msgstr ""
+"该协议用于司马(SymaX)机型:X5C-1，X11，X11C，X12，new X4，和new X6。原始的 X5C 和 X2 "
+"的协议被包括在协议选项里。(Syma X3，旧 X4，旧X6 在 YD717 协议的 SymaX4 选项里支持。)支持的模型见完整电子列表"
+"。|nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:494
 msgid "The SymaX protocol supports 9 channels and only supports auto-binding."
-msgstr ""
+msgstr "Symax 协议支持 9 个通道，并且只支持自动对频。"
 
 #: ../../source/ch_protocols.rst:498
 msgid "The fifth channel is unused."
-msgstr ""
+msgstr "通道 5未被使用。"
 
 #: ../../source/ch_protocols.rst:500
 msgid ""
 "The sixth channel enables the auto-flip function when greater than zero."
-msgstr ""
+msgstr "通道 6 大于零时为一键翻滚功能。"
 
 #: ../../source/ch_protocols.rst:502
 msgid ""
 "The seventh channel takes a picture when the channel moves from negative to "
 "positive."
-msgstr ""
+msgstr "通道 7 从负移动到正时拍照。"
 
 #: ../../source/ch_protocols.rst:506
 msgid "The ninth channel enables headless mode when positive."
-msgstr ""
+msgstr "通道 9 为正时为无头模式。"
 
 #: ../../source/ch_protocols.rst:509
 msgid "Protocol: \\*Hontai"
-msgstr ""
+msgstr "协议:Hontai"
 
 #: ../../source/ch_protocols.rst:510
 msgid "This protocol is used on Hontai models F801 and F803."
-msgstr ""
+msgstr "该协议用于在 Hontai F801 和 F803 模型。"
 
 #: ../../source/ch_protocols.rst:512 ../../source/ch_protocols.rst:532
 #: ../../source/ch_protocols.rst:550
 msgid "|nrf24l01p-note| |mod-install-link|"
-msgstr ""
+msgstr "|nrf24l01p-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:514 ../../source/ch_protocols.rst:534
 #: ../../source/ch_protocols.rst:552
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control special functions:"
-msgstr ""
+msgstr "前四个通道依次代表副翼，升降，油门，和方向。附加通道控制特殊功能:"
 
 #: ../../source/ch_protocols.rst:516 ../../source/ch_protocols.rst:554
 msgid "Channel 5 is unused"
-msgstr ""
+msgstr "通道 5未使用"
 
 #: ../../source/ch_protocols.rst:517 ../../source/ch_protocols.rst:537
 #: ../../source/ch_protocols.rst:555
 msgid "Channel 6 enables the flip function"
-msgstr ""
+msgstr "通道 6 为一键翻滚功能"
 
 #: ../../source/ch_protocols.rst:518
 msgid "Channel 7 takes a picture on positive transition through zero"
-msgstr ""
+msgstr "通道 7 由正到零时拍照"
 
 #: ../../source/ch_protocols.rst:519
 msgid "Channel 8 turns video on/off on positive transition"
-msgstr ""
+msgstr "通道 8 变为正时开启/关闭视频"
 
 #: ../../source/ch_protocols.rst:521 ../../source/ch_protocols.rst:541
 #: ../../source/ch_protocols.rst:559
 msgid "Channel 10 engages the return-to-home feature"
-msgstr ""
+msgstr "通道10进入回家模式"
 
 #: ../../source/ch_protocols.rst:522 ../../source/ch_protocols.rst:560
 msgid "Channel 11 initiates calibration"
-msgstr ""
+msgstr "通道 11启动校准"
 
 #: ../../source/ch_protocols.rst:525
 msgid "Protocol: \\*Bayang"
-msgstr ""
+msgstr "协议: \\*Bayang"
 
 #: ../../source/ch_protocols.rst:526
 msgid ""
@@ -1329,61 +1422,63 @@ msgid ""
 "JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and"
 " H606 (regular format)."
 msgstr ""
+"该协议用于在 BayangToys X6，X7，X8，X9，X16，Boldclash B03，JJRC / Eachine E011，H8，H9D "
+"v2，H10，Floureon H101 ，JJRC JJ850，JFH H601，和H606(常规格式)。"
 
 #: ../../source/ch_protocols.rst:528
 msgid ""
 "This protocol is used on BayangToys X16 with altitude hold (X16-AH format)."
-msgstr ""
+msgstr "该协议可以用于 BayangToys X16 并且可以高度保持(X16-AH 格式)。"
 
 #: ../../source/ch_protocols.rst:530
 msgid "This protocol is used on IRDRONE Ghost X5 (IRDRONE format)."
-msgstr ""
+msgstr "该协议 可以用于 IRDRONE Ghost X5(IRDRONE 格式)。"
 
 #: ../../source/ch_protocols.rst:536
 msgid "Channel 5 activates LEDs or inverted flight (Floureon H101)"
-msgstr ""
+msgstr "通道 5 激活 LED 或倒置飞行(Floureon H101)"
 
 #: ../../source/ch_protocols.rst:538
 msgid "Channel 7 captures single photo on positive transition"
-msgstr ""
+msgstr "通道 7 数值为正时拍摄单张照片"
 
 #: ../../source/ch_protocols.rst:539
 msgid "Channel 8 starts/stops video recording on positive transition"
-msgstr ""
+msgstr "通道 8 数值变为正时启动/停止视频录制"
 
 #: ../../source/ch_protocols.rst:542
 msgid "Channel 11 enables Take Off/Landing"
-msgstr ""
+msgstr "通道 11 起飞/着陆"
 
 #: ../../source/ch_protocols.rst:543
 msgid "Channel 12 activates emergency stop"
-msgstr ""
+msgstr "通道 12 紧急停机"
 
 #: ../../source/ch_protocols.rst:547
 msgid "Protocol: \\*FY326"
-msgstr ""
+msgstr "协议: \\*FY326"
 
 #: ../../source/ch_protocols.rst:548
 msgid "This protocol is used on FY326 red board."
-msgstr ""
+msgstr "该协议用于 FY326 红色板。"
 
 #: ../../source/ch_protocols.rst:556
 msgid "Channel 7 is unused"
-msgstr ""
+msgstr "通道 7未使用"
 
 #: ../../source/ch_protocols.rst:557
 msgid "Channel 8 is unused"
-msgstr ""
+msgstr "通道 8未使用"
 
 #: ../../source/ch_protocols.rst:563
 msgid "Protocol: \\*CFlie"
-msgstr ""
+msgstr "协议: \\*CFlie"
 
 #: ../../source/ch_protocols.rst:564
 msgid ""
 "The CFlie protocol is used on the CrazyFlie nano quad. It has not been "
 "tested with any other models. |nrf24l01p-note|"
-msgstr ""
+msgstr "CFlie 协议被用在 CrazyFlie 迷你四轴。它尚未与其他任何模型测试。|nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:569
 msgid ""
@@ -1391,16 +1486,17 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"CFlie 协议支持多达 4 个通道，不支持自动对频。如果固定 ID 被设置为无， 遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:576
 msgid "Protocol: \\*H377"
-msgstr ""
+msgstr "协议:H377"
 
 #: ../../source/ch_protocols.rst:577
 msgid ""
 "The H377 protocol supports the NiHui H377 6 channel helicopter. It has not "
 "been tested with any other models. |nrf24l01-note|"
-msgstr ""
+msgstr "H377 协议支持 NiHui H377 6 通道直升机。它尚未与其他任何模型测试。"
 
 #: ../../source/ch_protocols.rst:582
 msgid ""
@@ -1408,26 +1504,27 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"H377协议支持多达 7个通道，不支持自动对频。如果固定 ID被设置为无， 遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:589
 msgid "Protocol: \\*HM830"
-msgstr ""
+msgstr "协议: \\*HM830"
 
 #: ../../source/ch_protocols.rst:590
 msgid ""
 "The HM830 protocol supports the HM830 Folding A4 Paper airplane. It has not "
 "been tested with any other models. |nrf24l01-note|"
-msgstr ""
+msgstr "HM830 协议支持 HM830 A4 折叠纸飞机。它尚未与其他任何模型测试。"
 
 #: ../../source/ch_protocols.rst:595
 msgid ""
 "The HM830 protocol supports 5 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
-msgstr ""
+msgstr "HM830 协议支持 5 个通道，并且只支持自动对频。该协议对频时会一直停 留在对频模式，直到成功为止。"
 
 #: ../../source/ch_protocols.rst:600
 msgid "Protocol: \\*KN"
-msgstr ""
+msgstr "协议:KN"
 
 #: ../../source/ch_protocols.rst:601
 msgid ""
@@ -1436,6 +1533,8 @@ msgid ""
 "format) helicopters. It has not been tested with other models. |nrf24l01p-"
 "note|"
 msgstr ""
+"KN 协议被用在 WLToys V930，V931，V966，V977 和 V988(WLToys 模式) 以及 Feilun "
+"FX067C，FX070C 和 FX071C(Feilun 模式)直升机。它尚未与其他任 何模型测试。 |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:607
 msgid ""
@@ -1443,6 +1542,7 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"KN 协议支持多达 11 个通道，不支持自动对频。如果固定 ID 被设置为无， 遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:612
 msgid ""
@@ -1452,10 +1552,12 @@ msgid ""
 "between 6G (default) and 3G stabilization. Channel 9-11 are trim channels "
 "for throttle/pitch, elevator and rudder."
 msgstr ""
+"通道 1-4 依次是油门，副翼，升降和方向。通道 5 控制模型的内置双速率。通道 6 控制油门保持。通道 7 控制熄火(只有 WLToys "
+"V931，V966 和 V977)。通道 8 间 6G(默认)和 3G 稳定模式之间切换。通道 9-11 是微调通道，用于油门/螺距，升降舵和方向舵。"
 
 #: ../../source/ch_protocols.rst:620
 msgid "Protocol: \\*ESky150"
-msgstr ""
+msgstr "协议: \\*ESky150"
 
 #: ../../source/ch_protocols.rst:621
 msgid ""
@@ -1463,6 +1565,7 @@ msgid ""
 "(150, 300, 150X). It has not been tested with any other models. "
 "|nrf24l01-note|"
 msgstr ""
+"ESky150协议支持 2014年起发布的微型 ESKY模型(150，300，150X)。它 尚未与其他任何模型测试。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:626
 msgid ""
@@ -1470,6 +1573,8 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"Esky150 协议支持多达 7 个通道，并且不支持自动对频。如果固定 ID 被设 置为无，遥控器会用特定的 ID "
+"来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:631
 msgid ""
@@ -1477,20 +1582,22 @@ msgid ""
 " mode  (1 bit switch with only two states). Channel 6 is not yet used on any"
 " of the tested models. Channel 7 is a 2 bit switch (4 states)."
 msgstr ""
+"通道 1-4 是油门，副翼，升降和方向。通道 5 是飞行模式(1 位开关仅具有两个状态)。通道 6 测试的模型没有任何作用。通道 7是一个 "
+"2位开关(4种状态)。"
 
 #: ../../source/ch_protocols.rst:636
 msgid ""
 "It is important if you have a 4 channel model, to configure that your model "
 "only has 4 channels, otherwise the throttle values can go crazy."
-msgstr ""
+msgstr "设置你的模型为 4 通道，如果你有一个 4 通道模型，这是很重要的，否则 油门值会错误。"
 
 #: ../../source/ch_protocols.rst:641
 msgid "Protocol: \\*Esky"
-msgstr ""
+msgstr "协议:Esky"
 
 #: ../../source/ch_protocols.rst:642
 msgid "Needs to be completed. |nrf24l01-note|"
-msgstr ""
+msgstr "需要完成。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:646
 msgid ""
@@ -1498,16 +1605,17 @@ msgid ""
 "  If Fixed ID is set to None, a transmitter-specific ID is used instead.  It"
 " is necessary to manually bind each model before the first use."
 msgstr ""
+"ESKY协议支持多达 6个通道，不支持自动对频。如果固定 ID被设置为无， 遥控器会用特定的 ID来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:652
 msgid "Protocol: \\*BlueFly"
-msgstr ""
+msgstr "协议: \\*BlueFly"
 
 #: ../../source/ch_protocols.rst:653
 msgid ""
 "The BlueFly protocol is used with the Blue-Fly HP100. It has not been tested"
 " with any other models. |nrf24l01p-note|"
-msgstr ""
+msgstr "BlueFly 协议用于 BlueFly HP100。它尚未与其他任何模型测试。"
 
 #: ../../source/ch_protocols.rst:658
 msgid ""
@@ -1515,153 +1623,159 @@ msgid ""
 "binding.  If Fixed ID is set to None, a transmitter-specific ID is used "
 "instead.  It is necessary to manually bind each model before the first use."
 msgstr ""
+"BlueFly协议支持多达 6个通道，不支持自动对频。如果固定 ID被设置为 无，遥控器会用特定的 ID 来代替。需要在第一次使用模型之前手动对频。"
 
 #: ../../source/ch_protocols.rst:664
 msgid "Protocol: \\*CX10"
-msgstr ""
+msgstr "协议: \\*CX10"
 
 #: ../../source/ch_protocols.rst:665
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
-msgstr ""
+msgstr "CX10 格式支持澄星(Cheerson) CX10 四轴飞行器。"
 
 #: ../../source/ch_protocols.rst:669
 msgid ""
 "The CX10 protocol supports 9 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful. The first four channels are "
 "Aileron, Elevator, Throttle and Rudder."
-msgstr ""
+msgstr "CX10 协议支持 9 个通道，并且只支持自动对频。该协议对频时会一直停留在对频模式，直到成功为止。"
 
 #: ../../source/ch_protocols.rst:673
 msgid "Channel 5 is Rate except on the CX-10A, where it is headless mode."
-msgstr ""
+msgstr "通道 5 是速度。CX-10A 为无头模式。"
 
 #: ../../source/ch_protocols.rst:675
 msgid "Channel 6 is flip mode."
-msgstr ""
+msgstr "通道 6 是一键翻滚。"
 
 #: ../../source/ch_protocols.rst:677
 msgid ""
 "The DM007 format also uses channel 7 for the still camera, channel 8 for the"
 " video camera and channel 9 for headless mode."
-msgstr ""
+msgstr "DM007 模式还使用了通道 7照相。通道 8 视频摄像机。通道 9无头模式。"
 
 #: ../../source/ch_protocols.rst:680
 msgid ""
 "The protocol has a Format option for the Blue-A, Green, DM007, Q282, "
 "JC3015-1, JC3015-2, MK33041 and Q242 quadcopters."
 msgstr ""
+"该协议模式选项有 Blue-A，Green，DM007，Q282，JC3015-1，JC3015-2，MK33041 和 Q242 四轴飞行器。"
 
 #: ../../source/ch_protocols.rst:684
 msgid "Protocol: \\*CG023"
-msgstr ""
+msgstr "协议: \\*CG023"
 
 #: ../../source/ch_protocols.rst:685
 msgid ""
 "The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has "
 "not been tested on other models. |nrf24l01-note|"
-msgstr ""
+msgstr "CG023 协议支持 Eachine CG023 和 3D X4 四轴飞行器。其他模型没有进行 测试。"
 
 #: ../../source/ch_protocols.rst:690
 msgid "The CG023 protocol supports 9 channels and only supports auto-binding."
-msgstr ""
+msgstr "CG023 协议支持 9 个通道，并且只支持自动对频。"
 
 #: ../../source/ch_protocols.rst:693 ../../source/ch_protocols.rst:717
 #: ../../source/ch_protocols.rst:747 ../../source/ch_protocols.rst:795
-#: ../../source/ch_protocols.rst:810
+#: ../../source/ch_protocols.rst:810 ../../source/ch_protocols.rst:826
+#: ../../source/ch_protocols.rst:838
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
-msgstr ""
+msgstr "通道 1-4 依次是副翼，升降，油门和方向。"
 
 #: ../../source/ch_protocols.rst:695 ../../source/ch_protocols.rst:719
 msgid "Channel 5 controls the LEDs."
-msgstr ""
+msgstr "通道 5控制 LED。"
 
 #: ../../source/ch_protocols.rst:697 ../../source/ch_protocols.rst:721
 #: ../../source/ch_protocols.rst:751
 msgid "Channel 6 controls Flip mode."
-msgstr ""
+msgstr "通道 6 控制一键翻滚模式。"
 
 #: ../../source/ch_protocols.rst:699 ../../source/ch_protocols.rst:723
 #: ../../source/ch_protocols.rst:753
 msgid "Channel 7 controls the still camera"
-msgstr ""
+msgstr "通道 7控制相机"
 
 #: ../../source/ch_protocols.rst:701 ../../source/ch_protocols.rst:725
 #: ../../source/ch_protocols.rst:755
 msgid "Channel 8 controls the video camera."
-msgstr ""
+msgstr "通道 8 控制摄像机。"
 
 #: ../../source/ch_protocols.rst:703 ../../source/ch_protocols.rst:727
 #: ../../source/ch_protocols.rst:757
 msgid "Channel 9 controls headless mode."
-msgstr ""
+msgstr "通道 9 控制无头模式。"
 
 #: ../../source/ch_protocols.rst:705
 msgid "The protocol has a Format option for the YD829 quadcopter."
-msgstr ""
+msgstr "该协议模式选项有 YD829 四轴飞行器。"
 
 #: ../../source/ch_protocols.rst:708
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "协议: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:709
 msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"H8_3D 协议支持 Eachine H8 3D，JJRC H20 和 H11D 四轴飞行器。其他模型没 有进行测试。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:714
 msgid ""
 "The H8_3D protocol supports 11 channels and only supports auto-binding."
-msgstr ""
+msgstr "H8_3D 协议支持 11 个通道，并且只支持自动对频。"
 
 #: ../../source/ch_protocols.rst:729
 msgid "Channel 10 controls RTH mode."
-msgstr ""
+msgstr "通道 10 控制一键返航模式。"
 
 #: ../../source/ch_protocols.rst:731
 msgid "Channel 11 controls camera gimball on H11D and has 3 positions."
-msgstr ""
+msgstr "通道 11 控制H11D 上相机云台，有 3 个位置。"
 
 #: ../../source/ch_protocols.rst:733
 msgid ""
 "Both sticks bottom left starts accelerometer calibration on H8 3D, or "
 "headless calibration on H20."
-msgstr ""
+msgstr "两个摇杆打到左下角，开始 H8 3D 的加速度计校准，或 H20 的无头校准。"
 
 #: ../../source/ch_protocols.rst:735
 msgid ""
 "Both sticks bottom right starts accelerometer calibration on H20 and H11D."
-msgstr ""
+msgstr "两个摇杆打到右下角，开始 H20 和 H11D 的加速度计校准。"
 
 #: ../../source/ch_protocols.rst:738
 msgid "Protocol: \\*MJXq"
-msgstr ""
+msgstr "协议: \\*MJXq"
 
 #: ../../source/ch_protocols.rst:739
 msgid ""
 "The MJXq protocol supports the MJX quadcopters. It also has format options "
 "for Weilihua WLH08, EAchine E010 and JJRC H26D / H26WH. |nrf24l01-note|"
 msgstr ""
+"MJXq 协议支持美嘉欣(MJX)四轴飞行器。模式选项还有 Weilihua WLH08，EAchine E010 和 JJRC H26D / "
+"H26WH。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:744
 msgid "The MJXq protocol supports 12 channels and only supports auto-binding."
-msgstr ""
+msgstr "MJXq协议支持 12个通道，并且只支持自动对频。"
 
 #: ../../source/ch_protocols.rst:749
 msgid "Channel 5 controls LEDs, or arm if H26WH format is selected."
-msgstr ""
+msgstr "通道 5 控制 LED，如果 H26WH 模式时为 arm。"
 
 #: ../../source/ch_protocols.rst:759
 msgid "Channel 10 controls RTH mode"
-msgstr ""
+msgstr "通道 10 控制一键返航模式。"
 
 #: ../../source/ch_protocols.rst:761
 msgid "Channel 11 controls autoflip (X600 & X800 formats) or camera pan"
-msgstr ""
+msgstr "通道 11 控制一键翻滚(X600&X800 模式)或相机转动"
 
 #: ../../source/ch_protocols.rst:763
 msgid "Channel 12 controls camera tilt"
-msgstr ""
+msgstr "通道 12 控制相机倾斜。"
 
 #: ../../source/ch_protocols.rst:766
 msgid "Protocol: \\*Bugs3Mini"
@@ -1721,57 +1835,120 @@ msgid "Led light is controlled by Channel 6"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:819
-msgid "Protocol: PPM"
+msgid "Protocol: \\*NCC1701"
 msgstr ""
 
 #: ../../source/ch_protocols.rst:820
+msgid ""
+"The NCC1701 protocol is used to control the Air Hog Star Strek NCC-1701 "
+"quadcopter.  |nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:824
+msgid ""
+"The NCC1701 protocol supports 5 channels and only supports auto binding."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:828
+msgid "Warp is controlled by Channel 5"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:831
+msgid "Protocol: \\*V911S"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:832
+msgid ""
+"The V911S protocol is used to control the WL Toys V911-S helicopter.  "
+"|nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:836
+msgid ""
+"The V911S protocol supports 5 channels. The receiver must be bound manually "
+"one-time using the ‘Bind’ button, after which it should stay bound."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:840
+msgid "Calibration is controlled by Channel 5"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:843
+msgid "Protocol: \\*GD00X"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:844
+msgid ""
+"The GD00X protocol is used to control the C17 C-17 Transport and GD006 "
+"Diamond DA62 fixed wings.  |nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:848
+msgid "The GD00X protocol supports 5 channels and only supports auto binding."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:850
+msgid ""
+"The first four channels are Aileron, Elevator, Throttle and Rudder. Only "
+"throttle and aileron channels are used by the model."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:856
+msgid "Protocol: PPM"
+msgstr "协议:PPM"
+
+#: ../../source/ch_protocols.rst:857
 msgid ""
 "The PPM protocol is used to output PPM on the trainer port.  It will disable"
 " all radio transmission.  PPM is useful for connecting to simulators, or "
 "other radio-modules that plug into the trainer port.  The Fixed ID has no "
 "effect, and there is no binding associated with this protocol."
 msgstr ""
+"PPM协议用于在教练口输出 PPM。这将禁用所有的无线传输。PPM是用于 模拟器或者其他连接到教练端口的遥控机。固定 ID 没有任何作用，并且此协议 "
+"不需要对频。"
 
-#: ../../source/ch_protocols.rst:827
+#: ../../source/ch_protocols.rst:864
 msgid "Options configurable on the PPM page:"
-msgstr ""
+msgstr "PPM 页面上配置的选项:"
 
-#: ../../source/ch_protocols.rst:830
+#: ../../source/ch_protocols.rst:867
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the transmitter "
 "transmits to represent to represent centered servo position.  If this number"
 " doesn’t match the master transmitter, the servos will not be centered."
-msgstr ""
+msgstr "**中点脉宽**：定义学生遥控器发射代表舵机中心位置的脉冲时间(微秒)。如果 这个数字和学生遥控器不匹配，舵机不会回中。"
 
-#: ../../source/ch_protocols.rst:832
+#: ../../source/ch_protocols.rst:869
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the transmitter to define max servo throw.  If this value is incorrect, the "
 "servos will not achieve full range (or will travel too much)"
-msgstr ""
+msgstr "**脉宽变化**：定义学生遥控器发射代表舵机最大位置的脉冲宽度(从中心测 量)。如果该值不正确，舵机不会满舵(或摆动太大)。"
 
-#: ../../source/ch_protocols.rst:834
+#: ../../source/ch_protocols.rst:871
 msgid "**Notch PW**: Defines the delay between the channels."
-msgstr ""
+msgstr "**通道间隔**：定义通道之间的延迟。"
 
-#: ../../source/ch_protocols.rst:836
+#: ../../source/ch_protocols.rst:873
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
-msgstr ""
+msgstr "**总脉宽**：定义所有通道要传送的总时间。"
 
-#: ../../source/ch_protocols.rst:838
+#: ../../source/ch_protocols.rst:875
 msgid ""
 "Deviation does not auto-detect when a trainer cord is plugged into the "
 "transmitter.  To use Deviation with a simulator (such as Phoenix), create a "
 "new model, name it appropriately, and select PPM as the protocol.  Use the "
 "Re-Init button or power-cycle to enable PPM."
 msgstr ""
+"当教练线插入遥控器时 Deviation 不自动检测。使用 Deviation 连接模拟器 (例如 "
+"Phoenix)，创建新的模型，写上适当的名字，然后选择 PPM 作为协议。 使用初始化按钮或重新启用遥控器开启 PPM。"
 
-#: ../../source/ch_protocols.rst:843
+#: ../../source/ch_protocols.rst:880
 msgid "Protocol: USBHID"
-msgstr ""
+msgstr "协议:USBHID"
 
-#: ../../source/ch_protocols.rst:844
+#: ../../source/ch_protocols.rst:881
 msgid ""
 "The USBHID protocol will convert he transmitter into a USB joystick.  "
 "Connecting the transmitter to a PC via the USB cable will enable the "
@@ -1780,12 +1957,14 @@ msgid ""
 "input. Some initial calibration may be necessary and is accomplished via the"
 " control panel applet of your operating system."
 msgstr ""
+"USBHID协议将遥控器转换成 USB操纵杆。通过 USB线连接遥控器到 PC， 使被检测到的遥控器变为计算机操纵杆。这使遥控器可以控制任何支持操纵杆输"
+" 入的模拟器。需要进行一些初始校准，可以通过操作系统的控制面板小程序来完 成。"
 
-#: ../../source/ch_protocols.rst:847
+#: ../../source/ch_protocols.rst:884
 msgid "Protocol: SBUS"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:848
+#: ../../source/ch_protocols.rst:885
 msgid ""
 "The SBUS protocol sends serial data on the transmitter's trainer port (tip "
 "connector).  The trainer port ring is ground. On the T8SG PLUS transmitter "
@@ -1795,11 +1974,11 @@ msgid ""
 " bits, even parity, two stop bits."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:855
+#: ../../source/ch_protocols.rst:892
 msgid "Protocol: CRSF (Crossfire)"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:856
+#: ../../source/ch_protocols.rst:893
 msgid ""
 "The CRSF protocol sends Crossfire protocol serial data on the transmitter's "
 "trainer port (tip connector).  The trainer port ring is ground. On the T8SG "
@@ -1809,81 +1988,81 @@ msgid ""
 "the top and bottom pins together. Up to sixteen channels are supported."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:862
+#: ../../source/ch_protocols.rst:899
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:865
+#: ../../source/ch_protocols.rst:902
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:883
+#: ../../source/ch_protocols.rst:920
 msgid "RX"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:883
+#: ../../source/ch_protocols.rst:920
 msgid "TX"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:885
+#: ../../source/ch_protocols.rst:922
 msgid "RxRSSI"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:885
+#: ../../source/ch_protocols.rst:922
 msgid "TxRSSI"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:885
+#: ../../source/ch_protocols.rst:922
 msgid "VBATT"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:886
+#: ../../source/ch_protocols.rst:923
 msgid "RSSI2"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:886
+#: ../../source/ch_protocols.rst:923
 msgid "TxPOWER"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:887
+#: ../../source/ch_protocols.rst:924
 msgid "RxSNR"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:887
+#: ../../source/ch_protocols.rst:924
 msgid "TxSNR"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:887
+#: ../../source/ch_protocols.rst:924
 msgid "CAPACITY"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:888
+#: ../../source/ch_protocols.rst:925
 msgid "RxQUAL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:888
+#: ../../source/ch_protocols.rst:925
 msgid "TxQUAL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:888
+#: ../../source/ch_protocols.rst:925
 msgid "FMODE"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:889
+#: ../../source/ch_protocols.rst:926
 msgid "PITCH"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:889
+#: ../../source/ch_protocols.rst:926
 msgid "ROLL"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:889
+#: ../../source/ch_protocols.rst:926
 msgid "YAW"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:890
+#: ../../source/ch_protocols.rst:927
 msgid "RFMODE"
 msgstr ""

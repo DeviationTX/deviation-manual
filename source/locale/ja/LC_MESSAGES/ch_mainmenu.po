@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
+"PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/ch_mainmenu.rst:6
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: ../../source/ch_mainmenu.rst:10
+msgid ""
+"The main menu selections of the Deviation firmware are accessed by "
+"momentarily pressing the ENT button on the bottom right of the transmitter. "
+"The main menu consists of the following four options: Model menu, "
+"Transmitter menu, USB and About Deviation."
+msgstr ""
+"Deviationファームウェアのメインメニュー選択は、送信機のの右下にある「ENT」ボタンを短く押すことによってアクセスされます。メインメニューは次の4つのオプションで構成されています:"
+" モデルメニュー、送信機メニュー、USB、About Deviation。"
+
+#: ../../source/ch_mainmenu.rst:12
+msgid ""
+"All settings which pertain to the usage of your Devention transmitter are "
+"accessed from the main menu. They include model options, language selection,"
+" display options, buzzer, vibration, stick mode, calibration, USB "
+"connectivity as well as version information."
+msgstr ""
+"Devention送信機の使用方法に関するすべての設定には、メインメニューからアクセスします。モデル情報、言語選択、表示オプション、ブザー、バイブレーション、スティックモード、キャリブレーション、USB接続、バージョン情報などのメニューがあります。"
+
+#: ../../source/ch_mainmenu.rst:15
+msgid "Model menu"
+msgstr "Model menu"
+
+#: ../../source/ch_mainmenu.rst:16
+msgid ""
+"The model menu is the area within Deviation that you can configure the type "
+"of aircraft you are flying. All model data is managed and saved within this "
+"menu selection. Details of the menu are located in section :ref:`model-"
+"menu`."
+msgstr ""
+"モデルメニューは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
+" :ref:`model-menu` にあります。"
+
+#: ../../source/ch_mainmenu.rst:19
+msgid "Transmitter menu"
+msgstr "Transmitter menu"
+
+#: ../../source/ch_mainmenu.rst:20
+msgid ""
+"The transmitter menu allows you to select transmitter-specific options as "
+"well as monitor channel output & stick input, and monitor telemetry (if "
+"available). Details of the menu are located in section :ref:`transmitter-"
+"menu`."
+msgstr ""
+"送信機メニューでは、送信機固有のオプションを選択したり、チャンネル出力とスティック入力をモニターしたり、テレメトリーを監視したりできます(利用可能な場合のみ)。メニューの詳細は項目"
+" :ref:`transmitter-menu` にあります。"
+
+#: ../../source/ch_mainmenu.rst:23
+msgid "USB"
+msgstr "USB"
+
+#: ../../source/ch_mainmenu.rst:27
+msgid ""
+"The USB page can be accessed by selecting ‘USB’ from the main menu. USB mode"
+" can then be toggled on/off to enable access to the transmitter’s file-"
+"system from a USB equipped computer. In this mode the file system of "
+"Deviation is accessible as a mass storage device. This will allow you to "
+"move files back and forth between the Deviation file-system and a PC. All "
+"configuration files are accessible in this mode."
+msgstr ""
+"USB項にアクセスするには、メインメニューから「USB」を選択します。USB "
+"modeをON/OFFに切り替えて、USB搭載PCから送信機のファイルシステムにアクセスすることができます。このモードでは、Deviationのファイルシステムへストレージデバイスとしてアクセス可能です。これにより、DeviationファイルシステムとPCの間でファイルをやり取りができ、またすべての設定ファイルにアクセスができます。"
+
+#: ../../source/ch_mainmenu.rst:31
+msgid ""
+"NOTE: Entering USB mode should never be done while the model is bound, USB "
+"usage will disrupt signal transmission!"
+msgstr "注: USB modeは機体とバインドされている間は決して行わないでください。USB modeが使用されると送信信号が混信します！"
+
+#: ../../source/ch_mainmenu.rst:34
+msgid "About Deviation"
+msgstr "About Deviation"
+
+#: ../../source/ch_mainmenu.rst:38
+msgid ""
+"The Deviation release version can be accessed by selecting ‘About Deviation’"
+" from the main menu."
+msgstr "Deviationリリースバージョンは、メインメニューから「About Deviation」を選択してアクセスできます。"

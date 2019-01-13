@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
+"PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/ch_advanced.rst:4
+msgid "Advanced Topics"
+msgstr "拡張トピックス"
+
+#: ../../source/ch_advanced.rst:9
+msgid "Setting up a Buddy-Box"
+msgstr "バディボックス設定"
+
+#: ../../source/ch_advanced.rst:10
+msgid ""
+"Deviation can be used to act as either the instructor (master) or student "
+"(slave) transmitter in a buddy-box configuration.  In this mode, the "
+"instructor and student connect their respective transmitters together with a"
+" trainer cord via the DSC port.  The instructor’s transmitter will actually "
+"communicate with the model, but the instructor can use a switch to allow the"
+" student to control the model.  When the switch is enabled, the student’s "
+"transmitter sends input (stick) information through the trainer cord to the "
+"instructor’s transmitter and these inputs replace the instructor’s inputs."
+msgstr ""
+"Deviationはインストラクター(マスター)、または受講者(スレーブ)送信機のいずれかのバディボックス設定で動作するために使用します。このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に(スティック)入力情報を送信し、これらの入力信号はインストラクターの入力信号を置き換えます。"
+
+#: ../../source/ch_advanced.rst:12
+msgid ""
+"Deviation can be configured to work with virtually any transmitter that "
+"supports either master or slave mode.  Matching Deviation to a different "
+"manufacturer requires knowing the PPM parameters for the paired transmitter,"
+" and properly configuring the ‘Center PW’ and ‘Delta PW’ properly as well as"
+" knowing how many channels are transmitted and what the channel ordering is."
+"  The best place to find this information is to ask on the "
+"www.deviationtx.com forums."
+msgstr ""
+"Deviationは、マスターモードまたはスレーブモードのいずれかをサポートしているほとんどの送信機で動作するよう設定が可能です。別メーカー間によるDeviationの組み合わせの場合は、ペアとなる送信機のPPMパラメータを確認する必要があります。また「Center"
+" PW」と「Delta "
+"PW」を適切に設定するだけでなく、送信されるチャンネル数とチャンネルの順序が分かります。この情報を確認する最も良い場所である、www.deviationtx.com"
+" フォーラムで尋ねてみてください。"
+
+#: ../../source/ch_advanced.rst:15
+msgid "Master Mode"
+msgstr "マスターモード"
+
+#: ../../source/ch_advanced.rst:16
+msgid ""
+"Master mode is configured by selecting either ‘Channel’ or ‘Stick’ from the "
+"‘PPM In’ spin-box in section :ref:`model-setup`. Pressing ‘ENT’ on either "
+"‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
+"slightly differently:"
+msgstr ""
+"マスターモードは、項目 :ref:`model-setup`の「PPM "
+"In」スピンボックスから「Channel」または「Stick」のいずれかを選択して設定します。「Stick」または「Channel」で「ENT」を押すと、「Trainer"
+" Cfg」ページが表示されます。2つのモードの動作は若干異なります:"
+
+#: ../../source/ch_advanced.rst:21
+msgid ""
+"**Stick**: In stick mode, each input channel is mapped to a stick on the "
+"master transmitter.  In this mode, the student moving the stick will behave "
+"exactly as if the instructor had moved the stick. Generally when using this "
+"mode, the student’s transmitter will directly pass the stick position (no "
+"mixing) and the instructor’s transmitter will do all necessary mixing."
+msgstr ""
+"**Stick**: "
+"スティックモードでは、各入力チャンネルはマスター送信機のスティックにマッピングされます。このモードでは、スティックを動かしている受講者は、インストラクターがスティックを動かした時とまったく同じように動作します。一般にこのモードを使用すると、受講者の送信機はスティックポジション信号(ミキシングなし)を直接通過し、インストラクターの送信機側で必要なミキシングをすべて行います。"
+
+#: ../../source/ch_advanced.rst:26
+msgid ""
+"**Channel**: In channel mode, each input channel is mapped to an output "
+"channel on the instructor’s transmitter.  In this mode, the student’s "
+"transmitter should do all necessary mixing to control the model.  Care must "
+"be taken to ensure that the instructor and student transmitters are "
+"configured identically, otherwise, the model may not react well when "
+"switching between instructor and student control."
+msgstr ""
+"**Channel**: "
+"チャンネルモードでは、各入力チャンネルはインストラクターの送信機上の出力チャンネルにマッピングされます。このモードでは受講者の送信機は、機体モデル制御に必要なすべてのミキシングを行う必要があります。インストラクターと受講者の送信機が同じように設定されていることを注意して確認してください。そうでないとインストラクターと受講者のコントロールを切り替える際、機体モデルがうまく反応しない場合があります。"
+
+#: ../../source/ch_advanced.rst:28
+msgid "Options configurable on both Trainer Cfg pages:"
+msgstr "それぞれの「Trainer Cfg」ページで設定可能なオプション:"
+
+#: ../../source/ch_advanced.rst:30
+msgid ""
+"**Center PW**: Defines the time (in µsec) of the pulse that the student’s "
+"transmitter transmits to represent centered servo position.  If this number "
+"doesn’t match the students transmitter, the servos will not be centered"
+msgstr ""
+"**Center PW**: "
+"受講者の送信機がセンターへサーボ位置調整するために送信するパルス時間(μSec)を定義します。この数値が受講者の送信機と一致しない場合、サーボは中央に配置されません。"
+
+#: ../../source/ch_advanced.rst:32
+msgid ""
+"**Delta PW**: Defines the width of the pulse (measured from center) sent by "
+"the student’s transmitter to define max servo throw.  If this value is "
+"incorrect, the servos will not achieve full range (or will travel too much)"
+msgstr ""
+"**Delta PW**: "
+"最大サーボスロー値を定義するために、受講者の送信機から送信されるパルス幅(中央からの値)を定義します。この値が間違っていると、サーボがフルレンジ設定(または最適なトラベル値)となりません。"
+
+#: ../../source/ch_advanced.rst:34
+msgid ""
+"**Trainer Sw**: Defines the switch that enables the student to take control "
+"of the model"
+msgstr "**Trainer Sw**: 受講者が機体モデルを制御できるようにするスイッチを定義します。"
+
+#: ../../source/ch_advanced.rst:36
+msgid ""
+"**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
+"student’s transmitter to the instructor’s"
+msgstr "**PPM1...PPM8**: 受講者の送信機からインストラクターのマッピング(チャンネルまたは入力のいずれか)を定義します。"
+
+#: ../../source/ch_advanced.rst:39
+msgid "Slave Mode"
+msgstr "スレーブモード"
+
+#: ../../source/ch_advanced.rst:40
+msgid ""
+"Slave mode is configured by choosing ‘PPM’ as the protocol in section :ref"
+":`model-setup`.  Pressing ‘ENT’ on the Protocol spin-box will enable setting"
+" the output options.  See section :ref:`protocol-ppm` for configuration.  "
+"Note that Deviation will send the channel output data through the PPM.  To "
+"use a Deviation slave transmitter with a Deviation Master configured for "
+"‘Stick’ mode (see above), there should be no mixing done in the slave "
+"transmitter."
+msgstr ""
+"スレーブモードは、項目 :ref:`model-"
+"setup`のプロトコルとして「PPM」を選択することで設定します。プロトコルのスピンボックスで「ENT」を押すと、出力オプションを設定できます。設定については、項目"
+" :ref:`protocol-"
+"ppm`を参照してください。Deviationは、チャンネル出力データをPPMを介して送信していることにご注意ください。「Stick」モード(上記参照)に設定されたDeviationマスターを備えたDeviationスレーブ送信機を使用するには、スレーブ送信機側でミキシングを行わないでください。"
+
+#: ../../source/ch_advanced.rst:45
+msgid "Setting Up FPV or Other External Inputs"
+msgstr "FPVまたは他外部入力の設定"
+
+#: ../../source/ch_advanced.rst:50
+msgid ""
+"Deviation has the ability to use PPM input signals from an external source "
+"(such as an FPV setup).  To configure this mode, set the PPM In mode to "
+"‘Extend’ in section :ref:`model-setup`."
+msgstr ""
+"Deviationには、外部ソース(FPV設定等)からのPPM入力信号を使用する機能があります。このモードを設定するには、項目 :ref:`model-"
+"setup`でPPM Inモードを「Extend」に設定します。"
+
+#: ../../source/ch_advanced.rst:52
+msgid ""
+"Once enabled, press ‘ENT’ on the PPM In spin-box to configure the additional"
+" inputs."
+msgstr "有効になったら、PPM Inスピンボックスの「ENT」を押して追加入力を設定します。"
+
+#: ../../source/ch_advanced.rst:54
+msgid "Configuration options:"
+msgstr "設定オプション:"
+
+#: ../../source/ch_advanced.rst:56
+msgid "**Center PW**: Defines the pulse-width for a centered input (in µsec)."
+msgstr "**Center PW**: センタリングされた入力のパルス幅を定義します(μSec)。"
+
+#: ../../source/ch_advanced.rst:57
+msgid ""
+"**Delta PW**: Defines the difference in pulse-width (from the center value) "
+"to reach min/max servo throw"
+msgstr "**Delta PW**: サーボスローの最小値 / 最大値に到達するパルス幅の差異(中心値からの差)を定義します。"
+
+#: ../../source/ch_advanced.rst:58
+msgid ""
+"**Num Channels**: Defines the number of channels to input (generally no more"
+" than 8 can be supported)"
+msgstr "**Num Channels**: 入力チャンネル数を定義します。(一般的には8ch以上は非サポート)"
+
+#: ../../source/ch_advanced.rst:63
+msgid "Using a Trim as a Virtual Switch"
+msgstr "仮想スイッチとしてのトリムの使用"
+
+#: ../../source/ch_advanced.rst:64
+msgid ""
+"Deviation has the capability to create virtual switches to supplement the "
+"mechanical switches of the transmitter.  This capability is only available "
+"when using the Advanced GUI.  There are 3 types of switches available:"
+msgstr ""
+"Deviationには、送信機の物理スイッチを補うための仮想スイッチを作成する機能があります。この機能は、拡張GUIを使用している場合にのみ利用可能です。スイッチには3種類あります。"
+
+#: ../../source/ch_advanced.rst:66
+msgid ""
+"**Momentary**: The switch will be active only as long as the trim button is "
+"held"
+msgstr "**Momentary**: トリムボタンが押されている間だけスイッチが有効になります。"
+
+#: ../../source/ch_advanced.rst:67
+msgid ""
+"**Toggle**: The switch will toggle from on-to-off or off-to-on each time the"
+" trim button is pressed"
+msgstr "**Toggle**: トリムボタンが押されるたびにスイッチがONからOFF、またはOFFからONに切り替わります。"
+
+#: ../../source/ch_advanced.rst:68
+msgid ""
+"**On/Off**: The Trim+ button will turn the switch on, and the 'Trim-' button"
+" will turn it off-to-on"
+msgstr "**On/Off**: 「Trim+」ボタンはスイッチをONにし、「Trim-」ボタンはOFFをONにします。"
+
+#: ../../source/ch_advanced.rst:69
+msgid ""
+"**3 Pos**: The switch will be active in one direction as long as the Trim+ "
+"button is held, and in the other direction as long as the Trim- button is "
+"held, returning to center when released."
+msgstr ""
+"**3 Pos**: Trim+ ボタンが押されている間はスイッチは一方向に、Trim- "
+"ボタンが押されている間はもう一方の方向にスイッチが有効となり、ボタンをリリースすると中央に戻ります。"
+
+#: ../../source/ch_advanced.rst:71
+msgid ""
+"To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
+" and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
+msgstr ""
+"仮想スイッチを設定するには、まず「Trim」ページからTrimを選択し、トリムセットアップページに入ります。閲覧 :ref:`trims-and-"
+"virtual-inputs`"
+
+#: ../../source/ch_advanced.rst:76
+msgid ""
+"Next set the 'Trim Step' field to 'Momentary', 'Toggle', 'On/Off' or '3 "
+"Pos'.  This is done by pressing the left-arrow on the 'Trim Step' spin-box "
+"until the value is less-than 0.1 Second select the 'Input' to be the virtual"
+" channel to convert to a switch (we'll use 'Virt1')"
+msgstr ""
+"次に「Trim Step」フィールドを「Momentary」「Toggle」「On/Off」または「3 Pos」に設定します。これは「Trim "
+"Step」スピンボックスの左矢印を0.1秒以内で押すことで切り替わります。スイッチに変換する仮想チャンネルになるように「input」を選択します。(「Virt1」を使用)"
+
+#: ../../source/ch_advanced.rst:84
+msgid ""
+"Now go to the 'Mixer' page, and enter the configuration for the specified "
+"Virtual Channel (Virt1 in our example)"
+msgstr "次に「Mixer」ページに移動して、指定した仮想チャンネルの設定を入力します。(この例ではVirt1)"
+
+#: ../../source/ch_advanced.rst:86
+msgid ""
+"Set the mixer-type to 'Complex', set the 'src' to the current virtual "
+"channel ('Virt1'), set the curve to '1-to-1' (Do NOT use 'Fixed'), set the "
+"scale to '0', and finally enable the 'Trim' button."
+msgstr ""
+"mixer-"
+"typeを「Complex」に設定し「src」を現在の仮想チャンネル(Virt1)に設定し、カーブを「1-to-1」に設定します。(「Fixed」を使用しないでください)「0」を選択し最後に「Trim」ボタンを有効にします。"
+
+#: ../../source/ch_advanced.rst:88
+msgid ""
+"You can now use the virtual channel ('Virt1') like any other switch input.  "
+"When the virtual switch is active, the virtual channel will have a value of "
+"100, otherwise it will have a value of -100.  In the case of '3 Pos', "
+"virtual channel will have a value of -100 when trim is pressed in one "
+"direction, +100 when pressed in the other direction, otherwise it will have "
+"a value of 0."
+msgstr ""
+"他のスイッチ入力と同じように仮想チャンネル(Virt1)を使用できるようになりました。仮想スイッチが有効な場合、仮想チャンネルは+100という値を持ち"
+"、それ以外の場合は-100の値を持ちます。「3 Pos」の場合、トリムが一方向に押されると仮想チャンネルは-"
+"100の値を持ち、もう一方の方向に押されると+ 100の値を持ちます。そうでない場合、値は0になります。"
+
+#: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
+msgid "\\"
+msgstr "\\"
+
+#: ../../source/ch_advanced.rst:94
+msgid ""
+"Note: If you use the virtual channel as a 'Src' (as opposed to a 'Switch') "
+"make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
+" applied twice."
+msgstr ""
+"注: "
+"仮想チャンネルを「Src」として使用する場合(Switchではなく)、そのミキサーで「Trim」が無効になっていることを確認してください。そうしないとトリムが2回適用されてしまいます。"
+
+#: ../../source/ch_advanced.rst:99
+msgid "Swash Mixing"
+msgstr "スワッシュミキシング"
+
+#: ../../source/ch_advanced.rst:100
+msgid ""
+"A swash-plate is used to control flight on an RC helicopter.  The swash-"
+"plate controls the plane of rotation of the main-rotor as well as the blade "
+"pitch.  A swash plate is normally connected to 3 servos known as Elevator, "
+"Aileron, and Collective, but due to its design, there is not a 1-to-1 "
+"correspondence between stick-movement and the servo movement.  Instead some "
+"mixing is necessary between the throttle, elevator and aileron sticks and "
+"the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
+"Mixing (CCMP)."
+msgstr ""
+"スワッシュプレートは、RCヘリコプターの飛行を制御するために使用されます。スワッシュプレートは主ローターの回転面とブレードピッチを制御します。スワッシュプレートは通常エレベーター、エルロン、コレクティブの3つのサーボに接続されていますが、設計上、スティックの動きとサーボの動きの間に1対1「1-to-1」の対応はありません。代わりに、スロットル、エレベーターとエルロンのスティックとスワッシュプレート式サーボとの間で何らかのミキシングが必要です。このミキシングは、Cyclic"
+" Collective Pitch Mixing (CCMP)として知られています。"
+
+#: ../../source/ch_advanced.rst:102
+msgid ""
+"Traditionally, RC helicopters have used a flybar above or below the main "
+"rotor attached to a series of linkages to maintain stability.  In these "
+"setups, the transmitter will normally do all of the mixing, and directly "
+"drive each of the 3 swash-plate servos.  This configuration is known as "
+"manual-CCPM (mCCPM).  Alternatively, an electronic mixer can be included on "
+"the helicopter either as part of the receiver, or between the receiver and "
+"servos, that can implement the proper mixing.  This configuration is known "
+"as electronic CCPM (eCCPM) and in this case, the transmitter directly "
+"supplies aileron, elevator, and collective inputs, and the electronic mixer "
+"will convert the signals into appropriate swash-plate servo motion."
+msgstr ""
+"伝統的にRCヘリコプターは、安定性を維持するために一連のリンケージに取り付けられたメインローターの上部または下部にフライバーを使用しています。これらの設定では、送信機は通常すべてのミキシングを行い、3つのスワッシュプレートサーボのそれぞれを直接駆動します。"
+" "
+"この構成は手動CCPM(mCCPM)と呼ばれます。また、電子ミキサーを受信機の一部とする、または受信機とサーボ間で適切なミキシングを実行できるヘリコプターとする構成は電子CCPM(eCCPM)と呼ばれ、この場合、送信機はエルロン、エレベーター、およびコレクティブ入力を直接供給し、電子ミキサーは信号を適切なスワッシュプレートのサーボ動作に変換します。"
+
+#: ../../source/ch_advanced.rst:104
+msgid ""
+"Recently, flybarless (FBL) helicopters have become more common, especially "
+"in the micro size range.  These helicopters use an eCCPM system along with "
+"an electronic gyroscope to continuously adjust the swash-plate to maintain "
+"stability without the need for a physical flybar.  This setup tends to be "
+"less expensive to manufacture, and also provides better stability and more "
+"precise control."
+msgstr ""
+"最近、特にマイクロサイズのジャンルで、フライバーレス(FBL)ヘリコプターがより一般的になりました。 "
+"これらのヘリコプターは、物理的なフライバーいわゆるスタビライザーを必要とせずに安定性を維持し、また連続的にスワッシュプレートを調整するために電子ジャイロスコープと共にeCCPMシステムを使用します。この構成はより安価に製造できる傾向となり、またより良い安定性と正確な制御を提供します。"
+
+#: ../../source/ch_advanced.rst:106
+msgid ""
+"Deviation provides control for several swash-plate layouts, these include: "
+"120°, 120° Alternate, 140°,  90°, and None. Each of these options are "
+"illustrated below:"
+msgstr ""
+"Deviationは120度、120度Alternate、140度、90度、設定なしを含む、いくつかのスワッシュプレートレイアウトの制御を提供します。これらのオプションはそれぞれ次の通りです。"
+
+#: ../../source/ch_advanced.rst:111
+msgid ""
+"**120 (3 Servo)**: Servos are placed around the swash-plate at 120° "
+"intervals. With Aileron input, the aileron and pitch servos tilt the swash-"
+"plate left and right; with Elevator input, the three servos tilt the swash-"
+"plate fore and aft; with Pitch input, all three servos raise the swash-plate"
+" up and down. Servos working in unison dramatically increases the torque "
+"available as well as the precision and centering."
+msgstr ""
+"**120 (3 Servo)**: サーボは120度の間隔で斜板の周りに配置されます。 "
+"エルロン入力では、エルロンとピッチサーボが斜板を左右に傾けます。 エレベーターの入力では、3つのサーボがスワッシュプレートを前後に傾けます。 "
+"ピッチ入力では、3つのサーボがすべて斜板を上下させます。 一元的に働くサーボは、使用可能なトルクと精度とセンタリングを劇的に向上させます。"
+
+#: ../../source/ch_advanced.rst:116
+msgid ""
+"**120X (3 Servo)**: Same as the above layout except servos are shifted 150°."
+" With Aileron input, the three servos tilt the swash-plate left and right; "
+"with Elevator input, the elevator and pitch servos tilt the swash-plate fore"
+" and aft; with Pitch input, all three servos raise the swash-plate up and "
+"down."
+msgstr ""
+"**120X (3 Servo)**: "
+"サーボが150度シフトされている点を除き、上記のレイアウトと同じです。エルロン入力では、3つのサーボがスワッシュプレートを左右に傾けます。エレベーター入力の場合、エレベーターおよびピッチサーボは、スワッシュプレートを前後に傾動させます。ピッチ入力では、3つのサーボがすべてスワッシュプレートを上下させます。"
+
+#: ../../source/ch_advanced.rst:121
+msgid ""
+"**140 (3 Servo)**: Fundamentally, the servo operations of 140° swash-plates "
+"are almost the same as 120° swash-plates. However, the servo arrangement for"
+" elevator operation differs. 140° swash-plate CCPM offers smoother operation"
+" of the combined servos and an equal cyclic rate all around. On a 120° "
+"setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
+msgstr ""
+"**140(3 Servo)**: "
+"基本的に140度スワッシュプレートのサーボ操作は、120度スワッシュプレートとほぼ同じです。しかしながら、エレベーター操作のためのサーボの仕組みは異なります。140度スワッシュプレートCCPMは、組み合わされたサーボの、よりスムーズな操作とあらゆるところで等しい周期レートを提供します。120度の設定では、左右のサイクリックは前後のサイクリックよりもわずかに速くなります。"
+
+#: ../../source/ch_advanced.rst:126
+msgid ""
+"**90 (3 Servo)**: With Aileron input, the aileron and pitch servos tilt the "
+"swash-plate left and right; with elevator input, the servos tilt the swash-"
+"plate fore and aft; with Pitch input, all three servos raise the swash-plate"
+" up and down. Most commonly used for electronic helicopters."
+msgstr ""
+"**90(3 Servo)**: "
+"エルロン入力では、エルロンとピッチサーボがスワッシュプレートを左右に傾けます。エレベーター入力では、サーボはスワッシュプレートを前後に傾けます。ピッチ入力では、3つのサーボすべてがスワッシュプレートを上下させます。最も一般的に電子ヘリコプターで使用されます。"
+
+#: ../../source/ch_advanced.rst:128
+msgid ""
+"**None**: This is a special case where all mixing is done on-board the "
+"helicopter using a gyroscopic flight control system. Please refer to the "
+"specific manufacturers instructions to see how to configure mixer outputs."
+msgstr ""
+"**None**: "
+"これはジャイロスコープの飛行制御システムをオンボードしているヘリコプター全てのミキシングに対しての特別なケースとなります。ミキサー出力の設定方法については、製造元の説明書を参照してください。"
+
+#: ../../source/ch_advanced.rst:134
+msgid ""
+"Note: Some helicopters are 120 or 140, except rotated 180 degrees. In these "
+"cases you will still use the designated swash-plate type but may need to "
+"reverse specific channels."
+msgstr ""
+"注: "
+"180度回転させた場合を除き、ヘリコプターの中には120度または140度のものがあります。このような場合でも、指定されたスワッシュプレートタイプを使用しますが、特定のチャンネルをリバース設定にする必要があるかもしれません。"
+
+#: ../../source/ch_advanced.rst:139
+msgid "Modifying sounds"
+msgstr "サウンド修正"
+
+#: ../../source/ch_advanced.rst:141
+msgid ""
+"You can edit the sounds your Devo makes, though you have to do it by "
+"mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
+"the 'media' folder."
+msgstr ""
+"送信機をUSBドライブとしてマウントし「media」フォルダ内の「sound.ini」ファイルを編集することで、Devoにて作成されたサウンドを編集できます。"
+
+#: ../../source/ch_advanced.rst:145
+msgid "The sections, and what causes them to play, are:"
+msgstr "項目とそれらの機能については次のとおりです:"
+
+#: ../../source/ch_advanced.rst:147
+msgid "**startup**: Powered on."
+msgstr "**startup**: 電源ONします。"
+
+#: ../../source/ch_advanced.rst:148
+msgid "**shutdown**: Powering off."
+msgstr "**shutdown**: 電源OFFします。"
+
+#: ../../source/ch_advanced.rst:149
+msgid "**volume**: Configuring transmitter volume."
+msgstr "**volume**: 送信機の音量を設定します。"
+
+#: ../../source/ch_advanced.rst:150
+msgid "**timer_warning**: Timer is about to expire."
+msgstr "**timer_warning**: タイマーがもうすぐ切れます。"
+
+#: ../../source/ch_advanced.rst:151
+msgid "**alarm#**: Timer # (1 to 4) has expired."
+msgstr "**alarm#**: Timer # (1～4) が期限切れです。"
+
+#: ../../source/ch_advanced.rst:152
+msgid "**batt_alarm**: Battery low warning."
+msgstr "**batt_alarm**: バッテリー低下を警告します。"
+
+#: ../../source/ch_advanced.rst:153
+msgid "**done_binding**: Binding finished."
+msgstr "**done_binding**: バインドが完了しました。"
+
+#: ../../source/ch_advanced.rst:154
+msgid "**key_pressing**: On a key press"
+msgstr "**key_pressing**: キーを押します。"
+
+#: ../../source/ch_advanced.rst:155
+msgid "**saving**: When saving a model file."
+msgstr "**Saving**: モデルファイルを保存しています。"
+
+#: ../../source/ch_advanced.rst:156
+msgid ""
+"**max_len**: When you've exceeded the length of a string in the keyboard."
+msgstr "**max_len**: キーボード入力での文字列の長さを超えています。"
+
+#: ../../source/ch_advanced.rst:157
+msgid "**telem_alarm#**: Telemetry alarm # (1 to 6) has triggered."
+msgstr "**telem_alarm#**: テレメトリアラーム# (1〜6)が作動しました。"
+
+#: ../../source/ch_advanced.rst:159
+msgid ""
+"In each section, you can adjust set 'volume' from 0 (off) to 100 (max). The "
+"rest of the entries are note names, and the value is the number of "
+"milliseconds to play that note. There is a limit of 100 notes for each "
+"sound."
+msgstr ""
+"各項目において、あなたは0(オフ)から100(最大)まで「音量」を調整することができます。 "
+"残りのエントリーは音名で、値はその音を鳴らすミリ秒となります。 各サウンドには100段階制限があります。"
+
+#: ../../source/ch_advanced.rst:164
+msgid ""
+"The note names are 'xx', which is a rest (no sound played). You can then "
+"pick a note ('a'-'g'), possibly sharped by adding a 'x' if it's 'a', 'c', "
+"'d', 'f' or 'g'. Finally, you can choose an octave with a single digit, "
+"ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
+"addition, 'a', 'ax' and 'b' will play the three notes below middle C."
+msgstr ""
+"名称「xx」は休符です(音は鳴りません)。そして音符(「a」―「g」)を選択できます。「a」「c」「d」「f」または「g」の場合は「x」を追加することでシャープとすることができます。最後に「0」から「4」までの範囲でオクターブを選択することができます。それらは「c0」(中央のC)から「b4」までを範囲とします。さらに「a」「ax」「b」は中央のCの下の3音を奏でます。"

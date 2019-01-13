@@ -1,0 +1,676 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, ugkg
+# This file is distributed under the same license as the Deviation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Toshihiro Makuuchi, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Deviation 5.1-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-11 02:17+0000\n"
+"PO-Revision-Date: 2017-03-29 22:23+0000\n"
+"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/ch_install.rst:2
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../source/ch_install.rst:4
+msgid ""
+"Windows™ users can choose between two methods of installing the deviation "
+"firmware."
+msgstr "Windowsユーザは、Deviationファームウェアをインストールする方法を2種選択できます。"
+
+#: ../../source/ch_install.rst:6
+msgid "Use the Deviation Uploader tool"
+msgstr "Deviation Uploaderツールを使用"
+
+#: ../../source/ch_install.rst:7
+msgid "Use the Walkera DfuSe USB Upgrade tool (Windows™ only)"
+msgstr "Walkera DfuSe USB Upgradeツールを使用 (Windowsのみ)"
+
+#: ../../source/ch_install.rst:9
+msgid ""
+"If you do not have the Windows™ operating system, go with the first choice, "
+"the Deviation Uploader tool. It is a Java application that was designed by "
+"the Deviation developer team to be efficient and simple to use with any Devo"
+" radio and any version of deviation or even Devention, if you should wish to"
+" revert to the original Walkera firmware. The Walkera tool uses a two-step "
+"approach, in which you first install the firmware, then the filesystem "
+"library. The Deviation Uploader tool does the same thing in one simple, "
+"convenient step, using the ZIP compressed deviation firmware file as the "
+"source."
+msgstr ""
+"Windowsオペレーティングシステムがない場合は、最初の選択肢であるDeviation Uploaderツールを使用してください。 "
+"オリジナルのWalkeraファームウェアに戻す必要がある場合は、Deviation開発チームによって設計されたJavaアプリケーションで、Devo送信機やDeviationの任意のバージョン、さらにはDeventionのすべてのバージョンで効率的かつ簡単に使用ができます。Walkeraツールは、まずファームウェアをインストールしてからファイルシステムライブラリをインストールするという2段階の手順が必要です。"
+" Deviation "
+"Uploaderツールは、ZIP圧縮されたDeviationファームウェアファイルをソースとして使用し、アップデートを1つの簡単かつ便利な手順で実行します。"
+
+#: ../../source/ch_install.rst:11
+msgid ""
+"If your transmitter is a Devo F7 or F12E, you **must** use the Deviation "
+"Uploader."
+msgstr "送信機がDevo F7またはF12Eの場合は、Deviation Uploaderツールを使用する必要があります。"
+
+#: ../../source/ch_install.rst:14
+msgid ""
+"The :ref:`preparation` section covers things you need to do before starting "
+"an installation. Then, two installation sections cover the actual "
+"installation, depending on which tool you are using. There are sections "
+"following that include notes specific to upgrading from or to various "
+"versions and build types."
+msgstr ""
+":ref:`Preparation` "
+"項はインストールを始める前にするべきことを補完しています。次に使用しているツールに応じて、2つのインストール項で実際のインストール手法について説明を行います。以下の項目には、様々なバージョンやビルドタイプからのアップグレード、または様々なバージョンへのアップグレードに固有の注意事項が含まれています。"
+
+#: ../../source/ch_install.rst:23
+msgid "Preparation"
+msgstr "Preparation"
+
+#: ../../source/ch_install.rst:25
+msgid ""
+"First, ensure that your Devo is fully charged before starting the "
+"installation. Download the deviation-devoXX-x.y.z.zip firmware from "
+"http://deviationtx.com/downloads-new/category/1-deviation-releases where XX "
+"is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
+"deviation version number."
+msgstr ""
+"最初に、インストールを開始する前にDevo送信機がフル充電されていることを確認してください。 　http://deviationtx.com"
+"/downloads-new/category/1-deviation-releases から variation-devoXX-x.y.z.zip "
+"ファームウェアをダウンロードします。ここでXXはWalkera Devo送信機の番号です。x.y.zはDeviationバージョン番号を表します。"
+
+#: ../../source/ch_install.rst:32
+msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
+msgstr "注: STMicroelectronicsのDfuSeツールを使用しないでください！"
+
+#: ../../source/ch_install.rst:34
+msgid ""
+"You can download the Walkera tool from: "
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
+msgstr ""
+"Walkeraツールは次のサイトからダウンロードできます: 　"
+"https://drive.google.com/drive/u/0/folders/0B6SupsT8-3_BYXNQM1dOUlRYcGM"
+
+#: ../../source/ch_install.rst:37
+msgid ""
+"The Deviation Uploader tool can be downloaded from http://deviationtx.com"
+"/downloads-new/category/161-dfu-usb-tool"
+msgstr ""
+"Deviation Uploaderツールは下記よりダウンロード可能です。 http://deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool"
+
+#: ../../source/ch_install.rst:40
+msgid ""
+"If you are using Windows™, you need to install the appropriate USB drivers. "
+"See the section on :ref:`windows_drivers`"
+msgstr ""
+"Windowsを使用している場合は、適切なUSBドライバをインストールする必要があります。 :ref:`windows_drivers` "
+"項をご確認ください。"
+
+#: ../../source/ch_install.rst:43
+msgid ""
+"Unzip the tools and install them locally. If you are using the Deviation "
+"Uploader tool, it is not necessary to unzip the firmware you downloaded. It "
+"is recommended that you test the DFU tool by first upgrading your TX to a "
+"different version of Walkera firmware."
+msgstr ""
+"ツールを解凍しローカルにインストールします。Deviation "
+"Uploaderツールを使用している場合は、ダウンロードしたファームウェアを解凍する必要はありません。最初に送信機をWalkeraファームウェアの別のバージョンにアップグレードして、DFUツールをテストすることをお勧めします。"
+
+#: ../../source/ch_install.rst:46
+msgid ""
+"If you are upgrading from a previous Deviation release, it is strongly "
+"recommended that you back-up the 'models' directory from the transmitter as "
+"well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
+"any model or transmitter configuration."
+msgstr ""
+"以前のDeviationリリースからアップグレードする場合は、モデルデータや送信機の設定を失う可能性があるため、送信機から「models」ディレクトリをバックアップし「tx.ini」ファイルおよび「hardware.ini」ファイルを変更しないことを強くお勧めします。"
+
+#: ../../source/ch_install.rst:54
+msgid "Windows Driver Installation"
+msgstr "Windowsドライバのインストール"
+
+#: ../../source/ch_install.rst:56
+msgid ""
+"The Walkera DfuSe tool and the Deviation Uploader tool use different "
+"drivers. Both can be installed by the Deviation USBDrv Installer, available "
+"from http://www.deviationtx.com/downloads-new/category/161-dfu-usb-tool"
+msgstr ""
+"Walkera DfuSeツールとDeviation Uploaderツールは異なるドライバを使用します。どちらも下記Deviation "
+"USBDrvインストーラによりインストールが可能です。 http://www.deviationtx.com/downloads-"
+"new/category/161-dfu-usb-tool "
+
+#: ../../source/ch_install.rst:63
+msgid ""
+"Extract the Deviation USBDrv Installer, and run 'DFU USBDrv "
+"Installer-x.y.exe'. You can then uninstall both drivers, or install either "
+"the Deviation USB Driver for use with the Deviation Uploader or the Walkera "
+"driver. Install the driver for the Dfu tool you plan on using."
+msgstr ""
+"Deviation USBDrv インストーラを解凍し、「DFU USBDrv "
+"Installer-x.y.exe」を実行します。その後、両方のドライバをアンインストールするか、もしくはDeviation "
+"Uploaderと一緒に使用するためにDeviation "
+"USBドライバまたはWalkeraドライバのいずれかをインストールします。または使用する予定のDFUツールドライバをインストールします。"
+
+#: ../../source/ch_install.rst:70
+msgid "DFU Installation With Walkera DfuSe"
+msgstr "Walkera DfuSeによるDFUインストール"
+
+#: ../../source/ch_install.rst:72
+msgid ""
+"Installation of Deviation with the Walkera DfuSe tool is done in exactly the"
+" same manner as upgrading the Walkera Devention firmware. Note that "
+"Deviation will NOT overwrite Walkera models stored on the transmitter. While"
+" they cannot be accessed by Deviation, they will be safely preserved should "
+"the Walkera firmware ever need to be reinstalled"
+msgstr ""
+"Walkera DfuSeツールを使用したDeviationのインストールは、Walkera "
+"Deventionファームウェアのアップグレードとまったく同一方法で行われます。Deviationが送信機側に保存されたWalkeraモデルを間違って上書きしないようご注意ください。またDeviationからはアクセスできませんが、Walkeraファームウェアを再インストールする場合も安全に保存されます。"
+
+#: ../../source/ch_install.rst:81
+msgid ""
+"NOTE: As a result of memory limitations with the Devo7e, Devo F12e and Devo "
+"F7 firmware, the original models will be lost when switching to Deviation."
+msgstr ""
+"注: Devo7e、Devo F12e、およびDevo "
+"F7ファームウェアのメモリ制限により、Deviationに切り替えるとオリジナル機体モデルが失われます。"
+
+#: ../../source/ch_install.rst:88
+msgid ""
+"Unzip the firmware file that you downloaded earlier. Plug the transmitter "
+"into the PC via USB, and turn on the transmitter while holding ‘EXT’ to "
+"enter programming mode. On the Devo12, this is done by holding the trainer "
+"switch instead."
+msgstr ""
+"以前にダウンロードしたファームウェアファイルを解凍します。送信機をUSB経由でPCに接続し「EXT」を押しながら送信機を電源ONし、プログラミングモードに入ります。Devo12では代わりにトレーナースイッチを押し続けます。"
+
+#: ../../source/ch_install.rst:92
+msgid ""
+"Several users have reported compatibility issues with Windows™ and/or USB "
+"ports when running this tool. If DfuSe does not recognize your TX, try "
+"removing all USB devices and restart your PC with only the USB connection to"
+" the TX. Take the steps necessary to resolve any connection issues."
+msgstr ""
+"このツールを実行に際し、何名かのユーザがWindowsやUSBポートとの互換性問題を報告しています。DfuSeが送信機を認識しない場合は、すべてのUSBデバイスを取り外し送信機のみをUSB接続し、PCを再起動してみてください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
+
+#: ../../source/ch_install.rst:94
+msgid ""
+"If your transmitter has been connected correctly 'STM Device in DFU Mode' "
+"will be displayed under 'Available DFU Devices'. Otherwise this field will "
+"remain blank."
+msgstr ""
+"送信機が正しく接続されている場合は「Available DFU Devices」の下に「STM Device in DFU "
+"Mode」が表示されます。それ以外の場合この欄は空白のままになります。"
+
+#: ../../source/ch_install.rst:96
+msgid ""
+"Press the '…' button and select the deviation-devoXX-vx.y.z.dfu file to "
+"install."
+msgstr "「…」ボタンを押し、インストールする Deviation-devoXX-vx.y.z.dfu ファイルを選択します。"
+
+#: ../../source/ch_install.rst:97
+msgid ""
+"Select '**Upgrade**' to install the firmware. This will be grayed-out if "
+"your transmitter is not detected.  **Do NOT use 'Upload' as this will "
+"destroy the dfu file on your PC.**"
+msgstr ""
+"ファームウェアをインストールするには「**Upgrade**」を選択してください。送信機が検出されない場合、ここはグレー表示されます。**これはあなたのPC上のDFUファイルを破壊するので「アップロード」を使わないでください。**"
+
+#: ../../source/ch_install.rst:98
+msgid ""
+"**Devo12 Only**: Select the 'Library' tab, click '…' select the "
+"devo12-lib.dfu from the zip file.  Then select '**Upgrade**' again to "
+"install the library."
+msgstr ""
+"**Devo12のみ**: 「ライブラリ」タブを選択し、「…」をクリックしてZIPファイルから devo12-lib.dfu "
+"を選択します。それからもう一度 「**Upgrade**」を選択してライブラリをインストールしてください。"
+
+#: ../../source/ch_install.rst:100
+msgid ""
+"Turn off the transmitter, and turn back on while holding 'ENT'. There should"
+" be a USB logo on the screen. If this is a first-time install of Deviation, "
+"the PC should prompt to format a drive. Format using default options. Next, "
+"upgrade the file system via USB."
+msgstr ""
+"送信機の電源を切り「ENT」を押しながら電源を入れます。画面にUSBロゴが表示されます。これが初めてのDeviationインストールである場合、PCはそのドライブをフォーマットするように促されますので、デフォルトオプションを使用してフォーマットします。次にUSB経由でファイルシステムをアップグレードします。"
+
+#: ../../source/ch_install.rst:103
+msgid "Upgrading the file system via USB"
+msgstr "USB経由でシステムをアップグレード"
+
+#: ../../source/ch_install.rst:107
+msgid ""
+"On the Devo F7 and F12E, do not enable USB mode, as the file system cannot "
+"be accessed from the desktop, and you need to use the 'File Manager' tab on "
+"the 'Deviation Uploader' to manage files. If you enable it, all you can do "
+"is format the drive, which will destroy your installation."
+msgstr ""
+"Devo "
+"F7およびF12Eでは、デスクトップからシステムに接続できないため、USBモードを有効にしないでください。ファイルを管理するには「Deviation "
+"Uploader」の「File Manager」タブを使用する必要があります。 "
+"有効にした場合は、ドライブをフォーマットするだけでインストールは中断されます。"
+
+#: ../../source/ch_install.rst:113
+msgid ""
+"Open the folder that has been extracted from the zip file and copy all the "
+"files and directories inside this folder to the root of the transmitter USB "
+"drive. For details of the file-system please see :ref:`usb-file-system`. The"
+" files with the extension 'zip', and 'dfu' need not to be copied."
+msgstr ""
+"ZIPファイルを解凍したフォルダを開き、このフォルダ内のすべてのファイルとディレクトリを送信機USBドライブのルート部へコピーします。ファイルシステムの詳細については"
+" :ref:`usb-file-system` を参照してください。拡張子が「zip」「dfu」のファイルはコピーする必要はありません。"
+
+#: ../../source/ch_install.rst:121
+msgid ""
+"If you are upgrading from an older release, don't upgrade the 'tx.ini', and "
+"'hardware.ini' files or the 'models' directory. Optionally, copy the "
+"'models' directory to the transmitter except for the currently configured "
+"model files. This last step will ensure that the defaults for newly created "
+"models have the latest options set. If the 'tx.ini' file is overwritten, the"
+" stick calibration must be repeated and any settings reset."
+msgstr ""
+"旧リリースバージョンからアップグレードする場合は「tx.ini」ファイル「hardware.ini」ファイル、または "
+"「models」ディレクトリをアップグレードしないでください。必要に応じて、現在設定されている機体モデルファイルを除いて、「models」ディレクトリを送信機にコピーします。この最後のステップでは、新しく作成された機体モデルの初期値に最新のオプションが設定されていることを確認します。「tx.ini」ファイルが上書きされた場合、スティックキャリブレーションを再び行い設定をリセットする必要があります。"
+
+#: ../../source/ch_install.rst:130
+msgid "DFU Installation with Deviation Uploader"
+msgstr "Deviation Uploaderを使用したDFUインストール"
+
+#: ../../source/ch_install.rst:134
+msgid ""
+"The 'Deviation Uploader' is a Java (jar) file. You can either pass the jar "
+"file to the Java executable on the command line, or open the file in the "
+"GUI, using the Java application to open it. You will need to install Java "
+"from http://www.java.com/ if you haven't already installed it."
+msgstr ""
+"「Deviation "
+"Uploader」はJava(jar)ファイルです。jarファイルをコマンドラインでJava実行環境に指定するか、またはJavaアプリケーションを使用しGUIでファイルを開くことができます。まだインストールしていない場合は、"
+" http://www.java.com/ からJava実行環境をインストールする必要があります。"
+
+#: ../../source/ch_install.rst:138
+msgid ""
+"Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
+"port, and then turn it on while holding down the 'EXT' button. On the Devo "
+"12, this is done by holding the trainer switch instead."
+msgstr ""
+"「Deviation "
+"Uploader」が開いたら、送信機をUSBポートに接続し「EXT」ボタンを押しながら電源をONします。Devo12では代わりにトレーナースイッチを推し続けます。"
+
+#: ../../source/ch_install.rst:142
+msgid ""
+"Once the 'Deviation Uploader' is open, connect your transmitter to a USB "
+"port, and then turn it on while holding down the 'EXT' button."
+msgstr "「Deviation Uploader」が開いたら、送信機をUSBポートに接続し「EXT」ボタンを押しながら電源をONします。"
+
+#: ../../source/ch_install.rst:145
+msgid ""
+"If everything is working properly, you should see the 'Transmitter' change "
+"to the type of the connected transmitter. If it changes to the wrong "
+"transmitter type, stop now and seek help from the forums. If it doesn't "
+"change, check the system information to see if the device is listed at all. "
+"If it shows up as an unknown device on Windows, then check your driver "
+"installation and try unplugging all other USB devices. Take the steps "
+"necessary to resolve any connection issues."
+msgstr ""
+"すべてが正しく機能している場合は、接続されている送信機の種類に「Transmitter」が変更されているはずです。それが間違った送信機の種類に変更した場合は、今すぐ中止してフォーラムに助けを求めてください。変更できない場合には、システム情報を調べてデバイスが正常に表示されているかどうかを確認してください。Windows上で不明なデバイスとして表示される場合は、ドライバのインストールを確認し、他のすべてのUSBデバイスを取り外してください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
+
+#: ../../source/ch_install.rst:153
+msgid ""
+"Press the '…' button and select the zip file for the firmware you will "
+"install. There is no need to unpack the zip file since the Deviation "
+"Uploader will handle that."
+msgstr ""
+"「…」ボタンを押してインストールするファームウェアのZIPファイルを選択してください。Deviation "
+"Uploaderが自動的に処理するため、ZIPファイルを解凍する必要はありません。"
+
+#: ../../source/ch_install.rst:154
+msgid ""
+"If this is an initial install, all the 'Replace' boxes, along with 'Format' "
+"will be preselected."
+msgstr "初期インストールの場合「置換」ボックスと「フォーマット」が事前に選択されます。"
+
+#: ../../source/ch_install.rst:156
+msgid ""
+"If this is an initial install, all the 'Replace' boxes, along with 'Format' "
+"will be preselected. On the Devo F7 and Devo F12E initial install, select "
+"the 'Format' check box if not already selected."
+msgstr ""
+"初期インストールの場合「置換」ボックスと「フォーマット」が事前に選択されます。Devo F7およびDevo "
+"F12Eの初期インストールで、まだ選択されていない場合は「フォーマット」をチェックします。"
+
+#: ../../source/ch_install.rst:159
+msgid ""
+"Click the 'Install/Upgrade' option. Installation will take a few minutes, so"
+" be patient. A pop-up dialog box will notify you when installation is "
+"completed. You are done."
+msgstr ""
+"「Install/Upgrade」オプションをクリックします。インストールには数分かかりますので、しばらくお待ちください。インストールが完了すると、ポップアップダイアログボックスが表示されます。これで終了です。"
+
+#: ../../source/ch_install.rst:160
+msgid ""
+"Turn off your Devo transmitter. When you turn it on again, you'll be greeted"
+" by the Deviation splash screen."
+msgstr "Devo送信機の電源を切ります。もう一度電源を入れると、Deviation起動画面が表示されます。"
+
+#: ../../source/ch_install.rst:165
+msgid ""
+"On the F7 and F12E, do not enable USB mode, as the file system cannot be "
+"accessed from the desktop, and you need to use the 'File Manager' tab on the"
+" 'Deviation Uploader' to manage files."
+msgstr ""
+"F7およびF12Eではデスクトップからファイルシステムにアクセスできないため、USBモードを有効にしないでください。ファイルを管理するには「Deviation"
+" Uploader」の「File Manager」タブを使用する必要があります。"
+
+#: ../../source/ch_install.rst:169
+msgid ""
+"For transmitters other than the F7 and F12E, turn the transmitter back on "
+"while holding 'ENT'. There should be a USB logo on the screen. If this is a "
+"first-time install of Deviation, your computer may prompt to format a drive."
+" Format using default options."
+msgstr ""
+"F7とF12E以外のトランスミッタの場合は「ENT」を押しながら送信機の電源を入れます。画面にUSBロゴが表示されます。これが初めてのDeviationインストールである場合は、ドライブをフォーマットするように促されますので、デフォルトオプションを使用してフォーマットします。"
+
+#: ../../source/ch_install.rst:172
+msgid "Upgrading the file system with Deviation Uploader"
+msgstr "Deviation Uploaderを用いてシステムをアップグレード"
+
+#: ../../source/ch_install.rst:175
+msgid ""
+"The Devo F7 and F12E do not support access via USB. Do not turn it on, as "
+"formatting the disk from your desktop will destroy your deviation "
+"installation."
+msgstr ""
+"Devo F7とF12EはUSB経由での接続をサポートしていません。 "
+"あなたのデスクトップからディスクフォーマットするとあなたのDeviationを壊してしまうので実行しないでください。"
+
+#: ../../source/ch_install.rst:180
+msgid ""
+"If you followed the foregoing instructions for installing the deviation "
+"firmware ZIP file for your Devo using the Deviation Uploader tool, your "
+"installation is complete and no further installations are necessary. If, on "
+"the other hand, you unzipped the file and installed the firmware dfu file "
+"alone, then your must continue by installing the library dfu file from the "
+"same location. There is no advantage in doing the installation this way, but"
+" it can be done."
+msgstr ""
+"Deviation "
+"Uploaderツールを使用し、Devo用のDeviationファームウェアをインストールするため前述の手順に従った場合、インストールは完了しておりそれ以上のインストールは不要です。一方、ファイルを解凍してファームウェアのDFUファイルを単独でインストールした場合は、同じ場所からライブラリDFUファイルをインストールする必要があります。この方法でインストールを実行しても利点は特にありませんが、実施することは可能です。"
+
+#: ../../source/ch_install.rst:183
+msgid "Deviation 5.0"
+msgstr "Deviation 5.0"
+
+#: ../../source/ch_install.rst:185
+msgid ""
+"The long-awaited firmware update from version 4.0.1 to version 5.0 was "
+"accomplished on April 30, 2016 and was announce on the DeviationTx website "
+"forum. Deviation version 5.0 is the current version and it includes all "
+"patches, bug fixes, improvements and protocols of the previous version. Even"
+" so, development continues, so new controllers will be added to the support "
+"list as well as new protocols and features, when they become available."
+msgstr ""
+"バージョン4.0.1からバージョン5.0への待望のファームウェアアップデートは、2016年4月30日に行われ、DeviationTxウェブサイトフォーラムで発表されました。Deviationバージョン5.0が現在のバージョンとなり、以前のバージョンのすべてのパッチ、バグ修正、改修、およびすべてのプロトコルが含まれています。それでも開発は続けられているので、新しいコントローラや新しいプロトコルや機能が利用可能になると、それらがサポートリストに追加されます。"
+
+#: ../../source/ch_install.rst:188
+msgid "Nightly Deviation Builds"
+msgstr "Deviation ナイトリービルド"
+
+#: ../../source/ch_install.rst:190
+msgid ""
+"The Nightly builds are versions of Deviation with additional features beyond"
+" the Deviation 5.0 release version.  The Nightly builds are provided to "
+"allow the Deviation community to fully exercise new features so the "
+"community can provide feedback and suggestions for improvement.  As a user, "
+"you recognize that Deviation is a community supported software system, and "
+"members of this community can contribute by verifying, validating or "
+"commenting on the features that they've used. Nightly builds are found at "
+"http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
+msgstr ""
+"ナイトリービルドは、Deviation "
+"5.0リリースバージョン以降の追加機能を備えたDeviationのバージョンです。ナイトリービルドは、コミュニティが改善、フィードバックや提案を提供できるように、Deviationコミュニティが新しい機能を十分に発揮できるよう提供されています。Deviationはコミュニティでサポートされているソフトウェアシステムであり、このコミュニティのメンバは機能を検証、またはそれをコメントすることで貢献していきます。ナイトリービルドは下記で配布されます。"
+" http://www.deviationtx.com/downloads-new/category/13-nightly-builds"
+
+#: ../../source/ch_install.rst:200
+msgid ""
+"These builds are published when new features are added to the Deviation core"
+" feature set, when major bugs are corrected and when new hardware support is"
+" added.  The nightly builds are tested but not to the rigorous extent of a "
+"full release.  Please read this post! http://www.deviationtx.com/forum/5"
+"-news-announcements/1416-nightly-builds"
+msgstr ""
+"これらのビルドは、Deviationコアフューチャーセットに新しい機能が追加されたとき、主要なバグが修正されたとき、および新しいハードウェアサポートが追加されたときに公開されます。ナイトリービルドはテストされますが、完全リリース時のような厳密な範囲でのチェックではありません。この記事をご確認ください！"
+" http://www.deviationtx.com/forum/5-news-announcements/1416-nightly-builds"
+
+#: ../../source/ch_install.rst:206
+msgid ""
+"The ONLINE User Manual for Deviation is regularly reviewed and updated to "
+"include information about new common features.  Additionally, while best "
+"efforts are made by the Deviation community to update these User Guides, "
+"this documentation MAY NOT fully describe the features of the nightly "
+"builds.  Any Deviation user with an update or change to the manual can "
+"submit additions and changes via the Deviation-manual Github repository's "
+"issue tracker at https://github.com/DeviationTX/deviation-manual/issues , or"
+" edit the source of the manual directly."
+msgstr ""
+"Deviationに関するオンラインユーザマニュアルは定期的にレビューされ、新しい共通情報を含むよう更新されます。更に、これらのユーザガイドを更新するためにDeviationコミュニティによって最大限の努力が伴われますが、これらのドキュメントではナイトリービルドで適用された機能を完全には説明していない場合があります。マニュアルを更新または変更したDeviationユーザは、"
+" https://github.com/DeviationTX/deviation-manual/issues にあるDeviation-manual "
+"Githubリポジトリの Issue Tracker で追加や変更を送信するか、マニュアルのソースを直接編集できます。"
+
+#: ../../source/ch_install.rst:215
+msgid ""
+"So should you load the Deviation 5.0 release or should you load a Nightly?  "
+"Your own requirements will determine the answer to that question.  If you "
+"use Walkera, Spectrum and Flysky models, and any number of variations of the"
+" WLToys V2x2 quads, the Deviation 5.0 release will be sufficient.  If you "
+"have one of many newer small quads, or if you want support for additional "
+"hardware beyond additional transmitter modules, you should consider using "
+"the Nightly build."
+msgstr ""
+"結果、Deviation "
+"5.0リリース版を適用すべきか、それともナイトリービルド版を適用すべきか？あなた自身が求める、疑問に対する回答がそれを決定することでしょう。Walkera、Spectrum、Flysky、およびWLToys"
+" V2x2クワッドのバリエーションをいくつか使用する場合は、Deviation "
+"5.0リリース版で十分です。最新の小型クワッドや、サポートされている送信機モジュール以外に最新の追加ハードウェアをサポートしたい場合は、ナイトリービルド版の使用を検討ください。"
+
+#: ../../source/ch_install.rst:224
+msgid ""
+"If you are also adding hardware modifications, such as switches or "
+"transmitter modules, you should install the Deviation Nightly build first "
+"and review the available features.  After Deviation is running, install your"
+" hardware and modify any settings to support your modifications.  This helps"
+" you determine the source of issues later for troubleshooting."
+msgstr ""
+"スイッチや送信機モジュールなどのハードウェア変更も追加更新する場合は、まずDeviationナイトリービルド版をインストールして利用可能な機能を確認する必要があります。"
+" "
+"Deviationを実行されたらハードウェアを追加し、ハードウェア変更をサポートするように設定変更します。これによりトラブルシューティングのため、後で問題の原因を特定するのに役立ちます。"
+
+#: ../../source/ch_install.rst:233
+msgid "Test Builds"
+msgstr "テストビルド"
+
+#: ../../source/ch_install.rst:235
+msgid ""
+"Test Builds are for experienced users only.  The Deviation Test builds are "
+"prepared by software developers to test new features or hardware options, "
+"and require a higher level of experience.  These builds may also require "
+"specific transmitter configuration or hardware mods."
+msgstr ""
+"テストビルドは熟練したユーザのためのものです。Deviation "
+"テストビルドは、新機能やハードウェアオプションをテストするためソフトウェア開発者によって準備されており、それはより高度な経験を必要とします。またこれらの構築は、特定の送信機構成やハードウェア改造を必要とするかもしれません。"
+
+#: ../../source/ch_install.rst:240
+msgid ""
+"Some test builds require that you install the latest Nightly prior to "
+"installation.  DO NOT INSTALL A TEST BUILD until you read the thread "
+"detailing the reason for that build and how to use it, and know why you "
+"would want to use it."
+msgstr ""
+"テストビルドによっては、インストールの前に最新のナイトリービルドをインストールする必要があります。そのビルドの適用理由と使用方法を詳述したスレッドを読み、それを使用しなければならない理由がわかるまではテストビルドをインストールしないでください。"
+
+#: ../../source/ch_install.rst:245
+msgid ""
+"Once you install a test build, **do** add a post to the appropriate thread "
+"letting the developer know how things went! That's why they are created - so"
+" developers can get feedback, even if it's only a note that things worked "
+"fine."
+msgstr ""
+"テストビルドをインストールしたら、適切なスレッドに追加投稿して開発者に**状況を知らせて**ください！それが彼らがテストビルド版を作成された理由なのです"
+" - それが事象として上手くいったという単純な書き込みであっても、開発者としてはフィードバックを得ることができるのです。"
+
+#: ../../source/ch_install.rst:254
+msgid "USB & File-system"
+msgstr "USB & ファイルシステム"
+
+#: ../../source/ch_install.rst:255
+msgid ""
+"Deviation stores all configuration, bitmaps, and models as regular files on "
+"the USB file-system. USB can be most easily enabled by holding down the "
+"‘ENT’ button while powering up the transmitter. Files can then be easily "
+"copied to or from the transmitter."
+msgstr ""
+"Deviationはすべての設定、ビットマップ、機体モデルを通常のファイルとしてUSBファイルシステムに保存します。USBは、送信機の電源を入れながら「ENT」ボタンを押し続けることで最も簡単に有効にすることができます。ファイルは送信機との間で簡単にコピーができます。"
+
+#: ../../source/ch_install.rst:257
+msgid "The directory structure is as follows:"
+msgstr "ディレクトリ構造は次のとおりです:"
+
+#: ../../source/ch_install.rst:262
+msgid "\\\\tx.ini"
+msgstr "\\\\tx.ini"
+
+#: ../../source/ch_install.rst:262
+msgid ""
+"Transmitter configuration. Includes trim settings, calibration data, and the"
+" last-used model number"
+msgstr "送信機の設定時、トリム設定、キャリブレーションデータ、および最後に使用された機体モデル番号を含みます"
+
+#: ../../source/ch_install.rst:264
+msgid "\\\\hardware.ini"
+msgstr "\\\\hardware.ini"
+
+#: ../../source/ch_install.rst:264
+msgid ""
+"Transmitter hardware setup, describing supported hardware modifications. "
+"number"
+msgstr "送信機のハードウェア設定時、サポートされるハードウェアの変更についての番号と説明文"
+
+#: ../../source/ch_install.rst:266
+msgid "\\\\errors.txt"
+msgstr "\\\\errors.txt"
+
+#: ../../source/ch_install.rst:266
+msgid ""
+"If the firmware crashes or reboots, debug information will be stored in this"
+" file"
+msgstr "ファームウェアがクラッシュまたは再起動した場合、デバッグ情報はこのファイルに保存されます"
+
+#: ../../source/ch_install.rst:267
+msgid "\\\\datalog.bin"
+msgstr "\\\\datalog.bin"
+
+#: ../../source/ch_install.rst:267
+msgid "File for telemetry data"
+msgstr "テレメトリーデータファイル"
+
+#: ../../source/ch_install.rst:268
+msgid "\\\\media\\\\config.ini"
+msgstr "\\\\media\\\\config.ini"
+
+#: ../../source/ch_install.rst:268
+msgid "The color scheme and fonts for the transmitter"
+msgstr "配色とフォント"
+
+#: ../../source/ch_install.rst:269
+msgid "\\\\media\\\\sound.ini"
+msgstr "\\\\media\\\\sound.ini"
+
+#: ../../source/ch_install.rst:269
+msgid "Contains notes to play for various alarms"
+msgstr "様々なアラームを鳴らすためのコメントが含まれます"
+
+#: ../../source/ch_install.rst:270
+msgid "\\\\media\\\\*.bmp"
+msgstr "\\\\media\\\\*.bmp"
+
+#: ../../source/ch_install.rst:270
+msgid "Images used for the current transmitter theme"
+msgstr "現在のテーマに使用されている画像"
+
+#: ../../source/ch_install.rst:271
+msgid "\\\\media\\\\*.fon"
+msgstr "\\\\media\\\\*.fon"
+
+#: ../../source/ch_install.rst:271
+msgid "Font files"
+msgstr "フォントファイル"
+
+#: ../../source/ch_install.rst:272
+msgid "\\\\models\\\\default.ini"
+msgstr "\\\\models\\\\default.ini"
+
+#: ../../source/ch_install.rst:272
+msgid "The default model, loaded whenever a model is cleared"
+msgstr "機体モデルが消去された際に適用されるデフォルト機体モデル"
+
+#: ../../source/ch_install.rst:273
+msgid "\\\\models\\\\model*.ini"
+msgstr "\\\\models\\\\model*.ini"
+
+#: ../../source/ch_install.rst:273
+msgid ""
+"Configuration files for each model. Due to a limitation in the firmware, "
+"deviation cannot create new files. It is therefore necessary to have a "
+"modelxx.ini for each model regardless of whether it is currently in use."
+msgstr ""
+"各モデルの設定ファイル。ファームウェアの制限によりDeviationは新しいファイルを作成できません。したがって、現在使用中かどうかに関わらず、モデル毎にmodelxx.iniが必要です。"
+
+#: ../../source/ch_install.rst:276
+msgid "\\\\modelico\\\\*.bmp"
+msgstr "\\\\modelico\\\\*.bmp"
+
+#: ../../source/ch_install.rst:276
+msgid ""
+"All available model icons (96x96 pixels is recommended but not required). "
+"Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
+"transparent) or ARGB1555 (transparent) format."
+msgstr ""
+"利用可能なすべてのモデルアイコン(96 x "
+"96ピクセルを推奨しますが必須ではありません)。モデルアイコンは、RGB565(不透過)またはARGB1555(透過)形式の16bit "
+"BMPファイルとして保存する必要があります。"
+
+#: ../../source/ch_install.rst:279
+msgid "\\\\templates\\\\*.ini"
+msgstr "\\\\templates\\\\*.ini"
+
+#: ../../source/ch_install.rst:279
+msgid ""
+"Configuration files used when loading predefined templates.  These are "
+"nearly identical to the model configuration files, however they do not "
+"necessarily define all parameters"
+msgstr ""
+"定義済テンプレートを適用するときに使用される設定ファイル。これらは機体モデル設定ファイルとほぼ同じですが、必ずしもすべてのパラメータを定義するわけではありません。"
+
+#: ../../source/ch_install.rst:281
+msgid "\\\\language\\\\lang*.*"
+msgstr "\\\\language\\\\lang*.*"
+
+#: ../../source/ch_install.rst:281
+msgid ""
+"Language translation files.  These are UTF-8 text files containing the "
+"English string and the respective translated string."
+msgstr "言語翻訳ファイル。これらは英語の文字列と翻訳された文字列を含むUTF-8テキストファイルです。"
+
+#: ../../source/ch_install.rst:287
+msgid ""
+"Note: Deviation only supports 8.3 style file names.  That means file names "
+"should be no larger than 'xxxxxxxx.yyy'**"
+msgstr "注: Deviationは8.3形式のファイル名のみをサポートします。つまり、ファイル名は「xxxxxxxx.yyy」以下にしてください。"
