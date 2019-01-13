@@ -923,3 +923,9 @@ For channels with failsafe set to off, the default Failsafe protocol option "Hol
 
 For transmitters without JR module the PXX signal is available on the serial port output.  This is normally the trainer jack except for the Devo12.  Use a stereo plug. Tip will be the PXX output, and ring is the s.port input. Sleeve is ground.
 
+The T8SG V2 Plus requires a hardware modification to receive telemetry from a module in the JR bay.  The trainer port ring must be connected to the bottom JR pin (see picture).
+
+.. image:: images/common/ch_protocols/PXX_telemetry_mod.png
+   :width: 80%
+
+
