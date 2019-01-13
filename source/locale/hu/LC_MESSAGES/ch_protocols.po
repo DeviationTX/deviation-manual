@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 15:44+0000\n"
+"POT-Creation-Date: 2019-01-13 01:08+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -715,14 +715,14 @@ msgstr ""
 #: ../../source/ch_protocols.rst:287
 msgid ""
 "This protocol supports up to 16 channels. Fixed ID binding is supported to "
-"link the transmitter wtih specific receivers. Supports receiver telemetry "
+"link the transmitter with specific receivers. Supports receiver telemetry "
 "(RSSI, VOLT1) on all transmitters.  Supports S.Port and hub telemetry "
 "sensors as well as GPS telemetry (except on memory-limited 7e and f-series) "
 "as described in the next section."
 msgstr ""
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
-#: ../../source/ch_protocols.rst:410
+#: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:942
 msgid "The following protocol options are available."
 msgstr ""
 
@@ -1949,4 +1949,81 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:927
 msgid "RFMODE"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:933
+msgid "Protocol: PXX"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:934
+msgid ""
+"The PXX protocol is an Frsky serial interface to their transmitter modules. "
+"Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but"
+" protocol is available on the serial port of other transmitters."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:936
+msgid ""
+"Up to 16 channels are supported. Supports receiver telemetry (RSSI, VOLT1) "
+"on all transmitters. Telemetry (S.Port) is supported in the Frsky format. "
+"Range check operation is supported. Module power level settings correspond "
+"to top four deviation power settings."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:938
+msgid ""
+"Fixed ID is supported to link the transmitter with specific receivers. The "
+"Fixed ID corresponds to the receiver number in OpenTX to make sharing "
+"easier. Values 0 to 63 are valid. Fixed IDs above 63 are truncated to the "
+"valid range."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:940
+msgid "Due to memory constraints PXX is available only in non-modular builds."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:944
+msgid ""
+"**Failsafe**: If the channel failsafe (in mixer channel config) is set this "
+"value is sent to the receiver every 9 seconds.  The receiver will use these "
+"values in failsafe mode unless the protocol option is set to RX. For "
+"channels with failsafe set to off, the default Failsafe protocol option "
+"\"Hold\" commands the receiver to hold the last received channel values when"
+" the receiver enters failsafe mode.  The \"NoPulse\" setting causes the "
+"receiver to not send any signal on PPM outputs (Testing on X8R showed SBUS "
+"values went to minimum, but SBUS behavior is not specified by the protocol)."
+"  The \"RX\" setting prevents Deviation from sending failsafe settings so "
+"the receiver will use whatever failsafe values have been stored in the "
+"receiver."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:947
+msgid ""
+"**Country**: Set the country to match the firmware in the receiver.  Options"
+" are US, JP, EU."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:949
+msgid ""
+"**Rx PWM out**: Choose whether PWM outputs of receiver are channels 1-8 or "
+"9-16."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:951
+msgid "**Rx Telem**: Turn receiver telemetry on or off."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:953
+msgid ""
+"For transmitters without JR module the PXX signal is available on the serial"
+" port output.  This is normally the trainer jack except for the Devo12.  Use"
+" a stereo plug. Tip will be the PXX output, and ring is the s.port input. "
+"Sleeve is ground."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:955
+msgid ""
+"The T8SG V2 Plus requires a hardware modification to receive telemetry from "
+"a module in the JR bay.  The trainer port ring must be connected to the "
+"bottom JR pin (see picture)."
 msgstr ""
