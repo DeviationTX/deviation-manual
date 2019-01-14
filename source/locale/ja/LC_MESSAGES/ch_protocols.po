@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-13 01:08+0000\n"
+"POT-Creation-Date: 2019-01-13 02:17+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -798,6 +798,9 @@ msgid ""
 "sensors as well as GPS telemetry (except on memory-limited 7e and f-series) "
 "as described in the next section."
 msgstr ""
+"このプロトコルは最大16チャネルをサポートします。固定IDバインドは、特定の受信側と送信側をリンクするためにサポートされています。すべての送信機で受信機テレメトリー"
+" (RSSI、VOLT1) をサポートします。次の項目で説明するように、S.Portとハブテレメトリーセンサー、およびGPSテレメトリー "
+"(メモリ制限のある7eとfシリーズを除く) をサポートします。"
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
 #: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:942
@@ -884,6 +887,9 @@ msgid ""
 " S.Port decoders, but the signal must be inverted to connect to a standard "
 "decoder.  It can be connected directly to the input of a 3.3V ftdi adapter."
 msgstr ""
+"S.Port "
+"Outが有効かつPPMInが使用されていない場合、受信したS.Portパケットはトレーナーポートから送信されます。S.Portデコーダとの互換性を保つためビットレートは57600となりますが、標準デコーダに接続するには信号を反転する必要があります。3.3V"
+" FTDIアダプタの入力に直接接続することができます。"
 
 #: ../../source/ch_protocols.rst:309
 msgid "*Frsky and FrskyX Extended Telemetry*"
@@ -895,6 +901,8 @@ msgid ""
 "These sensors are supported in all transmitters except the 7e.  They are "
 "available on the telemetry test pages and main page boxes."
 msgstr ""
+"拡張テレメトリー機能は、ハブおよびS.Port "
+"Frskyテレメトリーセンサーを示します。これらのセンサーは7eを除くすべての送信機をサポートします。それらはテレメトリーテストページとメインページボックスで利用可能です。"
 
 #: ../../source/ch_protocols.rst:312
 msgid ""
@@ -903,6 +911,8 @@ msgid ""
 "the same type, but only one telemetry value is saved.  The value most "
 "recently received from all the sensors of the same type is reported."
 msgstr ""
+"Frsky X S.Portテレメトリー機能は、同じタイプの最大16個のセンサー (例:バッテリー電圧) "
+"の接続を可能にします。Deviationは同じタイプの複数のセンサーをサポートしますが、保存されるテレメトリー値は1つのみとなります。同じタイプのすべてのセンサーから最後に受信した値が報告されます。"
 
 #: ../../source/ch_protocols.rst:314
 msgid ""
@@ -914,6 +924,9 @@ msgid ""
 " model file to save the setting through power cycles - the value is fairly "
 "constant during a single day of flying in stable air."
 msgstr ""
+"テレメトリーモニタ画面を表示しているときに、アップボタンを長押しすると、テレメトリー値がリセットされます。Frskyテレメトリーの場合、これは変動地上高度「ground"
+" "
+"level」を次の受信テレメトリー値にリセットします。これは変動地上高度テレメトリー値をゼロにします。また、バッテリー放電アキュムレータ:蓄電池と最小セル電圧もリセットされます。地面レベルの値は機体モデルファイルに保存され、電源を入れ直しても設定が保存されます。この値は、安定した上空を1日飛行する間はほぼ一定です。"
 
 #: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:904
 msgid "*Telemetry test page*"
@@ -1053,7 +1066,9 @@ msgstr "\\"
 msgid ""
 "The ALTITUDE value is reported as Above Ground Level.  The ground level is "
 "set to the first altitude telemetry value received."
-msgstr "ALTITUDE値は地上高度として報告されます。地上高度は、受信した最初の高度テレメトリー値に設定されます。"
+msgstr ""
+"ALTITUDE値は地上高度「ground level」として報告されます。ground "
+"levelは、受信した最初の高度テレメトリー値として設定されます。"
 
 #: ../../source/ch_protocols.rst:363
 msgid ""
@@ -1105,6 +1120,9 @@ msgid ""
 "It also used by some models of XK Innovations and has third party compatible"
 " receivers available. |cc2500-note|"
 msgstr ""
+"Futaba "
+"S-FHSSプロトコルは、Futaba製受信機と機体を制御するために使用されます。XK社の一部のモデルでも使用されており、サードパーティ互換の受信機が利用可能です。"
+" |cc2500-note|"
 
 #: ../../source/ch_protocols.rst:384
 msgid ""
@@ -1121,6 +1139,8 @@ msgid ""
 " Rudder, Gear, Pitch, Aux1, and Aux2. So it is suitable for control of "
 "Collective Pitch (CP) helicopters."
 msgstr ""
+"従来のFutabaのチャンネルレイアウトは、Aileron、Elevator、Throttle、Rudder、Gear、Pitch、Aux1、Aux2です。そのためコレクティブピッチ"
+" (CP) ヘリコプターの制御に適しています。"
 
 #: ../../source/ch_protocols.rst:388
 msgid ""
@@ -1128,6 +1148,9 @@ msgid ""
 " is actually used (data by reverse engineering using third party equipment)."
 " Temporal resolution is 6.8ms. No telemetry supported."
 msgstr ""
+"プロトコル分解能は1024ステップ "
+"(10ビット)、そのうち実際には少し小さい範囲が使用されます。(サードパーティ製の機器を使用したリバースエンジニアリングによるデータによる) "
+"時間分解能は6.8msです。テレメトリーはサポートされていません。"
 
 #: ../../source/ch_protocols.rst:392
 msgid "Protocol: \\*Corona"
@@ -1138,18 +1161,21 @@ msgid ""
 "The Corona protocol supports Corona V1 and V2 receivers, and Flydream V3 "
 "receivers. |cc2500-note| |mod-install-link|"
 msgstr ""
+"Coronaプロトコルは、Corona V1およびV2受信機、Flydream V3受信機をサポートしています。 |cc2500-note| |mod-"
+"install-link|"
 
 #: ../../source/ch_protocols.rst:395
 msgid ""
 "All the protocols support up to 8 channels.  Default channel order is AETR."
 "  No telemetry in the protocols."
-msgstr ""
+msgstr "すべてのプロトコルは最大8チャンネルをサポートします。デフォルトのチャネルマップはAETRです。プロトコルにテレメトリーはありません。"
 
 #: ../../source/ch_protocols.rst:399
 msgid ""
 "**Format**: Protocol selection. Use V1 and V2 with Corona receivers.  Use "
 "FDV3 for Flydream V3."
 msgstr ""
+"**Format**: プロトコル選択。Corona受信機ではV1とV2を使用してください。Flydream V3にはFDV3を使用してください。"
 
 #: ../../source/ch_protocols.rst:401 ../../source/ch_protocols.rst:414
 msgid ""
@@ -1158,6 +1184,8 @@ msgid ""
 "but full range should be tested if there are problems with binding or range."
 "  Default 0."
 msgstr ""
+"**Freq-fine**: 周波数オフセット調整。範囲は-127～127。CC2500モジュール間の差異を調整します。通常は0または-"
+"41のオフセットが必要ですが、バインドまたは範囲に問題がある場合は全範囲をテストする必要があります。デフォルトは0です。"
 
 #: ../../source/ch_protocols.rst:405
 msgid "Protocol: \\*Hitec"
@@ -1168,6 +1196,7 @@ msgid ""
 "The Hitec protocol supports Optima and Minima receivers. |cc2500-note| |mod-"
 "install-link|"
 msgstr ""
+"HitecプロトコルはOptimaまたはMinima受信機をサポートします。 |cc2500-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:408
 msgid ""
@@ -1177,6 +1206,8 @@ msgid ""
 " LQI, and GPS (latitude, longitude, altitude, speed, heading).  Receiver "
 "RSSI is not available in this protocol."
 msgstr ""
+"このプロトコルは最大9チャンネルをサポートします。デフォルトのチャネルマップはAETRです。テレメトリーは、Frskyテレメトリーレイアウトを用いることでサポートされます。サポートされている値は、VOLT1、VOLT2、CURRENT、TEMP1、TEMP2、FUEL、RPM、LRSSI、LQI、GPS"
+" (緯度、経度、高度、速度、方位) です。受信側RSSIはこのプロトコルでは利用できません。"
 
 #: ../../source/ch_protocols.rst:412
 msgid "**Format**: Receiver selection for Optima or Minima."
@@ -1205,6 +1236,7 @@ msgid ""
 "The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control the quadracopter special functions:"
 msgstr ""
+"1番最初となる4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します:"
 
 #: ../../source/ch_protocols.rst:430
 msgid "Channel 5 controls the blink speed"
@@ -1306,17 +1338,20 @@ msgid ""
 "protocol options. See the Supported Modules spreadsheet for a complete list."
 " |nrf24l01-note|"
 msgstr ""
+"YD717プロトコルは、YD717およびSkybotz UFO Miniクワッドコプター、さらにSky Walker、XinXun、Ni Hui) "
+"のいくつかのモデル、およびプロトコルオプションによりSyma製をサポートしています。完全なリストについては、サポートモジュール表を参照してください。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:474
 msgid ""
 "The YD717 protocol supports 9 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
 msgstr ""
+"YD717プロトコルは9チャンネルをサポートし、自動バインドのみをサポートします。プロトコルはバインド成功するまでバインドモードのままとなります。"
 
 #: ../../source/ch_protocols.rst:476 ../../source/ch_protocols.rst:496
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder."
-msgstr ""
+msgstr "最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。"
 
 #: ../../source/ch_protocols.rst:478
 msgid ""
@@ -1327,26 +1362,28 @@ msgid ""
 "direction initiates a flip in that direction. The YD717 requires at least "
 "four seconds between each auto-flip."
 msgstr ""
+"チャンネル5は、ゼロより大きい場合オートフリップ機能が有効となります。さらに左右のオートフリップを有効にするには、エルロンのチャンネルスケールを87以上にする必要があります。エレベーターチャンネルと前後のフリップについても同様です。オートフリップが有効になっているとき、サイクリックを任意の方向にずっと動かすと、その方向にフリップが開始されます。YD717は各オートフリップまでに少なくとも4秒を必要とします。"
 
 #: ../../source/ch_protocols.rst:480
 msgid "The sixth channel turns on lights when greater than zero."
-msgstr ""
+msgstr "ゼロより大きい場合、チャンネル6が点灯します。"
 
 #: ../../source/ch_protocols.rst:482
 msgid ""
 "The seventh channel takes a picture on transition from negative to positive."
-msgstr ""
+msgstr "チャンネル7は、有効とすることで写真撮影を行います。"
 
 #: ../../source/ch_protocols.rst:484 ../../source/ch_protocols.rst:504
 msgid ""
 "The eighth channel starts/stops video recording on each positive transition."
-msgstr ""
+msgstr "チャンネル8は、有効とすることでビデオ録画を開始 / 停止します。"
 
 #: ../../source/ch_protocols.rst:486
 msgid ""
 "The ninth channel is assigned to last feature flag available in the "
 "protocol.  This may control headless mode on models that have the feature."
 msgstr ""
+"チャンネル9は、プロトコルで使用可能な最後の機能に割り当てられています。これはヘッドレスモード機能を持っている機体を制御することができるでしょう。"
 
 #: ../../source/ch_protocols.rst:489
 msgid "Protocol: \\*SymaX"
@@ -1360,42 +1397,46 @@ msgid ""
 "SymaX4 option in the YD717 protocol. ) See the Supported Modules spreadsheet"
 " for a complete list. |nrf24l01p-note|"
 msgstr ""
+"このプロトコルはSymaモデルで使用されます: X5C-1、X11、X11C、X12、new X4、new X6。オリジナル "
+"X5C、X2をサポートする場合はプロトコルオプションに含まれ、これを用います。(Syma "
+"X3、旧X4、および旧X6は、YD717プロトコルのSymaX4オプションでサポートされます。) "
+"詳細なリストは、サポートされているモジュール表を参照してください。 |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:494
 msgid "The SymaX protocol supports 9 channels and only supports auto-binding."
-msgstr ""
+msgstr "SymaXプロトコルは9チャンネルをサポートし、自動バインドのみをサポートします。"
 
 #: ../../source/ch_protocols.rst:498
 msgid "The fifth channel is unused."
-msgstr ""
+msgstr "チャネル5は未使用です。"
 
 #: ../../source/ch_protocols.rst:500
 msgid ""
 "The sixth channel enables the auto-flip function when greater than zero."
-msgstr ""
+msgstr "チャンネル5は使用されていません。チャンネル6はゼロより大きい場合にオートフリップ機能を有効にします。"
 
 #: ../../source/ch_protocols.rst:502
 msgid ""
 "The seventh channel takes a picture when the channel moves from negative to "
 "positive."
-msgstr ""
+msgstr "チャンネル7は、有効とすることで写真撮影を行います。"
 
 #: ../../source/ch_protocols.rst:506
 msgid "The ninth channel enables headless mode when positive."
-msgstr ""
+msgstr "チャンネル9は、ポジティブ時にヘッドレスモードを有効にします。"
 
 #: ../../source/ch_protocols.rst:509
 msgid "Protocol: \\*Hontai"
-msgstr ""
+msgstr "Protocol: \\*Hontai"
 
 #: ../../source/ch_protocols.rst:510
 msgid "This protocol is used on Hontai models F801 and F803."
-msgstr ""
+msgstr "このプロトコルはHontaiモデルF801およびF803で使用されます。"
 
 #: ../../source/ch_protocols.rst:512 ../../source/ch_protocols.rst:532
 #: ../../source/ch_protocols.rst:550
 msgid "|nrf24l01p-note| |mod-install-link|"
-msgstr ""
+msgstr "|nrf24l01p-note| |mod-install-link|"
 
 #: ../../source/ch_protocols.rst:514 ../../source/ch_protocols.rst:534
 #: ../../source/ch_protocols.rst:552
@@ -1403,36 +1444,37 @@ msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control special functions:"
 msgstr ""
+"最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルは特殊機能を制御します:"
 
 #: ../../source/ch_protocols.rst:516 ../../source/ch_protocols.rst:554
 msgid "Channel 5 is unused"
-msgstr ""
+msgstr "チャネル5は未使用です"
 
 #: ../../source/ch_protocols.rst:517 ../../source/ch_protocols.rst:537
 #: ../../source/ch_protocols.rst:555
 msgid "Channel 6 enables the flip function"
-msgstr ""
+msgstr "チャンネル6はフリップ機能を有効にします"
 
 #: ../../source/ch_protocols.rst:518
 msgid "Channel 7 takes a picture on positive transition through zero"
-msgstr ""
+msgstr "チャンネル7は、ゼロより値を大きくし写真撮影を行います"
 
 #: ../../source/ch_protocols.rst:519
 msgid "Channel 8 turns video on/off on positive transition"
-msgstr ""
+msgstr "チャンネル8は、有効とすることでビデオのON / OFFを制御します"
 
 #: ../../source/ch_protocols.rst:521 ../../source/ch_protocols.rst:541
 #: ../../source/ch_protocols.rst:559
 msgid "Channel 10 engages the return-to-home feature"
-msgstr ""
+msgstr "チャンネル10はReturn To Homeを有効にします"
 
 #: ../../source/ch_protocols.rst:522 ../../source/ch_protocols.rst:560
 msgid "Channel 11 initiates calibration"
-msgstr ""
+msgstr "チャンネル11はキャリブレーションを行います"
 
 #: ../../source/ch_protocols.rst:525
 msgid "Protocol: \\*Bayang"
-msgstr ""
+msgstr "Protocol: \\*Bayang"
 
 #: ../../source/ch_protocols.rst:526
 msgid ""
@@ -1440,6 +1482,8 @@ msgid ""
 "JJRC/Eachine E011, H8, H9D v2, H10, Floureon H101, JJRC JJ850, JFH H601, and"
 " H606 (regular format)."
 msgstr ""
+"このプロトコルは、BayangToys X6、X7、X8、X9、X16、Boldclash B03、JJRC / Eachine E011、H8、H9D"
+" v2、H10、Floureon H101、JJRC JJ850、JFH H601、H606 (標準フォーマット) で使用されます。"
 
 #: ../../source/ch_protocols.rst:528
 msgid ""
