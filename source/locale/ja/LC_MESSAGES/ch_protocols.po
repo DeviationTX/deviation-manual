@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-13 02:17+0000\n"
+"POT-Creation-Date: 2019-01-16 02:18+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -546,7 +546,7 @@ msgid ""
 "Throttle, and Rudder.  Additional channels control the quadracopter special "
 "functions:"
 msgstr ""
-"Hubsan4プロトコルは最大13チャンネルをサポートし、通常フォーマットは自動バインドのみをサポートします。固定IDも使用できますが、電源投入時の自動バインドを妨げることはありません。最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します。"
+"Hubsan4プロトコルは最大13チャンネルをサポートし、通常フォーマットは自動バインドのみをサポートします。固定IDも使用できますが、電源投入時の自動バインドを妨げることはありません。最初の4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します。"
 
 #: ../../source/ch_protocols.rst:199
 msgid ""
@@ -1139,7 +1139,7 @@ msgid ""
 " Rudder, Gear, Pitch, Aux1, and Aux2. So it is suitable for control of "
 "Collective Pitch (CP) helicopters."
 msgstr ""
-"従来のFutabaのチャンネルレイアウトは、Aileron、Elevator、Throttle、Rudder、Gear、Pitch、Aux1、Aux2です。そのためコレクティブピッチ"
+"従来のFutabaのチャンネルレイアウトは、エルロン、エレベーター、スロットル、ラダー、ギア、ピッチ、AUX1、AUX2です。そのためコレクティブピッチ"
 " (CP) ヘリコプターの制御に適しています。"
 
 #: ../../source/ch_protocols.rst:388
@@ -1236,7 +1236,7 @@ msgid ""
 "The 1 st 4 channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control the quadracopter special functions:"
 msgstr ""
-"1番最初となる4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します:"
+"1番最初となる4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。追加のチャンネルはクワッドコプターの特殊機能を制御します:"
 
 #: ../../source/ch_protocols.rst:430
 msgid "Channel 5 controls the blink speed"
@@ -1351,7 +1351,7 @@ msgstr ""
 #: ../../source/ch_protocols.rst:476 ../../source/ch_protocols.rst:496
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder."
-msgstr "最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。"
+msgstr "最初の4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。"
 
 #: ../../source/ch_protocols.rst:478
 msgid ""
@@ -1408,7 +1408,7 @@ msgstr "SymaXプロトコルは9チャンネルをサポートし、自動バイ
 
 #: ../../source/ch_protocols.rst:498
 msgid "The fifth channel is unused."
-msgstr "チャネル5は未使用です。"
+msgstr "チャンネル5は未使用です。"
 
 #: ../../source/ch_protocols.rst:500
 msgid ""
@@ -1443,12 +1443,11 @@ msgstr "|nrf24l01p-note| |mod-install-link|"
 msgid ""
 "The first four channels represent Aileron, Elevator, Throttle, and Rudder.  "
 "Additional channels control special functions:"
-msgstr ""
-"最初の4チャンネルは、Aileron、Elevator、Throttle、およびRudderを表します。追加のチャンネルは特殊機能を制御します:"
+msgstr "最初の4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。追加のチャンネルは特殊機能を制御します:"
 
 #: ../../source/ch_protocols.rst:516 ../../source/ch_protocols.rst:554
 msgid "Channel 5 is unused"
-msgstr "チャネル5は未使用です"
+msgstr "チャンネル5は未使用です"
 
 #: ../../source/ch_protocols.rst:517 ../../source/ch_protocols.rst:537
 #: ../../source/ch_protocols.rst:555
@@ -1488,57 +1487,58 @@ msgstr ""
 #: ../../source/ch_protocols.rst:528
 msgid ""
 "This protocol is used on BayangToys X16 with altitude hold (X16-AH format)."
-msgstr ""
+msgstr "このプロトコルは、高度維持機能 (X16-AHフォーマット) が含まれるBayangToys X16で使用されます。"
 
 #: ../../source/ch_protocols.rst:530
 msgid "This protocol is used on IRDRONE Ghost X5 (IRDRONE format)."
-msgstr ""
+msgstr "このプロトコルはIRDRONE Ghost X5 (IRDRONEフォーマット) で使用されます。"
 
 #: ../../source/ch_protocols.rst:536
 msgid "Channel 5 activates LEDs or inverted flight (Floureon H101)"
-msgstr ""
+msgstr "チャンネル5はLEDまたは反転飛行を有効にします (Floureon H101)"
 
 #: ../../source/ch_protocols.rst:538
 msgid "Channel 7 captures single photo on positive transition"
-msgstr ""
+msgstr "チャンネル7は、有効とすることでで写真撮影を行います"
 
 #: ../../source/ch_protocols.rst:539
 msgid "Channel 8 starts/stops video recording on positive transition"
-msgstr ""
+msgstr "チャンネル8は、有効とすることでビデオ録画を開始 / 停止します"
 
 #: ../../source/ch_protocols.rst:542
 msgid "Channel 11 enables Take Off/Landing"
-msgstr ""
+msgstr "チャンネル11で、離陸 / 着陸を作動させます"
 
 #: ../../source/ch_protocols.rst:543
 msgid "Channel 12 activates emergency stop"
-msgstr ""
+msgstr "チャンネル12は、非常停止を作動させます"
 
 #: ../../source/ch_protocols.rst:547
 msgid "Protocol: \\*FY326"
-msgstr ""
+msgstr "Protocol: \\*FY326"
 
 #: ../../source/ch_protocols.rst:548
 msgid "This protocol is used on FY326 red board."
-msgstr ""
+msgstr "このプロトコルは、FY326 Red基板で使用されます。"
 
 #: ../../source/ch_protocols.rst:556
 msgid "Channel 7 is unused"
-msgstr ""
+msgstr "チャンネル7は未使用です"
 
 #: ../../source/ch_protocols.rst:557
 msgid "Channel 8 is unused"
-msgstr ""
+msgstr "チャンネル8は未使用です"
 
 #: ../../source/ch_protocols.rst:563
 msgid "Protocol: \\*CFlie"
-msgstr ""
+msgstr "Protocol: \\*CFlie"
 
 #: ../../source/ch_protocols.rst:564
 msgid ""
 "The CFlie protocol is used on the CrazyFlie nano quad. It has not been "
 "tested with any other models. |nrf24l01p-note|"
 msgstr ""
+"CFlieプロトコルはCrazyFlie nano quadで使用されます。他モデルではテストされていません。 |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:569
 msgid ""
@@ -1551,13 +1551,14 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:576
 msgid "Protocol: \\*H377"
-msgstr ""
+msgstr "Protocol: \\*H377"
 
 #: ../../source/ch_protocols.rst:577
 msgid ""
 "The H377 protocol supports the NiHui H377 6 channel helicopter. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
+"H377プロトコルは、NiHui H377 6チャンネルヘリコプターをサポートします。他モデルではテストされていません。 |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:582
 msgid ""
@@ -1570,23 +1571,25 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:589
 msgid "Protocol: \\*HM830"
-msgstr ""
+msgstr "Protocol: \\*HM830"
 
 #: ../../source/ch_protocols.rst:590
 msgid ""
 "The HM830 protocol supports the HM830 Folding A4 Paper airplane. It has not "
 "been tested with any other models. |nrf24l01-note|"
 msgstr ""
+"HM830プロトコルは、HM830折畳み型A4サイズ紙飛行機をサポートします。他モデルではテストされていません。 |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:595
 msgid ""
 "The HM830 protocol supports 5 channels and only supports auto-binding. The "
 "protocol stays in bind mode until successful."
 msgstr ""
+"HM830プロトコルは5チャンネルをサポートし、自動バインドのみをサポートします。プロトコルはバインド成功するまでバインドモードのままとなります。"
 
 #: ../../source/ch_protocols.rst:600
 msgid "Protocol: \\*KN"
-msgstr ""
+msgstr "Protocol: \\*KN"
 
 #: ../../source/ch_protocols.rst:601
 msgid ""
@@ -1595,6 +1598,9 @@ msgid ""
 "format) helicopters. It has not been tested with other models. |nrf24l01p-"
 "note|"
 msgstr ""
+"KNプロトコルは、WLToys V930、V931、V966、V977、V988 (WLToys形式)、ならびにFeilun "
+"FX067C、FX070CおよびFX071C (Feilun形式) ヘリコプターで使用されています。他モデルではテストされていません。 "
+"|nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:607
 msgid ""
@@ -1613,10 +1619,13 @@ msgid ""
 "between 6G (default) and 3G stabilization. Channel 9-11 are trim channels "
 "for throttle/pitch, elevator and rudder."
 msgstr ""
+"チャンネル1-4は、スロットル、エルロン、エレベーター、ラダーです。チャンネル5は機体側デュアルレート設定を有効にします。チャンネル6はスロットルホールドを有効にします。チャネル7はアイドルアップを有効にします"
+" (WLToys V931、V966、およびV977のみ)。チャンネル8は、6G (初期値) "
+"と3Gスタビライザーを切り替えます。チャンネル9-11は、スロットル、ピッチ、エレベーター、ラダーのトリムチャンネルです。"
 
 #: ../../source/ch_protocols.rst:620
 msgid "Protocol: \\*ESky150"
-msgstr ""
+msgstr "Protocol: \\*ESky150"
 
 #: ../../source/ch_protocols.rst:621
 msgid ""
@@ -1624,6 +1633,8 @@ msgid ""
 "(150, 300, 150X). It has not been tested with any other models. "
 "|nrf24l01-note|"
 msgstr ""
+"ESky 150プロトコルは、2014年以降の小型ESkyモデル (150、300、150X) をサポートします。他モデルではテストされていません。 "
+"|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:626
 msgid ""
@@ -1640,20 +1651,23 @@ msgid ""
 " mode  (1 bit switch with only two states). Channel 6 is not yet used on any"
 " of the tested models. Channel 7 is a 2 bit switch (4 states)."
 msgstr ""
+"チャンネル1-4は、スロットル、エルロン、エレベーター、ラダーです。チャンネル5はフライトモード切替スイッチです。(2つの状態のみを切り替える1bitスイッチ)"
+" チャンネル6はテスト機体でもまだ使用されていません。チャンネル7は2bitスイッチ (4つの状態の切り替え) です。"
 
 #: ../../source/ch_protocols.rst:636
 msgid ""
 "It is important if you have a 4 channel model, to configure that your model "
 "only has 4 channels, otherwise the throttle values can go crazy."
 msgstr ""
+"4チャンネルモデルを使用している場合、機体モデルに4チャンネルしか割り当てないように設定することが重要となります。そうしないと、スロットル値がおかしくなる場合があります。"
 
 #: ../../source/ch_protocols.rst:641
 msgid "Protocol: \\*Esky"
-msgstr ""
+msgstr "Protocol: \\*Esky"
 
 #: ../../source/ch_protocols.rst:642
 msgid "Needs to be completed. |nrf24l01-note|"
-msgstr ""
+msgstr "完了する必要があります。 |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:646
 msgid ""
@@ -1666,13 +1680,13 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:652
 msgid "Protocol: \\*BlueFly"
-msgstr ""
+msgstr "Protocol: \\*BlueFly"
 
 #: ../../source/ch_protocols.rst:653
 msgid ""
 "The BlueFly protocol is used with the Blue-Fly HP100. It has not been tested"
 " with any other models. |nrf24l01p-note|"
-msgstr ""
+msgstr "BlueFlyプロトコルはBlue-Fly HP100で使用されます。他モデルではテストされていません。 |nrf24l01p-note|"
 
 #: ../../source/ch_protocols.rst:658
 msgid ""
@@ -1685,11 +1699,11 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:664
 msgid "Protocol: \\*CX10"
-msgstr ""
+msgstr "Protocol: \\*CX10"
 
 #: ../../source/ch_protocols.rst:665
 msgid "The CX10 format supports the Cheerson CX10 quadcopter. |nrf24l01-note|"
-msgstr ""
+msgstr "CX10フォーマットはCheerson CX10クワッドコプターをサポートします。 |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:669
 msgid ""
@@ -1697,26 +1711,28 @@ msgid ""
 "protocol stays in bind mode until successful. The first four channels are "
 "Aileron, Elevator, Throttle and Rudder."
 msgstr ""
+"CX10プロトコルは9チャンネルをサポートし、自動バインドのみをサポートします。プロトコルはバインド成功するまでバインドモードのままとなります。最初の4チャンネルはエルロン、エレベーター、スロットル、ラダーを表します。"
 
 #: ../../source/ch_protocols.rst:673
 msgid "Channel 5 is Rate except on the CX-10A, where it is headless mode."
-msgstr ""
+msgstr "チャンネル5はヘッドレスモードのCX-10Aを除きレートモードです。"
 
 #: ../../source/ch_protocols.rst:675
 msgid "Channel 6 is flip mode."
-msgstr ""
+msgstr "チャンネル6はフリップモードです。"
 
 #: ../../source/ch_protocols.rst:677
 msgid ""
 "The DM007 format also uses channel 7 for the still camera, channel 8 for the"
 " video camera and channel 9 for headless mode."
-msgstr ""
+msgstr "DM007フォーマットはカメラ撮影にチャンネル7、ビデオ録画にチャンネル8、ヘッドレスモードにチャンネル9を使用します。"
 
 #: ../../source/ch_protocols.rst:680
 msgid ""
 "The protocol has a Format option for the Blue-A, Green, DM007, Q282, "
 "JC3015-1, JC3015-2, MK33041 and Q242 quadcopters."
 msgstr ""
+"このプロトコルにはBlue-A、Green、DM007、Q282、JC3015-1、JC3015-2、MK33041、Q242クワッドコプター用のフォーマットオプションがあります。"
 
 #: ../../source/ch_protocols.rst:684
 msgid "Protocol: \\*CG023"
@@ -1727,17 +1743,19 @@ msgid ""
 "The CG023 protocol supports the Eachine CG023 and 3D X4 quadcopters. It has "
 "not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"CG023プロトコルは、Eachine CG023および3D X4クワッドコプターをサポートします。他モデルではテストされていません。 "
+"|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:690
 msgid "The CG023 protocol supports 9 channels and only supports auto-binding."
-msgstr ""
+msgstr "CG023プロトコルは9チャンネルをサポートし、自動バインドのみをサポートします。"
 
 #: ../../source/ch_protocols.rst:693 ../../source/ch_protocols.rst:717
 #: ../../source/ch_protocols.rst:747 ../../source/ch_protocols.rst:795
 #: ../../source/ch_protocols.rst:810 ../../source/ch_protocols.rst:826
 #: ../../source/ch_protocols.rst:838
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
-msgstr ""
+msgstr "最初の4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。"
 
 #: ../../source/ch_protocols.rst:695 ../../source/ch_protocols.rst:719
 msgid "Channel 5 controls the LEDs."
@@ -1769,7 +1787,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:708
 msgid "Protocol: \\*H8_3D"
-msgstr ""
+msgstr "Protocol: \\*H8_3D"
 
 #: ../../source/ch_protocols.rst:709
 msgid ""
@@ -1957,7 +1975,7 @@ msgid ""
 "The first four channels are Aileron, Elevator, Throttle and Rudder. Only "
 "throttle and aileron channels are used by the model."
 msgstr ""
-"最初の4チャンネルはAileron、Elevator、Throttle、Rudderです。この機体は、スロットルチャネルとエルロンチャネルのみが使用されています。"
+"最初の4チャンネルはエルロン、エレベーター、スロットル、ラダーを表します。この機体はスロットルチャネルとエルロンチャネルのみが使用されます。"
 
 #: ../../source/ch_protocols.rst:856
 msgid "Protocol: PPM"
