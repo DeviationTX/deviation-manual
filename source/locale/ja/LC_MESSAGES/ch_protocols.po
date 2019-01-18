@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 02:18+0000\n"
+"POT-Creation-Date: 2019-01-17 02:20+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -875,9 +875,7 @@ msgid ""
 "the receiver will use whatever failsafe values have been stored in the "
 "receiver."
 msgstr ""
-"フェイルセーフがオフに設定されているチャンネルの場合、デフォルトのフェイルセーフプロトコルオプション「Hold」は、受信機がフェイルセーフモードに入ったときに、最後に受信したチャンネル値を保持するように受信機に命令します。"
-" "
-"「NoPulse」設定は受信機のPPM出力に信号を送信させません。(X8RでのテストはSBUS値が最小になったことを示しましたが、SBUS動作はプロトコルによって規定されていません。)"
+"フェイルセーフがオフに設定されているチャンネルの場合、デフォルトのフェイルセーフプロトコルオプション「Hold」は、受信機がフェイルセーフモードに入ったときに、最後に受信したチャンネル値を保持するように受信機に命令します。「NoPulse」設定は受信機のPPM出力に信号を送信させません。(X8RでのテストはSBUS値が最小になったことを示しましたが、SBUS動作はプロトコルによって規定されていません。)"
 " 「RX」設定はDeviationがフェイルセーフ設定を送信するのを防ぎますので、受信機に保存されているどんなフェイルセーフ値も使用します。"
 
 #: ../../source/ch_protocols.rst:305
@@ -1759,31 +1757,31 @@ msgstr "最初の4チャンネルは、エルロン、エレベーター、ス�
 
 #: ../../source/ch_protocols.rst:695 ../../source/ch_protocols.rst:719
 msgid "Channel 5 controls the LEDs."
-msgstr ""
+msgstr "チャンネル5はLEDを制御します。"
 
 #: ../../source/ch_protocols.rst:697 ../../source/ch_protocols.rst:721
 #: ../../source/ch_protocols.rst:751
 msgid "Channel 6 controls Flip mode."
-msgstr ""
+msgstr "チャンネル6はフリップモードを制御します。"
 
 #: ../../source/ch_protocols.rst:699 ../../source/ch_protocols.rst:723
 #: ../../source/ch_protocols.rst:753
 msgid "Channel 7 controls the still camera"
-msgstr ""
+msgstr "チャンネル7はカメラを制御します。"
 
 #: ../../source/ch_protocols.rst:701 ../../source/ch_protocols.rst:725
 #: ../../source/ch_protocols.rst:755
 msgid "Channel 8 controls the video camera."
-msgstr ""
+msgstr "チャンネル8はビデオカメラを制御します。"
 
 #: ../../source/ch_protocols.rst:703 ../../source/ch_protocols.rst:727
 #: ../../source/ch_protocols.rst:757
 msgid "Channel 9 controls headless mode."
-msgstr ""
+msgstr "チャンネル9はヘッドレスモードを制御します。"
 
 #: ../../source/ch_protocols.rst:705
 msgid "The protocol has a Format option for the YD829 quadcopter."
-msgstr ""
+msgstr "このプロトコルには、YD829クワッドコプター用のフォーマットオプションがあります。"
 
 #: ../../source/ch_protocols.rst:708
 msgid "Protocol: \\*H8_3D"
@@ -1794,30 +1792,32 @@ msgid ""
 "The H8_3D protocol supports the Eachine H8 3D, JJRC H20 and H11D "
 "quadcopters. It has not been tested on other models. |nrf24l01-note|"
 msgstr ""
+"H8_3Dプロトコルは、Eachine H8 3D、JJRC H20、およびH11Dクワッドコプターをサポートします。他モデルではテストされていません。"
+" |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:714
 msgid ""
 "The H8_3D protocol supports 11 channels and only supports auto-binding."
-msgstr ""
+msgstr "H8_3Dプロトコルは11チャンネルをサポートし、自動バインドのみをサポートします。"
 
 #: ../../source/ch_protocols.rst:729
 msgid "Channel 10 controls RTH mode."
-msgstr ""
+msgstr "チャンネル10はRTHモードを制御します。"
 
 #: ../../source/ch_protocols.rst:731
 msgid "Channel 11 controls camera gimball on H11D and has 3 positions."
-msgstr ""
+msgstr "チャンネル11はH11Dのカメラジンバルを制御し、3つのポジションが選択できます。"
 
 #: ../../source/ch_protocols.rst:733
 msgid ""
 "Both sticks bottom left starts accelerometer calibration on H8 3D, or "
 "headless calibration on H20."
-msgstr ""
+msgstr "両方のスティックを左下へ入れることで、H8 3Dでは水平キャリブレーションを開始、H20ではヘッドレスキャリブレーションを開始します。"
 
 #: ../../source/ch_protocols.rst:735
 msgid ""
 "Both sticks bottom right starts accelerometer calibration on H20 and H11D."
-msgstr ""
+msgstr "H20とH11Dでは、両方のスティックを右下に入れることで水平キャリブレーションを開始します。"
 
 #: ../../source/ch_protocols.rst:738
 msgid "Protocol: \\*MJXq"
@@ -2162,7 +2162,7 @@ msgstr "RFMODE"
 
 #: ../../source/ch_protocols.rst:933
 msgid "Protocol: PXX"
-msgstr ""
+msgstr "Protocol: PXX"
 
 #: ../../source/ch_protocols.rst:934
 msgid ""
@@ -2170,6 +2170,8 @@ msgid ""
 "Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but"
 " protocol is available on the serial port of other transmitters."
 msgstr ""
+"PXXプロトコルは、それら送信機モジュールのFrskyシリアルインタフェースです。T8SG "
+"PlusのJRベイのR9MおよびXJTモジュールに主に利用されますが、プロトコルは他の送信機のシリアルポートで利用可能です。"
 
 #: ../../source/ch_protocols.rst:936
 msgid ""
@@ -2178,6 +2180,8 @@ msgid ""
 "Range check operation is supported. Module power level settings correspond "
 "to top four deviation power settings."
 msgstr ""
+"最大16チャンネルがサポートされます。すべての送信機で受信機テレメトリー (RSSI、VOLT1) をサポートします。 テレメトリー (S.Port) "
+"はFrskyフォーマットでサポートされています。レンジチェック操作がサポートされています。モジュールの電力レベル設定は、上位4つのDeviation電力設定に対応しています。"
 
 #: ../../source/ch_protocols.rst:938
 msgid ""
@@ -2186,10 +2190,11 @@ msgid ""
 "easier. Values 0 to 63 are valid. Fixed IDs above 63 are truncated to the "
 "valid range."
 msgstr ""
+"送信機を特定の受信機にリンクするために固定IDがサポートされています。共有を容易にするために、固定IDはOpenTXの受信者番号に対応しています。0から63までの値が有効です。63を超える固定IDは有効範囲より切り捨てられます。"
 
 #: ../../source/ch_protocols.rst:940
 msgid "Due to memory constraints PXX is available only in non-modular builds."
-msgstr ""
+msgstr "メモリの制約により、PXXは非モジュラービルド版でのみ利用可能です。"
 
 #: ../../source/ch_protocols.rst:944
 msgid ""
@@ -2205,22 +2210,26 @@ msgid ""
 "the receiver will use whatever failsafe values have been stored in the "
 "receiver."
 msgstr ""
+"**failsafe**:  チャンネルのフェイルセーフ (ミキサーチャンネル設定画面内) "
+"が設定されている場合、この値は9秒ごとに受信機に送信されます。プロトコルオプションがRXに設定されていない限り、受信機はフェイルセーフモードでこの値を使用します。フェイルセーフがオフに設定されているチャンネルの場合、デフォルトのフェイルセーフプロトコルオプション"
+" "
+"「Hold」は、受信機がフェイルセーフモードに入ったときに、最後に受信したチャンネル値を保持するように受信機に命令します。「NoPulse」設定は受信機のPPM出力に信号を送信させません。(X8RでのテストはSBUS値が最小になったことを示しましたが、SBUS動作はプロトコルによって規定されていません。）「RX」設定はDeviationがフェイルセーフ設定を送信するのを防ぎますので、受信機に保存されているどんなフェイルセーフ値も使用します。"
 
 #: ../../source/ch_protocols.rst:947
 msgid ""
 "**Country**: Set the country to match the firmware in the receiver.  Options"
 " are US, JP, EU."
-msgstr ""
+msgstr "**Country**: 受信機のファームウェアに合うように国を設定してください。オプションはUS、JP、EUです。"
 
 #: ../../source/ch_protocols.rst:949
 msgid ""
 "**Rx PWM out**: Choose whether PWM outputs of receiver are channels 1-8 or "
 "9-16."
-msgstr ""
+msgstr "**Rx PWM out**: 受信機のPWM出力がチャンネル1-8、または9-16かを選択します。"
 
 #: ../../source/ch_protocols.rst:951
 msgid "**Rx Telem**: Turn receiver telemetry on or off."
-msgstr ""
+msgstr "**Rx Telem**: 受信機のテレメトリーをON、またはOFFにします。"
 
 #: ../../source/ch_protocols.rst:953
 msgid ""
@@ -2229,6 +2238,7 @@ msgid ""
 " a stereo plug. Tip will be the PXX output, and ring is the s.port input. "
 "Sleeve is ground."
 msgstr ""
+"JRモジュールなしの送信機の場合、PXX信号はシリアルポート出力で利用します。通常はDevo12以外に関してはトレーナー用ジャックとなります。ステレオプラグを使用してください。TipがPXX出力になり、RingがS.Port入力になります。スリーブ部分はグラウンド:アースです。"
 
 #: ../../source/ch_protocols.rst:955
 msgid ""
@@ -2236,3 +2246,5 @@ msgid ""
 "a module in the JR bay.  The trainer port ring must be connected to the "
 "bottom JR pin (see picture)."
 msgstr ""
+"T8SG V2 "
+"Plusでは、JRベイのモジュールからテレメトリーを受信するためにハードウェアの変更が必要です。トレーナーポートリングは下部のJRピンに接続する必要があります。(写真参照)"

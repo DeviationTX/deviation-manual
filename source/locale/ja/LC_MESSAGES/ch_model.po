@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 02:10+0000\n"
+"POT-Creation-Date: 2019-01-17 02:20+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,36 +42,36 @@ msgstr ""
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
-msgstr ""
+msgstr "詳細「2. Mixer」ページ (:ref:`mixer-adv`) は標準モデル (それ以上) のすべての機能を提供します。"
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
-msgstr ""
+msgstr "**Advanced GUI**:"
 
 #: ../../source/ch_model.rst:33
 msgid "**Standard GUI**:"
-msgstr ""
+msgstr "**Standard GUI**:"
 
 #: ../../source/ch_model.rst:46
 msgid "**Advanced Model Menu**"
-msgstr ""
+msgstr "**Advanced Model Menu**"
 
 #: ../../source/ch_model.rst:47
 msgid "**Standard Model Menu**"
-msgstr ""
+msgstr "**Standard Model Menu**"
 
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
-msgstr ""
+msgstr "注: 詳細ミキサーGUIは、すべての新しい機体モデルのデフォルト設定です。"
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
-msgstr ""
+msgstr "機体モデルのセットアップ (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr ""
+msgstr "モデルページには、様々な機体モデル設定オプションがあります。"
 
 #: ../../source/ch_model.rst:73
 msgid ""
@@ -107,18 +107,22 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
+"注: "
+"詳細ミキサーから標準ミキサーに切り替えると、すべてのデータが失われる可能性があります。逆に標準ミキサーから詳細ミキサーに切り替えてもデータは保持されます。"
 
 #: ../../source/ch_model.rst:115
 msgid ""
 "**Model Name**: Set the model’s name. Use the left, right, up, and down "
 "buttons then ENT to select each character."
-msgstr ""
+msgstr "**Model Name**: 機体モデル名称を設定してください。左、右、上、下ボタンを押してからENTを使って各文字列を選択します。"
 
 #: ../../source/ch_model.rst:120
 msgid ""
 "**Icon**: Choose the model’s icon.   Additional model icons can be installed"
 " (see :ref:`usb-file-system`)."
 msgstr ""
+"**Icon**: 機体モデルのアイコンを選択してください。追加のモデルアイコンをインストールすることができます。( :ref:`usb-file-"
+"system` 参照)"
 
 #: ../../source/ch_model.rst:127
 msgid ""
@@ -196,7 +200,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
-msgstr ""
+msgstr "定義済みモデルテンプレート"
 
 #: ../../source/ch_model.rst:182
 msgid ""
@@ -214,7 +218,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr ""
+msgstr "ミキサー (Adv GUI)"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -247,7 +251,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
-msgstr ""
+msgstr "チャンネルの並べ替え"
 
 #: ../../source/ch_model.rst:215
 msgid ""
@@ -259,7 +263,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:220
 msgid "Channel configuration"
-msgstr ""
+msgstr "チャンネルの設定"
 
 #: ../../source/ch_model.rst:227
 msgid ""
@@ -278,7 +282,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
-msgstr ""
+msgstr "**Reverse**: サーボ回転方向を反転します"
 
 #: ../../source/ch_model.rst:233
 msgid ""
@@ -342,7 +346,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:250
 msgid "Virtual channel configuration"
-msgstr ""
+msgstr "バーチャルチャンネルの設定"
 
 #: ../../source/ch_model.rst:255
 msgid ""
@@ -353,7 +357,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:261
 msgid "Simple Mix Type"
-msgstr ""
+msgstr "単純なMix Type"
 
 #: ../../source/ch_model.rst:268
 msgid ""
@@ -397,7 +401,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:285
 msgid "Expo & Dual-Rate Mix Type"
-msgstr ""
+msgstr "Expo & デュアルレート Mix Type"
 
 #: ../../source/ch_model.rst:297
 msgid ""
@@ -412,11 +416,11 @@ msgstr ""
 #: ../../source/ch_model.rst:305
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
-msgstr ""
+msgstr "**Switch1** or **Switch2**: 中または低レートを有効にするためのスイッチを指定します。"
 
 #: ../../source/ch_model.rst:310
 msgid "Complex Mix Type"
-msgstr ""
+msgstr "複雑なMix Type"
 
 #: ../../source/ch_model.rst:317
 msgid ""
@@ -430,7 +434,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:327
 msgid "The Complex Mixer page has the following options:"
-msgstr ""
+msgstr "Complex Mixerページには、以下のオプションがあります:"
 
 #: ../../source/ch_model.rst:329
 msgid ""
@@ -515,6 +519,8 @@ msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 msgstr ""
+"M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
+"*Trim*"
 
 #: ../../source/ch_model.rst:363
 msgid ""
@@ -524,57 +530,67 @@ msgstr ""
 
 #: ../../source/ch_model.rst:365
 msgid "For a ‘Replace’ mux:"
-msgstr ""
+msgstr "「Replace」muxの場合:"
 
 #: ../../source/ch_model.rst:367
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
+"else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 
 #: ../../source/ch_model.rst:369
 msgid "For a ‘Multiply’ mux:"
-msgstr ""
+msgstr "「Multiply」muxの場合:"
 
 #: ../../source/ch_model.rst:371
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 
 #: ../../source/ch_model.rst:373
 msgid "For an ‘Add’ mux:"
-msgstr ""
+msgstr "「Add」muxの場合:"
 
 #: ../../source/ch_model.rst:375
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 msgstr ""
+"Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
+" else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 
 #: ../../source/ch_model.rst:377
 msgid "For a ‘Max’ mux:"
-msgstr ""
+msgstr "「Max」muxの場合:"
 
 #: ../../source/ch_model.rst:379
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:381
 msgid "For a ‘Min’ mux:"
-msgstr ""
+msgstr "「Min」muxの場合:"
 
 #: ../../source/ch_model.rst:383
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 msgstr ""
+"Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
+"|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
 #: ../../source/ch_model.rst:386
 msgid "Cyclic"
-msgstr ""
+msgstr "サイクリック"
 
 #: ../../source/ch_model.rst:392
 msgid ""
@@ -585,7 +601,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:395
 msgid "Reordering Mixers"
-msgstr ""
+msgstr "ミキサーの並べ替え"
 
 #: ../../source/ch_model.rst:403
 msgid ""
@@ -604,7 +620,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:410
 msgid "Available Curves"
-msgstr ""
+msgstr "利用可能なカーブ"
 
 #: ../../source/ch_model.rst:412
 msgid "The following curve functions are supported:"
@@ -675,7 +691,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:431
 msgid "Curve Editing"
-msgstr ""
+msgstr "カーブの編集"
 
 #: ../../source/ch_model.rst:433
 msgid ""
@@ -731,7 +747,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:462
 msgid "Timers (Std & Adv GUI)"
-msgstr ""
+msgstr "タイマー (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:476
 msgid ""
@@ -769,7 +785,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:496
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr ""
+msgstr "テレメトリー設定 (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:504
 msgid ""
@@ -800,7 +816,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:514
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr ""
+msgstr "トリムとバーチャル入力 (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:521
 msgid ""
@@ -838,7 +854,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:543
 msgid "Datalog (Std & Adv GUI)"
-msgstr ""
+msgstr "ログデータ (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:547 ../../source/ch_model.rst:613
 #: ../../source/ch_model.rst:633
@@ -902,7 +918,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:572
 msgid "Main page config (Std & Adv GUI)"
-msgstr ""
+msgstr "メイン画面設定 (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:586
 msgid ""
@@ -963,7 +979,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:605
 msgid "Configuring object position"
-msgstr ""
+msgstr "オブジェクトポジション設定"
 
 #: ../../source/ch_model.rst:608
 msgid ""
@@ -986,7 +1002,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:622
 msgid "Creating Objects"
-msgstr ""
+msgstr "オブジェクトの作成"
 
 #: ../../source/ch_model.rst:628
 msgid ""
@@ -1006,7 +1022,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:639
 msgid "Loading Objects"
-msgstr ""
+msgstr "オブジェクトの書き出し"
 
 #: ../../source/ch_model.rst:646
 msgid ""
@@ -1045,7 +1061,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring Objects"
-msgstr ""
+msgstr "オブジェクトの設定"
 
 #: ../../source/ch_model.rst:661
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
@@ -1095,7 +1111,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:682
 msgid "Choosing toggle icons"
-msgstr ""
+msgstr "トグルアイコンの選択"
 
 #: ../../source/ch_model.rst:687
 msgid ""
@@ -1108,7 +1124,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:692
 msgid "Standard GUI Menu items"
-msgstr ""
+msgstr "標準GUIメニュー項目"
 
 #: ../../source/ch_model.rst:699
 msgid ""
@@ -1120,144 +1136,144 @@ msgstr ""
 
 #: ../../source/ch_model.rst:706
 msgid "**Model Configuration**: :ref:`model-setup`"
-msgstr ""
+msgstr "**Model Configuration**: :ref:`model-setup`"
 
 #: ../../source/ch_model.rst:708
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
-msgstr ""
+msgstr "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
 
 #: ../../source/ch_model.rst:710
 msgid "**Servo reverse**: :ref:`servo-reverse`"
-msgstr ""
+msgstr "**Servo reverse**: :ref:`servo-reverse`"
 
 #: ../../source/ch_model.rst:712
 msgid "**Switch assignment**: :ref:`switch-assignment`"
-msgstr ""
+msgstr "**Switch assignment**: :ref:`switch-assignment`"
 
 #: ../../source/ch_model.rst:714
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
-msgstr ""
+msgstr "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
 
 #: ../../source/ch_model.rst:716
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
-msgstr ""
+msgstr "**Throttle-hold configuration**: :ref:`throttle-hold`"
 
 #: ../../source/ch_model.rst:718
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
-msgstr ""
+msgstr "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
 
 #: ../../source/ch_model.rst:720
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
-msgstr ""
+msgstr "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
 
 #: ../../source/ch_model.rst:722
 msgid "**Swash Setup**: :ref:`swash-configuration`"
-msgstr ""
+msgstr "**Swash Setup**: :ref:`swash-configuration`"
 
 #: ../../source/ch_model.rst:724
 msgid "**Timer configuration**: :ref:`timers`"
-msgstr ""
+msgstr "**Timer configuration**: :ref:`timers`"
 
 #: ../../source/ch_model.rst:726
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
-msgstr ""
+msgstr "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
 
 #: ../../source/ch_model.rst:728
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
-msgstr ""
+msgstr "**Telemetry configuration**: :ref:`telemetry-config`"
 
 #: ../../source/ch_model.rst:730
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
-msgstr ""
+msgstr "**Throttle curve setup**: :ref:`throttle-curve`"
 
 #: ../../source/ch_model.rst:732
 msgid "**Datalog configuration**: :ref:`datalog`"
-msgstr ""
+msgstr "**Datalog configuration**: :ref:`datalog`"
 
 #: ../../source/ch_model.rst:734
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
-msgstr ""
+msgstr "**Pitch curve setup**: :ref:`pitch-curve`"
 
 #: ../../source/ch_model.rst:736
 msgid "**Main page configuration**: :ref:`main-page-config`"
-msgstr ""
+msgstr "**Main page configuration**: :ref:`main-page-config`"
 
 #: ../../source/ch_model.rst:738
 msgid "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
-msgstr ""
+msgstr "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
 
 #: ../../source/ch_model.rst:744
 msgid ""
 "**Model setup**: Model configuration page (See section  :ref:`model-setup`)"
-msgstr ""
+msgstr "**Model setup**: 機体モデル設定ページ ( :ref:`model-setup`項目を参照 )"
 
 #: ../../source/ch_model.rst:745
 msgid "**Reverse**: Servo reverse"
-msgstr ""
+msgstr "**Reverse**: サーボ リバース"
 
 #: ../../source/ch_model.rst:746
 msgid "**D/R & Exp**: Dual-rates setup"
-msgstr ""
+msgstr "**D/R & Exp**: デュアルレート設定"
 
 #: ../../source/ch_model.rst:747
 msgid "**Subtrim**: Servo sub-trim"
-msgstr ""
+msgstr "**Subtrim**: サーボ サブトリム"
 
 #: ../../source/ch_model.rst:748
 msgid "**Travel adjust**: Servo travel-adjust"
-msgstr ""
+msgstr "**Travel adjust**: サーボ トラベルアジャスト"
 
 #: ../../source/ch_model.rst:749
 msgid "**Throttle curves**: Throttle curve setup"
-msgstr ""
+msgstr "**Throttle curves**: スロットルカーブ設定"
 
 #: ../../source/ch_model.rst:750
 msgid "**Pitch curves**: Pitch curve setup"
-msgstr ""
+msgstr "**Pitch curves**: ピッチカーブ設定"
 
 #: ../../source/ch_model.rst:751
 msgid "**Throttle hold**: Throttle-hold configuration"
-msgstr ""
+msgstr "**Throttle hold**: スロットルホールド設定"
 
 #: ../../source/ch_model.rst:752
 msgid "**Gyro sense**: Gyro-sense configuration"
-msgstr ""
+msgstr "**Gyro sense**: ジャイロセンサー設定"
 
 #: ../../source/ch_model.rst:753
 msgid "**Swash**: Swash Setup"
-msgstr ""
+msgstr "**Swash**: スワッシュ設定"
 
 #: ../../source/ch_model.rst:754
 msgid "**Fail safe**: Fail-Safe configuration"
-msgstr ""
+msgstr "**Fail safe**: フェイルセーフ設定"
 
 #: ../../source/ch_model.rst:755
 msgid "**Switch assignment**: Assign switch controls"
-msgstr ""
+msgstr "**Switch assignment**: スイッチコントロールの割り当て"
 
 #: ../../source/ch_model.rst:756
 msgid "**Timers**: Timer configuration (See section :ref:`timers`)"
-msgstr ""
+msgstr "**Timers**: タイマー設定 ( :ref:`timers`項目を参照 )"
 
 #: ../../source/ch_model.rst:757
 msgid ""
 "**Telemetry config**: Configure telemetry alarms (See section :ref"
 ":`telemetry-config`)"
-msgstr ""
+msgstr "**Telemetry config**: テレメトリーアラーム設定 ( :ref:`telemetry-config`項目を参照 )"
 
 #: ../../source/ch_model.rst:758
 msgid "**Datalog**: Configure telemetry logging (See section :ref:`datalog`)"
-msgstr ""
+msgstr "**Datalog**: テレメトリーログ設定 ( :ref:`datalog`項目を参照 )"
 
 #: ../../source/ch_model.rst:759
 msgid ""
 "**Main page config**: Configure main page display (See section :ref:`main-"
 "page-config`)"
-msgstr ""
+msgstr "**Main page config**: メイン画面設定 ( :ref:`main-page-config`項目を参照 )"
 
 #: ../../source/ch_model.rst:765
 msgid "Servo Reverse"
-msgstr ""
+msgstr "サーボ リバース"
 
 #: ../../source/ch_model.rst:770
 msgid ""
@@ -1269,7 +1285,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:775
 msgid "Dual-Rate/Expo setting"
-msgstr ""
+msgstr "デュアルレート / Expo設定"
 
 #: ../../source/ch_model.rst:780
 msgid ""
@@ -1282,7 +1298,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:785
 msgid "Sub-trim Adjustment"
-msgstr ""
+msgstr "サブトリム調整"
 
 #: ../../source/ch_model.rst:790
 msgid ""
@@ -1295,7 +1311,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:795
 msgid "Servo Travel Adjust"
-msgstr ""
+msgstr "サーボ トラベルアジャスト"
 
 #: ../../source/ch_model.rst:800
 msgid ""
@@ -1309,7 +1325,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:805
 msgid "Swash Configuration"
-msgstr ""
+msgstr "スワッシュ設定"
 
 #: ../../source/ch_model.rst:807
 msgid ""
@@ -1329,19 +1345,19 @@ msgstr ""
 
 #: ../../source/ch_model.rst:819
 msgid "**120/3Servo 120**: 120-degree swash"
-msgstr ""
+msgstr "**120/3Servo 120**: 120度スワッシュ"
 
 #: ../../source/ch_model.rst:820
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
-msgstr ""
+msgstr "**120x/3Servo 120x**: 120度スワッシュ (代替設定)"
 
 #: ../../source/ch_model.rst:821
 msgid "**140/3Servo 140**: 140 degree swash"
-msgstr ""
+msgstr "**140/3Servo 140**: 140度スワッシュ"
 
 #: ../../source/ch_model.rst:822
 msgid "**90/3Servo 90**: 90 degrees swash"
-msgstr ""
+msgstr "**90/3Servo 90**: 90度スワッシュ"
 
 #: ../../source/ch_model.rst:824
 msgid ""
@@ -1354,7 +1370,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
-msgstr ""
+msgstr "スロットルカーブ"
 
 #: ../../source/ch_model.rst:835
 msgid ""
@@ -1366,7 +1382,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
-msgstr ""
+msgstr "ピッチカーブ"
 
 #: ../../source/ch_model.rst:845
 msgid ""
@@ -1378,7 +1394,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
-msgstr ""
+msgstr "ジャイロ感度"
 
 #: ../../source/ch_model.rst:855
 msgid ""
@@ -1389,7 +1405,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
-msgstr ""
+msgstr "スイッチ割り当て"
 
 #: ../../source/ch_model.rst:865
 msgid ""
@@ -1400,7 +1416,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
-msgstr ""
+msgstr "スロットルホールド"
 
 #: ../../source/ch_model.rst:875
 msgid ""
@@ -1411,7 +1427,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
-msgstr ""
+msgstr "フェイルセーフ設定"
 
 #: ../../source/ch_model.rst:885
 msgid ""
