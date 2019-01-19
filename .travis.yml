@@ -45,8 +45,10 @@ script:
            if [[ "$TARGET" == "devo8" && "$MAKETARGET" == "latexpdf-release" ]]; then
                git clone https://www.github.com/DeviationTX/deviation-manual.git $HOME/txgit --depth 20 > /dev/null 2>&1;
                cp .transifexrc $HOME/txgit; pushd $HOME/txgit;
-               tx pull -f -a; git add source/locale;
-               git commit -m 'Updating translations from Transifex';
+               tx pull -f -a;
+               ./utils/clean_transifex_merge.py source/locale;
+               git add source/locale;
+               git commit -m `utils/get_altered_languages.py 'Updating translations from Transifex'`;
                git push > /dev/null 2>&1 && echo "Successfully uploaded new translations to Github.";
                popd; rm -rf $HOME/txgit;
            fi;
