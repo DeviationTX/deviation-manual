@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-17 02:20+0000\n"
+"POT-Creation-Date: 2019-01-20 01:48+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:16
 msgid "Model menu"
-msgstr "モデルメニュー"
+msgstr "Model menu"
 
 #: ../../source/ch_model.rst:18
 msgid ""
@@ -31,18 +31,20 @@ msgid ""
 "logging and screen configurations. You can access the menu by pressing the "
 "ENT key to select the 'Main menu' and then again on 'Model menu'."
 msgstr ""
+"Model menuでは選択、機体モデル設定の編集、アラーム、ログおよび画面設定を行うことができます。ENTキーを押して「Main "
+"menu」を選択し、次に「Model menu」を選択してメニューにアクセスできます。"
 
 #: ../../source/ch_model.rst:20
 msgid ""
 "Depending on the selection you have done for the Mixer GUI in section :ref"
 ":`model-setup`, the model menu operation will be completely different."
-msgstr ""
+msgstr "項目 :ref:`model-setup` にてMixer GUIで選択した内容に応じて、モデルメニュー操作は完全に異なります。"
 
 #: ../../source/ch_model.rst:23
 msgid ""
 "The Advanced '2. Mixer' page (:ref:`mixer-adv`) provides all of the "
 "functionality (and more) of the Standard Model."
-msgstr "詳細「2. Mixer」ページ (:ref:`mixer-adv`) は標準モデル (それ以上) のすべての機能を提供します。"
+msgstr "詳細「2. Mixer」ページ (:ref:`mixer-adv`) は標準モデル (もしくはそれ以上) のすべての機能を提供します。"
 
 #: ../../source/ch_model.rst:27
 msgid "**Advanced GUI**:"
@@ -63,15 +65,15 @@ msgstr "**Standard Model Menu**"
 #: ../../source/ch_model.rst:58
 msgid ""
 "Note: The Advanced Mixer GUI is the default setting for all new models."
-msgstr "注: 詳細ミキサーGUIは、すべての新しい機体モデルのデフォルト設定です。"
+msgstr "注: Advanced Mixer GUIは、すべての新しい機体モデルのデフォルト設定となります。"
 
 #: ../../source/ch_model.rst:63
 msgid "Model setup (Std & Adv GUI)"
-msgstr "機体モデルのセットアップ (Std & Adv GUI)"
+msgstr "Model setup (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:68
 msgid "The model page provides various model configuration options."
-msgstr "モデルページには、様々な機体モデル設定オプションがあります。"
+msgstr "機体モデルページには、様々な機体モデルの設定オプションがあります。"
 
 #: ../../source/ch_model.rst:73
 msgid ""
@@ -81,6 +83,9 @@ msgid ""
 "templates`).  Note that changing models may result in a safety message being"
 " displayed (see :ref:`safety-system`)."
 msgstr ""
+"**File**: Fileスピンボックスは、新しい機体モデルの読み出し、既存モデルを新しい場所にコピーする、現在の機体モデルをデフォルトにリセットする"
+" (全ての設定は失われます)、テンプレートを読み出すことを可能にします。(参照 :ref:`predefined-model-templates`) "
+"機体モデルを変更するとメッセージが表示されるかもしれませんのでご注意ください。(参照 :ref:`safety-system`)"
 
 #: ../../source/ch_model.rst:92
 msgid ""
@@ -89,6 +94,8 @@ msgid ""
 " is only available for Helicopter models and more closely resembles the "
 "stock GUI."
 msgstr ""
+"**Mixer GUI**: この機体モデルに使用するグラフィカルユーザーインターフェイス (GUI) "
+"を定義します。「Advanced」GUIがDeviationのデフォルト設定です。「Standard」GUIはヘリコプターモデルでのみ利用可能で、より一般的なGUIとなります。"
 
 #: ../../source/ch_model.rst:97
 msgid ""
@@ -100,6 +107,12 @@ msgid ""
 " missing features. **You are strongly encouraged to use advanced mixer for "
 "all aircraft but collective pitch helicopters.**"
 msgstr ""
+"Standard Mixer GUIはフライバー付きコレクティブピッチ "
+"ヘリコプター用に設計されています。それは他の航空機体が必要としない特有の機能を含み、そして他の機体を適切に制御するために必要とされる機能や設定を見逃してしまうかもしれません。フライバーレス"
+" コレクティブピッチ ヘリコプターはStandard "
+"GUIのいくつかの機能や設定から恩恵を受けるかもしれませんが、本来は必要とせず、逆にStandard "
+"GUIで欠けている機能を必要とするかもしれません。**コレクティブピッチ ヘリコプターを除くすべての航空機体にAdvanced "
+"Mixerを適用することを強くお勧めします。**"
 
 #: ../../source/ch_model.rst:108
 msgid ""
@@ -107,8 +120,8 @@ msgid ""
 "lost.  Your data will be preserved if you switch from standard mixer to "
 "advanced mixer."
 msgstr ""
-"注: "
-"詳細ミキサーから標準ミキサーに切り替えると、すべてのデータが失われる可能性があります。逆に標準ミキサーから詳細ミキサーに切り替えてもデータは保持されます。"
+"注: Advanced MixerからStandard Mixerに切り替えると、すべてのデータが失われる可能性があります。逆にStandard "
+"MixerからAdvanced Mixerに切り替えた場合はデータは保持されたままとなります。"
 
 #: ../../source/ch_model.rst:115
 msgid ""
@@ -122,7 +135,7 @@ msgid ""
 " (see :ref:`usb-file-system`)."
 msgstr ""
 "**Icon**: 機体モデルのアイコンを選択してください。追加のモデルアイコンをインストールすることができます。( :ref:`usb-file-"
-"system` 参照)"
+"system` 参照 )"
 
 #: ../../source/ch_model.rst:127
 msgid ""
@@ -131,24 +144,30 @@ msgid ""
 "accessed by clicking the Model type. The options for SwashType are identical"
 " to the ones in :ref:`swash-configuration`."
 msgstr ""
+"**Model Type**: Heli、Plane、Multiのモデルタイプを選択します。ヘリコプターモデルには追加設定ページがあり「Model "
+"Type」をクリックするとアクセスできます。Swash Typeオプションは :ref:`swash-configuration` と同一です。"
 
 #: ../../source/ch_model.rst:133
 msgid ""
 "If you switch from model type Helicopter this will change the Mixer GUI to "
 "Advanced automatically because the Standard GUI only supports helicopters."
 msgstr ""
+"モデルタイプをヘリコプター以外へ切り替えた場合、Standard GUIはヘリコプターのみをサポートするため、Mixer "
+"GUIとしては自動的にAdvanced GUIに変更されます。"
 
 #: ../../source/ch_model.rst:135
 msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable). "
 "Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
 msgstr ""
+"**Transmitter Power**: 無線出力の電力値を (該当する場合) "
+"指定します。利用可能なオプションは100μW、300μW、1mW、3mW、10mW、30mW、100mW、150mWです。"
 
 #: ../../source/ch_model.rst:140
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
-msgstr ""
+msgstr "注: 既存のDevo7eは7mWで伝送しますが、ソフトウェアにより150mWが常に表示されてしまいます。"
 
 #: ../../source/ch_model.rst:144
 msgid ""
@@ -157,6 +176,8 @@ msgid ""
 "used to enable the transmitter to act as a Master in a buddy-box setup. "
 "Available options are Channel, Stick and Extend."
 msgstr ""
+"**PPM In**: "
+"DSCポートからの入力により、主に「ヘッドトラッカー」のカメラモーターなど外部ハードウェアを制御できます。第二に、それは送信機がバディボックス設定でマスターとしての機能を可能にするために使用されるかもしれません。利用可能なオプションは、Channel、Stick、およびExtendです。"
 
 #: ../../source/ch_model.rst:150
 msgid ""
@@ -165,6 +186,8 @@ msgid ""
 "used for FPV or external input setup and documentation can be found in "
 "chapter :ref:`setting-up-fpv`."
 msgstr ""
+"Stickモード、Channelモードはバディボックス設定にて用いられ、ドキュメントは :ref:`setting-up-a-buddy-box` "
+"にあります。ExtendモードはFPVや外部入力設定に用いられ、ドキュメントは :ref:`setting-up-fpv` 章にあります。"
 
 #: ../../source/ch_model.rst:152
 msgid ""
@@ -175,6 +198,11 @@ msgid ""
 "protocol and will affect any active model.  To enable the newly chosen "
 "protocol, use the Bind/Re-Init button described below."
 msgstr ""
+"**Protocol**: 使用する受信機の種類を設定します "
+"一部のプロトコルには、「Protocol」スピンボックスが有効なときに押すことで選択可能となる追加オプションがあります。特定のプロトコルについては項目 "
+":ref:`protocols` "
+"を参照してください。プロトコルを変更すると、現在有効なプロトコルはすべて無効になり、有効な機体モデルに影響を与えます。新しく選択したプロトコルを有効とするには、下記の「Bind"
+"/Re-Init」ボタンを使用します。"
 
 #: ../../source/ch_model.rst:163
 msgid ""
@@ -184,6 +212,10 @@ msgid ""
 "protocol does not support binding, the button will show ‘Re-Init’, which can"
 " be used to switch protocols without power-cycling the transmitter."
 msgstr ""
+"**Bind/Re-Init**: "
+"プロトコルと固定ID設定によっては、送信機が起動時に機体とバインドするか、手動バインドをする必要があります。特定のプロトコルについての詳細は "
+":ref:`protocols` を参照してください。プロトコルが機体とのバインドをサポートしていない場合は、ボタンに「Re-"
+"Init」と表示されます。この機能は送信機の電源を入れ直さなくてもプロトコルを切り替えるために使用することができます。"
 
 #: ../../source/ch_model.rst:168
 msgid ""
@@ -191,22 +223,25 @@ msgid ""
 "transmitter will only bind to a specific model.  This is useful to ensure "
 "that the transmitter is not accidentally bound to the wrong model."
 msgstr ""
+"**Fixed ID**: 「Fixed "
+"ID」固定IDは送信機が特定の機体にのみバインドするようにするための一意のコードを設定します。これは送信機が誤った機体にバインドされていないことを確認するのに役立ちます。"
 
 #: ../../source/ch_model.rst:170
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
-msgstr ""
+msgstr "**#Channels**: 送信するチャンネル数を設定します。(最大チャンネル数は選択したプロトコルによって異なります。)"
 
 #: ../../source/ch_model.rst:175
 msgid "Predefined Model Templates"
-msgstr "定義済みモデルテンプレート"
+msgstr "Predefined Model Templates"
 
 #: ../../source/ch_model.rst:182
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
 msgstr ""
+"Deviationファームウェアは、ユーザがカスタマイズ可能な定義済みモデルテンプレートに対応しています。モデルページの「File」スピンボックスで「Template...」を選択します。"
 
 #: ../../source/ch_model.rst:184
 msgid ""
@@ -215,10 +250,11 @@ msgid ""
 "a portion of it.  The currently supported templates will replace the mixer "
 "and trim definitions, but will not affect the display layout."
 msgstr ""
+"追加するテンプレートはUSB経由で「\\\\template」ディレクトリに配置することで追加できます。テンプレートは既存の機体モデルを完全に置き換えるのではなく、その一部のみを置き換えます。現在サポートされているテンプレートは、ミキサーとトリムの定義を置き換えますが、表示レイアウトには影響しません。"
 
 #: ../../source/ch_model.rst:189
 msgid "Mixer (Adv GUI)"
-msgstr "ミキサー (Adv GUI)"
+msgstr "Mixer (Adv GUI)"
 
 #: ../../source/ch_model.rst:203
 msgid ""
@@ -234,6 +270,13 @@ msgid ""
 ":`predefined-model-templates`), but to learn to modify and configure a "
 "model, read through this entire section carefully."
 msgstr ""
+"'Advanced' "
+"GUIはDeviationファームウェアの全機能を最大限に引き出すことができますが、市販の送信機設定とは異なります。Deviationはそれらを好むユーザのため、より伝統的なセットアップインターフェイスも提供します。("
+" :ref:`standard-gui` を参照) Advanced "
+"GUIでは、各出力チャンネルは一連の1つ以上のミキサーで構成され、各ミキサーは単一の入力、起動スイッチ、およびミキサー出力を変更する機能 / "
+"カーブで構成されます。これは非常に強力な機能となりますが、機体モデルを設定するための全く異なる設定方法を学ぶ必要があります。素早い設定をサポートするために、利用可能ないくつかの定義済み設定があります。("
+" :ref:`defined-model-templates` "
+"参照）機体モデルの修正および設定することをより学んでいただくため、この項目全体の内容を注意深くお読みください。"
 
 #: ../../source/ch_model.rst:205
 msgid ""
@@ -241,6 +284,8 @@ msgid ""
 "channels.  The mixer page is accessed from the main menu by selecting the "
 "model icon.."
 msgstr ""
+"ミキサーページは入力 (Stick / Switch) "
+"を出力チャンネルへ割り当てるコントロールを行います。ミキサーページはモデルアイコンを選択することによってメインメニューからアクセスします。"
 
 #: ../../source/ch_model.rst:207
 msgid ""
@@ -248,10 +293,12 @@ msgid ""
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
 "channels that can be used as an intermediate step for complex setups."
 msgstr ""
+"利用可能なチャンネル数は、項目 :ref:`model-setup` "
+"で選択されたチャンネル数に依存します。さらに、複雑な設定のための中間ステップとして使用可能な10個の仮想チャンネルがあります。"
 
 #: ../../source/ch_model.rst:210
 msgid "Channel Reorder"
-msgstr "チャンネルの並べ替え"
+msgstr "Channel Reorder"
 
 #: ../../source/ch_model.rst:215
 msgid ""
@@ -260,10 +307,12 @@ msgid ""
 " are the initial channel assignments.  Whenever the page is loaded, the "
 "channels will be sequentially ordered representing the current state."
 msgstr ""
+"Channel "
+"Reorderページでは、チャンネル間でミキサー定義を移動したり、チャンネル設定を複製したりできます。表示されている値は最初のチャンネル割り当てです。ページが読み出されるたびに、チャンネルは現在の状態を表す順に並べられます。"
 
 #: ../../source/ch_model.rst:220
 msgid "Channel configuration"
-msgstr "チャンネルの設定"
+msgstr "Channel configuration"
 
 #: ../../source/ch_model.rst:227
 msgid ""
@@ -273,12 +322,16 @@ msgid ""
 "trim, and a safety switch (which could be used to ensure that a motor cannot"
 " spin-up while working on a model)"
 msgstr ""
+"Channel "
+"configurationは、最終チャンネル出力を設定する機能を提供します。チャンネルリバースやフェイルセーフ値などの機能がここに適用されます。エンドポイント、スケーリング、サブトリム、および安全スイッチ"
+" (機体モデル設定の作業中にモーターが回転しないようにするために使用) のコントロール等もあります。"
 
 #: ../../source/ch_model.rst:229
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
 msgstr ""
+"このページを変更すると、すぐにチャンネル出力が有効となります。 '**Cancel**' を押すと表示されている値を最後に保存した状態に復元します。"
 
 #: ../../source/ch_model.rst:231
 msgid "**Reverse**: Reverse the direction of servo rotation"
@@ -290,12 +343,15 @@ msgid ""
 " signal from the transmitter. The range is between -125 and +125 or None. "
 "Not all receivers support this capability."
 msgstr ""
+"**Fail-safe**: "
+"受信機が送信機からの信号を失ったときに実行される値を指定します。範囲は-125～+125、またはNoneです。すべての受信機がこの機能をサポートしているわけではありません。"
 
 #: ../../source/ch_model.rst:235
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
 msgstr ""
+"**Safety**: すべてのミキサーを無効にして、反転したときにチャンネル出力を「'Safe Val'」に強制変更するスイッチを指定します。"
 
 #: ../../source/ch_model.rst:237
 msgid ""
@@ -303,6 +359,8 @@ msgid ""
 "specified. The acceptable range of Safe Val is any value between -150 and "
 "150."
 msgstr ""
+"**Safe Val**: 安全スイッチが選択されている場合は、Safe Valも指定できます。Safe "
+"Valの許容範囲は-150～+150の間の任意の値です。"
 
 #: ../../source/ch_model.rst:239
 msgid ""
@@ -313,6 +371,10 @@ msgid ""
 "Default is -150 for Min Limit and +150 for Max Limit. Maximum setting is "
 "-250 to 0 for Min Limit and 0 to 250 for Max Limit."
 msgstr ""
+"**Min Limit/Max Limit**: "
+"これらの値は、送信機がが受信機に送信する最小値と最大値を定義します。(すべてのスケーリング、トリム、およびミキサーが適用された後) 値が最小 / "
+"最大の範囲外の場合は、必要に応じて最小値または最大値のいずれかに切り捨てられます。デフォルトは、Min Limitの場合は-150、Max "
+"Limitの場合は+ 150です。最大設定はMin Limit -250〜0、Max Limit 0〜250です。"
 
 #: ../../source/ch_model.rst:241
 msgid ""
@@ -322,12 +384,15 @@ msgid ""
 "different value than Scale+ both data will act separately until you set them"
 " to the same value again."
 msgstr ""
+"**Scale-/Scale+**: これらの値はサーボスローを調整するための最終的なスカラー値を定義します。入力値は1〜250です。Scale+ "
+"Scale-を交互に押すと、同じように変更されます。Scale-"
+"とScale+が異なる値に設定されている場合、両方のデータは、同じ値に再度設定されるまで別々に機能します。"
 
 #: ../../source/ch_model.rst:243
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
-msgstr ""
+msgstr "**Subtrim**: サーボの中央値を調整します。利用可能な範囲は、0.1単位で-50.0～+50.0です。"
 
 #: ../../source/ch_model.rst:245
 msgid ""
@@ -335,6 +400,8 @@ msgid ""
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
 "degrees per 100msec (assuming a min/max throw of 120degrees)."
 msgstr ""
+"**Speed**: 最大サーボスピードを調整します。ゼロは無効 (最速)、範囲は1 (最短)〜250 "
+"(最速)です。サーボスピードは100msecあたりの度数として定義されます。(120度の最小 / 最大スローを想定)"
 
 #: ../../source/ch_model.rst:247
 msgid ""
@@ -343,10 +410,12 @@ msgid ""
 "~60degrees/0.1sec, so a speed > 60 will have no affect on most servos. A "
 "value of 30 should be approx twice as slow as a typical servo."
 msgstr ""
+"例: "
+"値としての60は100msecあたり60度の速度となります。これは100msecで中央～最大値に相当します。ほとんどのサーボは〜60度/0.1秒で評価されているので、60を超える速度の場合はほとんどのサーボに影響を与えません。値30は典型的なサーボの約2倍遅い速度のはずです。"
 
 #: ../../source/ch_model.rst:250
 msgid "Virtual channel configuration"
-msgstr "バーチャルチャンネルの設定"
+msgstr "Virtual channel configuration"
 
 #: ../../source/ch_model.rst:255
 msgid ""
@@ -354,10 +423,12 @@ msgid ""
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
 "to select. Or just touch each character."
 msgstr ""
+"仮想チャンネルでENTを押すと、デフォルト名を編集できるキーボード画面が表示されます。L / R / UP / "
+"DNボタンに続いて「ENT」を押し選択することができます。または各キャラクターをタッチしていきます。"
 
 #: ../../source/ch_model.rst:261
 msgid "Simple Mix Type"
-msgstr "単純なMix Type"
+msgstr "Simple Mix Type"
 
 #: ../../source/ch_model.rst:268
 msgid ""
@@ -367,18 +438,21 @@ msgid ""
 "alternate zero-offset. You cannot use a toggle or switch to activate or "
 "deactivate this setup."
 msgstr ""
+"Simple Mix Typeはチャンネルを定義する最も簡単な方法です。一次入力 (Stick、Switch、Channel) "
+"を定義し、その入力に曲線や関数を適用することができます。結果はスケーリングすることも、代替のゼロ-"
+"オフセットを持つこともできます。この設定を有効または無効にするために、トグルまたはスイッチを使用することはできません。"
 
 #: ../../source/ch_model.rst:274 ../../source/ch_model.rst:299
 #: ../../source/ch_model.rst:325
 msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
-msgstr ""
+msgstr "長く「ENT」キーを押すと現在のミキサー設定が更新され、送信機でテストすることが可能になります。"
 
 #: ../../source/ch_model.rst:276 ../../source/ch_model.rst:301
 #: ../../source/ch_model.rst:346
 msgid "**Src**: The input source controlling this mixer."
-msgstr ""
+msgstr "**Src**: このミキサーをコントロールする入力ソースです。"
 
 #: ../../source/ch_model.rst:278 ../../source/ch_model.rst:303
 #: ../../source/ch_model.rst:348
@@ -387,21 +461,24 @@ msgid ""
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
 "pressing curve may display the curve editor (see :ref:`curve-editing`)."
 msgstr ""
+"**Curve**: 出力値を生成するために入力に適用される関数。詳しくは項目 :ref:`available-curves` "
+"を参照してください。Curve Typeによっては、「Curve」を押すとCurve Editorが表示されます。( :ref:`curve-"
+"editing` を参照)"
 
 #: ../../source/ch_model.rst:280 ../../source/ch_model.rst:307
 #: ../../source/ch_model.rst:350
 msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
-msgstr ""
+msgstr "**Scale**: カーブの後に出力範囲を制御するために適用される乗法スカラー。"
 
 #: ../../source/ch_model.rst:282
 msgid "**Offset**: An additive offset that is applied after the scaling."
-msgstr ""
+msgstr "**Offset**: スケーリング後に適用される追加オフセット。"
 
 #: ../../source/ch_model.rst:285
 msgid "Expo & Dual-Rate Mix Type"
-msgstr "Expo & デュアルレート Mix Type"
+msgstr "Expo & Dual-Rate Mix Type"
 
 #: ../../source/ch_model.rst:297
 msgid ""
@@ -412,6 +489,9 @@ msgid ""
 "Rate' or 'Low-Rate' button for a given switch will toggle between linked and"
 " independent curves."
 msgstr ""
+"Switch1またはSwitch2の値を選択すると、対応する項目が有効になります。各項目は「linked」カーブ (「High-Rate」カーブと同一)"
+" を持つことができます。その場合はスカラー値だけを修正することができます。あるいは独立したカーブ定義を持つこともできます。与えられたスイッチの「Mid-"
+"Rate」または 「Low-Rate」ボタンを押すと、linkedカーブと独立カーブが切り替わります。"
 
 #: ../../source/ch_model.rst:305
 msgid ""
@@ -420,7 +500,7 @@ msgstr "**Switch1** or **Switch2**: 中または低レートを有効にする�
 
 #: ../../source/ch_model.rst:310
 msgid "Complex Mix Type"
-msgstr "複雑なMix Type"
+msgstr "Complex Mix Type"
 
 #: ../../source/ch_model.rst:317
 msgid ""
@@ -431,6 +511,8 @@ msgid ""
 "channel.  Using this system it should be possible to define an output "
 "channel as a combination of any number of inputs."
 msgstr ""
+"Complex Mix "
+"Typeはミキサーシステムの最大機能を解放します。特定のチャンネルに対して、最終結果に変化を与えるために任意の数のミキサーを適用することができます。各ミキサーは、指定されたスイッチが有効か否かに基づいて適用され、このチャンネルの前のミキサーを置き換えたり、追加したり、または増加させたりすることができます。このシステムを使用すると、任意の数の入力における組み合わせとして出力チャンネルを定義することが可能になるはずです。"
 
 #: ../../source/ch_model.rst:327
 msgid "The Complex Mixer page has the following options:"
@@ -440,33 +522,34 @@ msgstr "Complex Mixerページには、以下のオプションがあります:"
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
-msgstr ""
+msgstr "**Mixers**: このチャンネルのミキサー数を指定します。数を増やすと、最後の既存のページの後に新しいミキサーが追加されます。"
 
 #: ../../source/ch_model.rst:331
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
-msgstr ""
+msgstr "**Page**: 現在編集中のMixerページを指定します。スピンボックスを押すと、現在のチャンネルのページを並べ替えることができます。"
 
 #: ../../source/ch_model.rst:333
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
-msgstr ""
+msgstr "**Switch**: 現在のミキサーが有効か否かを決定するオプションのスイッチを指定します。"
 
 #: ../../source/ch_model.rst:335
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
 msgstr ""
+"**Mux**: 現在のミキサーがこのチャンネルに対して以前に定義されたミキサーにどう適用されるかを定義します。オプションは以下の通りです:"
 
 #: ../../source/ch_model.rst:337
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
-msgstr ""
+msgstr "**Replace**: このミキサーが有効の場合、以前のミキサーはすべて無視されます。"
 
 #: ../../source/ch_model.rst:338
 msgid "**Add**: Add the value of this mixer to the previous mixers."
-msgstr ""
+msgstr "**Add**: このミキサー値を前のミキサー値に追加します。"
 
 #: ../../source/ch_model.rst:339
 msgid ""
@@ -474,18 +557,19 @@ msgid ""
 "that the values are percentages, so multiplying by 50 actually multiplies by"
 " .5."
 msgstr ""
+"**Mult**: このミキサー値に前のミキサー値を掛けます。値はパーセンテージであるため、値として50を入力すると実際には0.5倍となります。"
 
 #: ../../source/ch_model.rst:342
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
-msgstr ""
+msgstr "**Max**: 出力は現在のミキサー値と前のミキサー値とを比較し大きい方の値になります。"
 
 #: ../../source/ch_model.rst:343
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
-msgstr ""
+msgstr "**Min**: 出力は現在のミキサー値と前のミキサー値とを比較し小さい方の値になります。"
 
 #: ../../source/ch_model.rst:344
 msgid ""
@@ -493,26 +577,29 @@ msgid ""
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
 "offset."
 msgstr ""
+"**Delay**: "
+"カーブが固定されている場合、このミキサーの出力を遅延させます。100のスケールの場合は5秒の遅れを表します。スケールまたはオフセットを用いて変更できます。"
 
 #: ../../source/ch_model.rst:352
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
 msgstr ""
+"スケール値は100%に制限されていますが、オフセットが設定されている場合、またはトリム値がゼロ以外の場合、ミキサーは100%より大きい値となることがあります。"
 
 #: ../../source/ch_model.rst:354
 msgid "**Offset**: an additive offset that is applied after the scaling."
-msgstr ""
+msgstr "**Offset**: スケーリング後に適用される追加オフセット。"
 
 #: ../../source/ch_model.rst:356
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
-msgstr ""
+msgstr "**Trim**: 選択したソースのトリムをこのミキサーに適用するかどうかを選択します。"
 
 #: ../../source/ch_model.rst:358
 msgid "\\ A given mixer can be considered to have the general form:"
-msgstr ""
+msgstr "\\ 与えられたミキサー値は一般的な値と考えられます:"
 
 #: ../../source/ch_model.rst:361
 msgid ""
@@ -526,7 +613,7 @@ msgstr ""
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
-msgstr ""
+msgstr "特定の出力チャンネルに対するミキサーの組み合わせは、Muxタイプによって定義されます:"
 
 #: ../../source/ch_model.rst:365
 msgid "For a ‘Replace’ mux:"
@@ -590,7 +677,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:386
 msgid "Cyclic"
-msgstr "サイクリック"
+msgstr "Cyclic"
 
 #: ../../source/ch_model.rst:392
 msgid ""
@@ -598,10 +685,13 @@ msgid ""
 "mix. These will represent the 3 servos connected to the helicopter swash-"
 "plate (see :ref:`swash-configuration`)."
 msgstr ""
+"**Cyclic 1, Cyclic 2, Cyclic 3**: "
+"ヘリコプターにおけるスワッシュプレートミックスの3つの出力。これらはヘリコプターのスワッシュプレートに接続された3つのサーボを表します。( :ref"
+":`swash-configuration` 参照)"
 
 #: ../../source/ch_model.rst:395
 msgid "Reordering Mixers"
-msgstr "ミキサーの並べ替え"
+msgstr "Reordering Mixers"
 
 #: ../../source/ch_model.rst:403
 msgid ""
@@ -610,6 +700,8 @@ msgid ""
 "the reorder dialog was opened.  If the dialog is closed and reopened, all "
 "mixers will be shown as numbered sequentially."
 msgstr ""
+"それぞれのミキサーを選択し、up / "
+"downボタンを使用して選択したミキサーの順番を移動します。ミキサー名は、並べ替えダイアログが開いたときの位置を表します。ダイアログを閉じて再び開くと、すべてのミキサーに対し順番に番号が割り当てられ表示されます。"
 
 #: ../../source/ch_model.rst:405
 msgid ""
@@ -617,70 +709,74 @@ msgid ""
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
 "mixer (overwriting it in the process) by using the ‘Copy To’ functionality."
 msgstr ""
+"reorderページでは「+」ボタンと「-」ボタンを使用して、新しいミキサーを追加したり、既存のミキサーを削除したりできます。「Copy "
+"to」機能を使用してミキサーを既存のミキサーにコピーすることもできます。(その過程で上書きされます)"
 
 #: ../../source/ch_model.rst:410
 msgid "Available Curves"
-msgstr "利用可能なカーブ"
+msgstr "Available Curves"
 
 #: ../../source/ch_model.rst:412
 msgid "The following curve functions are supported:"
-msgstr ""
+msgstr "以下のカーブ関数がサポートされます:"
 
 #: ../../source/ch_model.rst:414
 msgid "**1-to-1**: Output is equal to the input (not editable)."
-msgstr ""
+msgstr "**1-to-1**: 出力は入力と同じです。(編集不可)"
 
 #: ../../source/ch_model.rst:415
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
-msgstr ""
+msgstr "**Fixed**: 出力は入力に関係なく一定です。(オフセット編集可能)"
 
 #: ../../source/ch_model.rst:416
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
-msgstr ""
+msgstr "**Min/Max**: 入力が指定された値より小さければ出力は-100で、そうでなければ100となります。"
 
 #: ../../source/ch_model.rst:417
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
-msgstr ""
+msgstr "**Zero/Max**: 入力が指定された値より小さければ出力は0で、そうでなければ100となります。"
 
 #: ../../source/ch_model.rst:418
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
-msgstr ""
+msgstr "**>0**: 指定された値よりも大きい場合は、出力が入力に一致し、それ以外の場合は0となります。"
 
 #: ../../source/ch_model.rst:419
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
-msgstr ""
+msgstr "**<0**: 指定された値より小さい場合は、出力が入力に一致し、それ以外の場合は0になります。"
 
 #: ../../source/ch_model.rst:420
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
-msgstr ""
+msgstr "**ABSVAL**: 出力は入力の絶対値です。(指定された値を編集すると絶対値の適用方法が変わります)"
 
 #: ../../source/ch_model.rst:421
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
-msgstr ""
+msgstr "**EXPO**: 非線形レスポンスの入力に指数曲線を適用します。(編集可 :ref:`curve-editing` 参照)"
 
 #: ../../source/ch_model.rst:422
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
-msgstr ""
+msgstr "**Deadband**: 出力はゼロに近い入力値に応答しません。(編集可 :ref:`curve-editing` 参照)"
 
 #: ../../source/ch_model.rst:423
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
 msgstr ""
+"**Multi-point**: カーブは3、5、7、9、11、13のユーザ定義ポイントを基本としています。(編集可 :ref:`curve-"
+"editing` 参照)"
 
 #: ../../source/ch_model.rst:426
 msgid ""
@@ -688,10 +784,12 @@ msgid ""
 "(zero). If you change the curve for one input the offset will be transferred"
 " to the new curve if possible."
 msgstr ""
+"上記の曲線のいずれのオフセットのデフォルト値は0 (ゼロ) "
+"となります。入力の1つに対してカーブを変更した場合、可能な場合はオフセットは新しいカーブに転送されます。"
 
 #: ../../source/ch_model.rst:431
 msgid "Curve Editing"
-msgstr "カーブの編集"
+msgstr "Curve Editing"
 
 #: ../../source/ch_model.rst:433
 msgid ""
@@ -699,6 +797,8 @@ msgid ""
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
 "box will not be selectable if one of these curves is currently active."
 msgstr ""
+"Curve Editorは、選択可能なときに「Curve」スピンボックスを選択することでアクセスできます。1-1とFixed Curve "
+"Typeは編集できないかもしれません。そして、これらのカーブの1つが現在有効であるならば、Curveスピンボックスは選択可能でないでしょう。"
 
 #: ../../source/ch_model.rst:435
 msgid ""
@@ -707,6 +807,8 @@ msgid ""
 "may not be edited, and the curve-box will not be selectable if one of these "
 "curves is currently active."
 msgstr ""
+"Curve Editorは、グラフを押すか、「Curve」スピンボックスが選択可能なときに押すか選択することでアクセスできます。1-1とFixed "
+"Curve Typeは編集できないかもしれません。そして、これらのカーブの1つが現在有効であるならば、Curveボックスは選択可能でないでしょう。"
 
 #: ../../source/ch_model.rst:437
 msgid ""
@@ -715,6 +817,9 @@ msgid ""
 " (except when a multi-point curve is selected).  Values can be set using the"
 " spin-box or by touching the graph."
 msgstr ""
+"Curve Editorページは、どのカーブが選択されているかによって異なります。Curve EditorからCurve "
+"Typeを変更することはできません。(Multi-point Curveが選択されている場合を除く)  "
+"値はスピンボックスを使用するかグラフをタッチすることで設定できます。"
 
 #: ../../source/ch_model.rst:442
 msgid ""
@@ -723,18 +828,19 @@ msgid ""
 "around the y-axis, positive or negative values will move the center point "
 "accordingly"
 msgstr ""
+"Min/Max、Zero/Max、>0、<0、ABSVALの場合は、X軸に沿って遷移点を設定できます。「0」の値はY軸を中心に対称になり、正または負の値はそれに応じて中心点が移動します。"
 
 #: ../../source/ch_model.rst:447
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
-msgstr ""
+msgstr "Expo Curveの場合、コントロールにより曲線の形状をゼロより大きい、または小さい値に個別に設定できます。"
 
 #: ../../source/ch_model.rst:452
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
-msgstr ""
+msgstr "Deadband Curveの場合、コントロールによりデッドバンド幅をゼロより大きい、または小さい値に個別に設定できます。"
 
 #: ../../source/ch_model.rst:457
 msgid ""
@@ -744,10 +850,12 @@ msgid ""
 "Enabling 'Smooth' will apply a smoothing function rather than connecting "
 "points via straight lines."
 msgstr ""
+"Multi-point "
+"Curvesの場合は、ポイントを個別に設定できます。ポイント番号を選択してから値を選択することでポイントが設定されます。許容される最小ポイント数は3、最大ポイント数は13です。「Smooth」を有効にすると、点を直線で接続するのではなく、スムージング機能が適用されます。"
 
 #: ../../source/ch_model.rst:462
 msgid "Timers (Std & Adv GUI)"
-msgstr "タイマー (Std & Adv GUI)"
+msgstr "Timers (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:476
 msgid ""
@@ -755,18 +863,21 @@ msgid ""
 " or down, and can be enabled either manually from the main screen or by an "
 "input trigger (stick or switch)."
 msgstr ""
+"Timerページでは最大4つの利用可能なタイマーを定義します。タイマーは、カウントアップまたはカウントダウンすることができ、メイン画面から手動で、または入力トリガー"
+" (スティックまたはスイッチ) によって有効にすることができます。"
 
 #: ../../source/ch_model.rst:479
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
 msgstr ""
+"使用可能なタイマーは、ストップウォッチ、カウントダウン、ストップウォッチ―Proportional:ラップタイム機能、カウントダウン―Proportional:ラップタイム機能、およびPermanet:トータルタイム機能です。"
 
 #: ../../source/ch_model.rst:482
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
-msgstr ""
+msgstr "タイマーは、代替スイッチを介してリセットされるようにオプションで設定することもできます。(Advanced GUIを使用している場合のみ)"
 
 #: ../../source/ch_model.rst:485
 msgid ""
@@ -774,6 +885,7 @@ msgid ""
 "If you use these timer for throttle a virtual mixer must be used as the "
 "input to scale -100 to 100 values into 0 to 100."
 msgstr ""
+"両方のProportionalタイマーは、正しく動作するために0～100の間の入力を必要とします。これらのタイマーをスロットルに使用する場合は、バーチャルミキサーを-100～100の値を0～100に調整するため入力する必要があります。"
 
 #: ../../source/ch_model.rst:490
 msgid ""
@@ -782,22 +894,25 @@ msgid ""
 "powering up the transmitter. You can set the timer by using the 'Set to' "
 "button and reset by pressing the 'Reset' button."
 msgstr ""
+"「Permanent」タイマーは走行距離計に似ており、その値はmodel.iniファイルに保存されています。送信機の電源を入れても、以前の値が維持されます。「Set"
+" to」ボタンを使用してタイマーを設定し、「Reset」ボタンを押すことでリセットできます。"
 
 #: ../../source/ch_model.rst:496
 msgid "Telemetry config (Std & Adv GUI)"
-msgstr "テレメトリー設定 (Std & Adv GUI)"
+msgstr "Telemetry config (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:504
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
-msgstr ""
+msgstr "Telemetry設定ページでは、特定のテレメトリーイベントが発生したときのアラームを指定できます。"
 
 #: ../../source/ch_model.rst:506
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
 msgstr ""
+"**Telemetry**: アラーム制御に使用するテレメトリー入力情報を指定してください。利用可能な値の設定はプロトコルによって異なります。"
 
 #: ../../source/ch_model.rst:508
 msgid ""
@@ -805,6 +920,8 @@ msgid ""
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
 " once."
 msgstr ""
+"**Equality**: "
+"「>」または「<=」を使い、ターゲットの上値または下値がアラームを鳴らすかどうかを示します。ENTボタンを押すと、アラーム音が1回鳴ります。"
 
 #: ../../source/ch_model.rst:509
 msgid ""
@@ -813,10 +930,12 @@ msgid ""
 "which the target value has to be continuously reached before triggering the "
 "alarm."
 msgstr ""
+"**Target**: アラームのターゲット値。さらにENTボタンを押すことで、アラームを作動させる前にターゲット値に連続して到達する時間遅延 "
+"(0〜9秒) を切り替えることができます。"
 
 #: ../../source/ch_model.rst:514
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
-msgstr "トリムとバーチャル入力 (Std & Adv GUI)"
+msgstr "Trims and Virtual Inputs (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:521
 msgid ""
@@ -825,6 +944,8 @@ msgid ""
 "switch`). It is accessed from the main menu via 'Model menu' followed by "
 "'Trims'."
 msgstr ""
+"Trimページでは、仮想入力として機能するようにボタンを設定するだけでなく、トリムボタンとトリムステップを割り当てることができます。( :ref"
+":`trim-as-virtual-switch` 参照) それはメインメニューから「Model menu」を経て「Trims」でアクセスできます。"
 
 #: ../../source/ch_model.rst:523
 msgid ""
@@ -835,6 +956,7 @@ msgid ""
 " and ‘Trim -’ buttons can operate as a virtual stick to control an output "
 "channel."
 msgstr ""
+"「Input」フィールドが入力スティックに設定されている場合、トリムはミキサーの一部として適用され、典型的なトリムコントロールとして機能します。「Input」フィールドがチャンネルまたはバーチャルチャンネル出力として設定されている場合、値はチャンネル出力に直接適用されます。この場合、選択した「Trim+」ボタンと「Trim-」ボタンは出力チャンネルをコントロールするバーチャルスティックとして機能します。"
 
 #: ../../source/ch_model.rst:536
 msgid ""
@@ -842,6 +964,8 @@ msgid ""
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
 " 10% of trim adjustment on the servo."
 msgstr ""
+"「Trim-step」はトリムの入力感度を定義します。Trim-stepの最大数は+ / "
+"-100です。そのため、ステップサイズを0.1にすると、サーボの+ / -10%のトリム調整が可能になります。"
 
 #: ../../source/ch_model.rst:538
 msgid ""
@@ -851,15 +975,17 @@ msgid ""
 "added to the trim, then it will have different trim values in each switch "
 "position."
 msgstr ""
+"Trim-"
+"stepはメイン画面で変更できます。ソースを変更する必要がある場合は、それぞれの「Input」ボタンを押してアクセスしたダイアログを使用してください。ここでもトリムにスイッチを追加することができます。スイッチをトリムに追加すると、各スイッチ位置で異なるトリム値になります。"
 
 #: ../../source/ch_model.rst:543
 msgid "Datalog (Std & Adv GUI)"
-msgstr "ログデータ (Std & Adv GUI)"
+msgstr "Datalog (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:547 ../../source/ch_model.rst:613
 #: ../../source/ch_model.rst:633
 msgid "Note: This feature is not available for Devo7e."
-msgstr ""
+msgstr "注: この機能はDevo7eでは使用できません。"
 
 #: ../../source/ch_model.rst:550
 msgid ""
@@ -918,7 +1044,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:572
 msgid "Main page config (Std & Adv GUI)"
-msgstr "メイン画面設定 (Std & Adv GUI)"
+msgstr "Main page config (Std & Adv GUI)"
 
 #: ../../source/ch_model.rst:586
 msgid ""
@@ -979,7 +1105,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:605
 msgid "Configuring object position"
-msgstr "オブジェクトポジション設定"
+msgstr "Configuring object position"
 
 #: ../../source/ch_model.rst:608
 msgid ""
@@ -1002,7 +1128,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:622
 msgid "Creating Objects"
-msgstr "オブジェクトの作成"
+msgstr "Creating Objects"
 
 #: ../../source/ch_model.rst:628
 msgid ""
@@ -1022,7 +1148,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:639
 msgid "Loading Objects"
-msgstr "オブジェクトの書き出し"
+msgstr "Loading Objects"
 
 #: ../../source/ch_model.rst:646
 msgid ""
@@ -1061,7 +1187,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring Objects"
-msgstr "オブジェクトの設定"
+msgstr "Configuring Objects"
 
 #: ../../source/ch_model.rst:661
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
@@ -1111,7 +1237,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:682
 msgid "Choosing toggle icons"
-msgstr "トグルアイコンの選択"
+msgstr "Choosing toggle icons"
 
 #: ../../source/ch_model.rst:687
 msgid ""
@@ -1124,7 +1250,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:692
 msgid "Standard GUI Menu items"
-msgstr "標準GUIメニュー項目"
+msgstr "Standard GUI Menu items"
 
 #: ../../source/ch_model.rst:699
 msgid ""
@@ -1273,7 +1399,7 @@ msgstr "**Main page config**: メイン画面設定 ( :ref:`main-page-config`項
 
 #: ../../source/ch_model.rst:765
 msgid "Servo Reverse"
-msgstr "サーボ リバース"
+msgstr "Servo Reverse"
 
 #: ../../source/ch_model.rst:770
 msgid ""
@@ -1285,7 +1411,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:775
 msgid "Dual-Rate/Expo setting"
-msgstr "デュアルレート / Expo設定"
+msgstr "Dual-Rate/Expo setting"
 
 #: ../../source/ch_model.rst:780
 msgid ""
@@ -1298,7 +1424,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:785
 msgid "Sub-trim Adjustment"
-msgstr "サブトリム調整"
+msgstr "Sub-trim Adjustment"
 
 #: ../../source/ch_model.rst:790
 msgid ""
@@ -1311,7 +1437,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:795
 msgid "Servo Travel Adjust"
-msgstr "サーボ トラベルアジャスト"
+msgstr "Servo Travel Adjust"
 
 #: ../../source/ch_model.rst:800
 msgid ""
@@ -1325,7 +1451,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:805
 msgid "Swash Configuration"
-msgstr "スワッシュ設定"
+msgstr "Swash Configuration"
 
 #: ../../source/ch_model.rst:807
 msgid ""
@@ -1341,7 +1467,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:818
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
-msgstr ""
+msgstr "**None/1Servo**: FBLに使用されます。受信機でミキシングが行われます。"
 
 #: ../../source/ch_model.rst:819
 msgid "**120/3Servo 120**: 120-degree swash"
@@ -1370,7 +1496,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
-msgstr "スロットルカーブ"
+msgstr "Throttle Curve"
 
 #: ../../source/ch_model.rst:835
 msgid ""
@@ -1382,7 +1508,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
-msgstr "ピッチカーブ"
+msgstr "Pitch Curve"
 
 #: ../../source/ch_model.rst:845
 msgid ""
@@ -1394,7 +1520,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
-msgstr "ジャイロ感度"
+msgstr "Gyro Sensitivity"
 
 #: ../../source/ch_model.rst:855
 msgid ""
@@ -1405,7 +1531,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
-msgstr "スイッチ割り当て"
+msgstr "Switch Assignment"
 
 #: ../../source/ch_model.rst:865
 msgid ""
@@ -1416,7 +1542,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
-msgstr "スロットルホールド"
+msgstr "Throttle Hold"
 
 #: ../../source/ch_model.rst:875
 msgid ""
@@ -1427,7 +1553,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
-msgstr "フェイルセーフ設定"
+msgstr "Fail-Safe Configuration"
 
 #: ../../source/ch_model.rst:885
 msgid ""

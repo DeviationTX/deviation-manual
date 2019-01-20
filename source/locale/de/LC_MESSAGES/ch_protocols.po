@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# TheRealMoeder, 2018
+# TheRealMoeder, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-13 01:08+0000\n"
+"POT-Creation-Date: 2019-01-20 01:48+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: TheRealMoeder, 2018\n"
+"Last-Translator: TheRealMoeder, 2019\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,11 +694,11 @@ msgstr "Kanal 8 macht Einzelbildaufnahmen"
 
 #: ../../source/ch_protocols.rst:205
 msgid "Channel 9 Enables headless mode"
-msgstr ""
+msgstr "Kanal 9 schaltet Headless Mode ein/aus"
 
 #: ../../source/ch_protocols.rst:206
 msgid "Channel 10 Enables return to home"
-msgstr ""
+msgstr "Kanal 10 aktiviert die Return-to-home-Funktion"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
@@ -2208,7 +2208,7 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:813
 msgid "Led light is controlled by Channel 6"
-msgstr ""
+msgstr "Lichter werden von Kanal 6 gesteuert"
 
 #: ../../source/ch_protocols.rst:819
 msgid "Protocol: \\*NCC1701"
