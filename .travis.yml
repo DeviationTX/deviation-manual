@@ -48,7 +48,7 @@ script:
                tx pull -f -a;
                ./utils/clean_transifex_merge.py source/locale;
                git add source/locale;
-               git commit -m `utils/get_altered_languages.py 'Updating translations from Transifex'`;
+               git commit -m "`utils/get_altered_languages.py 'Updating translations from Transifex'`";
                git push > /dev/null 2>&1 && echo "Successfully uploaded new translations to Github.";
                popd; rm -rf $HOME/txgit;
            fi;
