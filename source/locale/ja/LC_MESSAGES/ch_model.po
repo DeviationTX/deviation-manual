@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-20 01:48+0000\n"
+"POT-Creation-Date: 2019-01-20 02:22+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -995,28 +995,29 @@ msgid ""
 " time. Logs are persistent and Deviation will continue writing to the end of"
 " the previous log by default."
 msgstr ""
+"ログ機能を使用すると、入力または出力ポジションの履歴とテレメトリー情報を一定期間にわたり保存できます。これは飛行状態を調べて再生したり、後でテレメトリー情報を視覚化したりするために使用できます。ログは永続的であり、Deviationはデフォルトで前回のログの末尾まで書き込みを続けます。"
 
 #: ../../source/ch_model.rst:557
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
-msgstr ""
+msgstr "**# bytes left**: ログがいっぱいなってしまう前に、ログに書き込み可能なバイト数を示します。"
 
 #: ../../source/ch_model.rst:558
 msgid "**Enable**: Input which enables logging."
-msgstr ""
+msgstr "**Enable**: ログ有効にする入力。"
 
 #: ../../source/ch_model.rst:559
 msgid "**Reset**: Clear the current log."
-msgstr ""
+msgstr "**Reset**: 現在のログを消去します。"
 
 #: ../../source/ch_model.rst:560
 msgid "**Rate**: How often to write current info to the log file."
-msgstr ""
+msgstr "**Rate**: ログファイルに現在の情報を書き込む頻度。"
 
 #: ../../source/ch_model.rst:561
 msgid "**Select**: Quickly set or reset which items are logged."
-msgstr ""
+msgstr "**Select**: どの項目をログに記録するかを素早く設定またはリセットします。"
 
 #: ../../source/ch_model.rst:562
 msgid ""
@@ -1024,6 +1025,8 @@ msgid ""
 "logged. They include timers, inputs, outputs, and virtual channels, and "
 "Telemetry. The more items logged the faster the log will fill up."
 msgstr ""
+"**Controls**: "
+"「Select」に続くログ情報は、記録されている可能性があるすべてのコントロールのリストです。それらには、タイマー、入力、出力、仮想チャンネル、そしてテレメトリー情報が含まれます。ログに記録する項目が多いほどログがいっぱいになります。"
 
 #: ../../source/ch_model.rst:564
 msgid ""
@@ -1033,6 +1036,8 @@ msgid ""
 "increase the size of this file, so its size indicates the maximum data that "
 "can be stored."
 msgstr ""
+"**Logging more information** "
+"デフォルトでは、ログは16KBのデータしか保存できません。送信機のdatalog.binファイルにより大きなサイズに変更することで、保存するデータ量を増やすことができます。Deviationメニューでも、このファイルのサイズを大きくすることはできないので、そのサイズは保存できる最大データを示します。"
 
 #: ../../source/ch_model.rst:567
 msgid ""
@@ -1041,6 +1046,9 @@ msgid ""
 "within the transmitter. Please check the downloads section on "
 "www.deviationtx.com for conversion tools."
 msgstr ""
+"**注: 上級者ユーザ向けの機能** "
+"ログを分析するためのソフトウェアは現在提供されていません。そしてログ情報は送信機で視覚化することはできません。変換ツールについては "
+"www.deviationtx.com のダウンロード項目を確認してください。"
 
 #: ../../source/ch_model.rst:572
 msgid "Main page config (Std & Adv GUI)"
@@ -1051,10 +1059,11 @@ msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
 msgstr ""
+"Main page設定のページは、Main page表示を設定するために使用されます。このページではMain pageに表示される項目を定義できます。"
 
 #: ../../source/ch_model.rst:589
 msgid "The following types of objects can be displayed:"
-msgstr ""
+msgstr "以下のタイプのオブジェクトを表示することができます:"
 
 #: ../../source/ch_model.rst:592
 msgid ""
@@ -1062,6 +1071,8 @@ msgid ""
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
 "difference is the size of the box and the text within it."
 msgstr ""
+"**Box**: "
+"数値を表示します。値にはタイマー、チャンネル、スティック入力等があります。ボックスには大と小の2種類があります。唯一の違いは、ボックスのサイズとその中に記載されるテキストです。"
 
 #: ../../source/ch_model.rst:593
 msgid ""
@@ -1070,24 +1081,26 @@ msgid ""
 "types of trims.  V-Trims show a vertical bar, and H-Trims show a horizontal "
 "bar. After inserting all trims do have numbers only."
 msgstr ""
+"**Trimbar**: "
+"トリム値を表示します。これらは一般的にトリムスイッチによって制御され、現在のトリム位置がどのくらいであるかを示します。トリムには2種類あり、V-Trimは垂直バーを示し、H-Trimは水平バーを示します。最大トリムを挿入した以降は数字だけの表示となります。"
 
 #: ../../source/ch_model.rst:594
 msgid "**Model (Icon)**: Display the icon related to the selected model."
-msgstr ""
+msgstr "**Model (Icon)**: 選択した機体モデルに関連したアイコンを表示します。"
 
 #: ../../source/ch_model.rst:595
 msgid "**Battery**: Display the battery voltage."
-msgstr ""
+msgstr "**Battery**: バッテリー電圧を表示します。"
 
 #: ../../source/ch_model.rst:596
 msgid "**TxPower**: Displays the actual transmitter rating."
-msgstr ""
+msgstr "**TxPower**: 実際の送信機の送信電波出力を表示します。"
 
 #: ../../source/ch_model.rst:597
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
-msgstr ""
+msgstr "**Bargraph**: 縦線を表示します。線の値はチャンネル出力です。"
 
 #: ../../source/ch_model.rst:599
 msgid ""
@@ -1096,12 +1109,16 @@ msgid ""
 "depending on the switch position.  Two-state switches can have up to 2 "
 "icons.  Three-state switches can have up to 3 icons."
 msgstr ""
+"**Toggle**: "
+"トグルスイッチの状態を示すアイコンを表示します。スイッチ位置に応じて様々な状態を示す1つ、2つ、または3つのアイコンを指定のトグルスイッチに定義できます。2ポジションスイッチには最大2つのアイコンを割り当てることができます。3ポジションスイッチは最大3つのアイコンを割り当てることができます。"
 
 #: ../../source/ch_model.rst:600
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
 msgstr ""
+"**(Quick) Menus**: Quick menusは、UP / DNを長押しすることでアクセスできるquick-"
+"accessページを定義します。"
 
 #: ../../source/ch_model.rst:605
 msgid "Configuring object position"
@@ -1115,6 +1132,8 @@ msgid ""
 "boxes which appear in move mode can also be used to move the selected "
 "object.  Press EXT once to exit move mode."
 msgstr ""
+"各ビジュアルオブジェクトは、それらを押すかUP / DNボタンに続いてENTを押すことで選択できます。選択されると、UP / DN / L / "
+"Rボタンはスクリーン上の選択されたオブジェクトを動かします。あるいは、移動モードで表示されるXおよびYスピンボックスを使用して、選択したオブジェクトを移動させることもできます。移動モードを終了するには、EXTを1回押します。"
 
 #: ../../source/ch_model.rst:618
 msgid ""
@@ -1125,6 +1144,10 @@ msgid ""
 "selected object on the screen.  Press EXT once to exit move mode, and again "
 "to go back to the main page config menu."
 msgstr ""
+"model configurationページからENTボタンを押し続けると、object position画面に切り替わります。 "
+"各ビジュアルオブジェクトは、UP / DNボタンを使用して選択できます。もう一度ENTを押すと、選択したオブジェクトのポジションを移動できます。UP /"
+" DN / L / Rボタンは画面上で選択されたオブジェクトを動かします。移動モードを終了するにはEXTを1回押し、main "
+"pageの設定メニューに戻るにはもう一度押します。"
 
 #: ../../source/ch_model.rst:622
 msgid "Creating Objects"
@@ -1137,6 +1160,7 @@ msgid ""
 "This will add the specified object type to the center of the screen.  You "
 "can now place and configure the new object."
 msgstr ""
+"「+」アイコンを選択してアイテム追加ダイアログを開きます。次に、左側のスピンボックスからオブジェクトの種類を選択し、「Add」をクリックしてオブジェクトを作成します。これにより、指定したオブジェクトタイプが画面の中央に追加されます。これで新しいオブジェクトを配置して設定できます。"
 
 #: ../../source/ch_model.rst:635
 msgid ""
@@ -1145,6 +1169,8 @@ msgid ""
 "relevant section in the menu with a type of ‘None’ (where applicable).  Then"
 " move the cursor to the newly created object and configure as desired."
 msgstr ""
+"左側のスピンボックスからオブジェクトの種類を選択し、「**Add**」を押してオブジェクトを作成します。これにより、該当するオブジェクトタイプがメニューの関連項目に「None」タイプとして追加されます。(該当する場合)"
+" 次に、新しく作成したオブジェクトにカーソルを移動して、必要に応じて設定します。"
 
 #: ../../source/ch_model.rst:639
 msgid "Loading Objects"
@@ -1155,20 +1181,21 @@ msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
 "alternate templates, to change the main page layout."
 msgstr ""
+"「+」アイコンを選択してアイテムの追加ダイアログを開いた後、Mainページのレイアウトを変更するために代替テンプレートを「Load」することができます。"
 
 #: ../../source/ch_model.rst:648
 msgid "You can 'Load' alternate templates, to change the main page layout."
-msgstr ""
+msgstr "Mainページのレイアウトを変更するために、代替テンプレートを「Load」することができます。"
 
 #: ../../source/ch_model.rst:650
 msgid ""
 "If you select 'Default' the layout will be set to the standard layout as "
 "shown in section :ref:`main-page`."
-msgstr ""
+msgstr "「Default」を選択すると、項目 :ref:`main-page` に示すように、レイアウトは標準レイアウトに設定されます。"
 
 #: ../../source/ch_model.rst:652
 msgid "Selecting 'Empty' will clear all objects. You may start from scratch."
-msgstr ""
+msgstr "「Empty」を選択すると、すべてのオブジェクトが消去されます。最初から設定することができます。"
 
 #: ../../source/ch_model.rst:654
 msgid ""
@@ -1184,6 +1211,7 @@ msgid ""
 "Additionally these templates can be created in the emulator or downloaded "
 "from the forums or even done by manual edit of the modelxx.ini file."
 msgstr ""
+"さらに、これらのテンプレートは、エミュレータで作成することも、フォーラムからダウンロードすることも、modelxx.iniファイルを手動で編集して作成することもできます。"
 
 #: ../../source/ch_model.rst:659
 msgid "Configuring Objects"
@@ -1191,49 +1219,50 @@ msgstr "Configuring Objects"
 
 #: ../../source/ch_model.rst:661
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
-msgstr ""
+msgstr "**Box**: タイマー、テレメトリー、チャンネル、またはscroll-boxからの入力を選択"
 
 #: ../../source/ch_model.rst:662
 msgid "**Trim**: Select trim channel from scroll-box"
-msgstr ""
+msgstr "**Trim**: scroll-boxからトリムチャンネルを選択"
 
 #: ../../source/ch_model.rst:663
 msgid "**Model**: Not configurable"
-msgstr ""
+msgstr "**Model**: 設定不可"
 
 #: ../../source/ch_model.rst:664
 msgid "**Battery**: Not configurable"
-msgstr ""
+msgstr "**Battery**: 設定不可"
 
 #: ../../source/ch_model.rst:665
 msgid "**TxPower**: Not configurable"
-msgstr ""
+msgstr "**TxPower**: 設定不可"
 
 #: ../../source/ch_model.rst:666
 msgid "**Bargraph**: Select channel from scroll box"
-msgstr ""
+msgstr "**Bargraph**: スクロールボックスからチャンネルを選択"
 
 #: ../../source/ch_model.rst:667
 msgid ""
 "**Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’"
 " button to choose icon"
 msgstr ""
+"**Toggle**: スクロールボックスからチャンネルまたは入力を選択します。関連する「Toggle」ボタンを押してアイコンを選択します。"
 
 #: ../../source/ch_model.rst:668
 msgid "**Menu**: Choose page to display for each of 4 quick-page slots"
-msgstr ""
+msgstr "**Menu**: 4つのquick-pageスロットのそれぞれに表示するページを選択してください。"
 
 #: ../../source/ch_model.rst:675
 msgid ""
 "You can delete any object by configuring the object and pressing the "
 "‘Delete’ button"
-msgstr ""
+msgstr "オブジェクトを設定して「Delete」ボタンを押すと、任意のオブジェクトを削除できます。"
 
 #: ../../source/ch_model.rst:677
 msgid ""
 "You can delete any object but a Menu page by selecting the  ‘Delete’ option "
 "and pressing the 'ENT' button."
-msgstr ""
+msgstr "「削除」オプションを選択して「ENT」ボタンを押すと、Menu page以外のオブジェクトを削除できます。"
 
 #: ../../source/ch_model.rst:682
 msgid "Choosing toggle icons"
@@ -1463,7 +1492,7 @@ msgstr ""
 
 #: ../../source/ch_model.rst:816
 msgid "The available SwashType values are:"
-msgstr ""
+msgstr "利用可能なスワッシュタイプ値は次のとおりです:"
 
 #: ../../source/ch_model.rst:818
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
@@ -1493,6 +1522,8 @@ msgid ""
 " with a default of 60. Note that setting these values too large can result "
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
+"ELE Mix、AIL Mix、およびPIT "
+"Mixは、ミキシングが行われる前に入力スティックに適用される倍率です。これらを使用して、様々なリンク幅、またはさまざまなサーボスローを調整できます。許容範囲は-100〜100で、デフォルトは60です。これらの値を大きく設定しすぎると、サーボスローが大きくなりすぎ、モデルがスティック制御に反応しなくなる可能性があります。"
 
 #: ../../source/ch_model.rst:830
 msgid "Throttle Curve"
@@ -1505,6 +1536,8 @@ msgid ""
 "Each point value can be enabled to be interpolated from the points "
 "surrounding it."
 msgstr ""
+"Throttle "
+"Curveページでは、スロットルチャンネルの区分的な線形カーブを定義できます。フライトモードごとに異なるカーブを選択できます。各ポイントの値は、それを囲むポイントから補間することができます。"
 
 #: ../../source/ch_model.rst:840
 msgid "Pitch Curve"
@@ -1517,6 +1550,8 @@ msgid ""
 "mode as well as for throttle-hold.  Each point value can be enabled to be "
 "interpolated from the points surrounding it."
 msgstr ""
+"Pitch Curveでは、コレクティブ / "
+"ピッチチャンネルの区分的な線形カーブを定義できます。スロットルホールドだけでなく、フライトモードごとに異なるカーブを選択できます。各ポイントの値は、それを囲むポイントから補間することができます。"
 
 #: ../../source/ch_model.rst:850
 msgid "Gyro Sensitivity"
@@ -1528,6 +1563,8 @@ msgid ""
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
 msgstr ""
+"gyro-"
+"sensitivityページでは、ジャイロの最大3つの感度値とジャイロ値の送信に使用するチャンネルを設定できます。許容値は0～100%の範囲です。"
 
 #: ../../source/ch_model.rst:860
 msgid "Switch Assignment"
@@ -1539,6 +1576,7 @@ msgid ""
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
 msgstr ""
+"switch assignmentページでは、標準GUIの各機能に使用するスイッチを設定できます。同じスイッチを複数の機能に割り当てることができます。"
 
 #: ../../source/ch_model.rst:870
 msgid "Throttle Hold"
@@ -1550,6 +1588,8 @@ msgid ""
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
 msgstr ""
+"throttle-holdページは、スロットルホールド機能を有効 / 無効にするために使用されます。「Hold position」を指定すると"
+"、Throttle-holdスイッチが設定されているときのスロットル値が定義されます。保持位置は-200～200まで設定できます。"
 
 #: ../../source/ch_model.rst:880
 msgid "Fail-Safe Configuration"
@@ -1559,4 +1599,4 @@ msgstr "Fail-Safe Configuration"
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
-msgstr ""
+msgstr "fail-safeページは、各チャンネルのフェールセーフ値を設定するために使用されます。(プロトコルがこの機能をサポートしている場合)"
