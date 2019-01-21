@@ -140,7 +140,19 @@ The model page provides various model configuration options.
 
    If you switch from model type Helicopter this will change the Mixer GUI to Advanced automatically because the Standard GUI only supports helicopters.
 
-**Transmitter Power**: Specify the radio output power (when applicable). Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW. 
+**Transmitter Power**: Specify the radio output power (when applicable).  The valid power settings depend on the radio used by the selected protocol.
+
++----------------------------+--------------------------------------------------+
+| CYRF6936, CC2500, MULTIMOD | 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW |
++----------------------------+--------------------------------------------------+
+|                      A7105 | 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW        |
++----------------------------+--------------------------------------------------+
+|                   NRF24L01 | 1mW, 6mW, 25mW, 100mW                            |
++----------------------------+--------------------------------------------------+
+|         R9M (PXX protocol) | 10/25mW, 100/25mW, 500/500, Auto/200 (FCC/EU)    |
++----------------------------+--------------------------------------------------+
+
+When changing the protocol in a model the power level will be set to the maximum for the radio used by the new protocol. Best to choose protocol first, then set Tx power.
 
 .. if:: devo10
 
