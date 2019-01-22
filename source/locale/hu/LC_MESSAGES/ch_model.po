@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 01:35+0000\n"
+"POT-Creation-Date: 2019-01-22 00:09+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Fodor Laszlo <fdr@fdr.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/deviationtx/teams/73329/hu/)\n"
@@ -184,14 +184,50 @@ msgstr ""
 
 #: ../../source/ch_model.rst:135
 msgid ""
-"**Transmitter Power**: Specify the radio output power (when applicable). "
-"Available options are 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW."
+"**Transmitter Power**: Specify the radio output power (when applicable).  "
+"The valid power settings depend on the radio used by the selected protocol."
 msgstr ""
-"**Kimentő teljesítmény**: Meghatározza a rádió kimeneti teljesítményét (ha "
-"lehetséges). A beállítható értékek: 100µW, 300µW, 1mW, 3mW, 10mW, 30mW, "
-"100mW, 150mW."
+
+#: ../../source/ch_model.rst:138
+msgid "CYRF6936, CC2500, MULTIMOD"
+msgstr ""
+
+#: ../../source/ch_model.rst:138
+msgid "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW"
+msgstr ""
 
 #: ../../source/ch_model.rst:140
+msgid "A7105"
+msgstr ""
+
+#: ../../source/ch_model.rst:140
+msgid "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW"
+msgstr ""
+
+#: ../../source/ch_model.rst:142
+msgid "NRF24L01"
+msgstr ""
+
+#: ../../source/ch_model.rst:142
+msgid "1mW, 6mW, 25mW, 100mW"
+msgstr ""
+
+#: ../../source/ch_model.rst:144
+msgid "R9M (PXX protocol)"
+msgstr ""
+
+#: ../../source/ch_model.rst:144
+msgid "10/25mW, 100/25mW, 500/500, Auto/200 (FCC/EU)"
+msgstr ""
+
+#: ../../source/ch_model.rst:147
+msgid ""
+"When changing the protocol in a model the power level will be set to the "
+"maximum for the radio used by the new protocol. Best to choose protocol "
+"first, then set Tx power."
+msgstr ""
+
+#: ../../source/ch_model.rst:152
 msgid ""
 "Note: A stock Devo7e transmits with 7mW. Due to software configuration 150mW"
 " will always be displayed."
@@ -200,7 +236,7 @@ msgstr ""
 "teljesítménye 7mW, de a szoftver ilyenkor a maximális kimenő teljesítményhez"
 " tartozó értéket fogja megjeleníteni, ami 150mW."
 
-#: ../../source/ch_model.rst:144
+#: ../../source/ch_model.rst:156
 msgid ""
 "**PPM In**: Allows input from the DSC port primarily to control external "
 "hardware such as camera motors from a 'head tracker'. Secondarily it may be "
@@ -212,7 +248,7 @@ msgstr ""
 " Ezen kívül ezt kell használni az oktató üzemmódhoz is. A beállítható "
 "értékek: Csatorna, Bot és Kiterjesztett."
 
-#: ../../source/ch_model.rst:150
+#: ../../source/ch_model.rst:162
 msgid ""
 "The Stick and Channel modes are used for buddy-box setup and documentation "
 "can be found in chapter :ref:`setting-up-a-buddy-box`.  The Extend mode is "
@@ -224,7 +260,7 @@ msgstr ""
 "mód használható FPV-hez, vagy más külső bemenet fogadására, és a :ref"
 ":`setting-up-fpv` fejezet írja le."
 
-#: ../../source/ch_model.rst:152
+#: ../../source/ch_model.rst:164
 msgid ""
 "**Protocol**: Set the type of receiver being used.  Note that some protocols"
 " have additional options that can be accessed by pressing the Protocol spin-"
@@ -241,7 +277,7 @@ msgstr ""
 "csatlakoztatott modellre is! Az újonnan kiválasztott protokoll "
 "engedélyezéséhez használd a \"Csatol\" gombot az alábbiak szerint."
 
-#: ../../source/ch_model.rst:163
+#: ../../source/ch_model.rst:175
 msgid ""
 "**Bind/Re-Init**:  Depending on the protocol and Fixed-ID setting, the "
 "transmitter may bind with the model on start-up, or may need to be manually "
@@ -256,7 +292,7 @@ msgstr ""
 "használható akkor is, ha a távirányító kikapcsolása nélkül akarunk "
 "protokollt váltani."
 
-#: ../../source/ch_model.rst:168
+#: ../../source/ch_model.rst:180
 msgid ""
 "**Fixed ID**:  The Fixed ID sets a unique code to ensure that the "
 "transmitter will only bind to a specific model.  This is useful to ensure "
@@ -267,7 +303,7 @@ msgstr ""
 "csatlakozni. Ez hasznos lehet annak biztosítására, hogy a távirányító "
 "véletlenül se csatlakozhasson rossz modellhez."
 
-#: ../../source/ch_model.rst:170
+#: ../../source/ch_model.rst:182
 msgid ""
 "**# Channels**: Sets the number of channels to transmit (the maximum number "
 "of channels is dependent on the selected protocol)."
@@ -275,11 +311,11 @@ msgstr ""
 "**Csatornák**: Megadja a továbbítandó csatornák számát (de a csatornák "
 "maximális számát a kiválasztott protokoll határozza meg)."
 
-#: ../../source/ch_model.rst:175
+#: ../../source/ch_model.rst:187
 msgid "Predefined Model Templates"
 msgstr "Előre definiált modell sablonok"
 
-#: ../../source/ch_model.rst:182
+#: ../../source/ch_model.rst:194
 msgid ""
 "The Deviation firmware supports user-customizable predefined templates.  By "
 "Selecting ‘Template...’ within the File spin-box from the Model page."
@@ -288,7 +324,7 @@ msgstr ""
 "sablonok használatára, melyek a modell konfigurációs ablak \"Fájl\" "
 "kiválasztó dobozának \"Sablon...\" értékének kiválasztásával tölthetők be."
 
-#: ../../source/ch_model.rst:184
+#: ../../source/ch_model.rst:196
 msgid ""
 "Additional templates can be added via USB to the ‘\\\\template’ directory. A"
 " template does not completely replace your existing model, but instead only "
@@ -301,11 +337,11 @@ msgstr ""
 "sablonok például lecserélik a mixer és trim definíciókat, de nem érintik a "
 "kijelző konfigurációt."
 
-#: ../../source/ch_model.rst:189
+#: ../../source/ch_model.rst:201
 msgid "Mixer (Adv GUI)"
 msgstr "Mixer (Haladó GUI)"
 
-#: ../../source/ch_model.rst:203
+#: ../../source/ch_model.rst:215
 msgid ""
 "The 'Advanced' GUI unleashes the full capabilities of the Deviation "
 "firmware, however it is unlike any commercial transmitter setup. Deviation "
@@ -332,7 +368,7 @@ msgstr ""
 "(lásd :ref:`predefined-model-templates`), de a modellek módosításának és "
 "konfigurálásának elsajátításához olvasd el figyelmesen az egész fejezetet."
 
-#: ../../source/ch_model.rst:205
+#: ../../source/ch_model.rst:217
 msgid ""
 "The Mixer page controls how inputs (sticks/switches) are assigned to output "
 "channels.  The mixer page is accessed from the main menu by selecting the "
@@ -342,7 +378,7 @@ msgstr ""
 "vannak hozzárendelve a kimeneti csatornákhoz. A mixer lista a modell menüből"
 " érhető el."
 
-#: ../../source/ch_model.rst:207
+#: ../../source/ch_model.rst:219
 msgid ""
 "The number of channels available is dependent on the number of channels "
 "selected in section :ref:`model-setup`. Additionally there are 10 Virtual "
@@ -352,11 +388,11 @@ msgstr ""
 "kiválasztott csatornaszámtól függ. Ehhez jön plusz 10 virtuális csatorna, "
 "melyeket a bonyolult kifejezésekhez tudunk köztes lépésként felhasználni."
 
-#: ../../source/ch_model.rst:210
+#: ../../source/ch_model.rst:222
 msgid "Channel Reorder"
 msgstr "Csatorna sorbarendezés"
 
-#: ../../source/ch_model.rst:215
+#: ../../source/ch_model.rst:227
 msgid ""
 "The Channel reorder page allows moving mixer definitions between channels as"
 " well as duplicating channel configurations.  Note that the values displayed"
@@ -369,11 +405,11 @@ msgstr ""
 "megjelenítve. Ahányszor csak betöltődik a képernyő, a csatornák az aktuális "
 "sorrendjük szerint lesznek sorszámozva."
 
-#: ../../source/ch_model.rst:220
+#: ../../source/ch_model.rst:232
 msgid "Channel configuration"
 msgstr "Csatorna konfigurálás"
 
-#: ../../source/ch_model.rst:227
+#: ../../source/ch_model.rst:239
 msgid ""
 "The Channel configuration provides the ability to configure the final "
 "channel outputs.  Capabilities such as channel reverse and fail-safe values "
@@ -388,7 +424,7 @@ msgstr ""
 "hogy a motor ne tudjon felpörögni bekapcsoláskor, vagy amíg a modellt "
 "konfiguráljuk)."
 
-#: ../../source/ch_model.rst:229
+#: ../../source/ch_model.rst:241
 msgid ""
 "Changes to this page will immediately effect the channel output.  Pressing "
 "'**Cancel**' will restore the shown values to their last saved state."
@@ -397,11 +433,11 @@ msgstr ""
 "csatornán. A \"**Mégsem**\" gomb megnyomására visszaállnak a legutóbb "
 "mentett értékek."
 
-#: ../../source/ch_model.rst:231
+#: ../../source/ch_model.rst:243
 msgid "**Reverse**: Reverse the direction of servo rotation"
 msgstr "**Invertálás**: Invertálja a szervó forgási irányát."
 
-#: ../../source/ch_model.rst:233
+#: ../../source/ch_model.rst:245
 msgid ""
 "**Fail-safe**:  Specifies a value that the receiver should use when it loses"
 " signal from the transmitter. The range is between -125 and +125 or None. "
@@ -412,7 +448,7 @@ msgstr ""
 " megszakad. A megadható érték -125 és +125 között lehet, vagy Nincs. Nem "
 "minden vevő rendelkezik ilyen funkcióval."
 
-#: ../../source/ch_model.rst:235
+#: ../../source/ch_model.rst:247
 msgid ""
 "**Safety**: Specifies a switch that will override all mixers and force the "
 "channel output to ‘Safe Val’ when flipped."
@@ -421,7 +457,7 @@ msgstr ""
 " beállítja a csatorna kimenetét a \"Biztonsági érték\"-re, ha be van "
 "kapcsolva."
 
-#: ../../source/ch_model.rst:237
+#: ../../source/ch_model.rst:249
 msgid ""
 "**Safe Val**: If a safety switch is chosen the Safe Val can also be "
 "specified. The acceptable range of Safe Val is any value between -150 and "
@@ -430,7 +466,7 @@ msgstr ""
 "**Biztonsági érték**: Ha a biztonsági kapcsoló meg van adva, akkor a "
 "biztonsági érték is megadható. A megadható tartomány: -150 és +150 között."
 
-#: ../../source/ch_model.rst:239
+#: ../../source/ch_model.rst:251
 msgid ""
 "**Min Limit/Max Limit**: These values define the minimum and maximum values "
 "that the transmitter will ever send to the receiver (after all scaling, "
@@ -447,7 +483,7 @@ msgstr ""
 " maximum korlát pedig +150. A beállítható tartomány -250..0 a minimum "
 "korlátra, és 0..250 a maximum korlátra."
 
-#: ../../source/ch_model.rst:241
+#: ../../source/ch_model.rst:253
 msgid ""
 "**Scale-/Scale+**: These values define a final scalar to adjust the servo "
 "throw. Allowed entries are between 1 and 250. When you alternate Scale+  "
@@ -461,7 +497,7 @@ msgstr ""
 "Ha külön a Skála- értékét állítod be a Skála+-tól eltérő értékre, akkor a "
 "két adat különböző marad, amíg újra egyformára nem állítod."
 
-#: ../../source/ch_model.rst:243
+#: ../../source/ch_model.rst:255
 msgid ""
 "**Subtrim**: Adjust servo zero position. The available range is between "
 "-50.0 and +50.0 in 0.1 increments."
@@ -469,7 +505,7 @@ msgstr ""
 "**Subtrim**: A szervó nulla pozíciójának beállítása. A megadható tartomány "
 "-50.0-tól +50.0-ig 0.1-es lépésekben."
 
-#: ../../source/ch_model.rst:245
+#: ../../source/ch_model.rst:257
 msgid ""
 "**Speed**: Adjust maximum servo speed.  Zero is disabled (fastest), Range is"
 " between 1 (slowest) and 250 (fastest). Servo speed is defined as number of "
@@ -480,7 +516,7 @@ msgstr ""
 "(leglassabb) 250-ig (leggyorsabb) lehetséges. A szervó sebesség "
 "mértékegysége fok/100ms (120 fok teljes kitárást feltételezve)."
 
-#: ../../source/ch_model.rst:247
+#: ../../source/ch_model.rst:259
 msgid ""
 "Example: A value of 60 will give a speed of 60degrees per 100msec which is "
 "equivalent to center-to max in 100msec. Most servos are rated at "
@@ -493,11 +529,11 @@ msgstr ""
 "nagyobb sebességek semmilyen hatással nem lesznek ezekre. A 30-as értékkel "
 "egy tipikus szervó sebessége kb. a felére csökken."
 
-#: ../../source/ch_model.rst:250
+#: ../../source/ch_model.rst:262
 msgid "Virtual channel configuration"
 msgstr "Virtuális csatorna konfigurálás"
 
-#: ../../source/ch_model.rst:255
+#: ../../source/ch_model.rst:267
 msgid ""
 "If you press ENT on a virtual channel a keyboard screen is shown where you "
 "may edit the default name. You can use L/R/UP/DN buttons followed by 'ENT' "
@@ -509,11 +545,11 @@ msgstr ""
 "gombokat lehet használni, és az ENT gombbal beszúrni, vagy használhatjuk az "
 "érintőképernyőt is."
 
-#: ../../source/ch_model.rst:261
+#: ../../source/ch_model.rst:273
 msgid "Simple Mix Type"
 msgstr "Egyszerű mixer típus"
 
-#: ../../source/ch_model.rst:268
+#: ../../source/ch_model.rst:280
 msgid ""
 "The Simple mix type is the simplest manner of defining a channel. It allows "
 "defining a primary-input (stick, switch, or other channel), and applying a "
@@ -527,8 +563,8 @@ msgstr ""
 "bemenethez. Az eredményt lehet skálázni vagy függőlegesen el lehet tolni. "
 "Ezt a fajta mixert nem lehet kapcsolóval ki-be kapcsolni."
 
-#: ../../source/ch_model.rst:274 ../../source/ch_model.rst:299
-#: ../../source/ch_model.rst:325
+#: ../../source/ch_model.rst:286 ../../source/ch_model.rst:311
+#: ../../source/ch_model.rst:337
 msgid ""
 "A ‘Long-ENT’ press will update the current mixer settings, making it "
 "possible to test them on the transmitter."
@@ -536,13 +572,13 @@ msgstr ""
 "Az ENT gomb hosszú megnyomásával a beállítások érvényre jutnak, így lehetővé"
 " válik az új értékek tesztelése."
 
-#: ../../source/ch_model.rst:276 ../../source/ch_model.rst:301
-#: ../../source/ch_model.rst:346
+#: ../../source/ch_model.rst:288 ../../source/ch_model.rst:313
+#: ../../source/ch_model.rst:358
 msgid "**Src**: The input source controlling this mixer."
 msgstr "**Forrás**: Az adott mixer bemenetének forrása."
 
-#: ../../source/ch_model.rst:278 ../../source/ch_model.rst:303
-#: ../../source/ch_model.rst:348
+#: ../../source/ch_model.rst:290 ../../source/ch_model.rst:315
+#: ../../source/ch_model.rst:360
 msgid ""
 "**Curve**: The function applied to the input to generate the output.  See "
 "section :ref:`available-curves` for more info.  Depending on curve-type, "
@@ -553,8 +589,8 @@ msgstr ""
 "A görbe típustól függően, a görbére kattintva megnyílhat a görbe szerkesztő "
 "képernyő (lásd :ref:`curve-editing`)."
 
-#: ../../source/ch_model.rst:280 ../../source/ch_model.rst:307
-#: ../../source/ch_model.rst:350
+#: ../../source/ch_model.rst:292 ../../source/ch_model.rst:319
+#: ../../source/ch_model.rst:362
 msgid ""
 "**Scale**: A multiplicative scalar that is applied after the Curve to "
 "control the output range."
@@ -563,17 +599,17 @@ msgstr ""
 "a kimeneti tartomány nagyságát lehet beállítani, azaz a görbe függőleges "
 "irányú nyújtását vagy összenyomását."
 
-#: ../../source/ch_model.rst:282
+#: ../../source/ch_model.rst:294
 msgid "**Offset**: An additive offset that is applied after the scaling."
 msgstr ""
 "**Eltolás**: A skálázás után hozzáadott eltolás érték, amellyel függőleges "
 "irányban lehet a görbét eltolni."
 
-#: ../../source/ch_model.rst:285
+#: ../../source/ch_model.rst:297
 msgid "Expo & Dual-Rate Mix Type"
 msgstr "Expó és Dual-Rate mixer típus"
 
-#: ../../source/ch_model.rst:297
+#: ../../source/ch_model.rst:309
 msgid ""
 "Selecting a value for Switch1 or Switch2 will activate the corresponding "
 "section.  Each section can either have a 'linked' curve (curve is the same "
@@ -590,18 +626,18 @@ msgstr ""
 "válthatunk az adott fokozatban a \"Csatolt\" üzemmód és a független görbe "
 "között."
 
-#: ../../source/ch_model.rst:305
+#: ../../source/ch_model.rst:317
 msgid ""
 "**Switch1** or **Switch2**: Specify a switch to enable Medium or Low rates."
 msgstr ""
 "**Kapcs.1** vagy **Kapcs.2**: Ezekkel lehet megadni a közepes vagy alacsony "
 "fokozat kapcsolóit."
 
-#: ../../source/ch_model.rst:310
+#: ../../source/ch_model.rst:322
 msgid "Complex Mix Type"
 msgstr "Komplex mixer típus"
 
-#: ../../source/ch_model.rst:317
+#: ../../source/ch_model.rst:329
 msgid ""
 "The Complex mix type unlocks the full power of the mixer system. For a given"
 " channel, any number of mixers can be applied to affect the final result.  "
@@ -618,11 +654,11 @@ msgstr ""
 "megszorozhatja őket. Ezzel a módszerrel egy kimeneti csatorna értéke "
 "akárhány bemenet kombinációjaként állítható elő."
 
-#: ../../source/ch_model.rst:327
+#: ../../source/ch_model.rst:339
 msgid "The Complex Mixer page has the following options:"
 msgstr "A komplex mixer képernyő az alábbi opciókat tartalmazza:"
 
-#: ../../source/ch_model.rst:329
+#: ../../source/ch_model.rst:341
 msgid ""
 "**Mixers**: Specify the number of mixers for this channel. If you increase "
 "the number a new mixer will be added after the last existing page."
@@ -631,7 +667,7 @@ msgstr ""
 "megnöveled az értékét, akkor egy új mixer adódik hozzá az eddigi utolsó "
 "mixer oldal után."
 
-#: ../../source/ch_model.rst:331
+#: ../../source/ch_model.rst:343
 msgid ""
 "**Page**: Specify the current mixer page being edited.  Pressing the spin-"
 "box will allow reordering the pages of the current channel."
@@ -640,7 +676,7 @@ msgstr ""
 "kiválasztó dobozt megnyomva a mixer oldalak sorrendjének megváltoztatására "
 "szolgáló képernyő nyílik meg."
 
-#: ../../source/ch_model.rst:333
+#: ../../source/ch_model.rst:345
 msgid ""
 "**Switch**: Specify an optional switch which determines whether the current "
 "mixer is active."
@@ -648,7 +684,7 @@ msgstr ""
 "**Kapcsoló**: Meg lehet adni egy opcionális kapcsolót, ami meghatározza, "
 "hogy az adott mixer aktív-e."
 
-#: ../../source/ch_model.rst:335
+#: ../../source/ch_model.rst:347
 msgid ""
 "**Mux**: Defines how the current mixer is applied to the previously defined "
 "mixers for this channel.  Options are:"
@@ -656,17 +692,17 @@ msgstr ""
 "**Művelet**: Meghatározza, hogy az adott mixer milyen művelettel kapcsolódik"
 " az előző mixerekhez. Az alábbi lehetőségek vannak:"
 
-#: ../../source/ch_model.rst:337
+#: ../../source/ch_model.rst:349
 msgid "**Replace**: If this mixer is active, all previous mixers are ignored."
 msgstr ""
 "**Cserél**: Ha a mixer aktív, akkor az összes előző mixert figyelmen hagyva "
 "ennek a mixernek az értéke határozza meg a kimenetet."
 
-#: ../../source/ch_model.rst:338
+#: ../../source/ch_model.rst:350
 msgid "**Add**: Add the value of this mixer to the previous mixers."
 msgstr "**Hozzáad**: Hozzáadja az adott mixer értékét az előző eredményéhez."
 
-#: ../../source/ch_model.rst:339
+#: ../../source/ch_model.rst:351
 msgid ""
 "**Mult**: Multiply the value of this mixer with the previous mixers. Note "
 "that the values are percentages, so multiplying by 50 actually multiplies by"
@@ -676,7 +712,7 @@ msgstr ""
 "értékével. Az értékek százalékban értendők, így például az 50-el való "
 "szorzás valójában 0.5-el szoroz."
 
-#: ../../source/ch_model.rst:342
+#: ../../source/ch_model.rst:354
 msgid ""
 "**Max**: The output will be the greater of the current mixer vs the previous"
 " mixers."
@@ -684,7 +720,7 @@ msgstr ""
 "**Max**: A kimenet értéke az adott mixer és az előző mixerek eredménye közül"
 " a nagyobb értékű lesz."
 
-#: ../../source/ch_model.rst:343
+#: ../../source/ch_model.rst:355
 msgid ""
 "**Min**: The output will be the lesser of the current mixer vs the previous "
 "mixers."
@@ -692,7 +728,7 @@ msgstr ""
 "**Min**: A kimenet értéke az adott mixer és az előző mixerek eredménye közül"
 " a kisebb értékű lesz."
 
-#: ../../source/ch_model.rst:344
+#: ../../source/ch_model.rst:356
 msgid ""
 "**Delay**: Delay the output of this mixer when used with a fixed curve. "
 "Scale of 100 represents 5 seconds delay. Can be varied by using scale or "
@@ -703,7 +739,7 @@ msgstr ""
 "késleltetést megadni. A 100-as skála érték 5 másodperces késleltetést "
 "jelent."
 
-#: ../../source/ch_model.rst:352
+#: ../../source/ch_model.rst:364
 msgid ""
 "Note that while the scale value is limited to 100%, the mixer may provide a "
 "value larger than 100% if an offset is set or if the trim value is non-zero."
@@ -712,13 +748,13 @@ msgstr ""
 "kimeneti értéket is felvehet, ha például eltolás is be van állítva, vagy a "
 "hozzáadott trim érték nem nulla."
 
-#: ../../source/ch_model.rst:354
+#: ../../source/ch_model.rst:366
 msgid "**Offset**: an additive offset that is applied after the scaling."
 msgstr ""
 "**Eltolás**: A skálázás utáni hozzáadás, ami a görbe függőleges irányú "
 "eltolását eredményezi."
 
-#: ../../source/ch_model.rst:356
+#: ../../source/ch_model.rst:368
 msgid ""
 "**Trim**: Selects whether or not any trims for the selected source are "
 "applied to this mixer."
@@ -726,11 +762,11 @@ msgstr ""
 "**Trim**/**Nincs Trim**: Megadja, hogy a végén hozzá legyen-e adva az adott "
 "input-hoz tartozó trim érték."
 
-#: ../../source/ch_model.rst:358
+#: ../../source/ch_model.rst:370
 msgid "\\ A given mixer can be considered to have the general form:"
 msgstr "\\ Egy adott mixer kimeneti értéke az alábbi módon számítódik:"
 
-#: ../../source/ch_model.rst:361
+#: ../../source/ch_model.rst:373
 msgid ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
@@ -738,7 +774,7 @@ msgstr ""
 "M(x) = if(*Switch*) { *Src* * *Curve* * *Scale* + *Offset*} else {0} + "
 "*Trim*"
 
-#: ../../source/ch_model.rst:363
+#: ../../source/ch_model.rst:375
 msgid ""
 "The combination of mixers for a given output channel is defined by the Mux "
 "type:"
@@ -746,11 +782,11 @@ msgstr ""
 "Egy adott kimeneti csatorna értéke több mixer kombinációjaként áll elő a "
 "Művelet függvényében:"
 
-#: ../../source/ch_model.rst:365
+#: ../../source/ch_model.rst:377
 msgid "For a ‘Replace’ mux:"
 msgstr "A \"Cserél\" művelet esetén:"
 
-#: ../../source/ch_model.rst:367
+#: ../../source/ch_model.rst:379
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
@@ -758,11 +794,11 @@ msgstr ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ } … "
 "else if (\\ |S0|\\ ) {\\ |M0|\\ }"
 
-#: ../../source/ch_model.rst:369
+#: ../../source/ch_model.rst:381
 msgid "For a ‘Multiply’ mux:"
 msgstr "A \"Szoroz\" művelet esetén:"
 
-#: ../../source/ch_model.rst:371
+#: ../../source/ch_model.rst:383
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
@@ -770,11 +806,11 @@ msgstr ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {1} * if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {1} * … * if (\\ |S0|\\ ) {\\ |M0|\\ } else {1}"
 
-#: ../../source/ch_model.rst:373
+#: ../../source/ch_model.rst:385
 msgid "For an ‘Add’ mux:"
 msgstr "A \"Hozzáad\" művelet esetén:"
 
-#: ../../source/ch_model.rst:375
+#: ../../source/ch_model.rst:387
 msgid ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
@@ -782,11 +818,11 @@ msgstr ""
 "Cx = if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0} + if (\\ |Sn-1|\\ ) {\\ |Mn-1|\\ }"
 " else {0} + … + if (\\ |S0|\\ ) {\\ |M0|\\ } else {0}"
 
-#: ../../source/ch_model.rst:377
+#: ../../source/ch_model.rst:389
 msgid "For a ‘Max’ mux:"
 msgstr "A \"Max\" művelet esetén:"
 
-#: ../../source/ch_model.rst:379
+#: ../../source/ch_model.rst:391
 msgid ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
@@ -794,11 +830,11 @@ msgstr ""
 "Cx = MAX(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
-#: ../../source/ch_model.rst:381
+#: ../../source/ch_model.rst:393
 msgid "For a ‘Min’ mux:"
 msgstr "A \"Min\" művelet esetén:"
 
-#: ../../source/ch_model.rst:383
+#: ../../source/ch_model.rst:395
 msgid ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0},  …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
@@ -806,11 +842,11 @@ msgstr ""
 "Cx = MIN(if(\\ |Sn|\\ ) {\\ |Mn|\\ } else {0}, if (\\ |Sn-1|\\ ) {\\ "
 "|Mn-1|\\ } else {0}, …, if (\\ |S0|\\ ) {\\ |M0|\\ } else {0})"
 
-#: ../../source/ch_model.rst:386
+#: ../../source/ch_model.rst:398
 msgid "Cyclic"
 msgstr "Ciklikus"
 
-#: ../../source/ch_model.rst:392
+#: ../../source/ch_model.rst:404
 msgid ""
 "**Cyclic1, Cyclic2, Cyclic3**: The 3 outputs of the helicopter swash-plate "
 "mix. These will represent the 3 servos connected to the helicopter swash-"
@@ -820,11 +856,11 @@ msgstr ""
 "kimenete. Ezek vezérlik az imbolygó tárcsát mozgató 3 szervót (lásd: :ref"
 ":`swash-configuration`)."
 
-#: ../../source/ch_model.rst:395
+#: ../../source/ch_model.rst:407
 msgid "Reordering Mixers"
 msgstr "Mixerek sorrendezése"
 
-#: ../../source/ch_model.rst:403
+#: ../../source/ch_model.rst:415
 msgid ""
 "Select the respective mixer and use the up/down buttons to move the order of"
 " the selected mixer.  Note that the mixer name represents its position when "
@@ -836,7 +872,7 @@ msgstr ""
 "képernyő bezárása és újra megnyitása után az összes mixer újra megfelelően "
 "lesz sorszámozva."
 
-#: ../../source/ch_model.rst:405
+#: ../../source/ch_model.rst:417
 msgid ""
 "The reorder page can add new mixers or delete existing ones using the ‘+’ "
 "and ‘-’ buttons respectively.  A mixer can also be copied to an existing "
@@ -846,25 +882,25 @@ msgstr ""
 "\"-\" gombbal pedig létező mixert lehet törölni. Egy mixert rá is lehet "
 "másolni egy létező mixerre (felülírva azt) a \"Másolás\" gombbal."
 
-#: ../../source/ch_model.rst:410
+#: ../../source/ch_model.rst:422
 msgid "Available Curves"
 msgstr "Függvény görbe típusok"
 
-#: ../../source/ch_model.rst:412
+#: ../../source/ch_model.rst:424
 msgid "The following curve functions are supported:"
 msgstr "A következő függvény görbék használhatók:"
 
-#: ../../source/ch_model.rst:414
+#: ../../source/ch_model.rst:426
 msgid "**1-to-1**: Output is equal to the input (not editable)."
 msgstr "**1 az 1**: A kimenet egyenlő a bemenettel (nem szerkeszthető)."
 
-#: ../../source/ch_model.rst:415
+#: ../../source/ch_model.rst:427
 msgid "**Fixed**: Output is constant regardless of input (offset editable)."
 msgstr ""
 "**Fix**: A kimenet értéke a bemenettől függetlenül konstans (az eltolással "
 "állítható)."
 
-#: ../../source/ch_model.rst:416
+#: ../../source/ch_model.rst:428
 msgid ""
 "**Min/Max**: Output is -100 if input is less than the specified value and "
 "100 otherwise."
@@ -872,7 +908,7 @@ msgstr ""
 "**Min/Max**: A kimenet -100, ha a bemenet kisebb, mint a megadott érték, "
 "egyébként 100."
 
-#: ../../source/ch_model.rst:417
+#: ../../source/ch_model.rst:429
 msgid ""
 "**Zero/Max**: Output is 0 if input is less than the specified value and 100 "
 "otherwise."
@@ -880,7 +916,7 @@ msgstr ""
 "**Nulla/Max**: A kimenet 0, ha a bemenet kisebb, mint a megadott érték, "
 "egyébként 100."
 
-#: ../../source/ch_model.rst:418
+#: ../../source/ch_model.rst:430
 msgid ""
 "**>0**: Output matches input when greater than the specified value, and 0 "
 "otherwise."
@@ -888,7 +924,7 @@ msgstr ""
 "**>0**: A kimenet megegyezik a bemenettel, ha az nagyobb, mint a megadott "
 "érték, egyébként 0."
 
-#: ../../source/ch_model.rst:419
+#: ../../source/ch_model.rst:431
 msgid ""
 "**<0**: Output matches the input when less than the specified value, and0 "
 "otherwise."
@@ -896,7 +932,7 @@ msgstr ""
 "**<0**: A kimenet megegyezik a bemenettel, ha az kisebb, mint a megadott "
 "érték, egyébként 0."
 
-#: ../../source/ch_model.rst:420
+#: ../../source/ch_model.rst:432
 msgid ""
 "**ABSVAL**: Output is the absolute-value of the input (editing the specified"
 " value will alter how the absolute-value is applied)"
@@ -904,7 +940,7 @@ msgstr ""
 "**ABSZ.É.**: A kimenet egyenlő a bemenet abszolút értékével (a megadott "
 "érték befolyásolja az abszolút érték függvény minimum pontjának helyét)."
 
-#: ../../source/ch_model.rst:421
+#: ../../source/ch_model.rst:433
 msgid ""
 "**EXPO**: Apply exponential curve to the input for non-linear response "
 "(editable see :ref:`curve-editing`)."
@@ -912,7 +948,7 @@ msgstr ""
 "**EXP.**: Exponenciális görbe hozzárendelése a bemenethez a nem lineáris "
 "vezérlés érdekében (szerkeszthető, lásd :ref:`curve-editing`)."
 
-#: ../../source/ch_model.rst:422
+#: ../../source/ch_model.rst:434
 msgid ""
 "**Deadband**: Output will not respond to input values near zero (editable "
 "see :ref:`curve-editing`)."
@@ -920,7 +956,7 @@ msgstr ""
 "**Holtsáv**: A kimenet nem reagál a bemenetre a nulla környékén "
 "(szerkeszthető, lásd :ref:`curve-editing`)."
 
-#: ../../source/ch_model.rst:423
+#: ../../source/ch_model.rst:435
 msgid ""
 "**Multi-point**: Curve is based on 3, 5, 7, 9, 11 or 13 user-defined points "
 "(editable see :ref:`curve-editing`)."
@@ -928,7 +964,7 @@ msgstr ""
 "**3, 5, 7, 9, 11, 13 pont**: A felhasználó által tetszőlegesen megadható 3, "
 "5, 7, 9, 11 vagy 13 pontból álló görbe."
 
-#: ../../source/ch_model.rst:426
+#: ../../source/ch_model.rst:438
 msgid ""
 "The default value for any of the offsets in above mentioned curves is 0 "
 "(zero). If you change the curve for one input the offset will be transferred"
@@ -938,11 +974,11 @@ msgstr ""
 "bemenetnél megváltoztatjuk a görbét, az előzőleg beállított eltolás értékét "
 "az új görbe is örökölni fogja, ha ez lehetséges."
 
-#: ../../source/ch_model.rst:431
+#: ../../source/ch_model.rst:443
 msgid "Curve Editing"
 msgstr "Függvény görbe szerkesztése"
 
-#: ../../source/ch_model.rst:433
+#: ../../source/ch_model.rst:445
 msgid ""
 "The Curve Editor is accessed by selecting the curve spin-box when it is "
 "selectable.  The 1-1 and Fixed curve types may not be edited, and the curve-"
@@ -952,7 +988,7 @@ msgstr ""
 "amikor az lehetséges. Az \"1 az 1\" és a \"Fix\" görbék például nem "
 "szerkeszthetők, ilyenkor a görbe kiválasztó doboz nem lesz megnyomható."
 
-#: ../../source/ch_model.rst:435
+#: ../../source/ch_model.rst:447
 msgid ""
 "The Curve Editor is accessed by pressing a graph or by pressing or selecting"
 " the curve spin-box when it is selectable.  The 1-1 and Fixed curve types "
@@ -964,7 +1000,7 @@ msgstr ""
 " görbék például nem szerkeszthetők, ilyenkor a görbe kiválasztó doboz nem "
 "lesz megnyomható."
 
-#: ../../source/ch_model.rst:437
+#: ../../source/ch_model.rst:449
 msgid ""
 "The Curve editor page will be different depending on which curve is "
 "selected.  It is not possible to change the curve type from the curve editor"
@@ -976,7 +1012,7 @@ msgstr ""
 "valamelyik több pontos görbe lett kiválasztva). Az értékeket a választó "
 "dobozzal, vagy a grafikon érintésével lehet megadni."
 
-#: ../../source/ch_model.rst:442
+#: ../../source/ch_model.rst:454
 msgid ""
 "For the Min/Max, Zero/Max, >0, <0, and ABSVAL, the controls allow setting "
 "the transition point along the x-axis.  A value of ‘0’ will be symmetric "
@@ -988,7 +1024,7 @@ msgstr ""
 "tengelynél van, pozitív vagy negatív érékek esetén a középpont az előjelnek "
 "megfelelő irányba eltolódik."
 
-#: ../../source/ch_model.rst:447
+#: ../../source/ch_model.rst:459
 msgid ""
 "For the Expo curve, the controls allow independently configuring the shape "
 "of the curve for values greater-than or less-than zero."
@@ -997,7 +1033,7 @@ msgstr ""
 "pozitív, és külön a negatív félre, de a szimmetrikus módban együtt is lehet "
 "állítani őket."
 
-#: ../../source/ch_model.rst:452
+#: ../../source/ch_model.rst:464
 msgid ""
 "For the Deadband curve, the controls allow independently configuring the "
 "deadband width for values greater-than or less-than zero."
@@ -1006,7 +1042,7 @@ msgstr ""
 "a pozitív, és külön a negatív félre, de a szimmetrikus módban együtt is "
 "lehet állítani őket."
 
-#: ../../source/ch_model.rst:457
+#: ../../source/ch_model.rst:469
 msgid ""
 "For the Multi-point curves, each point can be individually set.  Points are "
 "set by choosing the point number and then choosing a value. The minimum "
@@ -1019,11 +1055,11 @@ msgstr ""
 " minimum 3, maximum 13 pontból állhat. A 'Simítás' engedélyezésével a pontok"
 " összekötése egyenes vonalak helyett folyamatos görbékkel történik."
 
-#: ../../source/ch_model.rst:462
+#: ../../source/ch_model.rst:474
 msgid "Timers (Std & Adv GUI)"
 msgstr "Időzítők (Szokásos és Haladó GUI)"
 
-#: ../../source/ch_model.rst:476
+#: ../../source/ch_model.rst:488
 msgid ""
 "The timer page defines up to 4 available timers.  Timers can count either up"
 " or down, and can be enabled either manually from the main screen or by an "
@@ -1033,7 +1069,7 @@ msgstr ""
 "számolhatnak le- vagy felfelé, és indíthatók a főképernyőről manuálisan, "
 "vagy egy bemenet (bot vagy kapcsoló) értéke által."
 
-#: ../../source/ch_model.rst:479
+#: ../../source/ch_model.rst:491
 msgid ""
 "Available timers are stopwatch, countdown, stopwatch-proportional, "
 "countdown-proportional, and permanent."
@@ -1041,7 +1077,7 @@ msgstr ""
 "Az alábbi időzítő típusok állnak rendelkezésre: stopper, időzítő, gázfüggő "
 "stopper, gázfüggő időzítő, és üzemidő."
 
-#: ../../source/ch_model.rst:482
+#: ../../source/ch_model.rst:494
 msgid ""
 "Timers can also be optionally configured to be reset via an alternate switch"
 " (only when using the Advanced GUI)."
@@ -1049,7 +1085,7 @@ msgstr ""
 "Az időzítők nullázását is lehet egy opcionálisan megadható kapcsolóval "
 "konfigurálni (csak a Haladó GUI-n)."
 
-#: ../../source/ch_model.rst:485
+#: ../../source/ch_model.rst:497
 msgid ""
 "Both proportional timers need an input between 0 and 100 to act correctly. "
 "If you use these timer for throttle a virtual mixer must be used as the "
@@ -1060,7 +1096,7 @@ msgstr ""
 "közötti értékét először egy virtuális mixerrel át kell alakítani 0 és 100 "
 "közötti értékekre."
 
-#: ../../source/ch_model.rst:490
+#: ../../source/ch_model.rst:502
 msgid ""
 "The ‘permanent’ timers are similar to an odometer and have their values "
 "saved in the model.ini file. They will maintain their previous value when "
@@ -1072,11 +1108,11 @@ msgstr ""
 "indításakor újra betöltődik a memóriába. Az aktuális értékét a \"Beállít\" "
 "gombbal lehet megadni, míg nullázni a \"Törlés\" gombbal lehet."
 
-#: ../../source/ch_model.rst:496
+#: ../../source/ch_model.rst:508
 msgid "Telemetry config (Std & Adv GUI)"
 msgstr "Telemetria konfiguráció (Szokásos és Haladó GUI)"
 
-#: ../../source/ch_model.rst:504
+#: ../../source/ch_model.rst:516
 msgid ""
 "The telemetry configuration page allows specifying alarms when specific "
 "telemetry events occur."
@@ -1084,7 +1120,7 @@ msgstr ""
 "A telemetria konfiguráció képernyőn bizonyos telemetria adatokra alapuló "
 "riasztásokat lehet megadni."
 
-#: ../../source/ch_model.rst:506
+#: ../../source/ch_model.rst:518
 msgid ""
 "**Telemetry**: Specify the telemetry input to use for alarm control.  The "
 "set of values available will depend on the protocol."
@@ -1092,7 +1128,7 @@ msgstr ""
 "**Telemetria**: Megadja a riasztáshoz figyelt telemetria adatot. Az elérhető"
 " opciók listája a kiválasztott protokolltól függ."
 
-#: ../../source/ch_model.rst:508
+#: ../../source/ch_model.rst:520
 msgid ""
 "**Equality**: Can be '>' or '<=' indicating whether a value above or below "
 "the target causes an alarm. Pushing the ENT button will play the alarm sound"
@@ -1102,7 +1138,7 @@ msgstr ""
 "nagyobb értékekre is kérhető riasztás. Az ENT megnyomására egyszer lejátssza"
 " a risztást."
 
-#: ../../source/ch_model.rst:509
+#: ../../source/ch_model.rst:521
 msgid ""
 "**Target**: The target value for the alarm. Additionaly, by pushing the ENT "
 "button you can cycle through a time delay (between 0 and 9 seconds) for "
@@ -1112,11 +1148,11 @@ msgstr ""
 "**Cél**: A riasztás célértéke. \n"
 "A mezőn állva az ENT gomb megnyomásával kiválaszthat egy késleltetést (0 és 9 másodperc között), amennyi ideig folyamatosan el kell érni kell a célértéket a risztáshoz."
 
-#: ../../source/ch_model.rst:514
+#: ../../source/ch_model.rst:526
 msgid "Trims and Virtual Inputs (Std & Adv GUI)"
 msgstr "Trim-ek és virtuális bemenetek (Szokásos és Haladó GUI)"
 
-#: ../../source/ch_model.rst:521
+#: ../../source/ch_model.rst:533
 msgid ""
 "The trim page allows assigning the trim buttons and trim step, as well as "
 "configuring buttons to work as virtual inputs (see :ref:`trim-as-virtual-"
@@ -1128,7 +1164,7 @@ msgstr ""
 "(lásd :ref:`trim-as-virtual-switch`). A főmenüből a \"Modell menü\"-n "
 "keresztül a \"Trim-ek\" kiválasztásával lehet megnyitni."
 
-#: ../../source/ch_model.rst:523
+#: ../../source/ch_model.rst:535
 msgid ""
 "If the ‘Input’ field is set to an input stick, then the trim can be applied "
 "as part of the mixer, and will operate as a typical trim control.  If the "
@@ -1144,7 +1180,7 @@ msgstr ""
 "az esetben a kiválasztott \"Trim+\" és \"Trim-\" gombok, mint egy virtuális "
 "botként üzemelve vezérlik az adott csatorna kimenetét."
 
-#: ../../source/ch_model.rst:536
+#: ../../source/ch_model.rst:548
 msgid ""
 "The trim-step defines how sensitive the trims are to input.  The maximum "
 "number of trim steps is +/-100.  So a step size of 0.1 will allow a full +/-"
@@ -1154,7 +1190,7 @@ msgstr ""
 "maximális száma +/-100, tehát például a 0.1-es lépés +/-10% trimmelést tesz "
 "lehetővé."
 
-#: ../../source/ch_model.rst:538
+#: ../../source/ch_model.rst:550
 msgid ""
 "The trim-step can be changed on the main screen. If you have to change the "
 "source also please use the dialog accessed by pressing the respective "
@@ -1168,16 +1204,16 @@ msgstr ""
 "kapcsolót is rendelni, aminek hatására az adott kapcsoló mindegyik állásához"
 " külön-külön trim értékek lesznek tárolva."
 
-#: ../../source/ch_model.rst:543
+#: ../../source/ch_model.rst:555
 msgid "Datalog (Std & Adv GUI)"
 msgstr "Adatnapló (Szokásos és Haladó GUI)"
 
-#: ../../source/ch_model.rst:547 ../../source/ch_model.rst:613
-#: ../../source/ch_model.rst:633
+#: ../../source/ch_model.rst:559 ../../source/ch_model.rst:625
+#: ../../source/ch_model.rst:645
 msgid "Note: This feature is not available for Devo7e."
 msgstr "MEGJEGYZÉS: Ez a funkció Devo7E esetén nem elérhető."
 
-#: ../../source/ch_model.rst:550
+#: ../../source/ch_model.rst:562
 msgid ""
 "The Datalog feature allows storing a history of input or output positions as"
 " well as telemetry info over a period of time. This can be used to examine "
@@ -1191,7 +1227,7 @@ msgstr ""
 "utólagos vizsgálatához hasznos. A napló adatai megőrződnek, és a Deviation "
 "az előző adatok után folytatni fogja az újabbak írását."
 
-#: ../../source/ch_model.rst:557
+#: ../../source/ch_model.rst:569
 msgid ""
 "**# bytes left**: Indicates how many bytes can be written to the log before "
 "it is full."
@@ -1199,26 +1235,26 @@ msgstr ""
 "**# bájt maradt**: Megmutatja, hogy hány bájt adat írható még a naplóba, "
 "mielőtt az megtelik."
 
-#: ../../source/ch_model.rst:558
+#: ../../source/ch_model.rst:570
 msgid "**Enable**: Input which enables logging."
 msgstr "**Engedélyez**: Az a bemenet, ami engedélyezi a naplózást."
 
-#: ../../source/ch_model.rst:559
+#: ../../source/ch_model.rst:571
 msgid "**Reset**: Clear the current log."
 msgstr "**Törlés**: Törli az aktuális naplót."
 
-#: ../../source/ch_model.rst:560
+#: ../../source/ch_model.rst:572
 msgid "**Rate**: How often to write current info to the log file."
 msgstr ""
 "**Mintavétel**: Megadja, hogy milyen gyakran íródjanak ki az aktuális adatok"
 " a naplóba."
 
-#: ../../source/ch_model.rst:561
+#: ../../source/ch_model.rst:573
 msgid "**Select**: Quickly set or reset which items are logged."
 msgstr ""
 "**Kiválaszt**: Az összes elem naplózásra jelölésének kiválasztása/törlése."
 
-#: ../../source/ch_model.rst:562
+#: ../../source/ch_model.rst:574
 msgid ""
 "**Controls**: Following 'Select' are a list of all controls which may be "
 "logged. They include timers, inputs, outputs, and virtual channels, and "
@@ -1229,7 +1265,7 @@ msgstr ""
 "csatornák, és telemetria adatok. Minél több adat naplózódik, annál hamarabb "
 "telik be a napló."
 
-#: ../../source/ch_model.rst:564
+#: ../../source/ch_model.rst:576
 msgid ""
 "**Logging more information** By default, the log can only store 16kB of "
 "data. You can increase the amount of data to be stored by changing the "
@@ -1243,7 +1279,7 @@ msgstr ""
 "megnövelni, így annak mérete meghatározza, hogy mennyi adatot lehet bele "
 "naplózni."
 
-#: ../../source/ch_model.rst:567
+#: ../../source/ch_model.rst:579
 msgid ""
 "**Note: This is a feature for advanced users only**. There is currently no "
 "software provided to analyze the logs, and they cannot be visualized from "
@@ -1255,11 +1291,11 @@ msgstr ""
 "távirányító segítségével sem lehet megtekinteni az adatokat. A "
 "www.deviationtx.com Downloads lapján lehet konvertáló eszközöket találni."
 
-#: ../../source/ch_model.rst:572
+#: ../../source/ch_model.rst:584
 msgid "Main page config (Std & Adv GUI)"
 msgstr "Főablak konfiguráció (Szokásos és Haladó GUI)"
 
-#: ../../source/ch_model.rst:586
+#: ../../source/ch_model.rst:598
 msgid ""
 "The main page config page is used to configure the main-page display.  This "
 "page allows definition of which elements are shown on the main page."
@@ -1267,11 +1303,11 @@ msgstr ""
 "A főablak konfigurációval lehet a főképernyő elrendezését testre szabni. "
 "Ezen az oldalon lehet megadni, hogy milyen elemek látsszanak a főképernyőn."
 
-#: ../../source/ch_model.rst:589
+#: ../../source/ch_model.rst:601
 msgid "The following types of objects can be displayed:"
 msgstr "A következő objektum típusokat lehet megjeleníteni:"
 
-#: ../../source/ch_model.rst:592
+#: ../../source/ch_model.rst:604
 msgid ""
 "**Box**: Display a numeric value.  Values can be timers, channel values, "
 "stick inputs, etc.  There are two types of boxes: big and small.  The only "
@@ -1281,7 +1317,7 @@ msgstr ""
 "érték, bot bemenet, stb. Kétféle doboz típus létezik: kicsi és nagy. Az "
 "egyetlen különbség a doboznak és a benne megjelenő szövegnek a mérete."
 
-#: ../../source/ch_model.rst:593
+#: ../../source/ch_model.rst:605
 msgid ""
 "**Trimbar**: Display a trim value.  These generally are controlled by the "
 "trim switch and indicate what the current trim position is.  There are two "
@@ -1294,22 +1330,22 @@ msgstr ""
 "képernyőhöz hozzáadott trim-ek egy sorszámmal vannak azonosítva a tervező "
 "képernyőn."
 
-#: ../../source/ch_model.rst:594
+#: ../../source/ch_model.rst:606
 msgid "**Model (Icon)**: Display the icon related to the selected model."
 msgstr ""
 "**Modell (ikon)**: Megjeleníti a kiválasztott modellhez tartozó ikont."
 
-#: ../../source/ch_model.rst:595
+#: ../../source/ch_model.rst:607
 msgid "**Battery**: Display the battery voltage."
 msgstr "**Telep**: Megjeleníti a telepfeszültség értékét."
 
-#: ../../source/ch_model.rst:596
+#: ../../source/ch_model.rst:608
 msgid "**TxPower**: Displays the actual transmitter rating."
 msgstr ""
 "**Tx teljesítmény**: Megjeleníti az aktuálisan kiválasztott adó "
 "teljesítményt."
 
-#: ../../source/ch_model.rst:597
+#: ../../source/ch_model.rst:609
 msgid ""
 "**Bargraph**: Displays a vertical bar.  The value of the bar is a channel "
 "output."
@@ -1317,7 +1353,7 @@ msgstr ""
 "**Oszlopdiagram**: Megjelenít egy függőleges oszlopdiagramot, melynek az "
 "értéke egy kiválasztott csatorna kimeneti értéke."
 
-#: ../../source/ch_model.rst:599
+#: ../../source/ch_model.rst:611
 msgid ""
 "**Toggle**: Show an icon indicating the state of a toggle switch.  There can"
 " be 1, 2, or 3 icons defined for a given toggle indicating different states "
@@ -1329,7 +1365,7 @@ msgstr ""
 "kétállapotú kapcsolókhoz 2 féle képet lehet megadni, a három állapotúakhoz 3"
 " pedig képet."
 
-#: ../../source/ch_model.rst:600
+#: ../../source/ch_model.rst:612
 msgid ""
 "**(Quick) Menus**: Quick menus define quick-access pages that can be reached"
 " via a long UP/DN press."
@@ -1337,11 +1373,11 @@ msgstr ""
 "**(Gyors) Menü**: A gyors menükkel megadhatunk néhány lapot, amit az UP/DN "
 "gombok hosszú megnyomásával közvetlenül elérhetünk."
 
-#: ../../source/ch_model.rst:605
+#: ../../source/ch_model.rst:617
 msgid "Configuring object position"
 msgstr "Az objektum pozíciók beállítása"
 
-#: ../../source/ch_model.rst:608
+#: ../../source/ch_model.rst:620
 msgid ""
 "Each of the visual objects can be selected by pressing on them, or with the "
 "UP/DN buttons followed by ENT.  Once selected, the UP/DN/L/R buttons will "
@@ -1356,7 +1392,7 @@ msgstr ""
 "objektum mozgatásához. Nyomja meg az EXT gombot egyszer a mozgatás módból "
 "történő kilépéshez."
 
-#: ../../source/ch_model.rst:618
+#: ../../source/ch_model.rst:630
 msgid ""
 "Pressing and holding the ENT button from the model configuration page will "
 "switch to the object position screen.  Each of the visual objects can be "
@@ -1373,11 +1409,11 @@ msgstr ""
 "Nyomja meg az EXT gombot egyszer a pozícionálási módból való kilépéshez, "
 "majd imég egyszer a főoldal konfigurációs menüjéhez való visszatéréshez."
 
-#: ../../source/ch_model.rst:622
+#: ../../source/ch_model.rst:634
 msgid "Creating Objects"
 msgstr "Objektumok létrehozása"
 
-#: ../../source/ch_model.rst:628
+#: ../../source/ch_model.rst:640
 msgid ""
 "Select the '+' icon to open the add-item dialog.  Then select the object "
 "type from the spin-box on the left, then press ‘Add’ to create the object.  "
@@ -1390,7 +1426,7 @@ msgstr ""
 "kijelölt objektumtípust, ami a képernyő közepére kerül. Ezután "
 "pozícionálhatja és konfigurálhatja az új objektumot."
 
-#: ../../source/ch_model.rst:635
+#: ../../source/ch_model.rst:647
 msgid ""
 "Select the object type from the spin-box on the left, then press ‘**Add**’ "
 "to create the object.  This will add the relevant object type to the "
@@ -1403,11 +1439,11 @@ msgstr ""
 "értelmezett). Ezután az új objektumra kerül a kiválasztás, így "
 "pozícionálhatja és konfigurálhatja azt."
 
-#: ../../source/ch_model.rst:639
+#: ../../source/ch_model.rst:651
 msgid "Loading Objects"
 msgstr "Objektumok betöltése"
 
-#: ../../source/ch_model.rst:646
+#: ../../source/ch_model.rst:658
 msgid ""
 "After selecting the '+' icon to open the add-item dialog, you may 'Load' "
 "alternate templates, to change the main page layout."
@@ -1415,22 +1451,22 @@ msgstr ""
 "A '+' ikont kiválasztása után az elem hozzáadás ablakon a 'Betöltés' gombbal"
 " betölthet különböző főablak elrendezés sablonokat."
 
-#: ../../source/ch_model.rst:648
+#: ../../source/ch_model.rst:660
 msgid "You can 'Load' alternate templates, to change the main page layout."
 msgstr ""
 "A 'Betöltés' gombbal betölthet különböző főablak elrendezés sablonokat."
 
-#: ../../source/ch_model.rst:650
+#: ../../source/ch_model.rst:662
 msgid ""
 "If you select 'Default' the layout will be set to the standard layout as "
 "shown in section :ref:`main-page`."
 msgstr ""
 
-#: ../../source/ch_model.rst:652
+#: ../../source/ch_model.rst:664
 msgid "Selecting 'Empty' will clear all objects. You may start from scratch."
 msgstr ""
 
-#: ../../source/ch_model.rst:654
+#: ../../source/ch_model.rst:666
 msgid ""
 "If you want to use a layout from another model select the model whose layout"
 " you wish to use. The object positions (see :ref:`configuring-object-"
@@ -1439,67 +1475,67 @@ msgid ""
 " file list."
 msgstr ""
 
-#: ../../source/ch_model.rst:656
+#: ../../source/ch_model.rst:668
 msgid ""
 "Additionally these templates can be created in the emulator or downloaded "
 "from the forums or even done by manual edit of the modelxx.ini file."
 msgstr ""
 
-#: ../../source/ch_model.rst:659
+#: ../../source/ch_model.rst:671
 msgid "Configuring Objects"
 msgstr "Objektumok konfigurálása"
 
-#: ../../source/ch_model.rst:661
+#: ../../source/ch_model.rst:673
 msgid "**Box**: Select timer, telemetry, channel, or input from scroll-box"
 msgstr ""
 
-#: ../../source/ch_model.rst:662
+#: ../../source/ch_model.rst:674
 msgid "**Trim**: Select trim channel from scroll-box"
 msgstr ""
 
-#: ../../source/ch_model.rst:663
+#: ../../source/ch_model.rst:675
 msgid "**Model**: Not configurable"
 msgstr ""
 
-#: ../../source/ch_model.rst:664
+#: ../../source/ch_model.rst:676
 msgid "**Battery**: Not configurable"
 msgstr ""
 
-#: ../../source/ch_model.rst:665
+#: ../../source/ch_model.rst:677
 msgid "**TxPower**: Not configurable"
 msgstr ""
 
-#: ../../source/ch_model.rst:666
+#: ../../source/ch_model.rst:678
 msgid "**Bargraph**: Select channel from scroll box"
 msgstr ""
 
-#: ../../source/ch_model.rst:667
+#: ../../source/ch_model.rst:679
 msgid ""
 "**Toggle**: Select channel or input from scroll-box.  Press related ‘Toggle’"
 " button to choose icon"
 msgstr ""
 
-#: ../../source/ch_model.rst:668
+#: ../../source/ch_model.rst:680
 msgid "**Menu**: Choose page to display for each of 4 quick-page slots"
 msgstr ""
 
-#: ../../source/ch_model.rst:675
+#: ../../source/ch_model.rst:687
 msgid ""
 "You can delete any object by configuring the object and pressing the "
 "‘Delete’ button"
 msgstr ""
 
-#: ../../source/ch_model.rst:677
+#: ../../source/ch_model.rst:689
 msgid ""
 "You can delete any object but a Menu page by selecting the  ‘Delete’ option "
 "and pressing the 'ENT' button."
 msgstr ""
 
-#: ../../source/ch_model.rst:682
+#: ../../source/ch_model.rst:694
 msgid "Choosing toggle icons"
 msgstr ""
 
-#: ../../source/ch_model.rst:687
+#: ../../source/ch_model.rst:699
 msgid ""
 "Pressing the ‘Toggle’ button on a toggle object allows selecting the related"
 " icons. Channels, sticks, and 2-position sticks can have 2 icons.  3 "
@@ -1508,11 +1544,11 @@ msgid ""
 "Deviation firmware comes with several predefined icons to choose from."
 msgstr ""
 
-#: ../../source/ch_model.rst:692
+#: ../../source/ch_model.rst:704
 msgid "Standard GUI Menu items"
 msgstr "Szokásos menü elemei"
 
-#: ../../source/ch_model.rst:699
+#: ../../source/ch_model.rst:711
 msgid ""
 "The Standard GUI is an alternative interface from the Advanced GUI’.  Which "
 "interface is used is chosen by the ‘Mixer GUI’ setting in section :ref"
@@ -1520,148 +1556,148 @@ msgid ""
 "models at this time.  The pages of the Standard GUI are as follows:"
 msgstr ""
 
-#: ../../source/ch_model.rst:706
+#: ../../source/ch_model.rst:718
 msgid "**Model Configuration**: :ref:`model-setup`"
 msgstr ""
 
-#: ../../source/ch_model.rst:708
+#: ../../source/ch_model.rst:720
 msgid "**Trim configuration**: :ref:`trims-and-virtual-inputs`"
 msgstr ""
 
-#: ../../source/ch_model.rst:710
+#: ../../source/ch_model.rst:722
 msgid "**Servo reverse**: :ref:`servo-reverse`"
 msgstr ""
 
-#: ../../source/ch_model.rst:712
+#: ../../source/ch_model.rst:724
 msgid "**Switch assignment**: :ref:`switch-assignment`"
 msgstr ""
 
-#: ../../source/ch_model.rst:714
+#: ../../source/ch_model.rst:726
 msgid "**Servo sub-trim**: :ref:`sub-trim-adjustment`"
 msgstr ""
 
-#: ../../source/ch_model.rst:716
+#: ../../source/ch_model.rst:728
 msgid "**Throttle-hold configuration**: :ref:`throttle-hold`"
 msgstr ""
 
-#: ../../source/ch_model.rst:718
+#: ../../source/ch_model.rst:730
 msgid "**Servo travel-adjust**: :ref:`servo-travel-adjust`"
 msgstr ""
 
-#: ../../source/ch_model.rst:720
+#: ../../source/ch_model.rst:732
 msgid "**Fail-Safe configuration**: :ref:`fail-safe-configuration`"
 msgstr ""
 
-#: ../../source/ch_model.rst:722
+#: ../../source/ch_model.rst:734
 msgid "**Swash Setup**: :ref:`swash-configuration`"
 msgstr ""
 
-#: ../../source/ch_model.rst:724
+#: ../../source/ch_model.rst:736
 msgid "**Timer configuration**: :ref:`timers`"
 msgstr ""
 
-#: ../../source/ch_model.rst:726
+#: ../../source/ch_model.rst:738
 msgid "**Dual-rates setup**: :ref:`dual-rate-expo-setting`"
 msgstr ""
 
-#: ../../source/ch_model.rst:728
+#: ../../source/ch_model.rst:740
 msgid "**Telemetry configuration**: :ref:`telemetry-config`"
 msgstr ""
 
-#: ../../source/ch_model.rst:730
+#: ../../source/ch_model.rst:742
 msgid "**Throttle curve setup**: :ref:`throttle-curve`"
 msgstr ""
 
-#: ../../source/ch_model.rst:732
+#: ../../source/ch_model.rst:744
 msgid "**Datalog configuration**: :ref:`datalog`"
 msgstr ""
 
-#: ../../source/ch_model.rst:734
+#: ../../source/ch_model.rst:746
 msgid "**Pitch curve setup**: :ref:`pitch-curve`"
 msgstr ""
 
-#: ../../source/ch_model.rst:736
+#: ../../source/ch_model.rst:748
 msgid "**Main page configuration**: :ref:`main-page-config`"
 msgstr ""
 
-#: ../../source/ch_model.rst:738
+#: ../../source/ch_model.rst:750
 msgid "**Gyro-sense configuration**: :ref:`gyro-sensitivity`"
 msgstr ""
 
-#: ../../source/ch_model.rst:744
+#: ../../source/ch_model.rst:756
 msgid ""
 "**Model setup**: Model configuration page (See section  :ref:`model-setup`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:745
+#: ../../source/ch_model.rst:757
 msgid "**Reverse**: Servo reverse"
 msgstr ""
 
-#: ../../source/ch_model.rst:746
+#: ../../source/ch_model.rst:758
 msgid "**D/R & Exp**: Dual-rates setup"
 msgstr ""
 
-#: ../../source/ch_model.rst:747
+#: ../../source/ch_model.rst:759
 msgid "**Subtrim**: Servo sub-trim"
 msgstr ""
 
-#: ../../source/ch_model.rst:748
+#: ../../source/ch_model.rst:760
 msgid "**Travel adjust**: Servo travel-adjust"
 msgstr ""
 
-#: ../../source/ch_model.rst:749
+#: ../../source/ch_model.rst:761
 msgid "**Throttle curves**: Throttle curve setup"
 msgstr ""
 
-#: ../../source/ch_model.rst:750
+#: ../../source/ch_model.rst:762
 msgid "**Pitch curves**: Pitch curve setup"
 msgstr ""
 
-#: ../../source/ch_model.rst:751
+#: ../../source/ch_model.rst:763
 msgid "**Throttle hold**: Throttle-hold configuration"
 msgstr ""
 
-#: ../../source/ch_model.rst:752
+#: ../../source/ch_model.rst:764
 msgid "**Gyro sense**: Gyro-sense configuration"
 msgstr ""
 
-#: ../../source/ch_model.rst:753
+#: ../../source/ch_model.rst:765
 msgid "**Swash**: Swash Setup"
 msgstr ""
 
-#: ../../source/ch_model.rst:754
+#: ../../source/ch_model.rst:766
 msgid "**Fail safe**: Fail-Safe configuration"
 msgstr ""
 
-#: ../../source/ch_model.rst:755
+#: ../../source/ch_model.rst:767
 msgid "**Switch assignment**: Assign switch controls"
 msgstr ""
 
-#: ../../source/ch_model.rst:756
+#: ../../source/ch_model.rst:768
 msgid "**Timers**: Timer configuration (See section :ref:`timers`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:757
+#: ../../source/ch_model.rst:769
 msgid ""
 "**Telemetry config**: Configure telemetry alarms (See section :ref"
 ":`telemetry-config`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:758
+#: ../../source/ch_model.rst:770
 msgid "**Datalog**: Configure telemetry logging (See section :ref:`datalog`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:759
+#: ../../source/ch_model.rst:771
 msgid ""
 "**Main page config**: Configure main page display (See section :ref:`main-"
 "page-config`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:765
+#: ../../source/ch_model.rst:777
 msgid "Servo Reverse"
 msgstr "Szervó invertálás"
 
-#: ../../source/ch_model.rst:770
+#: ../../source/ch_model.rst:782
 msgid ""
 "The servo reverse page allows quickly setting each channel to work in either"
 " normal or reversed mode.  These settings are equivalent to the ‘Reverse’ "
@@ -1669,11 +1705,11 @@ msgid ""
 "the Advanced GUI (see section :ref:`channel-config`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:775
+#: ../../source/ch_model.rst:787
 msgid "Dual-Rate/Expo setting"
 msgstr ""
 
-#: ../../source/ch_model.rst:780
+#: ../../source/ch_model.rst:792
 msgid ""
 "The dual-rate and expo page allows configuration of curves for the Aileron, "
 "Rudder, and Elevator channels.  Up-to 3 rates can be configured for each "
@@ -1682,11 +1718,11 @@ msgid ""
 "rates function on the Switch Assignment page (see :ref:`switch-assignment`)"
 msgstr ""
 
-#: ../../source/ch_model.rst:785
+#: ../../source/ch_model.rst:797
 msgid "Sub-trim Adjustment"
 msgstr "Sub-trim beállítás"
 
-#: ../../source/ch_model.rst:790
+#: ../../source/ch_model.rst:802
 msgid ""
 "The sub-trim adjust page allows setting the zero-point of the servos for "
 "each channel.  This is equivalent to the ‘Subtrim’ setting on the Channel "
@@ -1695,11 +1731,11 @@ msgid ""
 "increments."
 msgstr ""
 
-#: ../../source/ch_model.rst:795
+#: ../../source/ch_model.rst:807
 msgid "Servo Travel Adjust"
 msgstr "Szervó út állítás"
 
-#: ../../source/ch_model.rst:800
+#: ../../source/ch_model.rst:812
 msgid ""
 "The servo-travel adjust page configures the maximum positive/negative travel"
 " of each servo.  This is equivalent to the ‘Scale+’ and ‘Scale-’ settings on"
@@ -1709,11 +1745,11 @@ msgid ""
 "-100 and +100 respectively."
 msgstr ""
 
-#: ../../source/ch_model.rst:805
+#: ../../source/ch_model.rst:817
 msgid "Swash Configuration"
 msgstr "Imbolygó konfiguráció"
 
-#: ../../source/ch_model.rst:807
+#: ../../source/ch_model.rst:819
 msgid ""
 "The Swash configuration page configures the swash type.  More information "
 "about swash-types can be found in section :ref:`swash-mixing`.  The settings"
@@ -1721,31 +1757,31 @@ msgid ""
 ":ref:`model-setup`), and configuration for both pages is provided below."
 msgstr ""
 
-#: ../../source/ch_model.rst:816
+#: ../../source/ch_model.rst:828
 msgid "The available SwashType values are:"
 msgstr "A választható imbolygó típusok a következők:"
 
-#: ../../source/ch_model.rst:818
+#: ../../source/ch_model.rst:830
 msgid "**None/1Servo**: Used For FBL.  Mixing occurs in receiver"
 msgstr ""
 
-#: ../../source/ch_model.rst:819
+#: ../../source/ch_model.rst:831
 msgid "**120/3Servo 120**: 120-degree swash"
 msgstr ""
 
-#: ../../source/ch_model.rst:820
+#: ../../source/ch_model.rst:832
 msgid "**120x/3Servo 120x**: 120 degrees swash (alternate config)"
 msgstr ""
 
-#: ../../source/ch_model.rst:821
+#: ../../source/ch_model.rst:833
 msgid "**140/3Servo 140**: 140 degree swash"
 msgstr ""
 
-#: ../../source/ch_model.rst:822
+#: ../../source/ch_model.rst:834
 msgid "**90/3Servo 90**: 90 degrees swash"
 msgstr ""
 
-#: ../../source/ch_model.rst:824
+#: ../../source/ch_model.rst:836
 msgid ""
 "The ELE Mix, AIL Mix, and PIT Mix are scaling factors applied to the input "
 "sticks before mixing is done.  These can be used to adjust for different "
@@ -1754,11 +1790,11 @@ msgid ""
 "in too much servo throw and make the model unresponsive to stick control."
 msgstr ""
 
-#: ../../source/ch_model.rst:830
+#: ../../source/ch_model.rst:842
 msgid "Throttle Curve"
 msgstr "Gáz görbe"
 
-#: ../../source/ch_model.rst:835
+#: ../../source/ch_model.rst:847
 msgid ""
 "The throttle curve page allows defining a piece-wise linear curve for the "
 "throttle channel.  Different curves can be selected for each flight-mode.  "
@@ -1766,11 +1802,11 @@ msgid ""
 "surrounding it."
 msgstr ""
 
-#: ../../source/ch_model.rst:840
+#: ../../source/ch_model.rst:852
 msgid "Pitch Curve"
 msgstr "Állásszög görbe"
 
-#: ../../source/ch_model.rst:845
+#: ../../source/ch_model.rst:857
 msgid ""
 "The pitch curve allows defining a piece-wise linear curve for the "
 "collective/pitch channel.  Different curves can be selected for each flight-"
@@ -1778,44 +1814,44 @@ msgid ""
 "interpolated from the points surrounding it."
 msgstr ""
 
-#: ../../source/ch_model.rst:850
+#: ../../source/ch_model.rst:862
 msgid "Gyro Sensitivity"
 msgstr "Giró érzékenység"
 
-#: ../../source/ch_model.rst:855
+#: ../../source/ch_model.rst:867
 msgid ""
 "The gyro-sensitivity page enables configuring up-to 3 sensitivity values for"
 " the gyro as well as which channel to use for sending the gyro value. "
 "Acceptable values range from 0 to 100%."
 msgstr ""
 
-#: ../../source/ch_model.rst:860
+#: ../../source/ch_model.rst:872
 msgid "Switch Assignment"
 msgstr "Kapcsoló összerendelés"
 
-#: ../../source/ch_model.rst:865
+#: ../../source/ch_model.rst:877
 msgid ""
 "The switch assignment page enables configuring which switches to use for "
 "each capability in the standard-GUI.  The same switch may be assigned to "
 "multiple capabilities."
 msgstr ""
 
-#: ../../source/ch_model.rst:870
+#: ../../source/ch_model.rst:882
 msgid "Throttle Hold"
 msgstr "Gáz kapcsoló"
 
-#: ../../source/ch_model.rst:875
+#: ../../source/ch_model.rst:887
 msgid ""
 "The throttle-hold page is used to enable/disable the throttle-hold "
 "capability.  Specifying ‘Hold position’ defines the throttle value when the "
 "Throttle-hold switch is set. Hold position can be set from -200 to 200."
 msgstr ""
 
-#: ../../source/ch_model.rst:880
+#: ../../source/ch_model.rst:892
 msgid "Fail-Safe Configuration"
 msgstr "Hibaérték konfiguráció"
 
-#: ../../source/ch_model.rst:885
+#: ../../source/ch_model.rst:897
 msgid ""
 "The fail-safe page is used to configure the fail-safe value for each channel"
 " (if the protocol supports this feature)"
