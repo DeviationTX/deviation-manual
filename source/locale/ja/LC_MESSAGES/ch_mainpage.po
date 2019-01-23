@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2019
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 02:11+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2019\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "メインページ"
 
 #: ../../source/ch_mainpage.rst:8
 msgid "The standard main page layout is as follows:"
-msgstr "標準メインページのレイアウトは次の通りです:"
+msgstr "標準となるメインページのレイアウトは次の通りです:"
 
 #: ../../source/ch_mainpage.rst:14
 msgid ""
@@ -35,8 +35,8 @@ msgid ""
 "open up the Model Load page.  The model is configured from section :ref"
 ":`model-setup`."
 msgstr ""
-"**Current Model**: 現在のモデル名称。ラベルをクリックするとモデル書き出しページが開きます。モデルは項目 :ref:`model-"
-"setup` から設定します。"
+"**Current Model**: 現在のモデル名称。ラベルをクリックするとModel Loadページが開きます。モデルは項目 :ref"
+":`model-setup` から設定します。"
 
 #: ../../source/ch_mainpage.rst:16
 msgid ""
@@ -49,15 +49,15 @@ msgid ""
 "**Transmitter Power**: This indicates the currently selected transmitter "
 "power. It is configured from section :ref:`model-setup`."
 msgstr ""
-"**Transmitter Power**: 現在選択されている送信機出力を示します。項目 :ref:`model-setup`から設定します。"
+"**Transmitter Power**: 現在選択されている送信電波出力を示します。項目 :ref:`model-setup` から設定します。"
 
 #: ../../source/ch_mainpage.rst:20
 msgid ""
 "**Current Time**: This indicates the current time (on Devo12 transmitters "
 "only).  The time is set from section :ref:`transmitter-config`."
 msgstr ""
-"**Current Time**: 現在の時間を示します(Devo12送信機のみ)。 時間は項目 :ref:`transmit-"
-"config`から設定します。"
+"**Current Time**: 現在の時間を示します。(Devo12送信機のみ) 時間は項目 :ref:`transmit-config` "
+"から設定します。"
 
 #: ../../source/ch_mainpage.rst:22
 msgid ""
@@ -65,14 +65,14 @@ msgid ""
 "from section :ref:`model-setup`. Pressing the icon will take you to that "
 "page."
 msgstr ""
-"**Model Icon**: 現在の機体モデルを表す画像。項目 :ref:`model-"
-"setup`から設定します。アイコンを押すとそのページに移動します。"
+"**Model Icon**: 現在の機体モデルを表す画像。項目 :ref:`model-setup` "
+"から設定します。アイコンを押すとそのページに移動します。"
 
 #: ../../source/ch_mainpage.rst:25
 msgid ""
 "**Model Icon**: An image representing the current model. It is configured "
 "from section :ref:`model-setup`."
-msgstr "**Model Icon**: 現在の機体モデルを表す画像。項目 :ref:`model-setup`から設定します。"
+msgstr "**Model Icon**: 現在の機体モデルを表す画像。項目 :ref:`model-setup` から設定します。"
 
 #: ../../source/ch_mainpage.rst:27
 msgid ""
@@ -86,16 +86,16 @@ msgid ""
 "telemetry, or timer data; bar graphs displaying channel data; or icons / "
 "toggles displaying specific states (ex. gear, flaps,…)."
 msgstr ""
-"**Displays**: これらの項目は、入力、チャンネル、テレメトリー、またはタイマーを含むテキスト表示; チャンネルを表示するバー; "
-"特定の状態(ギア、フラップ等)を表示するアイコン/トグルを設定します。"
+"**Displays**: これらの項目は、入力、チャンネル、テレメトリー、またはタイマーを含むテキスト表示; チャンネルを表示するバー; 特定の状態 "
+"(ギア、フラップ等) を表示するアイコン / トグルを設定します。"
 
 #: ../../source/ch_mainpage.rst:31
 msgid ""
 "**Quick Menus**: Quick menus can be reached via a long UP/DN press.  They "
 "can be defined from section :ref:`main-page-config`."
 msgstr ""
-"**Quick Menus**: UP/DNを長押しするとクイックメニューにアクセスできます。それらは項目 :ref:`main-page-"
-"config`から定義します。"
+"**Quick Menus**: UP / DNを長押しするとクイックメニューにアクセスできます。それらは項目 :ref:`main-page-"
+"config` から定義します。"
 
 #: ../../source/ch_mainpage.rst:33
 msgid ""
@@ -103,8 +103,8 @@ msgid ""
 "tweaked by modifying the following values in the corresponding channel "
 "section in `model.ini`::"
 msgstr ""
-"デフォルトでは、チャンネル出力は `[-100, 100]%` "
-"と表示されます。これは「model.ini」の対応するチャンネル項目の以下の値を修正することで微調整できます:"
+"デフォルトでは、チャンネル出力は `[-100, "
+"100]%`と表示されます。これは「model.ini」の対応するチャンネル項目の以下の値を修正することで微調整できます:"
 
 #: ../../source/ch_mainpage.rst:39
 msgid ""
@@ -126,7 +126,7 @@ msgid ""
 "See Wikipedia_ for more details on the format string."
 msgstr ""
 "「display-format」を省略すると、デフォルト値の `%3d%%` "
-"が使用されます。フォーマット文字列の詳細についてはWikipedia_を参照してください。"
+"が使用されます。フォーマット文字列の詳細についてはWikipediaを参照してください。"
 
 #: ../../source/ch_mainpage.rst:50
 msgid "Safety System"
@@ -148,13 +148,15 @@ msgid ""
 " case, Deviation will start communication with the model once the dialog is "
 "dismissed."
 msgstr ""
-"Deviationには、危険な状態での始動を防ぐためのセーフティシステムを内包しています(例えば、誤ってヘリコプターのメインローターを回転させてしまう等)。セーフティシステムは、機体への送信を開始する前に特定条件が満たされているか否かをチェックすることによって機能します。デフォルトでは、スロットルスティックに関連する出力チャンネルは最小でなければなりません。Deviationファームウェアには、新しい安全条件を定義するためのメカニズムは含まれていませんが、model.iniファイルを直接変更することによって追加できます。セーフティメッセージが表示されている間は、送信機は機体と通信しません。このメッセージは、最初に送信機の電源を入れたとき、または別の機体に切り替えたときに表示されることがあります。すべての安全条件が満たされる、または[OK]が押されると、メッセージは自動的に消えます。どちらの場合でも、ダイアログが閉じられるとDeviationは機体との通信を開始します。"
+"Deviationには、危険な状態での始動を防ぐためのセーフティシステムを内包しています。(例えば、誤ってヘリコプターのメインローターを回転させてしまう等)"
+" "
+"セーフティシステムは、機体への送信を開始する前に特定条件が満たされているか否かをチェックすることによって機能します。デフォルトでは、スロットルスティックに関連する出力チャンネルは最小でなければなりません。Deviationファームウェアには、新しい安全条件を定義するためのメカニズムは含まれていませんが、model.iniファイルを直接変更することによって追加できます。セーフティメッセージが表示されている間は、送信機は機体と通信しません。このメッセージは、最初に送信機の電源を入れたとき、または別の機体に切り替えたときに表示されることがあります。すべての安全条件が満たされる、または「OK」が押されると、メッセージは自動的に消えます。どちらの場合でも、ダイアログが閉じられるとDeviationは機体との通信を開始します。"
 
 #: ../../source/ch_mainpage.rst:58
 msgid ""
 "The safety values are in the '[safety]' section, and the default looks like "
 "this::"
-msgstr "セーフティ値は '[safety]' 項にあり、デフォルトは次の通りです。"
+msgstr "セーフティ値は '[safety]' 欄にあり、デフォルトは次の通りです。"
 
 #: ../../source/ch_mainpage.rst:64
 msgid ""

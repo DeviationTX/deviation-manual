@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 02:10+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr "インストール"
 msgid ""
 "Windows™ users can choose between two methods of installing the deviation "
 "firmware."
-msgstr "Windowsユーザは、Deviationファームウェアをインストールする方法を2種選択できます。"
+msgstr "Windowsユーザは、Deviationファームウェアをインストールする方法を2種類選択できます。"
 
 #: ../../source/ch_install.rst:6
 msgid "Use the Deviation Uploader tool"
@@ -51,9 +51,9 @@ msgid ""
 "convenient step, using the ZIP compressed deviation firmware file as the "
 "source."
 msgstr ""
-"Windowsオペレーティングシステムがない場合は、最初の選択肢であるDeviation Uploaderツールを使用してください。 "
-"オリジナルのWalkeraファームウェアに戻す必要がある場合は、Deviation開発チームによって設計されたJavaアプリケーションで、Devo送信機やDeviationの任意のバージョン、さらにはDeventionのすべてのバージョンで効率的かつ簡単に使用ができます。Walkeraツールは、まずファームウェアをインストールしてからファイルシステムライブラリをインストールするという2段階の手順が必要です。"
-" Deviation "
+"Windowsオペレーティングシステムがない場合は、最初の選択肢であるDeviation "
+"Uploaderツールを使用してください。オリジナルのWalkeraファームウェアに戻す必要がある場合は、Deviation開発チームによって設計されたJavaアプリケーションで、Devo送信機やDeviationの任意のバージョン、さらにはDeventionのすべてのバージョンで効率的かつ簡単に使用ができます。Walkeraツールは、まずファームウェアをインストールしてからファイルシステムライブラリをインストールするという2段階の手順が必要です。Deviation"
+" "
 "Uploaderツールは、ZIP圧縮されたDeviationファームウェアファイルをソースとして使用し、アップデートを1つの簡単かつ便利な手順で実行します。"
 
 #: ../../source/ch_install.rst:11
@@ -71,11 +71,11 @@ msgid ""
 "versions and build types."
 msgstr ""
 ":ref:`Preparation` "
-"項はインストールを始める前にするべきことを補完しています。次に使用しているツールに応じて、2つのインストール項で実際のインストール手法について説明を行います。以下の項目には、様々なバージョンやビルドタイプからのアップグレード、または様々なバージョンへのアップグレードに固有の注意事項が含まれています。"
+"項目はインストールを始める前にするべきことを纏めています。次に、使用しているツールに応じて、2つのインストール項目により実際のインストール手法について説明を行います。以下の項目には、様々なバージョンやビルドタイプからのアップグレード、または様々なバージョンへのアップグレードに固有の注意事項が含まれています。"
 
 #: ../../source/ch_install.rst:23
 msgid "Preparation"
-msgstr "Preparation"
+msgstr "インストール準備"
 
 #: ../../source/ch_install.rst:25
 msgid ""
@@ -87,7 +87,7 @@ msgid ""
 msgstr ""
 "最初に、インストールを開始する前にDevo送信機がフル充電されていることを確認してください。 　http://deviationtx.com"
 "/downloads-new/category/1-deviation-releases から variation-devoXX-x.y.z.zip "
-"ファームウェアをダウンロードします。ここでXXはWalkera Devo送信機の番号です。x.y.zはDeviationバージョン番号を表します。"
+"ファームウェアをダウンロードします。ここでのXXはWalkera Devo送信機の番号です。x.y.zはDeviationバージョン番号を表します。"
 
 #: ../../source/ch_install.rst:32
 msgid "NOTE: Do NOT attempt to use the DfuSe tool from STMicroelectronics!"
@@ -115,7 +115,7 @@ msgid ""
 "See the section on :ref:`windows_drivers`"
 msgstr ""
 "Windowsを使用している場合は、適切なUSBドライバをインストールする必要があります。 :ref:`windows_drivers` "
-"項をご確認ください。"
+"をご参照ください。"
 
 #: ../../source/ch_install.rst:43
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "well as the 'tx.ini' and the 'hardware.ini' files to ensure you don’t lose "
 "any model or transmitter configuration."
 msgstr ""
-"以前のDeviationリリースからアップグレードする場合は、モデルデータや送信機の設定を失う可能性があるため、送信機から「models」ディレクトリをバックアップし「tx.ini」ファイルおよび「hardware.ini」ファイルを変更しないことを強くお勧めします。"
+"以前のDeviationリリースからアップグレードする場合は、機体モデルのメモリデータや送信機の設定を失う可能性があるため、送信機から「models」ディレクトリをバックアップし「tx.ini」ファイルおよび「hardware.ini」ファイルを変更しないことを強くお勧めします。"
 
 #: ../../source/ch_install.rst:54
 msgid "Windows Driver Installation"
@@ -183,7 +183,7 @@ msgid ""
 "F7 firmware, the original models will be lost when switching to Deviation."
 msgstr ""
 "注: Devo7e、Devo F12e、およびDevo "
-"F7ファームウェアのメモリ制限により、Deviationに切り替えるとオリジナル機体モデルが失われます。"
+"F7ファームウェアのメモリ制限により、Deviationに切り替えるとオリジナルの機体モデル情報が失われます。"
 
 #: ../../source/ch_install.rst:88
 msgid ""
@@ -201,7 +201,7 @@ msgid ""
 "removing all USB devices and restart your PC with only the USB connection to"
 " the TX. Take the steps necessary to resolve any connection issues."
 msgstr ""
-"このツールを実行に際し、何名かのユーザがWindowsやUSBポートとの互換性問題を報告しています。DfuSeが送信機を認識しない場合は、すべてのUSBデバイスを取り外し送信機のみをUSB接続し、PCを再起動してみてください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
+"このツールの実行に際し、何名かのユーザがWindowsやUSBポートとの互換性問題を報告しています。DfuSeが送信機を認識しない場合は、すべてのUSBデバイスを取り外し送信機のみをUSB接続し、PCを再起動してみてください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
 
 #: ../../source/ch_install.rst:94
 msgid ""
@@ -267,7 +267,7 @@ msgid ""
 "drive. For details of the file-system please see :ref:`usb-file-system`. The"
 " files with the extension 'zip', and 'dfu' need not to be copied."
 msgstr ""
-"ZIPファイルを解凍したフォルダを開き、このフォルダ内のすべてのファイルとディレクトリを送信機USBドライブのルート部へコピーします。ファイルシステムの詳細については"
+"ZIPファイルを解凍したフォルダを開き、このフォルダ内のすべてのファイルとディレクトリを、送信機USBドライブのルートディレクトリへコピーします。ファイルシステムの詳細については"
 " :ref:`usb-file-system` を参照してください。拡張子が「zip」「dfu」のファイルはコピーする必要はありません。"
 
 #: ../../source/ch_install.rst:121
@@ -293,8 +293,8 @@ msgid ""
 "GUI, using the Java application to open it. You will need to install Java "
 "from http://www.java.com/ if you haven't already installed it."
 msgstr ""
-"「Deviation "
-"Uploader」はJava(jar)ファイルです。jarファイルをコマンドラインでJava実行環境に指定するか、またはJavaアプリケーションを使用しGUIでファイルを開くことができます。まだインストールしていない場合は、"
+"「Deviation Uploader」はJava (jar) "
+"ファイルです。jarファイルをコマンドラインでJava実行環境に指定するか、またはJavaアプリケーションを使用しGUIでファイルを開くことができます。まだインストールしていない場合は、"
 " http://www.java.com/ からJava実行環境をインストールする必要があります。"
 
 #: ../../source/ch_install.rst:138
@@ -304,7 +304,7 @@ msgid ""
 "12, this is done by holding the trainer switch instead."
 msgstr ""
 "「Deviation "
-"Uploader」が開いたら、送信機をUSBポートに接続し「EXT」ボタンを押しながら電源をONします。Devo12では代わりにトレーナースイッチを推し続けます。"
+"Uploader」が開いたら、送信機をUSBポートに接続し「EXT」ボタンを押しながら電源をONします。Devo12では代わりにトレーナースイッチを押し続けます。"
 
 #: ../../source/ch_install.rst:142
 msgid ""
@@ -322,7 +322,7 @@ msgid ""
 "installation and try unplugging all other USB devices. Take the steps "
 "necessary to resolve any connection issues."
 msgstr ""
-"すべてが正しく機能している場合は、接続されている送信機の種類に「Transmitter」が変更されているはずです。それが間違った送信機の種類に変更した場合は、今すぐ中止してフォーラムに助けを求めてください。変更できない場合には、システム情報を調べてデバイスが正常に表示されているかどうかを確認してください。Windows上で不明なデバイスとして表示される場合は、ドライバのインストールを確認し、他のすべてのUSBデバイスを取り外してください。接続の問題を解決するためにいくつかの必要な手順を実行ください。"
+"すべてが正しく機能している場合は、その接続されている送信機の種類が表示される「Transmitter」項目が変更されているはずです。それが間違った送信機の種類に変更した場合は、今すぐ中止してフォーラムに助けを求めてください。変更できない場合には、システム情報を調べてデバイスが正常に表示されているかどうかを確認してください。Windows上で不明なデバイスとして表示される場合は、ドライバのインストールを確認し、他のすべてのUSBデバイスを取り外してください。接続の問題を解決するためにいくつかの必要な手順を実行してください。"
 
 #: ../../source/ch_install.rst:153
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 msgid ""
 "If this is an initial install, all the 'Replace' boxes, along with 'Format' "
 "will be preselected."
-msgstr "初期インストールの場合「置換」ボックスと「フォーマット」が事前に選択されます。"
+msgstr "初期インストールの場合「Replace」ボックスと「Format」が事前に選択されます。"
 
 #: ../../source/ch_install.rst:156
 msgid ""
@@ -345,8 +345,8 @@ msgid ""
 "will be preselected. On the Devo F7 and Devo F12E initial install, select "
 "the 'Format' check box if not already selected."
 msgstr ""
-"初期インストールの場合「置換」ボックスと「フォーマット」が事前に選択されます。Devo F7およびDevo "
-"F12Eの初期インストールで、まだ選択されていない場合は「フォーマット」をチェックします。"
+"初期インストールの場合「Replace」ボックスと「Format」が事前に選択されます。Devo F7およびDevo "
+"F12Eの初期インストールで、まだ選択されていない場合は「Format」を選択します。"
 
 #: ../../source/ch_install.rst:159
 msgid ""
@@ -378,7 +378,7 @@ msgid ""
 "first-time install of Deviation, your computer may prompt to format a drive."
 " Format using default options."
 msgstr ""
-"F7とF12E以外のトランスミッタの場合は「ENT」を押しながら送信機の電源を入れます。画面にUSBロゴが表示されます。これが初めてのDeviationインストールである場合は、ドライブをフォーマットするように促されますので、デフォルトオプションを使用してフォーマットします。"
+"F7とF12E以外の送信機の場合は「ENT」を押しながら電源を入れます。画面にUSBロゴが表示されます。これが初めてのDeviationインストールである場合は、ドライブをフォーマットするように促されますので、デフォルトオプションを使用してフォーマットします。"
 
 #: ../../source/ch_install.rst:172
 msgid "Upgrading the file system with Deviation Uploader"
@@ -404,7 +404,7 @@ msgid ""
 " it can be done."
 msgstr ""
 "Deviation "
-"Uploaderツールを使用し、Devo用のDeviationファームウェアをインストールするため前述の手順に従った場合、インストールは完了しておりそれ以上のインストールは不要です。一方、ファイルを解凍してファームウェアのDFUファイルを単独でインストールした場合は、同じ場所からライブラリDFUファイルをインストールする必要があります。この方法でインストールを実行しても利点は特にありませんが、実施することは可能です。"
+"Uploaderツールを使用し、Devo用のDeviationファームウェアをインストールするため、前述の手順に従った場合インストールは完了しており、それ以上のインストールは不要です。一方、ファイルを解凍してファームウェアのDFUファイルを単独でインストールした場合は、同じ場所からライブラリDFUファイルをインストールする必要があります。この方法でインストールを実行しても利点は特にありませんが、実施することは可能です。"
 
 #: ../../source/ch_install.rst:183
 msgid "Deviation 5.0"
@@ -477,7 +477,7 @@ msgid ""
 "the Nightly build."
 msgstr ""
 "結果、Deviation "
-"5.0リリース版を適用すべきか、それともナイトリービルド版を適用すべきか？あなた自身が求める、疑問に対する回答がそれを決定することでしょう。Walkera、Spectrum、Flysky、およびWLToys"
+"5.0リリース版を適用すべきか、それともナイトリービルド版を適用すべきか？あなた自身が求めている疑問に対する回答が、適用の有無を決定することでしょう。Walkera、Spectrum、Flysky、およびWLToys"
 " V2x2クワッドのバリエーションをいくつか使用する場合は、Deviation "
 "5.0リリース版で十分です。最新の小型クワッドや、サポートされている送信機モジュール以外に最新の追加ハードウェアをサポートしたい場合は、ナイトリービルド版の使用を検討ください。"
 
@@ -523,8 +523,8 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
-"テストビルドをインストールしたら、適切なスレッドに追加投稿して開発者に**状況を知らせて**ください！それが彼らがテストビルド版を作成された理由なのです"
-" - それが事象として上手くいったという単純な書き込みであっても、開発者としてはフィードバックを得ることができるのです。"
+"テストビルドをインストールしたら、適切なスレッドに追加投稿して開発者に**状況を知らせて**ください！それが、彼らがテストビルド版を提供した理由なのです"
+" - それが「事象として上手くいった」という単純な書き込みであったとしても、開発者としてはフィードバックを得ることができるのです。"
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
@@ -643,9 +643,8 @@ msgid ""
 "Model icons must be saved as 16-bit BMP files in either RGB565 (non-"
 "transparent) or ARGB1555 (transparent) format."
 msgstr ""
-"利用可能なすべてのモデルアイコン(96 x "
-"96ピクセルを推奨しますが必須ではありません)。モデルアイコンは、RGB565(不透過)またはARGB1555(透過)形式の16bit "
-"BMPファイルとして保存する必要があります。"
+"利用可能なすべてのモデルアイコン。(96 x 96ピクセルを推奨しますが必須ではありません) モデルアイコンは、RGB565 (不透過) "
+"またはARGB1555 (透過) 形式の16bit BMPファイルとして保存する必要があります。"
 
 #: ../../source/ch_install.rst:279
 msgid "\\\\templates\\\\*.ini"

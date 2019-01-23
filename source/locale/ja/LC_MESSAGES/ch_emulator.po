@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-30 02:10+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,13 +33,13 @@ msgid ""
 "virtual-stick/switch states as well as the Channel output that would be "
 "received by the servos."
 msgstr ""
-"エミュレーターは、ファームウェアを送信機にアップロードせずにPC上でDeviationをテストする方法を提供します。現在のバーチャルスティック、バーチャルスイッチの状態とサーボが受信するチャンネル出力を表示するサイドスクリーンと共に、送信機と同等のビジュアル表示を提供します。"
+"エミュレーターは、ファームウェアを送信機にアップロードせずにPC上でDeviationをテストする方法を提供します。現在の仮想スティック、仮想スイッチの状態とサーボが受信するチャンネル出力を表示する補助画面と共に、送信機と同等のビジュアル表示を提供します。"
 
 #: ../../source/ch_emulator.rst:7
 msgid ""
 "Download and unzip the deviation-emu_devoXX-vx.y.z.zip emulator package "
 "from:"
-msgstr "deviation-emu_devoXX-vx.y.z.zipのエミュレータパッケージを次の場所からダウンロードし解凍します:"
+msgstr "deviation-emu_devoXX-vx.y.z.zipのエミュレーターパッケージを次の場所からダウンロードし解凍します:"
 
 #: ../../source/ch_emulator.rst:9
 msgid ""
@@ -53,7 +53,7 @@ msgid ""
 "deviation version number. Normally you should use the latest one. To start "
 "the emulator just run the exe file in the sub-directory."
 msgstr ""
-"XXはあなたのDeviation送信機の番号です。x.y.zはDeviationバージョン番号を表します。通常は最新のものを使うべきです。エミュレーターを起動するには、サブディレクトリにあるexeファイルを実行してください。"
+"XXはあなたのDeviation送信機の番号です。x.y.zはDeviationバージョン番号を表します。通常は最新のものをご利用ください。エミュレーターを起動するには、サブディレクトリにあるexeファイルを実行してください。"
 
 #: ../../source/ch_emulator.rst:26
 msgid ""

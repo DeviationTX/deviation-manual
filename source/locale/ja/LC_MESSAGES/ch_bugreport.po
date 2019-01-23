@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-30 02:10+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,9 +38,9 @@ msgid ""
 "hesitate to ask the community at http://www.deviationtx.com/forum. Please "
 "bear in mind that the firmware can only improved with your help."
 msgstr ""
-"このファームウェアは慎重に開発されており、世界中の多くのユーザによって正常テストが行われております。それにも関わらず、状況によっては送信機が想定通りに動作しないことがあります。"
-" 時々このような事象は処理上の問題があり、正にバグということとなります。 http://www.deviationtx.com/forum "
-"でコミュニティに尋ねることを是非躊躇しないでください。ファームウェアはあなた方の助けを乞うことでしか改善ができないことに意識いただければ幸いです。"
+"このファームウェアは慎重に開発されており、世界中の多くのユーザによって動作テストが行われております。それにも関わらず、状況によっては送信機が想定通りに動作しないことがあります。"
+" 時々このような事象は処理上の問題があり、主としてバグという扱いになります。 http://www.deviationtx.com/forum "
+"でコミュニティに尋ねることを是非躊躇しないでください。ファームウェアはあなた方のサポートを乞うことしか、改善ができないことに関し意識していただければ幸いです。"
 
 #: ../../source/ch_bugreport.rst:7
 msgid ""
@@ -57,7 +57,7 @@ msgid ""
 "community, and will enable you to get email updates when the bug is "
 "updated/fixed."
 msgstr ""
-"バグ報告するには、Deviationフォーラムにアカウントを登録する必要があります。そのアカウントはまたあなたがDeviationコミュニティと連絡することを可能とし、バグが更新および修正されたときにあなたが電子メールでのお知らせを受けることができます。"
+"バグ報告するには、Deviationフォーラムにアカウントを登録する必要があります。そのアカウントは、あなたがDeviationコミュニティと連絡することができ、バグが更新および修正されたときに電子メールでのお知らせを受けることができます。"
 
 #: ../../source/ch_bugreport.rst:11
 msgid ""
@@ -84,7 +84,7 @@ msgstr "これをエミュレーターで再現してみましたか？"
 msgid ""
 "Is this easily reproducible?  If so, please provide step-by-step "
 "instructions"
-msgstr "これは容易に再現できますか？もし再現可能ならステップバイステップの手順を提供してください。"
+msgstr "これは容易に再現できますか？もし再現可能なら着実な手順を提供してください。"
 
 #: ../../source/ch_bugreport.rst:18
 msgid "What protocol are you using?"

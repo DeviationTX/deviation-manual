@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-30 02:10+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,9 @@ msgid ""
 "transmitter sends input (stick) information through the trainer cord to the "
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
-"Deviationはインストラクター(マスター)、または受講者(スレーブ)送信機のいずれかのバディボックス設定で動作するために使用します。このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に(スティック)入力情報を送信し、これらの入力信号はインストラクターの入力信号を置き換えます。"
+"Deviationはインストラクター (マスター) または受講者 (スレーブ) "
+"送信機のいずれかのバディボックス設定で動作するために使用します。このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に"
+" (スティック) 入力情報を送信し、これらの入力信号はインストラクターの入力信号を置き換えます。"
 
 #: ../../source/ch_advanced.rst:12
 msgid ""
@@ -53,13 +55,12 @@ msgid ""
 "www.deviationtx.com forums."
 msgstr ""
 "Deviationは、マスターモードまたはスレーブモードのいずれかをサポートしているほとんどの送信機で動作するよう設定が可能です。別メーカー間によるDeviationの組み合わせの場合は、ペアとなる送信機のPPMパラメータを確認する必要があります。また「Center"
-" PW」と「Delta "
-"PW」を適切に設定するだけでなく、送信されるチャンネル数とチャンネルの順序が分かります。この情報を確認する最も良い場所である、www.deviationtx.com"
-" フォーラムで尋ねてみてください。"
+" PW」と「Delta PW」を適切に設定するだけでなく、送信されるチャンネル数とチャンネルの順序が分かります。この情報を確認する最良な場所である "
+"www.deviationtx.com フォーラムで尋ねてみてください。"
 
 #: ../../source/ch_advanced.rst:15
 msgid "Master Mode"
-msgstr "マスターモード"
+msgstr "Master Mode"
 
 #: ../../source/ch_advanced.rst:16
 msgid ""
@@ -68,7 +69,7 @@ msgid ""
 "‘Stick’ or ‘Channel’ will show the ‘Trainer Cfg’ pages. The 2 modes behave "
 "slightly differently:"
 msgstr ""
-"マスターモードは、項目 :ref:`model-setup`の「PPM "
+"Master modeは項目 :ref:`model-setup` の「PPM "
 "In」スピンボックスから「Channel」または「Stick」のいずれかを選択して設定します。「Stick」または「Channel」で「ENT」を押すと、「Trainer"
 " Cfg」ページが表示されます。2つのモードの動作は若干異なります:"
 
@@ -80,8 +81,9 @@ msgid ""
 "mode, the student’s transmitter will directly pass the stick position (no "
 "mixing) and the instructor’s transmitter will do all necessary mixing."
 msgstr ""
-"**Stick**: "
-"スティックモードでは、各入力チャンネルはマスター送信機のスティックにマッピングされます。このモードでは、スティックを動かしている受講者は、インストラクターがスティックを動かした時とまったく同じように動作します。一般にこのモードを使用すると、受講者の送信機はスティックポジション信号(ミキシングなし)を直接通過し、インストラクターの送信機側で必要なミキシングをすべて行います。"
+"**Stick**: Stick "
+"modeでは、各入力チャンネルはマスター送信機のスティックにマッピングされます。このモードでは、スティックを動かしている受講者は、インストラクターがスティックを動かした時とまったく同じように動作します。一般にこのモードを使用すると、受講者の送信機はスティックポジション信号"
+" (ミキシングなし) を直接通過し、インストラクターの送信機側で必要なミキシングをすべて行います。"
 
 #: ../../source/ch_advanced.rst:26
 msgid ""
@@ -92,12 +94,12 @@ msgid ""
 "configured identically, otherwise, the model may not react well when "
 "switching between instructor and student control."
 msgstr ""
-"**Channel**: "
-"チャンネルモードでは、各入力チャンネルはインストラクターの送信機上の出力チャンネルにマッピングされます。このモードでは受講者の送信機は、機体モデル制御に必要なすべてのミキシングを行う必要があります。インストラクターと受講者の送信機が同じように設定されていることを注意して確認してください。そうでないとインストラクターと受講者のコントロールを切り替える際、機体モデルがうまく反応しない場合があります。"
+"**Channel**: Channel "
+"modeでは、各入力チャンネルはインストラクターの送信機上の出力チャンネルにマッピングされます。このモードでは受講者の送信機は、機体モデル制御に必要なすべてのミキシングを行う必要があります。インストラクターと受講者の送信機が同じように設定されていることを注意して確認してください。そうでないとインストラクターと受講者のコントロールを切り替える際、機体モデルがうまく反応しない場合があります。"
 
 #: ../../source/ch_advanced.rst:28
 msgid "Options configurable on both Trainer Cfg pages:"
-msgstr "それぞれの「Trainer Cfg」ページで設定可能なオプション:"
+msgstr "それぞれのTrainer Cfgページで設定可能なオプション:"
 
 #: ../../source/ch_advanced.rst:30
 msgid ""
@@ -114,8 +116,8 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
-"**Delta PW**: "
-"最大サーボスロー値を定義するために、受講者の送信機から送信されるパルス幅(中央からの値)を定義します。この値が間違っていると、サーボがフルレンジ設定(または最適なトラベル値)となりません。"
+"**Delta PW**: 最大サーボスロー値を定義するために、受講者の送信機から送信されるパルス幅 (中央からの値) "
+"を定義します。この値が間違っていると、サーボがフルレンジ設定 (または最適なトラベル値) となりません。"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -127,11 +129,11 @@ msgstr "**Trainer Sw**: 受講者が機体モデルを制御できるように�
 msgid ""
 "**PPM1...PPM8**: Defines the mapping (either channel or input) from the "
 "student’s transmitter to the instructor’s"
-msgstr "**PPM1...PPM8**: 受講者の送信機からインストラクターのマッピング(チャンネルまたは入力のいずれか)を定義します。"
+msgstr "**PPM1...PPM8**: 受講者の送信機からインストラクターのマッピング (チャンネルまたは入力のいずれか) を定義します。"
 
 #: ../../source/ch_advanced.rst:39
 msgid "Slave Mode"
-msgstr "スレーブモード"
+msgstr "Slave Mode"
 
 #: ../../source/ch_advanced.rst:40
 msgid ""
@@ -143,10 +145,11 @@ msgid ""
 "‘Stick’ mode (see above), there should be no mixing done in the slave "
 "transmitter."
 msgstr ""
-"スレーブモードは、項目 :ref:`model-"
-"setup`のプロトコルとして「PPM」を選択することで設定します。プロトコルのスピンボックスで「ENT」を押すと、出力オプションを設定できます。設定については、項目"
-" :ref:`protocol-"
-"ppm`を参照してください。Deviationは、チャンネル出力データをPPMを介して送信していることにご注意ください。「Stick」モード(上記参照)に設定されたDeviationマスターを備えたDeviationスレーブ送信機を使用するには、スレーブ送信機側でミキシングを行わないでください。"
+"Slave modeは、項目 :ref:`model-setup` "
+"のプロトコルとして「PPM」を選択することで設定します。プロトコルのスピンボックスで「ENT」を押すと、出力オプションを設定できます。設定については、項目"
+" :ref:`protocol-ppm` "
+"を参照してください。Deviationは、チャンネル出力データをPPMを介して送信していることにご注意ください。「Stick」モード (上記参照) "
+"に設定されたDeviationマスターを備えたDeviationスレーブ送信機を使用するには、スレーブ送信機側でミキシングを行わないでください。"
 
 #: ../../source/ch_advanced.rst:45
 msgid "Setting Up FPV or Other External Inputs"
@@ -158,8 +161,8 @@ msgid ""
 "(such as an FPV setup).  To configure this mode, set the PPM In mode to "
 "‘Extend’ in section :ref:`model-setup`."
 msgstr ""
-"Deviationには、外部ソース(FPV設定等)からのPPM入力信号を使用する機能があります。このモードを設定するには、項目 :ref:`model-"
-"setup`でPPM Inモードを「Extend」に設定します。"
+"Deviationには、外部ソース (FPV設定等) からのPPM入力信号を使用する機能があります。このモードを設定するには、項目 :ref"
+":`model-setup` でPPM Inモードを「Extend」に設定します。"
 
 #: ../../source/ch_advanced.rst:52
 msgid ""
@@ -179,7 +182,7 @@ msgstr "**Center PW**: センタリングされた入力のパルス幅を定義
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
-msgstr "**Delta PW**: サーボスローの最小値 / 最大値に到達するパルス幅の差異(中心値からの差)を定義します。"
+msgstr "**Delta PW**: サーボスローの最小値 / 最大値に到達するパルス幅の差異 (中心値からの差) を定義します。"
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
@@ -197,7 +200,8 @@ msgid ""
 "mechanical switches of the transmitter.  This capability is only available "
 "when using the Advanced GUI.  There are 3 types of switches available:"
 msgstr ""
-"Deviationには、送信機の物理スイッチを補うための仮想スイッチを作成する機能があります。この機能は、拡張GUIを使用している場合にのみ利用可能です。スイッチには3種類あります。"
+"Deviationには、送信機の物理スイッチを補うための仮想スイッチを作成する機能があります。この機能は、Advanced "
+"GUIを使用している場合にのみ利用可能です。スイッチには3種類あります。"
 
 #: ../../source/ch_advanced.rst:66
 msgid ""
@@ -231,8 +235,8 @@ msgid ""
 "To setup a virtual switch, start by selecting the trim from the 'Trim' page,"
 " and entering the trim-setup page.  See :ref:`trims-and-virtual-inputs`"
 msgstr ""
-"仮想スイッチを設定するには、まず「Trim」ページからTrimを選択し、トリムセットアップページに入ります。閲覧 :ref:`trims-and-"
-"virtual-inputs`"
+"仮想スイッチを設定するには、まず「Trim」ページからTrimを選択し、トリムセットアップページに入ります。 :ref:`trims-and-"
+"virtual-inputs` 参照"
 
 #: ../../source/ch_advanced.rst:76
 msgid ""
@@ -241,7 +245,7 @@ msgid ""
 "until the value is less-than 0.1 Second select the 'Input' to be the virtual"
 " channel to convert to a switch (we'll use 'Virt1')"
 msgstr ""
-"次に「Trim Step」フィールドを「Momentary」「Toggle」「On/Off」または「3 Pos」に設定します。これは「Trim "
+"次に「Trim Step」欄に「Momentary」「Toggle」「On/Off」または「3 Pos」を設定します。これは「Trim "
 "Step」スピンボックスの左矢印を0.1秒以内で押すことで切り替わります。スイッチに変換する仮想チャンネルになるように「input」を選択します。(「Virt1」を使用)"
 
 #: ../../source/ch_advanced.rst:84
@@ -268,9 +272,10 @@ msgid ""
 "direction, +100 when pressed in the other direction, otherwise it will have "
 "a value of 0."
 msgstr ""
-"他のスイッチ入力と同じように仮想チャンネル(Virt1)を使用できるようになりました。仮想スイッチが有効な場合、仮想チャンネルは+100という値を持ち"
-"、それ以外の場合は-100の値を持ちます。「3 Pos」の場合、トリムが一方向に押されると仮想チャンネルは-"
-"100の値を持ち、もう一方の方向に押されると+ 100の値を持ちます。そうでない場合、値は0になります。"
+"他のスイッチ入力と同じように仮想チャンネル (Virt1) "
+"を使用できるようになりました。仮想スイッチが有効な場合、仮想チャンネルは+100という値を持ち、それ以外の場合は-100の値を持ちます。「3 "
+"Pos」の場合、トリムが一方向に押されると仮想チャンネルは-100の値を持ち、もう一方の方向に押されると+ "
+"100の値を持ちます。そうでない場合、値は0になります。"
 
 #: ../../source/ch_advanced.rst:90 ../../source/ch_advanced.rst:130
 msgid "\\"
@@ -282,12 +287,12 @@ msgid ""
 "make sure that 'trim' is disabled for that mixer, otherwise the trim will be"
 " applied twice."
 msgstr ""
-"注: "
-"仮想チャンネルを「Src」として使用する場合(Switchではなく)、そのミキサーで「Trim」が無効になっていることを確認してください。そうしないとトリムが2回適用されてしまいます。"
+"注: 仮想チャンネルを「Src」として使用する場合 "
+"(Switchではなく)、そのミキサーで「Trim」が無効になっていることを確認してください。そうしないとトリムが2回適用されてしまいます。"
 
 #: ../../source/ch_advanced.rst:99
 msgid "Swash Mixing"
-msgstr "スワッシュミキシング"
+msgstr "スワッシュ ミキシング"
 
 #: ../../source/ch_advanced.rst:100
 msgid ""
@@ -300,8 +305,8 @@ msgid ""
 "the swash-plate servos.  This mixing is known as cyclic Collective Pitch "
 "Mixing (CCMP)."
 msgstr ""
-"スワッシュプレートは、RCヘリコプターの飛行を制御するために使用されます。スワッシュプレートは主ローターの回転面とブレードピッチを制御します。スワッシュプレートは通常エレベーター、エルロン、コレクティブの3つのサーボに接続されていますが、設計上、スティックの動きとサーボの動きの間に1対1「1-to-1」の対応はありません。代わりに、スロットル、エレベーターとエルロンのスティックとスワッシュプレート式サーボとの間で何らかのミキシングが必要です。このミキシングは、Cyclic"
-" Collective Pitch Mixing (CCMP)として知られています。"
+"スワッシュプレートは、RCヘリコプターの飛行を制御するために使用されます。スワッシュプレートは主ローターの回転面とブレードピッチを制御します。スワッシュプレートは通常エレベーター、エルロン、コレクティブの3つのサーボに接続されていますが、設計上スティックの動きとサーボの動きの間に1対1「1-to-1」の対応はありません。代わりに、スロットル、エレベーターとエルロンのスティックとスワッシュプレート式サーボとの間で何らかのミキシングが必要です。このミキシングは、Cyclic"
+" Collective Pitch Mixing (CCMP) として知られています。"
 
 #: ../../source/ch_advanced.rst:102
 msgid ""
@@ -316,9 +321,11 @@ msgid ""
 "supplies aileron, elevator, and collective inputs, and the electronic mixer "
 "will convert the signals into appropriate swash-plate servo motion."
 msgstr ""
-"伝統的にRCヘリコプターは、安定性を維持するために一連のリンケージに取り付けられたメインローターの上部または下部にフライバーを使用しています。これらの設定では、送信機は通常すべてのミキシングを行い、3つのスワッシュプレートサーボのそれぞれを直接駆動します。"
-" "
-"この構成は手動CCPM(mCCPM)と呼ばれます。また、電子ミキサーを受信機の一部とする、または受信機とサーボ間で適切なミキシングを実行できるヘリコプターとする構成は電子CCPM(eCCPM)と呼ばれ、この場合、送信機はエルロン、エレベーター、およびコレクティブ入力を直接供給し、電子ミキサーは信号を適切なスワッシュプレートのサーボ動作に変換します。"
+"伝統的にRCヘリコプターは、安定性を維持するために一連のリンケージに取り付けられたメインローターの上部または下部にフライバーを使用しています。これらの設定では、送信機は通常すべてのミキシングを行い、3つのスワッシュプレートサーボのそれぞれを直接駆動させます。"
+" この設定は手動CCPM (mCCPM) "
+"と呼ばれます。また、電子ミキサーを受信機の一部とする、または受信機とサーボ間で適切なミキシングを実行できるヘリコプターとする構成は電子CCPM "
+"(eCCPM) "
+"と呼ばれ、この場合、送信機はエルロン、エレベーター、およびコレクティブ入力を直接供給し、電子ミキサーは信号を適切なスワッシュプレートのサーボ動作に変換します。"
 
 #: ../../source/ch_advanced.rst:104
 msgid ""
@@ -329,7 +336,7 @@ msgid ""
 "less expensive to manufacture, and also provides better stability and more "
 "precise control."
 msgstr ""
-"最近、特にマイクロサイズのジャンルで、フライバーレス(FBL)ヘリコプターがより一般的になりました。 "
+"最近、特にマイクロサイズのジャンルで、フライバーレス (FBL) ヘリコプターがより一般的になりました。 "
 "これらのヘリコプターは、物理的なフライバーいわゆるスタビライザーを必要とせずに安定性を維持し、また連続的にスワッシュプレートを調整するために電子ジャイロスコープと共にeCCPMシステムを使用します。この構成はより安価に製造できる傾向となり、またより良い安定性と正確な制御を提供します。"
 
 #: ../../source/ch_advanced.rst:106
@@ -349,9 +356,10 @@ msgid ""
 " up and down. Servos working in unison dramatically increases the torque "
 "available as well as the precision and centering."
 msgstr ""
-"**120 (3 Servo)**: サーボは120度の間隔で斜板の周りに配置されます。 "
-"エルロン入力では、エルロンとピッチサーボが斜板を左右に傾けます。 エレベーターの入力では、3つのサーボがスワッシュプレートを前後に傾けます。 "
-"ピッチ入力では、3つのサーボがすべて斜板を上下させます。 一元的に働くサーボは、使用可能なトルクと精度とセンタリングを劇的に向上させます。"
+"**120 (3 Servo)**: "
+"サーボは120度の間隔でスワッシュプレート付近に配置されます。エルロン入力では、エルロンとピッチサーボがスワッシュプレートを左右に傾けます。 "
+"エレベーターの入力では、3つのサーボがスワッシュプレートを前後に傾けます。ピッチ入力では、3つのサーボがすべてスワッシュプレートを上下させます。 "
+"一元的に稼動するサーボは、トルク、精度、センタリングを飛躍的に向上させます。"
 
 #: ../../source/ch_advanced.rst:116
 msgid ""
@@ -373,7 +381,7 @@ msgid ""
 "setup, the left/right cyclic is slightly faster than the fore/aft cyclic."
 msgstr ""
 "**140(3 Servo)**: "
-"基本的に140度スワッシュプレートのサーボ操作は、120度スワッシュプレートとほぼ同じです。しかしながら、エレベーター操作のためのサーボの仕組みは異なります。140度スワッシュプレートCCPMは、組み合わされたサーボの、よりスムーズな操作とあらゆるところで等しい周期レートを提供します。120度の設定では、左右のサイクリックは前後のサイクリックよりもわずかに速くなります。"
+"基本的に140度スワッシュプレートのサーボ操作は、120度スワッシュプレートとほぼ同じです。しかしながら、エレベーター操作のためのサーボの仕組みは異なります。140度スワッシュプレートCCPMは、組み合わされたサーボの、よりスムーズな操作と全ての部分で等しい周期レートを提供します。120度の設定では、左右のサイクリックは前後のサイクリックよりもわずかに速くなります。"
 
 #: ../../source/ch_advanced.rst:126
 msgid ""
@@ -392,7 +400,7 @@ msgid ""
 "specific manufacturers instructions to see how to configure mixer outputs."
 msgstr ""
 "**None**: "
-"これはジャイロスコープの飛行制御システムをオンボードしているヘリコプター全てのミキシングに対しての特別なケースとなります。ミキサー出力の設定方法については、製造元の説明書を参照してください。"
+"これはジャイロスコープを用いた飛行制御システムをオンボードしているヘリコプター全てのミキシングに対しての特別なケースとなります。ミキサー出力の設定方法については、製造元の説明書を参照してください。"
 
 #: ../../source/ch_advanced.rst:134
 msgid ""
@@ -405,7 +413,7 @@ msgstr ""
 
 #: ../../source/ch_advanced.rst:139
 msgid "Modifying sounds"
-msgstr "サウンド修正"
+msgstr "サウンド設定"
 
 #: ../../source/ch_advanced.rst:141
 msgid ""
@@ -413,7 +421,7 @@ msgid ""
 "mounting the transmitter as a USB drive and editing the 'sound.ini' file in "
 "the 'media' folder."
 msgstr ""
-"送信機をUSBドライブとしてマウントし「media」フォルダ内の「sound.ini」ファイルを編集することで、Devoにて作成されたサウンドを編集できます。"
+"送信機をUSBドライブとしてマウントし「media」フォルダ内の「sound.ini」ファイルを編集することで、Devoにて作成された音源を編集できます。"
 
 #: ../../source/ch_advanced.rst:145
 msgid "The sections, and what causes them to play, are:"
@@ -437,7 +445,7 @@ msgstr "**timer_warning**: タイマーがもうすぐ切れます。"
 
 #: ../../source/ch_advanced.rst:151
 msgid "**alarm#**: Timer # (1 to 4) has expired."
-msgstr "**alarm#**: Timer # (1～4) が期限切れです。"
+msgstr "**alarm#**: Timer # (1～4) が時間切れです。"
 
 #: ../../source/ch_advanced.rst:152
 msgid "**batt_alarm**: Battery low warning."
@@ -471,7 +479,7 @@ msgid ""
 "milliseconds to play that note. There is a limit of 100 notes for each "
 "sound."
 msgstr ""
-"各項目において、あなたは0(オフ)から100(最大)まで「音量」を調整することができます。 "
+"各項目において、あなたは0 (オフ) から100 (最大) まで「音量」を調整することができます。 "
 "残りのエントリーは音名で、値はその音を鳴らすミリ秒となります。 各サウンドには100段階制限があります。"
 
 #: ../../source/ch_advanced.rst:164
@@ -482,4 +490,6 @@ msgid ""
 "ranging from '0' to '4'. Those take you from 'c0' (middle C) up to 'b4'. In "
 "addition, 'a', 'ax' and 'b' will play the three notes below middle C."
 msgstr ""
-"名称「xx」は休符です(音は鳴りません)。そして音符(「a」―「g」)を選択できます。「a」「c」「d」「f」または「g」の場合は「x」を追加することでシャープとすることができます。最後に「0」から「4」までの範囲でオクターブを選択することができます。それらは「c0」(中央のC)から「b4」までを範囲とします。さらに「a」「ax」「b」は中央のCの下の3音を奏でます。"
+"名称「xx」は休符です (音は鳴りません)。そして音符 (「a」―「g」) "
+"を選択できます。「a」「c」「d」「f」または「g」の場合は「x」を追加することでシャープとすることができます。最後に「0」から「4」までの範囲でオクターブを選択することができます。それらは「c0」(中央のC)"
+" から「b4」までを範囲とします。さらに「a」「ax」「b」は中央のCの下の3音を奏でます。"

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2018
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 02:10+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2018\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,8 +32,8 @@ msgid ""
 "The main menu consists of the following four options: Model menu, "
 "Transmitter menu, USB and About Deviation."
 msgstr ""
-"Deviationファームウェアのメインメニュー選択は、送信機のの右下にある「ENT」ボタンを短く押すことによってアクセスされます。メインメニューは次の4つのオプションで構成されています:"
-" モデルメニュー、送信機メニュー、USB、About Deviation。"
+"Deviationファームウェアのメインメニュー選択は、送信機の右下にある「ENT」ボタンを短く押すことによってアクセスされます。メインメニューは次の4つのオプションで構成されています:"
+" Model menu、Transmitter menu、USB、About Deviation"
 
 #: ../../source/ch_mainmenu.rst:12
 msgid ""
@@ -42,7 +42,9 @@ msgid ""
 " display options, buzzer, vibration, stick mode, calibration, USB "
 "connectivity as well as version information."
 msgstr ""
-"Devention送信機の使用方法に関するすべての設定には、メインメニューからアクセスします。モデル情報、言語選択、表示オプション、ブザー、バイブレーション、スティックモード、キャリブレーション、USB接続、バージョン情報などのメニューがあります。"
+"Devention送信機の使用方法に関するすべての設定には、メインメニューからアクセスします。model options、language "
+"selection、display options、buzzer、vibration、stick mode、calibration、USB "
+"connectivity、version informationなどのメニューがあります。"
 
 #: ../../source/ch_mainmenu.rst:15
 msgid "Model menu"
@@ -55,7 +57,8 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
-"モデルメニューは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
+"Model "
+"menuは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
 " :ref:`model-menu` にあります。"
 
 #: ../../source/ch_mainmenu.rst:19
@@ -69,8 +72,8 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
-"送信機メニューでは、送信機固有のオプションを選択したり、チャンネル出力とスティック入力をモニターしたり、テレメトリーを監視したりできます(利用可能な場合のみ)。メニューの詳細は項目"
-" :ref:`transmitter-menu` にあります。"
+"送信機メニューでは、送信機固有のオプションを選択したり、チャンネル出力とスティック入力をモニターしたり、テレメトリーを監視したりできます。(利用可能な場合のみ)"
+"  メニューの詳細は項目 :ref:`transmitter-menu` にあります。"
 
 #: ../../source/ch_mainmenu.rst:23
 msgid "USB"
@@ -85,7 +88,7 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
-"USB項にアクセスするには、メインメニューから「USB」を選択します。USB "
+"USBページにアクセスするには、メインメニューから「USB」を選択します。USB "
 "modeをON/OFFに切り替えて、USB搭載PCから送信機のファイルシステムにアクセスすることができます。このモードでは、Deviationのファイルシステムへストレージデバイスとしてアクセス可能です。これにより、DeviationファイルシステムとPCの間でファイルをやり取りができ、またすべての設定ファイルにアクセスができます。"
 
 #: ../../source/ch_mainmenu.rst:31

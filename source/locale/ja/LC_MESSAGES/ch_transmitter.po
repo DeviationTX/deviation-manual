@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2019
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-06 02:13+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2019\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +132,7 @@ msgstr ""
 msgid ""
 "**Buzz volume**: Set buzzer volume.  Available range is 1 – 10; the buzzer "
 "may also be set to None."
-msgstr "**Buzz volume**: ブザー音量を設定します。利用可能な範囲は1 - 10です。ブザー無効にすることもできます。"
+msgstr "**Buzz volume**: ブザー音量を設定します。利用可能な範囲は1～10です。ブザー無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:81
 msgid "**Vibration**: Enable vibration on alarms, if available."
@@ -150,23 +150,23 @@ msgstr "LCD settings"
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10. "
 "It may also be turned off."
-msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
+msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1～10です。また無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:92
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10. It "
 "may also be turned off."
-msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1 - 10です。また無効にすることもできます。"
+msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1～10です。また無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:96
 msgid ""
 "**Backlight**: Set screen brightness. Acceptable entries are from 1 to 10."
-msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1 - 10です。"
+msgstr "**Backlight**: 画面の明るさを設定します。有効範囲は1～10です。"
 
 #: ../../source/ch_transmitter.rst:98
 msgid ""
 "**Contrast**: Set screen contrast. Acceptable entries are from 1 to 10."
-msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1 - 10です。"
+msgstr "**Contrast**: 画面のコントラストを設定します。有効範囲は1～10です。"
 
 #: ../../source/ch_transmitter.rst:101
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 msgid ""
 "**Dimmer target**: Set screen brightness when dimmed. Acceptable entries are"
 " from 1 to 10 and may also be turned off."
-msgstr "**Dimmer target**: 薄暗くなったときの画面の明るさを設定します。有効範囲は1 - 10で、無効にすることもできます。"
+msgstr "**Dimmer target**: 薄暗くなったときの画面の明るさを設定します。有効範囲は1～10で、無効にすることもできます。"
 
 #: ../../source/ch_transmitter.rst:106
 msgid "Timer settings"
@@ -236,7 +236,8 @@ msgid ""
 "values as well as scaling."
 msgstr ""
 "Channel "
-"monitor画面は、送信機による各チャンネルの出力値をユーザが閲覧することを可能にします。ミキサーのないチャンネルは表示されません。表示されるチャンネル出力は、スケーリングに合わせ最小/最大値に基づく値となります。"
+"monitor画面は、送信機による各チャンネルの出力値をユーザが閲覧することを可能にします。ミキサーのないチャンネルは表示されません。表示されるチャンネル出力は、スケーリングに合わせ最小"
+" / 最大値に基づく値となります。"
 
 #: ../../source/ch_transmitter.rst:134
 msgid ""
@@ -289,11 +290,12 @@ msgid ""
 "touch the screen to disable menu traversal.  Touch the screen again to "
 "unlock."
 msgstr ""
-"ボタンモニター項は、送信機の物理ボタンが想定通りに機能することを確認するために使用されます。物理的なボタンを押すと、画面上の対応する四角形が選択されます。「EXT」「L-」または「R+」をテストするには、画面をタッチしてメニュー移動を無効にします。もう一度タッチするとロックが解除されます。"
+"Button "
+"monitorページは、送信機の物理ボタンが想定通りに機能することを確認するために使用されます。物理的なボタンを押すと、画面上の対応する四角形が選択されます。「EXT」「L-」または「R+」をテストするには、画面をタッチしてメニュー移動を無効にします。もう一度タッチするとロックが解除されます。"
 
 #: ../../source/ch_transmitter.rst:185
 msgid "NOTE: Devo6 does not have the upper set of Trim L/R buttons"
-msgstr "注: Devo6はトリム L/R ボタンの上位値がありません。"
+msgstr "注: Devo6はトリムL / R ボタンの上位値がありません。"
 
 #: ../../source/ch_transmitter.rst:189
 msgid "Telemetry monitor"
@@ -314,7 +316,7 @@ msgid ""
 "DEVO and FrSky.  See the corresponding 9 Protocols section to learn which "
 "protocols support telemetry, and identify which fields will be available."
 msgstr ""
-"テレメトリーデータは、DEVOとFrSkyを除く、サポートされているすべてのプロトコルでデフォルトでOFFになっています。対応する9つのプロトコル項目を参照し、どのプロトコルがテレメトリーをサポートしているかを調べ、どのフィールドが利用可能になるかを確認してください。"
+"テレメトリーデータは、DEVOとFrSkyを除く、サポートされているすべてのプロトコルでデフォルトでOFFになっています。対応する9つのプロトコル項目を参照し、どのプロトコルがテレメトリーをサポートしているかを調べ、どの項目が利用可能になるかを確認してください。"
 
 #: ../../source/ch_transmitter.rst:210
 msgid ""
@@ -343,7 +345,7 @@ msgid ""
 "distances. At some clubs, this is required as a safety measure. The range "
 "test page allows this."
 msgstr ""
-"最初に、実飛行する前に新しい機体を通信レンジテストして、通常の飛行距離にて機体を制御できるか確認することをお勧めします。いくつかの団体では、これは安全対策として必要となります。range"
+"最初に、実飛行する前に新しい機体との通信レンジテストを行い、通常の飛行距離にて機体を制御できるか確認することをお勧めします。いくつかの団体では、これは安全対策として必要となります。Range"
 " test画面はこれを可能とします。"
 
 #: ../../source/ch_transmitter.rst:240
@@ -356,10 +358,10 @@ msgid ""
 "Pressing the ‘Ext’ button to exit the page will also restore the power "
 "level."
 msgstr ""
-"range test画面を開いたら「Start "
+"Range test画面を開いたら「Start "
 "test」ボタンを押して通信レンジテストを開始します。新旧の電力レベルが表示されます。その後の標準的な手順は、約30メートル離れたところから、まだ機体を離陸させず操作の確認をします。その後「Stop"
 " "
-"test」ボタンを押して通信レンジテストを終了し、設定されている無線の電力レベルを復元することができます。設定画面を終了するため「EXT」ボタンを押すことも同様に電力レベルを元に戻します。"
+"test」ボタンを押して通信レンジテストを終了し、設定されている無線の電力レベルを元の値へ復帰させることができます。設定画面を終了するため「EXT」ボタンを押すことでも、同様に電力レベルを元に戻します。"
 
 #: ../../source/ch_transmitter.rst:244
 msgid ""
@@ -377,7 +379,7 @@ msgid ""
 "is not the case, or the power level chosen for the model is already at the "
 "minimum value, a message to that effect will be displayed."
 msgstr ""
-"現在の機体に装着されるRFモジュールにはPA:パワーアンプが必要です。それ以外の場合、または機体に選択されている電力レベルがすでに最小値になっている場合は、その旨のメッセージが表示されます。"
+"現在の機体に装着されるRFモジュールにはパワーアンプ:PAが必要です。それ以外の場合、または機体に選択されている電力レベルがすでに最小値になっている場合は、その旨のメッセージが表示されます。"
 
 #: ../../source/ch_transmitter.rst:261
 msgid "USB/About"
@@ -392,11 +394,11 @@ msgid ""
 "move files back and forth between the Deviation file-system and a PC. All "
 "configuration files are accessible in this mode."
 msgstr ""
-"USB画面にアクセスするには、メインメニューから「USB」を選択します。USB "
+"USBページにアクセスするには、メインメニューから「USB」を選択します。USB "
 "modeをON/OFFに切り替えて、USB搭載PCから送信機のファイルシステムにアクセスすることができます。このモードでは、Deviationのファイルシステムへストレージデバイスとしてアクセス可能です。これにより、DeviationファイルシステムとPCの間でファイルをやり取りができ、またすべての設定ファイルにアクセスができます。"
 
 #: ../../source/ch_transmitter.rst:272
 msgid ""
 "NOTE: Entering USB mode should never be done while the model is bound, USB "
 "usage will disrupt signal transmission!"
-msgstr "注: USB modeは機体とバインドされている間は決して行わないでください。USB modeが使用されると信号が混信します！"
+msgstr "注: USB modeは機体とバインドされている間は決して行わないでください。USB modeが使用されると信号が混信してしまいます！"

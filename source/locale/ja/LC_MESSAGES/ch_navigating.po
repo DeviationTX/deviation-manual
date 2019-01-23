@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Toshihiro Makuuchi, 2019
+# Toshihiro Makuuchi <tmac116@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-01 02:11+0000\n"
+"POT-Creation-Date: 2019-01-22 02:21+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: Toshihiro Makuuchi, 2019\n"
+"Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,7 +68,7 @@ msgid ""
 "boxes (for selecting a value) and as a button (which can have various "
 "effects)."
 msgstr ""
-"2つの矢印と3Dボタンで構成されるスピンボックスは、(値を選択する)スピンボックスと、(様々な効果を持つ)ボタンの両方を機能させることができます。"
+"2つの矢印と3Dボタンで構成されるスピンボックスは、(値を選択する) スピンボックスと、(様々な効果を持つ) ボタンの両方を機能させることができます。"
 
 #: ../../source/ch_navigating.rst:27
 msgid ""
@@ -87,13 +87,13 @@ msgid ""
 "**Text Boxes**: Text boxes generally provide information, however in some "
 "cases they can be pressed to perform an action (like a button)"
 msgstr ""
-"**Text Boxes**: テキストボックスは通常、情報等を提供しますが、場合によっては(ボタンを押すように)アクションを実行することができます。"
+"**Text Boxes**: テキストボックスは通常、情報等を提供しますが、場合によっては (ボタンを押すように) 有効にすることができます。"
 
 #: ../../source/ch_navigating.rst:36
 msgid ""
 "**Icons**: Icons can either provide information or be pressed to perform an "
 "action (like a button)"
-msgstr "**Icons**: アイコンは情報等を提供するか、(ボタンを押すように)アクションを実行することができます。"
+msgstr "**Icons**: アイコンは情報等を提供するか、(ボタンを押すように) 有効にすることができます。"
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
@@ -126,7 +126,7 @@ msgstr "ボタンや円型スピンボックスの場合「ENT」を押すとボ
 msgid ""
 "Pressing ‘EXT’ will remove selection form the current item.  A long-press of"
 " ‘EXT’ will exit one (1) menu level."
-msgstr "「EXT」を押すと現在のアイテムから選択を削除します。 「EXT」を長押しするとメニューレベルが(1つ)終了します。"
+msgstr "「EXT」を押すと現在のアイテムから選択を削除します。 「EXT」を長押しするとメニューレベルが (1つ) 終了します。"
 
 #: ../../source/ch_navigating.rst:58
 msgid "Menu Layout"
@@ -143,8 +143,9 @@ msgid ""
 "available). Details of the menu are located in section :ref:`transmitter-"
 "menu`."
 msgstr ""
-"送信機メニューでは、送信機固有のオプションを選択したり、チャンネル出力とスティック入力をモニターしたり、テレメトリーを監視したりできます(利用可能な場合のみ)。メニューの詳細は項目"
-" :ref:`transmitter-menu` にあります。"
+"Transmitter "
+"menuでは、送信機固有のオプションを選択したり、チャンネル出力とスティック入力をモニターしたり、テレメトリーを監視したりできます。(利用可能な場合のみ)"
+" メニューの詳細は項目 :ref:`transmitter-menu` にあります。"
 
 #: ../../source/ch_navigating.rst:62
 msgid ""
@@ -153,5 +154,6 @@ msgid ""
 "menu selection. Details of the menu are located in section :ref:`model-"
 "menu`."
 msgstr ""
-"モデルメニューは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
+"Model "
+"menuは、Deviationにて操作可能な機体の種類を設定できるエリアです。すべての機体モデルデータはこのメニュー選択内で管理され保存されます。メニューの詳細は項目"
 " :ref:`model-menu` にあります。"
