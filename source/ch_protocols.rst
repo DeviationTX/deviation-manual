@@ -21,7 +21,7 @@ The DEVO protocol is used to maintain compatibility with the Walkera DEVO receiv
 .. image:: images/|target|/ch_protocols/devo.png
    :align: center
 
-The DEVO protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DEVO is shown.
+The DEVO protocol also supports enabling/disabling the telemetry capability.  This option is accessed by pressing the Protocol spin-box when DEVO is shown. The options are Std (standard format), X350 (Walkera QR-X350 format), and Off.
 
 The following fields are available in Devo Telemetry.  Note that not all models/receivers report all fields, and that some fields require extra modules to enable.
 
