@@ -941,11 +941,9 @@ Protocol: PXX
 --------------
 The PXX protocol is an Frsky serial interface to their transmitter modules. Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but protocol is available on the serial port of other transmitters.
 
-Up to 16 channels are supported. Supports receiver telemetry (RSSI, VOLT1) on all transmitters. Telemetry (S.Port) is supported in the Frsky format. Range check operation is supported. Module power level settings correspond to top four deviation power settings.
+Up to 16 channels are supported. Telemetry (S.Port) is supported in the Frsky format for most transmitters. Due to memory constraints telemetry is not available in modular builds. Range check operation is supported. Module power setting is displayed as FCC/EU (e.g. 100/25mW).
 
 Fixed ID is supported to link the transmitter with specific receivers. The Fixed ID corresponds to the receiver number in OpenTX to make sharing easier. Values 0 to 63 are valid. Fixed IDs above 63 are truncated to the valid range.
-
-Due to memory constraints PXX is available only in non-modular builds.
 
 The following protocol options are available.
 
