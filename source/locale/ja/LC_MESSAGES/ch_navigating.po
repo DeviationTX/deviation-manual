@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-22 02:21+0000\n"
+"POT-Creation-Date: 2019-01-23 19:19+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -97,7 +97,7 @@ msgstr "**Icons**: アイコンは情報等を提供するか、(ボタンを押
 
 #: ../../source/ch_navigating.rst:40
 msgid "The main menu is accessed by pressing ‘ENT’ on the main menu."
-msgstr "メインメニューにアクセスするには、メインメニューにある「ENT」を押します。"
+msgstr "Main menuにアクセスするには、Main menuにある「ENT」を押します。"
 
 #: ../../source/ch_navigating.rst:47
 msgid "Navigating with the physical buttons"
@@ -120,7 +120,7 @@ msgstr ""
 #: ../../source/ch_navigating.rst:52
 msgid ""
 "For buttons and rounded-spin-boxes, pressing ‘ENT’ will press the button,"
-msgstr "ボタンや円型スピンボックスの場合「ENT」を押すとボタンが押されます。"
+msgstr "ボタンやスピンボックスの場合「ENT」を押すとボタンが適用されます。"
 
 #: ../../source/ch_navigating.rst:53
 msgid ""

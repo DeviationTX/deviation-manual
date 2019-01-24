@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-22 02:21+0000\n"
+"POT-Creation-Date: 2019-01-23 19:19+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -85,7 +85,7 @@ msgid ""
 "is the number of your Walkera Devo™ transmitter. x.y.z identifies the "
 "deviation version number."
 msgstr ""
-"最初に、インストールを開始する前にDevo送信機がフル充電されていることを確認してください。 　http://deviationtx.com"
+"最初に、インストールを開始する前にDevo送信機がフル充電されていることを確認してください。 http://deviationtx.com"
 "/downloads-new/category/1-deviation-releases から variation-devoXX-x.y.z.zip "
 "ファームウェアをダウンロードします。ここでのXXはWalkera Devo送信機の番号です。x.y.zはDeviationバージョン番号を表します。"
 
@@ -192,7 +192,7 @@ msgid ""
 "enter programming mode. On the Devo12, this is done by holding the trainer "
 "switch instead."
 msgstr ""
-"以前にダウンロードしたファームウェアファイルを解凍します。送信機をUSB経由でPCに接続し「EXT」を押しながら送信機を電源ONし、プログラミングモードに入ります。Devo12では代わりにトレーナースイッチを押し続けます。"
+"事前にダウンロードしたファームウェアファイルを解凍します。送信機をUSB経由でPCに接続し「EXT」を押しながら送信機を電源ONし、プログラミングモードに入ります。Devo12では代わりにトレーナースイッチを押し続けます。"
 
 #: ../../source/ch_install.rst:92
 msgid ""
@@ -523,8 +523,9 @@ msgid ""
 " developers can get feedback, even if it's only a note that things worked "
 "fine."
 msgstr ""
-"テストビルドをインストールしたら、適切なスレッドに追加投稿して開発者に**状況を知らせて**ください！それが、彼らがテストビルド版を提供した理由なのです"
-" - それが「事象として上手くいった」という単純な書き込みであったとしても、開発者としてはフィードバックを得ることができるのです。"
+"テストビルドをインストールしたら、適切なスレッドに追加投稿して開発者に **状況を知らせて** "
+"ください！それが、彼らがテストビルド版を提供した理由なのです - "
+"それが「事象として上手くいった」という単純な書き込みであったとしても、開発者としてはフィードバックを得ることができるのです。"
 
 #: ../../source/ch_install.rst:254
 msgid "USB & File-system"
@@ -551,7 +552,7 @@ msgstr "\\\\tx.ini"
 msgid ""
 "Transmitter configuration. Includes trim settings, calibration data, and the"
 " last-used model number"
-msgstr "送信機の設定時、トリム設定、キャリブレーションデータ、および最後に使用された機体モデル番号を含みます"
+msgstr "送信機の設定時、トリム設定、キャリブレーションデータ、および最後に使用された機体モデル番号が含まれます。"
 
 #: ../../source/ch_install.rst:264
 msgid "\\\\hardware.ini"
@@ -561,7 +562,7 @@ msgstr "\\\\hardware.ini"
 msgid ""
 "Transmitter hardware setup, describing supported hardware modifications. "
 "number"
-msgstr "送信機のハードウェア設定時、サポートされるハードウェアの変更についての番号と説明文"
+msgstr "送信機のハードウェア設定時、サポートされるハードウェアの変更についての番号と説明文が含まれます。"
 
 #: ../../source/ch_install.rst:266
 msgid "\\\\errors.txt"
@@ -571,7 +572,7 @@ msgstr "\\\\errors.txt"
 msgid ""
 "If the firmware crashes or reboots, debug information will be stored in this"
 " file"
-msgstr "ファームウェアがクラッシュまたは再起動した場合、デバッグ情報はこのファイルに保存されます"
+msgstr "ファームウェアがクラッシュまたは再起動した場合、デバッグ情報はこのファイルに保存されます。"
 
 #: ../../source/ch_install.rst:267
 msgid "\\\\datalog.bin"
@@ -595,7 +596,7 @@ msgstr "\\\\media\\\\sound.ini"
 
 #: ../../source/ch_install.rst:269
 msgid "Contains notes to play for various alarms"
-msgstr "様々なアラームを鳴らすためのコメントが含まれます"
+msgstr "様々なアラームを鳴らすためのコメントが含まれます。"
 
 #: ../../source/ch_install.rst:270
 msgid "\\\\media\\\\*.bmp"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-22 02:21+0000\n"
+"POT-Creation-Date: 2019-01-23 19:19+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -27,7 +27,7 @@ msgstr "拡張トピックス"
 
 #: ../../source/ch_advanced.rst:9
 msgid "Setting up a Buddy-Box"
-msgstr "バディボックス設定"
+msgstr "トレーナー機能の設定"
 
 #: ../../source/ch_advanced.rst:10
 msgid ""
@@ -41,7 +41,7 @@ msgid ""
 "instructor’s transmitter and these inputs replace the instructor’s inputs."
 msgstr ""
 "Deviationはインストラクター (マスター) または受講者 (スレーブ) "
-"送信機のいずれかのバディボックス設定で動作するために使用します。このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に"
+"送信機のいずれかのトレーナー機能で動作するために使用します。このモードでは、インストラクター側と受講者側はそれぞれの送信機をDSCポート経由でトレーナーコードと接続します。インストラクター側の送信機は実際に機体モデルと通信しますが、インストラクターはスイッチを使用して受講者が機体モデルを制御できるようにすることができます。スイッチが有効になると、受講者側の送信機はトレーナーコードを介してインストラクター側の送信機に"
 " (スティック) 入力情報を送信し、これらの入力信号はインストラクターの入力信号を置き換えます。"
 
 #: ../../source/ch_advanced.rst:12
