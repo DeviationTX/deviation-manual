@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# TheRealMoeder, 2017
+# TheRealMoeder, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-22 00:09+0000\n"
+"POT-Creation-Date: 2019-01-24 02:25+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
-"Last-Translator: TheRealMoeder, 2017\n"
+"Last-Translator: TheRealMoeder, 2019\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -183,38 +183,41 @@ msgid ""
 "**Transmitter Power**: Specify the radio output power (when applicable).  "
 "The valid power settings depend on the radio used by the selected protocol."
 msgstr ""
+"**Sendeleistung**: Wähle die gewünschte Ausgangsleistung des Senders (wenn "
+"verfügbar). Die verfügbaren Leistungsstufen hängen vom Sendemodul ab, "
+"welches das Protokoll verwendet."
 
 #: ../../source/ch_model.rst:138
 msgid "CYRF6936, CC2500, MULTIMOD"
-msgstr ""
+msgstr "CYRF6936, CC2500, MULTIMOD"
 
 #: ../../source/ch_model.rst:138
 msgid "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW"
-msgstr ""
+msgstr "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW, 150mW"
 
 #: ../../source/ch_model.rst:140
 msgid "A7105"
-msgstr ""
+msgstr "A7105"
 
 #: ../../source/ch_model.rst:140
 msgid "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW"
-msgstr ""
+msgstr "100µW, 300µW, 1mW, 3mW, 10mW, 30mW, 100mW"
 
 #: ../../source/ch_model.rst:142
 msgid "NRF24L01"
-msgstr ""
+msgstr "NRF24L01"
 
 #: ../../source/ch_model.rst:142
 msgid "1mW, 6mW, 25mW, 100mW"
-msgstr ""
+msgstr "1mW, 6mW, 25mW, 100mW"
 
 #: ../../source/ch_model.rst:144
 msgid "R9M (PXX protocol)"
-msgstr ""
+msgstr "R9M (PXX protocol)"
 
 #: ../../source/ch_model.rst:144
 msgid "10/25mW, 100/25mW, 500/500, Auto/200 (FCC/EU)"
-msgstr ""
+msgstr "10/25mW, 100/25mW, 500/500, Auto/200 (FCC/EU)"
 
 #: ../../source/ch_model.rst:147
 msgid ""
@@ -222,6 +225,9 @@ msgid ""
 "maximum for the radio used by the new protocol. Best to choose protocol "
 "first, then set Tx power."
 msgstr ""
+"Wenn das Protokoll eines Modells geändert wird, wird automatisch die höchste"
+" verfügbare Sendeleistung gewählt. Aus diesem Grund erst das Protokoll und "
+"dann die Sendeleistung wählen."
 
 #: ../../source/ch_model.rst:152
 msgid ""

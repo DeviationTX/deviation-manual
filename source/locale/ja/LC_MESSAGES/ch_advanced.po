@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 19:19+0000\n"
+"POT-Creation-Date: 2019-01-24 02:25+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -116,8 +116,8 @@ msgid ""
 "the student’s transmitter to define max servo throw.  If this value is "
 "incorrect, the servos will not achieve full range (or will travel too much)"
 msgstr ""
-"**Delta PW**: 最大サーボスロー値を定義するために、受講者の送信機から送信されるパルス幅 (中央からの値) "
-"を定義します。この値が間違っていると、サーボがフルレンジ設定 (または最適なトラベル値) となりません。"
+"**Delta PW**: 最大サーボ可動域を定義するために、受講者の送信機から送信されるパルス幅 (中央からの値) "
+"を定義します。この値が間違っていると、サーボが最大可動域の設定 (または最適なトラベル値) になりません。"
 
 #: ../../source/ch_advanced.rst:34
 msgid ""
@@ -182,7 +182,7 @@ msgstr "**Center PW**: センタリングされた入力のパルス幅を定義
 msgid ""
 "**Delta PW**: Defines the difference in pulse-width (from the center value) "
 "to reach min/max servo throw"
-msgstr "**Delta PW**: サーボスローの最小値 / 最大値に到達するパルス幅の差異 (中心値からの差) を定義します。"
+msgstr "**Delta PW**: サーボ可動域の最小値 / 最大値に到達するパルス幅の差異 (中心値からの差) を定義します。"
 
 #: ../../source/ch_advanced.rst:58
 msgid ""
