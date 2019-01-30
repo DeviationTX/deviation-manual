@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 19:19+0000\n"
+"POT-Creation-Date: 2019-01-27 02:25+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: TheRealMoeder, 2019\n"
 "Language-Team: German (https://www.transifex.com/deviationtx/teams/73329/de/)\n"
@@ -94,6 +94,10 @@ msgid ""
 "shown. The options are Std (standard format), X350 (Walkera QR-X350 format),"
 " and Off."
 msgstr ""
+"Das DEVO Protokoll unterstützt ebenfalls Aktivieren und Deaktivieren der "
+"Telemetriefähigkeit. Diese Option ist zugänglich durch Drücken des Protokoll"
+" Drehfelds wenn DEVO angezeigt wird. Die Optionen sind Std (Standard "
+"Format), X350 (Walkera QR-X350 Format), und Off."
 
 #: ../../source/ch_protocols.rst:26
 msgid ""
@@ -681,10 +685,13 @@ msgid ""
 "Channel 6 Enables ‘flip’ mode or altitude hold or stabilized mode, depending"
 " on format."
 msgstr ""
+"Kanal 6 aktiviert je nach Format den ‘flip’ Modus, ‘altitude hold’ oder den "
+"‘stabilized mode’."
 
 #: ../../source/ch_protocols.rst:203
 msgid "Channel 7 Turns video on/off (H102) or takes a snapshot"
 msgstr ""
+"Kanal 7 schaltet Video ein/aus (H102) oder macht eine Einzelbildaufnahme."
 
 #: ../../source/ch_protocols.rst:204
 msgid "Channel 8 Takes a snapshot"
@@ -700,7 +707,7 @@ msgstr "Kanal 10 aktiviert die Return-to-home-Funktion"
 
 #: ../../source/ch_protocols.rst:207
 msgid "Channel 11 Enables GPS hold"
-msgstr ""
+msgstr "Kanal 11 aktiviert GPS hold."
 
 #: ../../source/ch_protocols.rst:208
 msgid "Channel 12 Sets Sport 1, Sport 2 or Acro mode (H123D)"
