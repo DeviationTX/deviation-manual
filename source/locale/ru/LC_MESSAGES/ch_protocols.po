@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-25 02:24+0000\n"
+"POT-Creation-Date: 2019-01-30 02:28+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: vladislavy, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/deviationtx/teams/73329/ru/)\n"
@@ -935,6 +935,11 @@ msgid ""
 "sensors as well as GPS telemetry (except on memory-limited 7e and f-series) "
 "as described in the next section."
 msgstr ""
+"Этот протокол поддерживает до 16 каналов. Для привязки передатчика к "
+"конкретному приемнику используется Fixed ID. Для всех передатчиков "
+"поддерживается телеметрия приемника (RSSI, VOLT1). Поддерживаются датчики "
+"телеметрии S.Port и hub, а также GPS телеметрия (за исключением devo 7e и "
+"F-серии), как описано в следующем разделе."
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
 #: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:940
@@ -2475,7 +2480,7 @@ msgstr "RFMODE"
 
 #: ../../source/ch_protocols.rst:933
 msgid "Protocol: PXX"
-msgstr ""
+msgstr "Протокол: PXX"
 
 #: ../../source/ch_protocols.rst:934
 msgid ""
@@ -2483,6 +2488,10 @@ msgid ""
 "Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but"
 " protocol is available on the serial port of other transmitters."
 msgstr ""
+"Протокол PXX это последовательный интерфейс Frsky к передающим модулям. "
+"Главным образом используется для модулей R9M и XJT в отсеке JR передатчика "
+"T8SG Plus, но протокол также доступен на последовательном порту других "
+"передатчиков."
 
 #: ../../source/ch_protocols.rst:936
 msgid ""
