@@ -880,7 +880,7 @@ The first four channels are Aileron, Elevator, Throttle and Rudder.
 
 * Flips are controlled by Channel 5
 * Headless mode is controlled by Channel 6
-* RTH mode (One Key Return) is controlled ny Channel 7
+* RTH mode (One Key Return) is controlled by Channel 7
 * Emergency stop is controlled by Channel 8
 
 Protocol: PPM
