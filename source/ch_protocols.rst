@@ -864,9 +864,13 @@ The LOLI protocol is used to control popular DIY nRF24L01 receivers.  |nrf24l01-
 
 The LOLI protocol supports 8 channels. The receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
 
-Receiver output modes are configurable via protocol options
+Receiver output modes are configurable via protocol options.
 
 The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Failsafe settings are supported.
+
+Telemetry is supported.
 
 Protocol: \*E016H
 ----------------
