@@ -856,6 +856,33 @@ Only throttle and aileron channels are used by the model.
 
 * Lights are controlled by Channel 5
 
+Protocol: \*LOLI
+----------------
+The LOLI protocol is used to control popular DIY nRF24L01 receivers.  |nrf24l01-note|
+
+|mod-install-link|
+
+The LOLI protocol supports 8 channels. The receiver must be bound manually one-time using the ‘Bind’ button, after which it should stay bound.
+
+Receiver output modes are configurable via protocol options
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+Protocol: \*E016H
+----------------
+The E016H protocol is used to control the Eachine E016H quadcopter.  |nrf24l01-note|
+
+|mod-install-link|
+
+The E016H protocol supports 8 channels and only supports auto binding.
+
+The first four channels are Aileron, Elevator, Throttle and Rudder.
+
+* Flips are controlled by Channel 5
+* Headless mode is controlled by Channel 6
+* RTH mode (One Key Return) is controlled ny Channel 7
+* Emergency stop is controlled by Channel 8
+
 Protocol: PPM
 ---------------
 The PPM protocol is used to output PPM on the trainer port.  It will disable all radio transmission.  PPM is useful for connecting to simulators, or other radio-modules that plug into the trainer port.  The Fixed ID has no effect, and there is no binding associated with this protocol.
