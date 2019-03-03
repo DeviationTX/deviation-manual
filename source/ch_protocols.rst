@@ -903,6 +903,8 @@ The PPM protocol is used to output PPM on the trainer port.  It will disable all
 
    * **Frame Size**: Defines the total time for all channels to be transferred. 
 
+   * **Polarity**: Defines the polarity of the signal, Normal is active low.
+
 Deviation does not auto-detect when a trainer cord is plugged into the transmitter.  To use Deviation with a simulator (such as Phoenix), create a new model, name it appropriately, and select PPM as the protocol.  Use the Re-Init button or power-cycle to enable PPM.
 
 .. _protocol-ppm:
