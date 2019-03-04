@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 19:19+0000\n"
+"POT-Creation-Date: 2019-03-03 13:41+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: JL Morlac <le_morlacumeen@hotmail.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/deviationtx/teams/73329/fr/)\n"
@@ -59,7 +59,8 @@ msgstr ""
 #: ../../source/ch_protocols.rst:712 ../../source/ch_protocols.rst:742
 #: ../../source/ch_protocols.rst:790 ../../source/ch_protocols.rst:805
 #: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
-#: ../../source/ch_protocols.rst:846
+#: ../../source/ch_protocols.rst:846 ../../source/ch_protocols.rst:859
+#: ../../source/ch_protocols.rst:875
 msgid "|mod-install-link|"
 msgstr "|mod-install-link|"
 
@@ -624,7 +625,7 @@ msgstr ""
 "la valeur télémétrique LQI (qualité d'appairage) peut être utilisée comme "
 "guide pour cet ajustement fin de fréquence."
 
-#: ../../source/ch_protocols.rst:182
+#: ../../source/ch_protocols.rst:182 ../../source/ch_protocols.rst:869
 msgid "Telemetry is supported."
 msgstr "La télémétrie est prise en charge."
 
@@ -964,7 +965,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
-#: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:940
+#: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:973
 msgid "The following protocol options are available."
 msgstr "Les options suivantes sont disponibles pour ce protocole."
 
@@ -1118,22 +1119,22 @@ msgstr ""
 " la conserver en cas d'extinction de l'émetteur. La valeur est assez "
 "constante pendant une journée de vol en atmosphère stable."
 
-#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:904
+#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:937
 msgid "*Telemetry test page*"
 msgstr "*Page de test de la télémétrie*"
 
-#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:910
+#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:943
 msgid "The CELL voltages are labeled C1-C5."
 msgstr "Les voltages des éléments de batteries sont désignées C1-C5."
 
-#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:913
+#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:946
 msgid ""
 "The following tables show the layout of the telemetry test page display."
 msgstr ""
 "Les tableaux suivant montrent la disposition de l'affichage de la page de "
 "test de la télémétrie."
 
-#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:918
+#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:951
 msgid "Devo10"
 msgstr "Devo10"
 
@@ -1142,7 +1143,7 @@ msgid "Misc"
 msgstr "Divers"
 
 #: ../../source/ch_protocols.rst:336 ../../source/ch_protocols.rst:354
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "Bat"
 msgstr "Bat"
 
@@ -1226,7 +1227,7 @@ msgstr "ELEM6"
 msgid "VARIO"
 msgstr "VARIO"
 
-#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:956
 msgid "CURRENT"
 msgstr "COURANT"
 
@@ -2045,7 +2046,8 @@ msgstr ""
 #: ../../source/ch_protocols.rst:693 ../../source/ch_protocols.rst:717
 #: ../../source/ch_protocols.rst:747 ../../source/ch_protocols.rst:795
 #: ../../source/ch_protocols.rst:810 ../../source/ch_protocols.rst:826
-#: ../../source/ch_protocols.rst:838
+#: ../../source/ch_protocols.rst:838 ../../source/ch_protocols.rst:865
+#: ../../source/ch_protocols.rst:879
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
 msgstr ""
 "Les quatre premiers canaux sont : Ailerons, profondeur, gaz et dérive."
@@ -2279,10 +2281,64 @@ msgid ""
 msgstr ""
 
 #: ../../source/ch_protocols.rst:856
+msgid "Protocol: \\*LOLI"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:857
+msgid ""
+"The LOLI protocol is used to control popular DIY nRF24L01 receivers.  "
+"|nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:861
+msgid ""
+"The LOLI protocol supports 8 channels. The receiver must be bound manually "
+"one-time using the ‘Bind’ button, after which it should stay bound."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:863
+msgid "Receiver output modes are configurable via protocol options."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:867
+msgid "Failsafe settings are supported."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:872
+msgid "Protocol: \\*E016H"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:873
+msgid ""
+"The E016H protocol is used to control the Eachine E016H quadcopter.  "
+"|nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:877
+msgid "The E016H protocol supports 8 channels and only supports auto binding."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:881
+msgid "Flips are controlled by Channel 5"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:882
+msgid "Headless mode is controlled by Channel 6"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:883
+msgid "RTH mode (One Key Return) is controlled by Channel 7"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:884
+msgid "Emergency stop is controlled by Channel 8"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:887
 msgid "Protocol: PPM"
 msgstr "Protocole : PPM"
 
-#: ../../source/ch_protocols.rst:857
+#: ../../source/ch_protocols.rst:888
 msgid ""
 "The PPM protocol is used to output PPM on the trainer port.  It will disable"
 " all radio transmission.  PPM is useful for connecting to simulators, or "
@@ -2294,11 +2350,11 @@ msgstr ""
 "simulateurs ou d'autres radios qui se branchent sur le port d'écolage. L' ID"
 " fixe est sans effet et il n'y a pas d'appairage avec ce protocole."
 
-#: ../../source/ch_protocols.rst:864
+#: ../../source/ch_protocols.rst:895
 msgid "Options configurable on the PPM page:"
 msgstr "Options configurables sur la pagePPM :"
 
-#: ../../source/ch_protocols.rst:867
+#: ../../source/ch_protocols.rst:898
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the transmitter "
 "transmits to represent to represent centered servo position.  If this number"
@@ -2308,7 +2364,7 @@ msgstr ""
 "envoie pour représenter la position du servo au neutre. Si ce nombre ne "
 "correspond pas à l'émetteur maître, les servos ne seront pas centrés."
 
-#: ../../source/ch_protocols.rst:869
+#: ../../source/ch_protocols.rst:900
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the transmitter to define max servo throw.  If this value is incorrect, the "
@@ -2319,17 +2375,22 @@ msgstr ""
 "est incorrecte, les servos n'auront pas leur déplacement maximum (ou auront "
 "un déplacement trop important)."
 
-#: ../../source/ch_protocols.rst:871
+#: ../../source/ch_protocols.rst:902
 msgid "**Notch PW**: Defines the delay between the channels."
 msgstr "**Imp Fin** : définit le délai entre les canaux."
 
-#: ../../source/ch_protocols.rst:873
+#: ../../source/ch_protocols.rst:904
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr ""
 "**Larg Signal** : Définit la durée totale pour transmettre tous les canaux."
 
-#: ../../source/ch_protocols.rst:875
+#: ../../source/ch_protocols.rst:906
+msgid ""
+"**Polarity**: Defines the polarity of the signal, Normal is active low."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:908
 msgid ""
 "Deviation does not auto-detect when a trainer cord is plugged into the "
 "transmitter.  To use Deviation with a simulator (such as Phoenix), create a "
@@ -2342,11 +2403,11 @@ msgstr ""
 "protocole PPM. Utiliser le bouton appairer ou redémarrer l'émetteur pour "
 "activer PPM."
 
-#: ../../source/ch_protocols.rst:880
+#: ../../source/ch_protocols.rst:913
 msgid "Protocol: USBHID"
 msgstr "Protocole: USBHID"
 
-#: ../../source/ch_protocols.rst:881
+#: ../../source/ch_protocols.rst:914
 msgid ""
 "The USBHID protocol will convert he transmitter into a USB joystick.  "
 "Connecting the transmitter to a PC via the USB cable will enable the "
@@ -2362,11 +2423,11 @@ msgstr ""
 "peut être nécessaire et et réalisée par le panneau ce contrôle de votre "
 "système d'exploitation."
 
-#: ../../source/ch_protocols.rst:884
+#: ../../source/ch_protocols.rst:917
 msgid "Protocol: SBUS"
 msgstr "Protocoel: SBUS"
 
-#: ../../source/ch_protocols.rst:885
+#: ../../source/ch_protocols.rst:918
 msgid ""
 "The SBUS protocol sends serial data on the transmitter's trainer port (tip "
 "connector).  The trainer port ring is ground. On the T8SG PLUS transmitter "
@@ -2383,11 +2444,11 @@ msgstr ""
 "SBUS. Un maximum de 16 canaux peut être pris en charge. Le débit des données"
 " est de 100kbps. Le format est 8 bits, parité paire et 2 bits de stop."
 
-#: ../../source/ch_protocols.rst:892
+#: ../../source/ch_protocols.rst:925
 msgid "Protocol: CRSF (Crossfire)"
 msgstr "Protocole: CRSF (Crossfire)"
 
-#: ../../source/ch_protocols.rst:893
+#: ../../source/ch_protocols.rst:926
 msgid ""
 "The CRSF protocol sends Crossfire protocol serial data on the transmitter's "
 "trainer port (tip connector).  The trainer port ring is ground. On the T8SG "
@@ -2404,7 +2465,7 @@ msgstr ""
 "pointe au 1er  anneau. Dans la baie de module T8SG, relier les broches "
 "supérieure et inférieure ensemble. Jusqu'à 16 canaux sont pris en charge."
 
-#: ../../source/ch_protocols.rst:899
+#: ../../source/ch_protocols.rst:932
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
@@ -2413,93 +2474,93 @@ msgstr ""
 "prises en charge. Utilisez un PC pour appairer le module Crossfire et le "
 "récepteur avant de l'utiliser avec Deviation."
 
-#: ../../source/ch_protocols.rst:902
+#: ../../source/ch_protocols.rst:935
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr ""
 "La Télémétrie n'est pas prise en charge par les émetteurs à mémoire limitée "
 "(7e, F4, F12)."
 
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "RX"
 msgstr "RX -Récepteur-"
 
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "TX"
 msgstr "TX -Emetteur-"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "RxRSSI"
 msgstr "RxRSSI"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "TxRSSI"
 msgstr "TxRSSI"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "VBATT"
 msgstr "VBATT"
 
-#: ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:956
 msgid "RSSI2"
 msgstr "RSSI2"
 
-#: ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:956
 msgid "TxPOWER"
 msgstr "TxPOWER"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "RxSNR"
 msgstr "RxSNR"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "TxSNR"
 msgstr "TxSNR"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "CAPACITY"
 msgstr "CAPACITE"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "RxQUAL"
 msgstr "RxQUAL"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "TxQUAL"
 msgstr "TxQUAL"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "FMODE"
 msgstr "FMODE"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "PITCH"
 msgstr "TANGAGE"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "ROLL"
 msgstr "ROULIS"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "YAW"
 msgstr "LACET"
 
-#: ../../source/ch_protocols.rst:927
+#: ../../source/ch_protocols.rst:960
 msgid "RFMODE"
 msgstr "RFMODE"
 
-#: ../../source/ch_protocols.rst:933
+#: ../../source/ch_protocols.rst:966
 msgid "Protocol: PXX"
 msgstr ""
 
-#: ../../source/ch_protocols.rst:934
+#: ../../source/ch_protocols.rst:967
 msgid ""
 "The PXX protocol is an Frsky serial interface to their transmitter modules. "
 "Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but"
 " protocol is available on the serial port of other transmitters."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:936
+#: ../../source/ch_protocols.rst:969
 msgid ""
 "Up to 16 channels are supported. Telemetry (S.Port) is supported in the "
 "Frsky format for most transmitters. Due to memory constraints telemetry is "
@@ -2507,7 +2568,7 @@ msgid ""
 "power setting is displayed as FCC/EU (e.g. 100/25mW)."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:938
+#: ../../source/ch_protocols.rst:971
 msgid ""
 "Fixed ID is supported to link the transmitter with specific receivers. The "
 "Fixed ID corresponds to the receiver number in OpenTX to make sharing "
@@ -2515,7 +2576,7 @@ msgid ""
 "valid range."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:942
+#: ../../source/ch_protocols.rst:975
 msgid ""
 "**Failsafe**: If the channel failsafe (in mixer channel config) is set this "
 "value is sent to the receiver every 9 seconds.  The receiver will use these "
@@ -2530,23 +2591,23 @@ msgid ""
 "receiver."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:945
+#: ../../source/ch_protocols.rst:978
 msgid ""
 "**Country**: Set the country to match the firmware in the receiver.  Options"
 " are US, JP, EU."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:947
+#: ../../source/ch_protocols.rst:980
 msgid ""
 "**Rx PWM out**: Choose whether PWM outputs of receiver are channels 1-8 or "
 "9-16."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:949
+#: ../../source/ch_protocols.rst:982
 msgid "**Rx Telem**: Turn receiver telemetry on or off."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:951
+#: ../../source/ch_protocols.rst:984
 msgid ""
 "For transmitters without JR module the PXX signal is available on the serial"
 " port output.  This is normally the trainer jack except for the Devo12.  Use"
@@ -2554,7 +2615,7 @@ msgid ""
 "Sleeve is ground."
 msgstr ""
 
-#: ../../source/ch_protocols.rst:953
+#: ../../source/ch_protocols.rst:986
 msgid ""
 "The T8SG V2 Plus requires a hardware modification to receive telemetry from "
 "a module in the JR bay.  The trainer port ring must be connected to the "

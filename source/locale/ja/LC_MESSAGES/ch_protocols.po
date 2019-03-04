@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-24 02:25+0000\n"
+"POT-Creation-Date: 2019-03-03 13:41+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -53,7 +53,8 @@ msgstr ""
 #: ../../source/ch_protocols.rst:712 ../../source/ch_protocols.rst:742
 #: ../../source/ch_protocols.rst:790 ../../source/ch_protocols.rst:805
 #: ../../source/ch_protocols.rst:822 ../../source/ch_protocols.rst:834
-#: ../../source/ch_protocols.rst:846
+#: ../../source/ch_protocols.rst:846 ../../source/ch_protocols.rst:859
+#: ../../source/ch_protocols.rst:875
 msgid "|mod-install-link|"
 msgstr "|mod-install-link|"
 
@@ -521,7 +522,7 @@ msgstr ""
 "**Freq-fine**: "
 "周波数オフセット調整。範囲-300〜300。A7105モジュール間の差異を調整します。デフォルトは0です。LQIテレメトリー値は、良好な周波数プロトコルオプションを調整するためのガイドとして使用します。"
 
-#: ../../source/ch_protocols.rst:182
+#: ../../source/ch_protocols.rst:182 ../../source/ch_protocols.rst:869
 msgid "Telemetry is supported."
 msgstr "テレメトリーをサポートします。"
 
@@ -816,7 +817,7 @@ msgstr ""
 " をサポートします。"
 
 #: ../../source/ch_protocols.rst:289 ../../source/ch_protocols.rst:397
-#: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:940
+#: ../../source/ch_protocols.rst:410 ../../source/ch_protocols.rst:973
 msgid "The following protocol options are available."
 msgstr "以下のプロトコルオプションが利用可能です。"
 
@@ -941,20 +942,20 @@ msgstr ""
 " "
 "level」を次の受信テレメトリー値にリセットします。これは変動地上高度テレメトリー値をゼロにします。また、バッテリー放電アキュムレータ:蓄電池と最小セル電圧もリセットされます。地面レベルの値は機体モデルファイルに保存され、電源を入れ直しても設定が保存されます。この値は、安定した上空を1日飛行する間はほぼ一定です。"
 
-#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:904
+#: ../../source/ch_protocols.rst:320 ../../source/ch_protocols.rst:937
 msgid "*Telemetry test page*"
 msgstr "*Telemetry test page*"
 
-#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:910
+#: ../../source/ch_protocols.rst:326 ../../source/ch_protocols.rst:943
 msgid "The CELL voltages are labeled C1-C5."
 msgstr "電池電圧はC1-C5と表記されています。"
 
-#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:913
+#: ../../source/ch_protocols.rst:329 ../../source/ch_protocols.rst:946
 msgid ""
 "The following tables show the layout of the telemetry test page display."
 msgstr "次の表は、テレメトリーテストページ画面のレイアウトを示しています。"
 
-#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:918
+#: ../../source/ch_protocols.rst:334 ../../source/ch_protocols.rst:951
 msgid "Devo10"
 msgstr "Devo10"
 
@@ -963,7 +964,7 @@ msgid "Misc"
 msgstr "Misc"
 
 #: ../../source/ch_protocols.rst:336 ../../source/ch_protocols.rst:354
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "Bat"
 msgstr "Bat"
 
@@ -1047,7 +1048,7 @@ msgstr "CELL6"
 msgid "VARIO"
 msgstr "VARIO"
 
-#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:344 ../../source/ch_protocols.rst:956
 msgid "CURRENT"
 msgstr "CURRENT"
 
@@ -1767,7 +1768,8 @@ msgstr "CG023プロトコルは9チャンネルをサポートし、自動バイ
 #: ../../source/ch_protocols.rst:693 ../../source/ch_protocols.rst:717
 #: ../../source/ch_protocols.rst:747 ../../source/ch_protocols.rst:795
 #: ../../source/ch_protocols.rst:810 ../../source/ch_protocols.rst:826
-#: ../../source/ch_protocols.rst:838
+#: ../../source/ch_protocols.rst:838 ../../source/ch_protocols.rst:865
+#: ../../source/ch_protocols.rst:879
 msgid "The first four channels are Aileron, Elevator, Throttle and Rudder."
 msgstr "最初の4チャンネルは、エルロン、エレベーター、スロットル、ラダーを表します。"
 
@@ -1994,10 +1996,64 @@ msgstr ""
 "最初の4チャンネルはエルロン、エレベーター、スロットル、ラダーを表します。この機体はスロットルチャネルとエルロンチャネルのみが使用されます。"
 
 #: ../../source/ch_protocols.rst:856
+msgid "Protocol: \\*LOLI"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:857
+msgid ""
+"The LOLI protocol is used to control popular DIY nRF24L01 receivers.  "
+"|nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:861
+msgid ""
+"The LOLI protocol supports 8 channels. The receiver must be bound manually "
+"one-time using the ‘Bind’ button, after which it should stay bound."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:863
+msgid "Receiver output modes are configurable via protocol options."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:867
+msgid "Failsafe settings are supported."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:872
+msgid "Protocol: \\*E016H"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:873
+msgid ""
+"The E016H protocol is used to control the Eachine E016H quadcopter.  "
+"|nrf24l01-note|"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:877
+msgid "The E016H protocol supports 8 channels and only supports auto binding."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:881
+msgid "Flips are controlled by Channel 5"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:882
+msgid "Headless mode is controlled by Channel 6"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:883
+msgid "RTH mode (One Key Return) is controlled by Channel 7"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:884
+msgid "Emergency stop is controlled by Channel 8"
+msgstr ""
+
+#: ../../source/ch_protocols.rst:887
 msgid "Protocol: PPM"
 msgstr "Protocol: PPM"
 
-#: ../../source/ch_protocols.rst:857
+#: ../../source/ch_protocols.rst:888
 msgid ""
 "The PPM protocol is used to output PPM on the trainer port.  It will disable"
 " all radio transmission.  PPM is useful for connecting to simulators, or "
@@ -2007,11 +2063,11 @@ msgstr ""
 "PPMプロトコルは、トレーナーポートでPPM出力するために使用されます。この時すべての無線通信が無効となります。PPMはシミュレータまたはトレーナーポートに接続する他の無線モジュール接続に使用されます。Fixed"
 " IDは効果がなく、このプロトコルに関連付けられているバインドも行われません。"
 
-#: ../../source/ch_protocols.rst:864
+#: ../../source/ch_protocols.rst:895
 msgid "Options configurable on the PPM page:"
 msgstr "「PPM」ページで設定可能なオプション:"
 
-#: ../../source/ch_protocols.rst:867
+#: ../../source/ch_protocols.rst:898
 msgid ""
 "**Center PW**: Defines the time (in µsec) of the pulse that the transmitter "
 "transmits to represent to represent centered servo position.  If this number"
@@ -2020,7 +2076,7 @@ msgstr ""
 "**Center PW**: "
 "送信機がセンターへサーボ位置を調整するために送信するパルス時間(μSec)を定義します。この数値がマスター送信機と一致しない場合、サーボは中央に配置されません。"
 
-#: ../../source/ch_protocols.rst:869
+#: ../../source/ch_protocols.rst:900
 msgid ""
 "**Delta PW**: Defines the width of the pulse (measured from center) sent by "
 "the transmitter to define max servo throw.  If this value is incorrect, the "
@@ -2029,16 +2085,21 @@ msgstr ""
 "**Delta PW**: 最大サーボ可動域を定義するために送信機から送信されるパルス幅 (中心からの値) "
 "を定義します。この値が間違っていると、サーボが最大可動域の設定 (または最適なトラベル値) になりません。"
 
-#: ../../source/ch_protocols.rst:871
+#: ../../source/ch_protocols.rst:902
 msgid "**Notch PW**: Defines the delay between the channels."
 msgstr "**Notch PW**: チャンネル間の遅延を定義します。"
 
-#: ../../source/ch_protocols.rst:873
+#: ../../source/ch_protocols.rst:904
 msgid ""
 "**Frame Size**: Defines the total time for all channels to be transferred."
 msgstr "**Frame Size**: 転送される全チャンネルの合計時間を定義します。"
 
-#: ../../source/ch_protocols.rst:875
+#: ../../source/ch_protocols.rst:906
+msgid ""
+"**Polarity**: Defines the polarity of the signal, Normal is active low."
+msgstr ""
+
+#: ../../source/ch_protocols.rst:908
 msgid ""
 "Deviation does not auto-detect when a trainer cord is plugged into the "
 "transmitter.  To use Deviation with a simulator (such as Phoenix), create a "
@@ -2048,11 +2109,11 @@ msgstr ""
 "トレーナーコードが送信機に接続されているときはDeviationは自動検出されません。(Phoenix等の)シミュレータでDeviationを使用するには、新しい機体モデルを作成し、それに適切な名称を作成し、プロトコルとしてPPMを選択します。PPMを有効にするには"
 "、Re-Initボタンまたは電源を入れ直します。"
 
-#: ../../source/ch_protocols.rst:880
+#: ../../source/ch_protocols.rst:913
 msgid "Protocol: USBHID"
 msgstr "Protocol: USBHID"
 
-#: ../../source/ch_protocols.rst:881
+#: ../../source/ch_protocols.rst:914
 msgid ""
 "The USBHID protocol will convert he transmitter into a USB joystick.  "
 "Connecting the transmitter to a PC via the USB cable will enable the "
@@ -2063,11 +2124,11 @@ msgid ""
 msgstr ""
 "USBHIDプロトコルは送信機をUSBジョイスティックに変換します。USBケーブルで送信機をPCに接続すると、送信機がコンピュータによってジョイスティックとして検出されることを可能にします。これは、送信機がジョイスティック入力をサポートし、任意のシミュレータでの利用を可能にするために、このプロトコルは使用されます。初期調整が必要になる場合があります。これはOS側のコントロールパネルアプリを使用して行います。"
 
-#: ../../source/ch_protocols.rst:884
+#: ../../source/ch_protocols.rst:917
 msgid "Protocol: SBUS"
 msgstr "Protocol: SBUS"
 
-#: ../../source/ch_protocols.rst:885
+#: ../../source/ch_protocols.rst:918
 msgid ""
 "The SBUS protocol sends serial data on the transmitter's trainer port (tip "
 "connector).  The trainer port ring is ground. On the T8SG PLUS transmitter "
@@ -2080,11 +2141,11 @@ msgstr ""
 "にシリアルデータを送信します。トレーナーポートリングはそれにより接続されます。T8SG "
 "PLUS送信機では、シリアルデータはJRモジュールベイの一番上のピンにも表示されます。シリアルデータは反転されないため、SBUS機器によってはアダプタが必要になる場合があります。最大16チャンネルがサポートされます。データレートは100kbpsです。フォーマットは8データビット、偶数パリティ、2ストップビットです。"
 
-#: ../../source/ch_protocols.rst:892
+#: ../../source/ch_protocols.rst:925
 msgid "Protocol: CRSF (Crossfire)"
 msgstr "Protocol: CRSF (Crossfire)"
 
-#: ../../source/ch_protocols.rst:893
+#: ../../source/ch_protocols.rst:926
 msgid ""
 "The CRSF protocol sends Crossfire protocol serial data on the transmitter's "
 "trainer port (tip connector).  The trainer port ring is ground. On the T8SG "
@@ -2097,91 +2158,91 @@ msgstr ""
 "トレーナーポートリングはそれにより接続されます。T8SG "
 "PLUS送信機では、シリアルデータはJRモジュールベイの一番上のピンにも表示されます。テレメトリーを有効にするには、シリアル入力をシリアル出力に接続する必要があります。トレーナーポートの場合はring1ポート先端へ、T8SGモジュールベイでは、上部ピンと下部ピンを互いに接続します。最大16チャンネルがサポートされます。"
 
-#: ../../source/ch_protocols.rst:899
+#: ../../source/ch_protocols.rst:932
 msgid ""
 "The CRSF bind and configuration operations are not yet supported. Use a PC "
 "to bind the Crossfire module and receiver before using with Deviation."
 msgstr ""
 "CRSFバインドおよび設定操作等はまだサポートされていません。Deviationを使用する前に、PCを使用してCrossfireモジュールと受信機をバインドしてください。"
 
-#: ../../source/ch_protocols.rst:902
+#: ../../source/ch_protocols.rst:935
 msgid ""
 "Telemetry is not available on limited memory transmitters (7e, F4, F12)."
 msgstr "テレメトリー機能は、特定の送信機 (7e、F4、F12) では利用できません。"
 
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "RX"
 msgstr "RX"
 
-#: ../../source/ch_protocols.rst:920
+#: ../../source/ch_protocols.rst:953
 msgid "TX"
 msgstr "TX"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "RxRSSI"
 msgstr "RxRSSI"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "TxRSSI"
 msgstr "TxRSSI"
 
-#: ../../source/ch_protocols.rst:922
+#: ../../source/ch_protocols.rst:955
 msgid "VBATT"
 msgstr "VBATT"
 
-#: ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:956
 msgid "RSSI2"
 msgstr "RSSI2"
 
-#: ../../source/ch_protocols.rst:923
+#: ../../source/ch_protocols.rst:956
 msgid "TxPOWER"
 msgstr "TxPOWER"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "RxSNR"
 msgstr "RxSNR"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "TxSNR"
 msgstr "TxSNR"
 
-#: ../../source/ch_protocols.rst:924
+#: ../../source/ch_protocols.rst:957
 msgid "CAPACITY"
 msgstr "CAPACITY"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "RxQUAL"
 msgstr "RxQUAL"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "TxQUAL"
 msgstr "TxQUAL"
 
-#: ../../source/ch_protocols.rst:925
+#: ../../source/ch_protocols.rst:958
 msgid "FMODE"
 msgstr "FMODE"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "PITCH"
 msgstr "PITCH"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "ROLL"
 msgstr "ROLL"
 
-#: ../../source/ch_protocols.rst:926
+#: ../../source/ch_protocols.rst:959
 msgid "YAW"
 msgstr "YAW"
 
-#: ../../source/ch_protocols.rst:927
+#: ../../source/ch_protocols.rst:960
 msgid "RFMODE"
 msgstr "RFMODE"
 
-#: ../../source/ch_protocols.rst:933
+#: ../../source/ch_protocols.rst:966
 msgid "Protocol: PXX"
 msgstr "Protocol: PXX"
 
-#: ../../source/ch_protocols.rst:934
+#: ../../source/ch_protocols.rst:967
 msgid ""
 "The PXX protocol is an Frsky serial interface to their transmitter modules. "
 "Primarily useful for R9M and XJT modules in the JR bay of the T8SG Plus, but"
@@ -2190,7 +2251,7 @@ msgstr ""
 "PXXプロトコルは、それら送信機モジュールのFrskyシリアルインタフェースです。T8SG "
 "PlusのJRベイのR9MおよびXJTモジュールに主に利用されますが、プロトコルは他の送信機のシリアルポートで利用可能です。"
 
-#: ../../source/ch_protocols.rst:936
+#: ../../source/ch_protocols.rst:969
 msgid ""
 "Up to 16 channels are supported. Telemetry (S.Port) is supported in the "
 "Frsky format for most transmitters. Due to memory constraints telemetry is "
@@ -2201,7 +2262,7 @@ msgstr ""
 "は、ほとんどの送信機でFrskyフォーマットとしてサポートされます。メモリ制約により、テレメトリー機能はモジュールビルド版では利用できません。通信レンジチェック機能がサポートされています。モジュールの電力設定はFCC"
 " / EU (例: 100 / 25mW) として表示されます。"
 
-#: ../../source/ch_protocols.rst:938
+#: ../../source/ch_protocols.rst:971
 msgid ""
 "Fixed ID is supported to link the transmitter with specific receivers. The "
 "Fixed ID corresponds to the receiver number in OpenTX to make sharing "
@@ -2210,7 +2271,7 @@ msgid ""
 msgstr ""
 "送信機を特定の受信機にリンクするために固定IDがサポートされています。共有を容易にするために、固定IDはOpenTXの受信者番号に対応しています。0から63までの値が有効です。63を超える固定IDは有効範囲より切り捨てられます。"
 
-#: ../../source/ch_protocols.rst:942
+#: ../../source/ch_protocols.rst:975
 msgid ""
 "**Failsafe**: If the channel failsafe (in mixer channel config) is set this "
 "value is sent to the receiver every 9 seconds.  The receiver will use these "
@@ -2227,23 +2288,23 @@ msgstr ""
 "**failsafe**:  チャンネルのフェイルセーフ (ミキサーチャンネル設定画面内) "
 "が設定されている場合、この値は9秒ごとに受信機に送信されます。プロトコルオプションがRXに設定されていない限り、受信機はフェイルセーフモードでこの値を使用します。フェイルセーフがオフに設定されているチャンネルの場合、デフォルトのフェイルセーフプロトコルオプション「Hold」は、受信機がフェイルセーフモードに入ったときに、最後に受信したチャンネル値を保持するように受信機に命令します。「NoPulse」設定は受信機のPPM出力に信号を送信させません。(X8RでのテストはSBUS値が最小になったことを示しましたが、SBUS動作はプロトコルによって規定されていません。）「RX」設定はDeviationがフェイルセーフ設定を送信するのを防ぎますので、受信機に保存されているどんなフェイルセーフ値も使用します。"
 
-#: ../../source/ch_protocols.rst:945
+#: ../../source/ch_protocols.rst:978
 msgid ""
 "**Country**: Set the country to match the firmware in the receiver.  Options"
 " are US, JP, EU."
 msgstr "**Country**: 受信機のファームウェアに合うようにエリアを設定してください。オプションはUS、JP、EUです。"
 
-#: ../../source/ch_protocols.rst:947
+#: ../../source/ch_protocols.rst:980
 msgid ""
 "**Rx PWM out**: Choose whether PWM outputs of receiver are channels 1-8 or "
 "9-16."
 msgstr "**Rx PWM out**: 受信機のPWM出力がチャンネル1-8、または9-16を選択します。"
 
-#: ../../source/ch_protocols.rst:949
+#: ../../source/ch_protocols.rst:982
 msgid "**Rx Telem**: Turn receiver telemetry on or off."
 msgstr "**Rx Telem**: 受信機のテレメトリーをON、またはOFFにします。"
 
-#: ../../source/ch_protocols.rst:951
+#: ../../source/ch_protocols.rst:984
 msgid ""
 "For transmitters without JR module the PXX signal is available on the serial"
 " port output.  This is normally the trainer jack except for the Devo12.  Use"
@@ -2252,7 +2313,7 @@ msgid ""
 msgstr ""
 "JRモジュールなしの送信機の場合、PXX信号はシリアルポート出力で利用します。通常はDevo12以外に関してはトレーナー用ジャックとなります。ステレオプラグを使用してください。TipがPXX出力になり、RingがS.Port入力になります。スリーブ部分はグラウンド:アースです。"
 
-#: ../../source/ch_protocols.rst:953
+#: ../../source/ch_protocols.rst:986
 msgid ""
 "The T8SG V2 Plus requires a hardware modification to receive telemetry from "
 "a module in the JR bay.  The trainer port ring must be connected to the "
