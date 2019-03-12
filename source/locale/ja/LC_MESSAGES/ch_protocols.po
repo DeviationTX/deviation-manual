@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 13:41+0000\n"
+"POT-Creation-Date: 2019-03-04 02:49+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -1997,57 +1997,57 @@ msgstr ""
 
 #: ../../source/ch_protocols.rst:856
 msgid "Protocol: \\*LOLI"
-msgstr ""
+msgstr "Protocol: \\*LOLI"
 
 #: ../../source/ch_protocols.rst:857
 msgid ""
 "The LOLI protocol is used to control popular DIY nRF24L01 receivers.  "
 "|nrf24l01-note|"
-msgstr ""
+msgstr "LOLプロトコルは一般的なDIY nRF24L01受信機を制御するために使用されます。 |nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:861
 msgid ""
 "The LOLI protocol supports 8 channels. The receiver must be bound manually "
 "one-time using the ‘Bind’ button, after which it should stay bound."
-msgstr ""
+msgstr "LOLIプロトコルは8チャンネルをサポートします。受信機は「Bind」ボタンを使用して1回手動でバインドする必要があります。"
 
 #: ../../source/ch_protocols.rst:863
 msgid "Receiver output modes are configurable via protocol options."
-msgstr ""
+msgstr "受信機の出力モードはプロトコルオプションで設定可能です。"
 
 #: ../../source/ch_protocols.rst:867
 msgid "Failsafe settings are supported."
-msgstr ""
+msgstr "フェイルセーフ設定がサポートされています。"
 
 #: ../../source/ch_protocols.rst:872
 msgid "Protocol: \\*E016H"
-msgstr ""
+msgstr "Protocol: \\*E016H"
 
 #: ../../source/ch_protocols.rst:873
 msgid ""
 "The E016H protocol is used to control the Eachine E016H quadcopter.  "
 "|nrf24l01-note|"
-msgstr ""
+msgstr "E016HプロトコルはEachine E016Hクワッドコプターを制御するために使用されます。|nrf24l01-note|"
 
 #: ../../source/ch_protocols.rst:877
 msgid "The E016H protocol supports 8 channels and only supports auto binding."
-msgstr ""
+msgstr "E016Hプロトコルは8チャンネルをサポートし、自動バインドのみをサポートします。"
 
 #: ../../source/ch_protocols.rst:881
 msgid "Flips are controlled by Channel 5"
-msgstr ""
+msgstr "フリップはチャンネル5にて制御します"
 
 #: ../../source/ch_protocols.rst:882
 msgid "Headless mode is controlled by Channel 6"
-msgstr ""
+msgstr "ヘッドレスモードはチャンネル6にて制御します"
 
 #: ../../source/ch_protocols.rst:883
 msgid "RTH mode (One Key Return) is controlled by Channel 7"
-msgstr ""
+msgstr "RTHモード (ワンキーリターン) はチャンネル7にて制御します"
 
 #: ../../source/ch_protocols.rst:884
 msgid "Emergency stop is controlled by Channel 8"
-msgstr ""
+msgstr "緊急停止はチャンネル8にて制御します"
 
 #: ../../source/ch_protocols.rst:887
 msgid "Protocol: PPM"
@@ -2097,7 +2097,7 @@ msgstr "**Frame Size**: 転送される全チャンネルの合計時間を定�
 #: ../../source/ch_protocols.rst:906
 msgid ""
 "**Polarity**: Defines the polarity of the signal, Normal is active low."
-msgstr ""
+msgstr "**Polarity**: 信号の極性を定義します。標準は low が有効です。"
 
 #: ../../source/ch_protocols.rst:908
 msgid ""
