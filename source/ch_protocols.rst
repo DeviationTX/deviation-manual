@@ -545,6 +545,10 @@ The first four channels represent Aileron, Elevator, Throttle, and Rudder.  Addi
 * Channel 10 engages the return-to-home feature
 * Channel 11 enables Take Off/Landing
 * Channel 12 activates emergency stop
+* Channel 13 analog aux channel #1
+* Channel 14 analog aux channel #2
+
+**NOTE:  Channels 13 and 14 are only active when using** `NFE Silverware firmware <https://github.com/NotFastEnuf/NFE_Silverware/>`_ **(and some other Silverware forks). Two otherwise static bytes in the protocol overridden to add two 'analog' (non-binary) auxiliary channels. The "Analog Aux" Bayang protocol option must be enabled on the TX and the Silverware firmware must have the Analog Aux feature enabled. Mismatches betwen TX and RX settings will prevent binding.**
 
 
 Protocol: \*FY326
