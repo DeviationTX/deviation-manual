@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Deviation 5.1-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 15:44+0000\n"
+"POT-Creation-Date: 2019-03-21 02:53+0000\n"
 "PO-Revision-Date: 2017-03-29 22:23+0000\n"
 "Last-Translator: Toshihiro Makuuchi <tmac116@gmail.com>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/deviationtx/teams/73329/ja/)\n"
@@ -1530,11 +1530,11 @@ msgstr "チャンネル12は、非常停止を作動させます"
 
 #: ../../source/ch_protocols.rst:544
 msgid "Channel 13 analog aux channel #1"
-msgstr ""
+msgstr "チャンネル13はアナログAUXのチャンネル#1です"
 
 #: ../../source/ch_protocols.rst:545
 msgid "Channel 14 analog aux channel #2"
-msgstr ""
+msgstr "チャンネル14はアナログAUXチャンネル#2です"
 
 #: ../../source/ch_protocols.rst:547
 msgid ""
@@ -1546,6 +1546,13 @@ msgid ""
 "firmware must have the Analog Aux feature enabled. Mismatches betwen TX and "
 "RX settings will prevent binding.**"
 msgstr ""
+"**注: チャンネル13と14は NFE "
+"Silverwareファームウェア<https://github.com/NotFastEnuf/NFE_Silverware/>_ "
+"(およびその他のSilverwareフォーク) を使用している場合にのみ有効となります。** "
+"プロトコルの標準以外の2つの信号は「アナログ」(非バイナリ) "
+"補助チャンネルを追加するためのものです。送信機側でBayangプロトコルオプション「Analog "
+"Aux」を有効にし、SilverwareファームウェアでAnalog "
+"Aux機能を有効にする必要があります。送信機側と受信機側の設定が一致していないと、バインドが妨げられてしまいます。**"
 
 #: ../../source/ch_protocols.rst:551
 msgid "Protocol: \\*FY326"
