@@ -300,6 +300,10 @@ The following protocol options are available.
 
 **S.Port Out**: When enabled received s.port packets are echoed to the trainer port and extended voice is disabled.
 
+**Bind Mode**: The bind mode will control which channels will be connected to the receiver PWM outputs and allow to enable or disable the receivers telemetry during bind.
+
+**Version**: This will switch between FrSkyX V1.x.x and V2.1.x protocol version.
+
 For channels with failsafe set to off, the default Failsafe protocol option "Hold" commands the receiver to hold the last received channel values when the receiver enters failsafe mode.  The "NoPulse" setting causes the receiver to not send any signal on PPM outputs (Testing on X8R showed SBUS values went to minimum, but SBUS behavior is not specified by the protocol).  The "RX" setting prevents Deviation from sending failsafe settings so the receiver will use whatever failsafe values have been stored in the receiver.
 
 When S.Port Out is enabled and PPMIn is not used, received S.Port packets are sent out the trainer port.  The bit rate is 57600 for compatibility with S.Port decoders, but the signal must be inverted to connect to a standard decoder.  It can be connected directly to the input of a 3.3V ftdi adapter.
