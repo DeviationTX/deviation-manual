@@ -923,7 +923,9 @@ Deviation does not auto-detect when a trainer cord is plugged into the transmitt
 
 Protocol: USBHID
 ----------------
-The USBHID protocol will convert he transmitter into a USB joystick.  Connecting the transmitter to a PC via the USB cable will enable the transmitter to be detected as a joystick by the computer. This may be used to enable the transmitter to control any simulators that support joystick input. Some initial calibration may be necessary and is accomplished via the control panel applet of your operating system.
+The USBHID protocol converts the transmitter into a USB joystick.  When connected to a computer via a USB cable, the transmitter will be detected as a joystick. This may be used to control simulators or games that support joystick input using the transmitter. Some initial calibration may be necessary and is accomplished via the control panel applet of your operating system or your simulator/game's settings.
+
+The data update period/polling rate can be set to 125, 250, 500, or 1000 Hz in the protocol options.
 
 Protocol: SBUS
 ----------------
