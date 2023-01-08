@@ -18,7 +18,7 @@ import shlex
 
 def setup(app):
    app.add_config_value('mypdf', 0, True)
-   app.add_stylesheet("devo.css")
+   app.add_css_file("devo.css")
 
 if not tags.has("devo8") and not tags.has("devo10"):
     tags.add("devo8")
@@ -60,7 +60,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Deviation'
 copyright = u'2017, ugkg'
-author = None
+author = u'Deviation'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -10,7 +10,7 @@ import shlex
 
 def setup(app):
    app.add_config_value('mypdf', 0, True)
-   app.add_stylesheet("devo.css")
+   app.add_css_file("devo.css")
 
 
 # If extensions (or modules to document with autodoc) are in another directory,

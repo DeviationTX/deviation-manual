@@ -26,11 +26,11 @@ def setup(app):
     myapp = app
 
 def remove_from_list(app, lines):
-    startignore = re.compile(ur'^\.\. if::\s+(\S+)')
-    changeignore= re.compile(ur'^\.\. elseif::\s+(\S+)')
-    stopignore  = re.compile(ur'^\.\. endif::')
-    macro       = re.compile(ur'^\.\. macro::\s+(\S+)\s*(.*\S)?')
-    inline      = re.compile(ur'\|(\S+)\|')
+    startignore = re.compile(u'^\.\. if::\s+(\S+)')
+    changeignore= re.compile(u'^\.\. elseif::\s+(\S+)')
+    stopignore  = re.compile(u'^\.\. endif::')
+    macro       = re.compile(u'^\.\. macro::\s+(\S+)\s*(.*\S)?')
+    inline      = re.compile(u'\|(\S+)\|')
 
     def inline_repl(matchobj):
         if matchobj.group(1) in app.config.pp_macros:
@@ -101,11 +101,11 @@ def remove_from_list(app, lines):
                     # print("Found StringList: " + lines[i] + " Source: " + source)
                 del lines[i]
                 for newline in new_lines:
-		    if isinstance(lines, StringList):
+                    if isinstance(lines, StringList):
                         lines.insert(i, newline, source=source)
                     else:
                         lines.insert(i, newline)
-                    i = i + 1
+                        i = i + 1
         i = i + 1
 
 def source_read_handler(app, docname, source):
