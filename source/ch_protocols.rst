@@ -425,17 +425,19 @@ Protocol: \*Radiolink
 -------------------------
 The Radiolink protocol supports Radiolink and Dumbo receivers. |cc2500-note| |mod-install-link|
 
-The protocol supports up to 8 channels.  Default channel order is AETR.  Telemetry is supported using the Frsky telemetry layout.  The following values are supported: VOLT1, VOLT2, RSSI, LRSSI, and LQI.  Telemetry is not supported by the Dumbo protocol.
+The protocol supports up to 8 channels.  Default channel order is AETR.  Telemetry is implemented using the Frsky telemetry layout.  The following values are supported: VOLT1, VOLT2, RSSI, LRSSI, and LQI.  Telemetry is not supported by the Dumbo protocol format.
+
 * VOLT1 - Receiver battery
 * VOLT2 - Main battery
 * RSSI - Receiver RSSI
 * LRSSI - Local RSSI
+* LQI - received/expected telemetry packets (percentage)
 
 The following protocol options are available.
 
 **Format**: Receiver selection for Air, Surface, or Dumbo.
 
-**Freq-Fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Usually offset of 0 or -41 is required, but full range should be tested if there are problems with binding or range.  Default 0.
+**Freq-Fine**: Frequency offset adjustment. Range -127 to 127. Adjusts for variances betweeen CC2500 modules. Default 0.
 
 
 
