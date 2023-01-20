@@ -952,59 +952,17 @@ The serial data is not inverted so an adapter may be needed for some SBUS equipm
 Up to sixteen channels are supported.
 Data rate is 100kbps. Format is 8 data bits, even parity, two stop bits.
 
-Protocol: CRSF (Crossfire)
---------------------------
-The CRSF protocol sends Crossfire protocol serial data on the transmitter's trainer port (tip connector).  The trainer port ring is ground.  The CRSF protocol serial link runs at 400Kbps.
+Protocol: CRSF (Crossfire and ELRS)
+-----------------------------------
+The CRSF protocol sends serial data on the transmitter's trainer port (tip connector).  The trainer port ring is ground.
 On the T8SG PLUS transmitter the serial data also appears on the top pin in the JR module bay.
 To enable telemetry the serial input must be tied to serial output.  For the trainer port tie tip to ring1.
 In the T8SG module bay tie the top and bottom pins together.
 Up to sixteen channels are supported.
 
+The CRSF protocol default serial data rate at 400Kbps.  The data rate can be changed to 1.87 or 2.25 Mbps through a protocol option.  The higher rates are supported by ELRS.
+
 The CRSF configuration menus are supported and replace the normal protocol options.  Click on the protocol name to access the CRSF menus.  The exact menu options displayed will depend on the CRSF components installed.  The menu is controlled by the CRSF device.
-
-Telemetry is not available on limited memory transmitters (7e, F4, F12).
-
-*Telemetry test page*
-
-.. if:: devo8
-
-.. image:: images/devo8/ch_protocols/crsf_telem.png
-   :width: 80%
-
-The CELL voltages are labeled C1-C5.
-
-.. endif::
-.. if:: devo10
-
-The following tables show the layout of the telemetry test page display.
-
-.. cssclass:: telemtable
-
-======== ======= =========
-      Devo10
---------------------------
- RX       TX      Bat 
-======== ======= =========
-RxRSSI   TxRSSI  VBATT
-RSSI2    TxPOWER CURRENT
-RxSNR    TxSNR   CAPACITY
-RxQUAL   TxQUAL  FMODE
-PITCH    ROLL    YAW
-RFMODE
-======== ======= =========
-
-.. endif::
-
-
-Protocol: ELRS (CRSF with ELRS features)
-----------------------------------------
-The ELRS protocol is CRSF running at 1.87Mbps datarate, and with support for the ELRS info message.  Like CRSF the protocol serial data is sent on the transmitter's trainer port (tip connector).  The trainer port ring is ground.
-On the T8SG PLUS transmitter the serial data also appears on the top pin in the JR module bay.
-For proper operation the serial input must be tied to serial output.  For the trainer port tie tip to ring1.
-In the T8SG module bay tie the top and bottom pins together.
-Up to sixteen channels are supported in the mixers, but total channels sent depends on ELRS configuration.
-
-The ELRS configuration menus are supported and replace the normal protocol options.  Click on the protocol name to access the ELRS menus.  The exact menu options displayed will depend on the ELRS components installed.  The menu is controlled by the ELRS device.
 
 The Model Match feature is supported using the Deviation Fixed ID in the model page.  Currently ELRS supports fixed ids 0-63, with all other values interpreted as 255 (model match off).  Changing the ELRS TX "Model Match" option from off to on sets the fixed id (aka model id) in the RX.  See the ELRS website for more information.
 
@@ -1017,8 +975,6 @@ Telemetry is not available on limited memory transmitters (7e, F4, F12).
 .. image:: images/devo8/ch_protocols/crsf_telem.png
    :width: 80%
 
-The CELL voltages are labeled C1-C5.
-
 .. endif::
 .. if:: devo10
 
@@ -1036,8 +992,30 @@ RSSI2    TxPOWER CURRENT
 RxSNR    TxSNR   CAPACITY
 RxQUAL   TxQUAL  FMODE
 PITCH    ROLL    YAW
-RFMODE
+RFMODE   TX_FPS  BATT_REM
+RxRSSI%  TxRSSI% ALTITUDE
+RxRfPwr  TxRfPwr VERTSPD
 ======== ======= =========
+
+.. cssclass:: telemtable
+
+====  ==================
+   Unit indicators
+------------------------
+Char  Meaning
+====  ==================
+ D    dB
+ d    dBm
+ w    milliwatt
+ V    Volts
+ A    Amps
+ a    milliamp-hour (mAH)
+ R    radians
+ m    meters
+ s    meters per second
+ H    Hertz
+ %    percentage
+====  ==================
 
 .. endif::
 
