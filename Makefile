@@ -36,7 +36,7 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) -t devo8 -t devo10 source
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  html       to make standalone HTML files"
-	@echo "  pdf        to make standalone PDF files via rst2pdf"
+#	@echo "  pdf        to make standalone PDF files via rst2pdf"
 	@echo "  epub       to make an epub"
 	@echo "  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter"
 	@echo "  latexpdf   to make LaTeX files and run them through pdflatex"
@@ -116,10 +116,10 @@ pseudoxml: $(SPHINXBUILD)
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml-$(TARGET)."
 
-pdf: $(SPHINXBUILD)
-	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf-$(TARGET)
-	@echo
-	@echo "Build finished. The PDF files are in $(BUILDDIR)/pdf-$(TARGET)."
+#pdf: $(SPHINXBUILD)
+#	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf-$(TARGET)
+#	@echo
+#	@echo "Build finished. The PDF files are in $(BUILDDIR)/pdf-$(TARGET)."
 
 venv: $(VENVDIR)/bin/activate
 $(BUILDDIR)/venv/bin/activate: requirements.txt
